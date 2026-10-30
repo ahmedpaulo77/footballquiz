@@ -32,6 +32,7 @@
 npm install
 npm run dev      # http://localhost:3000
 npm run build    # نسخة الإنتاج في dist/
+npm run pages    # build + نسخ النسخة المبنية لجذر الريبو (للنشر)
 npm test         # اختبارات منطق اللعبة والتلميحات
 ```
 
@@ -54,27 +55,36 @@ npm test         # اختبارات منطق اللعبة والتلميحات
 
 ## هيكل المشروع
 
+كود المشروع كله جوه `app/`، والملفات المبنية بتتحط في جذر الريبو (`index.html` + `assets/`)
+عشان GitHub Pages يلاقيها جاهزة للنشر من البرانش.
+
 ```
 quizes/
-├── public/favicon.svg
-├── src/
-│   ├── App.jsx                 # اللاعب الحالي + بوكس الإجابة + زرار لاعب تاني
-│   ├── main.jsx
-│   ├── styles.css              # كل التصميم + الثيمات + الاستجابة
-│   ├── data/
-│   │   ├── players.js          # بنك اللاعبين (نصي فقط)
-│   │   └── profiles.js         # الأندية والزملاء والبطولات للتلميحات
-│   ├── lib/
-│   │   ├── game.js             # بناء التلميحات + اختيار اللاعب
-│   │   ├── game.test.js
-│   │   └── storage.js          # الثيم + شاشة الشرح
-│   └── components/
-│       ├── Header.jsx          # الهيدر وأزرار الشرح والثيم
-│       ├── ClueList.jsx        # التلميحات الثلاثة (ظاهرة كلها)
-│       ├── AnswerReveal.jsx    # بوكس الإجابة المخفي
-│       ├── Modal.jsx           # مودال مشترك
-│       ├── HowToPlay.jsx       # الشرح
-│       └── Avatar.jsx          # دايرة الحرف الأول (بدون صور)
+├── index.html                  # ⚙️ ملف مبني (بيتولّد من npm run pages) — متعدّلوش يدوي
+├── assets/                     # ⚙️ JS/CSS مبنيين (بيتولّدوا من npm run pages)
+├── favicon.svg                 # ⚙️ نسخة مبنية من app/public/favicon.svg
+├── app/
+│   ├── index.html              # قالب الصفحة (المصدر)
+│   ├── public/favicon.svg
+│   └── src/
+│       ├── App.jsx             # اللاعب الحالي + بوكس الإجابة + زرار لاعب تاني
+│       ├── main.jsx
+│       ├── styles.css          # كل التصميم + الثيمات + الاستجابة
+│       ├── data/
+│       │   ├── players.js      # بنك اللاعبين (نصي فقط)
+│       │   └── profiles.js     # الأندية والزملاء والبطولات للتلميحات
+│       ├── lib/
+│       │   ├── game.js         # بناء التلميحات + اختيار اللاعب
+│       │   ├── game.test.js
+│       │   └── storage.js      # الثيم + شاشة الشرح
+│       └── components/
+│           ├── Header.jsx      # الهيدر وأزرار الشرح والثيم
+│           ├── ClueList.jsx    # التلميحات الثلاثة (ظاهرة كلها)
+│           ├── AnswerReveal.jsx # بوكس الإجابة المخفي
+│           ├── Modal.jsx       # مودال مشترك
+│           ├── HowToPlay.jsx   # الشرح
+│           └── Avatar.jsx      # دايرة الحرف الأول (بدون صور)
+└── scripts/publish-pages.mjs   # بينسخ dist لجذر الريبو
 ```
 
 ---
@@ -83,7 +93,7 @@ quizes/
 
 ### لاعب جديد
 
-افتح `src/data/players.js` وضيف عنصر بنفس الشكل:
+افتح `app/src/data/players.js` وضيف عنصر بنفس الشكل:
 
 ```js
 {
@@ -101,7 +111,7 @@ quizes/
 
 ### بروفايل تلميحات
 
-افتح `src/data/profiles.js` وضيف مفتاح بنفس `id`:
+افتح `app/src/data/profiles.js` وضيف مفتاح بنفس `id`:
 
 ```js
 'player-id': {
@@ -122,21 +132,31 @@ quizes/
 
 ## النشر على GitHub Pages
 
-المشروع جاهز للنشر تلقائيًا على GitHub Pages من خلال GitHub Actions
-(`.github/workflows/deploy.yml`).
+الموقع: **https://ahmedpaulo77.github.io/footballquiz/**
 
-1. اعمل ريبو جديد على GitHub (يفضّل **Public** عشان Pages يبقى مجاني).
-2. من داخل المشروع:
+إعداد Pages عندنا هو **Deploy from a branch → `main` / `(root)`**، يعني GitHub بياخد
+الملفات اللي في جذر الريبو زي ما هي. عشان كده النسخة المبنية (`index.html` + `assets/`)
+بتتحط في الجذر، أم الكود المصدري فمكانه في `app/`.
+
+### بعد أي تعديل
 
 ```bash
-git remote add origin https://github.com/USERNAME/REPO.git
-git push -u origin main
+npm run pages          # بناء + نسخ الملفات المبنية لجذر الريبو
+git add .
+git commit -m "update"
+git push
 ```
 
-3. افتح الريبو → **Settings** → **Pages** → **Build and deployment** →
-   اختار **Source: GitHub Actions**.
-4. أي push على `main` هيبني المشروع ويشغّل الاختبارات وينشر النسخة الجديدة
-   على `https://USERNAME.github.io/REPO/`.
+GitHub بيعيد نشر الموقع تلقائيًا بعد الـ push (خلال دقيقة تقريبًا).
+
+> **مهم:** متعدّلش `index.html` أو `assets/` اللي في الجذر يدويًا — دول ناتج
+> `npm run pages` وبيتولّدوا من جديد في كل مرة.
+
+### لو حبيت تستخدم GitHub Actions بدل النشر من البرانش
+
+1. **Settings** → **Pages** → **Build and deployment** → **Source** = **GitHub Actions**.
+2. شيل `workflow_dispatch` من `.github/workflows/deploy.yml` وخلّي الـ trigger
+   `push: branches: [main]` (أو شغّله يدويًا من تبويب Actions).
 
 > المسارات في `vite.config.js` نسبية (`base: './'`)، فالمشروع بيشتغل على GitHub Pages
 > تحت أي اسم ريبو من غير تعديل.

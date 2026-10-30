@@ -8,6 +8,7 @@
     "dev": "vite",
     "start": "vite",
     "build": "vite build",
+    "pages": "vite build && node scripts/publish-pages.mjs",
     "preview": "vite preview",
     "test": "vitest run"
   },

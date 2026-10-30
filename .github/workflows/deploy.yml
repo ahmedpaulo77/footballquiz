@@ -1,8 +1,13 @@
-name: Deploy to GitHub Pages
+name: Deploy to GitHub Pages (Actions)
 
+# ملاحظة مهمة:
+# الموقع حاليًا بينشر من «Deploy from a branch → main / (root)»،
+# والنسخة المبنية بتتحط في جذر الريبو بأمر: npm run pages
+#
+# الـ workflow ده بيشتغل يدويًا بس، وبيستخدمه لما تحوّل
+# Settings → Pages → Source إلى «GitHub Actions».
+# ساعتها النشر هيبقى تلقائي مع كل push (شيل السطرين تحت وأضف push).
 on:
-  push:
-    branches: [main]
   workflow_dispatch:
 
 permissions:
