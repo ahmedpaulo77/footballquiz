@@ -120,6 +120,29 @@ quizes/
 
 ---
 
+## النشر على GitHub Pages
+
+المشروع جاهز للنشر تلقائيًا على GitHub Pages من خلال GitHub Actions
+(`.github/workflows/deploy.yml`).
+
+1. اعمل ريبو جديد على GitHub (يفضّل **Public** عشان Pages يبقى مجاني).
+2. من داخل المشروع:
+
+```bash
+git remote add origin https://github.com/USERNAME/REPO.git
+git push -u origin main
+```
+
+3. افتح الريبو → **Settings** → **Pages** → **Build and deployment** →
+   اختار **Source: GitHub Actions**.
+4. أي push على `main` هيبني المشروع ويشغّل الاختبارات وينشر النسخة الجديدة
+   على `https://USERNAME.github.io/REPO/`.
+
+> المسارات في `vite.config.js` نسبية (`base: './'`)، فالمشروع بيشتغل على GitHub Pages
+> تحت أي اسم ريبو من غير تعديل.
+
+---
+
 ## أفكار الخطوة الجاية
 
 - [ ] زرار «انسخ التلميحات» للمقدّم (نشر في جروب واتساب)
