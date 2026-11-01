@@ -546,6 +546,12 @@ button:focus-visible {
   line-height: 1.35;
 }
 
+/* الاسم لوحده هو نجم البوكس بعد ما شيلنا الدايرة جنبه */
+.answer-card.is-revealed .answer-name {
+  font-size: 21px;
+  line-height: 1.3;
+}
+
 .answer-meta {
   font-size: 11.5px;
   font-weight: 700;

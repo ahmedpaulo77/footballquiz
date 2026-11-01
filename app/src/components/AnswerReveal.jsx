@@ -1,5 +1,3 @@
-import Avatar from './Avatar.jsx';
-
 /**
  * بوكس الإجابة — مقفول افتراضيًا، والضغط عليه بيوري الإجابة،
  * والضغط تاني بيخفيها. المقدّم هو اللي بيتحكم فيه.
@@ -26,7 +24,6 @@ export default function AnswerReveal({
 
       {revealed ? (
         <span className="answer-body">
-          <Avatar name={answer} size={48} />
           <span className="answer-text">
             <span className="answer-name" dir="auto">
               {answer}

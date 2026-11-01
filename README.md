@@ -93,8 +93,7 @@ quizes/
 │           ├── PathList.jsx    # مسار الأندية
 │           ├── AnswerReveal.jsx # بوكس الإجابة المخفي
 │           ├── Modal.jsx       # مودال مشترك
-│           ├── HowToPlay.jsx   # الشرح
-│           └── Avatar.jsx      # دايرة الحرف الأول (بدون صور)
+│           └── HowToPlay.jsx   # الشرح
 └── scripts/publish-pages.mjs   # بينسخ dist لجذر الريبو
 ```
 

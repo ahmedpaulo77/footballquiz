@@ -71,6 +71,16 @@ describe('لعبة «المسار»', () => {
       for (const club of question.clubs) {
         expect(club.trim(), question.id).not.toBe('');
         expect(club, question.id).not.toMatch(/\*/);
+        expect(club, question.id).not.toMatch(/\(loan/i);
+        expect(club.trim(), question.id).toBe(club);
+      }
+    }
+  });
+
+  it('مفيش نادي مكرر ورا نفسه في نفس المسار', () => {
+    for (const question of quiz.questions) {
+      for (let i = 1; i < question.clubs.length; i += 1) {
+        expect(question.clubs[i], `${question.id}[${i}]`).not.toBe(question.clubs[i - 1]);
       }
     }
   });
