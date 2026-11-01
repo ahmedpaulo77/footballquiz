@@ -19,7 +19,7 @@ export default function AnswerReveal({
     >
       <span className="answer-head">
         <span className="answer-eyebrow">{revealed ? 'الإجابة' : 'الإجابة مخفية'}</span>
-        <span className="answer-toggle">{revealed ? 'إخفاء 🙈' : 'اعرض 👁️'}</span>
+        <span className="answer-toggle">{revealed ? 'إخفاء' : 'اعرض'}</span>
       </span>
 
       {revealed ? (
