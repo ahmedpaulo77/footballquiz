@@ -1,10 +1,16 @@
 import Avatar from './Avatar.jsx';
 
 /**
- * بوكس الإجابة — مغلق افتراضيًا، والضغط عليه بيوري اسم اللاعب،
- * والضغط تاني بيخفيه. المقدّم هو اللي بيتحكم فيه.
+ * بوكس الإجابة — مقفول افتراضيًا، والضغط عليه بيوري الإجابة،
+ * والضغط تاني بيخفيها. المقدّم هو اللي بيتحكم فيه.
  */
-export default function AnswerReveal({ player, revealed, onToggle }) {
+export default function AnswerReveal({
+  answer,
+  meta = [],
+  placeholder = 'اضغط لعرض الإجابة',
+  revealed,
+  onToggle,
+}) {
   return (
     <button
       type="button"
@@ -14,25 +20,22 @@ export default function AnswerReveal({ player, revealed, onToggle }) {
       title={revealed ? 'اضغط لإخفاء الإجابة' : 'اضغط لعرض الإجابة'}
     >
       <span className="answer-head">
-        <span className="answer-eyebrow">
-          {revealed ? 'الإجابة' : 'الإجابة مخفية'}
-        </span>
-        <span className="answer-toggle">
-          {revealed ? 'إخفاء 🙈' : 'اعرض 👁️'}
-        </span>
+        <span className="answer-eyebrow">{revealed ? 'الإجابة' : 'الإجابة مخفية'}</span>
+        <span className="answer-toggle">{revealed ? 'إخفاء 🙈' : 'اعرض 👁️'}</span>
       </span>
 
       {revealed ? (
         <span className="answer-body">
-          <Avatar name={player.name} size={48} />
+          <Avatar name={answer} size={48} />
           <span className="answer-text">
-            <span className="answer-name">{player.name}</span>
-            <span className="answer-meta">
-              {player.nationality} · {player.club}
+            <span className="answer-name" dir="auto">
+              {answer}
             </span>
-            <span className="answer-sub">
-              {player.position} · {player.league} · {player.age} سنة
-            </span>
+            {meta.map((line) => (
+              <span className="answer-meta" key={line} dir="auto">
+                {line}
+              </span>
+            ))}
           </span>
         </span>
       ) : (
@@ -41,8 +44,8 @@ export default function AnswerReveal({ player, revealed, onToggle }) {
             🔒
           </span>
           <span className="answer-text">
-            <span className="answer-name">اضغط لعرض اسم اللاعب</span>
-            <span className="answer-meta">واضغط تاني عشان تخفيه</span>
+            <span className="answer-name">{placeholder}</span>
+            <span className="answer-meta">واضغط تاني عشان تخفيها</span>
           </span>
         </span>
       )}

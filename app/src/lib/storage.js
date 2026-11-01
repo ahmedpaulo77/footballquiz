@@ -1,5 +1,6 @@
 const KEY_THEME = 'wlp:theme';
 const KEY_HELP = 'wlp:help:seen';
+const KEY_QUIZ = 'wlp:quiz';
 
 /** مفاتيح النسخ القديمة (التحدي اليومي/الإحصائيات) — بننضفها. */
 const LEGACY_KEYS = [
@@ -52,6 +53,15 @@ export function hasSeenHelp() {
 
 export function markHelpSeen() {
   set(KEY_HELP, '1');
+}
+
+/** آخر لعبة اختارها المقدّم. */
+export function loadQuizId() {
+  return get(KEY_QUIZ);
+}
+
+export function saveQuizId(id) {
+  set(KEY_QUIZ, id);
 }
 
 /** شيل بيانات النسخ القديمة — مبقاش فيه إحصائيات ولا تحدي يومي. */

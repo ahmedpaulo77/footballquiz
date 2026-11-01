@@ -1,4 +1,4 @@
-export default function Header({ theme, onToggleTheme, onOpenHelp }) {
+export default function Header({ theme, subtitle, onToggleTheme, onOpenHelp }) {
   return (
     <header className="topbar">
       <div className="brand">
@@ -13,7 +13,7 @@ export default function Header({ theme, onToggleTheme, onOpenHelp }) {
         </span>
         <div className="brand-text">
           <h1>من أنا؟</h1>
-          <p>لعبة تقديم — ٣ تلميحات لكل لاعب</p>
+          <p>{subtitle}</p>
         </div>
       </div>
 
