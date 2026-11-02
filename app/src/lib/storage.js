@@ -1,6 +1,7 @@
 const KEY_THEME = 'wlp:theme';
 const KEY_HELP = 'wlp:help:seen';
 const KEY_QUIZ = 'wlp:quiz';
+const KEY_LANG = 'wlp:lang';
 
 /** مفاتيح النسخ القديمة (التحدي اليومي/الإحصائيات) — بننضفها. */
 const LEGACY_KEYS = [
@@ -62,6 +63,15 @@ export function loadQuizId() {
 
 export function saveQuizId(id) {
   set(KEY_QUIZ, id);
+}
+
+/** لغة الموقع: عربي (الافتراضي) أو إنجليزي. */
+export function loadLang() {
+  return get(KEY_LANG) === 'en' ? 'en' : 'ar';
+}
+
+export function saveLang(lang) {
+  set(KEY_LANG, lang);
 }
 
 /** شيل بيانات النسخ القديمة — مبقاش فيه إحصائيات ولا تحدي يومي. */

@@ -1,1685 +1,1430 @@
 {
   "id": "who-am-i",
-  "title": "من أنا؟",
+  "title": {
+    "ar": "من أنا؟",
+    "en": "Who Am I?"
+  },
   "emoji": "⚽",
-  "subtitle": "٣ تلميحات لكل لاعب كورة",
-  "answerLabel": "اسم اللاعب",
-  "nextLabel": "لاعب تاني",
+  "subtitle": {
+    "ar": "من 5 لـ 9 تلميحات لكل لاعب كورة",
+    "en": "5 to 9 clues for every footballer"
+  },
+  "answerLabel": {
+    "ar": "اسم اللاعب",
+    "en": "Player name"
+  },
+  "nextLabel": {
+    "ar": "لاعب تاني",
+    "en": "Another player"
+  },
   "kind": "clues",
   "order": 1,
   "questions": [
     {
-      "id": "messi",
-      "answer": "ليونيل ميسي",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
+      "id": "yarmolenko",
+      "answer": {
+        "ar": "أندريه يارمولينكو",
+        "en": "Andriy Yarmolenko"
+      },
       "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2004 مع روزاريو سنترال.",
-        "بعدها لعبت في: برشلونة · باريس سان جيرمان · إنتر ميامي. وكان أبرز زمايلي: لويس سواريز · نيمار · أندريس إنييستا.",
-        "أنا مهاجم من الأرجنتين، وعندي 39 سنة. من أبرز إنجازاتي: كأس العالم 2022 · ٨ كرات ذهبية · ٤ دوري أبطال أوروبا. الناس بتلقبني بـ«البرغوث». وأشهر رقم قميص لبسته هو 10. واسمي بيبدأ بحرف «ل»."
-      ],
-      "meta": [
-        "الأرجنتين · برشلونة",
-        "مهاجم · الدوري الإسباني · 39 سنة"
+        {
+          "ar": "لعبت في اثنين من الدوريات الخمسة الكبرى: إنجلترا وألمانيا.",
+          "en": "I played in two of Europe's top five leagues: England and Germany."
+        },
+        {
+          "ar": "كسبت جائزة أفضل لاعب في بلدي أربع مرات بين 2013 و2017.",
+          "en": "I was named Player of the Year in my country four times between 2013 and 2017."
+        },
+        {
+          "ar": "كسبت الدوري في بلدي ثلاث مرات، والكأس مرتين، والسوبر ثلاث مرات — ودي كل بطولاتي.",
+          "en": "I won my country's league three times, the cup twice and the super cup three times — those are all my trophies."
+        },
+        {
+          "ar": "كنت اللاعب صاحب أكبر عدد من التمريرات الحاسمة في الدوري الأوروبي موسم 2014-15.",
+          "en": "I was the player with the most assists in the Europa League in 2014-15."
+        },
+        {
+          "ar": "شاركت في ثلاث نسخ من البطولة القارية، وعمري ما لعبت كأس عالم — بلدي لعبت كأس العالم مرة واحدة بس، وكانت 2006.",
+          "en": "I played in three editions of the continental championship but never played at a World Cup — my country reached the World Cup only once, in 2006."
+        },
+        {
+          "ar": "لعبت مع منتخب بلدي 116 مباراة وسجلت 46 هدف.",
+          "en": "I earned 116 caps for my national team and scored 46 goals."
+        },
+        {
+          "ar": "لعبت مع سفيان رحيمي، ودوماغوي فيدا، ويونس بلهندة، وميكولينكو، وزاباليتا، ونصري، وجاك ويلشير، وديكلان رايس.",
+          "en": "I played alongside Soufiane Rahimi, Domagoj Vida, Younes Belhanda, Mykolenko, Zabaleta, Nasri, Jack Wilshere and Declan Rice."
+        }
       ]
     },
     {
-      "id": "ronaldo",
-      "answer": "كريستيانو رونالدو",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
+      "id": "quaresma",
+      "answer": {
+        "ar": "ريكاردو كواريسما",
+        "en": "Ricardo Quaresma"
+      },
       "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2002 مع سبورتينج لشبونة.",
-        "بعدها لعبت في: مانشستر يونايتد · ريال مدريد · يوفنتوس · النصر. وكان أبرز زمايلي: واين روني · كريم بنزيمة · جورجيو كيليني.",
-        "أنا مهاجم من البرتغال، وعندي 41 سنة. من أبرز إنجازاتي: ٥ دوري أبطال أوروبا · ٥ كرات ذهبية · بطولة أمم أوروبا 2016. الناس بتلقبني بـ«الدون». وأشهر رقم قميص لبسته هو 7. واسمي بيبدأ بحرف «ك»."
-      ],
-      "meta": [
-        "البرتغال · ريال مدريد",
-        "مهاجم · الدوري الإسباني · 41 سنة"
+        {
+          "ar": "لعبت في ثلاثة من الدوريات الخمسة الكبرى: إنجلترا وإسبانيا وإيطاليا.",
+          "en": "I played in three of Europe's top five leagues: England, Spain and Italy."
+        },
+        {
+          "ar": "لعبت مع كاريوس، وبابل، وكاغاوا، ودييغو ريبياس، وإبراهيموفيتش، وديكو، ورونالدينيو، وماريو جاردل، وأبوبكر، وروبن نيفيز، وجوتي.",
+          "en": "I played alongside Karius, Babel, Kagawa, Diego Ribas, Ibrahimović, Deco, Ronaldinho, Mário Jardel, Aboubakar, Rúben Neves and Guti."
+        },
+        {
+          "ar": "كسبت الدوري البرتغالي مع ناديين مختلفين، والدوري الإيطالي مرة، والتركي مرتين، وكأس الإمارات مرة واحدة سنة 2013 مع أهلي دبي.",
+          "en": "I won the Portuguese league with two different clubs, the Italian league once, the Turkish league twice, and the UAE Cup once in 2013 with Al Ahli Dubai."
+        },
+        {
+          "ar": "كسبت جائزة أفضل لاعب في الدوري البرتغالي سنة 2006.",
+          "en": "I was named the best player in the Portuguese league in 2006."
+        },
+        {
+          "ar": "لعبت مع كل الفئات السنية لمنتخبي، وكسبت البطولة القارية — وهي البطولة الوحيدة في تاريخ منتخبي.",
+          "en": "I played for every youth level of my national team and won the continental championship — the only major title in my country's history."
+        },
+        {
+          "ar": "رغم إن مسيرتي بدأت من أول الألفينات، أول مرة ألعب كأس العالم كانت سنة 2018.",
+          "en": "Even though my career started in the early 2000s, I played my first World Cup only in 2018."
+        }
       ]
     },
     {
-      "id": "salah",
-      "answer": "محمد صلاح",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
+      "id": "matias-fernandez",
+      "answer": {
+        "ar": "ماتياس فيرنانديز",
+        "en": "Matías Fernández"
+      },
       "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2010 مع المقاولون العرب.",
-        "بعدها لعبت في: بازل · تشيلسي · فيورنتينا · روما · ليفربول. وكان أبرز زمايلي: ساديو ماني · روبرتو فيرمينو · فيرجيل فان دايك.",
-        "أنا مهاجم من مصر، وعندي 34 سنة. من أبرز إنجازاتي: دوري أبطال أوروبا 2019 · الدوري الإنجليزي 2020 · ٣ أحذية ذهبية. الناس بتلقبني بـ«الملك المصري». وأشهر رقم قميص لبسته هو 11. واسمي بيبدأ بحرف «م»."
-      ],
-      "meta": [
-        "مصر · ليفربول",
-        "مهاجم · الدوري الإنجليزي · 34 سنة"
+        {
+          "ar": "بدأت مسيرتي في دوري بلدي، ولعبت في اثنين من الدوريات الخمسة الكبرى (إيطاليا وإسبانيا) بالإضافة إلى البرتغال.",
+          "en": "I started in my country's league, then played in two of the top five leagues (Italy and Spain) as well as Portugal."
+        },
+        {
+          "ar": "لعبت مع روبرت بيريز، وفورلان، وهوندا، وديولوفيو، وريبيتش، وروسي، وروي باتريسيو.",
+          "en": "I played alongside Robert Pirès, Forlán, Honda, Deulofeu, Rebić, Rossi and Rui Patrício."
+        },
+        {
+          "ar": "كنت في فريق بطولة كوبا أمريكا 2006، ولعبت مع منتخب بلدي 74 مباراة وسجلت 15 هدف.",
+          "en": "I was named in the Copa América 2006 Team of the Tournament, and I earned 74 caps for my country, scoring 15 goals."
+        },
+        {
+          "ar": "كسبت البطولة القارية مرة واحدة بس، والإصابة منعتني من المشاركة في النسخة اللي بعدها — واللي كسبها منتخب بلدي كمان أمام نفس المنافس.",
+          "en": "I won the continental championship only once, and an injury kept me out of the next edition — which my country also won against the same opponent."
+        },
+        {
+          "ar": "كسبت السوبر الإيطالي سنة 2016، ووصلت لنهائي كأس إيطاليا 2014 ونهائي كأس البرتغال، وكوبا سود أمريكانا 2006 مع كولو كولو.",
+          "en": "I won the Italian Super Cup in 2016, reached the Coppa Italia final in 2014 and the Portuguese Cup final, and played the 2006 Copa Sudamericana with Colo-Colo."
+        },
+        {
+          "ar": "كسبت جائزة أفضل لاعب في بلدي سنة 2006.",
+          "en": "I was named the best player in my country in 2006."
+        },
+        {
+          "ar": "شاركت في البطولة القارية ثلاث مرات، وكأس العالم مرة واحدة سنة 2010، والبطولة القارية اللي كسبتها كانت الأولى في تاريخ بلدي.",
+          "en": "I played in the continental championship three times and in the World Cup once, in 2010. The continental title I won was the first in my country's history."
+        },
+        {
+          "ar": "سجلت هدف أيقوني في مرمى إيفرتون في الدوري الأوروبي سنة 2012.",
+          "en": "I scored an iconic goal against Everton in the Europa League in 2012."
+        }
       ]
     },
     {
-      "id": "mbappe",
-      "answer": "كيليان مبابي",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
+      "id": "zokora",
+      "answer": {
+        "ar": "ديدييه زوكورا",
+        "en": "Didier Zokora"
+      },
       "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2015 مع موناكو.",
-        "بعدها لعبت في: باريس سان جيرمان · ريال مدريد. وكان أبرز زمايلي: نيمار · ليونيل ميسي · كريم بنزيمة.",
-        "أنا مهاجم من فرنسا، وعندي 27 سنة. من أبرز إنجازاتي: كأس العالم 2018 · ٥ ألقاب دوري فرنسي · هداف كأس العالم 2022. الناس بتلقبني بـ«السلحفاة». وأشهر رقم قميص لبسته هو 9. واسمي بيبدأ بحرف «ك»."
-      ],
-      "meta": [
-        "فرنسا · ريال مدريد",
-        "مهاجم · الدوري الإسباني · 27 سنة"
+        {
+          "ar": "بدأت مسيرتي في دوري بلدي، وبعدها رحت الدوري البلجيكي، ولعبت في ثلاثة من الدوريات الخمسة الكبرى (إنجلترا وفرنسا وإسبانيا).",
+          "en": "I started in my country's league, then moved to Belgium, and played in three of the top five leagues (England, France and Spain)."
+        },
+        {
+          "ar": "كنت واحد من الجيل الذهبي لبلدي، ووصلنا كأس العالم لأول مرة، وفي نفس السنة وصلنا نهائي البطولة القارية بس خسرنا بركلات الترجيح.",
+          "en": "I was part of my country's golden generation. We reached the World Cup for the first time, and the same year we reached the continental final but lost on penalties."
+        },
+        {
+          "ar": "شاركت في البطولة القارية ست مرات وكنت وصيف مرتين، وشاركت في ثلاث كؤوس عالم بس عمري ما عدّيت دور المجموعات.",
+          "en": "I played in the continental championship six times and finished runner-up twice, and I played in three World Cups but never got past the group stage."
+        },
+        {
+          "ar": "كسبت كأس إسبانيا مرة، وكأس الرابطة الإنجليزية مرة، وكنت في فريق العام الأفريقي مرتين 2005 و2006، ولعبت 123 مباراة وسجلت هدف واحد.",
+          "en": "I won the Spanish Cup once and the English League Cup once, was in the CAF Team of the Year twice (2005 and 2006), and earned 123 caps, scoring one goal."
+        },
+        {
+          "ar": "لعبت مع بافيتيمبي جوميس، وبرباتوف، ومودريتش، وراكيتيتش، ونيغريدو، ومالودا.",
+          "en": "I played alongside Bafétimbi Gomis, Berbatov, Modrić, Rakitić, Negredo and Malouda."
+        },
+        {
+          "ar": "ليا واقعة شهيرة في الدوري التركي سنة 2012، لما إيمري رفض يسلّم عليّا بسبب إني أسود، وفي الماتش ضربته.",
+          "en": "I was involved in a famous incident in the Turkish league in 2012, when Emre refused to shake my hand because I am Black — and in the match I hit him back."
+        }
       ]
     },
     {
-      "id": "haaland",
-      "answer": "إيرلينج هالاند",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
+      "id": "michel-bastos",
+      "answer": {
+        "ar": "ميشيل باستوس",
+        "en": "Michel Bastos"
+      },
       "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2016 مع برينه.",
-        "بعدها لعبت في: مولده · ريد بُل سالزبورغ · بوروسيا دورتموند · مانشستر سيتي. وكان أبرز زمايلي: كيفن دي بروين · فيل فودين · مارتن أوديغارد.",
-        "أنا مهاجم من النرويج، وعندي 26 سنة. من أبرز إنجازاتي: دوري أبطال أوروبا 2023 · ٢ لقب إنجليزي · الحذاء الذهبي الأوروبي. الناس بتلقبني بـ«الروبوت». وأشهر رقم قميص لبسته هو 9. واسمي بيبدأ بحرف «إ»."
-      ],
-      "meta": [
-        "النرويج · مانشستر سيتي",
-        "مهاجم · الدوري الإنجليزي · 26 سنة"
+        {
+          "ar": "لعبت في ثلاثة من الدوريات الخمسة الكبرى: اليونان وفرنسا وإيطاليا.",
+          "en": "I played in three of the top five leagues: Greece, France and Italy."
+        },
+        {
+          "ar": "لعبت مع باتريك كلايفرت، وهازارد، ولوفري، وبوكي، وكولاسيناك، وجيان، ومايكون، وغانسو.",
+          "en": "I played alongside Patrick Kluivert, Hazard, Lovren, Pukki, Kolašinac, Gyan, Maicon and Ganso."
+        },
+        {
+          "ar": "كسبت كأس فرنسا سنة 2012، وكنت في فريق الموسم في الدوري الفرنسي سنة 2009.",
+          "en": "I won the French Cup in 2012 and was named in the Ligue 1 Team of the Season in 2009."
+        },
+        {
+          "ar": "رغم إني كنت بلعب جناح، شاركت في بطولة واحدة بس مع منتخب بلدي، وكنت الظهير الأيسر الأساسي.",
+          "en": "Even though I was a winger, I played in only one tournament with my national team — as the first-choice left-back."
+        },
+        {
+          "ar": "لعبت مع منتخب بلدي 10 مباريات وسجلت هدف واحد.",
+          "en": "I earned 10 caps for my country and scored one goal."
+        },
+        {
+          "ar": "سجلت 86 هدف في 433 مباراة مع الأندية.",
+          "en": "I scored 86 goals in 433 appearances for my clubs."
+        }
       ]
     },
     {
-      "id": "neymar",
-      "answer": "نيمار",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
+      "id": "abdelkader-keita",
+      "answer": {
+        "ar": "عبد القادر كيتا",
+        "en": "Abdelkader Keïta"
+      },
       "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2009 مع سانتوس.",
-        "بعدها لعبت في: برشلونة · باريس سان جيرمان · الهلال. وكان أبرز زمايلي: ليونيل ميسي · لويس سواريز · كيليان مبابي.",
-        "أنا مهاجم من البرازيل، وعندي 34 سنة. من أبرز إنجازاتي: دوري أبطال أوروبا 2015 · ٤ ألقاب دوري فرنسي · ذهبية أولمبياد 2016. وأشهر رقم قميص لبسته هو 10. واسمي بيبدأ بحرف «ن»."
-      ],
-      "meta": [
-        "البرازيل · برشلونة",
-        "مهاجم · الدوري الإسباني · 34 سنة"
+        {
+          "ar": "لعبت في واحد من الدوريات الخمسة الكبرى (فرنسا)، ولعبت في الدوري التركي.",
+          "en": "I played in one of the top five leagues (France) and also in the Turkish league."
+        },
+        {
+          "ar": "لعبت مع مامادو نيانغ، وميشيل باستوس، وديبوشي، وليشتشتاينر، ولوريس، وبيانيتش، وأردا توران.",
+          "en": "I played alongside Mamadou Niang, Michel Bastos, Debuchy, Lichtsteiner, Lloris, Pjanić and Arda Turan."
+        },
+        {
+          "ar": "كسبت الثنائية (الدوري والكأس) في فرنسا موسم 2007-08، والدوري القطري سنة 2004، ودوري أبطال آسيا 2011، والدوري الإماراتي 2002، وكأس الأمم الأفريقية 99.",
+          "en": "I won the double (league and cup) in France in 2007-08, the Qatar Stars League in 2004, the AFC Champions League in 2011, the UAE league in 2002, and the Africa Cup of Nations in 1999."
+        },
+        {
+          "ar": "كنت في الجيل الذهبي لمنتخبي، وساعدت بلدي أول مرة في كأس العالم 2006، ولعبت في 2010. شاركت في ثلاث بطولات قارية وكنت وصيف مرة.",
+          "en": "I was part of my national team's golden generation. I helped my country reach the World Cup for the first time in 2006 and played in 2010. I played three continental tournaments and finished runner-up once."
+        },
+        {
+          "ar": "كنت في فريق الموسم في الدوري الفرنسي سنة 2007.",
+          "en": "I was named in the Ligue 1 Team of the Season in 2007."
+        },
+        {
+          "ar": "سجلت هدف دولي واحد بس، وكان أمام بطل أفريقيا 2008 في نصف النهائي.",
+          "en": "I scored only one international goal — against the 2008 Africa Cup of Nations champions in the semi-final."
+        },
+        {
+          "ar": "لعبت 72 مباراة وسجلت 11 هدف مع المنتخب.",
+          "en": "I earned 72 caps and scored 11 goals for my country."
+        }
       ]
     },
     {
-      "id": "vinicius",
-      "answer": "فينيسيوس جونيور",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
+      "id": "nakamura",
+      "answer": {
+        "ar": "شونسوكي ناكامورا",
+        "en": "Shunsuke Nakamura"
+      },
       "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2017 مع فلامينجو.",
-        "بعدها لعبت في: ريال مدريد. وكان أبرز زمايلي: كريم بنزيمة · جود بيلينجهام · رودريجو.",
-        "أنا مهاجم من البرازيل، وعندي 26 سنة. من أبرز إنجازاتي: دوري أبطال أوروبا 2022 و2024 · ٣ ألقاب دوري إسباني. وأشهر رقم قميص لبسته هو 7. واسمي بيبدأ بحرف «ف»."
-      ],
-      "meta": [
-        "البرازيل · ريال مدريد",
-        "مهاجم · الدوري الإسباني · 26 سنة"
+        {
+          "ar": "لعبت في اثنين من الدوريات الخمسة الكبرى (إيطاليا وإسبانيا)، بس معظم مسيرتي كانت في اسكتلندا وبلدي.",
+          "en": "I played in two of the top five leagues (Italy and Spain), but most of my career was in Scotland and my home country."
+        },
+        {
+          "ar": "شاركت مع بلدي في كأس العالم للشباب 97 وأولمبياد 2000، وشاركت مع الفريق الأول سنة 98 وسجلت 24 هدف.",
+          "en": "I played for my country at the 1997 World Youth Championship and the 2000 Olympics, and broke into the senior team in 1998, scoring 24 goals."
+        },
+        {
+          "ar": "اعتزلت في بلدي سنة 2022 وعندي 44 سنة.",
+          "en": "I retired in my home country in 2022 at the age of 44."
+        },
+        {
+          "ar": "سجلت في فرنسا في كأس القارات 2003، وأمام البرازيل في كأس القارات 2005، وأمام أستراليا في كأس العالم 2006 في الماتش اللي خسرناه 3-1.",
+          "en": "I scored in France at the 2003 Confederations Cup, against Brazil at the 2005 Confederations Cup, and against Australia at the 2006 World Cup in the match we lost 3-1."
+        },
+        {
+          "ar": "كسبت الدوري الاسكتلندي ثلاث مرات والكأس مرة، وكسبت جائزة أفضل لاعب في بلدي سنة 2000 و2013، وأفضل لاعب في اسكتلندا 2006-07.",
+          "en": "I won the Scottish league three times and the Scottish Cup once, was named Japanese Player of the Year in 2000 and 2013, and Scottish Player of the Year in 2006-07."
+        },
+        {
+          "ar": "شاركت في ثلاث بطولات قارية وكسبت اثنتين، وشاركت في كأسين عالم ونسختين من كأس القارات والأولمبياد.",
+          "en": "I played in three continental championships and won two, plus two World Cups, two Confederations Cups and the Olympics."
+        },
+        {
+          "ar": "لعبت مع هنريك لارسون، وغريفيسن، وروي كين، وبيلامي، وهنري كامارا، وكاميني، وأوزفالدو.",
+          "en": "I played alongside Henrik Larsson, Gravesen, Roy Keane, Bellamy, Henri Camara, Kameni and Osvaldo."
+        },
+        {
+          "ar": "أنا واحد من أفضل مسددي الكرات الثابتة في تاريخ قارتي، وكنت رقم 10 في منتخبي زي كابتن ماجد.",
+          "en": "I am one of the best free-kick takers in my continent's history, and I wore the number 10 for my country — just like Captain Tsubasa."
+        }
       ]
     },
     {
-      "id": "bellingham",
-      "answer": "جود بيلينجهام",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
+      "id": "alvaro-recoba",
+      "answer": {
+        "ar": "ألفارو ريكوبا",
+        "en": "Álvaro Recoba"
+      },
       "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2019 مع بيرمنجهام.",
-        "بعدها لعبت في: بوروسيا دورتموند · ريال مدريد. وكان أبرز زمايلي: ماركو رويس · فينيسيوس جونيور · كيليان مبابي.",
-        "أنا وسط من إنجلترا، وعندي 23 سنة. من أبرز إنجازاتي: دوري أبطال أوروبا 2024 · الدوري الإسباني 2024 · أفضل لاعب شاب 2023. وأشهر رقم قميص لبسته هو 5. واسمي بيبدأ بحرف «ج»."
-      ],
-      "meta": [
-        "إنجلترا · ريال مدريد",
-        "وسط · الدوري الإسباني · 23 سنة"
+        {
+          "ar": "بدأت في بلدي، وبعدها لعبت 11 سنة مع نادي واحد في إيطاليا، وطلعت منهم إعارة مرتين في إيطاليا، ورحت اليونان ورجعت بلدي.",
+          "en": "I started in my country, then spent 11 years with one club in Italy. I was loaned out twice within Italy, then went to Greece and returned home."
+        },
+        {
+          "ar": "كسبت الدوري الإيطالي مرتين، والكأس مرتين، والسوبر مرتين، وكأس الاتحاد الأوروبي 98.",
+          "en": "I won the Italian league twice, the Coppa Italia twice, the Italian Super Cup twice, and the UEFA Cup in 1998."
+        },
+        {
+          "ar": "شاركت في البطولة القارية مرتين وعمري ما كسبتها، وآخرهم 2007. النسخة اللي بعدها كسبها منتخب بلدي، ولعبت كأس عالم وكأس قارات مرة.",
+          "en": "I played in the continental championship twice and never won it — the last time in 2007. The next edition was won by my country. I also played one World Cup and one Confederations Cup."
+        },
+        {
+          "ar": "لعبت مع المنتخب 69 مباراة وسجلت 11 هدف.",
+          "en": "I earned 69 caps and scored 11 goals for my country."
+        },
+        {
+          "ar": "أنا حاليًا مدرب لفريق ناشئين في بلدي.",
+          "en": "I am currently a youth-team coach in my country."
+        },
+        {
+          "ar": "لعبت مع فييري، وكوردوبا، وإبراهيموفيتش.",
+          "en": "I played alongside Vieri, Córdoba and Ibrahimović."
+        }
       ]
     },
     {
-      "id": "rodri",
-      "answer": "رودري",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
+      "id": "michu",
+      "answer": {
+        "ar": "ميتشو",
+        "en": "Michu"
+      },
       "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2015 مع فياريال.",
-        "بعدها لعبت في: أتلتيكو مدريد · مانشستر سيتي. وكان أبرز زمايلي: كيفن دي بروين · إيرلينج هالاند · برناردو سيلفا.",
-        "أنا وسط من إسبانيا، وعندي 30 سنة. من أبرز إنجازاتي: دوري أبطال أوروبا 2023 · ٤ ألقاب إنجليزي · الكرة الذهبية 2024. الناس بتلقبني بـ«المايسترو». وأشهر رقم قميص لبسته هو 16. واسمي بيبدأ بحرف «ر»."
-      ],
-      "meta": [
-        "إسبانيا · مانشستر سيتي",
-        "وسط · الدوري الإنجليزي · 30 سنة"
+        {
+          "ar": "لعبت في ثلاثة من الدوريات الخمسة الكبرى (إسبانيا وإيطاليا وإنجلترا)، وسجلت 83 هدف مع الأندية.",
+          "en": "I played in three of the top five leagues (Spain, Italy and England) and scored 83 goals for my clubs."
+        },
+        {
+          "ar": "لعبت مع جورجينيو، وراؤول ألبيول، وشيلفي، وميرتينس، وبابلو هيرنانديز، وياغو أسباس.",
+          "en": "I played alongside Jorginho, Raúl Albiol, Shelvey, Mertens, Pablo Hernández and Iago Aspas."
+        },
+        {
+          "ar": "كسبت جائزة أفضل لاعب في فريقي موسم 2012-13، وكسبت كأس الرابطة الإنجليزية 5-0 في النهائي، وسجلت 18 هدف في الدوري الإنجليزي.",
+          "en": "I was my team's Player of the Season in 2012-13, won the English League Cup 5-0 in the final, and scored 18 goals in the Premier League."
+        },
+        {
+          "ar": "كنت هداف فريقي في الليغا موسم 2011-12، وده كان الموسم الوحيد اللي لعبت فيه في الدرجة الأولى بإسبانيا.",
+          "en": "I was my team's top scorer in La Liga in 2011-12, my only season in the Spanish top flight."
+        },
+        {
+          "ar": "لعبت مباراة واحدة بس مع منتخب بلدي سنة 2013.",
+          "en": "I earned just one cap for my country, in 2013."
+        },
+        {
+          "ar": "انتقلت لنابولي سنة 2014، وكانت بداية النهاية — لعبت معاهم 3 مباريات بس، وبعدها رحت الدرجة التالتة في إسبانيا.",
+          "en": "I moved to Napoli in 2014, and that was the beginning of the end — I played only three games there before dropping to the third tier in Spain."
+        }
       ]
     },
     {
-      "id": "debruyne",
-      "answer": "كيفن دي بروين",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
+      "id": "vicente-rodriguez",
+      "answer": {
+        "ar": "فيسنتي رودريغيز",
+        "en": "Vicente Rodríguez"
+      },
       "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2008 مع جينك.",
-        "بعدها لعبت في: تشيلسي · فولفسبورغ · مانشستر سيتي · نابولي. وكان أبرز زمايلي: إيرلينج هالاند · سيرجيو أجويرو · روميلو لوكاكو.",
-        "أنا وسط من بلجيكا، وعندي 35 سنة. من أبرز إنجازاتي: ٦ ألقاب إنجليزي · دوري أبطال أوروبا 2023 · ٣ جوائز أفضل صانع ألعاب. الناس بتلقبني بـ«KDB». وأشهر رقم قميص لبسته هو 17. واسمي بيبدأ بحرف «ك»."
-      ],
-      "meta": [
-        "بلجيكا · مانشستر سيتي",
-        "وسط · الدوري الإنجليزي · 35 سنة"
+        {
+          "ar": "لعبت في إسبانيا، وكمان في دوري الشامبيونشيب الإنجليزي.",
+          "en": "I played in Spain and also in the English Championship."
+        },
+        {
+          "ar": "لعبت يورو 2004 مع منتخبي 3 ماتشات في دور المجموعات، وغيبت عن كأس العالم 2006 و2010 ويورو 2008 بسبب الإصابة.",
+          "en": "I played three group games at Euro 2004 with my national team, and missed the 2006 and 2010 World Cups and Euro 2008 through injury."
+        },
+        {
+          "ar": "كسبت جائزة أفضل لاعب في فريقي موسم 2012-13، وكسبت كأس الرابطة الإنجليزية 5-0 في النهائي، وسجلت 18 هدف في الدوري الإنجليزي.",
+          "en": "I was my team's Player of the Season in 2012-13, won the English League Cup 5-0 in the final, and scored 18 goals in the Premier League."
+        },
+        {
+          "ar": "لعبت في إسبانيا مع فريقين بس، في نفس المدينة، واحد منهم ليفانتي.",
+          "en": "In Spain I played for only two clubs, both in the same city — one of them Levante."
+        },
+        {
+          "ar": "كسبت الدوري الإسباني مرتين، واحدة منهم 2004، وكأس إسبانيا مرة سنة 2008، وكأس الاتحاد الأوروبي 2004، والسوبر الأوروبي 2004 على بورتو.",
+          "en": "I won La Liga twice, one of them in 2004, the Copa del Rey once in 2008, the UEFA Cup in 2004 and the UEFA Super Cup in 2004 against Porto."
+        },
+        {
+          "ar": "كسبت جائزة أفضل لاعب إسباني في الدوري الإسباني موسم 2003-04.",
+          "en": "I was named the best Spanish player in La Liga in 2003-04."
+        },
+        {
+          "ar": "لعبت في كل الفئات العمرية لمنتخبي، وسجلت 3 أهداف في 38 مباراة.",
+          "en": "I played for every age group of my national team and scored 3 goals in 38 caps."
+        },
+        {
+          "ar": "لعبت مع أيمار، وريكاردو أوليفيرا، وكلايفرت، وديفيد فيا، وإيدو، وخواكين، وآدم العبد، وواين بريدج.",
+          "en": "I played alongside Aimar, Ricardo Oliveira, Kluivert, David Villa, Edu, Joaquín, Adam El-Abd and Wayne Bridge."
+        }
       ]
     },
     {
-      "id": "modric",
-      "answer": "لوكا مودريتش",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
+      "id": "saviola",
+      "answer": {
+        "ar": "خافيير سافيولا",
+        "en": "Javier Saviola"
+      },
       "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2003 مع دينامو زغرب.",
-        "بعدها لعبت في: توتنهام · ريال مدريد · ميلان. وكان أبرز زمايلي: كريستيانو رونالدو · توني كروس · كريم بنزيمة.",
-        "أنا وسط من كرواتيا، وعندي 41 سنة. من أبرز إنجازاتي: الكرة الذهبية 2018 · ٦ دوري أبطال أوروبا · وصيف كأس العالم 2018. الناس بتلقبني بـ«المايسترو الكرواتي». وأشهر رقم قميص لبسته هو 10. واسمي بيبدأ بحرف «ل»."
-      ],
-      "meta": [
-        "كرواتيا · ريال مدريد",
-        "وسط · الدوري الإسباني · 41 سنة"
+        {
+          "ar": "لعبت في اثنين من الدوريات الخمسة الكبرى (إسبانيا وفرنسا)، وبدأت وخلصت مسيرتي مع نفس الفريق في بلدي.",
+          "en": "I played in two of the top five leagues (Spain and France), and I started and finished my career with the same club in my country."
+        },
+        {
+          "ar": "لعبت مع إنييستا، وإيفرا، وماريو يبيس، ومايكون، وماتيتش، وكازورلا، وكانوتي، وباتريك كلايفرت، وروبن، وأديبايور.",
+          "en": "I played alongside Iniesta, Evra, Mario Yepes, Maicon, Matić, Cazorla, Kanouté, Kluivert, Robben and Adebayor."
+        },
+        {
+          "ar": "كسبت الدوري الإسباني مرة، والبرتغالي مرة، والدوري الأوروبي مرة، وكنت وصيف كأس العالم للأندية مرة.",
+          "en": "I won the Spanish league once, the Portuguese league once and the Europa League once, and finished runner-up at the Club World Cup once."
+        },
+        {
+          "ar": "كسبت كأس العالم للشباب مرة، وكسبت الأولمبياد والبطولة القارية في نفس السنة، وكنت هداف كأس العالم للشباب.",
+          "en": "I won the World Youth Championship once, and in the same year won the Olympics and the continental championship — and I was the top scorer of the World Youth Championship."
+        },
+        {
+          "ar": "سجلت 11 هدف في 39 مباراة مع المنتخب الأول، وده نفس عدد أهدافي مع منتخب الشباب بس في 7 مباريات.",
+          "en": "I scored 11 goals in 39 senior caps — the same number I scored for the youth team, but in just seven matches."
+        },
+        {
+          "ar": "كسبت جائزة هداف الدوري البرتغالي سنة 2010.",
+          "en": "I was the top scorer of the Portuguese league in 2010."
+        },
+        {
+          "ar": "سجلت في مرمى مصر في كأس العالم للشباب، في مباراة انتهت 7-1.",
+          "en": "I scored against Egypt at the World Youth Championship, in a match that ended 7-1."
+        }
       ]
     },
     {
-      "id": "lewandowski",
-      "answer": "روبرت ليفاندوفسكي",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
+      "id": "panucci",
+      "answer": {
+        "ar": "كريستيان بانوتشي",
+        "en": "Christian Panucci"
+      },
       "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2005 مع زنيچ بروشكوف.",
-        "بعدها لعبت في: لخ بوزنان · بوروسيا دورتموند · بايرن ميونخ · برشلونة. وكان أبرز زمايلي: توماس مولر · مانويل نوير · لامين يامال.",
-        "أنا مهاجم من بولندا، وعندي 38 سنة. من أبرز إنجازاتي: دوري أبطال أوروبا 2020 · ١٠ ألقاب دوري ألماني · ٢ حذاء ذهبي أوروبي. وأشهر رقم قميص لبسته هو 9. واسمي بيبدأ بحرف «ر»."
-      ],
-      "meta": [
-        "بولندا · بايرن ميونخ",
-        "مهاجم · الدوري الألماني · 38 سنة"
+        {
+          "ar": "لعبت في أربعة من الدوريات الخمسة الكبرى، وكمان في اليونان، وعمري ما لعبت في غيرهم.",
+          "en": "I played in four of Europe's top five leagues, plus Greece, and nowhere else."
+        },
+        {
+          "ar": "درّبت منتخب ألبانيا من 2017 لـ 2019، وكنت مساعد في منتخب روسيا في كأس العالم 2014.",
+          "en": "I managed the Albania national team from 2017 to 2019, and I was an assistant coach with Russia at the 2014 World Cup."
+        },
+        {
+          "ar": "كسبت الدوري الإيطالي مرتين، والإسباني مرة، ودوري أبطال أوروبا مرتين مع ناديين مختلفين، والسوبر الأوروبي مرة، وكأس وسوبر في إيطاليا وإسبانيا.",
+          "en": "I won the Italian league twice, the Spanish league once, the Champions League twice with two different clubs, the UEFA Super Cup once, and cup and super cup titles in both Italy and Spain."
+        },
+        {
+          "ar": "لعبت كأس عالم مرة واحدة بس، ولعبت يورو مرتين وعمري ما وصلت للنهائي.",
+          "en": "I played in only one World Cup, and in two European Championships without ever reaching the final."
+        },
+        {
+          "ar": "لعبت مع دي كانيو، وفييرا، وسيدورف، وسامورانو، وفييري، وويا، وديشاي، وكريسبو، وجون تيري، ورونالدو.",
+          "en": "I played alongside Di Canio, Vieira, Seedorf, Zamorano, Vieri, Weah, Desailly, Crespo, John Terry and Ronaldo."
+        },
+        {
+          "ar": "لعبت تحت قيادة يوب هاينكس، وليبي، وأوسكار تاباريز، وسباليتي، ورانييري.",
+          "en": "I played under Jupp Heynckes, Lippi, Óscar Tabárez, Spalletti and Ranieri."
+        }
       ]
     },
     {
-      "id": "benzema",
-      "answer": "كريم بنزيمة",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
+      "id": "baros",
+      "answer": {
+        "ar": "ميلان باروش",
+        "en": "Milan Baroš"
+      },
       "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2004 مع ليون.",
-        "بعدها لعبت في: ريال مدريد · الاتحاد. وكان أبرز زمايلي: كريستيانو رونالدو · لوكا مودريتش · فينيسيوس جونيور.",
-        "أنا مهاجم من فرنسا، وعندي 38 سنة. من أبرز إنجازاتي: الكرة الذهبية 2022 · ٥ دوري أبطال أوروبا · ٤ ألقاب دوري إسباني. الناس بتلقبني بـ«القط». وأشهر رقم قميص لبسته هو 9. واسمي بيبدأ بحرف «ك»."
-      ],
-      "meta": [
-        "فرنسا · ريال مدريد",
-        "مهاجم · الدوري الإسباني · 38 سنة"
+        {
+          "ar": "لعبت في اثنين من الدوريات الخمسة الكبرى (إنجلترا وفرنسا).",
+          "en": "I played in two of the top five leagues (England and France)."
+        },
+        {
+          "ar": "لعبت مع ديفو، ولورين، وكانو، وسول كامبل، وبيغوفيتش، ومونتاري، وجيو دوس سانتوس، وميلنر، وجاري كاهيل، وأردا توران، وبنزيمة.",
+          "en": "I played alongside Defoe, Lauren, Kanu, Sol Campbell, Begović, Muntari, Gio dos Santos, Milner, Gary Cahill, Arda Turan and Benzema."
+        },
+        {
+          "ar": "لعبت تحت قيادة هاري ريدناب، ورافا بينيتيز، وفرانك ريكارد.",
+          "en": "I played under Harry Redknapp, Rafa Benítez and Frank Rijkaard."
+        },
+        {
+          "ar": "لعبت لكل الفئات العمرية لمنتخب بلدي، وسجلت 41 هدف مع الفريق الأول.",
+          "en": "I played for every youth level of my national team and scored 41 goals for the senior side."
+        },
+        {
+          "ar": "لعبت 3 يورو، ووصلت لنصف النهائي مرة، وكنت هداف البطولة. ولعبت كأس عالم واحدة وخرجت من دور المجموعات في مفاجأة.",
+          "en": "I played in three European Championships, reached the semi-final once and was the tournament's top scorer. I also played one World Cup and went out in the group stage in a surprise."
+        },
+        {
+          "ar": "كسبت كأس الاتحاد الإنجليزي 2008 ودوري أبطال أوروبا مرة، بس ما كسبتش كأس العالم للأندية.",
+          "en": "I won the FA Cup in 2008 and the Champions League once, but never the Club World Cup."
+        },
+        {
+          "ar": "كسبت الدوري التركي والفرنسي، وكنت هداف الدوري التركي سنة 2009.",
+          "en": "I won the Turkish and French leagues, and I was the top scorer of the Turkish league in 2009."
+        },
+        {
+          "ar": "كنت هداف يورو تحت 21 سنة 2002.",
+          "en": "I was the top scorer at the 2002 European Under-21 Championship."
+        }
       ]
     },
     {
-      "id": "kane",
-      "answer": "هاري كين",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
+      "id": "valbuena",
+      "answer": {
+        "ar": "ماتيو فالبوينا",
+        "en": "Mathieu Valbuena"
+      },
       "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2009 مع توتنهام.",
-        "بعدها لعبت في: بايرن ميونخ. وكان أبرز زمايلي: سون هيونج مين · ديل آلي · جمال موسيالا.",
-        "أنا مهاجم من إنجلترا، وعندي 33 سنة. من أبرز إنجازاتي: ٣ أحذية ذهبية إنجليزي · هداف كأس العالم 2018. الناس بتلقبني بـ«الملك هاري». وأشهر رقم قميص لبسته هو 9. واسمي بيبدأ بحرف «ه»."
-      ],
-      "meta": [
-        "إنجلترا · توتنهام",
-        "مهاجم · الدوري الإنجليزي · 33 سنة"
+        {
+          "ar": "لعبت في واحد من الدوريات الخمسة الكبرى.",
+          "en": "I played in one of Europe's top five leagues."
+        },
+        {
+          "ar": "لعبت مع نصري، وزيندن، وجوردان آيو، وهينزه، وأزبليكويتا، وليمينا، وبنجامين ميندي، وجيركوف، ورافاييل، وسولدادو.",
+          "en": "I played alongside Nasri, Zenden, Jordan Ayew, Heinze, Azpilicueta, Lemina, Benjamin Mendy, Zhirkov, Rafael and Soldado."
+        },
+        {
+          "ar": "كسبت الدوري مرة، والكأس ثلاث مرات، والدوري اليوناني ثلاث مرات.",
+          "en": "I won the league once, the cup three times and the Greek league three times."
+        },
+        {
+          "ar": "لعبت لكل الفئات العمرية لمنتخب بلدي، وسجلت 41 هدف مع الفريق الأول.",
+          "en": "I played for every youth level of my national team and scored 41 goals for the senior side."
+        },
+        {
+          "ar": "كسبت جائزة أفضل لاعب في الدوري مرتين 2008 و2013، وكسبت مرة جائزة أكتر واحد عمل أسيست في دوريي في روسيا وتركيا واليونان.",
+          "en": "I was named the league's best player twice, in 2008 and 2013, and once the top assist provider in my league in Russia, Turkey and Greece."
+        },
+        {
+          "ar": "لعبت كأس العالم مرتين ويورو 2012 مرة، بس ما شاركتش ولا دقيقة.",
+          "en": "I was in two World Cup squads and one Euro squad (2012), but never played a single minute."
+        },
+        {
+          "ar": "لعبت 52 مباراة وسجلت 8 أهداف.",
+          "en": "I earned 52 caps and scored 8 goals."
+        }
       ]
     },
     {
-      "id": "saka",
-      "answer": "بوكايو ساكا",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
+      "id": "carlos-vela",
+      "answer": {
+        "ar": "كارلوس فيلا",
+        "en": "Carlos Vela"
+      },
       "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2018 مع أرسنال.",
-        "وما لعبتش لأي نادي تاني غير أرسنال. وكان أبرز زمايلي: مارتن أوديغارد · ديكلان رايس · كاي هافيرتز.",
-        "أنا مهاجم من إنجلترا، وعندي 25 سنة. من أبرز إنجازاتي: كأس إنجلترا 2020 · أفضل لاعب إنجليزي شاب 2021. الناس بتلقبني بـ«ستار بوي». وأشهر رقم قميص لبسته هو 7. واسمي بيبدأ بحرف «ب»."
-      ],
-      "meta": [
-        "إنجلترا · أرسنال",
-        "مهاجم · الدوري الإنجليزي · 25 سنة"
+        {
+          "ar": "لعبت في اثنين من الدوريات الخمسة الكبرى (إنجلترا وإسبانيا).",
+          "en": "I played in two of the top five leagues (England and Spain)."
+        },
+        {
+          "ar": "لعبت مع جريزمان، وكلاوديو برافو، ورولي، وأدنان يانوزاي، وإبراهيموفيتش، وكريستيان بافون، وأليكس سونغ، وفابريغاس.",
+          "en": "I played alongside Griezmann, Claudio Bravo, Rulli, Adnan Januzaj, Ibrahimović, Cristian Pavón, Alex Song and Fàbregas."
+        },
+        {
+          "ar": "ظهرت على غلاف فيفا 11 مع كاكا ودونوفان في أمريكا الشمالية.",
+          "en": "I appeared on the FIFA 11 cover alongside Kaká and Donovan in North America."
+        },
+        {
+          "ar": "كسبت كأس العالم للشباب 2005، وكسبت البطولة القارية مرتين.",
+          "en": "I won the 2005 World Youth Championship and the continental championship twice."
+        },
+        {
+          "ar": "كنت أفضل لاعب في فريقي مرتين 2012 و2014، وكنت هداف الفريق 2012 و13 و14 و15.",
+          "en": "I was my team's best player twice (2012 and 2014) and their top scorer in 2012, 2013, 2014 and 2015."
+        },
+        {
+          "ar": "لعبت بطولتين قاريتين وكسبتهم، ولعبت كأسين عالم ووصلت لدور الـ16 في الاتنين، ولعبت كأس القارات 2017.",
+          "en": "I played two continental championships and won both, played two World Cups and reached the round of 16 in both, and played the 2017 Confederations Cup."
+        },
+        {
+          "ar": "كنت في فريق الموسم في الدوري الأمريكي 3 مرات: 2018 و2019 و2022.",
+          "en": "I was in the MLS Team of the Season three times: 2018, 2019 and 2022."
+        }
       ]
     },
     {
-      "id": "foden",
-      "answer": "فيل فودين",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
+      "id": "tshabalala",
+      "answer": {
+        "ar": "سيفيوي تشابالالا",
+        "en": "Siphiwe Tshabalala"
+      },
       "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2017 مع مانشستر سيتي.",
-        "وما لعبتش لأي نادي تاني غير مانشستر سيتي. وكان أبرز زمايلي: كيفن دي بروين · إيرلينج هالاند · رودري.",
-        "أنا وسط من إنجلترا، وعندي 26 سنة. من أبرز إنجازاتي: ٦ ألقاب إنجليزي · دوري أبطال أوروبا 2023 · أفضل لاعب شاب 2021. الناس بتلقبني بـ«ستوكبورت إنييستا». وأشهر رقم قميص لبسته هو 47. واسمي بيبدأ بحرف «ف»."
-      ],
-      "meta": [
-        "إنجلترا · مانشستر سيتي",
-        "وسط · الدوري الإنجليزي · 26 سنة"
-      ]
-    },
-    {
-      "id": "palmer",
-      "answer": "كول بالمر",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2020 مع مانشستر سيتي.",
-        "بعدها لعبت في: تشيلسي. وكان أبرز زمايلي: ريان ستيرلينج · إنزو فيرنانديز · نيكولاس جاكسون.",
-        "أنا وسط من إنجلترا، وعندي 24 سنة. من أبرز إنجازاتي: كأس العالم للأندية 2023 · أفضل لاعب شاب في إنجلترا 2024. الناس بتلقبني بـ«كولد بالمر». وأشهر رقم قميص لبسته هو 20. واسمي بيبدأ بحرف «ك»."
-      ],
-      "meta": [
-        "إنجلترا · تشيلسي",
-        "وسط · الدوري الإنجليزي · 24 سنة"
-      ]
-    },
-    {
-      "id": "pedri",
-      "answer": "بيدري",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2019 مع لاس بالماس.",
-        "بعدها لعبت في: برشلونة. وكان أبرز زمايلي: لامين يامال · جافي · روبرت ليفاندوفسكي.",
-        "أنا وسط من إسبانيا، وعندي 23 سنة. من أبرز إنجازاتي: كأس ملك إسبانيا 2021 · جائزة كوبا 2021 · كأس أمم أوروبا 2024. وأشهر رقم قميص لبسته هو 8. واسمي بيبدأ بحرف «ب»."
-      ],
-      "meta": [
-        "إسبانيا · برشلونة",
-        "وسط · الدوري الإسباني · 23 سنة"
-      ]
-    },
-    {
-      "id": "yamal",
-      "answer": "لامين يامال",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2023 مع برشلونة.",
-        "وما لعبتش لأي نادي تاني غير برشلونة. وكان أبرز زمايلي: بيدري · رافينيا · روبرت ليفاندوفسكي.",
-        "أنا مهاجم من إسبانيا، وعندي 19 سنة. من أبرز إنجازاتي: كأس أمم أوروبا 2024 · الدوري الإسباني 2023 · أفضل لاعب شاب 2024. الناس بتلقبني بـ«الطفل المعجزة». وأشهر رقم قميص لبسته هو 19. واسمي بيبدأ بحرف «ل»."
-      ],
-      "meta": [
-        "إسبانيا · برشلونة",
-        "مهاجم · الدوري الإسباني · 19 سنة"
-      ]
-    },
-    {
-      "id": "gavi",
-      "answer": "بابلو جافي",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2020 مع برشلونة.",
-        "وما لعبتش لأي نادي تاني غير برشلونة. وكان أبرز زمايلي: بيدري · لامين يامال · روبرت ليفاندوفسكي.",
-        "أنا وسط من إسبانيا، وعندي 22 سنة. من أبرز إنجازاتي: الدوري الإسباني 2023 · جائزة كوبا 2022 · دوري الأمم الأوروبية 2023. وأشهر رقم قميص لبسته هو 6. واسمي بيبدأ بحرف «ب»."
-      ],
-      "meta": [
-        "إسبانيا · برشلونة",
-        "وسط · الدوري الإسباني · 22 سنة"
-      ]
-    },
-    {
-      "id": "musiala",
-      "answer": "جمال موسيالا",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2020 مع بايرن ميونخ.",
-        "وما لعبتش لأي نادي تاني غير بايرن ميونخ. وكان أبرز زمايلي: روبرت ليفاندوفسكي · توماس مولر · هاري كين.",
-        "أنا وسط من ألمانيا، وعندي 23 سنة. من أبرز إنجازاتي: ٤ ألقاب دوري ألماني · كأس العالم للأندية 2020. الناس بتلقبني بـ«الموس». وأشهر رقم قميص لبسته هو 42. واسمي بيبدأ بحرف «ج»."
-      ],
-      "meta": [
-        "ألمانيا · بايرن ميونخ",
-        "وسط · الدوري الألماني · 23 سنة"
-      ]
-    },
-    {
-      "id": "wirtz",
-      "answer": "فلوريان فيرتز",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2020 مع كولن.",
-        "بعدها لعبت في: باير ليفركوزن · ليفربول. وكان أبرز زمايلي: غرانيت تشاكا · جيريمي فريمبونج · باتريك شيك.",
-        "أنا وسط من ألمانيا، وعندي 23 سنة. من أبرز إنجازاتي: الدوري الألماني 2024 · كأس ألمانيا 2024 · أفضل لاعب في ألمانيا 2024. الناس بتلقبني بـ«الموهبة الألمانية». وأشهر رقم قميص لبسته هو 10. واسمي بيبدأ بحرف «ف»."
-      ],
-      "meta": [
-        "ألمانيا · باير ليفركوزن",
-        "وسط · الدوري الألماني · 23 سنة"
-      ]
-    },
-    {
-      "id": "kimmich",
-      "answer": "جوشوا كيميش",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2013 مع لايبزيغ.",
-        "بعدها لعبت في: بايرن ميونخ. وكان أبرز زمايلي: مانويل نوير · توماس مولر · جمال موسيالا.",
-        "أنا وسط من ألمانيا، وعندي 31 سنة. من أبرز إنجازاتي: ٨ ألقاب دوري ألماني · دوري أبطال أوروبا 2020 · كأس العالم للأندية 2020. وأشهر رقم قميص لبسته هو 6. واسمي بيبدأ بحرف «ج»."
-      ],
-      "meta": [
-        "ألمانيا · بايرن ميونخ",
-        "وسط · الدوري الألماني · 31 سنة"
-      ]
-    },
-    {
-      "id": "neuer",
-      "answer": "مانويل نوير",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2006 مع شالكه.",
-        "بعدها لعبت في: بايرن ميونخ. وكان أبرز زمايلي: توماس مولر · جوشوا كيميش · جيروم بواتينج.",
-        "أنا حارس من ألمانيا، وعندي 40 سنة. من أبرز إنجازاتي: كأس العالم 2014 · ٢ دوري أبطال أوروبا · ١٢ لقب دوري ألماني. الناس بتلقبني بـ«حارس السد». وأشهر رقم قميص لبسته هو 1. واسمي بيبدأ بحرف «م»."
-      ],
-      "meta": [
-        "ألمانيا · بايرن ميونخ",
-        "حارس · الدوري الألماني · 40 سنة"
-      ]
-    },
-    {
-      "id": "muller",
-      "answer": "توماس مولر",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2008 مع بايرن ميونخ.",
-        "بعدها لعبت في: فانكوفر. وكان أبرز زمايلي: مانويل نوير · روبرت ليفاندوفسكي · جوشوا كيميش.",
-        "أنا مهاجم من ألمانيا، وعندي 37 سنة. من أبرز إنجازاتي: كأس العالم 2014 · ٢ دوري أبطال أوروبا · أكثر من ١٠ ألقاب دوري ألماني. وأشهر رقم قميص لبسته هو 25. واسمي بيبدأ بحرف «ت»."
-      ],
-      "meta": [
-        "ألمانيا · بايرن ميونخ",
-        "مهاجم · الدوري الألماني · 37 سنة"
-      ]
-    },
-    {
-      "id": "kroos",
-      "answer": "توني كروس",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2007 مع بايرن ميونخ.",
-        "بعدها لعبت في: باير ليفركوزن · ريال مدريد. وكان أبرز زمايلي: كريستيانو رونالدو · لوكا مودريتش · كريم بنزيمة.",
-        "أنا وسط من ألمانيا، وعندي 36 سنة. من أبرز إنجازاتي: كأس العالم 2014 · ٦ دوري أبطال أوروبا · ٣ ألقاب دوري ألماني. الناس بتلقبني بـ«المعلم». وأشهر رقم قميص لبسته هو 8. واسمي بيبدأ بحرف «ت»."
-      ],
-      "meta": [
-        "ألمانيا · ريال مدريد",
-        "وسط · الدوري الإسباني · 36 سنة"
-      ]
-    },
-    {
-      "id": "griezmann",
-      "answer": "أنطوان جريزمان",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2009 مع ريال سوسيداد.",
-        "بعدها لعبت في: أتلتيكو مدريد · برشلونة. وكان أبرز زمايلي: دييغو جودين · خواو فيليكس · ألفارو موراتا.",
-        "أنا مهاجم من فرنسا، وعندي 35 سنة. من أبرز إنجازاتي: كأس العالم 2018 · الدوري الأوروبي 2018 · كأس السوبر الإسباني 2014. الناس بتلقبني بـ«الأمير الصغير». وأشهر رقم قميص لبسته هو 7. واسمي بيبدأ بحرف «أ»."
-      ],
-      "meta": [
-        "فرنسا · أتلتيكو مدريد",
-        "مهاجم · الدوري الإسباني · 35 سنة"
-      ]
-    },
-    {
-      "id": "kante",
-      "answer": "نجولو كانتي",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2012 مع بولوني.",
-        "بعدها لعبت في: كان · ليستر سيتي · تشيلسي · النصر. وكان أبرز زمايلي: إيدين هازارد · أوليفييه جيرو · رياض محرز.",
-        "أنا وسط من فرنسا، وعندي 35 سنة. من أبرز إنجازاتي: كأس العالم 2018 · الدوري الإنجليزي 2016 و2017 · دوري أبطال أوروبا 2021. الناس بتلقبني بـ«الماكينة». وأشهر رقم قميص لبسته هو 7. واسمي بيبدأ بحرف «ن»."
-      ],
-      "meta": [
-        "فرنسا · تشيلسي",
-        "وسط · الدوري الإنجليزي · 35 سنة"
-      ]
-    },
-    {
-      "id": "lloris",
-      "answer": "هوغو لوريس",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2005 مع نيس.",
-        "بعدها لعبت في: ليون · توتنهام · لوس أنجلوس. وكان أبرز زمايلي: هاري كين · سون هيونج مين · أنطوان جريزمان.",
-        "أنا حارس من فرنسا، وعندي 39 سنة. من أبرز إنجازاتي: كأس العالم 2018 · كأس فرنسا 2012 · أفضل حارس في الدوري الفرنسي ٣ مرات. الناس بتلقبني بـ«الحارس القائد». وأشهر رقم قميص لبسته هو 1. واسمي بيبدأ بحرف «ه»."
-      ],
-      "meta": [
-        "فرنسا · توتنهام",
-        "حارس · الدوري الإنجليزي · 39 سنة"
-      ]
-    },
-    {
-      "id": "varane",
-      "answer": "رافائيل فاران",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2010 مع لانس.",
-        "بعدها لعبت في: ريال مدريد · مانشستر يونايتد · كومو. وكان أبرز زمايلي: سيرجيو راموس · كريستيانو رونالدو · بول بوجبا.",
-        "أنا مدافع من فرنسا، وعندي 33 سنة. من أبرز إنجازاتي: كأس العالم 2018 · ٤ دوري أبطال أوروبا · ٣ ألقاب دوري إسباني. الناس بتلقبني بـ«الصخرة». وأشهر رقم قميص لبسته هو 19. واسمي بيبدأ بحرف «ر»."
-      ],
-      "meta": [
-        "فرنسا · ريال مدريد",
-        "مدافع · الدوري الإسباني · 33 سنة"
-      ]
-    },
-    {
-      "id": "dembele",
-      "answer": "عثمان ديمبيلي",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2015 مع رين.",
-        "بعدها لعبت في: بوروسيا دورتموند · برشلونة · باريس سان جيرمان. وكان أبرز زمايلي: ليونيل ميسي · لويس سواريز · كيليان مبابي.",
-        "أنا مهاجم من فرنسا، وعندي 29 سنة. من أبرز إنجازاتي: كأس العالم 2018 · ٢ لقب دوري فرنسي · الدوري الإسباني 2019. وأشهر رقم قميص لبسته هو 10. واسمي بيبدأ بحرف «ع»."
-      ],
-      "meta": [
-        "فرنسا · برشلونة",
-        "مهاجم · الدوري الإسباني · 29 سنة"
-      ]
-    },
-    {
-      "id": "rice",
-      "answer": "ديكلان رايس",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2017 مع وست هام.",
-        "بعدها لعبت في: أرسنال. وكان أبرز زمايلي: بوكايو ساكا · مارتن أوديغارد · جود بيلينجهام.",
-        "أنا وسط من إنجلترا، وعندي 27 سنة. من أبرز إنجازاتي: دوري المؤتمر الأوروبي 2023 · الدرع الخيرية 2023. الناس بتلقبني بـ«القائد الصغير». وأشهر رقم قميص لبسته هو 41. واسمي بيبدأ بحرف «د»."
-      ],
-      "meta": [
-        "إنجلترا · أرسنال",
-        "وسط · الدوري الإنجليزي · 27 سنة"
-      ]
-    },
-    {
-      "id": "van-dijk",
-      "answer": "فيرجيل فان دايك",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2011 مع خرونينجن.",
-        "بعدها لعبت في: سيلتيك · ساوثهامبتون · ليفربول. وكان أبرز زمايلي: محمد صلاح · ساديو ماني · أليسون بيكر.",
-        "أنا مدافع من هولندا، وعندي 35 سنة. من أبرز إنجازاتي: دوري أبطال أوروبا 2019 · الدوري الإنجليزي 2020 · أفضل لاعب في إنجلترا 2019. الناس بتلقبني بـ«الفيل». وأشهر رقم قميص لبسته هو 4. واسمي بيبدأ بحرف «ف»."
-      ],
-      "meta": [
-        "هولندا · ليفربول",
-        "مدافع · الدوري الإنجليزي · 35 سنة"
-      ]
-    },
-    {
-      "id": "de-jong",
-      "answer": "فرينكي دي يونج",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2015 مع أياكس.",
-        "بعدها لعبت في: برشلونة. وكان أبرز زمايلي: ليونيل ميسي · بيدري · لامين يامال.",
-        "أنا وسط من هولندا، وعندي 29 سنة. من أبرز إنجازاتي: الدوري الإسباني 2019 · الدوري الإسباني 2023 · كأس ملك إسبانيا 2021. وأشهر رقم قميص لبسته هو 21. واسمي بيبدأ بحرف «ف»."
-      ],
-      "meta": [
-        "هولندا · برشلونة",
-        "وسط · الدوري الإسباني · 29 سنة"
-      ]
-    },
-    {
-      "id": "depay",
-      "answer": "ممفيس ديباي",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2011 مع آيندهوفن.",
-        "بعدها لعبت في: مانشستر يونايتد · ليون · برشلونة · أتلتيكو مدريد. وكان أبرز زمايلي: ليونيل ميسي · أنطوان جريزمان · فرينكي دي يونج.",
-        "أنا مهاجم من هولندا، وعندي 32 سنة. من أبرز إنجازاتي: الدوري الهولندي 2015 · كأس ملك إسبانيا 2021 · هداف الدوري الهولندي 2015. وأشهر رقم قميص لبسته هو 9. واسمي بيبدأ بحرف «م»."
-      ],
-      "meta": [
-        "هولندا · ليون",
-        "مهاجم · الدوري الفرنسي · 32 سنة"
-      ]
-    },
-    {
-      "id": "courtois",
-      "answer": "تيبو كورتوا",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2009 مع جينك.",
-        "بعدها لعبت في: أتلتيكو مدريد · تشيلسي · ريال مدريد. وكان أبرز زمايلي: سيرجيو راموس · كريستيانو رونالدو · إيدين هازارد.",
-        "أنا حارس من بلجيكا، وعندي 34 سنة. من أبرز إنجازاتي: كأس العالم 2018 · ٢ دوري أبطال أوروبا · ٤ ألقاب دوري إسباني. الناس بتلقبني بـ«العملاق». وأشهر رقم قميص لبسته هو 1. واسمي بيبدأ بحرف «ت»."
-      ],
-      "meta": [
-        "بلجيكا · ريال مدريد",
-        "حارس · الدوري الإسباني · 34 سنة"
-      ]
-    },
-    {
-      "id": "lukaku",
-      "answer": "روميلو لوكاكو",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2009 مع أندرلخت.",
-        "بعدها لعبت في: تشيلسي · إيفرتون · مانشستر يونايتد · إنتر ميلان · روما · نابولي. وكان أبرز زمايلي: لاوتارو مارتينيز · إيدين هازارد · كيفن دي بروين.",
-        "أنا مهاجم من بلجيكا، وعندي 33 سنة. من أبرز إنجازاتي: الدوري الإيطالي 2021 · هداف بلجيكا التاريخي · الدوري البلجيكي 2010. الناس بتلقبني بـ«الوحش». وأشهر رقم قميص لبسته هو 9. واسمي بيبدأ بحرف «ر»."
-      ],
-      "meta": [
-        "بلجيكا · إنتر ميلان",
-        "مهاجم · الدوري الإيطالي · 33 سنة"
-      ]
-    },
-    {
-      "id": "ramos",
-      "answer": "سيرجيو راموس",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2003 مع إشبيلية.",
-        "بعدها لعبت في: ريال مدريد · باريس سان جيرمان · مونتيري. وكان أبرز زمايلي: إيكر كاسياس · كريستيانو رونالدو · توني كروس.",
-        "أنا مدافع من إسبانيا، وعندي 40 سنة. من أبرز إنجازاتي: كأس العالم 2010 · ٤ دوري أبطال أوروبا · ٢ بطولة أمم أوروبا. الناس بتلقبني بـ«القائد». وأشهر رقم قميص لبسته هو 4. واسمي بيبدأ بحرف «س»."
-      ],
-      "meta": [
-        "إسبانيا · ريال مدريد",
-        "مدافع · الدوري الإسباني · 40 سنة"
-      ]
-    },
-    {
-      "id": "iniesta",
-      "answer": "أندريس إنييستا",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2002 مع برشلونة.",
-        "بعدها لعبت في: فيسيل كوبي. وكان أبرز زمايلي: تشافي · ليونيل ميسي · كارليس بويول.",
-        "أنا وسط من إسبانيا، وعندي 42 سنة. من أبرز إنجازاتي: كأس العالم 2010 · ٤ دوري أبطال أوروبا · ٢ بطولة أمم أوروبا. الناس بتلقبني بـ«المايسترو». وأشهر رقم قميص لبسته هو 8. واسمي بيبدأ بحرف «أ»."
-      ],
-      "meta": [
-        "إسبانيا · برشلونة",
-        "وسط · الدوري الإسباني · 42 سنة"
-      ]
-    },
-    {
-      "id": "xavi",
-      "answer": "تشافي هيرنانديز",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 1998 مع برشلونة.",
-        "بعدها لعبت في: السد. وكان أبرز زمايلي: أندريس إنييستا · ليونيل ميسي · كارليس بويول.",
-        "أنا وسط من إسبانيا، وعندي 46 سنة. من أبرز إنجازاتي: كأس العالم 2010 · ٤ دوري أبطال أوروبا · ٢ بطولة أمم أوروبا. الناس بتلقبني بـ«العقل». وأشهر رقم قميص لبسته هو 6. واسمي بيبدأ بحرف «ت»."
-      ],
-      "meta": [
-        "إسبانيا · برشلونة",
-        "وسط · الدوري الإسباني · 46 سنة"
-      ]
-    },
-    {
-      "id": "casillas",
-      "answer": "إيكر كاسياس",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 1999 مع ريال مدريد.",
-        "بعدها لعبت في: بورتو. وكان أبرز زمايلي: سيرجيو راموس · كريستيانو رونالدو · روبرتو كارلوس.",
-        "أنا حارس من إسبانيا، وعندي 45 سنة. من أبرز إنجازاتي: كأس العالم 2010 · ٣ دوري أبطال أوروبا · ٢ بطولة أمم أوروبا. الناس بتلقبني بـ«القديس». وأشهر رقم قميص لبسته هو 1. واسمي بيبدأ بحرف «إ»."
-      ],
-      "meta": [
-        "إسبانيا · ريال مدريد",
-        "حارس · الدوري الإسباني · 45 سنة"
-      ]
-    },
-    {
-      "id": "puyol",
-      "answer": "كارليس بويول",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 1999 مع برشلونة.",
-        "وما لعبتش لأي نادي تاني غير برشلونة. وكان أبرز زمايلي: تشافي · أندريس إنييستا · ليونيل ميسي.",
-        "أنا مدافع من إسبانيا، وعندي 48 سنة. من أبرز إنجازاتي: كأس العالم 2010 · ٣ دوري أبطال أوروبا · بطولة أمم أوروبا 2008. الناس بتلقبني بـ«الأسد». وأشهر رقم قميص لبسته هو 5. واسمي بيبدأ بحرف «ك»."
-      ],
-      "meta": [
-        "إسبانيا · برشلونة",
-        "مدافع · الدوري الإسباني · 48 سنة"
-      ]
-    },
-    {
-      "id": "buffon",
-      "answer": "جيانلويجي بوفون",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 1995 مع بارما.",
-        "بعدها لعبت في: يوفنتوس · باريس سان جيرمان. وكان أبرز زمايلي: أليساندرو ديل بييرو · جورجيو كيليني · أندريا بيرلو.",
-        "أنا حارس من إيطاليا، وعندي 48 سنة. من أبرز إنجازاتي: كأس العالم 2006 · أكثر من ٨ ألقاب دوري إيطالي · أفضل حارس 2006. الناس بتلقبني بـ«الحارس الأسطوري». وأشهر رقم قميص لبسته هو 1. واسمي بيبدأ بحرف «ج»."
-      ],
-      "meta": [
-        "إيطاليا · يوفنتوس",
-        "حارس · الدوري الإيطالي · 48 سنة"
-      ]
-    },
-    {
-      "id": "pirlo",
-      "answer": "أندريا بيرلو",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 1995 مع بريشيا.",
-        "بعدها لعبت في: إنتر ميلان · ميلان · يوفنتوس · نيويورك سيتي. وكان أبرز زمايلي: كاكا · أليساندرو ديل بييرو · جورجيو كيليني.",
-        "أنا وسط من إيطاليا، وعندي 47 سنة. من أبرز إنجازاتي: كأس العالم 2006 · ٢ دوري أبطال أوروبا · ٦ ألقاب دوري إيطالي. الناس بتلقبني بـ«المهندس». وأشهر رقم قميص لبسته هو 21. واسمي بيبدأ بحرف «أ»."
-      ],
-      "meta": [
-        "إيطاليا · ميلان",
-        "وسط · الدوري الإيطالي · 47 سنة"
-      ]
-    },
-    {
-      "id": "totti",
-      "answer": "فرانشيسكو توتي",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 1992 مع روما.",
-        "وما لعبتش لأي نادي تاني غير روما. وكان أبرز زمايلي: أنطونيو كاسانو · دانييلي دي روسي · غابرييل باتيستوتا.",
-        "أنا مهاجم من إيطاليا، وعندي 50 سنة. من أبرز إنجازاتي: الدوري الإيطالي 2001 · كأس العالم 2006 · هداف الدوري الإيطالي 2007. الناس بتلقبني بـ«ملك روما». وأشهر رقم قميص لبسته هو 10. واسمي بيبدأ بحرف «ف»."
-      ],
-      "meta": [
-        "إيطاليا · روما",
-        "مهاجم · الدوري الإيطالي · 50 سنة"
-      ]
-    },
-    {
-      "id": "maldini",
-      "answer": "باولو مالديني",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 1984 مع ميلان.",
-        "وما لعبتش لأي نادي تاني غير ميلان. وكان أبرز زمايلي: كاكا · أندريا بيرلو · روبرتو باجيو.",
-        "أنا مدافع من إيطاليا، وعندي 58 سنة. من أبرز إنجازاتي: ٥ دوري أبطال أوروبا · ٧ ألقاب دوري إيطالي · وصيف كأس العالم 1994. الناس بتلقبني بـ«الأسطورة». وأشهر رقم قميص لبسته هو 3. واسمي بيبدأ بحرف «ب»."
-      ],
-      "meta": [
-        "إيطاليا · ميلان",
-        "مدافع · الدوري الإيطالي · 58 سنة"
-      ]
-    },
-    {
-      "id": "ibrahimovic",
-      "answer": "زلاتان إبراهيموفيتش",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 1999 مع مالمو.",
-        "بعدها لعبت في: أياكس · يوفنتوس · إنتر ميلان · برشلونة · ميلان · باريس سان جيرمان · مانشستر يونايتد. وكان أبرز زمايلي: ليونيل ميسي · أندريا بيرلو · بول بوجبا.",
-        "أنا مهاجم من السويد، وعندي 45 سنة. من أبرز إنجازاتي: الدوري الإيطالي 2011 · ٤ ألقاب دوري فرنسي · الدوري الهولندي 2002. وأشهر رقم قميص لبسته هو 9. واسمي بيبدأ بحرف «ز»."
-      ],
-      "meta": [
-        "السويد · ميلان",
-        "مهاجم · الدوري الإيطالي · 45 سنة"
-      ]
-    },
-    {
-      "id": "zidane",
-      "answer": "زين الدين زيدان",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 1988 مع كان.",
-        "بعدها لعبت في: بوردو · يوفنتوس · ريال مدريد. وكان أبرز زمايلي: رونالدو نازاريو · روبرتو كارلوس · أليساندرو ديل بييرو.",
-        "أنا وسط من فرنسا، وعندي 54 سنة. من أبرز إنجازاتي: كأس العالم 1998 · دوري أبطال أوروبا 2002 · الكرة الذهبية 1998. الناس بتلقبني بـ«زيزو». وأشهر رقم قميص لبسته هو 5. واسمي بيبدأ بحرف «ز»."
-      ],
-      "meta": [
-        "فرنسا · ريال مدريد",
-        "وسط · الدوري الإسباني · 54 سنة"
-      ]
-    },
-    {
-      "id": "beckham",
-      "answer": "ديفيد بيكهام",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 1992 مع مانشستر يونايتد.",
-        "بعدها لعبت في: ريال مدريد · لوس أنجلوس غالاكسي · ميلان · باريس سان جيرمان. وكان أبرز زمايلي: روي كين · رونالدو نازاريو · كريستيانو رونالدو.",
-        "أنا وسط من إنجلترا، وعندي 51 سنة. من أبرز إنجازاتي: ٦ ألقاب إنجليزي · دوري أبطال أوروبا 1999 · الدوري الإسباني 2007. الناس بتلقبني بـ«بيكس». وأشهر رقم قميص لبسته هو 7. واسمي بيبدأ بحرف «د»."
-      ],
-      "meta": [
-        "إنجلترا · مانشستر يونايتد",
-        "وسط · الدوري الإنجليزي · 51 سنة"
-      ]
-    },
-    {
-      "id": "gerrard",
-      "answer": "ستيفن جيرارد",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 1998 مع ليفربول.",
-        "بعدها لعبت في: لوس أنجلوس غالاكسي. وكان أبرز زمايلي: فرناندو توريس · لويس سواريز · مايكل أوين.",
-        "أنا وسط من إنجلترا، وعندي 46 سنة. من أبرز إنجازاتي: دوري أبطال أوروبا 2005 · كأس الاتحاد الإنجليزي 2006 · ٣ ألقاب كأس الرابطة. الناس بتلقبني بـ«ستيفي جي». وأشهر رقم قميص لبسته هو 8. واسمي بيبدأ بحرف «س»."
-      ],
-      "meta": [
-        "إنجلترا · ليفربول",
-        "وسط · الدوري الإنجليزي · 46 سنة"
-      ]
-    },
-    {
-      "id": "lampard",
-      "answer": "فرانك لامبارد",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 1995 مع وست هام.",
-        "بعدها لعبت في: تشيلسي · مانشستر سيتي · نيويورك سيتي. وكان أبرز زمايلي: ديدييه دروجبا · جون تيري · بيتر تشيك.",
-        "أنا وسط من إنجلترا، وعندي 48 سنة. من أبرز إنجازاتي: دوري أبطال أوروبا 2012 · ٣ ألقاب إنجليزي · هداف تشيلسي التاريخي. الناس بتلقبني بـ«سوبر فرانك». وأشهر رقم قميص لبسته هو 8. واسمي بيبدأ بحرف «ف»."
-      ],
-      "meta": [
-        "إنجلترا · تشيلسي",
-        "وسط · الدوري الإنجليزي · 48 سنة"
-      ]
-    },
-    {
-      "id": "rooney",
-      "answer": "واين روني",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2002 مع إيفرتون.",
-        "بعدها لعبت في: مانشستر يونايتد · واشنطن · ديربي كاونتي. وكان أبرز زمايلي: كريستيانو رونالدو · ريو فرديناند · بول سكولز.",
-        "أنا مهاجم من إنجلترا، وعندي 40 سنة. من أبرز إنجازاتي: دوري أبطال أوروبا 2008 · ٥ ألقاب إنجليزي · هداف مانشستر يونايتد التاريخي. الناس بتلقبني بـ«الفتى الذهبي». وأشهر رقم قميص لبسته هو 10. واسمي بيبدأ بحرف «و»."
-      ],
-      "meta": [
-        "إنجلترا · مانشستر يونايتد",
-        "مهاجم · الدوري الإنجليزي · 40 سنة"
-      ]
-    },
-    {
-      "id": "henry",
-      "answer": "تيري هنري",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 1994 مع موناكو.",
-        "بعدها لعبت في: يوفنتوس · أرسنال · برشلونة · نيويورك ريد بولز. وكان أبرز زمايلي: دينيس بيركامب · ليونيل ميسي · رونالدينيو.",
-        "أنا مهاجم من فرنسا، وعندي 49 سنة. من أبرز إنجازاتي: كأس العالم 1998 · ٢ لقب إنجليزي · دوري أبطال أوروبا 2009. الناس بتلقبني بـ«الغزال». وأشهر رقم قميص لبسته هو 14. واسمي بيبدأ بحرف «ت»."
-      ],
-      "meta": [
-        "فرنسا · أرسنال",
-        "مهاجم · الدوري الإنجليزي · 49 سنة"
-      ]
-    },
-    {
-      "id": "drogba",
-      "answer": "ديدييه دروجبا",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 1998 مع لومان.",
-        "بعدها لعبت في: غانغان · مارسيليا · تشيلسي · غلطة سراي · مونتريال. وكان أبرز زمايلي: فرانك لامبارد · جون تيري · بيتر تشيك.",
-        "أنا مهاجم من ساحل العاج، وعندي 48 سنة. من أبرز إنجازاتي: دوري أبطال أوروبا 2012 · ٤ ألقاب إنجليزي · هداف الدوري الإنجليزي 2007 و2010. الناس بتلقبني بـ«الفيل العاجي». وأشهر رقم قميص لبسته هو 11. واسمي بيبدأ بحرف «د»."
-      ],
-      "meta": [
-        "ساحل العاج · تشيلسي",
-        "مهاجم · الدوري الإنجليزي · 48 سنة"
-      ]
-    },
-    {
-      "id": "etoo",
-      "answer": "صامويل إيتو",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 1998 مع ريال مدريد.",
-        "بعدها لعبت في: مايوركا · برشلونة · إنتر ميلان · تشيلسي. وكان أبرز زمايلي: رونالدينيو · ليونيل ميسي · ويسلي سنايدر.",
-        "أنا مهاجم من الكاميرون، وعندي 45 سنة. من أبرز إنجازاتي: ٣ دوري أبطال أوروبا · ٢ كأس أمم أفريقيا · ٤ ألقاب لاعب أفريقي العام. الناس بتلقبني بـ«الأسد الأفريقي». وأشهر رقم قميص لبسته هو 9. واسمي بيبدأ بحرف «ص»."
-      ],
-      "meta": [
-        "الكاميرون · برشلونة",
-        "مهاجم · الدوري الإسباني · 45 سنة"
-      ]
-    },
-    {
-      "id": "suarez",
-      "answer": "لويس سواريز",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2005 مع ناسيونال.",
-        "بعدها لعبت في: أياكس · ليفربول · برشلونة · أتلتيكو مدريد · إنتر ميامي. وكان أبرز زمايلي: ليونيل ميسي · نيمار · ستيفن جيرارد.",
-        "أنا مهاجم من أوروغواي، وعندي 39 سنة. من أبرز إنجازاتي: دوري أبطال أوروبا 2015 · ٤ ألقاب دوري إسباني · ٢ حذاء ذهبي أوروبي. الناس بتلقبني بـ«المتوحش». وأشهر رقم قميص لبسته هو 9. واسمي بيبدأ بحرف «ل»."
-      ],
-      "meta": [
-        "أوروغواي · برشلونة",
-        "مهاجم · الدوري الإسباني · 39 سنة"
+        {
+          "ar": "لعبت طول حياتي في دوري بلدي، ولعبت موسم واحد بس في تركيا ورجعت تاني بلدي.",
+          "en": "I spent my whole career in my country's league, apart from one season in Turkey before returning home."
+        },
+        {
+          "ar": "أنا لاعب مؤثر في بلدي، لعبت 90 مباراة وسجلت 12 هدف، وكنت الجناح الأساسي.",
+          "en": "I was an influential player in my country — 90 caps, 12 goals, and a first-choice winger."
+        },
+        {
+          "ar": "كسبت جائزة أفضل لاعب في بلدي سنة 2010، وكسبت الدوري في بلدي مرتين.",
+          "en": "I was named my country's Player of the Year in 2010 and won the domestic league twice."
+        },
+        {
+          "ar": "شاركت في 3 بطولات قارية، وشاركت في كأس القارات 2009 ووصلت للمركز الرابع، وشاركت في كأس عالم واحدة.",
+          "en": "I played three continental championships, the 2009 Confederations Cup where we finished fourth, and one World Cup."
+        },
+        {
+          "ar": "اشتهرت بلعب الفري ستايل في دوري بلدي.",
+          "en": "I became famous for freestyle skills in my domestic league."
+        },
+        {
+          "ar": "أنا صاحب الهدف الافتتاحي في كأس العالم 2010.",
+          "en": "I scored the opening goal of the 2010 World Cup."
+        }
       ]
     },
     {
       "id": "cavani",
-      "answer": "إدينسون كافاني",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
+      "answer": {
+        "ar": "إدينسون كافاني",
+        "en": "Edinson Cavani"
+      },
       "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2005 مع دانيوبيو.",
-        "بعدها لعبت في: نابولي · باريس سان جيرمان · مانشستر يونايتد · فالنسيا · بوكا جونيورز. وكان أبرز زمايلي: زلاتان إبراهيموفيتش · نيمار · كريستيانو رونالدو.",
-        "أنا مهاجم من أوروغواي، وعندي 39 سنة. من أبرز إنجازاتي: أكثر من ٥ ألقاب دوري فرنسي · هداف الدوري الإيطالي 2013 · كوبا أمريكا 2011. الناس بتلقبني بـ«الماتادور». وأشهر رقم قميص لبسته هو 9. واسمي بيبدأ بحرف «إ»."
-      ],
-      "meta": [
-        "أوروغواي · باريس سان جيرمان",
-        "مهاجم · الدوري الفرنسي · 39 سنة"
+        {
+          "ar": "لعبت في أربعة من الدوريات الخمسة الكبرى.",
+          "en": "I played in four of Europe's top five leagues."
+        },
+        {
+          "ar": "لعبت مع سيمون كير، وباستوري، ولاتفيزي، وإدواردو فارغاس، وفيديريكو فيرنانديز، ودي ماريا، وماينان، ولو سيلسو، ولوكاس مورا، وماركوس روخو.",
+          "en": "I played alongside Simon Kjær, Pastore, Lavezzi, Eduardo Vargas, Federico Fernández, Di María, Maignan, Lo Celso, Lucas Moura and Marcos Rojo."
+        },
+        {
+          "ar": "لعبت 5 بطولات قارية وكسبت واحدة، ولعبت كأس عالم 4 مرات وأولمبياد 2012.",
+          "en": "I played five continental championships and won one, four World Cups and the 2012 Olympics."
+        },
+        {
+          "ar": "شاركت في 3 بطولات قارية، وشاركت في كأس القارات 2009 ووصلت للمركز الرابع، وشاركت في كأس عالم واحدة.",
+          "en": "I played three continental championships, the 2009 Confederations Cup where we finished fourth, and one World Cup."
+        },
+        {
+          "ar": "كنت وصيف الدوري الأوروبي مرة، ودوري أبطال أوروبا مرة، وكوبا ليبرتادوريس مرة.",
+          "en": "I finished runner-up in the Europa League once, the Champions League once, and the Copa Libertadores once."
+        },
+        {
+          "ar": "كسبت كأس إيطاليا 2012، وباقي بطولاتي في فرنسا والدوري في بلدي مرة.",
+          "en": "I won the Coppa Italia in 2012, plus trophies in France and the league in my country once."
+        },
+        {
+          "ar": "كنت هداف الدوري مرتين، وهداف كوبا أمريكا للشباب مرة سنة 2007.",
+          "en": "I was the league's top scorer twice and the top scorer of the South American Youth Championship once, in 2007."
+        }
       ]
     },
     {
-      "id": "valverde",
-      "answer": "فيديريكو فالفيردي",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
+      "id": "maxi-rodriguez",
+      "answer": {
+        "ar": "ماكسي رودريغيز",
+        "en": "Maxi Rodríguez"
+      },
       "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2015 مع بينارول.",
-        "بعدها لعبت في: ريال مدريد. وكان أبرز زمايلي: كريم بنزيمة · لوكا مودريتش · فينيسيوس جونيور.",
-        "أنا وسط من أوروغواي، وعندي 28 سنة. من أبرز إنجازاتي: ٢ دوري أبطال أوروبا · ٣ ألقاب دوري إسباني · كأس العالم للأندية 2018. الناس بتلقبني بـ«الصقر». وأشهر رقم قميص لبسته هو 15. واسمي بيبدأ بحرف «ف»."
-      ],
-      "meta": [
-        "أوروغواي · ريال مدريد",
-        "وسط · الدوري الإسباني · 28 سنة"
+        {
+          "ar": "لعبت في اثنين من الدوريات الخمسة الكبرى (إنجلترا وإسبانيا).",
+          "en": "I played in two of the top five leagues (England and Spain)."
+        },
+        {
+          "ar": "لعبت مع كيزمان، وأورتيغا، وأغويرو، ومانيش، وتياغو موتا، وسيماو، وماسكيرانو، ودوني.",
+          "en": "I played alongside Kezman, Ortega, Agüero, Maniche, Thiago Motta, Simão, Mascherano and Doni."
+        },
+        {
+          "ar": "كسبت كأس الرابطة الإنجليزية مرة، والدوري الأوروغوياني مرة، وكنت هداف كأس إسبانيا 2010، وأفضل لاعب في بلدي 2013.",
+          "en": "I won the English League Cup once and the Uruguayan league once, was the Copa del Rey top scorer in 2010, and my country's Player of the Year in 2013."
+        },
+        {
+          "ar": "لعبت كأس عالم 3 مرات وكنت وصيف مرة، ولعبت كأس القارات مرة وكنت فيها الوصيف.",
+          "en": "I played three World Cups and finished runner-up once, and played one Confederations Cup where I also finished runner-up."
+        },
+        {
+          "ar": "سجلت هدف أيقوني في كأس العالم 2006 أمام المكسيك.",
+          "en": "I scored an iconic goal at the 2006 World Cup against Mexico."
+        }
       ]
     },
     {
-      "id": "lautaro",
-      "answer": "لاوتارو مارتينيز",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
+      "id": "tomasson",
+      "answer": {
+        "ar": "يون دال توماسون",
+        "en": "Jon Dahl Tomasson"
+      },
       "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2015 مع راسينغ.",
-        "بعدها لعبت في: إنتر ميلان. وكان أبرز زمايلي: روميلو لوكاكو · نيكولو باريلا · ليونيل ميسي.",
-        "أنا مهاجم من الأرجنتين، وعندي 29 سنة. من أبرز إنجازاتي: كأس العالم 2022 · الدوري الإيطالي 2021 و2024 · كوبا أمريكا 2024. الناس بتلقبني بـ«الفأر». وأشهر رقم قميص لبسته هو 10. واسمي بيبدأ بحرف «ل»."
-      ],
-      "meta": [
-        "الأرجنتين · إنتر ميلان",
-        "مهاجم · الدوري الإيطالي · 29 سنة"
+        {
+          "ar": "لعبت في أربعة من الدوريات الخمسة الكبرى.",
+          "en": "I played in four of the top five leagues."
+        },
+        {
+          "ar": "لعبت مع إيان راش، ودوديك، وفينالدوم، وفان برونكهورست، ودي فري، وريدوندو، وسيدورف، وماريو غوميز، وروبرت بيريز.",
+          "en": "I played alongside Ian Rush, Dudek, Wijnaldum, van Bronckhorst, De Vrij, Redondo, Seedorf, Mario Gómez and Robert Pirès."
+        },
+        {
+          "ar": "شاركت في كل الفئات العمرية لمنتخبي، وسجلت 52 هدف في 112 مباراة.",
+          "en": "I played for every youth level of my national team and scored 52 goals in 112 caps."
+        },
+        {
+          "ar": "كسبت الدوري الهولندي، والإيطالي، ودوري أبطال أوروبا، وكأس الاتحاد الأوروبي، والسوبر الأوروبي، والسوبر الإيطالي، وكأس إيطاليا، والدوري الألماني — بس تمت إعارتي في نص الموسم لفريق إسباني.",
+          "en": "I won the Dutch and Italian leagues, the Champions League, the UEFA Cup, the UEFA Super Cup, the Italian Super Cup, the Coppa Italia and the German league — but I was loaned out mid-season to a Spanish club."
+        },
+        {
+          "ar": "كسبت الحذاء البرونزي في كأس العالم 2002، وأفضل لاعب في بلدي 2004، وكنت في فريق يورو 2004، وأفضل موهبة صاعدة في هولندا 1996.",
+          "en": "I won the Bronze Boot at the 2002 World Cup, was my country's Player of the Year in 2004, made the Euro 2004 Team of the Tournament, and was named Holland's biggest emerging talent in 1996."
+        },
+        {
+          "ar": "لعبت يورو مرتين وكأس عالم مرتين، وسجلت فيهم كلهم ما عدا يورو 2008، رغم إني سجلت 8 أهداف في التصفيات.",
+          "en": "I played two European Championships and two World Cups, and scored in all of them except Euro 2008 — even though I scored 8 goals in qualifying."
+        },
+        {
+          "ar": "اتدربت تحت قيادة أنشيلوتي، وكيني دالغليش، وبيلغريني.",
+          "en": "I played under Ancelotti, Kenny Dalglish and Pellegrini."
+        },
+        {
+          "ar": "كسبت الدوري السويدي مرتين كمدرب، وأفضل مدرب في السويد مرة سنة 2020، وأنا حاليًا مدرب بلاكبيرن.",
+          "en": "I won the Swedish league twice as a manager, was Swedish Manager of the Year in 2020, and I currently manage Blackburn."
+        }
       ]
     },
     {
-      "id": "dimaria",
-      "answer": "أنخيل دي ماريا",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
+      "id": "lizarazu",
+      "answer": {
+        "ar": "بيسنتي ليزارازو",
+        "en": "Bixente Lizarazu"
+      },
       "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2005 مع روزاريو سنترال.",
-        "بعدها لعبت في: بنفيكا · ريال مدريد · باريس سان جيرمان · يوفنتوس. وكان أبرز زمايلي: ليونيل ميسي · كريستيانو رونالدو · نيمار.",
-        "أنا وسط من الأرجنتين، وعندي 38 سنة. من أبرز إنجازاتي: كأس العالم 2022 · كوبا أمريكا 2021 و2024 · دوري أبطال أوروبا 2014. الناس بتلقبني بـ«البرغوث الثاني». وأشهر رقم قميص لبسته هو 11. واسمي بيبدأ بحرف «أ»."
-      ],
-      "meta": [
-        "الأرجنتين · باريس سان جيرمان",
-        "وسط · الدوري الفرنسي · 38 سنة"
+        {
+          "ar": "لعبت في ثلاثة من الدوريات الخمسة الكبرى (فرنسا وإسبانيا وألمانيا)، وعمري ما لعبت في غيرهم.",
+          "en": "I played in three of the top five leagues (France, Spain and Germany) and nowhere else."
+        },
+        {
+          "ar": "لعبت مع بالاك، وزيدان، وكابا ديارا، وميدو، وفلاميني، وكارانكا.",
+          "en": "I played alongside Ballack, Zidane, Kaba Diawara, Mido, Flamini and Karanka."
+        },
+        {
+          "ar": "سجلت في مسيرتي 41 هدف، منهم هدفين مع المنتخب في 97 مباراة، أمام الصحراء والسعودية.",
+          "en": "I scored 41 goals in my career, two of them for the national team in 97 caps, against Western Sahara and Saudi Arabia."
+        },
+        {
+          "ar": "كسبت الدوري الألماني 6 مرات، ودوري أبطال أوروبا مرة، وكنت وصيف مرة مع نفس النادي، وكسبت كأس إنترتوتو مرة، وكنت وصيف كأس الاتحاد الأوروبي مرة.",
+          "en": "I won the German league six times, the Champions League once and finished runner-up once with the same club, won the Intertoto Cup once and finished runner-up in the UEFA Cup once."
+        },
+        {
+          "ar": "كنت في فريق فيفا 2002، وكسبت كأس العالم مرة.",
+          "en": "I was in the FIFA 2002 World Cup Team of the Tournament, and I won the World Cup once."
+        },
+        {
+          "ar": "شاركت في كأس عالم مرتين وكسبت واحدة، وشاركت في البطولة القارية 3 مرات وكسبت واحدة، وشاركت في 2 كأس قارات وكسبتهم.",
+          "en": "I played two World Cups and won one, three European Championships and won one, and two Confederations Cups and won both."
+        },
+        {
+          "ar": "اعتزلت سنة 2006.",
+          "en": "I retired in 2006."
+        }
       ]
     },
     {
-      "id": "emiliano-martinez",
-      "answer": "إيميليانو مارتينيز",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
+      "id": "wright-phillips",
+      "answer": {
+        "ar": "شون رايت-فيليبس",
+        "en": "Shaun Wright-Phillips"
+      },
       "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2012 مع أرسنال.",
-        "بعدها لعبت في: أستون فيلا. وكان أبرز زمايلي: ليونيل ميسي · أنخيل دي ماريا · جون مكجين.",
-        "أنا حارس من الأرجنتين، وعندي 34 سنة. من أبرز إنجازاتي: كأس العالم 2022 · كوبا أمريكا 2021 و2024 · أفضل حارس 2022. الناس بتلقبني بـ«ديبو». وأشهر رقم قميص لبسته هو 23. واسمي بيبدأ بحرف «إ»."
-      ],
-      "meta": [
-        "الأرجنتين · أستون فيلا",
-        "حارس · الدوري الإنجليزي · 34 سنة"
+        {
+          "ar": "لعبت في واحد من الدوريات الخمسة الكبرى، وفي الدوري الأمريكي.",
+          "en": "I played in one of the top five leagues and in MLS."
+        },
+        {
+          "ar": "لعبت مع كريسبو، وإيلانو، وشيفتشينكو، وكولاروف، وأنيلكا.",
+          "en": "I played alongside Crespo, Elano, Shevchenko, Kolarov and Anelka."
+        },
+        {
+          "ar": "لعبت مع بلدي 36 مباراة وسجلت 6 أهداف، منهم هدف في مصر.",
+          "en": "I earned 36 caps for my country and scored 6 goals, one of them in Egypt."
+        },
+        {
+          "ar": "كسبت الدوري مرة، ودوري الدرجة التانية مرة، وكسبت جائزة أفضل لاعب شاب في ناديي 4 مرات.",
+          "en": "I won the league once and the second division once, and was my club's Young Player of the Year four times."
+        },
+        {
+          "ar": "لعبت كأس عالم واحدة بس، وخرجت من دور الـ16.",
+          "en": "I played in just one World Cup and went out in the round of 16."
+        }
       ]
     },
     {
-      "id": "enzo",
-      "answer": "إنزو فيرنانديز",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
+      "id": "simao",
+      "answer": {
+        "ar": "سيماو سابروسا",
+        "en": "Simão Sabrosa"
+      },
       "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2019 مع ريفر بليت.",
-        "بعدها لعبت في: بنفيكا · تشيلسي. وكان أبرز زمايلي: ليونيل ميسي · كول بالمر · موسيس كايسيدو.",
-        "أنا وسط من الأرجنتين، وعندي 25 سنة. من أبرز إنجازاتي: كأس العالم 2022 · كوبا أمريكا 2024 · أفضل لاعب شاب 2022. وأشهر رقم قميص لبسته هو 8. واسمي بيبدأ بحرف «إ»."
-      ],
-      "meta": [
-        "الأرجنتين · تشيلسي",
-        "وسط · الدوري الإنجليزي · 25 سنة"
+        {
+          "ar": "لعبت في دوري واحد بس من الدوريات الخمسة الكبرى: إسبانيا.",
+          "en": "I played in only one of the top five leagues: Spain."
+        },
+        {
+          "ar": "لعبت مع غابرييل هينزه، وريفالدو، ولويس فيغو، وروبرت إنكه، وميكولي، وكاراغونيس، وفورلان، وأغويرو، وجوتي.",
+          "en": "I played alongside Gabriel Heinze, Rivaldo, Luís Figo, Robert Enke, Miccoli, Karagounis, Forlán, Agüero and Guti."
+        },
+        {
+          "ar": "لعبت مع الأندية 500 مباراة في الدوري وسجلت 124، ومع المنتخب 85 مباراة وسجلت 22.",
+          "en": "I played 500 league games for my clubs, scoring 124, and earned 85 caps, scoring 22."
+        },
+        {
+          "ar": "كنت وصيف اليورو مرة واحدة بس، وكسبت الدوري الأوروبي مرة.",
+          "en": "I finished runner-up at the Euros once, and won the Europa League once."
+        },
+        {
+          "ar": "كنت أفضل لاعب في الدوري البرتغالي موسم 2006-07.",
+          "en": "I was the best player in the Portuguese league in 2006-07."
+        },
+        {
+          "ar": "لعبت يورو مرتين وما سجلتش فيهم، ولعبت كأس عالم مرتين: سجلت في الأولى هدف واحد بس من ضربة جزاء، وفي التانية هدف في مباراة كسبناها 7-0.",
+          "en": "I played two European Championships without scoring, and two World Cups: I scored just one goal in the first, a penalty, and one in the second, in a match we won 7-0."
+        }
       ]
     },
     {
-      "id": "julian-alvarez",
-      "answer": "خوليان ألفاريز",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
+      "id": "mccarthy",
+      "answer": {
+        "ar": "بيني ماكارثي",
+        "en": "Benni McCarthy"
+      },
       "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2018 مع ريفر بليت.",
-        "بعدها لعبت في: مانشستر سيتي · أتلتيكو مدريد. وكان أبرز زمايلي: ليونيل ميسي · إيرلينج هالاند · أنطوان جريزمان.",
-        "أنا مهاجم من الأرجنتين، وعندي 26 سنة. من أبرز إنجازاتي: كأس العالم 2022 · دوري أبطال أوروبا 2023 · كوبا أمريكا 2024. الناس بتلقبني بـ«العنكبوت». وأشهر رقم قميص لبسته هو 19. واسمي بيبدأ بحرف «خ»."
-      ],
-      "meta": [
-        "الأرجنتين · مانشستر سيتي",
-        "مهاجم · الدوري الإنجليزي · 26 سنة"
+        {
+          "ar": "لعبت في اثنين من الدوريات الخمسة الكبرى (إسبانيا وإنجلترا).",
+          "en": "I played in two of the top five leagues (Spain and England)."
+        },
+        {
+          "ar": "بدأت مسيرتي في دوري بلدي وبعدها رحت هولندا.",
+          "en": "I started my career in my country's league, then moved to the Netherlands."
+        },
+        {
+          "ar": "لعبت مع ديوف، وكانو، وجمال بلماضي، وماكيليل، وسيلفينيو، وريكاردو كارفاليو، وديكو، وسانتا كروز، وفريدل.",
+          "en": "I played alongside Diouf, Kanu, Jamal Belmadi, Makélélé, Sylvinho, Ricardo Carvalho, Deco, Santa Cruz and Friedel."
+        },
+        {
+          "ar": "أنا الهداف التاريخي لبلدي بـ31 هدف، ولعبت معاهم كأس عالم 98 و2002، والبطولة القارية مرتين، مرة منهم كنت وصيف، والأولمبياد 2000.",
+          "en": "I am my country's all-time top scorer with 31 goals, played the 1998 and 2002 World Cups, two continental championships — finishing runner-up in one — and the 2000 Olympics."
+        },
+        {
+          "ar": "كسبت الدوري الهولندي مرة، والبرتغالي مرتين، ولعبت في إنجلترا وإسبانيا، وكسبت كأس إنترتوتو مرة ودوري أبطال أوروبا مرة.",
+          "en": "I won the Dutch league once and the Portuguese league twice, played in England and Spain, and won the Intertoto Cup once and the Champions League once."
+        },
+        {
+          "ar": "كنت هداف وأفضل لاعب في كأس الأمم الأفريقية 98.",
+          "en": "I was the top scorer and best player at the 1998 Africa Cup of Nations."
+        }
       ]
     },
     {
-      "id": "aguero",
-      "answer": "سيرجيو أجويرو",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
+      "id": "quagliarella",
+      "answer": {
+        "ar": "فابيو كوالياريلا",
+        "en": "Fabio Quagliarella"
+      },
       "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2003 مع إندبندينتي.",
-        "بعدها لعبت في: أتلتيكو مدريد · مانشستر سيتي · برشلونة. وكان أبرز زمايلي: ليونيل ميسي · دافيد سيلفا · كيفن دي بروين.",
-        "أنا مهاجم من الأرجنتين، وعندي 38 سنة. من أبرز إنجازاتي: ٥ ألقاب إنجليزي · الدوري الأوروبي 2010 · هداف مانشستر سيتي التاريخي. الناس بتلقبني بـ«الكون». وأشهر رقم قميص لبسته هو 10. واسمي بيبدأ بحرف «س»."
-      ],
-      "meta": [
-        "الأرجنتين · مانشستر سيتي",
-        "مهاجم · الدوري الإنجليزي · 38 سنة"
+        {
+          "ar": "لعبت في دوري واحد بس في حياتي، وهو من الدوريات الخمسة الكبرى.",
+          "en": "I played in only one league in my entire career — one of Europe's top five."
+        },
+        {
+          "ar": "لعبت مع الأندية 645 مباراة في الدوري سجلت فيها 209 أهداف، وسجلت 8 أهداف مع المنتخب في 28 مباراة.",
+          "en": "I played 645 league games for my clubs, scoring 209 goals, and scored 8 in 28 caps for my country."
+        },
+        {
+          "ar": "لعبت في كل الفئات العمرية لمنتخب بلدي.",
+          "en": "I played for every youth level of my national team."
+        },
+        {
+          "ar": "كسبت Serie C مرة، وSerie B مرة، وSerie A 3 مرات.",
+          "en": "I won Serie C once, Serie B once and Serie A three times."
+        },
+        {
+          "ar": "كسبت جائزة أفضل هدف في الدوري مرتين 2009 و2019، واشتهرت بتسجيل الأهداف الخارقة، وكنت هداف الدوري 2019 وكسبت جائزة أفضل مهاجم.",
+          "en": "I won the Serie A Goal of the Season twice (2009 and 2019), became famous for spectacular goals, was the league's top scorer in 2019 and won the best striker award."
+        },
+        {
+          "ar": "لعبت كأس القارات مرة، واليورو مرة، وكأس العالم مرة، وما سجلتش فيهم غير هدف واحد بس كان في كأس العالم، في مباراة خسرناها في المجموعة وكانت سبب خروجنا رغم إننا كنا حاملين اللقب.",
+          "en": "I played one Confederations Cup, one Euro and one World Cup, and scored only one goal in all of them — at the World Cup, in a group match we lost that knocked us out despite being the defending champions."
+        },
+        {
+          "ar": "لعبت مع توتي، وإيموبيلي، وماتيرازي، وهامشيك.",
+          "en": "I played alongside Totti, Immobile, Materazzi and Hamšík."
+        }
       ]
     },
     {
-      "id": "thiago-silva",
-      "answer": "تياجو سيلفا",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
+      "id": "reyes",
+      "answer": {
+        "ar": "خوسيه أنطونيو رييس",
+        "en": "José Antonio Reyes"
+      },
       "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2006 مع فلومينينسي.",
-        "بعدها لعبت في: ميلان · باريس سان جيرمان · تشيلسي. وكان أبرز زمايلي: نيمار · كاكا · زلاتان إبراهيموفيتش.",
-        "أنا مدافع من البرازيل، وعندي 42 سنة. من أبرز إنجازاتي: ٧ ألقاب دوري فرنسي · دوري أبطال أوروبا 2021 · كوبا أمريكا 2019. الناس بتلقبني بـ«المونستر». وأشهر رقم قميص لبسته هو 6. واسمي بيبدأ بحرف «ت»."
-      ],
-      "meta": [
-        "البرازيل · تشيلسي",
-        "مدافع · الدوري الإنجليزي · 42 سنة"
+        {
+          "ar": "لعبت في اثنين من الدوريات الخمسة الكبرى.",
+          "en": "I played in two of the top five leagues."
+        },
+        {
+          "ar": "لعبت مع فان نيستلروي، وبيكهام، وبابلو أيمار، وتياغو موتا، وأغويرو، وفابريغاس، وباتيستا، ودينيس سواريز، ونزونزي.",
+          "en": "I played alongside Van Nistelrooy, Beckham, Pablo Aimar, Thiago Motta, Agüero, Fàbregas, Baptista, Denis Suárez and Nzonzi."
+        },
+        {
+          "ar": "لعبت في كل الفئات العمرية لمنتخب بلدي، ولعبت 21 مباراة وسجلت 4، منهم هدف في مصر.",
+          "en": "I played for every youth level of my national team and earned 21 caps, scoring 4 — one of them in Egypt."
+        },
+        {
+          "ar": "كسبت الدوري الأوروبي 5 مرات، والسوبر الأوروبي 3 مرات، وكنت وصيف دوري أبطال أوروبا مرة، وكسبت الدوري الإنجليزي والإسباني والبرتغالي.",
+          "en": "I won the Europa League five times and the UEFA Super Cup three times, finished runner-up in the Champions League once, and won the English, Spanish and Portuguese leagues."
+        },
+        {
+          "ar": "كسبت يورو تحت 19 سنة 2002.",
+          "en": "I won the 2002 European Under-19 Championship."
+        },
+        {
+          "ar": "كنت كابتن الفريق اللي كسب الدوري الأوروبي سنة 2015.",
+          "en": "I was the captain of the team that won the Europa League in 2015."
+        },
+        {
+          "ar": "في الدوري نزلت مكان بيكهام بسبب الإصابة، وسجلت هدفين كسبنا بيهم الدوري سنة 2007.",
+          "en": "In the league I replaced Beckham because of injury, and scored two goals that won us the league in 2007."
+        }
       ]
     },
     {
-      "id": "alisson",
-      "answer": "أليسون بيكر",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
+      "id": "eduardo-da-silva",
+      "answer": {
+        "ar": "إدواردو دا سيلفا",
+        "en": "Eduardo da Silva"
+      },
       "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2013 مع إنترناسيونال.",
-        "بعدها لعبت في: روما · ليفربول. وكان أبرز زمايلي: محمد صلاح · فيرجيل فان دايك · ساديو ماني.",
-        "أنا حارس من البرازيل، وعندي 34 سنة. من أبرز إنجازاتي: دوري أبطال أوروبا 2019 · الدوري الإنجليزي 2020 · كوبا أمريكا 2019. الناس بتلقبني بـ«الحارس الطائر». وأشهر رقم قميص لبسته هو 1. واسمي بيبدأ بحرف «أ»."
-      ],
-      "meta": [
-        "البرازيل · ليفربول",
-        "حارس · الدوري الإنجليزي · 34 سنة"
+        {
+          "ar": "لعبت في دوري واحد من الدوريات الخمسة الكبرى (إنجلترا)، وسجلت مع الأندية في الدوري 140 هدف في 319 مباراة.",
+          "en": "I played in one of the top five leagues (England), and scored 140 league goals in 319 games for my clubs."
+        },
+        {
+          "ar": "لعبت مع فريد، وإيفرتون، وأرميرو، ومودريتش، وروزيتسكي، وجيلبرتو سيلفا، ودوغلاس كوستا، وويليان، ومخيتاريان.",
+          "en": "I played alongside Fred, Everton, Armero, Modrić, Rosický, Gilberto Silva, Douglas Costa, Willian and Mkhitaryan."
+        },
+        {
+          "ar": "لعبت مع منتخبي 64 مباراة وسجلت 29، وشاركت في كأس العالم وفي البطولة القارية مرة ومرة.",
+          "en": "I earned 64 caps and scored 29 goals, and played at the World Cup and the European Championship once each."
+        },
+        {
+          "ar": "كنت أفضل لاعب في بلدي 2006، وكنت هداف منتخبي في تصفيات البطولة القارية 2008، بس غيبت عن البطولة بسبب الإصابة.",
+          "en": "I was my country's Player of the Year in 2006 and top scorer in Euro 2008 qualifying, but missed the tournament through injury."
+        },
+        {
+          "ar": "كسبت الدوري 8 مرات في بلاد مش من الدوريات الخمسة الكبرى.",
+          "en": "I won league titles 8 times in countries outside the top five leagues."
+        },
+        {
+          "ar": "كنت هداف فلامنغو في موسم 2014.",
+          "en": "I was Flamengo's top scorer in the 2014 season."
+        }
       ]
     },
     {
-      "id": "casemiro",
-      "answer": "كاسيميرو",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
+      "id": "modeste",
+      "answer": {
+        "ar": "أنتوني موديست",
+        "en": "Anthony Modeste"
+      },
       "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2010 مع ساو باولو.",
-        "بعدها لعبت في: ريال مدريد · مانشستر يونايتد. وكان أبرز زمايلي: كريستيانو رونالدو · لوكا مودريتش · كريم بنزيمة.",
-        "أنا وسط من البرازيل، وعندي 34 سنة. من أبرز إنجازاتي: ٥ دوري أبطال أوروبا · كوبا أمريكا 2019 · ٣ ألقاب دوري إسباني. الناس بتلقبني بـ«الجندي». وأشهر رقم قميص لبسته هو 18. واسمي بيبدأ بحرف «ك»."
-      ],
-      "meta": [
-        "البرازيل · ريال مدريد",
-        "وسط · الدوري الإسباني · 34 سنة"
+        {
+          "ar": "لعبت في ثلاثة من الدوريات الخمسة الكبرى (إنجلترا وفرنسا وألمانيا).",
+          "en": "I played in three of the top five leagues (England, France and Germany)."
+        },
+        {
+          "ar": "لعبت مع لوك ريمي، وديفيد أوسبينا، وديبوشي، وماريانو، ونزونزي، وفيرمينو، وإيمانويل دينيس.",
+          "en": "I played alongside Loïc Rémy, David Ospina, Debuchy, Mariano, Nzonzi, Firmino and Emmanuel Dennis."
+        },
+        {
+          "ar": "كنت في فريق في دوري الدرجة التانية الفرنسي سنة 2010.",
+          "en": "I was at a Ligue 2 club in 2010."
+        },
+        {
+          "ar": "سجلت 146 هدف مع الفرق اللي لعبت معاها في الدوريات الخمسة الكبرى، و11 هدف في دوري الدرجة التانية.",
+          "en": "I scored 146 goals for the clubs I played for in the top five leagues, and 11 goals in the second division."
+        },
+        {
+          "ar": "سجلت 6 أهداف مع منتخب الشباب في 16 مباراة، وعمري ما لعبت للمنتخب الأول.",
+          "en": "I scored 6 goals in 16 youth internationals and never played for the senior national team."
+        },
+        {
+          "ar": "البطولة الوحيدة اللي حققتها في أوروبا كانت Bundesliga 2، ولعبت أنا وأبويا في سانت إتيان.",
+          "en": "The only title I won in Europe was the 2. Bundesliga, and both my father and I played for Saint-Étienne."
+        }
       ]
     },
     {
-      "id": "rodrygo",
-      "answer": "رودريجو",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
+      "id": "anelka",
+      "answer": {
+        "ar": "نيكولا أنيلكا",
+        "en": "Nicolas Anelka"
+      },
       "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2017 مع سانتوس.",
-        "بعدها لعبت في: ريال مدريد. وكان أبرز زمايلي: فينيسيوس جونيور · كريم بنزيمة · جود بيلينجهام.",
-        "أنا مهاجم من البرازيل، وعندي 25 سنة. من أبرز إنجازاتي: ٢ دوري أبطال أوروبا · ٣ ألقاب دوري إسباني · كأس العالم للأندية 2022. الناس بتلقبني بـ«راي». وأشهر رقم قميص لبسته هو 11. واسمي بيبدأ بحرف «ر»."
-      ],
-      "meta": [
-        "البرازيل · ريال مدريد",
-        "مهاجم · الدوري الإسباني · 25 سنة"
+        {
+          "ar": "لعبت في أربعة من الدوريات الخمسة الكبرى (إنجلترا وفرنسا وإسبانيا وإيطاليا).",
+          "en": "I played in four of the top five leagues (England, France, Spain and Italy)."
+        },
+        {
+          "ar": "لعبت مع بن فوستر، وأوين، وأرتيغا، ورونالدينيو، وإيتو، وسيدورف، وبوغبا، وهينزه، وأبياه، وإيسيان.",
+          "en": "I played alongside Ben Foster, Owen, Arteta, Ronaldinho, Eto'o, Seedorf, Pogba, Heinze, Appiah and Essien."
+        },
+        {
+          "ar": "كسبت الدوري الإنجليزي مرتين مع ناديين مختلفين، وكأس الاتحاد الإنجليزي 3 مرات، والدوري الإيطالي مرة، ودوري أبطال أوروبا مرة، وكنت وصيف مرة.",
+          "en": "I won the Premier League twice with two different clubs, the FA Cup three times, the Serie A once, the Champions League once and finished runner-up once."
+        },
+        {
+          "ar": "دخلت فريق الموسم في إنجلترا مرتين مع ناديين مختلفين، وكسبت جائزة أفضل لاعب شاب في الدوري مرة.",
+          "en": "I made the PFA Team of the Season twice with two different clubs, and won the Young Player of the Year award once."
+        },
+        {
+          "ar": "لعبت كأس عالم مرة واحدة، ويورو مرتين وكنت البطل مرة، وكسبت كأس القارات مرة.",
+          "en": "I played one World Cup, two European Championships (winning one), and won the Confederations Cup once."
+        },
+        {
+          "ar": "سجلت 14 هدف في 64 مباراة مع المنتخب، وأنا حاليًا مدرب لشباب ليل.",
+          "en": "I scored 14 goals in 64 caps for my country, and I currently coach Lille's youth team."
+        }
       ]
     },
     {
-      "id": "raphinha",
-      "answer": "رافينيا",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
+      "id": "defoe",
+      "answer": {
+        "ar": "جيرمين ديفو",
+        "en": "Jermain Defoe"
+      },
       "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2016 مع أفاي.",
-        "بعدها لعبت في: فيتوريا غيماريش · ليدز يونايتد · برشلونة. وكان أبرز زمايلي: لامين يامال · روبرت ليفاندوفسكي · بيدري.",
-        "أنا مهاجم من البرازيل، وعندي 29 سنة. من أبرز إنجازاتي: الدوري الإسباني 2023 · كأس السوبر الإسباني 2023 · أفضل لاعب في الدوري البرتغالي 2020. وأشهر رقم قميص لبسته هو 11. واسمي بيبدأ بحرف «ر»."
-      ],
-      "meta": [
-        "البرازيل · برشلونة",
-        "مهاجم · الدوري الإسباني · 29 سنة"
+        {
+          "ar": "لعبت في 3 دوريات، واحد منهم من الدوريات الخمسة الكبرى.",
+          "en": "I played in three leagues, one of them in the top five."
+        },
+        {
+          "ar": "لعبت مع كانوتي، ودي كانيو، وريغوبرت سونغ، ولورين، ومونتاري، وكانو، ودافيدز، وتاعرابت، وغوديونسن، ولويس ساها، وجون لوندسترام.",
+          "en": "I played alongside Kanouté, Di Canio, Rigobert Song, Lauren, Muntari, Kanu, Davids, Taarabt, Guðjohnsen, Louis Saha and John Lundstram."
+        },
+        {
+          "ar": "رحت فريق في 2007-08 وكسبت معاه الكأس، وساعدناه يوصل لأول مرة للدوري الأوروبي، وسجلت معاهم 8 أهداف في 12 مباراة في الدوري وخلصنا المركز الثامن.",
+          "en": "I joined a club in 2007-08, won the FA Cup with them, helped them reach Europe for the first time, scored 8 goals in 12 league games, and we finished eighth."
+        },
+        {
+          "ar": "لعبت بطولة قارية مرة، وكأس عالم مرة، وسجلت هدف في كأس العالم أمام سلوفينيا.",
+          "en": "I played one continental championship and one World Cup, and scored at the World Cup against Slovenia."
+        },
+        {
+          "ar": "كسبت جائزة أفضل لاعب في فريقي 2004 وفي فريق تاني 2015-16 في نفس الدوري.",
+          "en": "I was my club's Player of the Year in 2004 and at another club in 2015-16, in the same league."
+        },
+        {
+          "ar": "لعبت مع المنتخب في كل الفئات السنية التانية، وسجلت 20 في 57.",
+          "en": "I played for my country at every youth level and scored 20 in 57."
+        },
+        {
+          "ar": "كسبت كأس الرابطة مرتين مع توتنهام، وسجلت في الدوريات 227 هدف في 624 مباراة.",
+          "en": "I won the League Cup twice with Tottenham and scored 227 league goals in 624 appearances."
+        }
       ]
     },
     {
-      "id": "ronaldinho",
-      "answer": "رونالدينيو",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
+      "id": "hargreaves",
+      "answer": {
+        "ar": "أوين هارجريفز",
+        "en": "Owen Hargreaves"
+      },
       "clues": [
-        "بدأت مسيرتي الاحترافية سنة 1998 مع غريميو.",
-        "بعدها لعبت في: باريس سان جيرمان · برشلونة · ميلان · فلومينينسي. وكان أبرز زمايلي: ليونيل ميسي · كاكا · صامويل إيتو.",
-        "أنا مهاجم من البرازيل، وعندي 46 سنة. من أبرز إنجازاتي: كأس العالم 2002 · الكرة الذهبية 2005 · دوري أبطال أوروبا 2006. الناس بتلقبني بـ«الساحر». وأشهر رقم قميص لبسته هو 10. واسمي بيبدأ بحرف «ر»."
-      ],
-      "meta": [
-        "البرازيل · برشلونة",
-        "مهاجم · الدوري الإسباني · 46 سنة"
+        {
+          "ar": "لعبت في اثنين من الدوريات الخمسة الكبرى، وعمري ما لعبت في غيرهم.",
+          "en": "I played in two of the top five leagues and nowhere else."
+        },
+        {
+          "ar": "اتولدت في كندا، ولعبت تحت 19 مع ويلز، وبدأت ناشئ في فريق ألماني، ولعبت للمنتخب الأول مع إنجلترا.",
+          "en": "I was born in Canada, played Under-19 football for Wales, came through the youth ranks at a German club, and played senior international football for England."
+        },
+        {
+          "ar": "حققت 4 دوري ألماني، وواحد إنجليزي، و2 دوري أبطال مع ناديين مختلفين، وأفضل لاعب في بلدي 2006.",
+          "en": "I won the German league four times, the English league once, and the Champions League twice with two different clubs — and was England's Player of the Year in 2006."
+        },
+        {
+          "ar": "لعبت بطولة قارية واحدة وكأس عالم مرتين، وما سجلتش ولا هدف في مسيرتي مع المنتخب في 42 مباراة.",
+          "en": "I played one European Championship and two World Cups, and never scored a single goal in 42 caps for my country."
+        },
+        {
+          "ar": "لعبت مع ألو ديارا، وبالاك، وفان بومل، ويحيى توريه، وأغويرو، وتيفيز، ودريكووتر (مان يونايتد)، وجوشوا كينغ.",
+          "en": "I played alongside Alou Diarra, Ballack, Van Bommel, Yaya Touré, Agüero, Tevez, Drinkwater (Man Utd) and Joshua King."
+        },
+        {
+          "ar": "لعبت في الدوري الإنجليزي مع ناديين، بمجموع 28 مباراة في الدوري في 5 مواسم بسبب الإصابة.",
+          "en": "I played in the Premier League for two clubs, making only 28 league appearances across five seasons because of injuries."
+        }
       ]
     },
     {
-      "id": "ronaldo-nazario",
-      "answer": "رونالدو نازاريو",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
+      "id": "kanu",
+      "answer": {
+        "ar": "نوانكو كانو",
+        "en": "Nwankwo Kanu"
+      },
       "clues": [
-        "بدأت مسيرتي الاحترافية سنة 1993 مع كروزيرو.",
-        "بعدها لعبت في: آيندهوفن · برشلونة · إنتر ميلان · ريال مدريد · ميلان. وكان أبرز زمايلي: زين الدين زيدان · روبرتو كارلوس · رونالدينيو.",
-        "أنا مهاجم من البرازيل، وعندي 50 سنة. من أبرز إنجازاتي: كأس العالم 1994 و2002 · ٢ كرة ذهبية · هداف كأس العالم 2002. الناس بتلقبني بـ«الظاهرة». وأشهر رقم قميص لبسته هو 9. واسمي بيبدأ بحرف «ر»."
-      ],
-      "meta": [
-        "البرازيل · ريال مدريد",
-        "مهاجم · الدوري الإسباني · 50 سنة"
+        {
+          "ar": "لعبت في اثنين من الدوريات الخمسة الكبرى (إنجلترا وإيطاليا)، ولعبت في اثنين برا الخمسة (نيجيريا وهولندا).",
+          "en": "I played in two of the top five leagues (England and Italy) and two outside them (Nigeria and the Netherlands)."
+        },
+        {
+          "ar": "كسبت الدوري النيجيري، والدوري الإنجليزي مرتين، والهولندي 3 مرات، ودوري أبطال أوروبا مرة، وكنت وصيف مرة، وكأس الاتحاد الأوروبي مرة مع فريق تاني، وكأس الاتحاد الإنجليزي 4 مرات مع ناديين مختلفين.",
+          "en": "I won the Nigerian league, the Premier League twice, the Dutch league three times, the Champions League once (and finished runner-up once), the UEFA Cup once with another club, and the FA Cup four times with two different clubs."
+        },
+        {
+          "ar": "كسبت كأس العالم للشباب سنة 93، والأولمبياد 96، وأفضل لاعب في القارة مرتين 96 و99.",
+          "en": "I won the World Youth Championship in 1993 and the Olympics in 1996, and was African Player of the Year twice (1996 and 1999)."
+        },
+        {
+          "ar": "لعبت 3 كؤوس عالم وأولمبياد واحد و6 بطولات قارية، وكنت الوصيف في واحدة والباقي حققت نفس المركز.",
+          "en": "I played three World Cups, one Olympics and six Africa Cup of Nations, finishing runner-up once and in the same position the rest."
+        },
+        {
+          "ar": "سجلت 3 أهداف في الأولمبياد، منهم الهدف الذهبي أمام البرازيل.",
+          "en": "I scored three goals at the Olympics, including the golden goal against Brazil."
+        },
+        {
+          "ar": "لعبت مع سيدورف، وجلين جونسون، وبيغوفيتش، ومونتاري، وكروتش، وزانيتي، وسيلفينيو، وبيتي، وجيو فان برونكهورست.",
+          "en": "I played alongside Seedorf, Glen Johnson, Begović, Muntari, Crouch, Zanetti, Sylvinho, Petit and Gio van Bronckhorst."
+        },
+        {
+          "ar": "سجلت 12 هدف في 86 مباراة مع المنتخب، بالإضافة لـ3 أهداف في الأولمبياد.",
+          "en": "I scored 12 goals in 86 caps, plus 3 more at the Olympics."
+        },
+        {
+          "ar": "سجلت هاتريك تاريخي في ستامفورد بريدج وكسبنا 3-2.",
+          "en": "I scored a historic hat-trick at Stamford Bridge and we won 3-2."
+        }
       ]
     },
     {
-      "id": "roberto-carlos",
-      "answer": "روبرتو كارلوس",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
+      "id": "larsson",
+      "answer": {
+        "ar": "هنريك لارسون",
+        "en": "Henrik Larsson"
+      },
       "clues": [
-        "بدأت مسيرتي الاحترافية سنة 1991 مع بالميراس.",
-        "بعدها لعبت في: إنتر ميلان · ريال مدريد · فنربخشة. وكان أبرز زمايلي: رونالدو نازاريو · زين الدين زيدان · كريستيانو رونالدو.",
-        "أنا مدافع من البرازيل، وعندي 53 سنة. من أبرز إنجازاتي: كأس العالم 2002 · ٣ دوري أبطال أوروبا · ٤ ألقاب دوري إسباني. الناس بتلقبني بـ«الصاروخ». وأشهر رقم قميص لبسته هو 3. واسمي بيبدأ بحرف «ر»."
-      ],
-      "meta": [
-        "البرازيل · ريال مدريد",
-        "مدافع · الدوري الإسباني · 53 سنة"
+        {
+          "ar": "لعبت في اثنين من الدوريات الخمسة الكبرى (إنجلترا وإسبانيا).",
+          "en": "I played in two of the top five leagues (England and Spain)."
+        },
+        {
+          "ar": "كسبت الدوري 4 مرات مع فريق برا الخمسة الكبار، وكسبت الدوري في دوريين من الخمسة، ودوري أبطال أوروبا مرة.",
+          "en": "I won the league four times with a club outside the top five, won league titles in two of the top five leagues, and the Champions League once."
+        },
+        {
+          "ar": "كنت هداف الدوري 5 مرات مع سيلتيك، وأفضل لاعب في بلدي مرتين 99 و2001.",
+          "en": "I was the league's top scorer five times with Celtic and my country's Player of the Year twice (1999 and 2001)."
+        },
+        {
+          "ar": "لعبت 3 كؤوس عالم، واحدة منهم كسبت فيها البرونزية 94، و3 بطولات قارية، وكسبت جائزة أفضل هدف في بطولة 2004 وكنت في فريق البطولة.",
+          "en": "I played three World Cups — winning bronze at one in 1994 — and three European Championships, where I won Goal of the Tournament in 2004 and made the Team of the Tournament."
+        },
+        {
+          "ar": "كسبت الحذاء الذهبي الأوروبي مرة سنة 2001.",
+          "en": "I won the European Golden Boot once, in 2001."
+        },
+        {
+          "ar": "سجلت في مرمى بلغاريا في بطولتين رسميتين مختلفتين: 2004 و94. وبلدي التاني هو الرأس الأخضر.",
+          "en": "I scored against Bulgaria in two different official tournaments, in 1994 and 2004 — and my second country is Cape Verde."
+        },
+        {
+          "ar": "لعبت مع رونالد كومان، وفان دير سار، وفان برونكهورست، وإيتو، وفان بومل، وبيكيه.",
+          "en": "I played alongside Ronald Koeman, Van der Sar, Van Bronckhorst, Eto'o, Van Bommel and Piqué."
+        },
+        {
+          "ar": "اتعرضت لإصابة بكسر في الساق أمام ليون في كأس الاتحاد الأوروبي 99، وكنت على البدل في النهائي اللي كسبناه، ونزلت صنعت هدفين.",
+          "en": "I suffered a broken leg against Lyon in the 1999 UEFA Cup, was on the bench for the final we won, and came on to set up two goals."
+        }
       ]
     },
     {
-      "id": "luis-diaz",
-      "answer": "لويس دياز",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
+      "id": "sorin",
+      "answer": {
+        "ar": "خوان بابلو سورين",
+        "en": "Juan Pablo Sorín"
+      },
       "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2016 مع أتلتيكو جونيور.",
-        "بعدها لعبت في: بورتو · ليفربول · بايرن ميونخ. وكان أبرز زمايلي: محمد صلاح · فيرجيل فان دايك · أليسون بيكر.",
-        "أنا مهاجم من كولومبيا، وعندي 29 سنة. من أبرز إنجازاتي: الدوري البرتغالي 2020 و2022 · كأس البرتغال 2020 · هداف الدوري البرتغالي 2022. الناس بتلقبني بـ«لوتشو». وأشهر رقم قميص لبسته هو 7. واسمي بيبدأ بحرف «ل»."
-      ],
-      "meta": [
-        "كولومبيا · ليفربول",
-        "مهاجم · الدوري الإنجليزي · 29 سنة"
+        {
+          "ar": "لعبت في أربعة من الدوريات الخمسة الكبرى ما عدا إنجلترا، وكمان في البرازيل والأرجنتين.",
+          "en": "I played in four of the top five leagues (all but England), as well as in Brazil and Argentina."
+        },
+        {
+          "ar": "لعبت مع ديل بييرو، وستام، وسيميوني، وفورلان، وإنزاغي، وكونتي، وتياغو موتا، وسالاس، وداليساندرو، وبوليتا، وكومباني، وشوبو موتينغ.",
+          "en": "I played alongside Del Piero, Stam, Simeone, Forlán, Inzaghi, Conte, Thiago Motta, Salas, D'Alessandro, Pauleta, Kompany and Choupo-Moting."
+        },
+        {
+          "ar": "سجلت 11 هدف في 75 مباراة مع المنتخب.",
+          "en": "I scored 11 goals in 75 caps for my country."
+        },
+        {
+          "ar": "كسبت دوري أبطال أوروبا وكوبا ليبرتادوريس في نفس السنة 96 مع يوفنتوس وريفر بليت، وكسبت الدوري في بلدي 4 مرات، وكأس فرنسا مرة، وما كسبتش أي دوري تاني.",
+          "en": "I won the Champions League and the Copa Libertadores in the same year, 1996, with Juventus and River Plate. I won my country's league four times, the French Cup once, and no other league title."
+        },
+        {
+          "ar": "لعبت كأس عالم مرتين، وبطولة قارية مرتين، وكأس قارات مرة.",
+          "en": "I played two World Cups, two continental championships and one Confederations Cup."
+        },
+        {
+          "ar": "كنت في فريق بطولة كوبا أمريكا 3 مرات: 96 و2000 و2001.",
+          "en": "I was in the Copa América Team of the Tournament three times: 1996, 2000 and 2001."
+        }
       ]
     },
     {
-      "id": "osimhen",
-      "answer": "فيكتور أوسيمين",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
+      "id": "ljungberg",
+      "answer": {
+        "ar": "فريدي ليونغبرغ",
+        "en": "Freddie Ljungberg"
+      },
       "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2017 مع فولفسبورغ.",
-        "بعدها لعبت في: شارلروا · ليل · نابولي · غلطة سراي. وكان أبرز زمايلي: خفيتشا كفاراتسخيليا · لورينزو إنسيني · روميلو لوكاكو.",
-        "أنا مهاجم من نيجيريا، وعندي 27 سنة. من أبرز إنجازاتي: الدوري الإيطالي 2023 · هداف الدوري الإيطالي 2023 · أفضل لاعب أفريقي 2023. الناس بتلقبني بـ«النسر». وأشهر رقم قميص لبسته هو 9. واسمي بيبدأ بحرف «ف»."
-      ],
-      "meta": [
-        "نيجيريا · نابولي",
-        "مهاجم · الدوري الإيطالي · 27 سنة"
+        {
+          "ar": "لعبت في واحد من الدوريات الخمسة الكبرى، وفي ناديين بس في الدوري الإنجليزي.",
+          "en": "I played in one of the top five leagues, and for only two clubs in the Premier League."
+        },
+        {
+          "ar": "شاركت مع منتخب بلدي في كل الفئات السنية، وسجلت 14 في 75.",
+          "en": "I played for my country at every youth level and scored 14 in 75 caps."
+        },
+        {
+          "ar": "لعبت في 3 بطولات قارية ورا بعض، وكأسين عالم ورا بعض.",
+          "en": "I played three consecutive continental championships and two consecutive World Cups."
+        },
+        {
+          "ar": "كسبت الدوري الكبير مرتين، والكأس 3 مرات (كأس الاتحاد الإنجليزي)، والسوبر مرة، والدوري في بلدي مرة، والكأس مرة.",
+          "en": "I won the top league twice, the FA Cup three times, the Community Shield once, and my country's league and cup once each."
+        },
+        {
+          "ar": "كسبت جائزة أفضل لاعب في الدوري الإنجليزي 2001-02، وأفضل لاعب وسط في بلدي 6 مرات.",
+          "en": "I was Premier League Player of the Season in 2001-02 and my country's best midfielder six times."
+        },
+        {
+          "ar": "سجلت هدف الافتتاح لمنتخبي في يورو 2004.",
+          "en": "I scored my country's opening goal at Euro 2004."
+        },
+        {
+          "ar": "لعبت مع أنيلكا، وشينجي أونو، وكي سونغ يونغ، وبلانكو، وكارلتون كول، وكليشي، وأديبايور، وكولو توريه.",
+          "en": "I played alongside Anelka, Shinji Ono, Ki Sung-yueng, Blanco, Carlton Cole, Clichy, Adebayor and Kolo Touré."
+        }
       ]
     },
     {
-      "id": "mahrez",
-      "answer": "رياض محرز",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
+      "id": "morientes",
+      "answer": {
+        "ar": "فرناندو موريينتس",
+        "en": "Fernando Morientes"
+      },
       "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2010 مع لوهافر.",
-        "بعدها لعبت في: ليستر سيتي · مانشستر سيتي · الأهلي السعودي. وكان أبرز زمايلي: جيمي فاردي · كيفن دي بروين · إيرلينج هالاند.",
-        "أنا مهاجم من الجزائر، وعندي 35 سنة. من أبرز إنجازاتي: دوري أبطال أوروبا 2023 · ٤ ألقاب إنجليزي · كأس أمم أفريقيا 2019. الناس بتلقبني بـ«الساحر الجزائري». وأشهر رقم قميص لبسته هو 26. واسمي بيبدأ بحرف «ر»."
-      ],
-      "meta": [
-        "الجزائر · مانشستر سيتي",
-        "مهاجم · الدوري الإنجليزي · 35 سنة"
+        {
+          "ar": "لعبت في ثلاثة من الدوريات الخمسة الكبرى (فرنسا وإسبانيا وإنجلترا).",
+          "en": "I played in three of the top five leagues (France, Spain and England)."
+        },
+        {
+          "ar": "لعبت لكل الفئات السنية لمنتخب بلدي، وسجلت 27 في 47، وسجلت مع الأندية في الدوري 143.",
+          "en": "I played for every youth level of my national team and scored 27 in 47 caps; I scored 143 league goals for my clubs."
+        },
+        {
+          "ar": "في أول مباراة دولية ليا، كانت مباراة ودية، سجلت هدفين في أول 5 دقايق، وكانت أمام السويد، وأنا الهداف التاريخي الرابع لمنتخب بلدي.",
+          "en": "In my first international match — a friendly — I scored twice in the first five minutes against Sweden, and I am the fourth-highest scorer in my country's history."
+        },
+        {
+          "ar": "في أول 3 مباريات دولية ليا سجلت هدفين في كل مباراة، منهم مباراة في كأس العالم.",
+          "en": "In my first three international matches I scored twice in each, including one at the World Cup."
+        },
+        {
+          "ar": "كسبت دوري أبطال أوروبا 3 مرات مع فريق، وكنت وصيف مع فريق تاني، والسوبر الأوروبي مرة مع ليفربول. وكسبت الدوري الإسباني مرتين، والفرنسي مرة، وكأس الاتحاد الإنجليزي مرة.",
+          "en": "I won the Champions League three times with one club and finished runner-up with another, and won the UEFA Super Cup once with Liverpool. I also won La Liga twice, Ligue 1 once and the FA Cup once."
+        },
+        {
+          "ar": "كسبت يورو تحت 21 مرة، وكنت وصيف مرة، وكنت هداف دوري أبطال أوروبا موسم 2003/04.",
+          "en": "I won the European Under-21 Championship once and finished runner-up once, and I was the Champions League top scorer in 2003-04."
+        },
+        {
+          "ar": "لعبت الأولمبياد مرة، وكأس عالم مرتين، ويورو مرة.",
+          "en": "I played one Olympics, two World Cups and one European Championship."
+        },
+        {
+          "ar": "لعبت تحت قيادة ديشامب مرتين مع مارسيليا وموناكو.",
+          "en": "I played under Deschamps twice, at Marseille and Monaco."
+        },
+        {
+          "ar": "لعبت مع غابرييل هينزه، وباتريس إيفرا، وخوان ماتا، وجوردان آيو، وأديبايور، وتشابي ألونسو، وديفيد فيا، وإيتو، وسالغادو.",
+          "en": "I played alongside Gabriel Heinze, Patrice Evra, Juan Mata, Jordan Ayew, Adebayor, Xabi Alonso, David Villa, Eto'o and Salgado."
+        }
       ]
     },
     {
-      "id": "hakimi",
-      "answer": "أشرف حكيمي",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
+      "id": "iversen",
+      "answer": {
+        "ar": "ستيفن إيفرسن",
+        "en": "Steffen Iversen"
+      },
       "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2017 مع ريال مدريد.",
-        "بعدها لعبت في: بوروسيا دورتموند · إنتر ميلان · باريس سان جيرمان. وكان أبرز زمايلي: كيليان مبابي · نيمار · عثمان ديمبيلي.",
-        "أنا مدافع من المغرب، وعندي 27 سنة. من أبرز إنجازاتي: الدوري الإيطالي 2021 · ٤ ألقاب دوري فرنسي · نصف نهائي كأس العالم 2022. الناس بتلقبني بـ«الصاروخ المغربي». وأشهر رقم قميص لبسته هو 2. واسمي بيبدأ بحرف «أ»."
-      ],
-      "meta": [
-        "المغرب · باريس سان جيرمان",
-        "مدافع · الدوري الفرنسي · 27 سنة"
+        {
+          "ar": "لعبت في واحد من الدوريات الخمسة الكبرى (إنجلترا) مع توتنهام وكريستال بالاس وولفرهامبتون، وجنب ده دوري بلدي بس.",
+          "en": "I played in one of the top five leagues (England) with Tottenham, Crystal Palace and Wolves, plus my home league."
+        },
+        {
+          "ar": "لعبت مع لوشتيغ، وسولشير، وأنان، وليسكوت، وسول كامبل، وروبي كين.",
+          "en": "I played alongside Lustig, Solskjær, Annan, Lescott, Sol Campbell and Robbie Keane."
+        },
+        {
+          "ar": "لعبت في كل الفئات السنية لمنتخبي، وسجلت 21 في 79، ومع تحت 21 سجلت 17 في 23.",
+          "en": "I played for every youth level of my national team, scored 21 in 79 caps, and 17 in 23 for the Under-21s."
+        },
+        {
+          "ar": "كنت هداف فريقي مواسم ورا بعض 99 و2000، ولما رحت وولفرهامبتون أنا اللي سجلت أول هدف في تاريخ النادي في البريميرليغ.",
+          "en": "I was my club's top scorer in consecutive seasons in 1999 and 2000, and when I joined Wolves I scored the club's first ever Premier League goal."
+        },
+        {
+          "ar": "كسبت كأس الرابطة مرة وكنت وصيف مرة مع نفس الفريق، وكسبت الدوري في بلدي 6 مرات مع ناديين مختلفين.",
+          "en": "I won the League Cup once and finished runner-up once with the same club, and won my country's league six times with two different clubs."
+        },
+        {
+          "ar": "سجلت هدف بلدي الوحيد في تاريخ اليورو، وكان في يورو 2000 أمام إسبانيا، ودي كانت البطولة الدولية الكبيرة الوحيدة اللي شاركت فيها.",
+          "en": "I scored my country's only ever European Championship goal, at Euro 2000 against Spain — the only major international tournament I played in."
+        }
       ]
     },
     {
-      "id": "bounou",
-      "answer": "ياسين بونو",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
+      "id": "makaay",
+      "answer": {
+        "ar": "روي ماكاي",
+        "en": "Roy Makaay"
+      },
       "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2012 مع الوداد البيضاوي.",
-        "بعدها لعبت في: جيرونا · إشبيلية · الهلال. وكان أبرز زمايلي: يوسف النصيري · أشرف حكيمي · حكيم زياش.",
-        "أنا حارس من المغرب، وعندي 35 سنة. من أبرز إنجازاتي: الدوري الأوروبي 2020 · نصف نهائي كأس العالم 2022 · الدوري المغربي 2015. وأشهر رقم قميص لبسته هو 1. واسمي بيبدأ بحرف «ي»."
-      ],
-      "meta": [
-        "المغرب · إشبيلية",
-        "حارس · الدوري الإسباني · 35 سنة"
+        {
+          "ar": "لعبت في اثنين من الدوريات الخمسة الكبرى (إسبانيا وألمانيا).",
+          "en": "I played in two of the top five leagues (Spain and Germany)."
+        },
+        {
+          "ar": "سجلت في الدوريات اللي لعبت فيها 256 هدف في 526 مباراة، ومع ذلك مع المنتخب سجلت 6 بس في 43، و15 مع تحت 21، و2 من 3 مع الأولمبي.",
+          "en": "I scored 256 goals in 526 league games, yet only 6 in 43 caps for the senior national team — plus 15 for the Under-21s and 2 of 3 at the Olympics."
+        },
+        {
+          "ar": "لعبت في كل الفئات السنية لمنتخبي، وسجلت 21 في 79، ومع تحت 21 سجلت 17 في 23.",
+          "en": "I played for every youth level of my national team, scored 21 in 79 caps, and 17 in 23 for the Under-21s."
+        },
+        {
+          "ar": "كسبت الدوري الإسباني مرة، وكأس إسبانيا مرة، والسوبر مرتين، والدوري الألماني مرتين، والكأس مرتين، بالإضافة لكأس بلدي مرة واحدة بس.",
+          "en": "I won the Spanish league once, the Copa del Rey once, the Spanish Super Cup twice, the German league twice and the German Cup twice — plus my country's cup once."
+        },
+        {
+          "ar": "سجلت هاتريك في دوري أبطال أوروبا أمام بايرن في ملعبهم وكسبنا 3-2.",
+          "en": "I scored a Champions League hat-trick against Bayern at their own ground and we won 3-2."
+        },
+        {
+          "ar": "في أول مباراة ليا في إسبانيا سجلت هاتريك في الدوري، وخلصت الدوري بـ22 هدف عشان أساعد فريقي يكسب الدوري لأول مرة.",
+          "en": "In my first match in Spain I scored a league hat-trick, and I finished the season with 22 goals to help my club win the league for the first time."
+        },
+        {
+          "ar": "كسبت هداف الدوري مرة سنة 2003، والحذاء الذهبي الأوروبي في نفس السنة، وسجلت أسرع هدف في تاريخ دوري أبطال أوروبا، وكان أمام ريال مدريد.",
+          "en": "I was the league's top scorer in 2003, won the European Golden Boot the same year, and scored the fastest goal in Champions League history — against Real Madrid."
+        },
+        {
+          "ar": "عمري ما لعبت كأس عالم، بس لعبت البطولة القارية مرتين وخرجنا من نصف النهائي، وكنت كابتن منتخبي في أولمبياد 2008.",
+          "en": "I never played a World Cup, but I played two European Championships and we went out in the semi-finals, and I captained my country at the 2008 Olympics."
+        },
+        {
+          "ar": "لعبت مع كريم الأحمدي، ونور الدين النيبت، وصلاح الدين بصير، وفينالدوم، ونوري شاهين (فينورد)، وديميكيليس، وبوليتا، وكابدفيلا.",
+          "en": "I played alongside Karim El Ahmadi, Nourdin Naybet, Salaheddine Bassir, Wijnaldum, Nuri Şahin (Feyenoord), Demichelis, Pauleta and Capdevila."
+        }
       ]
     },
     {
-      "id": "mane",
-      "answer": "ساديو ماني",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
+      "id": "karagounis",
+      "answer": {
+        "ar": "يورغوس كاراغونيس",
+        "en": "Giorgos Karagounis"
+      },
       "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2011 مع ميتز.",
-        "بعدها لعبت في: ريد بُل سالزبورغ · ساوثهامبتون · ليفربول · بايرن ميونخ · النصر. وكان أبرز زمايلي: محمد صلاح · روبرتو فيرمينو · فيرجيل فان دايك.",
-        "أنا مهاجم من السنغال، وعندي 34 سنة. من أبرز إنجازاتي: دوري أبطال أوروبا 2019 · الدوري الإنجليزي 2020 · كأس أمم أفريقيا 2021. الناس بتلقبني بـ«الأسد السنغالي». وأشهر رقم قميص لبسته هو 10. واسمي بيبدأ بحرف «س»."
-      ],
-      "meta": [
-        "السنغال · ليفربول",
-        "مهاجم · الدوري الإنجليزي · 34 سنة"
+        {
+          "ar": "لعبت في اثنين من الدوريات الخمسة الكبرى (إنجلترا وإيطاليا) — مع إنتر في إيطاليا.",
+          "en": "I played in two of the top five leagues (England and Italy) — with Inter in Italy."
+        },
+        {
+          "ar": "لعبت مع كانافارو، وماتيرازي، ودافيدز، وبرباتوف، وموسى ديمبيلي، ونونو غوميز، وجيلبرتو سيلفا.",
+          "en": "I played alongside Cannavaro, Materazzi, Davids, Berbatov, Moussa Dembélé, Nuno Gomes and Gilberto Silva."
+        },
+        {
+          "ar": "اتدربت تحت قيادة جيسوالدو فيريرا (باناثينايكوس) ومارتن يول (فولهام).",
+          "en": "I was coached by Jesualdo Ferreira (Panathinaikos) and Martin Jol (Fulham)."
+        },
+        {
+          "ar": "كسبت الدوري في بلدي وكأس بلدي مرة، وكأس إيطاليا مرة، وكنت وصيف يورو تحت 21 مرة سنة 1998.",
+          "en": "I won my country's league and cup once each, the Coppa Italia once, and finished runner-up at the 1998 European Under-21 Championship."
+        },
+        {
+          "ar": "شاركت في 3 بطولات قارية وكسبت واحدة، وشاركت في كأس عالم مرتين وكأس قارات مرة.",
+          "en": "I played three European Championships and won one, two World Cups and one Confederations Cup."
+        },
+        {
+          "ar": "لعبت 139 مباراة وسجلت 10 أهداف، منهم هدف الافتتاح في يورو 2004 في البطولة اللي كسبناها في الآخر أمام نفس المنافس في النهائي.",
+          "en": "I earned 139 caps and scored 10 goals, including the opening goal of Euro 2004 — the tournament we won against the same opponent in the final."
+        }
       ]
     },
     {
-      "id": "koulibaly",
-      "answer": "كاليدو كوليبالي",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
+      "id": "klose",
+      "answer": {
+        "ar": "ميروسلاف كلوزه",
+        "en": "Miroslav Klose"
+      },
       "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2010 مع ميتز.",
-        "بعدها لعبت في: جينك · نابولي · تشيلسي · الهلال. وكان أبرز زمايلي: مارك هامسيك · لورينزو إنسيني · إدوارد ميندي.",
-        "أنا مدافع من السنغال، وعندي 35 سنة. من أبرز إنجازاتي: كأس أمم أفريقيا 2021 · كأس إيطاليا 2014 · كأس السوبر الإيطالي 2014. وأشهر رقم قميص لبسته هو 26. واسمي بيبدأ بحرف «ك»."
-      ],
-      "meta": [
-        "السنغال · نابولي",
-        "مدافع · الدوري الإيطالي · 35 سنة"
-      ]
-    },
-    {
-      "id": "mendy",
-      "answer": "إدوارد ميندي",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2014 مع شيربورغ.",
-        "بعدها لعبت في: رين · تشيلسي · الأهلي. وكان أبرز زمايلي: نجولو كانتي · تياجو سيلفا · كريم بنزيمة.",
-        "أنا حارس من السنغال، وعندي 34 سنة. من أبرز إنجازاتي: دوري أبطال أوروبا 2021 · كأس أمم أفريقيا 2021 · أفضل حارس في العالم 2021. الناس بتلقبني بـ«الحارس السنغالي». وأشهر رقم قميص لبسته هو 16. واسمي بيبدأ بحرف «إ»."
-      ],
-      "meta": [
-        "السنغال · تشيلسي",
-        "حارس · الدوري الإنجليزي · 34 سنة"
-      ]
-    },
-    {
-      "id": "aubameyang",
-      "answer": "بيير إيميريك أوباميانج",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2009 مع سانت إتيان.",
-        "بعدها لعبت في: بوروسيا دورتموند · أرسنال · برشلونة · مارسيليا. وكان أبرز زمايلي: ماركو رويس · ألكسندر لاكازيت · ليونيل ميسي.",
-        "أنا مهاجم من الجابون، وعندي 37 سنة. من أبرز إنجازاتي: هداف الدوري الألماني 2017 · كأس إنجلترا 2020 · أفضل لاعب أفريقي 2015. وأشهر رقم قميص لبسته هو 14. واسمي بيبدأ بحرف «ب»."
-      ],
-      "meta": [
-        "الجابون · أرسنال",
-        "مهاجم · الدوري الإنجليزي · 37 سنة"
-      ]
-    },
-    {
-      "id": "partey",
-      "answer": "توماس بارتي",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2013 مع أتلتيكو مدريد.",
-        "بعدها لعبت في: أرسنال. وكان أبرز زمايلي: أنطوان جريزمان · بوكايو ساكا · ديكلان رايس.",
-        "أنا وسط من غانا، وعندي 33 سنة. من أبرز إنجازاتي: الدوري الأوروبي 2018 · كأس السوبر الأوروبي 2018. وأشهر رقم قميص لبسته هو 5. واسمي بيبدأ بحرف «ت»."
-      ],
-      "meta": [
-        "غانا · أرسنال",
-        "وسط · الدوري الإنجليزي · 33 سنة"
-      ]
-    },
-    {
-      "id": "kudus",
-      "answer": "محمد كودوس",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2018 مع نوردشيلاند.",
-        "بعدها لعبت في: أياكس · وست هام. وكان أبرز زمايلي: دوشان تاديتش · جارود بوين · ديكلان رايس.",
-        "أنا وسط من غانا، وعندي 26 سنة. من أبرز إنجازاتي: الدوري الهولندي 2021 و2022 · كأس هولندا 2021. وأشهر رقم قميص لبسته هو 20. واسمي بيبدأ بحرف «م»."
-      ],
-      "meta": [
-        "غانا · أياكس",
-        "وسط · الدوري الهولندي · 26 سنة"
-      ]
-    },
-    {
-      "id": "aboutrika",
-      "answer": "محمد أبو تريكة",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2004 مع الأهلي.",
-        "وما لعبتش لأي نادي تاني غير الأهلي. وكان أبرز زمايلي: محمد بركات · أحمد حسن · عماد متعب.",
-        "أنا وسط من مصر، وعندي 47 سنة. من أبرز إنجازاتي: ٣ دوري أبطال أفريقيا · ٤ ألقاب دوري مصري · كأس أمم أفريقيا 2006 و2008. وأشهر رقم قميص لبسته هو 22. واسمي بيبدأ بحرف «م»."
-      ],
-      "meta": [
-        "مصر · الأهلي",
-        "وسط · الدوري المصري · 47 سنة"
-      ]
-    },
-    {
-      "id": "hossam-hassan",
-      "answer": "حسام حسن",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 1984 مع الأهلي.",
-        "بعدها لعبت في: الزمالك. وكان أبرز زمايلي: أحمد شوبير · إبراهيم سعيد · محمد رمضان.",
-        "أنا مهاجم من مصر، وعندي 60 سنة. من أبرز إنجازاتي: ٢ كأس أمم أفريقيا · ٤ ألقاب دوري مصري · هداف مصر التاريخي. الناس بتلقبني بـ«الهداف». وأشهر رقم قميص لبسته هو 9. واسمي بيبدأ بحرف «ح»."
-      ],
-      "meta": [
-        "مصر · الأهلي",
-        "مهاجم · الدوري المصري · 60 سنة"
-      ]
-    },
-    {
-      "id": "elhadary",
-      "answer": "عصام الحضري",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 1993 مع دمياط.",
-        "بعدها لعبت في: الأهلي · الزمالك. وكان أبرز زمايلي: محمد أبو تريكة · أحمد حسن · محمد بركات.",
-        "أنا حارس من مصر، وعندي 53 سنة. من أبرز إنجازاتي: ٣ كأس أمم أفريقيا · ٨ ألقاب دوري مصري · ٤ دوري أبطال أفريقيا. الناس بتلقبني بـ«السد العالي». وأشهر رقم قميص لبسته هو 1. واسمي بيبدأ بحرف «ع»."
-      ],
-      "meta": [
-        "مصر · الأهلي",
-        "حارس · الدوري المصري · 53 سنة"
-      ]
-    },
-    {
-      "id": "barakat",
-      "answer": "محمد بركات",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 1998 مع الأهلي.",
-        "وما لعبتش لأي نادي تاني غير الأهلي. وكان أبرز زمايلي: محمد أبو تريكة · أحمد حسن · عماد متعب.",
-        "أنا وسط من مصر، وعندي 52 سنة. من أبرز إنجازاتي: ٢ دوري أبطال أفريقيا · ٤ ألقاب دوري مصري · كأس أمم أفريقيا 2006. وأشهر رقم قميص لبسته هو 10. واسمي بيبدأ بحرف «م»."
-      ],
-      "meta": [
-        "مصر · الأهلي",
-        "وسط · الدوري المصري · 52 سنة"
-      ]
-    },
-    {
-      "id": "ahmed-hassan",
-      "answer": "أحمد حسن",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 1991 مع أسوان.",
-        "بعدها لعبت في: الإسماعيلي · الأهلي · الزمالك. وكان أبرز زمايلي: محمد أبو تريكة · محمد بركات · عمرو زكي.",
-        "أنا وسط من مصر، وعندي 51 سنة. من أبرز إنجازاتي: ٤ كأس أمم أفريقيا · أفضل لاعب أفريقي 2006 · أكثر من ١٠ ألقاب محلية. الناس بتلقبني بـ«القائد». وأشهر رقم قميص لبسته هو 8. واسمي بيبدأ بحرف «أ»."
-      ],
-      "meta": [
-        "مصر · الأهلي",
-        "وسط · الدوري المصري · 51 سنة"
-      ]
-    },
-    {
-      "id": "son",
-      "answer": "سون هيونج مين",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2010 مع هامبورغ.",
-        "بعدها لعبت في: باير ليفركوزن · توتنهام · لوس أنجلوس. وكان أبرز زمايلي: هاري كين · ديل آلي · كريستيان إريكسن.",
-        "أنا مهاجم من كوريا الجنوبية، وعندي 34 سنة. من أبرز إنجازاتي: الحذاء الذهبي الإنجليزي 2022 · ذهبية الأسياد 2018 · هداف كوريا التاريخي. الناس بتلقبني بـ«سوني». وأشهر رقم قميص لبسته هو 7. واسمي بيبدأ بحرف «س»."
-      ],
-      "meta": [
-        "كوريا الجنوبية · توتنهام",
-        "مهاجم · الدوري الإنجليزي · 34 سنة"
-      ]
-    },
-    {
-      "id": "kubo",
-      "answer": "تاكيفوسا كوبو",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2015 مع طوكيو.",
-        "بعدها لعبت في: ريال مدريد · مايوركا · ريال سوسيداد. وكان أبرز زمايلي: ميكيل أويارزابال · مارتن أوديغارد · ألكسندر إيزاك.",
-        "أنا مهاجم من اليابان، وعندي 25 سنة. من أبرز إنجازاتي: أفضل لاعب آسيوي شاب 2019 · هداف الدوري الياباني للشباب 2017. الناس بتلقبني بـ«الموهبة اليابانية». وأشهر رقم قميص لبسته هو 14. واسمي بيبدأ بحرف «ت»."
-      ],
-      "meta": [
-        "اليابان · ريال سوسيداد",
-        "مهاجم · الدوري الإسباني · 25 سنة"
-      ]
-    },
-    {
-      "id": "salem-aldawsari",
-      "answer": "سالم الدوسري",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2011 مع الهلال.",
-        "وما لعبتش لأي نادي تاني غير الهلال. وكان أبرز زمايلي: ياسر الشهراني · سعود عبد الحميد · ألكسندر ميتريتا.",
-        "أنا مهاجم من السعودية، وعندي 34 سنة. من أبرز إنجازاتي: دوري أبطال آسيا 2019 و2021 · الدوري السعودي 2017 و2020 و2021 و2022 · هدف الفوز على الأرجنتين 2022. وأشهر رقم قميص لبسته هو 29. واسمي بيبدأ بحرف «س»."
-      ],
-      "meta": [
-        "السعودية · الهلال",
-        "مهاجم · الدوري السعودي · 34 سنة"
-      ]
-    },
-    {
-      "id": "pulisic",
-      "answer": "كريستيان بوليسيك",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2016 مع بوروسيا دورتموند.",
-        "بعدها لعبت في: تشيلسي · ميلان. وكان أبرز زمايلي: إيدين هازارد · أوليفييه جيرو · رافائيل لياو.",
-        "أنا مهاجم من الولايات المتحدة، وعندي 28 سنة. من أبرز إنجازاتي: دوري أبطال أوروبا 2021 · كأس العالم للأندية 2021 · أفضل لاعب أمريكي 2017 و2019 و2021. وأشهر رقم قميص لبسته هو 11. واسمي بيبدأ بحرف «ك»."
-      ],
-      "meta": [
-        "الولايات المتحدة · ميلان",
-        "مهاجم · الدوري الإيطالي · 28 سنة"
-      ]
-    },
-    {
-      "id": "davies",
-      "answer": "ألفونسو ديفيز",
-      "labels": [
-        "المحطة الأولى",
-        "الزملاء والمسيرة",
-        "الهوية والإنجازات"
-      ],
-      "clues": [
-        "بدأت مسيرتي الاحترافية سنة 2016 مع فانكوفر.",
-        "بعدها لعبت في: بايرن ميونخ. وكان أبرز زمايلي: مانويل نوير · جوشوا كيميش · جمال موسيالا.",
-        "أنا مدافع من كندا، وعندي 25 سنة. من أبرز إنجازاتي: دوري أبطال أوروبا 2020 · ٥ ألقاب دوري ألماني · كأس العالم للأندية 2020. الناس بتلقبني بـ«البرق الكندي». وأشهر رقم قميص لبسته هو 19. واسمي بيبدأ بحرف «أ»."
-      ],
-      "meta": [
-        "كندا · بايرن ميونخ",
-        "مدافع · الدوري الألماني · 25 سنة"
+        {
+          "ar": "لعبت في اثنين من الدوريات الخمسة الكبرى (ألمانيا وإيطاليا).",
+          "en": "I played in two of the top five leagues (Germany and Italy)."
+        },
+        {
+          "ar": "لعبت مع هاني رمزي، وسمير كمونة، ويوري جوركاييف، ومحمد زيدان، ودييغو ريبياس، ولوكا توني، وماريو غوميز، وهيرنانيس، ولويس ساها، ودي فري.",
+          "en": "I played alongside Hany Ramzy, Samir Kamouna, Youri Djorkaeff, Mohamed Zidan, Diego Ribas, Luca Toni, Mario Gómez, Hernanes, Louis Saha and De Vrij."
+        },
+        {
+          "ar": "لما لعبت في الدوري الألماني، لعبت في ناديين مختلفين، ولما رحتلهم كانوا أبطال الدوري، بس ما عرفتش أخد الدوري معاهم، وكسبته مع فريق تالت.",
+          "en": "When I played in the German league I joined two different clubs while they were the reigning champions, but I couldn't win the league with them — I won it with a third club."
+        },
+        {
+          "ar": "في واحدة من أكبر بطولات المنتخبات سجلت هاتريك، والهاتريك كان كله بالرأس.",
+          "en": "In one of the biggest national-team tournaments I scored a hat-trick — and it was all headers."
+        },
+        {
+          "ar": "شاركت في كأس العالم 4 مرات، وكلهم وصلت لنصف النهائي على الأقل، وشاركت في البطولة القارية 3 مرات.",
+          "en": "I played four World Cups, reaching at least the semi-finals in all of them, and three European Championships."
+        },
+        {
+          "ar": "كسبت الدوري الألماني مرتين، والكأس مرتين مع نادي ومرة مع نادي تاني، وكأس إيطاليا مرة، وكنت الحذاء الذهبي 2006.",
+          "en": "I won the German league twice, the German Cup twice with one club and once with another, the Coppa Italia once, and I won the 2006 Golden Boot."
+        },
+        {
+          "ar": "أنا الهداف التاريخي لبلدي بـ71 هدف.",
+          "en": "I am my country's all-time top scorer with 71 goals."
+        }
       ]
     }
   ]

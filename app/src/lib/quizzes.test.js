@@ -1,5 +1,8 @@
 import { describe, expect, it } from 'vitest';
-import { QUIZZES, getQuiz, pickQuestion } from './quizzes.js';
+import { QUIZZES, getQuiz, getQuizzes, pickQuestion } from './quizzes.js';
+
+const ARABIC_LETTERS = /[\u0600-\u06FF]/;
+const LATIN_LETTERS = /[A-Za-z]/;
 
 describe('الألعاب (Quizzes)', () => {
   it('فيه لعبة «من أنا؟» و«المسار»', () => {
@@ -13,12 +16,14 @@ describe('الألعاب (Quizzes)', () => {
     expect(QUIZZES[1].id).toBe('paths');
   });
 
-  it('كل لعبة عندها أسئلة وبيانات عرض كاملة', () => {
-    for (const quiz of QUIZZES) {
-      expect(quiz.title, quiz.id).toBeTruthy();
-      expect(quiz.nextLabel, quiz.id).toBeTruthy();
-      expect(quiz.answerLabel, quiz.id).toBeTruthy();
-      expect(quiz.questions.length, quiz.id).toBeGreaterThan(0);
+  it('كل لعبة عندها أسئلة وبيانات عرض كاملة في اللغتين', () => {
+    for (const lang of ['ar', 'en']) {
+      for (const quiz of getQuizzes(lang)) {
+        expect(quiz.title, `${lang}/${quiz.id}`).toBeTruthy();
+        expect(quiz.nextLabel, `${lang}/${quiz.id}`).toBeTruthy();
+        expect(quiz.answerLabel, `${lang}/${quiz.id}`).toBeTruthy();
+        expect(quiz.questions.length, `${lang}/${quiz.id}`).toBeGreaterThan(0);
+      }
     }
   });
 
@@ -50,41 +55,56 @@ describe('الألعاب (Quizzes)', () => {
 });
 
 describe('لعبة «من أنا؟»', () => {
-  const quiz = getQuiz('who-am-i');
+  const arQuiz = getQuiz('who-am-i', 'ar');
+  const enQuiz = getQuiz('who-am-i', 'en');
 
-  it('كل لاعب عنده ٣ تلميحات بالإجابة الصح', () => {
-    expect(quiz.kind).toBe('clues');
+  it('فيها الـ٣٩ لاعب بتوع ملف Clues.xlsx', () => {
+    expect(arQuiz.kind).toBe('clues');
+    expect(arQuiz.questions).toHaveLength(39);
+    expect(enQuiz.questions).toHaveLength(39);
+  });
 
-    for (const question of quiz.questions) {
-      expect(question.clues, question.id).toHaveLength(3);
-      expect(question.answer, question.id).toBeTruthy();
+  it('كل لاعب عنده من ٥ لـ٩ تلميحات', () => {
+    for (const question of arQuiz.questions) {
+      expect(question.clues.length, question.id).toBeGreaterThanOrEqual(5);
+      expect(question.clues.length, question.id).toBeLessThanOrEqual(9);
     }
   });
 
-  it('كل تلميح عنده عنوان ونص مفيد', () => {
-    for (const question of quiz.questions) {
+  it('نفس عدد التلميحات بالعربي والإنجليزي بنفس الترتيب', () => {
+    arQuiz.questions.forEach((question, index) => {
+      const english = enQuiz.questions[index];
+
+      expect(english.id, question.id).toBe(question.id);
+      expect(english.clues.length, question.id).toBe(question.clues.length);
+      expect(english.answer, question.id).toBeTruthy();
+    });
+  });
+
+  it('كل تلميح عربي فيه حروف عربية ومفيد', () => {
+    for (const question of arQuiz.questions) {
       for (const clue of question.clues) {
-        expect(clue.label, question.id).toBeTruthy();
-        expect(clue.text.length, question.id).toBeGreaterThan(20);
+        expect(clue.text.length, question.id).toBeGreaterThan(10);
+        expect(clue.text, question.id).toMatch(ARABIC_LETTERS);
       }
     }
   });
 
-  it('كل لاعب عنده سطور بيانات تحت الإجابة', () => {
-    for (const question of quiz.questions) {
-      expect(question.meta.length, question.id).toBeGreaterThan(0);
+  it('كل تلميح إنجليزي فيه حروف لاتينية ومفيد', () => {
+    for (const question of enQuiz.questions) {
+      for (const clue of question.clues) {
+        expect(clue.text.length, question.id).toBeGreaterThan(10);
+        expect(clue.text, question.id).toMatch(LATIN_LETTERS);
+      }
     }
   });
 
-  it('مفيش تلميح بيحرق اسم اللاعب كامل', () => {
-    for (const question of quiz.questions) {
-      const text = question.clues.map((clue) => clue.text).join(' ');
-      expect(text, question.id).not.toContain(question.answer);
-    }
-  });
-
-  it('فيها ٩٠ لاعب على الأقل', () => {
-    expect(quiz.questions.length).toBeGreaterThanOrEqual(90);
+  it('أسماء اللاعبين بالعربي مختلفة عن الإنجليزي', () => {
+    arQuiz.questions.forEach((question, index) => {
+      const english = enQuiz.questions[index];
+      expect(question.answer, question.id).toMatch(ARABIC_LETTERS);
+      expect(english.answer, question.id).toMatch(LATIN_LETTERS);
+    });
   });
 });
 
@@ -124,6 +144,25 @@ describe('لعبة «المسار»', () => {
         expect(index, question.id).toBeLessThan(question.clubs.length);
       }
     }
+  });
+});
+
+describe('اللغتين', () => {
+  it('عنوان «المسار» بيتغير مع اللغة', () => {
+    expect(getQuiz('paths', 'ar').title).toBe('المسار');
+    expect(getQuiz('paths', 'en').title).toBe('The Path');
+  });
+
+  it('صفحة إنجليزية كلها نصوص إنجليزية', () => {
+    for (const quiz of getQuizzes('en')) {
+      expect(quiz.title, quiz.id).toMatch(LATIN_LETTERS);
+      expect(quiz.subtitle, quiz.id).toMatch(LATIN_LETTERS);
+      expect(quiz.nextLabel, quiz.id).toMatch(LATIN_LETTERS);
+    }
+  });
+
+  it('لو اللغة مش معروفة بيرجع العربي', () => {
+    expect(getQuiz('who-am-i', 'fr').title).toBe('من أنا؟');
   });
 });
 

@@ -1,23 +1,28 @@
 /**
  * مسار الأندية — اللاعب مخفي، والأندية هي الدليل.
- * الاتجاه من اليمين للشمال (زي الترتيب الزمني في العربي)، والنجمة معناها إعارة.
+ * الاتجاه بيتبع لغة الصفحة (يمين لشمال في العربي، شمال ليمين في الإنجليزي)،
+ * والنجمة معناها إعارة.
  */
-export default function PathList({ clubs = [], loans = [] }) {
+export default function PathList({ clubs = [], loans = [], ui }) {
+  const rtl = ui?.dir === 'rtl';
+
   return (
-    <section className="path-card" aria-label="مسار الأندية">
-      <span className="path-eyebrow">المسار</span>
+    <section className="path-card" aria-label={ui?.pathAria}>
+      <span className="path-eyebrow">{ui?.pathEyebrow}</span>
 
       <div className="path-list">
         {clubs.map((club, index) => (
           <span className="path-step" key={`${club}-${index}`}>
             <span className="path-chip" dir="ltr">
               {club}
-              {loans.includes(index) ? <span className="path-loan">إعارة</span> : null}
+              {loans.includes(index) ? (
+                <span className="path-loan">{ui?.loan}</span>
+              ) : null}
             </span>
 
             {index < clubs.length - 1 ? (
               <span className="path-arrow" aria-hidden="true">
-                ←
+                {rtl ? '←' : '→'}
               </span>
             ) : null}
           </span>

@@ -5,7 +5,8 @@
 export default function AnswerReveal({
   answer,
   meta = [],
-  placeholder = 'اضغط لعرض الإجابة',
+  answerLabel,
+  ui,
   revealed,
   onToggle,
 }) {
@@ -15,11 +16,13 @@ export default function AnswerReveal({
       className={`answer-card ${revealed ? 'is-revealed' : ''}`}
       onClick={onToggle}
       aria-expanded={revealed}
-      title={revealed ? 'اضغط لإخفاء الإجابة' : 'اضغط لعرض الإجابة'}
+      title={revealed ? ui.answerTitleHide : ui.answerTitleShow}
     >
       <span className="answer-head">
-        <span className="answer-eyebrow">{revealed ? 'الإجابة' : 'الإجابة مخفية'}</span>
-        <span className="answer-toggle">{revealed ? 'إخفاء' : 'اعرض'}</span>
+        <span className="answer-eyebrow">
+          {revealed ? ui.answerShown : ui.answerHidden}
+        </span>
+        <span className="answer-toggle">{revealed ? ui.hide : ui.show}</span>
       </span>
 
       {revealed ? (
@@ -41,8 +44,10 @@ export default function AnswerReveal({
             🔒
           </span>
           <span className="answer-text">
-            <span className="answer-name">{placeholder}</span>
-            <span className="answer-meta">واضغط تاني عشان تخفيها</span>
+            <span className="answer-name">
+              {`${ui.answerPlaceholder}${answerLabel ? ` — ${answerLabel}` : ''}`}
+            </span>
+            <span className="answer-meta">{ui.answerHint}</span>
           </span>
         </span>
       )}

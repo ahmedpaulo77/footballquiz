@@ -1,10 +1,10 @@
 {
   "id": "paths",
-  "title": "المسار",
+  "title": { "ar": "المسار", "en": "The Path" },
   "emoji": "🛤️",
-  "subtitle": "الأندية بس… مين اللاعب؟",
-  "answerLabel": "اسم اللاعب",
-  "nextLabel": "لاعب تاني",
+  "subtitle": { "ar": "الأندية بس… مين اللاعب؟", "en": "Just the clubs… who is the player?" },
+  "answerLabel": { "ar": "اسم اللاعب", "en": "Player name" },
+  "nextLabel": { "ar": "لاعب تاني", "en": "Another player" },
   "kind": "path",
   "order": 2,
   "questions": [

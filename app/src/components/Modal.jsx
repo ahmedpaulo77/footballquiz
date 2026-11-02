@@ -1,6 +1,14 @@
 import { useEffect } from 'react';
 
-export default function Modal({ open, title, onClose, children, className = '', hideClose = false }) {
+export default function Modal({
+  open,
+  title,
+  onClose,
+  children,
+  className = '',
+  closeLabel = 'Close',
+  hideClose = false,
+}) {
   useEffect(() => {
     if (!open) return undefined;
 
@@ -32,7 +40,7 @@ export default function Modal({ open, title, onClose, children, className = '', 
     >
       <div className={`modal ${className}`}>
         {hideClose ? null : (
-          <button type="button" className="modal-close" onClick={onClose} aria-label="إغلاق">
+          <button type="button" className="modal-close" onClick={onClose} aria-label={closeLabel}>
             ✕
           </button>
         )}

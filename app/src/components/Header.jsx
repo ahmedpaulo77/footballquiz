@@ -1,4 +1,12 @@
-export default function Header({ theme, subtitle, onToggleTheme, onOpenHelp }) {
+export default function Header({
+  theme,
+  title,
+  subtitle,
+  ui,
+  onToggleTheme,
+  onToggleLang,
+  onOpenHelp,
+}) {
   return (
     <header className="topbar">
       <div className="brand">
@@ -12,7 +20,7 @@ export default function Header({ theme, subtitle, onToggleTheme, onOpenHelp }) {
           </svg>
         </span>
         <div className="brand-text">
-          <h1>من أنا؟</h1>
+          <h1>{title}</h1>
           <p>{subtitle}</p>
         </div>
       </div>
@@ -20,10 +28,20 @@ export default function Header({ theme, subtitle, onToggleTheme, onOpenHelp }) {
       <div className="topbar-actions">
         <button
           type="button"
+          className="lang-btn"
+          onClick={onToggleLang}
+          aria-label={ui.langAria}
+          title={ui.langAria}
+        >
+          {ui.langButton}
+        </button>
+
+        <button
+          type="button"
           className="icon-btn"
           onClick={onOpenHelp}
-          aria-label="طريقة اللعب"
-          title="طريقة اللعب"
+          aria-label={ui.helpAria}
+          title={ui.helpAria}
         >
           <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">
             <path
@@ -37,7 +55,7 @@ export default function Header({ theme, subtitle, onToggleTheme, onOpenHelp }) {
           type="button"
           className="icon-btn"
           onClick={onToggleTheme}
-          aria-label={theme === 'dark' ? 'الوضع الفاتح' : 'الوضع الليلي'}
+          aria-label={theme === 'dark' ? ui.themeToLight : ui.themeToDark}
         >
           {theme === 'dark' ? (
             <svg viewBox="0 0 24 24" width="20" height="20" aria-hidden="true">

@@ -1,9 +1,9 @@
 /** أزرار اختيار اللعبة — بتظهر بس لو فيه أكتر من لعبة. */
-export default function QuizSwitcher({ quizzes, activeId, onChange }) {
+export default function QuizSwitcher({ quizzes, activeId, ariaLabel, onChange }) {
   if (quizzes.length < 2) return null;
 
   return (
-    <nav className="quiz-tabs" aria-label="اختيار اللعبة">
+    <nav className="quiz-tabs" aria-label={ariaLabel}>
       {quizzes.map((quiz) => (
         <button
           key={quiz.id}

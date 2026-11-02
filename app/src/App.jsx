@@ -5,13 +5,16 @@ import ClueList from './components/ClueList.jsx';
 import PathList from './components/PathList.jsx';
 import AnswerReveal from './components/AnswerReveal.jsx';
 import HowToPlay from './components/HowToPlay.jsx';
-import { QUIZZES, getQuiz, pickQuestion } from './lib/quizzes.js';
+import { getQuiz, getQuizzes, pickQuestion } from './lib/quizzes.js';
+import { getUi } from './lib/i18n.js';
 import {
   cleanupLegacyStorage,
   hasSeenHelp,
+  loadLang,
   loadQuizId,
   loadTheme,
   markHelpSeen,
+  saveLang,
   saveQuizId,
   saveTheme,
 } from './lib/storage.js';
@@ -19,29 +22,23 @@ import {
 /** آخر كام سؤال نستبعدهم عشان ميتكررش نفس السؤال قريب. */
 const RECENT_LIMIT = 10;
 
-const TIPS = {
-  clues: {
-    title: 'اقرأ التلميحات بالترتيب',
-    text: 'سيب الناس تخمّن… الإجابة مخفية تحت، تفتحها بس لما تحتاجها.',
-    hint: 'سؤال جديد بتلميحاته على طول — من غير تحدي يومي ولا محاولات.',
-  },
-  path: {
-    title: 'الأندية قدام الجميع',
-    text: 'ده مسار اللاعب بالترتيب… خليهم يخمنوا مين صاحب المسار، والإجابة مخفية تحت.',
-    hint: 'المسار من اليمين للشمال بالترتيب الزمني — و«إعارة» معناها اللاعب كان معار.',
-  },
-};
-
 export default function App() {
+  const [lang, setLang] = useState(() => loadLang());
   const [theme, setTheme] = useState(() => loadTheme());
   const [quizId, setQuizId] = useState(() => getQuiz(loadQuizId()).id);
-  const [question, setQuestion] = useState(() => pickQuestion(getQuiz(quizId)));
+  const [questionId, setQuestionId] = useState(
+    () => pickQuestion(getQuiz(quizId))?.id ?? null,
+  );
   const [recent, setRecent] = useState({});
   const [revealed, setRevealed] = useState(false);
   const [modal, setModal] = useState(() => (hasSeenHelp() ? null : 'help'));
 
-  const quiz = getQuiz(quizId);
-  const tip = TIPS[quiz.kind] ?? TIPS.clues;
+  const ui = getUi(lang);
+  const quizzes = getQuizzes(lang);
+  const quiz = getQuiz(quizId, lang);
+  const question =
+    quiz.questions.find((item) => item.id === questionId) ?? quiz.questions[0];
+  const tip = ui.tips[quiz.kind] ?? ui.tips.clues;
 
   useEffect(() => {
     cleanupLegacyStorage();
@@ -52,35 +49,48 @@ export default function App() {
     saveTheme(theme);
   }, [theme]);
 
+  useEffect(() => {
+    const root = document.documentElement;
+    root.lang = lang;
+    root.dir = ui.dir;
+    document.title = lang === 'ar' ? 'من أنا؟ — لعبة تلميحات كورة' : 'Who Am I? — Football Quiz';
+    saveLang(lang);
+  }, [lang, ui.dir]);
+
   const nextQuestion = useCallback(() => {
     const used = recent[quiz.id] ?? [];
-    const excludeIds = [...used, question.id];
+    const excludeIds = [...used, question?.id].filter(Boolean);
+    const next = pickQuestion(quiz, { excludeIds });
 
-    setQuestion(pickQuestion(quiz, { excludeIds }));
+    setQuestionId(next?.id ?? null);
     setRecent((current) => ({
       ...current,
       [quiz.id]: excludeIds.slice(-RECENT_LIMIT),
     }));
     setRevealed(false);
     window.scrollTo({ top: 0, behavior: 'smooth' });
-  }, [quiz, question.id, recent]);
+  }, [quiz, question?.id, recent]);
 
   const chooseQuiz = useCallback(
     (nextId) => {
       if (nextId === quiz.id) return;
 
-      const nextQuiz = getQuiz(nextId);
+      const nextQuiz = getQuiz(nextId, lang);
       setQuizId(nextQuiz.id);
-      setQuestion(pickQuestion(nextQuiz));
+      setQuestionId(pickQuestion(nextQuiz)?.id ?? null);
       setRevealed(false);
       saveQuizId(nextQuiz.id);
       window.scrollTo({ top: 0, behavior: 'smooth' });
     },
-    [quiz.id],
+    [quiz.id, lang],
   );
 
   const toggleAnswer = useCallback(() => {
     setRevealed((current) => !current);
+  }, []);
+
+  const toggleLang = useCallback(() => {
+    setLang((current) => (current === 'ar' ? 'en' : 'ar'));
   }, []);
 
   function closeHelp() {
@@ -97,12 +107,21 @@ export default function App() {
 
       <Header
         theme={theme}
+        lang={lang}
+        title={ui.brand}
         subtitle={quiz.subtitle}
+        ui={ui}
         onToggleTheme={() => setTheme((current) => (current === 'dark' ? 'light' : 'dark'))}
+        onToggleLang={toggleLang}
         onOpenHelp={() => setModal('help')}
       />
 
-      <QuizSwitcher quizzes={QUIZZES} activeId={quiz.id} onChange={chooseQuiz} />
+      <QuizSwitcher
+        quizzes={quizzes}
+        activeId={quiz.id}
+        ariaLabel={ui.quizNav}
+        onChange={chooseQuiz}
+      />
 
       <main className="stage">
         <div className="host-tip">
@@ -116,15 +135,16 @@ export default function App() {
         </div>
 
         {quiz.kind === 'path' ? (
-          <PathList clubs={question.clubs} loans={question.loans} />
+          <PathList clubs={question.clubs} loans={question.loans} ui={ui} />
         ) : (
-          <ClueList clues={question.clues} />
+          <ClueList clues={question.clues} ariaLabel={ui.cluesAria} />
         )}
 
         <AnswerReveal
           answer={question.answer}
           meta={question.meta}
-          placeholder={`اضغط لعرض ${quiz.answerLabel}`}
+          answerLabel={quiz.answerLabel}
+          ui={ui}
           revealed={revealed}
           onToggle={toggleAnswer}
         />
@@ -140,11 +160,11 @@ export default function App() {
       </main>
 
       <footer className="site-footer">
-        <p>بيانات نصية فقط — بدون صور أو شعارات أندية.</p>
-        <p>من أنا؟ © 2026</p>
+        <p>{ui.footerData}</p>
+        <p>{ui.footerTitle}</p>
       </footer>
 
-      <HowToPlay open={modal === 'help'} onClose={closeHelp} />
+      <HowToPlay open={modal === 'help'} ui={ui} onClose={closeHelp} />
     </div>
   );
 }
