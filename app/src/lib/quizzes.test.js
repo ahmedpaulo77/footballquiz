@@ -8,6 +8,11 @@ describe('الألعاب (Quizzes)', () => {
     expect(ids).toContain('paths');
   });
 
+  it('«من أنا؟» الأول و«المسار» بعده', () => {
+    expect(QUIZZES[0].id).toBe('who-am-i');
+    expect(QUIZZES[1].id).toBe('paths');
+  });
+
   it('كل لعبة عندها أسئلة وبيانات عرض كاملة', () => {
     for (const quiz of QUIZZES) {
       expect(quiz.title, quiz.id).toBeTruthy();
@@ -45,14 +50,41 @@ describe('الألعاب (Quizzes)', () => {
 });
 
 describe('لعبة «من أنا؟»', () => {
+  const quiz = getQuiz('who-am-i');
+
   it('كل لاعب عنده ٣ تلميحات بالإجابة الصح', () => {
-    const quiz = getQuiz('who-am-i');
     expect(quiz.kind).toBe('clues');
 
     for (const question of quiz.questions) {
       expect(question.clues, question.id).toHaveLength(3);
       expect(question.answer, question.id).toBeTruthy();
     }
+  });
+
+  it('كل تلميح عنده عنوان ونص مفيد', () => {
+    for (const question of quiz.questions) {
+      for (const clue of question.clues) {
+        expect(clue.label, question.id).toBeTruthy();
+        expect(clue.text.length, question.id).toBeGreaterThan(20);
+      }
+    }
+  });
+
+  it('كل لاعب عنده سطور بيانات تحت الإجابة', () => {
+    for (const question of quiz.questions) {
+      expect(question.meta.length, question.id).toBeGreaterThan(0);
+    }
+  });
+
+  it('مفيش تلميح بيحرق اسم اللاعب كامل', () => {
+    for (const question of quiz.questions) {
+      const text = question.clues.map((clue) => clue.text).join(' ');
+      expect(text, question.id).not.toContain(question.answer);
+    }
+  });
+
+  it('فيها ٩٠ لاعب على الأقل', () => {
+    expect(quiz.questions.length).toBeGreaterThanOrEqual(90);
   });
 });
 

@@ -1,15 +1,16 @@
-import { PLAYABLE_PLAYERS } from '../data/players.js';
-import { buildClues } from './game.js';
-
 /**
  * كل لعبة عبارة عن «كويز» له نفس الشكل:
- *   { id, title, emoji, subtitle, answerLabel, nextLabel, kind, questions }
+ *   { id, title, emoji, subtitle, answerLabel, nextLabel, kind, order, questions }
  *
  * الأسئلة نوعين:
  *   1. clues  → تلميحات نصية (زي لعبة «من أنا؟»)
  *   2. path   → مسار أندية بالترتيب (زي لعبة «المسار»)
  *
- * أي ملف JSON جديد في app/src/data/quizzes/ بيتحوّل للعبة تلقائيًا.
+ * كل البيانات بقت في ملفات JSON جوه app/src/data/quizzes/:
+ *   - who-am-i.json  → لعبة «من أنا؟»
+ *   - paths.json     → لعبة «المسار»
+ * وأي ملف JSON جديد هناك بيتحوّل للعبة تلقائيًا.
+ * `order` بيحدد ترتيب اللعبة في الأزرار (الأصغر الأول).
  */
 const quizModules = import.meta.glob('../data/quizzes/*.json', {
   eager: true,
@@ -55,41 +56,17 @@ function normalizeQuiz(raw, fallbackId) {
     answerLabel: raw.answerLabel ?? 'الإجابة',
     nextLabel: raw.nextLabel ?? 'سؤال تاني',
     kind,
+    order: typeof raw.order === 'number' ? raw.order : 999,
     questions,
-  };
-}
-
-/** لعبة «من أنا؟» — تلميحاتها بتتبني من بنك اللاعبين. */
-function buildWhoAmIQuiz() {
-  return {
-    id: 'who-am-i',
-    title: 'من أنا؟',
-    emoji: '⚽',
-    subtitle: '٣ تلميحات لكل لاعب كورة',
-    answerLabel: 'اسم اللاعب',
-    nextLabel: 'لاعب تاني',
-    kind: 'clues',
-    questions: PLAYABLE_PLAYERS.map((player) => ({
-      id: player.id,
-      answer: player.name,
-      clues: buildClues(player),
-      clubs: [],
-      loans: [],
-      meta: [
-        `${player.nationality} · ${player.club}`,
-        `${player.position} · ${player.league} · ${player.age} سنة`,
-      ],
-      known: null,
-    })),
   };
 }
 
 const jsonQuizzes = Object.entries(quizModules)
   .map(([path, raw]) => normalizeQuiz(raw, path.split('/').pop().replace('.json', '')))
   .filter((quiz) => quiz.questions.length > 0)
-  .sort((a, b) => a.title.localeCompare(b.title, 'ar'));
+  .sort((a, b) => a.order - b.order || a.title.localeCompare(b.title, 'ar'));
 
-export const QUIZZES = [buildWhoAmIQuiz(), ...jsonQuizzes];
+export const QUIZZES = jsonQuizzes;
 
 /** بترجع سؤال عشوائي من الكويز، مع استبعاد آخر الأسئلة اللي ظهرت. */
 export function pickQuestion(quiz, { excludeIds = [] } = {}) {

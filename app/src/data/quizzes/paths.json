@@ -5,6 +5,8 @@
   "subtitle": "الأندية بس… مين اللاعب؟",
   "answerLabel": "اسم اللاعب",
   "nextLabel": "لاعب تاني",
+  "kind": "path",
+  "order": 2,
   "questions": [
     {
       "id": "francesco-totti",
