@@ -1,6 +1,6 @@
 import Modal from './Modal.jsx';
 
-const LEGEND_ICONS = ['🔒', '🎲', '🧩', '📋'];
+const LEGEND_ICONS = ['🔒', '🎲', '🧩', '🎯', '📋'];
 
 export default function HowToPlay({ open, ui, onClose }) {
   const howto = ui.howto;

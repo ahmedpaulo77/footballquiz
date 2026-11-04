@@ -1,0 +1,252 @@
+{
+  "id": "risk",
+  "title": { "ar": "ريسك", "en": "Risk" },
+  "emoji": "🎯",
+  "subtitle": {
+    "ar": "لوحة فئات ونقاط… راهن على إجابتك",
+    "en": "A category board… wager on your answer"
+  },
+  "answerLabel": { "ar": "الإجابة الصحيحة", "en": "Correct answer" },
+  "nextLabel": { "ar": "كمّل", "en": "Continue" },
+  "kind": "risk",
+  "order": 3,
+  "values": [10, 20, 40, 50],
+  "categories": [
+    {
+      "id": "world-cup",
+      "title": { "ar": "كأس العالم", "en": "World Cup" },
+      "emoji": "🏆"
+    },
+    {
+      "id": "champions-league",
+      "title": { "ar": "دوري أبطال أوروبا", "en": "Champions League" },
+      "emoji": "⭐"
+    },
+    {
+      "id": "premier-league",
+      "title": { "ar": "الدوري الإنجليزي", "en": "Premier League" },
+      "emoji": "🦁"
+    },
+    {
+      "id": "africa",
+      "title": { "ar": "أفريقيا", "en": "Africa" },
+      "emoji": "🌍"
+    },
+    {
+      "id": "numbers-stars",
+      "title": { "ar": "أرقام ونجوم", "en": "Numbers & Stars" },
+      "emoji": "🔢"
+    }
+  ],
+  "questions": [
+    {
+      "id": "world-cup-10",
+      "category": "world-cup",
+      "value": 10,
+      "question": {
+        "ar": "أي منتخب كسب كأس العالم 2022؟",
+        "en": "Which country won the 2022 World Cup?"
+      },
+      "answer": { "ar": "الأرجنتين", "en": "Argentina" }
+    },
+    {
+      "id": "world-cup-20",
+      "category": "world-cup",
+      "value": 20,
+      "question": {
+        "ar": "أي منتخب كسب كأس العالم 2026؟",
+        "en": "Which country won the 2026 World Cup?"
+      },
+      "answer": { "ar": "إسبانيا", "en": "Spain" }
+    },
+    {
+      "id": "world-cup-40",
+      "category": "world-cup",
+      "value": 40,
+      "question": {
+        "ar": "مين كسب الحذاء الذهبي في كأس العالم 2010؟",
+        "en": "Who won the Golden Boot at the 2010 World Cup?"
+      },
+      "answer": { "ar": "توماس مولر", "en": "Thomas Müller" }
+    },
+    {
+      "id": "world-cup-50",
+      "category": "world-cup",
+      "value": 50,
+      "question": {
+        "ar": "كام لاعب سجّل هاتريك في نهائي كأس العالم؟",
+        "en": "How many players have scored a hat-trick in a World Cup final?"
+      },
+      "answer": {
+        "ar": "اثنان: جيف هيرست (1966) وكيليان مبابي (2022)",
+        "en": "Two: Geoff Hurst (1966) and Kylian Mbappé (2022)"
+      }
+    },
+    {
+      "id": "champions-league-10",
+      "category": "champions-league",
+      "value": 10,
+      "question": {
+        "ar": "أي نادي كسب دوري أبطال أوروبا 2025-26؟",
+        "en": "Which club won the 2025-26 Champions League?"
+      },
+      "answer": { "ar": "باريس سان جيرمان", "en": "Paris Saint-Germain" }
+    },
+    {
+      "id": "champions-league-20",
+      "category": "champions-league",
+      "value": 20,
+      "question": {
+        "ar": "أي نادي كسب دوري أبطال أوروبا/كأس أوروبا أكتر من غيره؟",
+        "en": "Which club has won the European Cup/Champions League the most times?"
+      },
+      "answer": { "ar": "ريال مدريد (15 لقبًا)", "en": "Real Madrid (15 titles)" }
+    },
+    {
+      "id": "champions-league-40",
+      "category": "champions-league",
+      "value": 40,
+      "question": {
+        "ar": "مين الهداف التاريخي لدوري أبطال أوروبا؟",
+        "en": "Who is the all-time top scorer in the Champions League?"
+      },
+      "answer": { "ar": "كريستيانو رونالدو (140 هدفًا)", "en": "Cristiano Ronaldo (140 goals)" }
+    },
+    {
+      "id": "champions-league-50",
+      "category": "champions-league",
+      "value": 50,
+      "question": {
+        "ar": "أي نادي خسر أكبر عدد من نهائيات كأس أوروبا/دوري الأبطال؟",
+        "en": "Which club has lost the most European Cup/Champions League finals?"
+      },
+      "answer": { "ar": "يوفنتوس (7 نهائيات)", "en": "Juventus (7 finals)" }
+    },
+    {
+      "id": "premier-league-10",
+      "category": "premier-league",
+      "value": 10,
+      "question": {
+        "ar": "أي نادي كسب الدوري الإنجليزي أكتر من غيره؟",
+        "en": "Which club has won the most Premier League titles?"
+      },
+      "answer": { "ar": "مانشستر يونايتد (13 لقبًا)", "en": "Manchester United (13 titles)" }
+    },
+    {
+      "id": "premier-league-20",
+      "category": "premier-league",
+      "value": 20,
+      "question": {
+        "ar": "أي نادي خلص موسم 2003-04 في الدوري الإنجليزي من غير خسارة؟",
+        "en": "Which club went unbeaten in the 2003-04 Premier League season?"
+      },
+      "answer": { "ar": "أرسنال", "en": "Arsenal" }
+    },
+    {
+      "id": "premier-league-40",
+      "category": "premier-league",
+      "value": 40,
+      "question": {
+        "ar": "مين سجّل أسرع هاتريك في تاريخ الدوري الإنجليزي؟",
+        "en": "Who scored the fastest hat-trick in Premier League history?"
+      },
+      "answer": {
+        "ar": "ساديو ماني (دقيقتان و56 ثانية)",
+        "en": "Sadio Mané (2 minutes 56 seconds)"
+      }
+    },
+    {
+      "id": "premier-league-50",
+      "category": "premier-league",
+      "value": 50,
+      "question": {
+        "ar": "أي نادي كسب مباراة في الدوري الإنجليزي 9-0 بره أرضه؟",
+        "en": "Which club won a Premier League match 9-0 away from home?"
+      },
+      "answer": {
+        "ar": "ليستر سيتي (أمام ساوثهامبتون 2019)",
+        "en": "Leicester City (at Southampton in 2019)"
+      }
+    },
+    {
+      "id": "africa-10",
+      "category": "africa",
+      "value": 10,
+      "question": {
+        "ar": "أي منتخب كسب كأس أمم أفريقيا أكتر من غيره؟",
+        "en": "Which country has won the most Africa Cup of Nations titles?"
+      },
+      "answer": { "ar": "مصر (7 ألقاب)", "en": "Egypt (7 titles)" }
+    },
+    {
+      "id": "africa-20",
+      "category": "africa",
+      "value": 20,
+      "question": {
+        "ar": "أي منتخب أفريقي وصل لنصف نهائي كأس العالم 2022؟",
+        "en": "Which African team reached the 2022 World Cup semi-finals?"
+      },
+      "answer": { "ar": "المغرب", "en": "Morocco" }
+    },
+    {
+      "id": "africa-40",
+      "category": "africa",
+      "value": 40,
+      "question": {
+        "ar": "مين الهداف التاريخي لكأس أمم أفريقيا؟",
+        "en": "Who is the all-time top scorer in Africa Cup of Nations history?"
+      },
+      "answer": { "ar": "صامويل إيتو (18 هدفًا)", "en": "Samuel Eto'o (18 goals)" }
+    },
+    {
+      "id": "africa-50",
+      "category": "africa",
+      "value": 50,
+      "question": {
+        "ar": "مين هداف أفريقيا التاريخي في كأس العالم؟",
+        "en": "Who is Africa's all-time top scorer at the World Cup?"
+      },
+      "answer": { "ar": "أسامواه جيان (6 أهداف)", "en": "Asamoah Gyan (6 goals)" }
+    },
+    {
+      "id": "numbers-stars-10",
+      "category": "numbers-stars",
+      "value": 10,
+      "question": {
+        "ar": "مين كسب الكرة الذهبية 2026؟",
+        "en": "Who won the 2026 Ballon d'Or?"
+      },
+      "answer": { "ar": "هاري كين", "en": "Harry Kane" }
+    },
+    {
+      "id": "numbers-stars-20",
+      "category": "numbers-stars",
+      "value": 20,
+      "question": {
+        "ar": "مين كسب الكرة الذهبية أكتر من غيره؟",
+        "en": "Who has won the most Ballon d'Or awards?"
+      },
+      "answer": { "ar": "ليونيل ميسي (8 جوائز)", "en": "Lionel Messi (8 awards)" }
+    },
+    {
+      "id": "numbers-stars-40",
+      "category": "numbers-stars",
+      "value": 40,
+      "question": {
+        "ar": "مين اللاعب اللي لعب أكتر مباريات في الدوري الإنجليزي؟",
+        "en": "Which player has made the most Premier League appearances?"
+      },
+      "answer": { "ar": "غاريث باري (653 مباراة)", "en": "Gareth Barry (653 appearances)" }
+    },
+    {
+      "id": "numbers-stars-50",
+      "category": "numbers-stars",
+      "value": 50,
+      "question": {
+        "ar": "مين سجّل 91 هدف في سنة تقويمية واحدة (2012)؟",
+        "en": "Who scored 91 goals in a single calendar year (2012)?"
+      },
+      "answer": { "ar": "ليونيل ميسي", "en": "Lionel Messi" }
+    }
+  ]
+}

@@ -23,6 +23,10 @@
   --accent-soft: rgba(34, 211, 238, 0.14);
   --gold: #fcd34d;
   --gold-soft: rgba(251, 191, 36, 0.15);
+  --success: #34d399;
+  --success-soft: rgba(52, 211, 153, 0.14);
+  --danger: #fb7185;
+  --danger-soft: rgba(251, 113, 133, 0.14);
 
   --grad-primary: linear-gradient(135deg, #5b21b6 0%, #7c3aed 46%, #4f46e5 100%);
   --grad-brand: linear-gradient(120deg, #b9a2ff, #67e8f9);
@@ -67,6 +71,10 @@
   --accent-soft: rgba(8, 145, 178, 0.1);
   --gold: #92600a;
   --gold-soft: rgba(217, 159, 0, 0.14);
+  --success: #047857;
+  --success-soft: rgba(4, 120, 87, 0.1);
+  --danger: #be123c;
+  --danger-soft: rgba(190, 18, 60, 0.1);
 
   --grad-primary: linear-gradient(135deg, #5b21b6 0%, #7c3aed 46%, #4f46e5 100%);
   --grad-brand: linear-gradient(120deg, #6d28d9, #0e7490);
@@ -796,6 +804,589 @@ button:focus-visible {
   font-weight: 800;
   direction: rtl;
   animation: loanPulse 3s ease-in-out infinite;
+}
+
+/* ── لعبة ريسك ─────────────────────────────────────────────────────── */
+
+.risk-game {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.risk-scoreboard {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+}
+
+.risk-team {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 12px 14px;
+  border-radius: 17px;
+  border: 1px solid var(--border);
+  background:
+    linear-gradient(150deg, var(--surface-2), var(--surface) 72%),
+    var(--surface);
+  backdrop-filter: blur(12px);
+  transition: border-color 0.25s ease, box-shadow 0.25s ease, transform 0.2s ease;
+}
+
+.risk-team.is-active {
+  border-color: rgba(34, 211, 238, 0.55);
+  box-shadow:
+    0 0 0 1px rgba(34, 211, 238, 0.25),
+    0 12px 30px rgba(3, 1, 14, 0.35),
+    0 0 24px rgba(34, 211, 238, 0.14);
+}
+
+[data-theme='light'] .risk-team.is-active {
+  box-shadow:
+    0 0 0 1px rgba(8, 145, 178, 0.25),
+    0 10px 26px rgba(42, 24, 92, 0.12);
+}
+
+.risk-team-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 6px;
+  min-width: 0;
+}
+
+.risk-team-label {
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.2px;
+  color: var(--muted);
+}
+
+.risk-turn-badge {
+  flex-shrink: 0;
+  padding: 1px 7px;
+  border-radius: 999px;
+  background: var(--accent-soft);
+  border: 1px solid rgba(34, 211, 238, 0.35);
+  color: var(--accent);
+  font-size: 9px;
+  font-weight: 900;
+}
+
+.risk-team-input {
+  width: 100%;
+  padding: 1px 0;
+  border: 0;
+  border-bottom: 1px dashed var(--border-strong);
+  border-radius: 0;
+  background: transparent;
+  color: var(--text);
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 800;
+  line-height: 1.4;
+  text-overflow: ellipsis;
+}
+
+.risk-team-input:focus {
+  outline: none;
+  border-bottom-color: var(--accent);
+}
+
+.risk-team-score {
+  display: flex;
+  align-items: baseline;
+  gap: 4px;
+  font-size: 24px;
+  font-weight: 900;
+  line-height: 1.1;
+  font-variant-numeric: tabular-nums;
+  color: var(--text);
+}
+
+.risk-team-score span {
+  font-size: 10.5px;
+  font-weight: 700;
+  color: var(--muted);
+}
+
+.risk-toolbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.risk-turn-text {
+  margin: 0;
+  font-size: 12.5px;
+  font-weight: 800;
+  color: var(--accent);
+}
+
+.risk-reset {
+  padding: 5px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  color: var(--muted);
+  font-size: 10.5px;
+  font-weight: 800;
+  transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+}
+
+.risk-reset:hover {
+  color: var(--text);
+  border-color: var(--border-strong);
+  background: var(--surface-2);
+}
+
+.risk-remaining {
+  margin: 0;
+  font-size: 10.5px;
+  font-weight: 600;
+  color: var(--muted);
+}
+
+.risk-board {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.risk-category {
+  padding: 10px 12px 12px;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  backdrop-filter: blur(12px);
+}
+
+.risk-category-head {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+  min-width: 0;
+}
+
+.risk-category-emoji {
+  font-size: 15px;
+  line-height: 1;
+}
+
+.risk-category-title {
+  margin: 0;
+  font-size: 13px;
+  font-weight: 800;
+  line-height: 1.4;
+  color: var(--text);
+  overflow-wrap: break-word;
+}
+
+.risk-values {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: 6px;
+  margin-top: 8px;
+}
+
+.risk-cell {
+  min-width: 0;
+  min-height: 46px;
+  padding: 4px;
+  border-radius: 11px;
+  border: 1px solid rgba(139, 92, 246, 0.3);
+  background:
+    linear-gradient(150deg, rgba(139, 92, 246, 0.16), transparent 70%),
+    var(--surface-2);
+  color: var(--text);
+  font-size: 14.5px;
+  font-weight: 900;
+  font-variant-numeric: tabular-nums;
+  transition: transform 0.16s ease, border-color 0.2s ease, box-shadow 0.24s ease,
+    background 0.2s ease;
+}
+
+.risk-cell:hover:not(:disabled) {
+  transform: translateY(-2px);
+  border-color: rgba(34, 211, 238, 0.65);
+  background:
+    linear-gradient(150deg, rgba(34, 211, 238, 0.16), transparent 70%),
+    var(--surface-2);
+  box-shadow: 0 8px 20px rgba(3, 1, 14, 0.32), 0 0 16px rgba(34, 211, 238, 0.16);
+}
+
+.risk-cell:active:not(:disabled) {
+  transform: translateY(0) scale(0.97);
+}
+
+.risk-cell.is-used {
+  border-style: dashed;
+  border-color: var(--border);
+  background: transparent;
+  color: var(--muted);
+  opacity: 0.42;
+  cursor: default;
+}
+
+.risk-cell.is-used span {
+  color: var(--success);
+  font-size: 15px;
+}
+
+.risk-final {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+  padding: 24px 18px 18px;
+  border-radius: 20px;
+  border: 1px solid var(--border-strong);
+  background:
+    radial-gradient(420px 200px at 50% 0%, rgba(252, 211, 77, 0.16), transparent 70%),
+    linear-gradient(160deg, rgba(139, 92, 246, 0.18), var(--surface) 62%);
+  backdrop-filter: blur(14px);
+  box-shadow: var(--shadow-sm);
+  text-align: center;
+  animation: popIn 0.45s cubic-bezier(0.2, 0.9, 0.3, 1) both;
+}
+
+.risk-final-emoji {
+  font-size: 38px;
+  line-height: 1;
+  animation: floaty 4s ease-in-out infinite;
+}
+
+.risk-final-title {
+  margin: 0;
+  font-size: 15px;
+  font-weight: 900;
+  color: var(--gold);
+  letter-spacing: 0.2px;
+}
+
+.risk-final-name {
+  margin: 0;
+  font-size: 25px;
+  font-weight: 900;
+  line-height: 1.3;
+  background: var(--grad-title);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  overflow-wrap: break-word;
+}
+
+.risk-final-scores {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 8px;
+  width: 100%;
+  margin-top: 8px;
+}
+
+.risk-final-score {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  padding: 9px 10px;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  min-width: 0;
+}
+
+.risk-final-score span {
+  font-size: 10.5px;
+  font-weight: 700;
+  color: var(--muted);
+  overflow-wrap: break-word;
+}
+
+.risk-final-score b {
+  font-size: 20px;
+  font-weight: 900;
+  font-variant-numeric: tabular-nums;
+}
+
+.risk-final-label {
+  margin: 2px 0 0;
+  font-size: 10px;
+  font-weight: 700;
+  color: var(--muted);
+}
+
+.risk-final .primary-btn {
+  margin-top: 10px;
+}
+
+.risk-modal {
+  width: min(560px, 100%);
+}
+
+.risk-question-meta {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  min-width: 0;
+}
+
+.risk-question-team {
+  min-width: 0;
+  font-size: 11.5px;
+  font-weight: 700;
+  color: var(--muted);
+  overflow-wrap: anywhere;
+}
+
+.risk-question-value {
+  flex-shrink: 0;
+  padding: 3px 10px;
+  border-radius: 999px;
+  background: var(--gold-soft);
+  border: 1px solid rgba(251, 191, 36, 0.35);
+  color: var(--gold);
+  font-size: 11px;
+  font-weight: 900;
+  font-variant-numeric: tabular-nums;
+}
+
+.risk-question-text {
+  margin: 14px 0;
+  font-size: 18px;
+  font-weight: 800;
+  line-height: 1.8;
+  color: var(--text);
+  overflow-wrap: break-word;
+}
+
+.risk-risk-box {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex-wrap: wrap;
+  padding: 10px 12px;
+  margin-bottom: 12px;
+  border-radius: 14px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  transition: border-color 0.2s ease, background 0.2s ease;
+}
+
+.risk-risk-box.is-on {
+  border-color: rgba(251, 191, 36, 0.45);
+  background: var(--gold-soft);
+}
+
+.risk-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 8px 13px;
+  border-radius: 999px;
+  border: 1px solid var(--border-strong);
+  background: var(--surface-2);
+  color: var(--text);
+  font-size: 12px;
+  font-weight: 900;
+  transition: transform 0.16s ease, background 0.2s ease, border-color 0.2s ease,
+    color 0.2s ease;
+}
+
+.risk-toggle:hover:not(:disabled) {
+  transform: translateY(-1px);
+  border-color: rgba(251, 191, 36, 0.55);
+}
+
+.risk-toggle.is-on {
+  background: var(--gold-soft);
+  border-color: rgba(251, 191, 36, 0.5);
+  color: var(--gold);
+}
+
+.risk-toggle:disabled {
+  opacity: 0.55;
+  cursor: not-allowed;
+}
+
+.risk-risk-hint {
+  flex: 1 1 160px;
+  min-width: 0;
+  margin: 0;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.6;
+  color: var(--muted);
+}
+
+.risk-reveal-btn {
+  margin-top: 4px;
+}
+
+.risk-answer {
+  padding: 14px;
+  margin: 4px 0 12px;
+  border-radius: 16px;
+  border: 1px solid var(--border-strong);
+  background:
+    radial-gradient(300px 140px at 100% 0%, rgba(34, 211, 238, 0.14), transparent 70%),
+    var(--surface);
+  animation: popIn 0.3s cubic-bezier(0.2, 0.9, 0.3, 1) both;
+}
+
+.risk-answer-label {
+  display: block;
+  font-size: 10.5px;
+  font-weight: 800;
+  letter-spacing: 0.2px;
+  color: var(--accent);
+}
+
+.risk-answer-text {
+  margin: 4px 0 8px;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 1.5;
+  color: var(--text);
+  overflow-wrap: break-word;
+}
+
+.risk-hide-btn {
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--muted);
+  font-size: 10.5px;
+  font-weight: 700;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.risk-hide-btn:hover:not(:disabled) {
+  color: var(--text);
+}
+
+.risk-hide-btn:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+.risk-judge {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.risk-judge-btn {
+  min-height: 48px;
+  padding: 8px 12px;
+  border-radius: 13px;
+  border: 1px solid;
+  font-size: 14px;
+  font-weight: 900;
+  transition: transform 0.16s ease, filter 0.2s ease, opacity 0.2s ease;
+}
+
+.risk-judge-btn.is-correct {
+  border-color: rgba(52, 211, 153, 0.42);
+  background: var(--success-soft);
+  color: var(--success);
+}
+
+.risk-judge-btn.is-wrong {
+  border-color: rgba(251, 113, 133, 0.42);
+  background: var(--danger-soft);
+  color: var(--danger);
+}
+
+.risk-judge-btn:hover:not(:disabled) {
+  transform: translateY(-1px);
+  filter: brightness(1.08);
+}
+
+.risk-judge-btn:disabled {
+  opacity: 0.45;
+  cursor: not-allowed;
+}
+
+.risk-result {
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  margin-top: 12px;
+  padding: 14px;
+  border-radius: 16px;
+  border: 1px solid;
+  animation: popIn 0.3s cubic-bezier(0.2, 0.9, 0.3, 1) both;
+}
+
+.risk-result.is-correct {
+  border-color: rgba(52, 211, 153, 0.42);
+  background: var(--success-soft);
+}
+
+.risk-result.is-wrong {
+  border-color: rgba(251, 113, 133, 0.42);
+  background: var(--danger-soft);
+}
+
+.risk-result-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.risk-result-title {
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.risk-result.is-correct .risk-result-title {
+  color: var(--success);
+}
+
+.risk-result.is-wrong .risk-result-title {
+  color: var(--danger);
+}
+
+.risk-result-delta {
+  font-size: 26px;
+  font-weight: 900;
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+
+.risk-result.is-correct .risk-result-delta {
+  color: var(--success);
+}
+
+.risk-result.is-wrong .risk-result-delta {
+  color: var(--danger);
+}
+
+.risk-result-team {
+  margin: 0;
+  font-size: 12px;
+  font-weight: 700;
+  color: var(--muted);
+  overflow-wrap: anywhere;
+}
+
+.risk-result-note {
+  margin: 0;
+  font-size: 11px;
+  color: var(--muted);
+}
+
+.risk-result .primary-btn {
+  margin-top: 10px;
 }
 
 /* ── بوكس الإجابة ──────────────────────────────────────────────────── */
@@ -1579,6 +2170,39 @@ button:focus-visible {
     display: none;
   }
 
+  .risk-category {
+    padding: 9px 10px 10px;
+  }
+
+  .risk-category-title {
+    font-size: 12px;
+  }
+
+  .risk-cell {
+    min-height: 44px;
+    font-size: 14px;
+  }
+
+  .risk-team {
+    padding: 10px 12px;
+  }
+
+  .risk-team-score {
+    font-size: 21px;
+  }
+
+  .risk-team-input {
+    font-size: 13px;
+  }
+
+  .risk-question-text {
+    font-size: 16px;
+  }
+
+  .risk-answer-text {
+    font-size: 18px;
+  }
+
   .modal {
     padding: 22px 16px 18px;
     border-radius: 20px;
@@ -1612,6 +2236,40 @@ button:focus-visible {
 
   .answer-card.is-revealed .answer-name {
     font-size: 18.5px;
+  }
+
+  .risk-scoreboard {
+    gap: 7px;
+  }
+
+  .risk-team {
+    padding: 9px 10px;
+  }
+
+  .risk-team-score {
+    font-size: 19px;
+  }
+
+  .risk-values {
+    gap: 4px;
+  }
+
+  .risk-cell {
+    min-height: 42px;
+    font-size: 13px;
+    border-radius: 10px;
+  }
+
+  .risk-question-text {
+    font-size: 15px;
+  }
+
+  .risk-judge {
+    gap: 7px;
+  }
+
+  .risk-judge-btn {
+    font-size: 13px;
   }
 }
 

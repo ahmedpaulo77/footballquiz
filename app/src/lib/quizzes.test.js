@@ -1,5 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { QUIZZES, getQuiz, getQuizzes, pickQuestion } from './quizzes.js';
+import { findCell, isBoardComplete, scoreDelta, scoreLabel } from './risk.js';
 
 const ARABIC_LETTERS = /[\u0600-\u06FF]/;
 const LATIN_LETTERS = /[A-Za-z]/;
@@ -43,12 +44,13 @@ describe('الألعاب (Quizzes)', () => {
     }
   });
 
-  it('كل سؤال عنده تلميحات أو مسار أندية', () => {
+  it('كل سؤال عنده تلميحات أو مسار أندية أو سؤال ريسك', () => {
     for (const quiz of QUIZZES) {
       for (const question of quiz.questions) {
         const hasClues = question.clues.length > 0;
         const hasPath = question.clubs.length > 0;
-        expect(hasClues || hasPath, `${quiz.id}/${question.id}`).toBe(true);
+        const hasRisk = quiz.kind === 'risk' && Boolean(question.question);
+        expect(hasClues || hasPath || hasRisk, `${quiz.id}/${question.id}`).toBe(true);
       }
     }
   });
@@ -144,6 +146,115 @@ describe('لعبة «المسار»', () => {
         expect(index, question.id).toBeLessThan(question.clubs.length);
       }
     }
+  });
+});
+
+describe('لعبة «ريسك»', () => {
+  const arQuiz = getQuiz('risk', 'ar');
+  const enQuiz = getQuiz('risk', 'en');
+
+  it('نوعها risk وبعد «المسار» في الترتيب', () => {
+    expect(arQuiz.kind).toBe('risk');
+    expect(arQuiz.order).toBe(3);
+    expect(QUIZZES.map((quiz) => quiz.id)).toEqual(['who-am-i', 'paths', 'risk']);
+  });
+
+  it('فيها ٥ فئات و٢٠ خلية على ٤ قيم', () => {
+    expect(arQuiz.categories).toHaveLength(5);
+    expect(arQuiz.values).toEqual([10, 20, 40, 50]);
+    expect(arQuiz.questions).toHaveLength(20);
+    expect(enQuiz.questions).toHaveLength(20);
+  });
+
+  it('كل فئة عندها خلية واحدة لكل قيمة', () => {
+    for (const category of arQuiz.categories) {
+      const cells = arQuiz.questions.filter(
+        (question) => question.category === category.id,
+      );
+
+      expect(cells, category.id).toHaveLength(arQuiz.values.length);
+      expect(
+        cells.map((cell) => cell.value).sort((a, b) => a - b),
+        category.id,
+      ).toEqual(arQuiz.values);
+    }
+  });
+
+  it('كل خلية ليها id وقيمة فريدة ومفيش تكرار', () => {
+    const ids = arQuiz.questions.map((question) => question.id);
+    expect(new Set(ids).size).toBe(ids.length);
+
+    const pairs = arQuiz.questions.map(
+      (question) => `${question.category}:${question.value}`,
+    );
+    expect(new Set(pairs).size).toBe(pairs.length);
+  });
+
+  it('كل سؤال وإجابة موجودين بالعربي والإنجليزي', () => {
+    arQuiz.questions.forEach((question, index) => {
+      const english = enQuiz.questions[index];
+
+      expect(question.question.length, question.id).toBeGreaterThan(10);
+      expect(question.answer.length, question.id).toBeGreaterThan(2);
+      expect(question.question, question.id).toMatch(ARABIC_LETTERS);
+      expect(question.answer, question.id).toMatch(ARABIC_LETTERS);
+
+      expect(english.id, question.id).toBe(question.id);
+      expect(english.question.length, question.id).toBeGreaterThan(10);
+      expect(english.answer.length, question.id).toBeGreaterThan(2);
+      expect(english.question, question.id).toMatch(LATIN_LETTERS);
+      expect(english.answer, question.id).toMatch(LATIN_LETTERS);
+    });
+  });
+
+  it('عناوين الفئات مترجمة في اللغتين', () => {
+    arQuiz.categories.forEach((category, index) => {
+      const english = enQuiz.categories[index];
+
+      expect(category.title, category.id).toMatch(ARABIC_LETTERS);
+      expect(english.title, category.id).toMatch(LATIN_LETTERS);
+    });
+  });
+
+  it('البحث عن خلية بالفئة والقيمة بيرجع الخلية الصح', () => {
+    const cell = findCell(arQuiz.questions, 'africa', 50);
+
+    expect(cell).toBeTruthy();
+    expect(cell.category).toBe('africa');
+    expect(cell.value).toBe(50);
+    expect(findCell(arQuiz.questions, 'africa', 999)).toBeNull();
+  });
+});
+
+describe('نقاط لعبة «ريسك»', () => {
+  it('صح عادي = قيمة الخلية', () => {
+    expect(scoreDelta({ value: 30, risk: false, correct: true })).toBe(30);
+  });
+
+  it('صح ريسك = ضعف قيمة الخلية', () => {
+    expect(scoreDelta({ value: 30, risk: true, correct: true })).toBe(60);
+  });
+
+  it('غلط عادي = صفر', () => {
+    expect(scoreDelta({ value: 30, risk: false, correct: false })).toBe(0);
+  });
+
+  it('غلط ريسك = خصم قيمة الخلية', () => {
+    expect(scoreDelta({ value: 30, risk: true, correct: false })).toBe(-30);
+  });
+
+  it('شكل النقاط بيتعرض بالإشارة الصح', () => {
+    expect(scoreLabel(60)).toBe('+60');
+    expect(scoreLabel(-30)).toBe('−30');
+    expect(scoreLabel(0)).toBe('0');
+  });
+
+  it('اللوحة بتخلص لما كل الخلايا تتلعب', () => {
+    const questions = getQuiz('risk').questions;
+    const all = new Set(questions.map((question) => question.id));
+
+    expect(isBoardComplete(questions, all)).toBe(true);
+    expect(isBoardComplete(questions, new Set())).toBe(false);
   });
 });
 

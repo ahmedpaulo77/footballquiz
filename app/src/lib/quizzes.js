@@ -2,13 +2,15 @@
  * كل لعبة عبارة عن «كويز» له نفس الشكل:
  *   { id, title, emoji, subtitle, answerLabel, nextLabel, kind, order, questions }
  *
- * الأسئلة نوعين:
+ * الأسئلة أنواعها:
  *   1. clues  → تلميحات نصية (زي لعبة «من أنا؟»)
  *   2. path   → مسار أندية بالترتيب (زي لعبة «المسار»)
+ *   3. risk   → خلايا لوحة فئات ونقاط (زي لعبة «ريسك»)
  *
  * كل البيانات في ملفات JSON جوه app/src/data/quizzes/:
  *   - who-am-i.json  → لعبة «من أنا؟»
  *   - paths.json     → لعبة «المسار»
+ *   - risk.json      → لعبة «ريسك»
  * وأي ملف JSON جديد هناك بيتحوّل للعبة تلقائيًا.
  *
  * كل النصوص ممكن تكون:
@@ -59,6 +61,9 @@ function normalizeQuestion(raw, index, quizId) {
   return {
     id,
     answer: raw.answer ?? '',
+    question: raw.question ?? '',
+    category: raw.category ?? '',
+    value: typeof raw.value === 'number' ? raw.value : null,
     clues,
     clubs: Array.isArray(raw.clubs) ? raw.clubs.filter(Boolean) : [],
     loans: Array.isArray(raw.loans) ? raw.loans : [],
@@ -73,6 +78,18 @@ function normalizeQuiz(raw, fallbackId) {
     normalizeQuestion(question, index, id),
   );
 
+  const categories = (raw.categories ?? []).map((category, index) => ({
+    id: category?.id ?? `${id}-category-${index}`,
+    title: category?.title ?? category?.id ?? '',
+    emoji: category?.emoji ?? '⚽',
+  }));
+
+  const values = Array.isArray(raw.values)
+    ? raw.values.filter((value) => typeof value === 'number')
+    : [...new Set(questions.map((question) => question.value).filter((value) => value != null))].sort(
+        (a, b) => a - b,
+      );
+
   const kind =
     raw.kind ?? (questions.some((question) => question.clubs.length) ? 'path' : 'clues');
 
@@ -85,6 +102,8 @@ function normalizeQuiz(raw, fallbackId) {
     nextLabel: raw.nextLabel ?? '',
     kind,
     order: typeof raw.order === 'number' ? raw.order : 999,
+    categories,
+    values,
     questions,
   };
 }
@@ -108,9 +127,18 @@ function localizeQuiz(quiz, lang) {
     nextLabel: pickText(quiz.nextLabel, lang),
     kind: quiz.kind,
     order: quiz.order,
+    categories: quiz.categories.map((category) => ({
+      id: category.id,
+      title: pickText(category.title, lang),
+      emoji: category.emoji,
+    })),
+    values: quiz.values,
     questions: quiz.questions.map((question) => ({
       id: question.id,
       answer: pickText(question.answer, lang),
+      question: pickText(question.question, lang),
+      category: question.category,
+      value: question.value,
       clues: question.clues.map((clue) => ({
         id: clue.id,
         label: clue.label ? pickText(clue.label, lang) : null,

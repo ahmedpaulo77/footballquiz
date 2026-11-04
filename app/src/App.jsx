@@ -5,6 +5,7 @@ import ClueList from './components/ClueList.jsx';
 import PathList from './components/PathList.jsx';
 import AnswerReveal from './components/AnswerReveal.jsx';
 import HowToPlay from './components/HowToPlay.jsx';
+import RiskGame from './components/RiskGame.jsx';
 import { getQuiz, getQuizzes, pickQuestion } from './lib/quizzes.js';
 import { getUi } from './lib/i18n.js';
 import {
@@ -26,9 +27,10 @@ export default function App() {
   const [lang, setLang] = useState(() => loadLang());
   const [theme, setTheme] = useState(() => loadTheme());
   const [quizId, setQuizId] = useState(() => getQuiz(loadQuizId()).id);
-  const [questionId, setQuestionId] = useState(
-    () => pickQuestion(getQuiz(quizId))?.id ?? null,
-  );
+  const [questionId, setQuestionId] = useState(() => {
+    const initialQuiz = getQuiz(loadQuizId());
+    return initialQuiz.kind === 'risk' ? null : pickQuestion(initialQuiz)?.id ?? null;
+  });
   const [recent, setRecent] = useState({});
   const [revealed, setRevealed] = useState(false);
   const [modal, setModal] = useState(() => (hasSeenHelp() ? null : 'help'));
@@ -36,8 +38,10 @@ export default function App() {
   const ui = getUi(lang);
   const quizzes = getQuizzes(lang);
   const quiz = getQuiz(quizId, lang);
-  const question =
-    quiz.questions.find((item) => item.id === questionId) ?? quiz.questions[0];
+  const isRisk = quiz.kind === 'risk';
+  const question = isRisk
+    ? null
+    : quiz.questions.find((item) => item.id === questionId) ?? quiz.questions[0];
   const tip = ui.tips[quiz.kind] ?? ui.tips.clues;
 
   useEffect(() => {
@@ -53,9 +57,10 @@ export default function App() {
     const root = document.documentElement;
     root.lang = lang;
     root.dir = ui.dir;
-    document.title = lang === 'ar' ? 'من أنا؟ — لعبة تلميحات كورة' : 'Who Am I? — Football Quiz';
+    document.title =
+      lang === 'ar' ? `${quiz.title} — لعبة كورة` : `${quiz.title} — Football Quiz`;
     saveLang(lang);
-  }, [lang, ui.dir]);
+  }, [lang, ui.dir, quiz.title]);
 
   const nextQuestion = useCallback(() => {
     const used = recent[quiz.id] ?? [];
@@ -77,7 +82,9 @@ export default function App() {
 
       const nextQuiz = getQuiz(nextId, lang);
       setQuizId(nextQuiz.id);
-      setQuestionId(pickQuestion(nextQuiz)?.id ?? null);
+      setQuestionId(
+        nextQuiz.kind === 'risk' ? null : pickQuestion(nextQuiz)?.id ?? null,
+      );
       setRevealed(false);
       saveQuizId(nextQuiz.id);
       window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -134,29 +141,35 @@ export default function App() {
           </div>
         </div>
 
-        {quiz.kind === 'path' ? (
-          <PathList clubs={question.clubs} loans={question.loans} ui={ui} />
+        {isRisk ? (
+          <RiskGame quiz={quiz} ui={ui} lang={lang} />
         ) : (
-          <ClueList clues={question.clues} ariaLabel={ui.cluesAria} />
+          <>
+            {quiz.kind === 'path' ? (
+              <PathList clubs={question.clubs} loans={question.loans} ui={ui} />
+            ) : (
+              <ClueList clues={question.clues} ariaLabel={ui.cluesAria} />
+            )}
+
+            <AnswerReveal
+              answer={question.answer}
+              meta={question.meta}
+              answerLabel={quiz.answerLabel}
+              ui={ui}
+              revealed={revealed}
+              onToggle={toggleAnswer}
+            />
+
+            <div className="controls">
+              <button type="button" className="primary-btn next-btn" onClick={nextQuestion}>
+                <span aria-hidden="true">🎲</span>
+                {quiz.nextLabel}
+              </button>
+            </div>
+
+            <p className="controls-hint">{tip.hint}</p>
+          </>
         )}
-
-        <AnswerReveal
-          answer={question.answer}
-          meta={question.meta}
-          answerLabel={quiz.answerLabel}
-          ui={ui}
-          revealed={revealed}
-          onToggle={toggleAnswer}
-        />
-
-        <div className="controls">
-          <button type="button" className="primary-btn next-btn" onClick={nextQuestion}>
-            <span aria-hidden="true">🎲</span>
-            {quiz.nextLabel}
-          </button>
-        </div>
-
-        <p className="controls-hint">{tip.hint}</p>
       </main>
 
       <footer className="site-footer">
