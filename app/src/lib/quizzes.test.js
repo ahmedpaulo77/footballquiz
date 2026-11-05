@@ -159,11 +159,11 @@ describe('لعبة «ريسك»', () => {
     expect(QUIZZES.map((quiz) => quiz.id)).toEqual(['who-am-i', 'paths', 'risk']);
   });
 
-  it('فيها ٥ فئات و٢٠ خلية على ٤ قيم', () => {
-    expect(arQuiz.categories).toHaveLength(5);
+  it('فيها ١٥ فئة و٦٠ خلية على ٤ قيم', () => {
+    expect(arQuiz.categories).toHaveLength(15);
     expect(arQuiz.values).toEqual([10, 20, 40, 50]);
-    expect(arQuiz.questions).toHaveLength(20);
-    expect(enQuiz.questions).toHaveLength(20);
+    expect(arQuiz.questions).toHaveLength(60);
+    expect(enQuiz.questions).toHaveLength(60);
   });
 
   it('كل فئة عندها خلية واحدة لكل قيمة', () => {

@@ -36,6 +36,56 @@
       "id": "numbers-stars",
       "title": { "ar": "أرقام ونجوم", "en": "Numbers & Stars" },
       "emoji": "🔢"
+    },
+    {
+      "id": "real-madrid",
+      "title": { "ar": "ريال مدريد", "en": "Real Madrid" },
+      "emoji": "⚪"
+    },
+    {
+      "id": "barcelona",
+      "title": { "ar": "برشلونة", "en": "Barcelona" },
+      "emoji": "🔵"
+    },
+    {
+      "id": "man-united",
+      "title": { "ar": "مانشستر يونايتد", "en": "Manchester United" },
+      "emoji": "😈"
+    },
+    {
+      "id": "liverpool",
+      "title": { "ar": "ليفربول", "en": "Liverpool" },
+      "emoji": "🔴"
+    },
+    {
+      "id": "bayern",
+      "title": { "ar": "بايرن ميونخ", "en": "Bayern Munich" },
+      "emoji": "🍺"
+    },
+    {
+      "id": "brazil",
+      "title": { "ar": "منتخب البرازيل", "en": "Brazil" },
+      "emoji": "🇧🇷"
+    },
+    {
+      "id": "argentina",
+      "title": { "ar": "منتخب الأرجنتين", "en": "Argentina" },
+      "emoji": "🇦🇷"
+    },
+    {
+      "id": "legends",
+      "title": { "ar": "أساطير", "en": "Legends" },
+      "emoji": "🌟"
+    },
+    {
+      "id": "goalkeepers",
+      "title": { "ar": "حراس المرمى", "en": "Goalkeepers" },
+      "emoji": "🧤"
+    },
+    {
+      "id": "managers",
+      "title": { "ar": "مدربون", "en": "Managers" },
+      "emoji": "🎓"
     }
   ],
   "questions": [
@@ -247,6 +297,409 @@
         "en": "Who scored 91 goals in a single calendar year (2012)?"
       },
       "answer": { "ar": "ليونيل ميسي", "en": "Lionel Messi" }
+    },
+    {
+      "id": "real-madrid-10",
+      "category": "real-madrid",
+      "value": 10,
+      "question": {
+        "ar": "كام مرة كسب ريال مدريد دوري أبطال أوروبا؟",
+        "en": "How many times has Real Madrid won the Champions League?"
+      },
+      "answer": { "ar": "15 لقبًا", "en": "15 titles" }
+    },
+    {
+      "id": "real-madrid-20",
+      "category": "real-madrid",
+      "value": 20,
+      "question": {
+        "ar": "مين الهداف التاريخي لريال مدريد؟",
+        "en": "Who is Real Madrid's all-time top scorer?"
+      },
+      "answer": { "ar": "كريستيانو رونالدو (450 هدفًا)", "en": "Cristiano Ronaldo (450 goals)" }
+    },
+    {
+      "id": "real-madrid-40",
+      "category": "real-madrid",
+      "value": 40,
+      "question": {
+        "ar": "مين المدرب اللي كسب دوري أبطال أوروبا 3 مرات متتالية مع ريال مدريد؟",
+        "en": "Which manager won three consecutive Champions League titles with Real Madrid?"
+      },
+      "answer": { "ar": "زين الدين زيدان", "en": "Zinedine Zidane" }
+    },
+    {
+      "id": "real-madrid-50",
+      "category": "real-madrid",
+      "value": 50,
+      "question": {
+        "ar": "مين أول لاعب كسب الكرة الذهبية وهو لاعب في ريال مدريد؟",
+        "en": "Who was the first player to win the Ballon d'Or while at Real Madrid?"
+      },
+      "answer": { "ar": "ألفريدو دي ستيفانو (1957)", "en": "Alfredo Di Stéfano (1957)" }
+    },
+    {
+      "id": "barcelona-10",
+      "category": "barcelona",
+      "value": 10,
+      "question": {
+        "ar": "كام مرة كسب برشلونة دوري أبطال أوروبا؟",
+        "en": "How many times has Barcelona won the Champions League?"
+      },
+      "answer": { "ar": "5 ألقاب", "en": "5 titles" }
+    },
+    {
+      "id": "barcelona-20",
+      "category": "barcelona",
+      "value": 20,
+      "question": {
+        "ar": "مين الهداف التاريخي لبرشلونة؟",
+        "en": "Who is Barcelona's all-time top scorer?"
+      },
+      "answer": { "ar": "ليونيل ميسي (672 هدفًا)", "en": "Lionel Messi (672 goals)" }
+    },
+    {
+      "id": "barcelona-40",
+      "category": "barcelona",
+      "value": 40,
+      "question": {
+        "ar": "مين المدرب اللي كسب برشلونة معاه السداسية التاريخية 2009؟",
+        "en": "Which manager led Barcelona to the historic sextuple in 2009?"
+      },
+      "answer": { "ar": "بيب غوارديولا", "en": "Pep Guardiola" }
+    },
+    {
+      "id": "barcelona-50",
+      "category": "barcelona",
+      "value": 50,
+      "question": {
+        "ar": "مين اللاعب اللي كسب أكبر عدد من الكرات الذهبية وهو في برشلونة؟",
+        "en": "Which player has won the most Ballon d'Or awards while at Barcelona?"
+      },
+      "answer": { "ar": "ليونيل ميسي (6 جوائز)", "en": "Lionel Messi (6 awards)" }
+    },
+    {
+      "id": "man-united-10",
+      "category": "man-united",
+      "value": 10,
+      "question": {
+        "ar": "كام مرة كسب مانشستر يونايتد الدوري الإنجليزي الممتاز؟",
+        "en": "How many Premier League titles has Manchester United won?"
+      },
+      "answer": { "ar": "13 لقبًا", "en": "13 titles" }
+    },
+    {
+      "id": "man-united-20",
+      "category": "man-united",
+      "value": 20,
+      "question": {
+        "ar": "مين الهداف التاريخي لمانشستر يونايتد؟",
+        "en": "Who is Manchester United's all-time top scorer?"
+      },
+      "answer": { "ar": "واين روني (253 هدفًا)", "en": "Wayne Rooney (253 goals)" }
+    },
+    {
+      "id": "man-united-40",
+      "category": "man-united",
+      "value": 40,
+      "question": {
+        "ar": "مين المدرب اللي قاد يونايتد للثلاثية التاريخية 1999؟",
+        "en": "Which manager led United to the historic treble in 1999?"
+      },
+      "answer": { "ar": "أليكس فيرغسون", "en": "Alex Ferguson" }
+    },
+    {
+      "id": "man-united-50",
+      "category": "man-united",
+      "value": 50,
+      "question": {
+        "ar": "مين أول لاعب غير بريطاني كسب الكرة الذهبية وهو في يونايتد؟",
+        "en": "Who was the first non-British player to win the Ballon d'Or while at United?"
+      },
+      "answer": { "ar": "كريستيانو رونالدو (2008)", "en": "Cristiano Ronaldo (2008)" }
+    },
+    {
+      "id": "liverpool-10",
+      "category": "liverpool",
+      "value": 10,
+      "question": {
+        "ar": "كام مرة كسب ليفربول دوري أبطال أوروبا؟",
+        "en": "How many times has Liverpool won the Champions League?"
+      },
+      "answer": { "ar": "6 ألقاب", "en": "6 titles" }
+    },
+    {
+      "id": "liverpool-20",
+      "category": "liverpool",
+      "value": 20,
+      "question": {
+        "ar": "مين الهداف التاريخي لليفربول؟",
+        "en": "Who is Liverpool's all-time top scorer?"
+      },
+      "answer": { "ar": "إيان راش (346 هدفًا)", "en": "Ian Rush (346 goals)" }
+    },
+    {
+      "id": "liverpool-40",
+      "category": "liverpool",
+      "value": 40,
+      "question": {
+        "ar": "مين المدرب اللي كسب ليفربول معاه دوري الأبطال 2019؟",
+        "en": "Which manager led Liverpool to the 2019 Champions League title?"
+      },
+      "answer": { "ar": "يورغن كلوب", "en": "Jürgen Klopp" }
+    },
+    {
+      "id": "liverpool-50",
+      "category": "liverpool",
+      "value": 50,
+      "question": {
+        "ar": "مين الحارس اللي كان أساسي في نهائي 2005 الشهير؟",
+        "en": "Which goalkeeper starred in the famous 2005 final?"
+      },
+      "answer": { "ar": "جيرزي دوديك", "en": "Jerzy Dudek" }
+    },
+    {
+      "id": "bayern-10",
+      "category": "bayern",
+      "value": 10,
+      "question": {
+        "ar": "كام مرة كسب بايرن ميونخ دوري أبطال أوروبا؟",
+        "en": "How many times has Bayern Munich won the Champions League?"
+      },
+      "answer": { "ar": "6 ألقاب", "en": "6 titles" }
+    },
+    {
+      "id": "bayern-20",
+      "category": "bayern",
+      "value": 20,
+      "question": {
+        "ar": "مين الهداف التاريخي للدوري الألماني؟",
+        "en": "Who is the Bundesliga's all-time top scorer?"
+      },
+      "answer": { "ar": "غيرد مولر (365 هدفًا)", "en": "Gerd Müller (365 goals)" }
+    },
+    {
+      "id": "bayern-40",
+      "category": "bayern",
+      "value": 40,
+      "question": {
+        "ar": "مين المدرب اللي كسب بايرن معاه السداسية 2020؟",
+        "en": "Which manager led Bayern to the sextuple in 2020?"
+      },
+      "answer": { "ar": "هانزي فليك", "en": "Hansi Flick" }
+    },
+    {
+      "id": "bayern-50",
+      "category": "bayern",
+      "value": 50,
+      "question": {
+        "ar": "كام موسم متتالي كسب فيهم بايرن الدوري الألماني من 2013 لـ2023؟",
+        "en": "How many consecutive Bundesliga titles did Bayern win from 2013 to 2023?"
+      },
+      "answer": { "ar": "11 موسمًا", "en": "11 seasons" }
+    },
+    {
+      "id": "brazil-10",
+      "category": "brazil",
+      "value": 10,
+      "question": {
+        "ar": "كام مرة كسب البرازيل كأس العالم؟",
+        "en": "How many World Cups has Brazil won?"
+      },
+      "answer": { "ar": "5 مرات", "en": "5 times" }
+    },
+    {
+      "id": "brazil-20",
+      "category": "brazil",
+      "value": 20,
+      "question": {
+        "ar": "مين الهداف التاريخي للبرازيل في كأس العالم؟",
+        "en": "Who is Brazil's all-time top scorer at the World Cup?"
+      },
+      "answer": { "ar": "رونالدو (15 هدفًا)", "en": "Ronaldo (15 goals)" }
+    },
+    {
+      "id": "brazil-40",
+      "category": "brazil",
+      "value": 40,
+      "question": {
+        "ar": "أي منتخب لعب في كل نسخ كأس العالم؟",
+        "en": "Which national team has played in every World Cup?"
+      },
+      "answer": { "ar": "البرازيل", "en": "Brazil" }
+    },
+    {
+      "id": "brazil-50",
+      "category": "brazil",
+      "value": 50,
+      "question": {
+        "ar": "مين اللاعب البرازيلي اللي كسب أكبر عدد من الكرات الذهبية؟",
+        "en": "Which Brazilian player has won the most Ballon d'Or awards?"
+      },
+      "answer": { "ar": "رونالدو (جائزتان)", "en": "Ronaldo (2 awards)" }
+    },
+    {
+      "id": "argentina-10",
+      "category": "argentina",
+      "value": 10,
+      "question": {
+        "ar": "كام مرة كسب الأرجنتين كأس العالم؟",
+        "en": "How many World Cups has Argentina won?"
+      },
+      "answer": { "ar": "3 مرات", "en": "3 times" }
+    },
+    {
+      "id": "argentina-20",
+      "category": "argentina",
+      "value": 20,
+      "question": {
+        "ar": "مين كسب الكرة الذهبية في كأس العالم 2022؟",
+        "en": "Who won the Golden Ball at the 2022 World Cup?"
+      },
+      "answer": { "ar": "ليونيل ميسي", "en": "Lionel Messi" }
+    },
+    {
+      "id": "argentina-40",
+      "category": "argentina",
+      "value": 40,
+      "question": {
+        "ar": "مين المدرب اللي قاد الأرجنتين لكأس العالم 2022؟",
+        "en": "Which manager led Argentina to the 2022 World Cup?"
+      },
+      "answer": { "ar": "ليونيل سكالوني", "en": "Lionel Scaloni" }
+    },
+    {
+      "id": "argentina-50",
+      "category": "argentina",
+      "value": 50,
+      "question": {
+        "ar": "مين اللاعب الوحيد اللي كسب الكرة الذهبية في نسختين مختلفتين من كأس العالم؟",
+        "en": "Who is the only player to win the Golden Ball at two different World Cups?"
+      },
+      "answer": { "ar": "ليونيل ميسي (2014 و2022)", "en": "Lionel Messi (2014 and 2022)" }
+    },
+    {
+      "id": "legends-10",
+      "category": "legends",
+      "value": 10,
+      "question": {
+        "ar": "مين الهداف التاريخي في كرة القدم؟",
+        "en": "Who is football's all-time top scorer?"
+      },
+      "answer": { "ar": "كريستيانو رونالدو", "en": "Cristiano Ronaldo" }
+    },
+    {
+      "id": "legends-20",
+      "category": "legends",
+      "value": 20,
+      "question": {
+        "ar": "مين اللاعب الوحيد اللي كسب 3 كؤوس عالم؟",
+        "en": "Who is the only player to win three World Cups?"
+      },
+      "answer": { "ar": "بيليه", "en": "Pelé" }
+    },
+    {
+      "id": "legends-40",
+      "category": "legends",
+      "value": 40,
+      "question": {
+        "ar": "مين الحارس الوحيد اللي كسب الكرة الذهبية؟",
+        "en": "Who is the only goalkeeper to win the Ballon d'Or?"
+      },
+      "answer": { "ar": "ليف ياشين", "en": "Lev Yashin" }
+    },
+    {
+      "id": "legends-50",
+      "category": "legends",
+      "value": 50,
+      "question": {
+        "ar": "مين اللاعب اللي كسب دوري أبطال أوروبا مع 3 أندية مختلفة؟",
+        "en": "Which player won the Champions League with three different clubs?"
+      },
+      "answer": {
+        "ar": "كلارنس سيدورف (أياكس وريال مدريد وميلان)",
+        "en": "Clarence Seedorf (Ajax, Real Madrid and Milan)"
+      }
+    },
+    {
+      "id": "goalkeepers-10",
+      "category": "goalkeepers",
+      "value": 10,
+      "question": {
+        "ar": "مين حارس الأرجنتين في كأس العالم 2022؟",
+        "en": "Who was Argentina's goalkeeper at the 2022 World Cup?"
+      },
+      "answer": { "ar": "إميليانو مارتينيز", "en": "Emiliano Martínez" }
+    },
+    {
+      "id": "goalkeepers-20",
+      "category": "goalkeepers",
+      "value": 20,
+      "question": {
+        "ar": "مين الحارس صاحب أكبر عدد من المباريات الدولية؟",
+        "en": "Which goalkeeper has the most international caps?"
+      },
+      "answer": { "ar": "جانلويجي بوفون (176 مباراة)", "en": "Gianluigi Buffon (176 caps)" }
+    },
+    {
+      "id": "goalkeepers-40",
+      "category": "goalkeepers",
+      "value": 40,
+      "question": {
+        "ar": "مين الحارس اللي كسب كأس العالم 2014 مع ألمانيا؟",
+        "en": "Which goalkeeper won the 2014 World Cup with Germany?"
+      },
+      "answer": { "ar": "مانويل نوير", "en": "Manuel Neuer" }
+    },
+    {
+      "id": "goalkeepers-50",
+      "category": "goalkeepers",
+      "value": 50,
+      "question": {
+        "ar": "مين الحارس اللي كسب دوري الأبطال مع أياكس ومانشستر يونايتد؟",
+        "en": "Which goalkeeper won the Champions League with Ajax and Manchester United?"
+      },
+      "answer": { "ar": "إدوين فان دير سار", "en": "Edwin van der Sar" }
+    },
+    {
+      "id": "managers-10",
+      "category": "managers",
+      "value": 10,
+      "question": {
+        "ar": "مين المدرب اللي كسب كأس العالم 2010 مع إسبانيا؟",
+        "en": "Which manager won the 2010 World Cup with Spain?"
+      },
+      "answer": { "ar": "فيسنتي ديل بوسكي", "en": "Vicente del Bosque" }
+    },
+    {
+      "id": "managers-20",
+      "category": "managers",
+      "value": 20,
+      "question": {
+        "ar": "مين المدرب اللي كسب دوري الأبطال مع بورتو وإنتر ميلان؟",
+        "en": "Which manager won the Champions League with Porto and Inter Milan?"
+      },
+      "answer": { "ar": "جوزيه مورينيو", "en": "José Mourinho" }
+    },
+    {
+      "id": "managers-40",
+      "category": "managers",
+      "value": 40,
+      "question": {
+        "ar": "مين المدرب اللي قاد ليستر سيتي للقب الدوري 2016؟",
+        "en": "Which manager led Leicester City to the 2016 Premier League title?"
+      },
+      "answer": { "ar": "كلاوديو رانييري", "en": "Claudio Ranieri" }
+    },
+    {
+      "id": "managers-50",
+      "category": "managers",
+      "value": 50,
+      "question": {
+        "ar": "مين المدرب اللي كسب الدوري في إنجلترا وإسبانيا وإيطاليا وفرنسا؟",
+        "en": "Which manager has won the league in England, Spain, Italy and France?"
+      },
+      "answer": { "ar": "كارلو أنشيلوتي", "en": "Carlo Ancelotti" }
     }
   ]
 }
