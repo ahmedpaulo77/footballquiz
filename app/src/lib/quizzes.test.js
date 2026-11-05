@@ -228,19 +228,19 @@ describe('لعبة «ريسك»', () => {
 
 describe('نقاط لعبة «ريسك»', () => {
   it('صح عادي = قيمة الخلية', () => {
-    expect(scoreDelta({ value: 30, risk: false, correct: true })).toBe(30);
+    expect(scoreDelta({ value: 20, correct: true })).toBe(20);
   });
 
-  it('صح ريسك = ضعف قيمة الخلية', () => {
-    expect(scoreDelta({ value: 30, risk: true, correct: true })).toBe(60);
+  it('صح على خلية الدبل = ضعف قيمة الخلية أوتوماتيك', () => {
+    expect(scoreDelta({ value: 20, double: true, correct: true })).toBe(40);
   });
 
   it('غلط عادي = صفر', () => {
-    expect(scoreDelta({ value: 30, risk: false, correct: false })).toBe(0);
+    expect(scoreDelta({ value: 20, correct: false })).toBe(0);
   });
 
-  it('غلط ريسك = خصم قيمة الخلية', () => {
-    expect(scoreDelta({ value: 30, risk: true, correct: false })).toBe(-30);
+  it('غلط على خلية الدبل = صفر', () => {
+    expect(scoreDelta({ value: 20, double: true, correct: false })).toBe(0);
   });
 
   it('شكل النقاط بيتعرض بالإشارة الصح', () => {

@@ -23,7 +23,8 @@ export default function RiskGame({ quiz, ui, lang }) {
   const [turn, setTurn] = useState(0);
   const [used, setUsed] = useState(() => new Set());
   const [activeId, setActiveId] = useState(null);
-  const [risk, setRisk] = useState(false);
+  const [pickedId, setPickedId] = useState(null);
+  const [doubleId, setDoubleId] = useState(null);
   const [revealed, setRevealed] = useState(false);
   const [result, setResult] = useState(null);
   const judgedRef = useRef(false);
@@ -41,6 +42,15 @@ export default function RiskGame({ quiz, ui, lang }) {
   const allDone = isBoardComplete(quiz.questions, used);
   const remaining = quiz.questions.length - used.size;
 
+  const picking = doubleId === null;
+  const pickedCell = pickedId
+    ? quiz.questions.find((question) => question.id === pickedId) ?? null
+    : null;
+  const pickedCategory = categories.find(
+    (category) => category.id === pickedCell?.category,
+  );
+  const activeIsDouble = Boolean(active) && active.id === doubleId;
+
   function updateName(index, value) {
     setCustomNames((current) => {
       const next = [...current];
@@ -49,12 +59,23 @@ export default function RiskGame({ quiz, ui, lang }) {
     });
   }
 
+  function pickDouble(cell) {
+    if (!cell || !picking) return;
+    setPickedId(cell.id);
+  }
+
+  function startGame() {
+    if (!pickedId) return;
+    setDoubleId(pickedId);
+    setPickedId(null);
+    setTurn(0);
+  }
+
   function openCell(cell) {
-    if (!cell || used.has(cell.id)) return;
+    if (!cell || picking || used.has(cell.id)) return;
 
     judgedRef.current = false;
     setActiveId(cell.id);
-    setRisk(false);
     setRevealed(false);
     setResult(null);
   }
@@ -66,14 +87,12 @@ export default function RiskGame({ quiz, ui, lang }) {
     }
 
     setActiveId(null);
-    setRisk(false);
     setRevealed(false);
   }
 
   function finishQuestion() {
     judgedRef.current = false;
     setActiveId(null);
-    setRisk(false);
     setRevealed(false);
     setResult(null);
     setTurn((current) => 1 - current);
@@ -83,7 +102,8 @@ export default function RiskGame({ quiz, ui, lang }) {
     if (!active || result || judgedRef.current) return;
 
     judgedRef.current = true;
-    const delta = scoreDelta({ value: active.value, risk, correct });
+    const double = active.id === doubleId;
+    const delta = scoreDelta({ value: active.value, double, correct });
 
     setScores((current) => {
       const next = [...current];
@@ -91,7 +111,7 @@ export default function RiskGame({ quiz, ui, lang }) {
       return next;
     });
     setUsed((current) => new Set(current).add(active.id));
-    setResult({ correct, delta, team: turn, value: active.value, risk });
+    setResult({ correct, delta, team: turn, value: active.value, double });
   }
 
   function resetGame() {
@@ -100,13 +120,17 @@ export default function RiskGame({ quiz, ui, lang }) {
     setTurn(0);
     setUsed(new Set());
     setActiveId(null);
-    setRisk(false);
+    setPickedId(null);
+    setDoubleId(null);
     setRevealed(false);
     setResult(null);
   }
 
   function requestReset() {
-    if (used.size === 0 && scores.every((score) => score === 0)) {
+    if (
+      picking ||
+      (used.size === 0 && scores.every((score) => score === 0))
+    ) {
       resetGame();
       return;
     }
@@ -125,13 +149,13 @@ export default function RiskGame({ quiz, ui, lang }) {
         {[0, 1].map((index) => (
           <div
             key={index}
-            className={`risk-team ${turn === index && !allDone ? 'is-active' : ''}`}
+            className={`risk-team ${turn === index && !allDone && !picking ? 'is-active' : ''}`}
           >
             <div className="risk-team-top">
               <span className="risk-team-label">
                 {index === 0 ? labels.teamOne : labels.teamTwo}
               </span>
-              {turn === index && !allDone ? (
+              {turn === index && !allDone && !picking ? (
                 <span className="risk-turn-badge">{labels.turnLabel}</span>
               ) : null}
             </div>
@@ -185,18 +209,54 @@ export default function RiskGame({ quiz, ui, lang }) {
         </div>
       ) : (
         <>
-          <div className="risk-toolbar">
-            <p className="risk-turn-text">
-              {fill(labels.activeTeam, { team: teamNames[turn] })}
-            </p>
-            <button type="button" className="risk-reset" onClick={requestReset}>
-              {labels.reset}
-            </button>
-          </div>
+          {picking ? (
+            <div className="risk-pick">
+              <span className="risk-pick-emoji" aria-hidden="true">
+                🎲
+              </span>
+              <h3 className="risk-pick-title">{labels.doublePickTitle}</h3>
+              <p className="risk-pick-text">
+                {fill(labels.doublePickText, { team: teamNames[0] })}
+              </p>
 
-          <p className="risk-remaining">
-            {fill(labels.remaining, { count: remaining })}
-          </p>
+              {pickedCell ? (
+                <p className="risk-pick-selected">
+                  {fill(labels.doubleSelected, {
+                    category: pickedCategory?.title,
+                    value: pickedCell.value,
+                  })}
+                </p>
+              ) : (
+                <p className="risk-pick-selected is-empty">{labels.chooseCell}</p>
+              )}
+
+              <p className="risk-pick-hint">{labels.doublePickHint}</p>
+
+              <button
+                type="button"
+                className="primary-btn full"
+                onClick={startGame}
+                disabled={!pickedCell}
+              >
+                {labels.doubleStart}
+              </button>
+            </div>
+          ) : (
+            <>
+              <div className="risk-toolbar">
+                <p className="risk-turn-text">
+                  {fill(labels.activeTeam, { team: teamNames[turn] })}
+                </p>
+                <button type="button" className="risk-reset" onClick={requestReset}>
+                  {labels.reset}
+                </button>
+              </div>
+
+              <p className="risk-remaining">
+                {fill(labels.remaining, { count: remaining })}
+              </p>
+            </>
+          )}
 
           <div className="risk-board">
             {categories.map((category) => (
@@ -214,20 +274,44 @@ export default function RiskGame({ quiz, ui, lang }) {
                     if (!cell) return null;
 
                     const isUsed = used.has(cell.id);
+                    const isDouble = cell.id === doubleId;
+                    const isPicked = picking && cell.id === pickedId;
+                    const showDouble = isDouble || isPicked;
 
                     return (
                       <button
                         key={cell.id}
                         type="button"
-                        className={`risk-cell ${isUsed ? 'is-used' : ''}`}
+                        className={[
+                          'risk-cell',
+                          isUsed ? 'is-used' : '',
+                          isDouble ? 'is-double' : '',
+                          isPicked ? 'is-picked' : '',
+                        ]
+                          .filter(Boolean)
+                          .join(' ')}
                         disabled={isUsed}
-                        onClick={() => openCell(cell)}
-                        aria-label={fill(labels.cellAria, {
+                        onClick={() =>
+                          picking ? pickDouble(cell) : openCell(cell)
+                        }
+                        aria-label={`${fill(labels.cellAria, {
                           category: category.title,
                           value,
-                        })}
+                        })}${showDouble ? ` — ${labels.doubleChip}` : ''}`}
+                        aria-pressed={picking ? isPicked : undefined}
                       >
-                        {isUsed ? <span aria-hidden="true">✓</span> : value}
+                        {isUsed ? (
+                          <span aria-hidden="true">✓</span>
+                        ) : (
+                          <>
+                            <span className="risk-cell-value">{value}</span>
+                            {showDouble ? (
+                              <span className="risk-cell-double" aria-hidden="true">
+                                {labels.doubleBadge}
+                              </span>
+                            ) : null}
+                          </>
+                        )}
                       </button>
                     );
                   })}
@@ -251,27 +335,25 @@ export default function RiskGame({ quiz, ui, lang }) {
               <span className="risk-question-team">
                 {fill(labels.activeTeam, { team: teamNames[result?.team ?? turn] })}
               </span>
-              <span className="risk-question-value">
-                {fill(labels.valueChip, { value: active.value })}
+              <span className="risk-question-chips">
+                {activeIsDouble ? (
+                  <span className="risk-question-double">{labels.doubleChip}</span>
+                ) : null}
+                <span className="risk-question-value">
+                  {fill(labels.valueChip, { value: active.value })}
+                </span>
               </span>
             </div>
 
             <p className="risk-question-text">{active.question}</p>
 
-            <div className={`risk-risk-box ${risk ? 'is-on' : ''}`}>
-              <button
-                type="button"
-                className={`risk-toggle ${risk ? 'is-on' : ''}`}
-                onClick={() => setRisk((current) => !current)}
-                disabled={revealed || Boolean(result)}
-                aria-pressed={risk}
-              >
-                <span aria-hidden="true">🎲</span>
-                {risk ? labels.riskOn : labels.riskOff}
-              </button>
-              <p className="risk-risk-hint">
-                {risk
-                  ? fill(labels.riskHint, {
+            <div className={`risk-hint-box ${activeIsDouble ? 'is-double' : ''}`}>
+              <span className="risk-hint-tag">
+                {activeIsDouble ? labels.doubleChip : labels.normalChip}
+              </span>
+              <p className="risk-hint-text">
+                {activeIsDouble
+                  ? fill(labels.doubleHint, {
                       value: active.value,
                       double: active.value * 2,
                     })
@@ -315,8 +397,11 @@ export default function RiskGame({ quiz, ui, lang }) {
                   </span>
                 </div>
                 <p className="risk-result-team">{teamNames[result.team]}</p>
-                {!result.correct && !result.risk ? (
-                  <p className="risk-result-note">{labels.resultNormalWrong}</p>
+                {result.correct && result.double ? (
+                  <p className="risk-result-note is-double">{labels.resultDouble}</p>
+                ) : null}
+                {!result.correct ? (
+                  <p className="risk-result-note">{labels.resultWrongNote}</p>
                 ) : null}
                 <button type="button" className="primary-btn full" onClick={finishQuestion}>
                   {labels.continue}

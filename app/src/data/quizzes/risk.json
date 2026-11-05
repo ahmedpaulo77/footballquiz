@@ -179,12 +179,12 @@
       "category": "world-cup",
       "value": 40,
       "question": {
-        "ar": "مين أول لاعب يسجّل في ٦ نسخ مختلفة من كأس العالم؟",
-        "en": "Who was the first player to score in six different World Cups?"
+        "ar": "مين سجّل أول هدف في تاريخ نهائيات كأس العالم؟",
+        "en": "Who scored the first goal in World Cup finals history?"
       },
       "answer": {
-        "ar": "كريستيانو رونالدو (2026)",
-        "en": "Cristiano Ronaldo (2026)"
+        "ar": "لوسيان لوران (فرنسا، 1930)",
+        "en": "Lucien Laurent (France, 1930)"
       }
     },
     {
@@ -192,12 +192,12 @@
       "category": "world-cup",
       "value": 50,
       "question": {
-        "ar": "مين اللاعب الوحيد اللي سجّل هاتريك في نهائي كأس العالم وخسر النهائي؟",
-        "en": "Who is the only player to score a hat-trick in a World Cup final and still lose it?"
+        "ar": "مين أول لاعب يتطرد في نهائي كأس العالم؟",
+        "en": "Who was the first player to be sent off in a World Cup final?"
       },
       "answer": {
-        "ar": "كيليان مبابي (2022)",
-        "en": "Kylian Mbappé (2022)"
+        "ar": "بيدرو مونزون (الأرجنتين، 1990)",
+        "en": "Pedro Monzón (Argentina, 1990)"
       }
     },
     {
@@ -231,12 +231,12 @@
       "category": "champions-league",
       "value": 40,
       "question": {
-        "ar": "مين صاحب أسرع هدف في تاريخ دوري أبطال أوروبا؟",
-        "en": "Who scored the fastest goal in Champions League history?"
+        "ar": "مين أول نادي يكسب دوري أبطال أوروبا بعد تغيير اسم البطولة سنة 1992؟",
+        "en": "Which club was the first to win the Champions League after the competition was rebranded in 1992?"
       },
       "answer": {
-        "ar": "روي ماكاي (10.12 ثانية، 2007)",
-        "en": "Roy Makaay (10.12 seconds, 2007)"
+        "ar": "مارسيليا (1993)",
+        "en": "Marseille (1993)"
       }
     },
     {
@@ -244,12 +244,12 @@
       "category": "champions-league",
       "value": 50,
       "question": {
-        "ar": "مين أول مدرب يكسب كأس أوروبا/دوري الأبطال مع ناديين مختلفين؟",
-        "en": "Who was the first manager to win the European Cup/Champions League with two different clubs?"
+        "ar": "مين المدرب الوحيد اللي كسب دوري أبطال أوروبا ٥ مرات؟",
+        "en": "Who is the only manager to win the Champions League five times?"
       },
       "answer": {
-        "ar": "إرنست هابيل (فينورد 1970 وهامبورغ 1983)",
-        "en": "Ernst Happel (Feyenoord 1970, Hamburg 1983)"
+        "ar": "كارلو أنشيلوتي",
+        "en": "Carlo Ancelotti"
       }
     },
     {
@@ -283,12 +283,12 @@
       "category": "premier-league",
       "value": 40,
       "question": {
-        "ar": "مين صاحب أكبر عدد من التمريرات الحاسمة في تاريخ الدوري الإنجليزي؟",
-        "en": "Who has the most assists in Premier League history?"
+        "ar": "مين أول لاعب يوصل لـ١٠٠ هدف في الدوري الإنجليزي الممتاز؟",
+        "en": "Who was the first player to reach 100 Premier League goals?"
       },
       "answer": {
-        "ar": "ريان غيغز (162 تمريرة)",
-        "en": "Ryan Giggs (162 assists)"
+        "ar": "آلان شيرر (1995)",
+        "en": "Alan Shearer (1995)"
       }
     },
     {
@@ -296,12 +296,12 @@
       "category": "premier-league",
       "value": 50,
       "question": {
-        "ar": "مين أول لاعب كسب الحذاء الذهبي في الدوري الإنجليزي ٣ مواسم متتالية؟",
-        "en": "Who was the first player to win the Premier League Golden Boot in three consecutive seasons?"
+        "ar": "مين أصغر لاعب سجّل في تاريخ الدوري الإنجليزي الممتاز؟",
+        "en": "Who is the youngest player to score in Premier League history?"
       },
       "answer": {
-        "ar": "آلان شيرر (1995، 1996، 1997)",
-        "en": "Alan Shearer (1995, 1996, 1997)"
+        "ar": "جيمس فوغان (16 سنة و270 يومًا، 2005)",
+        "en": "James Vaughan (16 years and 270 days, 2005)"
       }
     },
     {
@@ -335,12 +335,12 @@
       "category": "africa",
       "value": 40,
       "question": {
-        "ar": "مين أول لاعب كسب الكرة الذهبية وهو بيمثّل منتخب أفريقي؟",
-        "en": "Who was the first player to win the Ballon d’Or while representing an African national team?"
+        "ar": "مين أول منتخب أفريقي يوصل لربع نهائي كأس العالم؟",
+        "en": "Which was the first African team to reach the World Cup quarter-finals?"
       },
       "answer": {
-        "ar": "جورج وياه (1995)",
-        "en": "George Weah (1995)"
+        "ar": "الكاميرون (1990)",
+        "en": "Cameroon (1990)"
       }
     },
     {
@@ -348,12 +348,12 @@
       "category": "africa",
       "value": 50,
       "question": {
-        "ar": "مين سجّل هدف فوز الجزائر في نهائي كأس أمم أفريقيا 2019؟",
-        "en": "Who scored Algeria’s winning goal in the 2019 Africa Cup of Nations final?"
+        "ar": "مين كسب كأس أمم أفريقيا لاعبًا ومدربًا مع مصر؟",
+        "en": "Who won the Africa Cup of Nations with Egypt both as a player and as a coach?"
       },
       "answer": {
-        "ar": "بغداد بونجاح (الدقيقة 2)",
-        "en": "Baghdad Bounedjah (2nd minute)"
+        "ar": "محمود الجوهري",
+        "en": "Mahmoud El-Gohary"
       }
     },
     {
@@ -387,12 +387,12 @@
       "category": "numbers-stars",
       "value": 40,
       "question": {
-        "ar": "مين صاحب الرقم القياسي في عدد الأهداف بموسم واحد في دوري أبطال أوروبا؟",
-        "en": "Who holds the record for most goals in a single Champions League season?"
+        "ar": "مين اللاعب الوحيد اللي سجّل ٥ أهداف في مباراة واحدة في كأس العالم؟",
+        "en": "Who is the only player to score five goals in a single World Cup match?"
       },
       "answer": {
-        "ar": "كريستيانو رونالدو (17 هدفًا في 2013-14)",
-        "en": "Cristiano Ronaldo (17 goals in 2013-14)"
+        "ar": "أوليغ سالينكو (روسيا، 1994)",
+        "en": "Oleg Salenko (Russia, 1994)"
       }
     },
     {
@@ -400,12 +400,12 @@
       "category": "numbers-stars",
       "value": 50,
       "question": {
-        "ar": "مين صاحب أكبر عدد من الهاتريك في تاريخ الدوري الإنجليزي؟",
-        "en": "Who has scored the most hat-tricks in Premier League history?"
+        "ar": "مين صاحب أكبر عدد من الأهداف في نسخة واحدة من كأس العالم؟",
+        "en": "Who scored the most goals in a single World Cup tournament?"
       },
       "answer": {
-        "ar": "سيرجيو أغويرو (12 هاتريك)",
-        "en": "Sergio Agüero (12 hat-tricks)"
+        "ar": "جوست فونتين (13 هدفًا، 1958)",
+        "en": "Just Fontaine (13 goals, 1958)"
       }
     },
     {
@@ -439,12 +439,12 @@
       "category": "real-madrid",
       "value": 40,
       "question": {
-        "ar": "مين أكتر لاعب لعب مباريات مع ريال مدريد؟",
-        "en": "Who has made the most appearances for Real Madrid?"
+        "ar": "مين أول لاعب في تاريخ ريال مدريد كسب الكرة الذهبية؟",
+        "en": "Who was the first Real Madrid player to win the Ballon d’Or?"
       },
       "answer": {
-        "ar": "راؤول (741 مباراة)",
-        "en": "Raúl (741 appearances)"
+        "ar": "ألفريدو دي ستيفانو (1957)",
+        "en": "Alfredo Di Stéfano (1957)"
       }
     },
     {
@@ -452,12 +452,12 @@
       "category": "real-madrid",
       "value": 50,
       "question": {
-        "ar": "مين أول لاعب في تاريخ ريال مدريد كسب الحذاء الذهبي الأوروبي؟",
-        "en": "Who was the first Real Madrid player to win the European Golden Shoe?"
+        "ar": "مين سجّل هدف ريال مدريد الأول في الوقت الإضافي لنهائي 2014؟",
+        "en": "Who scored Real Madrid’s first goal in extra time of the 2014 Champions League final?"
       },
       "answer": {
-        "ar": "هوغو سانشيز (1990)",
-        "en": "Hugo Sánchez (1990)"
+        "ar": "غاريث بيل (الدقيقة 110)",
+        "en": "Gareth Bale (110th minute)"
       }
     },
     {
@@ -491,12 +491,12 @@
       "category": "barcelona",
       "value": 40,
       "question": {
-        "ar": "مين أكتر لاعب لعب مباريات مع برشلونة؟",
-        "en": "Who has made the most appearances for Barcelona?"
+        "ar": "مين أول لاعب في تاريخ برشلونة كسب الكرة الذهبية؟",
+        "en": "Who was the first Barcelona player to win the Ballon d’Or?"
       },
       "answer": {
-        "ar": "ليونيل ميسي (778 مباراة)",
-        "en": "Lionel Messi (778 appearances)"
+        "ar": "لويس سواريز (1960)",
+        "en": "Luis Suárez (1960)"
       }
     },
     {
@@ -504,12 +504,12 @@
       "category": "barcelona",
       "value": 50,
       "question": {
-        "ar": "مين أول لاعب في تاريخ برشلونة كسب الكرة الذهبية؟",
-        "en": "Who was the first Barcelona player to win the Ballon d’Or?"
+        "ar": "مين سجّل هدف برشلونة الوحيد في نهائي كأس أوروبا 1992؟",
+        "en": "Who scored Barcelona’s only goal in the 1992 European Cup final?"
       },
       "answer": {
-        "ar": "لويس سواريز (1960)",
-        "en": "Luis Suárez (1960)"
+        "ar": "رونالد كومان",
+        "en": "Ronald Koeman"
       }
     },
     {
@@ -543,12 +543,12 @@
       "category": "man-united",
       "value": 40,
       "question": {
-        "ar": "مين أكتر لاعب لعب مباريات مع مانشستر يونايتد؟",
-        "en": "Who has made the most appearances for Manchester United?"
+        "ar": "مين سجّل هدف التعادل لمانشستر يونايتد في الدقيقة 91 من نهائي 1999؟",
+        "en": "Who scored Manchester United’s 91st-minute equaliser in the 1999 Champions League final?"
       },
       "answer": {
-        "ar": "ريان غيغز (963 مباراة)",
-        "en": "Ryan Giggs (963 appearances)"
+        "ar": "تيدي شيرينغهام",
+        "en": "Teddy Sheringham"
       }
     },
     {
@@ -556,12 +556,12 @@
       "category": "man-united",
       "value": 50,
       "question": {
-        "ar": "مين أول لاعب في تاريخ مانشستر يونايتد كسب الكرة الذهبية؟",
-        "en": "Who was the first Manchester United player to win the Ballon d’Or?"
+        "ar": "كام لاعب كسب الكرة الذهبية وهو لاعب في مانشستر يونايتد؟",
+        "en": "How many players have won the Ballon d’Or while at Manchester United?"
       },
       "answer": {
-        "ar": "دينيس لو (1964)",
-        "en": "Denis Law (1964)"
+        "ar": "٤ لاعبين (لو، تشارلتون، بيست، رونالدو)",
+        "en": "Four (Law, Charlton, Best, Ronaldo)"
       }
     },
     {
@@ -595,12 +595,12 @@
       "category": "liverpool",
       "value": 40,
       "question": {
-        "ar": "مين أكتر لاعب لعب مباريات مع ليفربول؟",
-        "en": "Who has made the most appearances for Liverpool?"
+        "ar": "مين سجّل هدف ليفربول الثاني في نهائي دوري الأبطال 2005؟",
+        "en": "Who scored Liverpool’s second goal in the 2005 Champions League final?"
       },
       "answer": {
-        "ar": "إيان كالاهان (857 مباراة)",
-        "en": "Ian Callaghan (857 appearances)"
+        "ar": "فلاديمير شميتسر",
+        "en": "Vladimír Šmicer"
       }
     },
     {
@@ -608,12 +608,12 @@
       "category": "liverpool",
       "value": 50,
       "question": {
-        "ar": "مين أول لاعب كسب الكرة الذهبية وهو لعب في ليفربول؟",
-        "en": "Who was the first player to win the Ballon d’Or while at Liverpool?"
+        "ar": "مين اللاعب اللي كسب دوري أبطال أوروبا مع ليفربول وريال مدريد؟",
+        "en": "Which player won the Champions League with both Liverpool and Real Madrid?"
       },
       "answer": {
-        "ar": "مايكل أوين (2001)",
-        "en": "Michael Owen (2001)"
+        "ar": "تشابي ألونسو",
+        "en": "Xabi Alonso"
       }
     },
     {
@@ -647,12 +647,12 @@
       "category": "bayern",
       "value": 40,
       "question": {
-        "ar": "مين أول لاعب في تاريخ بايرن ميونخ كسب الكرة الذهبية؟",
-        "en": "Who was the first Bayern Munich player to win the Ballon d’Or?"
+        "ar": "مين سجّل هدف بايرن ميونخ الأول في نهائي دوري الأبطال 2013؟",
+        "en": "Who scored Bayern Munich’s first goal in the 2013 Champions League final?"
       },
       "answer": {
-        "ar": "غيرد مولر (1970)",
-        "en": "Gerd Müller (1970)"
+        "ar": "ماريو ماندزوكيتش (الدقيقة 60)",
+        "en": "Mario Mandžukić (60th minute)"
       }
     },
     {
@@ -660,12 +660,12 @@
       "category": "bayern",
       "value": 50,
       "question": {
-        "ar": "مين سجّل هدف الفوز لبايرن في نهائي دوري أبطال أوروبا 2013؟",
-        "en": "Who scored Bayern’s winning goal in the 2013 Champions League final?"
+        "ar": "مين سجّل هدف بايرن ميونخ في نهائي دوري الأبطال 2001؟",
+        "en": "Who scored Bayern Munich’s goal in the 2001 Champions League final?"
       },
       "answer": {
-        "ar": "أريين روبن (الدقيقة 89)",
-        "en": "Arjen Robben (89th minute)"
+        "ar": "ستيفان إيفينبرغ (من ركلة جزاء)",
+        "en": "Stefan Effenberg (penalty)"
       }
     },
     {
@@ -699,12 +699,12 @@
       "category": "brazil",
       "value": 40,
       "question": {
-        "ar": "مين أكتر لاعب لعب مباريات مع منتخب البرازيل؟",
-        "en": "Who has made the most appearances for the Brazil national team?"
+        "ar": "مين سجّل هدف البرازيل الثالث في نهائي كأس العالم 1970؟",
+        "en": "Who scored Brazil’s third goal in the 1970 World Cup final?"
       },
       "answer": {
-        "ar": "كافو (142 مباراة)",
-        "en": "Cafu (142 caps)"
+        "ar": "كارلوس ألبرتو",
+        "en": "Carlos Alberto"
       }
     },
     {
@@ -712,12 +712,12 @@
       "category": "brazil",
       "value": 50,
       "question": {
-        "ar": "مين أول لاعب برازيلي كسب الكرة الذهبية؟",
-        "en": "Who was the first Brazilian player to win the Ballon d’Or?"
+        "ar": "مين اللاعب البرازيلي الوحيد اللي كسب الكرة الذهبية مرتين؟",
+        "en": "Who is the only Brazilian player to win the Ballon d’Or twice?"
       },
       "answer": {
-        "ar": "رونالدو (1997)",
-        "en": "Ronaldo (1997)"
+        "ar": "رونالدو (1997 و2002)",
+        "en": "Ronaldo (1997 and 2002)"
       }
     },
     {
@@ -751,12 +751,12 @@
       "category": "argentina",
       "value": 40,
       "question": {
-        "ar": "مين سجّل هدف الفوز للأرجنتين في نهائي كأس العالم 1986؟",
-        "en": "Who scored Argentina’s winning goal in the 1986 World Cup final?"
+        "ar": "مين المدرب اللي قاد الأرجنتين لنهائي كأس العالم 1990؟",
+        "en": "Which manager led Argentina to the 1990 World Cup final?"
       },
       "answer": {
-        "ar": "خورخي بوروتشاغا",
-        "en": "Jorge Burruchaga"
+        "ar": "كارلوس بيلاردو",
+        "en": "Carlos Bilardo"
       }
     },
     {
@@ -764,12 +764,12 @@
       "category": "argentina",
       "value": 50,
       "question": {
-        "ar": "مين أول لاعب في التاريخ يكسب الكرة الذهبية مرتين؟",
-        "en": "Who was the first player to win the Ballon d’Or twice?"
+        "ar": "مين سجّل هدف الأرجنتين الثالث في نهائي كأس العالم 2022؟",
+        "en": "Who scored Argentina’s third goal in the 2022 World Cup final?"
       },
       "answer": {
-        "ar": "ألفريدو دي ستيفانو (1957 و1959)",
-        "en": "Alfredo Di Stéfano (1957 and 1959)"
+        "ar": "ليونيل ميسي (الدقيقة 108)",
+        "en": "Lionel Messi (108th minute)"
       }
     },
     {
@@ -803,12 +803,12 @@
       "category": "legends",
       "value": 40,
       "question": {
-        "ar": "مين أول لاعب في التاريخ يكسب الكرة الذهبية؟",
-        "en": "Who was the first player to win the Ballon d’Or?"
+        "ar": "مين اللاعب الوحيد اللي كسب دوري أبطال أوروبا مع ٣ أندية مختلفة؟",
+        "en": "Who is the only player to win the Champions League with three different clubs?"
       },
       "answer": {
-        "ar": "ستانلي ماثيوز (1956)",
-        "en": "Stanley Matthews (1956)"
+        "ar": "كلارنس سيدورف (أياكس وريال مدريد وميلان)",
+        "en": "Clarence Seedorf (Ajax, Real Madrid and Milan)"
       }
     },
     {
@@ -816,12 +816,12 @@
       "category": "legends",
       "value": 50,
       "question": {
-        "ar": "مين اللاعب الوحيد اللي كسب دوري أبطال أوروبا مع ٣ أندية مختلفة؟",
-        "en": "Who is the only player to win the Champions League with three different clubs?"
+        "ar": "مين أول لاعب يكسب الكرة الذهبية مرتين متتاليتين؟",
+        "en": "Who was the first player to win the Ballon d’Or in two consecutive years?"
       },
       "answer": {
-        "ar": "كلارنس سيدورف (أياكس وريال مدريد وميلان)",
-        "en": "Clarence Seedorf (Ajax, Real Madrid and Milan)"
+        "ar": "يوهان كرويف (1973 و1974)",
+        "en": "Johan Cruyff (1973 and 1974)"
       }
     },
     {
@@ -855,12 +855,12 @@
       "category": "goalkeepers",
       "value": 40,
       "question": {
-        "ar": "مين الحارس صاحب أكبر عدد من الشباك النظيفة في تاريخ الدوري الإنجليزي؟",
-        "en": "Which goalkeeper has the most clean sheets in Premier League history?"
+        "ar": "مين الحارس الوحيد اللي كسب الكرة الذهبية؟",
+        "en": "Who is the only goalkeeper to win the Ballon d’Or?"
       },
       "answer": {
-        "ar": "بيتر تشيك (202 شبكة نظيفة)",
-        "en": "Petr Čech (202 clean sheets)"
+        "ar": "ليف ياشين (1963)",
+        "en": "Lev Yashin (1963)"
       }
     },
     {
@@ -868,12 +868,12 @@
       "category": "goalkeepers",
       "value": 50,
       "question": {
-        "ar": "مين أكبر لاعب سنا كسب كأس العالم؟",
-        "en": "Who is the oldest player to win the World Cup?"
+        "ar": "مين أول حارس مرمى كسب كأس العالم وهو قائد منتخبه؟",
+        "en": "Who was the first goalkeeper to win the World Cup as his team’s captain?"
       },
       "answer": {
-        "ar": "دينو زوف (40 سنة و4 شهور، 1982)",
-        "en": "Dino Zoff (40 years and 4 months, 1982)"
+        "ar": "جانبييرو كومبي (إيطاليا، 1934)",
+        "en": "Gianpiero Combi (Italy, 1934)"
       }
     },
     {
@@ -907,12 +907,12 @@
       "category": "managers",
       "value": 40,
       "question": {
-        "ar": "مين أول مدرب يكسب دوري أبطال أوروبا ٣ مرات؟",
-        "en": "Who was the first manager to win the European Cup/Champions League three times?"
+        "ar": "مين المدرب اللي كسب الدوري في إنجلترا وإيطاليا وإسبانيا وألمانيا وفرنسا؟",
+        "en": "Which manager has won the league in England, Italy, Spain, Germany and France?"
       },
       "answer": {
-        "ar": "بوب بيزلي (1977، 1978، 1981)",
-        "en": "Bob Paisley (1977, 1978, 1981)"
+        "ar": "كارلو أنشيلوتي",
+        "en": "Carlo Ancelotti"
       }
     },
     {
@@ -920,12 +920,12 @@
       "category": "managers",
       "value": 50,
       "question": {
-        "ar": "مين المدرب اللي خسر ٣ نهائيات لدوري أبطال أوروبا مع يوفنتوس؟",
-        "en": "Which manager lost three Champions League finals with Juventus?"
+        "ar": "مين المدرب اللي قاد ٥ منتخبات مختلفة في ٥ نسخ متتالية من كأس العالم؟",
+        "en": "Which manager coached five different national teams at five consecutive World Cups?"
       },
       "answer": {
-        "ar": "مارتشيلو ليبي (1997، 1998، 2003)",
-        "en": "Marcello Lippi (1997, 1998, 2003)"
+        "ar": "بورا ميلوتينوفيتش (المكسيك، كوستاريكا، أمريكا، نيجيريا، الصين)",
+        "en": "Bora Milutinović (Mexico, Costa Rica, USA, Nigeria, China)"
       }
     }
   ]

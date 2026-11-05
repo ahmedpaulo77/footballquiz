@@ -3,14 +3,13 @@
 /**
  * قيمة التغيير في النقاط.
  * - صح عادي: + قيمة الخلية
- * - صح ريسك: + ضعف قيمة الخلية
- * - غلط عادي: 0
- * - غلط ريسك: − قيمة الخلية
+ * - صح على خلية الدبل: + ضعف قيمة الخلية
+ * - غلط في الحالتين: 0
  */
-export function scoreDelta({ value, risk = false, correct = false }) {
+export function scoreDelta({ value, double = false, correct = false }) {
   if (typeof value !== 'number' || !Number.isFinite(value)) return 0;
-  if (correct) return risk ? value * 2 : value;
-  return risk ? -value : 0;
+  if (!correct) return 0;
+  return double ? value * 2 : value;
 }
 
 /** شكل التغيير للعرض: +20 / −10 / 0 */
