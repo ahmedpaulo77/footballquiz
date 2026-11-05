@@ -33,3 +33,30 @@ export function findCell(questions, categoryId, value) {
     ) ?? null
   );
 }
+
+/** بيختار عدد فئات عشوائية من غير تكرار. */
+export function pickCategories(categories, count, random = Math.random) {
+  if (!Array.isArray(categories) || count <= 0) return [];
+
+  const pool = [...categories];
+  const picked = [];
+  const size = Math.min(count, pool.length);
+
+  for (let index = 0; index < size; index += 1) {
+    const pick = Math.floor(random() * pool.length);
+    picked.push(pool.splice(pick, 1)[0]);
+  }
+
+  return picked;
+}
+
+/** بيجيب فئة مش ظاهرة على اللوحة دلوقتي، أو null لو كل الفئات ظاهرة. */
+export function swapCategory(categories, shownIds, random = Math.random) {
+  if (!Array.isArray(categories)) return null;
+
+  const shown = new Set(shownIds ?? []);
+  const pool = categories.filter((category) => !shown.has(category.id));
+  if (pool.length === 0) return null;
+
+  return pool[Math.floor(random() * pool.length)];
+}

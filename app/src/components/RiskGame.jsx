@@ -1,11 +1,21 @@
 import { useRef, useState } from 'react';
 import Modal from './Modal.jsx';
-import { findCell, isBoardComplete, scoreDelta, scoreLabel } from '../lib/risk.js';
+import {
+  findCell,
+  isBoardComplete,
+  pickCategories,
+  scoreDelta,
+  scoreLabel,
+  swapCategory,
+} from '../lib/risk.js';
 
 const DEFAULT_NAMES = {
   ar: ['الفريق الأول', 'الفريق الثاني'],
   en: ['Team One', 'Team Two'],
 };
+
+/** عدد الفئات اللي بتظهر على اللوحة في اللعبة الواحدة. */
+const BOARD_CATEGORIES = 4;
 
 /** بيعوّض {placeholders} في نصوص الواجهة. */
 function fill(template, values) {
@@ -22,6 +32,11 @@ export default function RiskGame({ quiz, ui, lang }) {
   const [scores, setScores] = useState([0, 0]);
   const [turn, setTurn] = useState(0);
   const [used, setUsed] = useState(() => new Set());
+  const [categoryIds, setCategoryIds] = useState(() =>
+    pickCategories(quiz.categories ?? [], BOARD_CATEGORIES).map(
+      (category) => category.id,
+    ),
+  );
   const [activeId, setActiveId] = useState(null);
   const [pickedId, setPickedId] = useState(null);
   const [doubleId, setDoubleId] = useState(null);
@@ -38,9 +53,15 @@ export default function RiskGame({ quiz, ui, lang }) {
 
   const categories = quiz.categories ?? [];
   const values = quiz.values ?? [];
+  const boardCategories = categoryIds
+    .map((id) => categories.find((category) => category.id === id))
+    .filter(Boolean);
+  const boardQuestions = quiz.questions.filter((question) =>
+    categoryIds.includes(question.category),
+  );
   const activeCategory = categories.find((category) => category.id === active?.category);
-  const allDone = isBoardComplete(quiz.questions, used);
-  const remaining = quiz.questions.length - used.size;
+  const allDone = isBoardComplete(boardQuestions, used);
+  const remaining = boardQuestions.filter((question) => !used.has(question.id)).length;
 
   const picking = doubleId === null;
   const pickedCell = pickedId
@@ -62,6 +83,21 @@ export default function RiskGame({ quiz, ui, lang }) {
   function pickDouble(cell) {
     if (!cell || !picking) return;
     setPickedId(cell.id);
+  }
+
+  function swapBoardCategory(categoryId) {
+    if (!picking) return;
+
+    const next = swapCategory(categories, categoryIds);
+    if (!next) return;
+
+    setCategoryIds((current) =>
+      current.map((id) => (id === categoryId ? next.id : id)),
+    );
+
+    if (pickedCell && pickedCell.category === categoryId) {
+      setPickedId(null);
+    }
   }
 
   function startGame() {
@@ -119,6 +155,9 @@ export default function RiskGame({ quiz, ui, lang }) {
     setScores([0, 0]);
     setTurn(0);
     setUsed(new Set());
+    setCategoryIds(
+      pickCategories(categories, BOARD_CATEGORIES).map((category) => category.id),
+    );
     setActiveId(null);
     setPickedId(null);
     setDoubleId(null);
@@ -259,13 +298,27 @@ export default function RiskGame({ quiz, ui, lang }) {
           )}
 
           <div className="risk-board">
-            {categories.map((category) => (
+            {boardCategories.map((category) => (
               <div className="risk-category" key={category.id}>
                 <div className="risk-category-head">
                   <span className="risk-category-emoji" aria-hidden="true">
                     {category.emoji}
                   </span>
                   <h3 className="risk-category-title">{category.title}</h3>
+                  {picking ? (
+                    <button
+                      type="button"
+                      className="risk-swap"
+                      onClick={() => swapBoardCategory(category.id)}
+                      aria-label={fill(labels.swapAria, {
+                        category: category.title,
+                      })}
+                      title={labels.swapHint}
+                    >
+                      <span aria-hidden="true">⇄</span>
+                      {labels.swap}
+                    </button>
+                  ) : null}
                 </div>
 
                 <div className="risk-values">

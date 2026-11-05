@@ -36,7 +36,7 @@ export const UI = {
       },
       risk: {
         title: 'لوحة الفئات والنقاط',
-        text: 'كل خلية سؤال بقيمتها. قبل البداية بيتم اختيار خلية «دبل ×2»، والإجابة الصح فيها بتاخد ضعف القيمة أوتوماتيك.',
+        text: 'كل خلية سؤال بقيمتها. اللوحة بتعرض ٤ فئات، وكل فئة ليها «تبديل» قبل البداية. بيتم اختيار خلية «دبل ×2»، والإجابة الصح فيها بتاخد ضعف القيمة أوتوماتيك.',
         hint: 'صح = قيمة الخلية (أو ضعفها في خلية الدبل). غلط = 0. الخلية بتتشال والدور بيروح للفريق التاني.',
       },
     },
@@ -59,11 +59,15 @@ export const UI = {
       doubleChip: 'دبل ×2',
       doublePickTitle: 'اختار سؤال الدبل',
       doublePickText:
-        'دور {team}: اختار خلية واحدة قبل البداية. الإجابة الصح فيها بتاخد ضعف القيمة أوتوماتيك.',
-      doublePickHint: 'الغلط في خلية الدبل = 0 زي أي سؤال عادي.',
+        'دور {team}: اللوحة فيها ٤ فئات. اختار خلية واحدة تكون «دبل ×2»، ولو عايز تغيّر فئة دوس «تبديل».',
+      doublePickHint:
+        'الغلط في خلية الدبل = 0 زي أي سؤال عادي. التبديل متاح قبل بداية اللعبة بس.',
       doubleSelected: 'الخلية المختارة: {category} — {value} نقطة',
       doubleStart: 'ابدأ اللعبة',
       doubleBadge: '×2',
+      swap: 'تبديل',
+      swapAria: 'بدّل فئة {category} بفئة تانية',
+      swapHint: 'بدّل الفئة بواحدة تانية مش ظاهرة على اللوحة',
       normalHint: 'صح: +{value} نقطة · غلط: 0',
       doubleHint: 'صح: +{double} نقطة · غلط: 0',
       reveal: 'اعرض الإجابة',
@@ -106,7 +110,7 @@ export const UI = {
         },
         {
           title: 'ريسك',
-          text: 'لوحة فئات بنقاط لفريقين. قبل البداية الفريق الأول يختار خلية واحدة «دبل ×2»، والإجابة الصح فيها بتاخد ضعف القيمة أوتوماتيك.',
+          text: 'لوحة فئات بنقاط لفريقين. بتعرض ٤ فئات كل جولة وكل واحدة ليها «تبديل»، وقبل البداية الفريق الأول يختار خلية واحدة «دبل ×2» والإجابة الصح فيها بتاخد ضعف القيمة أوتوماتيك.',
         },
         {
           title: 'البيانات',
@@ -154,7 +158,7 @@ export const UI = {
       },
       risk: {
         title: 'A board of categories and points',
-        text: 'Each cell is a question worth its value. Before the game starts, one “Double ×2” cell is picked; a correct answer there scores double automatically.',
+        text: 'Each cell is a question worth its value. The board shows 4 categories, each with a “Swap” button before the start. One “Double ×2” cell is picked; a correct answer there scores double automatically.',
         hint: 'Correct = the cell value (double on the double cell). Wrong = 0. The cell is removed and the turn passes.',
       },
     },
@@ -177,11 +181,15 @@ export const UI = {
       doubleChip: 'Double ×2',
       doublePickTitle: 'Pick the double question',
       doublePickText:
-        '{team}: choose one cell before the game starts. A correct answer there scores double automatically.',
-      doublePickHint: 'A wrong answer on the double cell scores 0, like any normal question.',
+        '{team}: the board shows 4 categories. Pick one cell to be “Double ×2”, or press “Swap” to change a category.',
+      doublePickHint:
+        'A wrong answer on the double cell scores 0, like any normal question. Swapping is only available before the game starts.',
       doubleSelected: 'Selected: {category} — {value} pts',
       doubleStart: 'Start game',
       doubleBadge: '×2',
+      swap: 'Swap',
+      swapAria: 'Swap the {category} category for another one',
+      swapHint: 'Swap this category for one that is not on the board',
       normalHint: 'Correct: +{value} pts · Wrong: 0',
       doubleHint: 'Correct: +{double} pts · Wrong: 0',
       reveal: 'Show answer',
@@ -224,7 +232,7 @@ export const UI = {
         },
         {
           title: 'Risk',
-          text: 'A points board for two teams. Before the game starts, Team One picks one “Double ×2” cell; a correct answer there scores double automatically.',
+          text: 'A points board for two teams. Each game shows 4 categories, each with a “Swap” button. Before the game starts, Team One picks one “Double ×2” cell; a correct answer there scores double automatically.',
         },
         {
           title: 'The data',

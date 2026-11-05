@@ -1,6 +1,6 @@
 import { describe, expect, it } from 'vitest';
 import { QUIZZES, getQuiz, getQuizzes, pickQuestion } from './quizzes.js';
-import { findCell, isBoardComplete, scoreDelta, scoreLabel } from './risk.js';
+import { findCell, isBoardComplete, pickCategories, scoreDelta, scoreLabel, swapCategory } from './risk.js';
 
 const ARABIC_LETTERS = /[\u0600-\u06FF]/;
 const LATIN_LETTERS = /[A-Za-z]/;
@@ -255,6 +255,39 @@ describe('نقاط لعبة «ريسك»', () => {
 
     expect(isBoardComplete(questions, all)).toBe(true);
     expect(isBoardComplete(questions, new Set())).toBe(false);
+  });
+
+  it('بيختار ٤ فئات عشوائية من غير تكرار', () => {
+    const categories = getQuiz('risk').categories;
+    const picked = pickCategories(categories, 4);
+
+    expect(picked).toHaveLength(4);
+    expect(new Set(picked.map((category) => category.id)).size).toBe(4);
+    for (const category of picked) expect(categories).toContainEqual(category);
+  });
+
+  it('اختيار الفئات بيحترم عدد الفئات المتاح', () => {
+    const categories = getQuiz('risk').categories.slice(0, 2);
+
+    expect(pickCategories(categories, 4)).toHaveLength(2);
+    expect(pickCategories(categories, 0)).toEqual([]);
+    expect(pickCategories(null, 4)).toEqual([]);
+  });
+
+  it('التبديل بيجيب فئة مش ظاهرة على اللوحة', () => {
+    const categories = getQuiz('risk').categories;
+    const shown = categories.slice(0, 4).map((category) => category.id);
+    const next = swapCategory(categories, shown, () => 0);
+
+    expect(next).toBeTruthy();
+    expect(shown).not.toContain(next.id);
+  });
+
+  it('التبديل بيرجع null لو كل الفئات ظاهرة', () => {
+    const categories = getQuiz('risk').categories;
+    const shown = categories.map((category) => category.id);
+
+    expect(swapCategory(categories, shown)).toBeNull();
   });
 });
 

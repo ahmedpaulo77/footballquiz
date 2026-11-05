@@ -986,12 +986,42 @@ button:focus-visible {
 }
 
 .risk-category-title {
+  flex: 1 1 auto;
+  min-width: 0;
   margin: 0;
   font-size: 13px;
   font-weight: 800;
   line-height: 1.4;
   color: var(--text);
   overflow-wrap: break-word;
+}
+
+.risk-swap {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  gap: 3px;
+  padding: 4px 8px;
+  border-radius: 999px;
+  border: 1px solid var(--border-strong);
+  background: var(--surface-2);
+  color: var(--muted);
+  font-size: 10px;
+  font-weight: 900;
+  line-height: 1.4;
+  transition: transform 0.16s ease, border-color 0.2s ease, color 0.2s ease,
+    background 0.2s ease;
+}
+
+.risk-swap:hover {
+  transform: translateY(-1px);
+  border-color: rgba(34, 211, 238, 0.55);
+  background: rgba(34, 211, 238, 0.1);
+  color: var(--text);
+}
+
+.risk-swap:active {
+  transform: translateY(0) scale(0.96);
 }
 
 .risk-values {
