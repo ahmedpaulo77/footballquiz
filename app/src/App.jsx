@@ -6,6 +6,9 @@ import PathList from './components/PathList.jsx';
 import AnswerReveal from './components/AnswerReveal.jsx';
 import HowToPlay from './components/HowToPlay.jsx';
 import RiskGame from './components/RiskGame.jsx';
+import PointsGame from './components/PointsGame.jsx';
+import Top3Game from './components/Top3Game.jsx';
+import LineupGame from './components/LineupGame.jsx';
 import { getQuiz, getQuizzes, pickQuestion } from './lib/quizzes.js';
 import { getUi } from './lib/i18n.js';
 import {
@@ -23,13 +26,18 @@ import {
 /** آخر كام سؤال نستبعدهم عشان ميتكررش نفس السؤال قريب. */
 const RECENT_LIMIT = 10;
 
+/** الألعاب اللي بتدير أسئلتها بنفسها من غير اختيار سؤال واحد. */
+const SELF_PACED_KINDS = new Set(['risk', 'points', 'top3', 'lineups']);
+
 export default function App() {
   const [lang, setLang] = useState(() => loadLang());
   const [theme, setTheme] = useState(() => loadTheme());
   const [quizId, setQuizId] = useState(() => getQuiz(loadQuizId()).id);
   const [questionId, setQuestionId] = useState(() => {
     const initialQuiz = getQuiz(loadQuizId());
-    return initialQuiz.kind === 'risk' ? null : pickQuestion(initialQuiz)?.id ?? null;
+    return SELF_PACED_KINDS.has(initialQuiz.kind)
+      ? null
+      : pickQuestion(initialQuiz)?.id ?? null;
   });
   const [recent, setRecent] = useState({});
   const [revealed, setRevealed] = useState(false);
@@ -39,7 +47,11 @@ export default function App() {
   const quizzes = getQuizzes(lang);
   const quiz = getQuiz(quizId, lang);
   const isRisk = quiz.kind === 'risk';
-  const question = isRisk
+  const isPoints = quiz.kind === 'points';
+  const isTop3 = quiz.kind === 'top3';
+  const isLineups = quiz.kind === 'lineups';
+  const isSelfPaced = SELF_PACED_KINDS.has(quiz.kind);
+  const question = isSelfPaced
     ? null
     : quiz.questions.find((item) => item.id === questionId) ?? quiz.questions[0];
   const tip = ui.tips[quiz.kind] ?? ui.tips.clues;
@@ -57,10 +69,9 @@ export default function App() {
     const root = document.documentElement;
     root.lang = lang;
     root.dir = ui.dir;
-    document.title =
-      lang === 'ar' ? `${quiz.title} — لعبة كورة` : `${quiz.title} — Football Quiz`;
+    document.title = `${quiz.title} — ${ui.brand}`;
     saveLang(lang);
-  }, [lang, ui.dir, quiz.title]);
+  }, [lang, ui.brand, ui.dir, quiz.title]);
 
   const nextQuestion = useCallback(() => {
     const used = recent[quiz.id] ?? [];
@@ -83,7 +94,9 @@ export default function App() {
       const nextQuiz = getQuiz(nextId, lang);
       setQuizId(nextQuiz.id);
       setQuestionId(
-        nextQuiz.kind === 'risk' ? null : pickQuestion(nextQuiz)?.id ?? null,
+        SELF_PACED_KINDS.has(nextQuiz.kind)
+          ? null
+          : pickQuestion(nextQuiz)?.id ?? null,
       );
       setRevealed(false);
       saveQuizId(nextQuiz.id);
@@ -143,6 +156,12 @@ export default function App() {
 
         {isRisk ? (
           <RiskGame quiz={quiz} ui={ui} lang={lang} />
+        ) : isPoints ? (
+          <PointsGame quiz={quiz} ui={ui} lang={lang} />
+        ) : isTop3 ? (
+          <Top3Game quiz={quiz} ui={ui} lang={lang} />
+        ) : isLineups ? (
+          <LineupGame quiz={quiz} ui={ui} lang={lang} />
         ) : (
           <>
             {quiz.kind === 'path' ? (

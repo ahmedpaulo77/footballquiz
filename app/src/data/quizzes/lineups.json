@@ -1,0 +1,7467 @@
+{
+  "id": "lineups",
+  "title": {
+    "ar": "تشكيلات المباريات",
+    "en": "Match Lineups"
+  },
+  "emoji": "👥",
+  "subtitle": {
+    "ar": "الفريقين والسنة والنتيجة… دوس على الماتش تشوف الـ22 لاعب اللي بدأوا",
+    "en": "Teams, year and result… tap a match to reveal the 22 starters"
+  },
+  "answerLabel": {
+    "ar": "التشكيلة الأساسية",
+    "en": "Starting lineups"
+  },
+  "nextLabel": {
+    "ar": "ماتش تاني",
+    "en": "Another match"
+  },
+  "kind": "lineups",
+  "order": 6,
+  "competitions": [
+    {
+      "id": "world-cup",
+      "ar": "كأس العالم",
+      "en": "FIFA World Cup"
+    },
+    {
+      "id": "champions-league",
+      "ar": "دوري أبطال أوروبا",
+      "en": "UEFA Champions League"
+    },
+    {
+      "id": "euro",
+      "ar": "كأس أمم أوروبا",
+      "en": "UEFA European Championship"
+    },
+    {
+      "id": "copa-america",
+      "ar": "كوبا أمريكا",
+      "en": "Copa América"
+    },
+    {
+      "id": "afcon",
+      "ar": "كأس أمم أفريقيا",
+      "en": "Africa Cup of Nations"
+    },
+    {
+      "id": "supercopa",
+      "ar": "كأس السوبر الإسباني",
+      "en": "Supercopa de España"
+    },
+    {
+      "id": "europa-league",
+      "ar": "الدوري الأوروبي",
+      "en": "UEFA Europa League"
+    }
+  ],
+  "matches": [
+    {
+      "id": "wc-2022",
+      "competition": "world-cup",
+      "year": 2022,
+      "home": {
+        "en": "Argentina",
+        "ar": "الأرجنتين"
+      },
+      "away": {
+        "en": "France",
+        "ar": "فرنسا"
+      },
+      "score": "3–3",
+      "winner": "home",
+      "decidedBy": "penalties",
+      "shootout": "4–2",
+      "difficulty": "easy",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Emiliano Martínez",
+          "ar": "إيميليانو مارتينيز"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Nahuel Molina",
+          "ar": "ناهويل مولينا"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Cristian Romero",
+          "ar": "كريستيان روميرو"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Nicolás Otamendi",
+          "ar": "نيكولاس أوتامندي"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Nicolás Tagliafico",
+          "ar": "نيكولاس تاغليافيكو"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Enzo Fernández",
+          "ar": "اينزو فرنانديز"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Alexis Mac Allister",
+          "ar": "ألكسيس ماك أليستير"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Rodrigo De Paul",
+          "ar": "رودريغو دي بول"
+        },
+        {
+          "pos": "RF",
+          "group": "FW",
+          "en": "Lionel Messi",
+          "ar": "ليونيل ميسي"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Julián Alvarez",
+          "ar": "جولييان ألفاريز"
+        },
+        {
+          "pos": "LF",
+          "group": "FW",
+          "en": "Ángel Di María",
+          "ar": "أنخيل دي ماريا"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Hugo Lloris",
+          "ar": "هيغو لوريس"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Jules Koundé",
+          "ar": "جول كوندي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Raphaël Varane",
+          "ar": "رافاييل فاران"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Dayot Upamecano",
+          "ar": "دايوت أوباميكانو"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Théo Hernandez",
+          "ar": "تيو هرنانديز"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Aurélien Tchouaméni",
+          "ar": "أوريلين تشواميني"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Adrien Rabiot",
+          "ar": "أدريان رابيو"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Ousmane Dembélé",
+          "ar": "عثمان ديمبيلي"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Antoine Griezmann",
+          "ar": "أنطوان غريزمان"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Kylian Mbappé",
+          "ar": "كيليان مبابي"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Olivier Giroud",
+          "ar": "أوليفييه جيرو"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2022_FIFA_World_Cup_final"
+    },
+    {
+      "id": "wc-2018",
+      "competition": "world-cup",
+      "year": 2018,
+      "home": {
+        "en": "France",
+        "ar": "فرنسا"
+      },
+      "away": {
+        "en": "Croatia",
+        "ar": "كرواتيا"
+      },
+      "score": "4–2",
+      "winner": "home",
+      "decidedBy": "regulation",
+      "difficulty": "easy",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Hugo Lloris",
+          "ar": "هيغو لوريس"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Benjamin Pavard",
+          "ar": "بنجامين بافار"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Raphaël Varane",
+          "ar": "رافاييل فاران"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Samuel Umtiti",
+          "ar": "صامويل أومتيتي"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Lucas Hernandez",
+          "ar": "لوكاس هيرنانديز"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Paul Pogba",
+          "ar": "بول بوغبا"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "N'Golo Kanté",
+          "ar": "نغولو كانتي"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Kylian Mbappé",
+          "ar": "كيليان مبابي"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Antoine Griezmann",
+          "ar": "أنطوان غريزمان"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Blaise Matuidi",
+          "ar": "بليز ماتويدي"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Olivier Giroud",
+          "ar": "أوليفييه جيرو"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Danijel Subašić",
+          "ar": "دانييل سوباشيتش"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Šime Vrsaljko",
+          "ar": "شيمي فرساليكو"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Dejan Lovren",
+          "ar": "ديان لوفرين"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Domagoj Vida",
+          "ar": "دوماغوي فيدا"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Ivan Strinić",
+          "ar": "إيفان سترينيتش"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Ivan Rakitić",
+          "ar": "إيفان راكيتيتش"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Marcelo Brozović",
+          "ar": "مارسيلو بروزوفيتش"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Ante Rebić",
+          "ar": "أنته ريبيتش"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Luka Modrić",
+          "ar": "لوكا مودريتش"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Ivan Perišić",
+          "ar": "إيفان بيريشيتش"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Mario Mandžukić",
+          "ar": "ماريو ماندجوكيتش"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2018_FIFA_World_Cup_final"
+    },
+    {
+      "id": "wc-2014",
+      "competition": "world-cup",
+      "year": 2014,
+      "home": {
+        "en": "Germany",
+        "ar": "ألمانيا"
+      },
+      "away": {
+        "en": "Argentina",
+        "ar": "الأرجنتين"
+      },
+      "score": "1–0",
+      "winner": "home",
+      "decidedBy": "extra-time",
+      "difficulty": "easy",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Manuel Neuer",
+          "ar": "مانويل نوير"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Philipp Lahm",
+          "ar": "فيليب لام"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Jérôme Boateng",
+          "ar": "جيروم بواتينغ"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Mats Hummels",
+          "ar": "ماتس هوملز"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Benedikt Höwedes",
+          "ar": "بينيديكت هوفيديس"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Christoph Kramer",
+          "ar": "كريستوف كرامر"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Bastian Schweinsteiger",
+          "ar": "باستيان شفاينشتايغر"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Toni Kroos",
+          "ar": "توني كروس"
+        },
+        {
+          "pos": "RF",
+          "group": "FW",
+          "en": "Thomas Müller",
+          "ar": "توماس مولر"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Miroslav Klose",
+          "ar": "ميروسلاف كلوزه"
+        },
+        {
+          "pos": "LF",
+          "group": "FW",
+          "en": "Mesut Özil",
+          "ar": "مسعود أوزيل"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Sergio Romero",
+          "ar": "سرخيو روميرو"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Pablo Zabaleta",
+          "ar": "بابلو زاباليتا"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Martín Demichelis",
+          "ar": "مارتن ديميكيليس"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Ezequiel Garay",
+          "ar": "إزيكييل غاراي"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Marcos Rojo",
+          "ar": "ماركوس روخو"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Javier Mascherano",
+          "ar": "خافيير ماسكيرانو"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Lucas Biglia",
+          "ar": "لوكاس بيليا"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Enzo Pérez",
+          "ar": "إنزو بيريز"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Lionel Messi",
+          "ar": "ليونيل ميسي"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Ezequiel Lavezzi",
+          "ar": "إزيكييل لافيتزي"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Gonzalo Higuaín",
+          "ar": "غونزالو هيغواين"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2014_FIFA_World_Cup_final"
+    },
+    {
+      "id": "wc-2010",
+      "competition": "world-cup",
+      "year": 2010,
+      "home": {
+        "en": "Netherlands",
+        "ar": "هولندا"
+      },
+      "away": {
+        "en": "Spain",
+        "ar": "إسبانيا"
+      },
+      "score": "0–1",
+      "winner": "away",
+      "decidedBy": "extra-time",
+      "difficulty": "medium",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Maarten Stekelenburg",
+          "ar": "مارتن ستيكلنبيرغ"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Gregory van der Wiel",
+          "ar": "غريغوري فان دير فيل"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "John Heitinga",
+          "ar": "جون هيتينغا"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Joris Mathijsen",
+          "ar": "يوريس ماتيسين"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Giovanni van Bronckhorst",
+          "ar": "جيوفاني فان برونكهورست"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Mark van Bommel",
+          "ar": "مارك فان بوميل"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Nigel de Jong",
+          "ar": "نايجل دي يونغ"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Arjen Robben",
+          "ar": "آريين روبن"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Wesley Sneijder",
+          "ar": "ويسلي سنايدر"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Dirk Kuyt",
+          "ar": "ديرك كويت"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Robin van Persie",
+          "ar": "روبين فان بيرسي"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Iker Casillas",
+          "ar": "إيكر كاسياس"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Sergio Ramos",
+          "ar": "سيرخيو راموس"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Gerard Piqué",
+          "ar": "جيرارد بيكيه"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Carles Puyol",
+          "ar": "كارليس بويول"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Joan Capdevila",
+          "ar": "خوان كابديفيلا"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Sergio Busquets",
+          "ar": "سيرجيو بوسكيتس"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Xabi Alonso",
+          "ar": "تشابي ألونسو"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Xavi",
+          "ar": "تشافي هيرنانديز"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Andrés Iniesta",
+          "ar": "أندريس إنييستا"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Pedro",
+          "ar": "بيدرو رودريغز"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "David Villa",
+          "ar": "دافيد فيا"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2010_FIFA_World_Cup_final"
+    },
+    {
+      "id": "wc-2006",
+      "competition": "world-cup",
+      "year": 2006,
+      "home": {
+        "en": "Italy",
+        "ar": "إيطاليا"
+      },
+      "away": {
+        "en": "France",
+        "ar": "فرنسا"
+      },
+      "score": "1–1",
+      "winner": "home",
+      "decidedBy": "penalties",
+      "shootout": "5–3",
+      "difficulty": "medium",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Gianluigi Buffon",
+          "ar": "جانلويجي بوفون"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Gianluca Zambrotta",
+          "ar": "جانلوكا زامبروتا"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Fabio Cannavaro",
+          "ar": "فابيو كانافارو"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Marco Materazzi",
+          "ar": "ماركو ماتيراتزي"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Fabio Grosso",
+          "ar": "فابيو غروسو"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Mauro Camoranesi",
+          "ar": "ماورو كامورانيزي"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Gennaro Gattuso",
+          "ar": "جنارو غاتوزو"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Andrea Pirlo",
+          "ar": "أندريا بيرلو"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Simone Perrotta",
+          "ar": "سيموني بيروتا"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Francesco Totti",
+          "ar": "فرانشيسكو توتي"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Luca Toni",
+          "ar": "لوكا توني"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Fabien Barthez",
+          "ar": "فابيان بارتيز"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Willy Sagnol",
+          "ar": "ويلي سانيول"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Lilian Thuram",
+          "ar": "ليليان تورام"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "William Gallas",
+          "ar": "ويليام غالاس"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Eric Abidal",
+          "ar": "إريك أبيدال"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Patrick Vieira",
+          "ar": "باتريك فييرا"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Claude Makélélé",
+          "ar": "كلود ماكيليلي"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Franck Ribéry",
+          "ar": "فرانك ريبيري"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Zinedine Zidane",
+          "ar": "زين الدين زيدان"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Florent Malouda",
+          "ar": "فلوران مالودا"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Thierry Henry",
+          "ar": "تييري هنري"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2006_FIFA_World_Cup_final"
+    },
+    {
+      "id": "wc-2002",
+      "competition": "world-cup",
+      "year": 2002,
+      "home": {
+        "en": "Germany",
+        "ar": "ألمانيا"
+      },
+      "away": {
+        "en": "Brazil",
+        "ar": "البرازيل"
+      },
+      "score": "0–2",
+      "winner": "away",
+      "decidedBy": "regulation",
+      "difficulty": "easy",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Oliver Kahn",
+          "ar": "أوليفر كان"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Thomas Linke",
+          "ar": "توماس لينكه"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Carsten Ramelow",
+          "ar": "كارستن راميلو"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Christoph Metzelder",
+          "ar": "كريستوف ميتسلدر"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Torsten Frings",
+          "ar": "تورشتن فرينغس"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Dietmar Hamann",
+          "ar": "ديتمار هامان"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Jens Jeremies",
+          "ar": "ينز يريميز"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Marco Bode",
+          "ar": "ماركو بوده"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Bernd Schneider",
+          "ar": "بيرند شنايدر"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Miroslav Klose",
+          "ar": "ميروسلاف كلوزه"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Oliver Neuville",
+          "ar": "أوليفر نوفيل"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Marcos",
+          "ar": "ماركوس روبرتو"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Lúcio",
+          "ar": "لوسيو"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Edmílson",
+          "ar": "إدملسون"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Roque Júnior",
+          "ar": "روكي جونيور"
+        },
+        {
+          "pos": "RWB",
+          "group": "DF",
+          "en": "Cafu",
+          "ar": "كافو"
+        },
+        {
+          "pos": "LWB",
+          "group": "DF",
+          "en": "Roberto Carlos",
+          "ar": "روبرتو كارلوس"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Gilberto Silva",
+          "ar": "جيلبرتو سيلفا"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Kléberson",
+          "ar": "خوسيه كليبرسون"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Ronaldinho",
+          "ar": "رونالدينيو"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Rivaldo",
+          "ar": "ريفالدو"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Ronaldo",
+          "ar": "رونالدو"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2002_FIFA_World_Cup_final"
+    },
+    {
+      "id": "wc-1998",
+      "competition": "world-cup",
+      "year": 1998,
+      "home": {
+        "en": "Brazil",
+        "ar": "البرازيل"
+      },
+      "away": {
+        "en": "France",
+        "ar": "فرنسا"
+      },
+      "score": "0–3",
+      "winner": "away",
+      "decidedBy": "regulation",
+      "difficulty": "medium",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Cláudio Taffarel",
+          "ar": "كلاوديو تافاريل"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Cafu",
+          "ar": "كافو"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Júnior Baiano",
+          "ar": "جونيور بايانو"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Aldair",
+          "ar": "ألدايير"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Roberto Carlos",
+          "ar": "روبرتو كارلوس"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Dunga",
+          "ar": "دونغا"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "César Sampaio",
+          "ar": "سيزار سامبايو"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Leonardo",
+          "ar": "ليوناردو أراوجو"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Rivaldo",
+          "ar": "ريفالدو"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Bebeto",
+          "ar": "بيبيتو"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Ronaldo",
+          "ar": "رونالدو"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Fabien Barthez",
+          "ar": "فابيان بارتيز"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Lilian Thuram",
+          "ar": "ليليان تورام"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Frank Leboeuf",
+          "ar": "فرانك لوبوف"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Marcel Desailly",
+          "ar": "مارسيل ديسايي"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Bixente Lizarazu",
+          "ar": "بيسنتي ليزارازو"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Didier Deschamps",
+          "ar": "ديدييه ديشان"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Christian Karembeu",
+          "ar": "كريستيان كاريمبو"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Emmanuel Petit",
+          "ar": "إيمانويل بوتي"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Zinedine Zidane",
+          "ar": "زين الدين زيدان"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Youri Djorkaeff",
+          "ar": "يوري دجوركاييف"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Stéphane Guivarc'h",
+          "ar": "ستيفان غيفارش"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/1998_FIFA_World_Cup_final"
+    },
+    {
+      "id": "wc-1994",
+      "competition": "world-cup",
+      "year": 1994,
+      "home": {
+        "en": "Brazil",
+        "ar": "البرازيل"
+      },
+      "away": {
+        "en": "Italy",
+        "ar": "إيطاليا"
+      },
+      "score": "0–0",
+      "winner": "home",
+      "decidedBy": "penalties",
+      "shootout": "3–2",
+      "difficulty": "medium",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Cláudio Taffarel",
+          "ar": "كلاوديو تافاريل"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Jorginho",
+          "ar": "جورجينيو"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Aldair",
+          "ar": "ألدايير"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Márcio Santos",
+          "ar": "مارسيو سانتوس"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Branco",
+          "ar": "برانكو"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Mazinho",
+          "ar": "مازينيو"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Mauro Silva",
+          "ar": "ماورو سيلفا"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Dunga",
+          "ar": "دونغا"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Zinho",
+          "ar": "زينهو"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Bebeto",
+          "ar": "بيبيتو"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Romário",
+          "ar": "روماريو"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Gianluca Pagliuca",
+          "ar": "جيانلوكا باليوكا"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Roberto Mussi",
+          "ar": "روبرتو موسي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Franco Baresi",
+          "ar": "فرانكو باريزي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Paolo Maldini",
+          "ar": "باولو مالديني"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Antonio Benarrivo",
+          "ar": "أنتونيو بيناريفو"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Nicola Berti",
+          "ar": "نيكولا بيرتي"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Dino Baggio",
+          "ar": "دينو باجو"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Demetrio Albertini",
+          "ar": "ديميتريو ألبرتيني"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Roberto Donadoni",
+          "ar": "روبرتو دونادوني"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Roberto Baggio",
+          "ar": "روبرتو باجو"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Daniele Massaro",
+          "ar": "دانييلي مسارو"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/1994_FIFA_World_Cup_final"
+    },
+    {
+      "id": "wc-1986",
+      "competition": "world-cup",
+      "year": 1986,
+      "home": {
+        "en": "Argentina",
+        "ar": "الأرجنتين"
+      },
+      "away": {
+        "en": "West Germany",
+        "ar": "ألمانيا الغربية"
+      },
+      "score": "3–2",
+      "winner": "home",
+      "decidedBy": "regulation",
+      "difficulty": "hard",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Nery Pumpido",
+          "ar": "نيري بومبيدو"
+        },
+        {
+          "pos": "SW",
+          "group": "DF",
+          "en": "José Luis Brown",
+          "ar": "خوسيه لويس براون"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "José Luis Cuciuffo",
+          "ar": "خوسيه لويس كوجوفو"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Oscar Ruggeri",
+          "ar": "أوسكار روجيري"
+        },
+        {
+          "pos": "RWB",
+          "group": "DF",
+          "en": "Ricardo Giusti",
+          "ar": "ريكاردو جوستي"
+        },
+        {
+          "pos": "LWB",
+          "group": "DF",
+          "en": "Julio Olarticoechea",
+          "ar": "خوليو اولرتيكوكييا"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Sergio Batista",
+          "ar": "سيرخيو باتيستا"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Jorge Burruchaga",
+          "ar": "خورخي بوروتشاغا"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Héctor Enrique",
+          "ar": "هكتور انريكي"
+        },
+        {
+          "pos": "SS",
+          "group": "FW",
+          "en": "Diego Maradona",
+          "ar": "دييغو مارادونا"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Jorge Valdano",
+          "ar": "خورخي فالدانو"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Harald Schumacher",
+          "ar": "هارالد شوماخر"
+        },
+        {
+          "pos": "SW",
+          "group": "DF",
+          "en": "Ditmar Jakobs",
+          "ar": "ديتمار ياكوبس"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Andreas Brehme",
+          "ar": "أندرياس بريمه"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Karlheinz Förster",
+          "ar": "كارلهاينز فورستر"
+        },
+        {
+          "pos": "RWB",
+          "group": "DF",
+          "en": "Thomas Berthold",
+          "ar": "توماس بيرثولد"
+        },
+        {
+          "pos": "LWB",
+          "group": "DF",
+          "en": "Hans-Peter Briegel",
+          "ar": "هانز بيتر بريغل"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Norbert Eder",
+          "ar": "نوربرت إيدر"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Lothar Matthäus",
+          "ar": "لوتار ماتيوس"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Felix Magath",
+          "ar": "فيليكس ماغات"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Karl-Heinz Rummenigge",
+          "ar": "كارل-هاينتس رومنيغه"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Klaus Allofs",
+          "ar": "كلاوس ألوفس"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/1986_FIFA_World_Cup_final"
+    },
+    {
+      "id": "wc-1970",
+      "competition": "world-cup",
+      "year": 1970,
+      "home": {
+        "en": "Brazil",
+        "ar": "البرازيل"
+      },
+      "away": {
+        "en": "Italy",
+        "ar": "إيطاليا"
+      },
+      "score": "4–1",
+      "winner": "home",
+      "decidedBy": "regulation",
+      "difficulty": "hard",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Félix",
+          "ar": "فيليكس"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Carlos Alberto",
+          "ar": "كارلوس ألبرتو"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Brito",
+          "ar": "بريتو"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Piazza",
+          "ar": "بياتسا"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Everaldo",
+          "ar": "إفيرالدو"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Clodoaldo",
+          "ar": "كلودوالدو"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Gérson",
+          "ar": "غيرسون"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Jairzinho",
+          "ar": "جارزينيو"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Rivellino",
+          "ar": "ريفيلينو"
+        },
+        {
+          "pos": "SS",
+          "group": "FW",
+          "en": "Pelé",
+          "ar": "بيليه"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Tostão",
+          "ar": "توستاو"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Enrico Albertosi",
+          "ar": "إنريكو ألبرتوزي"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Tarcisio Burgnich",
+          "ar": "تارشيزيو بورغنيتش"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Roberto Rosato",
+          "ar": "روبيرتو روزاتو"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Pierluigi Cera",
+          "ar": "بييرلويجي سيرا"
+        },
+        {
+          "pos": "LWB",
+          "group": "DF",
+          "en": "Giacinto Facchetti",
+          "ar": "جاشينتو فاكيتي"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Mario Bertini",
+          "ar": "ماريو بيرتيني"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Giancarlo De Sisti",
+          "ar": "جانكارلو دي سيستي"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Angelo Domenghini",
+          "ar": "أنجلو دومنغيني"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Sandro Mazzola",
+          "ar": "ساندرو ماتسولا"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Roberto Boninsegna",
+          "ar": "روبيرتو بونينسيغنا"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Gigi Riva",
+          "ar": "لويجي ريفا"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/1970_FIFA_World_Cup_final"
+    },
+    {
+      "id": "wc-1966",
+      "competition": "world-cup",
+      "year": 1966,
+      "home": {
+        "en": "England",
+        "ar": "إنجلترا"
+      },
+      "away": {
+        "en": "West Germany",
+        "ar": "ألمانيا الغربية"
+      },
+      "score": "4–2",
+      "winner": "home",
+      "decidedBy": "extra-time",
+      "difficulty": "hard",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Gordon Banks",
+          "ar": "غوردون بانكس"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "George Cohen",
+          "ar": "جورج كوهن"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Jack Charlton",
+          "ar": "جاك تشارلتون"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Bobby Moore",
+          "ar": "بوبي مور"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Ray Wilson",
+          "ar": "راي ويلسون"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Nobby Stiles",
+          "ar": "نوبي ستايلس"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Alan Ball",
+          "ar": "ألان بول"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Bobby Charlton",
+          "ar": "بوبي تشارلتون"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Martin Peters",
+          "ar": "مارتن بيترس"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Roger Hunt",
+          "ar": "روجر هنت"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Geoff Hurst",
+          "ar": "جيوف هورست"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Hans Tilkowski",
+          "ar": "هانز تيلكوفسكي"
+        },
+        {
+          "pos": "SW",
+          "group": "DF",
+          "en": "Willi Schulz",
+          "ar": "فيلي شولتس"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Horst-Dieter Höttges",
+          "ar": "هورست ديتر هوتغيس"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Wolfgang Weber",
+          "ar": "فولفغانغ فيبر"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Karl-Heinz Schnellinger",
+          "ar": "كارل هاينز شنيلينغر"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Helmut Haller",
+          "ar": "هيلموت هالر"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Franz Beckenbauer",
+          "ar": "فرانز بكنباور"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Wolfgang Overath",
+          "ar": "فولفغانغ أوفيرات"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Lothar Emmerich",
+          "ar": "لوتار إيميريش"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Uwe Seeler",
+          "ar": "أوفه زيلر"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Sigfried Held",
+          "ar": "سيغفريد هيلت"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/1966_FIFA_World_Cup_final"
+    },
+    {
+      "id": "ucl-2024",
+      "competition": "champions-league",
+      "year": 2024,
+      "home": {
+        "en": "Borussia Dortmund",
+        "ar": "بوروسيا دورتموند"
+      },
+      "away": {
+        "en": "Real Madrid",
+        "ar": "ريال مدريد"
+      },
+      "score": "0–2",
+      "winner": "away",
+      "decidedBy": "regulation",
+      "difficulty": "easy",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Gregor Kobel",
+          "ar": "جريجور كوبيل"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Julian Ryerson",
+          "ar": "جوليان رايرسون"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Mats Hummels",
+          "ar": "ماتس هوملز"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Nico Schlotterbeck",
+          "ar": "نيكو شلوتربيك"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Ian Maatsen",
+          "ar": "إيان ماتسين"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Emre Can",
+          "ar": "إمري تشان"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Marcel Sabitzer",
+          "ar": "مارسيل زابيتسر"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Jadon Sancho",
+          "ar": "جيدون سانشو"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Julian Brandt",
+          "ar": "يوليان براندت"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Karim Adeyemi",
+          "ar": "كريم أديمي"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Niclas Füllkrug",
+          "ar": "نيكلاس فولكروغ"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Thibaut Courtois",
+          "ar": "تيبو كورتوا"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Dani Carvajal",
+          "ar": "داني كارفاخال"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Antonio Rüdiger",
+          "ar": "أنطونيو روديغر"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Nacho",
+          "ar": "ناتشو"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Ferland Mendy",
+          "ar": "فيرلاند ميندي"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Eduardo Camavinga",
+          "ar": "إدواردو كامافينجا"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Federico Valverde",
+          "ar": "فيديريكو فالفيردي"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Toni Kroos",
+          "ar": "توني كروس"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Jude Bellingham",
+          "ar": "جود بيلينغهام"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Rodrygo",
+          "ar": "رودريغو غوس"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Vinícius Júnior",
+          "ar": "فينيسيوس جونيور"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2024_UEFA_Champions_League_final"
+    },
+    {
+      "id": "ucl-2023",
+      "competition": "champions-league",
+      "year": 2023,
+      "home": {
+        "en": "Manchester City",
+        "ar": "مانشستر سيتي"
+      },
+      "away": {
+        "en": "Inter Milan",
+        "ar": "إنتر ميلان"
+      },
+      "score": "1–0",
+      "winner": "home",
+      "decidedBy": "regulation",
+      "difficulty": "easy",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Ederson",
+          "ar": "إيدرسون مورايس"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Manuel Akanji",
+          "ar": "مانويل أكانجي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Rúben Dias",
+          "ar": "روبن دياز"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Nathan Aké",
+          "ar": "ناثان أكي"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "John Stones",
+          "ar": "جون ستونز"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Rodri",
+          "ar": "رودري"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Bernardo Silva",
+          "ar": "برناردو سيلفا"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Kevin De Bruyne",
+          "ar": "كيفن دي بروين"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "İlkay Gündoğan",
+          "ar": "إيلكاي غوندوغان"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Jack Grealish",
+          "ar": "جاك غريليش"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Erling Haaland",
+          "ar": "إيرلينغ هالاند"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "André Onana",
+          "ar": "أندريه أونانا"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Matteo Darmian",
+          "ar": "ماتيو دارميان"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Francesco Acerbi",
+          "ar": "فرانسيسكو أتشيربي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Alessandro Bastoni",
+          "ar": "أليساندرو باستوني"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Denzel Dumfries",
+          "ar": "دنزل دومفريس"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Nicolò Barella",
+          "ar": "نيكولو باريلا"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Marcelo Brozović",
+          "ar": "مارسيلو بروزوفيتش"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Hakan Çalhanoğlu",
+          "ar": "هاكان تشالهان أوغلو"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Federico Dimarco",
+          "ar": "فيديريكو ديماركو"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Lautaro Martínez",
+          "ar": "لاوتارو مارتينيز"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Edin Džeko",
+          "ar": "إدين دجيكو"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2023_UEFA_Champions_League_final"
+    },
+    {
+      "id": "ucl-2022",
+      "competition": "champions-league",
+      "year": 2022,
+      "home": {
+        "en": "Liverpool",
+        "ar": "ليفربول"
+      },
+      "away": {
+        "en": "Real Madrid",
+        "ar": "ريال مدريد"
+      },
+      "score": "0–1",
+      "winner": "away",
+      "decidedBy": "regulation",
+      "difficulty": "easy",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Alisson",
+          "ar": "أليسون بيكر"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Trent Alexander-Arnold",
+          "ar": "ترنت ألكسندر-أرنولد"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Ibrahima Konaté",
+          "ar": "إبراهيما كوناتي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Virgil van Dijk",
+          "ar": "فيرجيل فان دايك"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Andrew Robertson",
+          "ar": "أندرو روبرتسون"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Jordan Henderson",
+          "ar": "جوردان هندرسون"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Fabinho",
+          "ar": "فابينيو تافاريس"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Thiago Alcântara",
+          "ar": "تياغو ألكانتارا"
+        },
+        {
+          "pos": "RF",
+          "group": "FW",
+          "en": "Mohamed Salah",
+          "ar": "محمد صلاح"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Sadio Mané",
+          "ar": "ساديو ماني"
+        },
+        {
+          "pos": "LF",
+          "group": "FW",
+          "en": "Luis Díaz",
+          "ar": "لويس دياز"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Thibaut Courtois",
+          "ar": "تيبو كورتوا"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Dani Carvajal",
+          "ar": "داني كارفاخال"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Éder Militão",
+          "ar": "إيدر ميليتاو"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "David Alaba",
+          "ar": "دافيد ألابا"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Ferland Mendy",
+          "ar": "فيرلاند ميندي"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Luka Modrić",
+          "ar": "لوكا مودريتش"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Casemiro",
+          "ar": "كاسيميرو"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Toni Kroos",
+          "ar": "توني كروس"
+        },
+        {
+          "pos": "RF",
+          "group": "FW",
+          "en": "Federico Valverde",
+          "ar": "فيديريكو فالفيردي"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Karim Benzema",
+          "ar": "كريم بنزيما"
+        },
+        {
+          "pos": "LF",
+          "group": "FW",
+          "en": "Vinícius Júnior",
+          "ar": "فينيسيوس جونيور"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2022_UEFA_Champions_League_final"
+    },
+    {
+      "id": "ucl-2021",
+      "competition": "champions-league",
+      "year": 2021,
+      "home": {
+        "en": "Manchester City",
+        "ar": "مانشستر سيتي"
+      },
+      "away": {
+        "en": "Chelsea",
+        "ar": "تشيلسي"
+      },
+      "score": "0–1",
+      "winner": "away",
+      "decidedBy": "regulation",
+      "difficulty": "medium",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Ederson",
+          "ar": "إيدرسون مورايس"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Kyle Walker",
+          "ar": "كايل ووكر"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "John Stones",
+          "ar": "جون ستونز"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Rúben Dias",
+          "ar": "روبن دياز"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Oleksandr Zinchenko",
+          "ar": "أولكسندر زينتشنكو"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Bernardo Silva",
+          "ar": "برناردو سيلفا"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "İlkay Gündoğan",
+          "ar": "إيلكاي غوندوغان"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Phil Foden",
+          "ar": "فيل فودين"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Kevin De Bruyne",
+          "ar": "كيفن دي بروين"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Riyad Mahrez",
+          "ar": "رياض محرز"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Raheem Sterling",
+          "ar": "رحيم ستيرلينغ"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Édouard Mendy",
+          "ar": "إدوارد ميندي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "César Azpilicueta",
+          "ar": "سيزار أزبيليكويتا"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Thiago Silva",
+          "ar": "تياغو سيلفا"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Antonio Rüdiger",
+          "ar": "أنطونيو روديغر"
+        },
+        {
+          "pos": "RWB",
+          "group": "DF",
+          "en": "Reece James",
+          "ar": "رييس جيمس"
+        },
+        {
+          "pos": "LWB",
+          "group": "DF",
+          "en": "Ben Chilwell",
+          "ar": "بن تشيلويل"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Jorginho",
+          "ar": "جورجينهو"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "N'Golo Kanté",
+          "ar": "نغولو كانتي"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Kai Havertz",
+          "ar": "كاي هافيرتز"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Mason Mount",
+          "ar": "ميسون ماونت"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Timo Werner",
+          "ar": "تيمو فيرنر"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2021_UEFA_Champions_League_final"
+    },
+    {
+      "id": "ucl-2019",
+      "competition": "champions-league",
+      "year": 2019,
+      "home": {
+        "en": "Tottenham Hotspur",
+        "ar": "توتنهام هوتسبير"
+      },
+      "away": {
+        "en": "Liverpool",
+        "ar": "ليفربول"
+      },
+      "score": "0–2",
+      "winner": "away",
+      "decidedBy": "regulation",
+      "difficulty": "easy",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Hugo Lloris",
+          "ar": "هيغو لوريس"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Kieran Trippier",
+          "ar": "كيران تريبير"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Toby Alderweireld",
+          "ar": "توبي ألدرفيريلد"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Jan Vertonghen",
+          "ar": "يان فيرتونغن"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Danny Rose",
+          "ar": "داني روز"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Moussa Sissoko",
+          "ar": "موسى سيسوكو"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Harry Winks",
+          "ar": "هاري وينكس"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Dele Alli",
+          "ar": "ديلي ألي"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Christian Eriksen",
+          "ar": "كريستيان إريكسن"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Son Heung-min",
+          "ar": "سون هيونغ مين"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Harry Kane",
+          "ar": "هاري كين"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Alisson",
+          "ar": "أليسون بيكر"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Trent Alexander-Arnold",
+          "ar": "ترنت ألكسندر-أرنولد"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Joël Matip",
+          "ar": "جويل ماتيب"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Virgil van Dijk",
+          "ar": "فيرجيل فان دايك"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Andy Robertson",
+          "ar": "أندرو روبرتسون"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Jordan Henderson",
+          "ar": "جوردان هندرسون"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Fabinho",
+          "ar": "فابينيو تافاريس"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Georginio Wijnaldum",
+          "ar": "جورجينيو فينالدوم"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Mohamed Salah",
+          "ar": "محمد صلاح"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Roberto Firmino",
+          "ar": "روبرتو فيرمينو"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Sadio Mané",
+          "ar": "ساديو ماني"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2019_UEFA_Champions_League_final"
+    },
+    {
+      "id": "ucl-2018",
+      "competition": "champions-league",
+      "year": 2018,
+      "home": {
+        "en": "Real Madrid",
+        "ar": "ريال مدريد"
+      },
+      "away": {
+        "en": "Liverpool",
+        "ar": "ليفربول"
+      },
+      "score": "3–1",
+      "winner": "home",
+      "decidedBy": "regulation",
+      "difficulty": "easy",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Keylor Navas",
+          "ar": "كيلور نافاس"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Dani Carvajal",
+          "ar": "داني كارفاخال"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Raphaël Varane",
+          "ar": "رافاييل فاران"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Sergio Ramos",
+          "ar": "سيرخيو راموس"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Marcelo",
+          "ar": "مارسيلو"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Casemiro",
+          "ar": "كاسيميرو"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Luka Modrić",
+          "ar": "لوكا مودريتش"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Toni Kroos",
+          "ar": "توني كروس"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Isco",
+          "ar": "فرانشيسكو إيسكو"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Karim Benzema",
+          "ar": "كريم بنزيما"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Cristiano Ronaldo",
+          "ar": "كريستيانو رونالدو"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Loris Karius",
+          "ar": "لوريس كاريوس"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Trent Alexander-Arnold",
+          "ar": "ترنت ألكسندر-أرنولد"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Dejan Lovren",
+          "ar": "ديان لوفرين"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Virgil van Dijk",
+          "ar": "فيرجيل فان دايك"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Andy Robertson",
+          "ar": "أندرو روبرتسون"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "James Milner",
+          "ar": "جيمس ميلنر"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Jordan Henderson",
+          "ar": "جوردان هندرسون"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Georginio Wijnaldum",
+          "ar": "جورجينيو فينالدوم"
+        },
+        {
+          "pos": "RF",
+          "group": "FW",
+          "en": "Mohamed Salah",
+          "ar": "محمد صلاح"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Roberto Firmino",
+          "ar": "روبرتو فيرمينو"
+        },
+        {
+          "pos": "LF",
+          "group": "FW",
+          "en": "Sadio Mané",
+          "ar": "ساديو ماني"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2018_UEFA_Champions_League_final"
+    },
+    {
+      "id": "ucl-2016",
+      "competition": "champions-league",
+      "year": 2016,
+      "home": {
+        "en": "Real Madrid",
+        "ar": "ريال مدريد"
+      },
+      "away": {
+        "en": "Atlético Madrid",
+        "ar": "أتلتيكو مدريد"
+      },
+      "score": "1–1",
+      "winner": "home",
+      "decidedBy": "penalties",
+      "shootout": "5–3",
+      "difficulty": "medium",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Keylor Navas",
+          "ar": "كيلور نافاس"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Dani Carvajal",
+          "ar": "داني كارفاخال"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Sergio Ramos",
+          "ar": "سيرخيو راموس"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Pepe",
+          "ar": "بيبي"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Marcelo",
+          "ar": "مارسيلو"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Casemiro",
+          "ar": "كاسيميرو"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Luka Modrić",
+          "ar": "لوكا مودريتش"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Toni Kroos",
+          "ar": "توني كروس"
+        },
+        {
+          "pos": "RF",
+          "group": "FW",
+          "en": "Gareth Bale",
+          "ar": "غاريث بيل"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Karim Benzema",
+          "ar": "كريم بنزيما"
+        },
+        {
+          "pos": "LF",
+          "group": "FW",
+          "en": "Cristiano Ronaldo",
+          "ar": "كريستيانو رونالدو"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Jan Oblak",
+          "ar": "يان أوبلاك"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Juanfran",
+          "ar": "خوانفران"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Stefan Savić",
+          "ar": "ستيفان سافيتش"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Diego Godín",
+          "ar": "دييغو غودين"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Filipe Luís",
+          "ar": "فيليبي لويس"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Saúl",
+          "ar": "ساؤول نيغيز"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Gabi",
+          "ar": "غابي"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Augusto Fernández",
+          "ar": "أوغوستو فيرنانديز"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Koke",
+          "ar": "كوكي ريسوريكيون"
+        },
+        {
+          "pos": "SS",
+          "group": "FW",
+          "en": "Antoine Griezmann",
+          "ar": "أنطوان غريزمان"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Fernando Torres",
+          "ar": "فرناندو توريس"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2016_UEFA_Champions_League_final"
+    },
+    {
+      "id": "ucl-2015",
+      "competition": "champions-league",
+      "year": 2015,
+      "home": {
+        "en": "Juventus",
+        "ar": "يوفنتوس"
+      },
+      "away": {
+        "en": "Barcelona",
+        "ar": "برشلونة"
+      },
+      "score": "1–3",
+      "winner": "away",
+      "decidedBy": "regulation",
+      "difficulty": "easy",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Gianluigi Buffon",
+          "ar": "جانلويجي بوفون"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Stephan Lichtsteiner",
+          "ar": "ستيفان ليختشتاينر"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Andrea Barzagli",
+          "ar": "أندريا بارزالي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Leonardo Bonucci",
+          "ar": "ليوناردو بونوتشي"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Patrice Evra",
+          "ar": "باتريس إيفرا"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Andrea Pirlo",
+          "ar": "أندريا بيرلو"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Claudio Marchisio",
+          "ar": "كلاوديو ماركيزيو"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Paul Pogba",
+          "ar": "بول بوغبا"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Arturo Vidal",
+          "ar": "أرتورو فيدال"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Carlos Tevez",
+          "ar": "كارلوس تيفيز"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Álvaro Morata",
+          "ar": "ألفارو موراتا"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Marc-André ter Stegen",
+          "ar": "مارك أندريه تير شتيغن"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Dani Alves",
+          "ar": "داني ألفيس"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Gerard Piqué",
+          "ar": "جيرارد بيكيه"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Javier Mascherano",
+          "ar": "خافيير ماسكيرانو"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Jordi Alba",
+          "ar": "جوردي ألبا"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Ivan Rakitić",
+          "ar": "إيفان راكيتيتش"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Sergio Busquets",
+          "ar": "سيرجيو بوسكيتس"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Andrés Iniesta",
+          "ar": "أندريس إنييستا"
+        },
+        {
+          "pos": "RF",
+          "group": "FW",
+          "en": "Lionel Messi",
+          "ar": "ليونيل ميسي"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Luis Suárez",
+          "ar": "لويس سواريز"
+        },
+        {
+          "pos": "LF",
+          "group": "FW",
+          "en": "Neymar",
+          "ar": "نيمار"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2015_UEFA_Champions_League_final"
+    },
+    {
+      "id": "ucl-2014",
+      "competition": "champions-league",
+      "year": 2014,
+      "home": {
+        "en": "Real Madrid",
+        "ar": "ريال مدريد"
+      },
+      "away": {
+        "en": "Atlético Madrid",
+        "ar": "أتلتيكو مدريد"
+      },
+      "score": "4–1",
+      "winner": "home",
+      "decidedBy": "extra-time",
+      "difficulty": "medium",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Iker Casillas",
+          "ar": "إيكر كاسياس"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Dani Carvajal",
+          "ar": "داني كارفاخال"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Raphaël Varane",
+          "ar": "رافاييل فاران"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Sergio Ramos",
+          "ar": "سيرخيو راموس"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Fábio Coentrão",
+          "ar": "فابيو كوينتراو"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Luka Modrić",
+          "ar": "لوكا مودريتش"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Sami Khedira",
+          "ar": "سامي خضيرة"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Ángel Di María",
+          "ar": "أنخيل دي ماريا"
+        },
+        {
+          "pos": "RF",
+          "group": "FW",
+          "en": "Gareth Bale",
+          "ar": "غاريث بيل"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Karim Benzema",
+          "ar": "كريم بنزيما"
+        },
+        {
+          "pos": "LF",
+          "group": "FW",
+          "en": "Cristiano Ronaldo",
+          "ar": "كريستيانو رونالدو"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Thibaut Courtois",
+          "ar": "تيبو كورتوا"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Juanfran",
+          "ar": "خوانفران"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Miranda",
+          "ar": "ميراندا"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Diego Godín",
+          "ar": "دييغو غودين"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Filipe Luís",
+          "ar": "فيليبي لويس"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Raúl García",
+          "ar": "راؤول غارسيا"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Tiago",
+          "ar": "تياغو مينديز"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Gabi",
+          "ar": "غابي"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Koke",
+          "ar": "كوكي ريسوريكيون"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Diego Costa",
+          "ar": "دييغو كوستا"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "David Villa",
+          "ar": "دافيد فيا"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2014_UEFA_Champions_League_final"
+    },
+    {
+      "id": "ucl-2012",
+      "competition": "champions-league",
+      "year": 2012,
+      "home": {
+        "en": "Bayern Munich",
+        "ar": "بايرن ميونخ"
+      },
+      "away": {
+        "en": "Chelsea",
+        "ar": "تشيلسي"
+      },
+      "score": "1–1",
+      "winner": "away",
+      "decidedBy": "penalties",
+      "shootout": "3–4",
+      "difficulty": "medium",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Manuel Neuer",
+          "ar": "مانويل نوير"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Philipp Lahm",
+          "ar": "فيليب لام"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Jérôme Boateng",
+          "ar": "جيروم بواتينغ"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Anatoliy Tymoshchuk",
+          "ar": "أناتولي تيموشوك"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Diego Contento",
+          "ar": "دييغو كونتينتو"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Bastian Schweinsteiger",
+          "ar": "باستيان شفاينشتايغر"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Toni Kroos",
+          "ar": "توني كروس"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Arjen Robben",
+          "ar": "آريين روبن"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Thomas Müller",
+          "ar": "توماس مولر"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Franck Ribéry",
+          "ar": "فرانك ريبيري"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Mario Gómez",
+          "ar": "ماريو غوميز"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Petr Čech",
+          "ar": "بيتر تشيك"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "José Bosingwa",
+          "ar": "جوزيه بوسينغوا"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "David Luiz",
+          "ar": "دافيد لويز"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Gary Cahill",
+          "ar": "غاري كاهيل"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Ashley Cole",
+          "ar": "أشلي كول"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Mikel John Obi",
+          "ar": "جون أوبي ميكل"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Frank Lampard",
+          "ar": "فرانك لامبارد"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Salomon Kalou",
+          "ar": "سالومون كالو"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Juan Mata",
+          "ar": "خوان ماتا"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Ryan Bertrand",
+          "ar": "ريان برتراند"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Didier Drogba",
+          "ar": "ديدييه دروغبا"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2012_UEFA_Champions_League_final"
+    },
+    {
+      "id": "ucl-2011",
+      "competition": "champions-league",
+      "year": 2011,
+      "home": {
+        "en": "Barcelona",
+        "ar": "برشلونة"
+      },
+      "away": {
+        "en": "Manchester United",
+        "ar": "مانشستر يونايتد"
+      },
+      "score": "3–1",
+      "winner": "home",
+      "decidedBy": "regulation",
+      "difficulty": "easy",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Víctor Valdés",
+          "ar": "فكتور فالديز"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Dani Alves",
+          "ar": "داني ألفيس"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Javier Mascherano",
+          "ar": "خافيير ماسكيرانو"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Gerard Piqué",
+          "ar": "جيرارد بيكيه"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Eric Abidal",
+          "ar": "إريك أبيدال"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Sergio Busquets",
+          "ar": "سيرجيو بوسكيتس"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Xavi",
+          "ar": "تشافي هيرنانديز"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Andrés Iniesta",
+          "ar": "أندريس إنييستا"
+        },
+        {
+          "pos": "RF",
+          "group": "FW",
+          "en": "David Villa",
+          "ar": "دافيد فيا"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Lionel Messi",
+          "ar": "ليونيل ميسي"
+        },
+        {
+          "pos": "LF",
+          "group": "FW",
+          "en": "Pedro",
+          "ar": "بيدرو رودريغز"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Edwin van der Sar",
+          "ar": "أدوين فان در سار"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Fábio",
+          "ar": "فابيو"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Rio Ferdinand",
+          "ar": "ريو فرديناند"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Nemanja Vidić",
+          "ar": "نيمانيا فيديتش"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Patrice Evra",
+          "ar": "باتريس إيفرا"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Antonio Valencia",
+          "ar": "أنتونيو فالنسيا"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Michael Carrick",
+          "ar": "مايكل كاريك"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Ryan Giggs",
+          "ar": "ريان غيغز"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Park Ji-sung",
+          "ar": "بارك جي سونغ"
+        },
+        {
+          "pos": "SS",
+          "group": "FW",
+          "en": "Wayne Rooney",
+          "ar": "واين روني"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Javier Hernández",
+          "ar": "تشيشاريتو"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2011_UEFA_Champions_League_final"
+    },
+    {
+      "id": "ucl-2008",
+      "competition": "champions-league",
+      "year": 2008,
+      "home": {
+        "en": "Manchester United",
+        "ar": "مانشستر يونايتد"
+      },
+      "away": {
+        "en": "Chelsea",
+        "ar": "تشيلسي"
+      },
+      "score": "1–1",
+      "winner": "home",
+      "decidedBy": "penalties",
+      "shootout": "6–5",
+      "difficulty": "medium",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Edwin van der Sar",
+          "ar": "أدوين فان در سار"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Wes Brown",
+          "ar": "ويس براون"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Rio Ferdinand",
+          "ar": "ريو فرديناند"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Nemanja Vidić",
+          "ar": "نيمانيا فيديتش"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Patrice Evra",
+          "ar": "باتريس إيفرا"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Owen Hargreaves",
+          "ar": "أوين هارغريفز"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Paul Scholes",
+          "ar": "بول سكولز"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Michael Carrick",
+          "ar": "مايكل كاريك"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Cristiano Ronaldo",
+          "ar": "كريستيانو رونالدو"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Wayne Rooney",
+          "ar": "واين روني"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Carlos Tevez",
+          "ar": "كارلوس تيفيز"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Petr Čech",
+          "ar": "بيتر تشيك"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Michael Essien",
+          "ar": "مايكل إيسيان"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Ricardo Carvalho",
+          "ar": "ريكاردو كارفاليو"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "John Terry",
+          "ar": "جون تيري"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Ashley Cole",
+          "ar": "أشلي كول"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Claude Makélélé",
+          "ar": "كلود ماكيليلي"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Michael Ballack",
+          "ar": "مايكل بالاك"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Frank Lampard",
+          "ar": "فرانك لامبارد"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Joe Cole",
+          "ar": "جو كول"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Florent Malouda",
+          "ar": "فلوران مالودا"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Didier Drogba",
+          "ar": "ديدييه دروغبا"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2008_UEFA_Champions_League_final"
+    },
+    {
+      "id": "ucl-2005",
+      "competition": "champions-league",
+      "year": 2005,
+      "home": {
+        "en": "AC Milan",
+        "ar": "ميلان"
+      },
+      "away": {
+        "en": "Liverpool",
+        "ar": "ليفربول"
+      },
+      "score": "3–3",
+      "winner": "away",
+      "decidedBy": "penalties",
+      "shootout": "2–3",
+      "difficulty": "easy",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Dida",
+          "ar": "ديدا"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Cafu",
+          "ar": "كافو"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Jaap Stam",
+          "ar": "ياب ستام"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Alessandro Nesta",
+          "ar": "أليساندرو نيستا"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Paolo Maldini",
+          "ar": "باولو مالديني"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Andrea Pirlo",
+          "ar": "أندريا بيرلو"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Gennaro Gattuso",
+          "ar": "جنارو غاتوزو"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Clarence Seedorf",
+          "ar": "كلارنس سيدورف"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Kaká",
+          "ar": "كاكا"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Andriy Shevchenko",
+          "ar": "أندري شيفتشينكو"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Hernán Crespo",
+          "ar": "هرنان كرسبو"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Jerzy Dudek",
+          "ar": "ييرزي دوديك"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Steve Finnan",
+          "ar": "ستيف فينان"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Jamie Carragher",
+          "ar": "جيمي كاراغر"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Sami Hyypiä",
+          "ar": "سامي هيبيا"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Djimi Traoré",
+          "ar": "جيمي تراوري"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Xabi Alonso",
+          "ar": "تشابي ألونسو"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Luis García",
+          "ar": "لويس غارسيا"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Steven Gerrard",
+          "ar": "ستيفن جيرارد"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "John Arne Riise",
+          "ar": "يون آرنه ريسه"
+        },
+        {
+          "pos": "SS",
+          "group": "FW",
+          "en": "Harry Kewell",
+          "ar": "هاري كيول"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Milan Baroš",
+          "ar": "ميلان باروش"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2005_UEFA_Champions_League_final"
+    },
+    {
+      "id": "ucl-2003",
+      "competition": "champions-league",
+      "year": 2003,
+      "home": {
+        "en": "Juventus",
+        "ar": "يوفنتوس"
+      },
+      "away": {
+        "en": "AC Milan",
+        "ar": "ميلان"
+      },
+      "score": "0–0",
+      "winner": "away",
+      "decidedBy": "penalties",
+      "shootout": "2–3",
+      "difficulty": "hard",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Gianluigi Buffon",
+          "ar": "جانلويجي بوفون"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Lilian Thuram",
+          "ar": "ليليان تورام"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Ciro Ferrara",
+          "ar": "تشيرو فيرارا"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Igor Tudor",
+          "ar": "إيغور تودور"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Paolo Montero",
+          "ar": "باولو مونتيرو"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Mauro Camoranesi",
+          "ar": "ماورو كامورانيزي"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Alessio Tacchinardi",
+          "ar": "أليسيو تاكيناردي"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Edgar Davids",
+          "ar": "إدغار ديفيدز"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Gianluca Zambrotta",
+          "ar": "جانلوكا زامبروتا"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "David Trezeguet",
+          "ar": "دافيد تريزيغيه"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Alessandro Del Piero",
+          "ar": "أليساندرو دل بييرو"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Dida",
+          "ar": "ديدا"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Alessandro Costacurta",
+          "ar": "ألساندرو كوستاكورتا"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Alessandro Nesta",
+          "ar": "أليساندرو نيستا"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Paolo Maldini",
+          "ar": "باولو مالديني"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Kakha Kaladze",
+          "ar": "كاخا كالادزه"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Gennaro Gattuso",
+          "ar": "جنارو غاتوزو"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Andrea Pirlo",
+          "ar": "أندريا بيرلو"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Clarence Seedorf",
+          "ar": "كلارنس سيدورف"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Rui Costa",
+          "ar": "روي كوستا"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Andriy Shevchenko",
+          "ar": "أندري شيفتشينكو"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Filippo Inzaghi",
+          "ar": "فيليبو إنزاغي"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2003_UEFA_Champions_League_final"
+    },
+    {
+      "id": "ucl-2000",
+      "competition": "champions-league",
+      "year": 2000,
+      "home": {
+        "en": "Real Madrid",
+        "ar": "ريال مدريد"
+      },
+      "away": {
+        "en": "Valencia",
+        "ar": "فالنسيا"
+      },
+      "score": "3–0",
+      "winner": "home",
+      "decidedBy": "regulation",
+      "difficulty": "hard",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Iker Casillas",
+          "ar": "إيكر كاسياس"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Míchel Salgado",
+          "ar": "ميشيل سالغادو"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Aitor Karanka",
+          "ar": "إيتور كارانكا"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Iván Helguera",
+          "ar": "إيفان هيليغيرا"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Roberto Carlos",
+          "ar": "روبرتو كارلوس"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Steve McManaman",
+          "ar": "ستيف ماكمانامان"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Fernando Redondo",
+          "ar": "فيرناندو ريدوندو"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Iván Campo",
+          "ar": "إيفان كامبو"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Raúl",
+          "ar": "راؤول غونزاليس"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Fernando Morientes",
+          "ar": "فرناندو مورينتس"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Nicolas Anelka",
+          "ar": "نيكولا أنيلكا"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Santiago Cañizares",
+          "ar": "سانتياغو كانيزاريس"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Jocelyn Angloma",
+          "ar": "جوكيلين أنغلوما"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Miroslav Đukić",
+          "ar": "ميروسلاف دوكيتش"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Mauricio Pellegrino",
+          "ar": "ماوريسيو بيليغرينو"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Gerardo",
+          "ar": "جيراردو غارسيا"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Javier Farinós",
+          "ar": "خافيير فارينوس"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Gaizka Mendieta",
+          "ar": "غازيكا مندييتا"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Gerard López",
+          "ar": "جيرارد لوبيز"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Kily González",
+          "ar": "كيلي غونزاليس"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Miguel Ángel Angulo",
+          "ar": "ميغيل أنخل أنغولو"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Claudio López",
+          "ar": "كلاوديو لوبيز"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2000_UEFA_Champions_League_final"
+    },
+    {
+      "id": "ucl-1997",
+      "competition": "champions-league",
+      "year": 1997,
+      "home": {
+        "en": "Borussia Dortmund",
+        "ar": "بوروسيا دورتموند"
+      },
+      "away": {
+        "en": "Juventus",
+        "ar": "يوفنتوس"
+      },
+      "score": "3–1",
+      "winner": "home",
+      "decidedBy": "regulation",
+      "difficulty": "hard",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Stefan Klos",
+          "ar": "شتيفان كلوس"
+        },
+        {
+          "pos": "SW",
+          "group": "DF",
+          "en": "Matthias Sammer",
+          "ar": "ماتياس زامر"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Jürgen Kohler",
+          "ar": "يورغن كوهلر"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Martin Kree",
+          "ar": "مارتن كري"
+        },
+        {
+          "pos": "RWB",
+          "group": "DF",
+          "en": "Stefan Reuter",
+          "ar": "شتيفان رويتر"
+        },
+        {
+          "pos": "LWB",
+          "group": "DF",
+          "en": "Jörg Heinrich",
+          "ar": "يورغ هاينريخ"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Paul Lambert",
+          "ar": "بول لامبيرت"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Paulo Sousa",
+          "ar": "باولو سوزا"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Andreas Möller",
+          "ar": "أندرياس مولر"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Karl-Heinz Riedle",
+          "ar": "كارل-هاينتس ريدله"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Stéphane Chapuisat",
+          "ar": "ستيفان تشابوسات"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Angelo Peruzzi",
+          "ar": "أنجلو بيروتزي"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Sergio Porrini",
+          "ar": "سيرجيو بوريني"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Ciro Ferrara",
+          "ar": "تشيرو فيرارا"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Paolo Montero",
+          "ar": "باولو مونتيرو"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Mark Iuliano",
+          "ar": "مارك أوليانو"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Didier Deschamps",
+          "ar": "ديدييه ديشان"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Angelo Di Livio",
+          "ar": "أنجيلو دي ليفيو"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Vladimir Jugović",
+          "ar": "فلاديمير يوغوفيتش"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Zinedine Zidane",
+          "ar": "زين الدين زيدان"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Christian Vieri",
+          "ar": "كريستيان فييري"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Alen Bokšić",
+          "ar": "ألين بوكشيتش"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/1997_UEFA_Champions_League_final"
+    },
+    {
+      "id": "ucl-1995",
+      "competition": "champions-league",
+      "year": 1995,
+      "home": {
+        "en": "Ajax",
+        "ar": "أياكس"
+      },
+      "away": {
+        "en": "AC Milan",
+        "ar": "ميلان"
+      },
+      "score": "1–0",
+      "winner": "home",
+      "decidedBy": "regulation",
+      "difficulty": "hard",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Edwin van der Sar",
+          "ar": "أدوين فان در سار"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Michael Reiziger",
+          "ar": "مايكل رايزيغير"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Danny Blind",
+          "ar": "داني بليند"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Frank Rijkaard",
+          "ar": "فرانك رايكارد"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Frank de Boer",
+          "ar": "فرانك دي بور"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Clarence Seedorf",
+          "ar": "كلارنس سيدورف"
+        },
+        {
+          "pos": "RF",
+          "group": "FW",
+          "en": "Finidi George",
+          "ar": "فينيدي جورج"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Edgar Davids",
+          "ar": "إدغار ديفيدز"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Ronald de Boer",
+          "ar": "رونالد دي بور"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Jari Litmanen",
+          "ar": "ياري ليتمانن"
+        },
+        {
+          "pos": "LF",
+          "group": "FW",
+          "en": "Marc Overmars",
+          "ar": "مارك أوفرمارس"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Sebastiano Rossi",
+          "ar": "سيباستيانو روسي"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Christian Panucci",
+          "ar": "كريستيان بانوتشي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Alessandro Costacurta",
+          "ar": "ألساندرو كوستاكورتا"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Franco Baresi",
+          "ar": "فرانكو باريزي"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Paolo Maldini",
+          "ar": "باولو مالديني"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Demetrio Albertini",
+          "ar": "ديميتريو ألبرتيني"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Marcel Desailly",
+          "ar": "مارسيل ديسايي"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Roberto Donadoni",
+          "ar": "روبرتو دونادوني"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Zvonimir Boban",
+          "ar": "زفونيمير بوبان"
+        },
+        {
+          "pos": "SS",
+          "group": "FW",
+          "en": "Marco Simone",
+          "ar": "ماركو سيموني"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Daniele Massaro",
+          "ar": "دانييلي مسارو"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/1995_UEFA_Champions_League_final"
+    },
+    {
+      "id": "ucl-1993",
+      "competition": "champions-league",
+      "year": 1993,
+      "home": {
+        "en": "Marseille",
+        "ar": "مارسيليا"
+      },
+      "away": {
+        "en": "AC Milan",
+        "ar": "ميلان"
+      },
+      "score": "1–0",
+      "winner": "home",
+      "decidedBy": "regulation",
+      "difficulty": "hard",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Fabien Barthez",
+          "ar": "فابيان بارتيز"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Jocelyn Angloma",
+          "ar": "جوكيلين أنغلوما"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Éric Di Meco",
+          "ar": "إريك دي ميكو"
+        },
+        {
+          "pos": "SW",
+          "group": "DF",
+          "en": "Basile Boli",
+          "ar": "باسيل بولي"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Franck Sauzée",
+          "ar": "فرانك سوزي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Marcel Desailly",
+          "ar": "مارسيل ديسايي"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Jean-Jacques Eydelie",
+          "ar": "جان جاك إيديلي"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Alen Bokšić",
+          "ar": "ألين بوكشيتش"
+        },
+        {
+          "pos": "LF",
+          "group": "FW",
+          "en": "Rudi Völler",
+          "ar": "رودي فولر"
+        },
+        {
+          "pos": "RF",
+          "group": "FW",
+          "en": "Abedi Pele",
+          "ar": "عبيدي بيليه"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Didier Deschamps",
+          "ar": "ديدييه ديشان"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Sebastiano Rossi",
+          "ar": "سيباستيانو روسي"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Mauro Tassotti",
+          "ar": "ماورو تاسوتي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Alessandro Costacurta",
+          "ar": "ألساندرو كوستاكورتا"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Franco Baresi",
+          "ar": "فرانكو باريزي"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Paolo Maldini",
+          "ar": "باولو مالديني"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Gianluigi Lentini",
+          "ar": "جانلويجي لنتيني"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Demetrio Albertini",
+          "ar": "ديميتريو ألبرتيني"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Frank Rijkaard",
+          "ar": "فرانك رايكارد"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Roberto Donadoni",
+          "ar": "روبرتو دونادوني"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Marco van Basten",
+          "ar": "ماركو فان باستن"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Daniele Massaro",
+          "ar": "دانييلي مسارو"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/1993_UEFA_Champions_League_final"
+    },
+    {
+      "id": "euro-2024",
+      "competition": "euro",
+      "year": 2024,
+      "home": {
+        "en": "Spain",
+        "ar": "إسبانيا"
+      },
+      "away": {
+        "en": "England",
+        "ar": "إنجلترا"
+      },
+      "score": "2–1",
+      "winner": "home",
+      "decidedBy": "regulation",
+      "difficulty": "easy",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Unai Simón",
+          "ar": "أوناي سيمون"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Dani Carvajal",
+          "ar": "داني كارفاخال"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Robin Le Normand",
+          "ar": "روبين لو نورماند"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Aymeric Laporte",
+          "ar": "إيميرك لابورت"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Marc Cucurella",
+          "ar": "مارك كوكورييا"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Rodri",
+          "ar": "رودري"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Fabián Ruiz",
+          "ar": "فابيان رويز"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Lamine Yamal",
+          "ar": "لامين يامال"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Dani Olmo",
+          "ar": "داني أولمو"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Nico Williams",
+          "ar": "نيكو وليمز"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Álvaro Morata",
+          "ar": "ألفارو موراتا"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Jordan Pickford",
+          "ar": "جوردان بيكفورد"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Kyle Walker",
+          "ar": "كايل ووكر"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "John Stones",
+          "ar": "جون ستونز"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Marc Guéhi",
+          "ar": "مارك غيهي"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Bukayo Saka",
+          "ar": "بوكايو ساكا"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Kobbie Mainoo",
+          "ar": "كوبي ماينو"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Declan Rice",
+          "ar": "ديكلان رايس"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Luke Shaw",
+          "ar": "لوك شاو"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Phil Foden",
+          "ar": "فيل فودين"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Jude Bellingham",
+          "ar": "جود بيلينغهام"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Harry Kane",
+          "ar": "هاري كين"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/UEFA_Euro_2024_final"
+    },
+    {
+      "id": "euro-2020",
+      "competition": "euro",
+      "year": 2020,
+      "home": {
+        "en": "Italy",
+        "ar": "إيطاليا"
+      },
+      "away": {
+        "en": "England",
+        "ar": "إنجلترا"
+      },
+      "score": "1–1",
+      "winner": "home",
+      "decidedBy": "penalties",
+      "shootout": "3–2",
+      "difficulty": "easy",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Gianluigi Donnarumma",
+          "ar": "جانلويجي دوناروما"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Giovanni Di Lorenzo",
+          "ar": "جيوفاني دي لورينزو"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Leonardo Bonucci",
+          "ar": "ليوناردو بونوتشي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Giorgio Chiellini",
+          "ar": "جورجيو كيلليني"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Emerson Palmieri",
+          "ar": "إيمرسون بالميري"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Jorginho",
+          "ar": "جورجينهو"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Nicolò Barella",
+          "ar": "نيكولو باريلا"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Marco Verratti",
+          "ar": "ماركو فيراتي"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Federico Chiesa",
+          "ar": "فيديريكو كييزا"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Lorenzo Insigne",
+          "ar": "لورينزو إينسيني"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Ciro Immobile",
+          "ar": "تشيرو إيموبيلي"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Jordan Pickford",
+          "ar": "جوردان بيكفورد"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Kyle Walker",
+          "ar": "كايل ووكر"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "John Stones",
+          "ar": "جون ستونز"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Harry Maguire",
+          "ar": "هاري ماغواير"
+        },
+        {
+          "pos": "RWB",
+          "group": "DF",
+          "en": "Kieran Trippier",
+          "ar": "كيران تريبير"
+        },
+        {
+          "pos": "LWB",
+          "group": "DF",
+          "en": "Luke Shaw",
+          "ar": "لوك شاو"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Kalvin Phillips",
+          "ar": "كالفين فيليبس"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Declan Rice",
+          "ar": "ديكلان رايس"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Raheem Sterling",
+          "ar": "رحيم ستيرلينغ"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Mason Mount",
+          "ar": "ميسون ماونت"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Harry Kane",
+          "ar": "هاري كين"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/UEFA_Euro_2020_final"
+    },
+    {
+      "id": "euro-2016",
+      "competition": "euro",
+      "year": 2016,
+      "home": {
+        "en": "Portugal",
+        "ar": "البرتغال"
+      },
+      "away": {
+        "en": "France",
+        "ar": "فرنسا"
+      },
+      "score": "1–0",
+      "winner": "home",
+      "decidedBy": "extra-time",
+      "difficulty": "medium",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Rui Patrício",
+          "ar": "روي باتريسيو"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Cédric",
+          "ar": "سيدريك سواريس"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Pepe",
+          "ar": "بيبي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "José Fonte",
+          "ar": "جوزيه فونتي"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Raphaël Guerreiro",
+          "ar": "رافاييل غيريرو"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "William Carvalho",
+          "ar": "ويليام كارفاليو"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Renato Sanches",
+          "ar": "ريناتو سانشيز"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Adrien Silva",
+          "ar": "أدريين سيلفا"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "João Mário",
+          "ar": "جواو ماريو"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Nani",
+          "ar": "ناني"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Cristiano Ronaldo",
+          "ar": "كريستيانو رونالدو"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Hugo Lloris",
+          "ar": "هيغو لوريس"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Bacary Sagna",
+          "ar": "باكاري سانيا"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Laurent Koscielny",
+          "ar": "لوران كوشيلني"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Samuel Umtiti",
+          "ar": "صامويل أومتيتي"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Patrice Evra",
+          "ar": "باتريس إيفرا"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Moussa Sissoko",
+          "ar": "موسى سيسوكو"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Paul Pogba",
+          "ar": "بول بوغبا"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Blaise Matuidi",
+          "ar": "بليز ماتويدي"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Dimitri Payet",
+          "ar": "ديميتري باييت"
+        },
+        {
+          "pos": "SS",
+          "group": "FW",
+          "en": "Antoine Griezmann",
+          "ar": "أنطوان غريزمان"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Olivier Giroud",
+          "ar": "أوليفييه جيرو"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/UEFA_Euro_2016_final"
+    },
+    {
+      "id": "euro-2012",
+      "competition": "euro",
+      "year": 2012,
+      "home": {
+        "en": "Spain",
+        "ar": "إسبانيا"
+      },
+      "away": {
+        "en": "Italy",
+        "ar": "إيطاليا"
+      },
+      "score": "4–0",
+      "winner": "home",
+      "decidedBy": "regulation",
+      "difficulty": "medium",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Iker Casillas",
+          "ar": "إيكر كاسياس"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Álvaro Arbeloa",
+          "ar": "ألفارو أربيلوا"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Gerard Piqué",
+          "ar": "جيرارد بيكيه"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Sergio Ramos",
+          "ar": "سيرخيو راموس"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Jordi Alba",
+          "ar": "جوردي ألبا"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Sergio Busquets",
+          "ar": "سيرجيو بوسكيتس"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Xavi",
+          "ar": "تشافي هيرنانديز"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Xabi Alonso",
+          "ar": "تشابي ألونسو"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Cesc Fàbregas",
+          "ar": "سيسك فابريغاس"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "David Silva",
+          "ar": "دافيد سيلفا"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Andrés Iniesta",
+          "ar": "أندريس إنييستا"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Gianluigi Buffon",
+          "ar": "جانلويجي بوفون"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Ignazio Abate",
+          "ar": "إغنازيو أباتي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Andrea Barzagli",
+          "ar": "أندريا بارزالي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Leonardo Bonucci",
+          "ar": "ليوناردو بونوتشي"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Giorgio Chiellini",
+          "ar": "جورجيو كيلليني"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Andrea Pirlo",
+          "ar": "أندريا بيرلو"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Claudio Marchisio",
+          "ar": "كلاوديو ماركيزيو"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Riccardo Montolivo",
+          "ar": "ريكاردو مونتوليفو"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Daniele De Rossi",
+          "ar": "دانييلي دي روسي"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Mario Balotelli",
+          "ar": "ماريو بالوتيلي"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Antonio Cassano",
+          "ar": "أنطونيو كاسانو"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/UEFA_Euro_2012_final"
+    },
+    {
+      "id": "euro-2004",
+      "competition": "euro",
+      "year": 2004,
+      "home": {
+        "en": "Portugal",
+        "ar": "البرتغال"
+      },
+      "away": {
+        "en": "Greece",
+        "ar": "اليونان"
+      },
+      "score": "0–1",
+      "winner": "away",
+      "decidedBy": "regulation",
+      "difficulty": "hard",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Ricardo",
+          "ar": "ريكاردو باريرا"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Miguel",
+          "ar": "ميغيل مونتيرو"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Jorge Andrade",
+          "ar": "جورجي أندرادي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Ricardo Carvalho",
+          "ar": "ريكاردو كارفاليو"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Nuno Valente",
+          "ar": "نونو فالينتي"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Maniche",
+          "ar": "مانيش"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Costinha",
+          "ar": "كوستينيا"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Cristiano Ronaldo",
+          "ar": "كريستيانو رونالدو"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Deco",
+          "ar": "ديكو"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Luís Figo",
+          "ar": "لويس فيغو"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Pauleta",
+          "ar": "باوليتا"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Antonios Nikopolidis",
+          "ar": "أنتونيوس نيكوبوليديس"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Giourkas Seitaridis",
+          "ar": "يوركاس سيتاريديس"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Michalis Kapsis",
+          "ar": "ميكاليس كابسيس"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Traianos Dellas",
+          "ar": "ترايانوس ديلاس"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Takis Fyssas",
+          "ar": "تاكيس فيساس"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Kostas Katsouranis",
+          "ar": "كوستاس كاتسورانيس"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Theodoros Zagorakis",
+          "ar": "ثيودوروس زاغوراكيس"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Angelos Basinas",
+          "ar": "أنجيلوس باسيناس"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Angelos Charisteas",
+          "ar": "أنجيلوس خاريستياس"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Stelios Giannakopoulos",
+          "ar": "ستيليوس جياناكابولوس"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Zisis Vryzas",
+          "ar": "زيسيس فريزاس"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/UEFA_Euro_2004_final"
+    },
+    {
+      "id": "euro-2000",
+      "competition": "euro",
+      "year": 2000,
+      "home": {
+        "en": "France",
+        "ar": "فرنسا"
+      },
+      "away": {
+        "en": "Italy",
+        "ar": "إيطاليا"
+      },
+      "score": "2–1",
+      "winner": "home",
+      "decidedBy": "golden-goal",
+      "difficulty": "hard",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Fabien Barthez",
+          "ar": "فابيان بارتيز"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Lilian Thuram",
+          "ar": "ليليان تورام"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Marcel Desailly",
+          "ar": "مارسيل ديسايي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Laurent Blanc",
+          "ar": "لوران بلان"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Bixente Lizarazu",
+          "ar": "بيسنتي ليزارازو"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Patrick Vieira",
+          "ar": "باتريك فييرا"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Didier Deschamps",
+          "ar": "ديدييه ديشان"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Youri Djorkaeff",
+          "ar": "يوري دجوركاييف"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Zinedine Zidane",
+          "ar": "زين الدين زيدان"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Thierry Henry",
+          "ar": "تييري هنري"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Christophe Dugarry",
+          "ar": "كريستوف دوغاري"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Francesco Toldo",
+          "ar": "فرانشيسكو تولدو"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Fabio Cannavaro",
+          "ar": "فابيو كانافارو"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Alessandro Nesta",
+          "ar": "أليساندرو نيستا"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Mark Iuliano",
+          "ar": "مارك أوليانو"
+        },
+        {
+          "pos": "RWB",
+          "group": "DF",
+          "en": "Gianluca Pessotto",
+          "ar": "جانلوكا بيسوتو"
+        },
+        {
+          "pos": "LWB",
+          "group": "DF",
+          "en": "Paolo Maldini",
+          "ar": "باولو مالديني"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Demetrio Albertini",
+          "ar": "ديميتريو ألبرتيني"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Luigi Di Biagio",
+          "ar": "لويجي دي بياجو"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Stefano Fiore",
+          "ar": "ستيفانو فيوري"
+        },
+        {
+          "pos": "SS",
+          "group": "FW",
+          "en": "Francesco Totti",
+          "ar": "فرانشيسكو توتي"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Marco Delvecchio",
+          "ar": "ماركو دلفيكيو"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/UEFA_Euro_2000_final"
+    },
+    {
+      "id": "euro-1996",
+      "competition": "euro",
+      "year": 1996,
+      "home": {
+        "en": "Czech Republic",
+        "ar": "التشيك"
+      },
+      "away": {
+        "en": "Germany",
+        "ar": "ألمانيا"
+      },
+      "score": "1–2",
+      "winner": "away",
+      "decidedBy": "golden-goal",
+      "difficulty": "hard",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Petr Kouba",
+          "ar": "بيتر كوبا"
+        },
+        {
+          "pos": "SW",
+          "group": "DF",
+          "en": "Miroslav Kadlec",
+          "ar": "ميروسلاف كادليتس"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Michal Horňák",
+          "ar": "ميشال هورنياك"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Jan Suchopárek",
+          "ar": "يان سشوبارك"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Pavel Nedvěd",
+          "ar": "بافل نيدفيد"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Radek Bejbl",
+          "ar": "راديك بيبل"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Karel Rada",
+          "ar": "كاريل رادا"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Karel Poborský",
+          "ar": "كارل بوبورسكي"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Patrik Berger",
+          "ar": "باتريك بيرغر"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Jiří Němec",
+          "ar": "ييري نيميتش"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Pavel Kuka",
+          "ar": "بافل كوكا"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Andreas Köpke",
+          "ar": "أندرياس كوبكه"
+        },
+        {
+          "pos": "SW",
+          "group": "DF",
+          "en": "Matthias Sammer",
+          "ar": "ماتياس زامر"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Markus Babbel",
+          "ar": "ماركوس بابل"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Thomas Helmer",
+          "ar": "توماس هيلمر"
+        },
+        {
+          "pos": "RWB",
+          "group": "DF",
+          "en": "Thomas Strunz",
+          "ar": "توماس شترونتس"
+        },
+        {
+          "pos": "LWB",
+          "group": "DF",
+          "en": "Christian Ziege",
+          "ar": "كريستيان تسيغه"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Dieter Eilts",
+          "ar": "ديتر آيلتس"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Mehmet Scholl",
+          "ar": "محمد شول"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Thomas Häßler",
+          "ar": "توماس هسلر"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Jürgen Klinsmann",
+          "ar": "يورغن كلينسمان"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Stefan Kuntz",
+          "ar": "شتيفان كونتس"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/UEFA_Euro_1996_final"
+    },
+    {
+      "id": "copa-2024",
+      "competition": "copa-america",
+      "year": 2024,
+      "home": {
+        "en": "Argentina",
+        "ar": "الأرجنتين"
+      },
+      "away": {
+        "en": "Colombia",
+        "ar": "كولومبيا"
+      },
+      "score": "1–0",
+      "winner": "home",
+      "decidedBy": "extra-time",
+      "difficulty": "medium",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Emiliano Martínez",
+          "ar": "إيميليانو مارتينيز"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Gonzalo Montiel",
+          "ar": "غونزالو مونتييل"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Cristian Romero",
+          "ar": "كريستيان روميرو"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Lisandro Martínez",
+          "ar": "ليساندرو مارتينيز"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Nicolás Tagliafico",
+          "ar": "نيكولاس تاغليافيكو"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Ángel Di María",
+          "ar": "أنخيل دي ماريا"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Rodrigo De Paul",
+          "ar": "رودريغو دي بول"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Enzo Fernández",
+          "ar": "اينزو فرنانديز"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Alexis Mac Allister",
+          "ar": "ألكسيس ماك أليستير"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Lionel Messi",
+          "ar": "ليونيل ميسي"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Julián Alvarez",
+          "ar": "جولييان ألفاريز"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Camilo Vargas",
+          "ar": "كاميلو فارغاس"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Santiago Arias",
+          "ar": "سانتياغو أرياس"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Davinson Sánchez",
+          "ar": "دافينسون سانشيز"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Carlos Cuesta",
+          "ar": "كارلوس كويستا"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Johan Mojica",
+          "ar": "يوهان موخيكا"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Richard Ríos",
+          "ar": "ريتشارد ريوس"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Jefferson Lerma",
+          "ar": "جيفرسون ليرما"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Jhon Arias",
+          "ar": "جون آرياس"
+        },
+        {
+          "pos": "RF",
+          "group": "FW",
+          "en": "James Rodríguez",
+          "ar": "خاميس رودريغيز"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Jhon Córdoba",
+          "ar": "جون كوردوبا"
+        },
+        {
+          "pos": "LF",
+          "group": "FW",
+          "en": "Luis Díaz",
+          "ar": "لويس دياز"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2024_Copa_América_final"
+    },
+    {
+      "id": "copa-2021",
+      "competition": "copa-america",
+      "year": 2021,
+      "home": {
+        "en": "Argentina",
+        "ar": "الأرجنتين"
+      },
+      "away": {
+        "en": "Brazil",
+        "ar": "البرازيل"
+      },
+      "score": "1–0",
+      "winner": "home",
+      "decidedBy": "regulation",
+      "difficulty": "easy",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Emiliano Martínez",
+          "ar": "إيميليانو مارتينيز"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Gonzalo Montiel",
+          "ar": "غونزالو مونتييل"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Cristian Romero",
+          "ar": "كريستيان روميرو"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Nicolás Otamendi",
+          "ar": "نيكولاس أوتامندي"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Marcos Acuña",
+          "ar": "ماركوس أكونيا"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Rodrigo De Paul",
+          "ar": "رودريغو دي بول"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Leandro Paredes",
+          "ar": "لياندرو باريديس"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Giovani Lo Celso",
+          "ar": "جيوفاني لو سيلسو"
+        },
+        {
+          "pos": "RF",
+          "group": "FW",
+          "en": "Lionel Messi",
+          "ar": "ليونيل ميسي"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Lautaro Martínez",
+          "ar": "لاوتارو مارتينيز"
+        },
+        {
+          "pos": "LF",
+          "group": "FW",
+          "en": "Ángel Di María",
+          "ar": "أنخيل دي ماريا"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Ederson",
+          "ar": "إيدرسون مورايس"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Danilo",
+          "ar": "دانيلو"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Marquinhos",
+          "ar": "ماركينيوس"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Thiago Silva",
+          "ar": "تياغو سيلفا"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Renan Lodi",
+          "ar": "رينان لودي"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Casemiro",
+          "ar": "كاسيميرو"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Fred",
+          "ar": "فريد"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Richarlison",
+          "ar": "ريتشارليسون"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Lucas Paquetá",
+          "ar": "لوكاس باكيتا"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Everton",
+          "ar": "إيفرتون سواريس"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Neymar",
+          "ar": "نيمار"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2021_Copa_América_final"
+    },
+    {
+      "id": "copa-2019",
+      "competition": "copa-america",
+      "year": 2019,
+      "home": {
+        "en": "Brazil",
+        "ar": "البرازيل"
+      },
+      "away": {
+        "en": "Peru",
+        "ar": "بيرو"
+      },
+      "score": "3–1",
+      "winner": "home",
+      "decidedBy": "regulation",
+      "difficulty": "medium",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Alisson",
+          "ar": "أليسون بيكر"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Dani Alves",
+          "ar": "داني ألفيس"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Marquinhos",
+          "ar": "ماركينيوس"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Thiago Silva",
+          "ar": "تياغو سيلفا"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Alex Sandro",
+          "ar": "ألكس ساندرو"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Arthur",
+          "ar": "آرثر ميلو"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Casemiro",
+          "ar": "كاسيميرو"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Gabriel Jesus",
+          "ar": "غابرييل جيسوس"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Philippe Coutinho",
+          "ar": "فيليبي كوتينيو"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Everton",
+          "ar": "إيفرتون سواريس"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Roberto Firmino",
+          "ar": "روبرتو فيرمينو"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Pedro Gallese",
+          "ar": "بيدرو غاييسي"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Luis Advíncula",
+          "ar": "لويس أدفينكولا"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Carlos Zambrano",
+          "ar": "كارلوس زامبرانو"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Luis Abram",
+          "ar": "لويس أبراهام"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Miguel Trauco",
+          "ar": "ميغيل تراوكو"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Renato Tapia",
+          "ar": "ريناتو تابيا"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Yoshimar Yotún",
+          "ar": "يوشيمار يوتون"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Edison Flores",
+          "ar": "إديسون فلوريس"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Christian Cueva",
+          "ar": "كريستيان كويفا"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "André Carrillo",
+          "ar": "أندريه كاريو"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Paolo Guerrero",
+          "ar": "باولو غيريرو"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2019_Copa_América_final"
+    },
+    {
+      "id": "copa-2011",
+      "competition": "copa-america",
+      "year": 2011,
+      "home": {
+        "en": "Uruguay",
+        "ar": "أوروغواي"
+      },
+      "away": {
+        "en": "Paraguay",
+        "ar": "باراغواي"
+      },
+      "score": "3–0",
+      "winner": "home",
+      "decidedBy": "regulation",
+      "difficulty": "hard",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Fernando Muslera",
+          "ar": "فيرناندو موسليرا"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Maxi Pereira",
+          "ar": "ماكسي بيريرا"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Diego Lugano",
+          "ar": "دييغو لوغانو"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Sebastián Coates",
+          "ar": "سباستيان كواتيس"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Martín Cáceres",
+          "ar": "مارتن كاسيريس"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Álvaro González",
+          "ar": "ألفارو غونزاليز"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Diego Pérez",
+          "ar": "دييغو بيريز"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Egidio Arévalo Ríos",
+          "ar": "إيغيديو أريفالو ريوس"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Álvaro Pereira",
+          "ar": "ألفارو بيريرا"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Diego Forlán",
+          "ar": "دييغو فورلان"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Luis Suárez",
+          "ar": "لويس سواريز"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Justo Villar",
+          "ar": "خوستو فيلار"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Iván Piris",
+          "ar": "إيفان بيريس"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Paulo da Silva",
+          "ar": "باولو دا سيلفا"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Darío Verón",
+          "ar": "داريو فيرون"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Elvis Marecos",
+          "ar": "الفيس ماريكوس"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Enrique Vera",
+          "ar": "إنريكي فيرا"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Néstor Ortigoza",
+          "ar": "نيستور أورتيغوزا"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Víctor Cáceres",
+          "ar": "فكتور كاسيرس"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Cristian Riveros",
+          "ar": "كريستيان ريفيروس"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Nelson Valdez",
+          "ar": "نيلسون فالديز"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Pablo Zeballos",
+          "ar": "بابلو زيبالوس"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2011_Copa_América_final"
+    },
+    {
+      "id": "copa-2007",
+      "competition": "copa-america",
+      "year": 2007,
+      "home": {
+        "en": "Brazil",
+        "ar": "البرازيل"
+      },
+      "away": {
+        "en": "Argentina",
+        "ar": "الأرجنتين"
+      },
+      "score": "3–0",
+      "winner": "home",
+      "decidedBy": "regulation",
+      "difficulty": "hard",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Doni",
+          "ar": "دوني"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Maicon",
+          "ar": "مايكون"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Alex",
+          "ar": "أليكس"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Juan",
+          "ar": "جوان"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Gilberto",
+          "ar": "غيلبرتو"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Mineiro",
+          "ar": "مينيرو"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Josué",
+          "ar": "جوسوي"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Elano",
+          "ar": "إيلانو"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Júlio Baptista",
+          "ar": "جوليو بابتيستا"
+        },
+        {
+          "pos": "SS",
+          "group": "FW",
+          "en": "Robinho",
+          "ar": "روبينيو"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Vágner Love",
+          "ar": "فاغنر لوف"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Roberto Abbondanzieri",
+          "ar": "روبرتو أبوندازيري"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Javier Zanetti",
+          "ar": "خافيير زانيتي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Roberto Ayala",
+          "ar": "روبرتو أيالا"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Gabriel Milito",
+          "ar": "غابرييل ميليتو"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Gabriel Heinze",
+          "ar": "غابرييل هاينزه"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Esteban Cambiasso",
+          "ar": "إستبان كمبياسو"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Javier Mascherano",
+          "ar": "خافيير ماسكيرانو"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Juan Sebastián Verón",
+          "ar": "خوان سيباستيان فيرون"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Lionel Messi",
+          "ar": "ليونيل ميسي"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Juan Román Riquelme",
+          "ar": "خوان رومان ريكيلمي"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Carlos Tevez",
+          "ar": "كارلوس تيفيز"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2007_Copa_América_final"
+    },
+    {
+      "id": "afcon-2023",
+      "competition": "afcon",
+      "year": 2023,
+      "home": {
+        "en": "Nigeria",
+        "ar": "نيجيريا"
+      },
+      "away": {
+        "en": "Ivory Coast",
+        "ar": "ساحل العاج"
+      },
+      "score": "1–2",
+      "winner": "away",
+      "decidedBy": "regulation",
+      "difficulty": "medium",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Stanley Nwabili",
+          "ar": "ستانلي نوابيلي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Semi Ajayi",
+          "ar": "سيمي اجاي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "William Troost-Ekong",
+          "ar": "ويليام تروست-إيكونغ"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Calvin Bassey",
+          "ar": "كالفن باسي"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Ola Aina",
+          "ar": "أولا أينا"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Frank Onyeka",
+          "ar": "فرانك أونيكا"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Alex Iwobi",
+          "ar": "ألكس إيووبي"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Zaidu Sanusi",
+          "ar": "زيدو سنوسي"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Samuel Chukwueze",
+          "ar": "صامويل تشوكويزي"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Victor Osimhen",
+          "ar": "فكتور أوسيمين"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Ademola Lookman",
+          "ar": "أديمولا لوكمان"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Yahia Fofana",
+          "ar": "يحيى فوفانا"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Serge Aurier",
+          "ar": "سيرج أورييه"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Odilon Kossounou",
+          "ar": "أوديلون كوسونو"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Evan Ndicka",
+          "ar": "إيفان نديكا"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Ghislain Konan",
+          "ar": "جيسلان كونان"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Franck Kessié",
+          "ar": "فرانك كيسي"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Jean Michaël Seri",
+          "ar": "جون ميشيل سيري"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Seko Fofana",
+          "ar": "سيكو فوفانا"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Max Gradel",
+          "ar": "ماكس غراديل"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Sébastien Haller",
+          "ar": "سيباستيان هالير"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Simon Adingra",
+          "ar": "سيمون ادينجرا"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2023_Africa_Cup_of_Nations_final"
+    },
+    {
+      "id": "afcon-2021",
+      "competition": "afcon",
+      "year": 2021,
+      "home": {
+        "en": "Senegal",
+        "ar": "السنغال"
+      },
+      "away": {
+        "en": "Egypt",
+        "ar": "مصر"
+      },
+      "score": "0–0",
+      "winner": "home",
+      "decidedBy": "penalties",
+      "shootout": "4–2",
+      "difficulty": "medium",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Édouard Mendy",
+          "ar": "إدوارد ميندي"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Bouna Sarr",
+          "ar": "بونا سار"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Kalidou Koulibaly",
+          "ar": "خاليدو كوليبالي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Abdou Diallo",
+          "ar": "عبدو ديالو"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Saliou Ciss",
+          "ar": "ساليو سيس"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Cheikhou Kouyaté",
+          "ar": "شيخو كوياتيه"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Nampalys Mendy",
+          "ar": "نامباليس ميندي"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Idrissa Gueye",
+          "ar": "إدريسا غي"
+        },
+        {
+          "pos": "RF",
+          "group": "FW",
+          "en": "Ismaïla Sarr",
+          "ar": "إسماعيلا سار"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Famara Diédhiou",
+          "ar": "فامارا ديدهيو"
+        },
+        {
+          "pos": "LF",
+          "group": "FW",
+          "en": "Sadio Mané",
+          "ar": "ساديو ماني"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Mohamed Abou Gabal",
+          "ar": "محمد أبو جبل"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Emam Ashour",
+          "ar": "إمام عاشور"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Mohamed Abdelmonem",
+          "ar": "محمد عبد المنعم"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Mahmoud Hamdy",
+          "ar": "محمود حمدي الونش"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Ahmed Fatouh",
+          "ar": "أحمد أبو الفتوح"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Hamdy Fathy",
+          "ar": "حمدي فتحي"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Mohamed Elneny",
+          "ar": "محمد النني"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Amr El Solia",
+          "ar": "عمرو السولية"
+        },
+        {
+          "pos": "RF",
+          "group": "FW",
+          "en": "Mohamed Salah",
+          "ar": "محمد صلاح"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Mostafa Mohamed",
+          "ar": "مصطفى محمد"
+        },
+        {
+          "pos": "LF",
+          "group": "FW",
+          "en": "Omar Marmoush",
+          "ar": "عمر مرموش"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2021_Africa_Cup_of_Nations_final"
+    },
+    {
+      "id": "afcon-2019",
+      "competition": "afcon",
+      "year": 2019,
+      "home": {
+        "en": "Senegal",
+        "ar": "السنغال"
+      },
+      "away": {
+        "en": "Algeria",
+        "ar": "الجزائر"
+      },
+      "score": "0–1",
+      "winner": "away",
+      "decidedBy": "regulation",
+      "difficulty": "medium",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Alfred Gomis",
+          "ar": "ألفريد غوميس"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Lamine Gassama",
+          "ar": "لامين غاساما"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Salif Sané",
+          "ar": "ساليف ساني"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Cheikhou Kouyaté",
+          "ar": "شيخو كوياتيه"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Youssouf Sabaly",
+          "ar": "يوسف سابالي"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Idrissa Gueye",
+          "ar": "إدريسا غي"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Badou Ndiaye",
+          "ar": "بادو نديياي"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Ismaïla Sarr",
+          "ar": "إسماعيلا سار"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Henri Saivet",
+          "ar": "هنري سايفيت"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Sadio Mané",
+          "ar": "ساديو ماني"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "M'Baye Niang",
+          "ar": "مباي نيانغ"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Raïs M'Bolhi",
+          "ar": "رايس مبولحي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Aïssa Mandi",
+          "ar": "عيسى ماندي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Djamel Benlamri",
+          "ar": "جمال بن العمري"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Ramy Bensebaini",
+          "ar": "رامي بن سبعيني"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Mehdi Zeffane",
+          "ar": "مهدي زفان"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Adlène Guedioura",
+          "ar": "عدلان قديورة"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Ismaël Bennacer",
+          "ar": "إسماعيل بن ناصر"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Youcef Belaïli",
+          "ar": "يوسف بلايلي"
+        },
+        {
+          "pos": "RF",
+          "group": "FW",
+          "en": "Riyad Mahrez",
+          "ar": "رياض محرز"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Baghdad Bounedjah",
+          "ar": "بغداد بونجاح"
+        },
+        {
+          "pos": "LF",
+          "group": "FW",
+          "en": "Sofiane Feghouli",
+          "ar": "سفيان فيغولي"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2019_Africa_Cup_of_Nations_final"
+    },
+    {
+      "id": "afcon-2010",
+      "competition": "afcon",
+      "year": 2010,
+      "home": {
+        "en": "Ghana",
+        "ar": "غانا"
+      },
+      "away": {
+        "en": "Egypt",
+        "ar": "مصر"
+      },
+      "score": "0–1",
+      "winner": "away",
+      "decidedBy": "regulation",
+      "difficulty": "hard",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Richard Kingson",
+          "ar": "ريتشارد كينغسون"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Samuel Inkoom",
+          "ar": "صامويل إنكوم"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Isaac Vorsah",
+          "ar": "إسحاق فورساه"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Lee Addy",
+          "ar": "لي أدي"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Hans Sarpei",
+          "ar": "هانس ساربي"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Anthony Annan",
+          "ar": "أنتوني أنان"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Emmanuel Badu",
+          "ar": "إيمانويل بادو"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Kwadwo Asamoah",
+          "ar": "كوادو أسامواه"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Agyemang Opoku",
+          "ar": "أغيمانغ أوبوكو"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "André Ayew",
+          "ar": "أندريه آيو"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Asamoah Gyan",
+          "ar": "أسامواه جيان"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Essam El-Hadary",
+          "ar": "عصام الحضري"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Ahmed Fathy",
+          "ar": "أحمد فتحي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Wael Gomaa",
+          "ar": "وائل جمعة"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Hany Said",
+          "ar": "هاني سعيد"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Sayed Moawad",
+          "ar": "سيد معوض"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Ahmed Elmohamady",
+          "ar": "أحمد المحمدي"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Hossam Ghaly",
+          "ar": "حسام غالي"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Hosny Abd Rabo",
+          "ar": "حسني عبد ربه"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Ahmed Hassan",
+          "ar": "أحمد حسن"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Mohamed Zidan",
+          "ar": "محمد زيدان"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Emad Moteab",
+          "ar": "عماد متعب"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2010_Africa_Cup_of_Nations_final"
+    },
+    {
+      "id": "afcon-2008",
+      "competition": "afcon",
+      "year": 2008,
+      "home": {
+        "en": "Cameroon",
+        "ar": "الكاميرون"
+      },
+      "away": {
+        "en": "Egypt",
+        "ar": "مصر"
+      },
+      "score": "0–1",
+      "winner": "away",
+      "decidedBy": "regulation",
+      "difficulty": "hard",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Carlos Kameni",
+          "ar": "كارلوس كاميني"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Joël Epalle",
+          "ar": "جول إيبالي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Rigobert Song",
+          "ar": "ريغوبرت سونغ"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Bill Tchato",
+          "ar": "بيل تشاتو"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Geremi",
+          "ar": "جيريمي نجيتاب"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Stéphane Mbia",
+          "ar": "ستيفان مبيا"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Alex Song",
+          "ar": "ألكس سونغ"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Timothée Atouba",
+          "ar": "تيموتي أتوبا"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Achille Emaná",
+          "ar": "أشيل إيمانا"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Alain N'Kong",
+          "ar": "ألان نكونغ"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Samuel Eto'o",
+          "ar": "صامويل إيتو"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Essam El-Hadary",
+          "ar": "عصام الحضري"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Wael Gomaa",
+          "ar": "وائل جمعة"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Hany Said",
+          "ar": "هاني سعيد"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Shady Mohamed",
+          "ar": "شادي محمد"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Ahmed Fathy",
+          "ar": "أحمد فتحي"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Ahmed Hassan",
+          "ar": "أحمد حسن"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Hosny Abd Rabo",
+          "ar": "حسني عبد ربه"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Sayed Moawad",
+          "ar": "سيد معوض"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Mohamed Aboutrika",
+          "ar": "محمد أبو تريكة"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Emad Moteab",
+          "ar": "عماد متعب"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Amr Zaki",
+          "ar": "عمرو زكي"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2008_Africa_Cup_of_Nations_final"
+    },
+    {
+      "id": "supercopa-2012",
+      "competition": "supercopa",
+      "year": 2012,
+      "home": {
+        "en": "Real Madrid",
+        "ar": "ريال مدريد"
+      },
+      "away": {
+        "en": "Barcelona",
+        "ar": "برشلونة"
+      },
+      "score": "2–1",
+      "winner": "home",
+      "decidedBy": "regulation",
+      "label": {
+        "ar": "الذهاب والإياب — مباراة العودة",
+        "en": "Second leg"
+      },
+      "difficulty": "hard",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Iker Casillas",
+          "ar": "إيكر كاسياس"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Álvaro Arbeloa",
+          "ar": "ألفارو أربيلوا"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Pepe",
+          "ar": "بيبي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Sergio Ramos",
+          "ar": "سيرخيو راموس"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Marcelo",
+          "ar": "مارسيلو"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Xabi Alonso",
+          "ar": "تشابي ألونسو"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Sami Khedira",
+          "ar": "سامي خضيرة"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Ángel Di María",
+          "ar": "أنخيل دي ماريا"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Cristiano Ronaldo",
+          "ar": "كريستيانو رونالدو"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Mesut Özil",
+          "ar": "مسعود أوزيل"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Gonzalo Higuaín",
+          "ar": "غونزالو هيغواين"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Víctor Valdés",
+          "ar": "فكتور فالديز"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Adriano",
+          "ar": "أدريانو كوريا"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Javier Mascherano",
+          "ar": "خافيير ماسكيرانو"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Gerard Piqué",
+          "ar": "جيرارد بيكيه"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Jordi Alba",
+          "ar": "جوردي ألبا"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Sergio Busquets",
+          "ar": "سيرجيو بوسكيتس"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Xavi",
+          "ar": "تشافي هيرنانديز"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Andrés Iniesta",
+          "ar": "أندريس إنييستا"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Alexis Sánchez",
+          "ar": "أليكسيس سانشيز"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Pedro",
+          "ar": "بيدرو رودريغز"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Lionel Messi",
+          "ar": "ليونيل ميسي"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2012_Supercopa_de_España"
+    },
+    {
+      "id": "uel-2024",
+      "competition": "europa-league",
+      "year": 2024,
+      "home": {
+        "en": "Atalanta",
+        "ar": "أتالانتا"
+      },
+      "away": {
+        "en": "Bayer Leverkusen",
+        "ar": "باير ليفركوزن"
+      },
+      "score": "3–0",
+      "winner": "home",
+      "decidedBy": "regulation",
+      "difficulty": "medium",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Juan Musso",
+          "ar": "خوان موسو"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Berat Djimsiti",
+          "ar": "بيرات ديمسيتي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Isak Hien",
+          "ar": "إيزاك هين"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Sead Kolašinac",
+          "ar": "سياد كولاشيناتس"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Davide Zappacosta",
+          "ar": "دافيدي زاباكوستا"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Éderson",
+          "ar": "إيدرسون"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Teun Koopmeiners",
+          "ar": "تيون كووبميينيرز"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Matteo Ruggeri",
+          "ar": "ماتيو روجيري"
+        },
+        {
+          "pos": "RF",
+          "group": "FW",
+          "en": "Charles De Ketelaere",
+          "ar": "تشارلز دي كاتيلايير"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Gianluca Scamacca",
+          "ar": "جيانلوكا سكاماكا"
+        },
+        {
+          "pos": "LF",
+          "group": "FW",
+          "en": "Ademola Lookman",
+          "ar": "أديمولا لوكمان"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Matěj Kovář",
+          "ar": "ماتي كوفار"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Josip Stanišić",
+          "ar": "جوسيب ستانيشيتش"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Jonathan Tah",
+          "ar": "يوناتان تاه"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Edmond Tapsoba",
+          "ar": "إدموند تابسوبا"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Jeremie Frimpong",
+          "ar": "جيريمي فريمبونغ"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Granit Xhaka",
+          "ar": "غرانيت تشاكا"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Exequiel Palacios",
+          "ar": "إكسيكييل بالاسيوس"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Piero Hincapié",
+          "ar": "بييرو هينكابي"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Florian Wirtz",
+          "ar": "فلوريان فيرتز"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Álex Grimaldo",
+          "ar": "ألكس غريمالدو"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Amine Adli",
+          "ar": "أمين عدلي"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2024_UEFA_Europa_League_final"
+    }
+  ]
+}

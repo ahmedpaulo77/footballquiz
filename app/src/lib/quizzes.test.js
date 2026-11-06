@@ -17,13 +17,16 @@ describe('الألعاب (Quizzes)', () => {
     expect(QUIZZES[1].id).toBe('paths');
   });
 
-  it('كل لعبة عندها أسئلة وبيانات عرض كاملة في اللغتين', () => {
+  it('كل لعبة عندها محتوى وبيانات عرض كاملة في اللغتين', () => {
     for (const lang of ['ar', 'en']) {
       for (const quiz of getQuizzes(lang)) {
         expect(quiz.title, `${lang}/${quiz.id}`).toBeTruthy();
         expect(quiz.nextLabel, `${lang}/${quiz.id}`).toBeTruthy();
         expect(quiz.answerLabel, `${lang}/${quiz.id}`).toBeTruthy();
-        expect(quiz.questions.length, `${lang}/${quiz.id}`).toBeGreaterThan(0);
+        expect(
+          quiz.questions.length + quiz.matches.length,
+          `${lang}/${quiz.id}`,
+        ).toBeGreaterThan(0);
       }
     }
   });
@@ -37,6 +40,8 @@ describe('الألعاب (Quizzes)', () => {
 
   it('كل سؤال عنده إجابة نصية', () => {
     for (const quiz of QUIZZES) {
+      if (quiz.kind === 'top3') continue;
+
       for (const question of quiz.questions) {
         expect(question.answer, question.id).toBeTruthy();
         expect(typeof question.answer, question.id).toBe('string');
@@ -44,13 +49,21 @@ describe('الألعاب (Quizzes)', () => {
     }
   });
 
-  it('كل سؤال عنده تلميحات أو مسار أندية أو سؤال ريسك', () => {
+  it('كل سؤال عنده تلميحات أو مسار أندية أو سؤال ريسك أو ٤ اختيارات أو ٩ لاعبين', () => {
     for (const quiz of QUIZZES) {
       for (const question of quiz.questions) {
         const hasClues = question.clues.length > 0;
         const hasPath = question.clubs.length > 0;
         const hasRisk = quiz.kind === 'risk' && Boolean(question.question);
-        expect(hasClues || hasPath || hasRisk, `${quiz.id}/${question.id}`).toBe(true);
+        const hasOptions =
+          quiz.kind === 'points' &&
+          question.options.length === 4 &&
+          Boolean(question.question);
+        const hasPlayers = quiz.kind === 'top3' && question.players.length === 9;
+        expect(
+          hasClues || hasPath || hasRisk || hasOptions || hasPlayers,
+          `${quiz.id}/${question.id}`,
+        ).toBe(true);
       }
     }
   });
@@ -156,7 +169,14 @@ describe('لعبة «ريسك»', () => {
   it('نوعها risk وبعد «المسار» في الترتيب', () => {
     expect(arQuiz.kind).toBe('risk');
     expect(arQuiz.order).toBe(3);
-    expect(QUIZZES.map((quiz) => quiz.id)).toEqual(['who-am-i', 'paths', 'risk']);
+    expect(QUIZZES.map((quiz) => quiz.id)).toEqual([
+      'who-am-i',
+      'paths',
+      'risk',
+      'one-question',
+      'top-three',
+      'lineups',
+    ]);
   });
 
   it('فيها ١٥ فئة و٦٠ خلية على ٤ قيم', () => {
@@ -288,6 +308,269 @@ describe('نقاط لعبة «ريسك»', () => {
     const shown = categories.map((category) => category.id);
 
     expect(swapCategory(categories, shown)).toBeNull();
+  });
+});
+
+describe('لعبة «سؤال واحد»', () => {
+  const arQuiz = getQuiz('one-question', 'ar');
+  const enQuiz = getQuiz('one-question', 'en');
+
+  it('نوعها points وبعد «ريسك» في الترتيب', () => {
+    expect(arQuiz.kind).toBe('points');
+    expect(arQuiz.order).toBe(4);
+    expect(QUIZZES[3].id).toBe('one-question');
+  });
+
+  it('فيها ٦٠ سؤال و١٠ أسئلة في الجولة و١٠ نقط للسؤال', () => {
+    expect(arQuiz.questions).toHaveLength(60);
+    expect(enQuiz.questions).toHaveLength(60);
+    expect(arQuiz.questionsPerGame).toBe(10);
+    expect(arQuiz.pointsPerQuestion).toBe(10);
+  });
+
+  it('كل سؤال عنده ٤ اختيارات مختلفة وإجابة صح واحدة', () => {
+    for (const question of arQuiz.questions) {
+      expect(question.options, question.id).toHaveLength(4);
+      expect(new Set(question.options).size, question.id).toBe(4);
+      expect(question.correct, question.id).toBeGreaterThanOrEqual(0);
+      expect(question.correct, question.id).toBeLessThan(4);
+      expect(question.answer, question.id).toBe(question.options[question.correct]);
+    }
+  });
+
+  it('الأسئلة والاختيارات مترجمة للعربي والإنجليزي', () => {
+    arQuiz.questions.forEach((question, index) => {
+      const english = enQuiz.questions[index];
+
+      expect(english.id, question.id).toBe(question.id);
+      expect(question.question, question.id).toMatch(ARABIC_LETTERS);
+      expect(english.question, question.id).toMatch(LATIN_LETTERS);
+      expect(question.question.length, question.id).toBeGreaterThan(10);
+      expect(english.question.length, question.id).toBeGreaterThan(10);
+
+      question.options.forEach((option, optionIndex) => {
+        expect(option, question.id).toMatch(ARABIC_LETTERS);
+        expect(english.options[optionIndex], question.id).toMatch(/[A-Za-z0-9]/);
+      });
+
+      expect(english.correct, question.id).toBe(question.correct);
+    });
+  });
+
+  it('الإجابة الصح مش دايمًا في نفس الاختيار', () => {
+    const counts = [0, 0, 0, 0];
+
+    for (const question of arQuiz.questions) {
+      counts[question.correct] += 1;
+    }
+
+    for (const count of counts) {
+      expect(count).toBeGreaterThan(5);
+    }
+  });
+});
+
+describe('لعبة «توب 3»', () => {
+  const arQuiz = getQuiz('top-three', 'ar');
+  const enQuiz = getQuiz('top-three', 'en');
+
+  it('نوعها top3 وآخر لعبة في الترتيب', () => {
+    expect(arQuiz.kind).toBe('top3');
+    expect(arQuiz.order).toBe(5);
+    expect(QUIZZES[4].id).toBe('top-three');
+  });
+
+  it('فيها ٥٠ سؤال و٨ أسئلة في الجولة و٣ اختيارات', () => {
+    expect(arQuiz.questions).toHaveLength(50);
+    expect(enQuiz.questions).toHaveLength(50);
+    expect(arQuiz.questionsPerGame).toBe(8);
+    expect(arQuiz.picksCount).toBe(3);
+  });
+
+  it('كل سؤال فيه ٩ لاعبين و٣ إجابات صح', () => {
+    for (const question of arQuiz.questions) {
+      expect(question.players, question.id).toHaveLength(9);
+      expect(question.top, question.id).toHaveLength(3);
+      expect(new Set(question.top).size, question.id).toBe(3);
+
+      const names = question.players.map((player) => player.name);
+      expect(new Set(names).size, question.id).toBe(9);
+
+      for (const player of question.players) {
+        expect(player.name.trim(), question.id).not.toBe('');
+        expect(Number.isInteger(player.stat), `${question.id}/${player.name}`).toBe(true);
+        expect(player.stat, `${question.id}/${player.name}`).toBeGreaterThan(0);
+      }
+    }
+  });
+
+  it('الإجابات الصح هي أعلى ٣ أرقام ومفيش تعادل على الحد', () => {
+    for (const question of arQuiz.questions) {
+      const sorted = [...question.players]
+        .map((player, index) => ({ index, stat: player.stat }))
+        .sort((a, b) => b.stat - a.stat || a.index - b.index);
+
+      expect(
+        sorted.slice(0, 3).map((entry) => entry.index).sort((a, b) => a - b),
+        question.id,
+      ).toEqual([...question.top].sort((a, b) => a - b));
+
+      expect(sorted[2].stat, question.id).toBeGreaterThan(sorted[3].stat);
+    }
+  });
+
+  it('الأسئلة والفئات والوحدات مترجمة للعربي والإنجليزي', () => {
+    arQuiz.questions.forEach((question, index) => {
+      const english = enQuiz.questions[index];
+
+      expect(question.id, question.id).toBe(english.id);
+      expect(question.question, question.id).toMatch(ARABIC_LETTERS);
+      expect(english.question, question.id).toMatch(LATIN_LETTERS);
+      expect(question.category, question.id).toMatch(ARABIC_LETTERS);
+      expect(english.category, question.id).toMatch(LATIN_LETTERS);
+      expect(question.unit, question.id).toMatch(ARABIC_LETTERS);
+      expect(english.unit, question.id).toMatch(LATIN_LETTERS);
+
+      expect(question.players.map((player) => player.name)).toEqual(
+        english.players.map((player) => player.name),
+      );
+      expect(question.players.map((player) => player.stat)).toEqual(
+        english.players.map((player) => player.stat),
+      );
+      expect(question.top).toEqual(english.top);
+    });
+  });
+
+  it('الإجابات مش دايمًا أول ٣ كروت', () => {
+    const firstThree = arQuiz.questions.filter(
+      (question) => question.top.join(',') === '0,1,2',
+    );
+
+    expect(firstThree.length).toBeLessThan(10);
+  });
+});
+
+describe('لعبة «تشكيلات المباريات»', () => {
+  const arQuiz = getQuiz('lineups', 'ar');
+  const enQuiz = getQuiz('lineups', 'en');
+
+  it('نوعها lineups وآخر لعبة في الترتيب', () => {
+    expect(arQuiz.kind).toBe('lineups');
+    expect(arQuiz.order).toBe(6);
+    expect(QUIZZES[5].id).toBe('lineups');
+  });
+
+  it('فيها ٤٨ ماتش و٧ مسابقات كلها مستخدمة', () => {
+    expect(arQuiz.matches).toHaveLength(48);
+    expect(enQuiz.matches).toHaveLength(48);
+    expect(arQuiz.competitions).toHaveLength(7);
+    expect(new Set(arQuiz.matches.map((match) => match.competition)).size).toBe(7);
+
+    for (const competition of arQuiz.competitions) {
+      expect(competition.title, competition.id).toMatch(ARABIC_LETTERS);
+      expect(
+        arQuiz.matches.some((match) => match.competition === competition.id),
+        competition.id,
+      ).toBe(true);
+    }
+  });
+
+  it('كل ماتش عنده فريقين وسنة ونتيجة وصعوبة معروفة', () => {
+    const levels = ['easy', 'medium', 'hard'];
+    const counts = { easy: 0, medium: 0, hard: 0 };
+
+    for (const match of arQuiz.matches) {
+      expect(match.home, match.id).toMatch(ARABIC_LETTERS);
+      expect(match.away, match.id).toMatch(ARABIC_LETTERS);
+      expect(match.home, match.id).not.toBe(match.away);
+      expect(match.competitionTitle, match.id).toMatch(ARABIC_LETTERS);
+      expect(match.year, match.id).toBeGreaterThanOrEqual(1960);
+      expect(match.year, match.id).toBeLessThanOrEqual(2026);
+      expect(match.score, match.id).toMatch(/\d/);
+      expect(levels, match.id).toContain(match.difficulty);
+      expect(['home', 'away'], match.id).toContain(match.winner);
+      expect(['regulation', 'extra-time', 'golden-goal', 'penalties'], match.id).toContain(
+        match.decidedBy,
+      );
+
+      counts[match.difficulty] += 1;
+    }
+
+    for (const level of levels) {
+      expect(counts[level], level).toBeGreaterThan(5);
+    }
+  });
+
+  it('كل فريق ١١ لاعب أساسي بحارس واحد ومفيش تكرار', () => {
+    for (const match of arQuiz.matches) {
+      for (const side of ['homeLineup', 'awayLineup']) {
+        const lineup = match[side];
+
+        expect(lineup, `${match.id}/${side}`).toHaveLength(11);
+        expect(
+          lineup.filter((player) => player.group === 'GK'),
+          `${match.id}/${side}`,
+        ).toHaveLength(1);
+        expect(
+          new Set(lineup.map((player) => player.name)).size,
+          `${match.id}/${side}`,
+        ).toBe(11);
+
+        for (const player of lineup) {
+          expect(['GK', 'DF', 'MF', 'FW'], `${match.id}/${player.id}`).toContain(
+            player.group,
+          );
+          expect(player.pos, `${match.id}/${player.id}`).toBeTruthy();
+          expect(player.name, `${match.id}/${player.id}`).toMatch(ARABIC_LETTERS);
+        }
+      }
+
+      const homeNames = match.homeLineup.map((player) => player.name);
+      const awayNames = match.awayLineup.map((player) => player.name);
+
+      for (const name of homeNames) {
+        expect(awayNames, match.id).not.toContain(name);
+      }
+    }
+  });
+
+  it('التشكيلات كاملة بالعربي والإنجليزي', () => {
+    arQuiz.matches.forEach((match, index) => {
+      const english = enQuiz.matches[index];
+
+      expect(english.id, match.id).toBe(match.id);
+      expect(english.home, match.id).toMatch(LATIN_LETTERS);
+      expect(english.away, match.id).toMatch(LATIN_LETTERS);
+      expect(english.competitionTitle, match.id).toMatch(LATIN_LETTERS);
+      expect(english.homeLineup, match.id).toHaveLength(11);
+      expect(english.awayLineup, match.id).toHaveLength(11);
+
+      for (const side of ['homeLineup', 'awayLineup']) {
+        match[side].forEach((player, playerIndex) => {
+          const translated = english[side][playerIndex];
+
+          expect(translated.name, `${match.id}/${player.id}`).toMatch(LATIN_LETTERS);
+          expect(translated.pos, `${match.id}/${player.id}`).toBe(player.pos);
+          expect(translated.group, `${match.id}/${player.id}`).toBe(player.group);
+        });
+      }
+    });
+  });
+
+  it('ركلات الترجيح موجودة بس في الماتشات اللي اتحسمت بيها', () => {
+    for (const match of arQuiz.matches) {
+      if (match.decidedBy === 'penalties') {
+        expect(match.shootout, match.id).toMatch(/\d/);
+      } else {
+        expect(match.shootout, match.id).toBeNull();
+      }
+    }
+  });
+
+  it('كل ماتش ليه مصدر ويكيبيديا', () => {
+    for (const match of arQuiz.matches) {
+      expect(match.source, match.id).toMatch(/^https:\/\/en\.wikipedia\.org\//);
+    }
   });
 });
 

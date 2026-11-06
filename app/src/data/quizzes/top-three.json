@@ -1,0 +1,2976 @@
+{
+  "id": "top-three",
+  "title": {
+    "ar": "توب 3",
+    "en": "Top 3"
+  },
+  "emoji": "🥉",
+  "subtitle": {
+    "ar": "٩ أسماء… اختار التلاتة اللي على القمة",
+    "en": "Nine names… pick the top three"
+  },
+  "answerLabel": {
+    "ar": "الإجابات الصح",
+    "en": "Correct answers"
+  },
+  "nextLabel": {
+    "ar": "السؤال اللي بعده",
+    "en": "Next question"
+  },
+  "kind": "top3",
+  "order": 5,
+  "questionsPerGame": 8,
+  "picksCount": 3,
+  "questions": [
+    {
+      "id": "ucl-goals-01",
+      "category": {
+        "ar": "أهداف دوري الأبطال",
+        "en": "UCL goals"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين سجلوا في دوري أبطال أوروبا من التسعة دول؟",
+        "en": "Which 3 players scored the most Champions League goals among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — List of European Cup and UEFA Champions League top scorers (as of 4 Nov 2026)",
+      "players": [
+        {
+          "name": "Harry Kane",
+          "stat": 58
+        },
+        {
+          "name": "Karim Benzema",
+          "stat": 90
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "stat": 140
+        },
+        {
+          "name": "Thomas Müller",
+          "stat": 57
+        },
+        {
+          "name": "Lionel Messi",
+          "stat": 129
+        },
+        {
+          "name": "Kylian Mbappé",
+          "stat": 74
+        },
+        {
+          "name": "Robert Lewandowski",
+          "stat": 109
+        },
+        {
+          "name": "Raúl González",
+          "stat": 71
+        },
+        {
+          "name": "Erling Haaland",
+          "stat": 62
+        }
+      ],
+      "top": [
+        2,
+        4,
+        6
+      ]
+    },
+    {
+      "id": "ucl-goals-02",
+      "category": {
+        "ar": "أهداف دوري الأبطال",
+        "en": "UCL goals"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين سجلوا في دوري أبطال أوروبا من التسعة دول؟",
+        "en": "Which 3 players scored the most Champions League goals among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — List of European Cup and UEFA Champions League top scorers (as of 4 Nov 2026)",
+      "players": [
+        {
+          "name": "Thierry Henry",
+          "stat": 50
+        },
+        {
+          "name": "Harry Kane",
+          "stat": 58
+        },
+        {
+          "name": "Ruud van Nistelrooy",
+          "stat": 56
+        },
+        {
+          "name": "Thomas Müller",
+          "stat": 57
+        },
+        {
+          "name": "Mohamed Salah",
+          "stat": 50
+        },
+        {
+          "name": "Karim Benzema",
+          "stat": 90
+        },
+        {
+          "name": "Raúl González",
+          "stat": 71
+        },
+        {
+          "name": "Erling Haaland",
+          "stat": 62
+        },
+        {
+          "name": "Kylian Mbappé",
+          "stat": 74
+        }
+      ],
+      "top": [
+        5,
+        6,
+        8
+      ]
+    },
+    {
+      "id": "ucl-goals-03",
+      "category": {
+        "ar": "أهداف دوري الأبطال",
+        "en": "UCL goals"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين سجلوا في دوري أبطال أوروبا من التسعة دول؟",
+        "en": "Which 3 players scored the most Champions League goals among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — List of European Cup and UEFA Champions League top scorers (as of 4 Nov 2026)",
+      "players": [
+        {
+          "name": "Zlatan Ibrahimović",
+          "stat": 48
+        },
+        {
+          "name": "Antoine Griezmann",
+          "stat": 44
+        },
+        {
+          "name": "Alfredo Di Stéfano",
+          "stat": 49
+        },
+        {
+          "name": "Filippo Inzaghi",
+          "stat": 46
+        },
+        {
+          "name": "Thierry Henry",
+          "stat": 50
+        },
+        {
+          "name": "Andriy Shevchenko",
+          "stat": 48
+        },
+        {
+          "name": "Eusébio",
+          "stat": 46
+        },
+        {
+          "name": "Didier Drogba",
+          "stat": 44
+        },
+        {
+          "name": "Mohamed Salah",
+          "stat": 50
+        }
+      ],
+      "top": [
+        2,
+        4,
+        8
+      ]
+    },
+    {
+      "id": "ucl-goals-04",
+      "category": {
+        "ar": "أهداف دوري الأبطال",
+        "en": "UCL goals"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين سجلوا في دوري أبطال أوروبا من التسعة دول؟",
+        "en": "Which 3 players scored the most Champions League goals among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — List of European Cup and UEFA Champions League top scorers (as of 4 Nov 2026)",
+      "players": [
+        {
+          "name": "Neymar",
+          "stat": 43
+        },
+        {
+          "name": "Ousmane Dembélé",
+          "stat": 31
+        },
+        {
+          "name": "Edinson Cavani",
+          "stat": 35
+        },
+        {
+          "name": "Ferenc Puskás",
+          "stat": 36
+        },
+        {
+          "name": "Alessandro Del Piero",
+          "stat": 42
+        },
+        {
+          "name": "Fernando Morientes",
+          "stat": 33
+        },
+        {
+          "name": "Sergio Agüero",
+          "stat": 41
+        },
+        {
+          "name": "Vinícius Júnior",
+          "stat": 34
+        },
+        {
+          "name": "Gerd Müller",
+          "stat": 34
+        }
+      ],
+      "top": [
+        0,
+        4,
+        6
+      ]
+    },
+    {
+      "id": "ucl-goals-05",
+      "category": {
+        "ar": "أهداف دوري الأبطال",
+        "en": "UCL goals"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين سجلوا في دوري أبطال أوروبا من التسعة دول؟",
+        "en": "Which 3 players scored the most Champions League goals among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — List of European Cup and UEFA Champions League top scorers (as of 4 Nov 2026)",
+      "players": [
+        {
+          "name": "Alfredo Di Stéfano",
+          "stat": 49
+        },
+        {
+          "name": "Andriy Shevchenko",
+          "stat": 48
+        },
+        {
+          "name": "Neymar",
+          "stat": 43
+        },
+        {
+          "name": "Didier Drogba",
+          "stat": 44
+        },
+        {
+          "name": "Eusébio",
+          "stat": 46
+        },
+        {
+          "name": "Zlatan Ibrahimović",
+          "stat": 48
+        },
+        {
+          "name": "Alessandro Del Piero",
+          "stat": 42
+        },
+        {
+          "name": "Filippo Inzaghi",
+          "stat": 46
+        },
+        {
+          "name": "Antoine Griezmann",
+          "stat": 44
+        }
+      ],
+      "top": [
+        0,
+        1,
+        5
+      ]
+    },
+    {
+      "id": "ucl-apps-01",
+      "category": {
+        "ar": "مباريات دوري الأبطال",
+        "en": "UCL appearances"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين لعبوا مباريات في دوري أبطال أوروبا من التسعة دول؟",
+        "en": "Which 3 players made the most Champions League appearances among these nine?"
+      },
+      "unit": {
+        "ar": "مباراة",
+        "en": "matches"
+      },
+      "source": "Wikipedia — List of footballers with 100+ UEFA Champions League appearances (as of 4 Nov 2026)",
+      "players": [
+        {
+          "name": "Xavi Hernández",
+          "stat": 151
+        },
+        {
+          "name": "Robert Lewandowski",
+          "stat": 144
+        },
+        {
+          "name": "Thomas Müller",
+          "stat": 163
+        },
+        {
+          "name": "Iker Casillas",
+          "stat": 177
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "stat": 183
+        },
+        {
+          "name": "Lionel Messi",
+          "stat": 163
+        },
+        {
+          "name": "Toni Kroos",
+          "stat": 151
+        },
+        {
+          "name": "Karim Benzema",
+          "stat": 152
+        },
+        {
+          "name": "Manuel Neuer",
+          "stat": 164
+        }
+      ],
+      "top": [
+        3,
+        4,
+        8
+      ]
+    },
+    {
+      "id": "ucl-apps-02",
+      "category": {
+        "ar": "مباريات دوري الأبطال",
+        "en": "UCL appearances"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين لعبوا مباريات في دوري أبطال أوروبا من التسعة دول؟",
+        "en": "Which 3 players made the most Champions League appearances among these nine?"
+      },
+      "unit": {
+        "ar": "مباراة",
+        "en": "matches"
+      },
+      "source": "Wikipedia — List of footballers with 100+ UEFA Champions League appearances (as of 4 Nov 2026)",
+      "players": [
+        {
+          "name": "Lionel Messi",
+          "stat": 163
+        },
+        {
+          "name": "Sergio Ramos",
+          "stat": 142
+        },
+        {
+          "name": "Xavi Hernández",
+          "stat": 151
+        },
+        {
+          "name": "Luka Modrić",
+          "stat": 142
+        },
+        {
+          "name": "Thomas Müller",
+          "stat": 163
+        },
+        {
+          "name": "Karim Benzema",
+          "stat": 152
+        },
+        {
+          "name": "Toni Kroos",
+          "stat": 151
+        },
+        {
+          "name": "Raúl González",
+          "stat": 142
+        },
+        {
+          "name": "Robert Lewandowski",
+          "stat": 144
+        }
+      ],
+      "top": [
+        0,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "ucl-apps-03",
+      "category": {
+        "ar": "مباريات دوري الأبطال",
+        "en": "UCL appearances"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين لعبوا مباريات في دوري أبطال أوروبا من التسعة دول؟",
+        "en": "Which 3 players made the most Champions League appearances among these nine?"
+      },
+      "unit": {
+        "ar": "مباراة",
+        "en": "matches"
+      },
+      "source": "Wikipedia — List of footballers with 100+ UEFA Champions League appearances (as of 4 Nov 2026)",
+      "players": [
+        {
+          "name": "Raúl González",
+          "stat": 142
+        },
+        {
+          "name": "Andrés Iniesta",
+          "stat": 130
+        },
+        {
+          "name": "Gerard Piqué",
+          "stat": 128
+        },
+        {
+          "name": "Sergio Ramos",
+          "stat": 142
+        },
+        {
+          "name": "Ryan Giggs",
+          "stat": 141
+        },
+        {
+          "name": "David Alaba",
+          "stat": 125
+        },
+        {
+          "name": "Sergio Busquets",
+          "stat": 129
+        },
+        {
+          "name": "Clarence Seedorf",
+          "stat": 125
+        },
+        {
+          "name": "Luka Modrić",
+          "stat": 142
+        }
+      ],
+      "top": [
+        0,
+        3,
+        8
+      ]
+    },
+    {
+      "id": "ucl-apps-04",
+      "category": {
+        "ar": "مباريات دوري الأبطال",
+        "en": "UCL appearances"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين لعبوا مباريات في دوري أبطال أوروبا من التسعة دول؟",
+        "en": "Which 3 players made the most Champions League appearances among these nine?"
+      },
+      "unit": {
+        "ar": "مباراة",
+        "en": "matches"
+      },
+      "source": "Wikipedia — List of footballers with 100+ UEFA Champions League appearances (as of 4 Nov 2026)",
+      "players": [
+        {
+          "name": "Gerard Piqué",
+          "stat": 128
+        },
+        {
+          "name": "Roberto Carlos",
+          "stat": 120
+        },
+        {
+          "name": "Zlatan Ibrahimović",
+          "stat": 124
+        },
+        {
+          "name": "Clarence Seedorf",
+          "stat": 125
+        },
+        {
+          "name": "David Alaba",
+          "stat": 125
+        },
+        {
+          "name": "Paul Scholes",
+          "stat": 124
+        },
+        {
+          "name": "Andrés Iniesta",
+          "stat": 130
+        },
+        {
+          "name": "Gianluigi Buffon",
+          "stat": 124
+        },
+        {
+          "name": "Sergio Busquets",
+          "stat": 129
+        }
+      ],
+      "top": [
+        0,
+        6,
+        8
+      ]
+    },
+    {
+      "id": "caps-01",
+      "category": {
+        "ar": "مباريات دولية",
+        "en": "International caps"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين لعبوا مباريات دولية مع منتخباتهم من التسعة دول؟",
+        "en": "Which 3 players have the most international caps among these nine?"
+      },
+      "unit": {
+        "ar": "مباراة دولية",
+        "en": "caps"
+      },
+      "source": "Wikipedia — List of men's footballers with 100 or more international caps (as of 6 Oct 2026)",
+      "players": [
+        {
+          "name": "Luka Modrić",
+          "stat": 206
+        },
+        {
+          "name": "Hassan Al-Haydos",
+          "stat": 193
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "stat": 234
+        },
+        {
+          "name": "Andrés Guardado",
+          "stat": 182
+        },
+        {
+          "name": "Soh Chin Ann",
+          "stat": 195
+        },
+        {
+          "name": "Ahmed Hassan",
+          "stat": 184
+        },
+        {
+          "name": "Lionel Messi",
+          "stat": 208
+        },
+        {
+          "name": "Bader Al-Mutawa",
+          "stat": 202
+        },
+        {
+          "name": "Ahmed Kano",
+          "stat": 193
+        }
+      ],
+      "top": [
+        0,
+        2,
+        6
+      ]
+    },
+    {
+      "id": "caps-02",
+      "category": {
+        "ar": "مباريات دولية",
+        "en": "International caps"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين لعبوا مباريات دولية مع منتخباتهم من التسعة دول؟",
+        "en": "Which 3 players have the most international caps among these nine?"
+      },
+      "unit": {
+        "ar": "مباراة دولية",
+        "en": "caps"
+      },
+      "source": "Wikipedia — List of men's footballers with 100 or more international caps (as of 6 Oct 2026)",
+      "players": [
+        {
+          "name": "Mohamed Al-Deayea",
+          "stat": 178
+        },
+        {
+          "name": "Hossam Hassan",
+          "stat": 177
+        },
+        {
+          "name": "Maynor Figueroa",
+          "stat": 175
+        },
+        {
+          "name": "Iván Hurtado",
+          "stat": 168
+        },
+        {
+          "name": "Amer Shafi",
+          "stat": 171
+        },
+        {
+          "name": "Gianluigi Buffon",
+          "stat": 176
+        },
+        {
+          "name": "Claudio Suárez",
+          "stat": 179
+        },
+        {
+          "name": "Robert Lewandowski",
+          "stat": 170
+        },
+        {
+          "name": "Sergio Ramos",
+          "stat": 180
+        }
+      ],
+      "top": [
+        0,
+        6,
+        8
+      ]
+    },
+    {
+      "id": "caps-03",
+      "category": {
+        "ar": "مباريات دولية",
+        "en": "International caps"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين لعبوا مباريات دولية مع منتخباتهم من التسعة دول؟",
+        "en": "Which 3 players have the most international caps among these nine?"
+      },
+      "unit": {
+        "ar": "مباراة دولية",
+        "en": "caps"
+      },
+      "source": "Wikipedia — List of men's footballers with 100 or more international caps (as of 6 Oct 2026)",
+      "players": [
+        {
+          "name": "Adnan Al-Talyani",
+          "stat": 161
+        },
+        {
+          "name": "Mohammed Al-Khilaiwi",
+          "stat": 163
+        },
+        {
+          "name": "Iker Casillas",
+          "stat": 167
+        },
+        {
+          "name": "Cobi Jones",
+          "stat": 164
+        },
+        {
+          "name": "Ivan Perišić",
+          "stat": 162
+        },
+        {
+          "name": "Shukor Salleh",
+          "stat": 163
+        },
+        {
+          "name": "Sayed Mohammed Jaffer",
+          "stat": 163
+        },
+        {
+          "name": "Celso Borges",
+          "stat": 162
+        },
+        {
+          "name": "Vitālijs Astafjevs",
+          "stat": 166
+        }
+      ],
+      "top": [
+        2,
+        3,
+        8
+      ]
+    },
+    {
+      "id": "intl-goals-01",
+      "category": {
+        "ar": "أهداف دولية",
+        "en": "International goals"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين سجلوا أهداف دولية مع منتخباتهم من التسعة دول؟",
+        "en": "Which 3 players scored the most international goals among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — List of men's footballers with 50 or more international goals (as of 7 Oct 2026)",
+      "players": [
+        {
+          "name": "Cristiano Ronaldo",
+          "stat": 146
+        },
+        {
+          "name": "Ali Mabkhout",
+          "stat": 85
+        },
+        {
+          "name": "Sunil Chhetri",
+          "stat": 95
+        },
+        {
+          "name": "Romelu Lukaku",
+          "stat": 94
+        },
+        {
+          "name": "Ali Daei",
+          "stat": 108
+        },
+        {
+          "name": "Robert Lewandowski",
+          "stat": 92
+        },
+        {
+          "name": "Lionel Messi",
+          "stat": 126
+        },
+        {
+          "name": "Mokhtar Dahari",
+          "stat": 89
+        },
+        {
+          "name": "Harry Kane",
+          "stat": 91
+        }
+      ],
+      "top": [
+        0,
+        4,
+        6
+      ]
+    },
+    {
+      "id": "intl-goals-02",
+      "category": {
+        "ar": "أهداف دولية",
+        "en": "International goals"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين سجلوا أهداف دولية مع منتخباتهم من التسعة دول؟",
+        "en": "Which 3 players scored the most international goals among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — List of men's footballers with 50 or more international goals (as of 7 Oct 2026)",
+      "players": [
+        {
+          "name": "Romelu Lukaku",
+          "stat": 94
+        },
+        {
+          "name": "Robert Lewandowski",
+          "stat": 92
+        },
+        {
+          "name": "Bernard Chitalu",
+          "stat": 79
+        },
+        {
+          "name": "Harry Kane",
+          "stat": 91
+        },
+        {
+          "name": "Neymar",
+          "stat": 80
+        },
+        {
+          "name": "Ali Mabkhout",
+          "stat": 85
+        },
+        {
+          "name": "Sunil Chhetri",
+          "stat": 95
+        },
+        {
+          "name": "Ferenc Puskás",
+          "stat": 84
+        },
+        {
+          "name": "Mokhtar Dahari",
+          "stat": 89
+        }
+      ],
+      "top": [
+        0,
+        1,
+        6
+      ]
+    },
+    {
+      "id": "intl-goals-03",
+      "category": {
+        "ar": "أهداف دولية",
+        "en": "International goals"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين سجلوا أهداف دولية مع منتخباتهم من التسعة دول؟",
+        "en": "Which 3 players scored the most international goals among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — List of men's footballers with 50 or more international goals (as of 7 Oct 2026)",
+      "players": [
+        {
+          "name": "Vivian Woodward",
+          "stat": 75
+        },
+        {
+          "name": "Bernard Chitalu",
+          "stat": 79
+        },
+        {
+          "name": "Mokhtar Dahari",
+          "stat": 89
+        },
+        {
+          "name": "Ferenc Puskás",
+          "stat": 84
+        },
+        {
+          "name": "Sándor Kocsis",
+          "stat": 75
+        },
+        {
+          "name": "Pelé",
+          "stat": 77
+        },
+        {
+          "name": "Hussein Saeed",
+          "stat": 78
+        },
+        {
+          "name": "Neymar",
+          "stat": 80
+        },
+        {
+          "name": "Ali Mabkhout",
+          "stat": 85
+        }
+      ],
+      "top": [
+        2,
+        3,
+        8
+      ]
+    },
+    {
+      "id": "intl-goals-04",
+      "category": {
+        "ar": "أهداف دولية",
+        "en": "International goals"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين سجلوا أهداف دولية مع منتخباتهم من التسعة دول؟",
+        "en": "Which 3 players scored the most international goals among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — List of men's footballers with 50 or more international goals (as of 7 Oct 2026)",
+      "players": [
+        {
+          "name": "Majed Abdullah",
+          "stat": 72
+        },
+        {
+          "name": "Hussein Saeed",
+          "stat": 78
+        },
+        {
+          "name": "Pelé",
+          "stat": 77
+        },
+        {
+          "name": "Sándor Kocsis",
+          "stat": 75
+        },
+        {
+          "name": "Bashar Abdullah",
+          "stat": 75
+        },
+        {
+          "name": "Kunishige Kamamoto",
+          "stat": 75
+        },
+        {
+          "name": "Edin Džeko",
+          "stat": 73
+        },
+        {
+          "name": "Vivian Woodward",
+          "stat": 75
+        },
+        {
+          "name": "Bernard Chitalu",
+          "stat": 79
+        }
+      ],
+      "top": [
+        1,
+        2,
+        8
+      ]
+    },
+    {
+      "id": "intl-goals-05",
+      "category": {
+        "ar": "أهداف دولية",
+        "en": "International goals"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين سجلوا أهداف دولية مع منتخباتهم من التسعة دول؟",
+        "en": "Which 3 players scored the most international goals among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — List of men's footballers with 50 or more international goals (as of 7 Oct 2026)",
+      "players": [
+        {
+          "name": "Gerd Müller",
+          "stat": 68
+        },
+        {
+          "name": "Hossam Hassan",
+          "stat": 69
+        },
+        {
+          "name": "Miroslav Klose",
+          "stat": 71
+        },
+        {
+          "name": "Kinnah Phiri",
+          "stat": 71
+        },
+        {
+          "name": "Piyapong Pue-on",
+          "stat": 70
+        },
+        {
+          "name": "Luis Suárez",
+          "stat": 69
+        },
+        {
+          "name": "Kiatisuk Senamuang",
+          "stat": 71
+        },
+        {
+          "name": "Stern John",
+          "stat": 70
+        },
+        {
+          "name": "Abdul Kadir",
+          "stat": 70
+        }
+      ],
+      "top": [
+        2,
+        3,
+        6
+      ]
+    },
+    {
+      "id": "intl-goals-06",
+      "category": {
+        "ar": "أهداف دولية",
+        "en": "International goals"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين سجلوا أهداف دولية مع منتخباتهم من التسعة دول؟",
+        "en": "Which 3 players scored the most international goals among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — List of men's footballers with 50 or more international goals (as of 7 Oct 2026)",
+      "players": [
+        {
+          "name": "Kylian Mbappé",
+          "stat": 67
+        },
+        {
+          "name": "Stern John",
+          "stat": 70
+        },
+        {
+          "name": "Mohamed Salah",
+          "stat": 68
+        },
+        {
+          "name": "Robbie Keane",
+          "stat": 68
+        },
+        {
+          "name": "Erling Haaland",
+          "stat": 65
+        },
+        {
+          "name": "Gerd Müller",
+          "stat": 68
+        },
+        {
+          "name": "Carlos Ruiz",
+          "stat": 68
+        },
+        {
+          "name": "Hossam Hassan",
+          "stat": 69
+        },
+        {
+          "name": "Luis Suárez",
+          "stat": 69
+        }
+      ],
+      "top": [
+        1,
+        7,
+        8
+      ]
+    },
+    {
+      "id": "pl-goals-01",
+      "category": {
+        "ar": "أهداف البريميرليج",
+        "en": "PL goals"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين سجلوا في البريميرليج من التسعة دول؟",
+        "en": "Which 3 players scored the most Premier League goals among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — Premier League records and statistics (as of 24 May 2026)",
+      "players": [
+        {
+          "name": "Frank Lampard",
+          "stat": 177
+        },
+        {
+          "name": "Harry Kane",
+          "stat": 213
+        },
+        {
+          "name": "Alan Shearer",
+          "stat": 260
+        },
+        {
+          "name": "Mohamed Salah",
+          "stat": 193
+        },
+        {
+          "name": "Thierry Henry",
+          "stat": 175
+        },
+        {
+          "name": "Wayne Rooney",
+          "stat": 208
+        },
+        {
+          "name": "Robbie Fowler",
+          "stat": 163
+        },
+        {
+          "name": "Andy Cole",
+          "stat": 187
+        },
+        {
+          "name": "Sergio Agüero",
+          "stat": 184
+        }
+      ],
+      "top": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "id": "pl-apps-01",
+      "category": {
+        "ar": "مباريات البريميرليج",
+        "en": "PL appearances"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين لعبوا مباريات في البريميرليج من التسعة دول؟",
+        "en": "Which 3 players made the most Premier League appearances among these nine?"
+      },
+      "unit": {
+        "ar": "مباراة",
+        "en": "matches"
+      },
+      "source": "Wikipedia — Premier League records and statistics (as of 24 May 2026)",
+      "players": [
+        {
+          "name": "Gareth Barry",
+          "stat": 653
+        },
+        {
+          "name": "James Milner",
+          "stat": 658
+        },
+        {
+          "name": "Emile Heskey",
+          "stat": 516
+        },
+        {
+          "name": "Frank Lampard",
+          "stat": 609
+        },
+        {
+          "name": "Mark Schwarzer",
+          "stat": 514
+        },
+        {
+          "name": "David James",
+          "stat": 572
+        },
+        {
+          "name": "Gary Speed",
+          "stat": 535
+        },
+        {
+          "name": "Ryan Giggs",
+          "stat": 632
+        },
+        {
+          "name": "Jamie Carragher",
+          "stat": 508
+        }
+      ],
+      "top": [
+        0,
+        1,
+        7
+      ]
+    },
+    {
+      "id": "pl-assists-01",
+      "category": {
+        "ar": "صناعة الأهداف في البريميرليج",
+        "en": "PL assists"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين صنعوا أهداف في البريميرليج من التسعة دول؟",
+        "en": "Which 3 players have the most Premier League assists among these nine?"
+      },
+      "unit": {
+        "ar": "تمريرة حاسمة",
+        "en": "assists"
+      },
+      "source": "Wikipedia — Premier League records and statistics (as of 24 May 2026)",
+      "players": [
+        {
+          "name": "Ryan Giggs",
+          "stat": 162
+        },
+        {
+          "name": "Dennis Bergkamp",
+          "stat": 94
+        },
+        {
+          "name": "Steven Gerrard",
+          "stat": 92
+        },
+        {
+          "name": "Kevin De Bruyne",
+          "stat": 119
+        },
+        {
+          "name": "Wayne Rooney",
+          "stat": 103
+        },
+        {
+          "name": "David Silva",
+          "stat": 93
+        },
+        {
+          "name": "Frank Lampard",
+          "stat": 102
+        },
+        {
+          "name": "Mohamed Salah",
+          "stat": 94
+        },
+        {
+          "name": "Cesc Fàbregas",
+          "stat": 111
+        }
+      ],
+      "top": [
+        0,
+        3,
+        8
+      ]
+    },
+    {
+      "id": "pl-clean-sheets-01",
+      "category": {
+        "ar": "كلين شيت في البريميرليج",
+        "en": "PL clean sheets"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ حراس حافظوا على نظافة شباكهم في البريميرليج من التسعة دول؟",
+        "en": "Which 3 goalkeepers kept the most Premier League clean sheets among these nine?"
+      },
+      "unit": {
+        "ar": "كلين شيت",
+        "en": "clean sheets"
+      },
+      "source": "Wikipedia — Premier League records and statistics (as of 24 May 2026)",
+      "players": [
+        {
+          "name": "Nigel Martyn",
+          "stat": 137
+        },
+        {
+          "name": "David Seaman",
+          "stat": 141
+        },
+        {
+          "name": "Edwin van der Sar",
+          "stat": 132
+        },
+        {
+          "name": "Tim Howard",
+          "stat": 132
+        },
+        {
+          "name": "Mark Schwarzer",
+          "stat": 152
+        },
+        {
+          "name": "Pepe Reina",
+          "stat": 136
+        },
+        {
+          "name": "David James",
+          "stat": 169
+        },
+        {
+          "name": "David de Gea",
+          "stat": 147
+        },
+        {
+          "name": "Petr Čech",
+          "stat": 202
+        }
+      ],
+      "top": [
+        4,
+        6,
+        8
+      ]
+    },
+    {
+      "id": "pl-penalties-01",
+      "category": {
+        "ar": "ركلات الجزاء في البريميرليج",
+        "en": "PL penalties"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين سجلوا ركلات جزاء في البريميرليج من التسعة دول؟",
+        "en": "Which 3 players scored the most Premier League penalties among these nine?"
+      },
+      "unit": {
+        "ar": "ركلة جزاء",
+        "en": "penalties"
+      },
+      "source": "Wikipedia — Premier League records and statistics (as of 24 May 2026)",
+      "players": [
+        {
+          "name": "Matt Le Tissier",
+          "stat": 25
+        },
+        {
+          "name": "Sergio Agüero",
+          "stat": 27
+        },
+        {
+          "name": "Alan Shearer",
+          "stat": 56
+        },
+        {
+          "name": "Steven Gerrard",
+          "stat": 32
+        },
+        {
+          "name": "Jamie Vardy",
+          "stat": 27
+        },
+        {
+          "name": "Frank Lampard",
+          "stat": 43
+        },
+        {
+          "name": "Harry Kane",
+          "stat": 33
+        },
+        {
+          "name": "Mark Noble",
+          "stat": 28
+        },
+        {
+          "name": "Mohamed Salah",
+          "stat": 35
+        }
+      ],
+      "top": [
+        2,
+        5,
+        8
+      ]
+    },
+    {
+      "id": "pl-free-kicks-01",
+      "category": {
+        "ar": "الركلات الحرة في البريميرليج",
+        "en": "PL free kicks"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين سجلوا من ركلات حرة مباشرة في البريميرليج من التسعة دول؟",
+        "en": "Which 3 players scored the most direct Premier League free kicks among these nine?"
+      },
+      "unit": {
+        "ar": "ركلة حرة",
+        "en": "free kicks"
+      },
+      "source": "Wikipedia — Premier League records and statistics (as of 24 May 2026)",
+      "players": [
+        {
+          "name": "James Maddison",
+          "stat": 9
+        },
+        {
+          "name": "Thierry Henry",
+          "stat": 12
+        },
+        {
+          "name": "Laurent Robert",
+          "stat": 11
+        },
+        {
+          "name": "Ian Harte",
+          "stat": 10
+        },
+        {
+          "name": "Sebastian Larsson",
+          "stat": 11
+        },
+        {
+          "name": "Gianfranco Zola",
+          "stat": 12
+        },
+        {
+          "name": "Jamie Redknapp",
+          "stat": 9
+        },
+        {
+          "name": "Morten Gamst Pedersen",
+          "stat": 10
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "stat": 12
+        }
+      ],
+      "top": [
+        1,
+        5,
+        8
+      ]
+    },
+    {
+      "id": "laliga-goals-01",
+      "category": {
+        "ar": "أهداف الليجا",
+        "en": "La Liga goals"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين سجلوا في الليجا من التسعة دول؟",
+        "en": "Which 3 players scored the most La Liga goals among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — La Liga records and statistics (as of 2026)",
+      "players": [
+        {
+          "name": "Quini",
+          "stat": 219
+        },
+        {
+          "name": "Alfredo Di Stéfano",
+          "stat": 227
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "stat": 311
+        },
+        {
+          "name": "Karim Benzema",
+          "stat": 238
+        },
+        {
+          "name": "Hugo Sánchez",
+          "stat": 234
+        },
+        {
+          "name": "Telmo Zarra",
+          "stat": 251
+        },
+        {
+          "name": "Lionel Messi",
+          "stat": 474
+        },
+        {
+          "name": "Raúl González",
+          "stat": 228
+        },
+        {
+          "name": "César Rodríguez",
+          "stat": 223
+        }
+      ],
+      "top": [
+        2,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "laliga-goals-02",
+      "category": {
+        "ar": "أهداف الليجا",
+        "en": "La Liga goals"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين سجلوا في الليجا من التسعة دول؟",
+        "en": "Which 3 players scored the most La Liga goals among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — La Liga records and statistics (as of 2026)",
+      "players": [
+        {
+          "name": "Pahiño",
+          "stat": 210
+        },
+        {
+          "name": "Antoine Griezmann",
+          "stat": 205
+        },
+        {
+          "name": "Karim Benzema",
+          "stat": 238
+        },
+        {
+          "name": "Edmundo Suárez",
+          "stat": 195
+        },
+        {
+          "name": "César Rodríguez",
+          "stat": 223
+        },
+        {
+          "name": "Raúl González",
+          "stat": 228
+        },
+        {
+          "name": "Hugo Sánchez",
+          "stat": 234
+        },
+        {
+          "name": "Alfredo Di Stéfano",
+          "stat": 227
+        },
+        {
+          "name": "Quini",
+          "stat": 219
+        }
+      ],
+      "top": [
+        2,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "laliga-goals-03",
+      "category": {
+        "ar": "أهداف الليجا",
+        "en": "La Liga goals"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين سجلوا في الليجا من التسعة دول؟",
+        "en": "Which 3 players scored the most La Liga goals among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — La Liga records and statistics (as of 2026)",
+      "players": [
+        {
+          "name": "Santillana",
+          "stat": 186
+        },
+        {
+          "name": "Antoine Griezmann",
+          "stat": 205
+        },
+        {
+          "name": "Quini",
+          "stat": 219
+        },
+        {
+          "name": "David Villa",
+          "stat": 185
+        },
+        {
+          "name": "Edmundo Suárez",
+          "stat": 195
+        },
+        {
+          "name": "Juan Arza",
+          "stat": 182
+        },
+        {
+          "name": "Pahiño",
+          "stat": 210
+        },
+        {
+          "name": "Alfredo Di Stéfano",
+          "stat": 227
+        },
+        {
+          "name": "César Rodríguez",
+          "stat": 223
+        }
+      ],
+      "top": [
+        2,
+        7,
+        8
+      ]
+    },
+    {
+      "id": "laliga-goals-04",
+      "category": {
+        "ar": "أهداف الليجا",
+        "en": "La Liga goals"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين سجلوا في الليجا من التسعة دول؟",
+        "en": "Which 3 players scored the most La Liga goals among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — La Liga records and statistics (as of 2026)",
+      "players": [
+        {
+          "name": "Samuel Eto'o",
+          "stat": 162
+        },
+        {
+          "name": "Luis Suárez",
+          "stat": 179
+        },
+        {
+          "name": "Edmundo Suárez",
+          "stat": 195
+        },
+        {
+          "name": "Santillana",
+          "stat": 186
+        },
+        {
+          "name": "Juan Arza",
+          "stat": 182
+        },
+        {
+          "name": "David Villa",
+          "stat": 185
+        },
+        {
+          "name": "Iago Aspas",
+          "stat": 171
+        },
+        {
+          "name": "Guillermo Gorostiza",
+          "stat": 178
+        },
+        {
+          "name": "Antoine Griezmann",
+          "stat": 205
+        }
+      ],
+      "top": [
+        2,
+        3,
+        8
+      ]
+    },
+    {
+      "id": "laliga-goals-05",
+      "category": {
+        "ar": "أهداف الليجا",
+        "en": "La Liga goals"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين سجلوا في الليجا من التسعة دول؟",
+        "en": "Which 3 players scored the most La Liga goals among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — La Liga records and statistics (as of 2026)",
+      "players": [
+        {
+          "name": "Luis Suárez",
+          "stat": 179
+        },
+        {
+          "name": "Luis Aragonés",
+          "stat": 160
+        },
+        {
+          "name": "Julio Salinas",
+          "stat": 152
+        },
+        {
+          "name": "Aritz Aduriz",
+          "stat": 158
+        },
+        {
+          "name": "Ferenc Puskás",
+          "stat": 156
+        },
+        {
+          "name": "Adrián Escudero",
+          "stat": 150
+        },
+        {
+          "name": "Samuel Eto'o",
+          "stat": 162
+        },
+        {
+          "name": "Guillermo Gorostiza",
+          "stat": 178
+        },
+        {
+          "name": "Iago Aspas",
+          "stat": 171
+        }
+      ],
+      "top": [
+        0,
+        7,
+        8
+      ]
+    },
+    {
+      "id": "laliga-goals-06",
+      "category": {
+        "ar": "أهداف الليجا",
+        "en": "La Liga goals"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين سجلوا في الليجا من التسعة دول؟",
+        "en": "Which 3 players scored the most La Liga goals among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — La Liga records and statistics (as of 2026)",
+      "players": [
+        {
+          "name": "Daniel Ruiz",
+          "stat": 147
+        },
+        {
+          "name": "Silvestre Igoa",
+          "stat": 141
+        },
+        {
+          "name": "Ferenc Puskás",
+          "stat": 156
+        },
+        {
+          "name": "Luis Aragonés",
+          "stat": 160
+        },
+        {
+          "name": "Aritz Aduriz",
+          "stat": 158
+        },
+        {
+          "name": "Samuel Eto'o",
+          "stat": 162
+        },
+        {
+          "name": "Julio Salinas",
+          "stat": 152
+        },
+        {
+          "name": "Raúl Tamudo",
+          "stat": 146
+        },
+        {
+          "name": "Adrián Escudero",
+          "stat": 150
+        }
+      ],
+      "top": [
+        3,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "laliga-apps-01",
+      "category": {
+        "ar": "مباريات الليجا",
+        "en": "La Liga appearances"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين لعبوا مباريات في الليجا من التسعة دول؟",
+        "en": "Which 3 players made the most La Liga appearances among these nine?"
+      },
+      "unit": {
+        "ar": "مباراة",
+        "en": "matches"
+      },
+      "source": "Wikipedia — La Liga records and statistics (as of 2026)",
+      "players": [
+        {
+          "name": "Raúl García",
+          "stat": 609
+        },
+        {
+          "name": "Antoine Griezmann",
+          "stat": 564
+        },
+        {
+          "name": "Eusebio Sacristán",
+          "stat": 543
+        },
+        {
+          "name": "Dani Parejo",
+          "stat": 558
+        },
+        {
+          "name": "Francisco Buyo",
+          "stat": 542
+        },
+        {
+          "name": "Sergio Ramos",
+          "stat": 536
+        },
+        {
+          "name": "Raúl González",
+          "stat": 550
+        },
+        {
+          "name": "Joaquín",
+          "stat": 622
+        },
+        {
+          "name": "Andoni Zubizarreta",
+          "stat": 622
+        }
+      ],
+      "top": [
+        0,
+        7,
+        8
+      ]
+    },
+    {
+      "id": "laliga-apps-02",
+      "category": {
+        "ar": "مباريات الليجا",
+        "en": "La Liga appearances"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين لعبوا مباريات في الليجا من التسعة دول؟",
+        "en": "Which 3 players made the most La Liga appearances among these nine?"
+      },
+      "unit": {
+        "ar": "مباراة",
+        "en": "matches"
+      },
+      "source": "Wikipedia — La Liga records and statistics (as of 2026)",
+      "players": [
+        {
+          "name": "Eusebio Sacristán",
+          "stat": 543
+        },
+        {
+          "name": "Manolo Sanchís",
+          "stat": 523
+        },
+        {
+          "name": "Koke",
+          "stat": 522
+        },
+        {
+          "name": "Sergio Ramos",
+          "stat": 536
+        },
+        {
+          "name": "Raúl González",
+          "stat": 550
+        },
+        {
+          "name": "Antoine Griezmann",
+          "stat": 564
+        },
+        {
+          "name": "Dani Parejo",
+          "stat": 558
+        },
+        {
+          "name": "Lionel Messi",
+          "stat": 520
+        },
+        {
+          "name": "Francisco Buyo",
+          "stat": 542
+        }
+      ],
+      "top": [
+        4,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "seriea-goals-01",
+      "category": {
+        "ar": "أهداف الكالتشيو",
+        "en": "Serie A goals"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين سجلوا في الكالتشيو من التسعة دول؟",
+        "en": "Which 3 players scored the most Serie A goals among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — List of Serie A players with 100 or more goals (as of 2026)",
+      "players": [
+        {
+          "name": "Roberto Baggio",
+          "stat": 205
+        },
+        {
+          "name": "Giuseppe Meazza",
+          "stat": 216
+        },
+        {
+          "name": "Silvio Piola",
+          "stat": 274
+        },
+        {
+          "name": "Francesco Totti",
+          "stat": 250
+        },
+        {
+          "name": "Kurt Hamrin",
+          "stat": 190
+        },
+        {
+          "name": "Antonio Di Natale",
+          "stat": 209
+        },
+        {
+          "name": "Ciro Immobile",
+          "stat": 201
+        },
+        {
+          "name": "José Altafini",
+          "stat": 216
+        },
+        {
+          "name": "Gunnar Nordahl",
+          "stat": 225
+        }
+      ],
+      "top": [
+        2,
+        3,
+        8
+      ]
+    },
+    {
+      "id": "seriea-goals-02",
+      "category": {
+        "ar": "أهداف الكالتشيو",
+        "en": "Serie A goals"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين سجلوا في الكالتشيو من التسعة دول؟",
+        "en": "Which 3 players scored the most Serie A goals among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — List of Serie A players with 100 or more goals (as of 2026)",
+      "players": [
+        {
+          "name": "Ciro Immobile",
+          "stat": 201
+        },
+        {
+          "name": "Alessandro Del Piero",
+          "stat": 188
+        },
+        {
+          "name": "Giuseppe Signori",
+          "stat": 188
+        },
+        {
+          "name": "Giuseppe Meazza",
+          "stat": 216
+        },
+        {
+          "name": "Kurt Hamrin",
+          "stat": 190
+        },
+        {
+          "name": "Alberto Gilardino",
+          "stat": 188
+        },
+        {
+          "name": "José Altafini",
+          "stat": 216
+        },
+        {
+          "name": "Antonio Di Natale",
+          "stat": 209
+        },
+        {
+          "name": "Roberto Baggio",
+          "stat": 205
+        }
+      ],
+      "top": [
+        3,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "seriea-goals-03",
+      "category": {
+        "ar": "أهداف الكالتشيو",
+        "en": "Serie A goals"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين سجلوا في الكالتشيو من التسعة دول؟",
+        "en": "Which 3 players scored the most Serie A goals among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — List of Serie A players with 100 or more goals (as of 2026)",
+      "players": [
+        {
+          "name": "Giampiero Boniperti",
+          "stat": 178
+        },
+        {
+          "name": "Fabio Quagliarella",
+          "stat": 182
+        },
+        {
+          "name": "Gabriel Batistuta",
+          "stat": 183
+        },
+        {
+          "name": "Zlatan Ibrahimović",
+          "stat": 156
+        },
+        {
+          "name": "Roberto Boninsegna",
+          "stat": 162
+        },
+        {
+          "name": "Guglielmo Gabetto",
+          "stat": 164
+        },
+        {
+          "name": "Luca Toni",
+          "stat": 157
+        },
+        {
+          "name": "Amedeo Amadei",
+          "stat": 174
+        },
+        {
+          "name": "Giuseppe Savoldi",
+          "stat": 168
+        }
+      ],
+      "top": [
+        0,
+        1,
+        2
+      ]
+    },
+    {
+      "id": "seriea-goals-04",
+      "category": {
+        "ar": "أهداف الكالتشيو",
+        "en": "Serie A goals"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين سجلوا في الكالتشيو من التسعة دول؟",
+        "en": "Which 3 players scored the most Serie A goals among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — List of Serie A players with 100 or more goals (as of 2026)",
+      "players": [
+        {
+          "name": "Roberto Boninsegna",
+          "stat": 162
+        },
+        {
+          "name": "Luca Toni",
+          "stat": 157
+        },
+        {
+          "name": "Filippo Inzaghi",
+          "stat": 156
+        },
+        {
+          "name": "Zlatan Ibrahimović",
+          "stat": 156
+        },
+        {
+          "name": "Roberto Mancini",
+          "stat": 156
+        },
+        {
+          "name": "Luís Vinício",
+          "stat": 155
+        },
+        {
+          "name": "Guglielmo Gabetto",
+          "stat": 164
+        },
+        {
+          "name": "Giuseppe Savoldi",
+          "stat": 168
+        },
+        {
+          "name": "Gigi Riva",
+          "stat": 156
+        }
+      ],
+      "top": [
+        0,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "bundes-goals-01",
+      "category": {
+        "ar": "أهداف البوندسليجا",
+        "en": "Bundesliga goals"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين سجلوا في البوندسليجا من التسعة دول؟",
+        "en": "Which 3 players scored the most Bundesliga goals among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — List of Bundesliga top scorers (as of 2026)",
+      "players": [
+        {
+          "name": "Klaus Fischer",
+          "stat": 268
+        },
+        {
+          "name": "Jupp Heynckes",
+          "stat": 220
+        },
+        {
+          "name": "Manfred Burgsmüller",
+          "stat": 213
+        },
+        {
+          "name": "Stefan Kuntz",
+          "stat": 179
+        },
+        {
+          "name": "Ulf Kirsten",
+          "stat": 181
+        },
+        {
+          "name": "Gerd Müller",
+          "stat": 365
+        },
+        {
+          "name": "Claudio Pizarro",
+          "stat": 197
+        },
+        {
+          "name": "Robert Lewandowski",
+          "stat": 312
+        },
+        {
+          "name": "Dieter Müller",
+          "stat": 177
+        }
+      ],
+      "top": [
+        0,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "bundes-goals-02",
+      "category": {
+        "ar": "أهداف البوندسليجا",
+        "en": "Bundesliga goals"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين سجلوا في البوندسليجا من التسعة دول؟",
+        "en": "Which 3 players scored the most Bundesliga goals among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — List of Bundesliga top scorers (as of 2026)",
+      "players": [
+        {
+          "name": "Claudio Pizarro",
+          "stat": 197
+        },
+        {
+          "name": "Jupp Heynckes",
+          "stat": 220
+        },
+        {
+          "name": "Ulf Kirsten",
+          "stat": 181
+        },
+        {
+          "name": "Dieter Müller",
+          "stat": 177
+        },
+        {
+          "name": "Hannes Löhr",
+          "stat": 166
+        },
+        {
+          "name": "Mario Gómez",
+          "stat": 170
+        },
+        {
+          "name": "Klaus Allofs",
+          "stat": 177
+        },
+        {
+          "name": "Stefan Kuntz",
+          "stat": 179
+        },
+        {
+          "name": "Manfred Burgsmüller",
+          "stat": 213
+        }
+      ],
+      "top": [
+        0,
+        1,
+        8
+      ]
+    },
+    {
+      "id": "bundes-goals-03",
+      "category": {
+        "ar": "أهداف البوندسليجا",
+        "en": "Bundesliga goals"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين سجلوا في البوندسليجا من التسعة دول؟",
+        "en": "Which 3 players scored the most Bundesliga goals among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — List of Bundesliga top scorers (as of 2026)",
+      "players": [
+        {
+          "name": "Marco Reus",
+          "stat": 156
+        },
+        {
+          "name": "Thomas Müller",
+          "stat": 150
+        },
+        {
+          "name": "Klaus Allofs",
+          "stat": 177
+        },
+        {
+          "name": "Mario Gómez",
+          "stat": 170
+        },
+        {
+          "name": "Bernd Hölzenbein",
+          "stat": 160
+        },
+        {
+          "name": "Dieter Müller",
+          "stat": 177
+        },
+        {
+          "name": "Fritz Walter",
+          "stat": 157
+        },
+        {
+          "name": "Karl-Heinz Rummenigge",
+          "stat": 162
+        },
+        {
+          "name": "Hannes Löhr",
+          "stat": 166
+        }
+      ],
+      "top": [
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "id": "bundes-goals-04",
+      "category": {
+        "ar": "أهداف البوندسليجا",
+        "en": "Bundesliga goals"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين سجلوا في البوندسليجا من التسعة دول؟",
+        "en": "Which 3 players scored the most Bundesliga goals among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — List of Bundesliga top scorers (as of 2026)",
+      "players": [
+        {
+          "name": "Karl-Heinz Rummenigge",
+          "stat": 162
+        },
+        {
+          "name": "Andrej Kramarić",
+          "stat": 141
+        },
+        {
+          "name": "Thomas Müller",
+          "stat": 150
+        },
+        {
+          "name": "Marco Reus",
+          "stat": 156
+        },
+        {
+          "name": "Fritz Walter",
+          "stat": 157
+        },
+        {
+          "name": "Bernd Nickel",
+          "stat": 141
+        },
+        {
+          "name": "Thomas Allofs",
+          "stat": 148
+        },
+        {
+          "name": "Bernd Hölzenbein",
+          "stat": 160
+        },
+        {
+          "name": "Stefan Kießling",
+          "stat": 144
+        }
+      ],
+      "top": [
+        0,
+        4,
+        7
+      ]
+    },
+    {
+      "id": "bundes-goals-05",
+      "category": {
+        "ar": "أهداف البوندسليجا",
+        "en": "Bundesliga goals"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين سجلوا في البوندسليجا من التسعة دول؟",
+        "en": "Which 3 players scored the most Bundesliga goals among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — List of Bundesliga top scorers (as of 2026)",
+      "players": [
+        {
+          "name": "Dieter Hoeneß",
+          "stat": 127
+        },
+        {
+          "name": "Martin Max",
+          "stat": 126
+        },
+        {
+          "name": "Georg Volkert",
+          "stat": 125
+        },
+        {
+          "name": "Rudi Völler",
+          "stat": 132
+        },
+        {
+          "name": "Giovane Élber",
+          "stat": 133
+        },
+        {
+          "name": "Michael Zorc",
+          "stat": 131
+        },
+        {
+          "name": "Horst Hrubesch",
+          "stat": 136
+        },
+        {
+          "name": "Vedad Ibišević",
+          "stat": 127
+        },
+        {
+          "name": "Karl Allgöwer",
+          "stat": 129
+        }
+      ],
+      "top": [
+        3,
+        4,
+        6
+      ]
+    },
+    {
+      "id": "ligue1-goals-01",
+      "category": {
+        "ar": "أهداف الدوري الفرنسي",
+        "en": "Ligue 1 goals"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين سجلوا في الدوري الفرنسي من التسعة دول؟",
+        "en": "Which 3 players scored the most Ligue 1 goals among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — List of Ligue 1 top scorers (as of 2026)",
+      "players": [
+        {
+          "name": "Fleury Di Nallo",
+          "stat": 187
+        },
+        {
+          "name": "Roger Courtois",
+          "stat": 210
+        },
+        {
+          "name": "Hervé Revelli",
+          "stat": 216
+        },
+        {
+          "name": "Kylian Mbappé",
+          "stat": 191
+        },
+        {
+          "name": "Delio Onnis",
+          "stat": 299
+        },
+        {
+          "name": "Roger Piantoni",
+          "stat": 203
+        },
+        {
+          "name": "Bernard Lacombe",
+          "stat": 255
+        },
+        {
+          "name": "Thadée Cisowski",
+          "stat": 206
+        },
+        {
+          "name": "Joseph Ujlaki",
+          "stat": 190
+        }
+      ],
+      "top": [
+        2,
+        4,
+        6
+      ]
+    },
+    {
+      "id": "ligue1-goals-02",
+      "category": {
+        "ar": "أهداف الدوري الفرنسي",
+        "en": "Ligue 1 goals"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين سجلوا في الدوري الفرنسي من التسعة دول؟",
+        "en": "Which 3 players scored the most Ligue 1 goals among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — List of Ligue 1 top scorers (as of 2026)",
+      "players": [
+        {
+          "name": "Thadée Cisowski",
+          "stat": 206
+        },
+        {
+          "name": "Joseph Ujlaki",
+          "stat": 190
+        },
+        {
+          "name": "Roger Courtois",
+          "stat": 210
+        },
+        {
+          "name": "Hassan Akesbi",
+          "stat": 173
+        },
+        {
+          "name": "Roger Piantoni",
+          "stat": 203
+        },
+        {
+          "name": "Gunnar Andersson",
+          "stat": 179
+        },
+        {
+          "name": "Fleury Di Nallo",
+          "stat": 187
+        },
+        {
+          "name": "Kylian Mbappé",
+          "stat": 191
+        },
+        {
+          "name": "Carlos Bianchi",
+          "stat": 179
+        }
+      ],
+      "top": [
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "ligue1-goals-03",
+      "category": {
+        "ar": "أهداف الدوري الفرنسي",
+        "en": "Ligue 1 goals"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين سجلوا في الدوري الفرنسي من التسعة دول؟",
+        "en": "Which 3 players scored the most Ligue 1 goals among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — List of Ligue 1 top scorers (as of 2026)",
+      "players": [
+        {
+          "name": "Hassan Akesbi",
+          "stat": 173
+        },
+        {
+          "name": "Alain Giresse",
+          "stat": 163
+        },
+        {
+          "name": "Fleury Di Nallo",
+          "stat": 187
+        },
+        {
+          "name": "Jean Baratte",
+          "stat": 169
+        },
+        {
+          "name": "Wissam Ben Yedder",
+          "stat": 161
+        },
+        {
+          "name": "Gunnar Andersson",
+          "stat": 179
+        },
+        {
+          "name": "Carlos Bianchi",
+          "stat": 179
+        },
+        {
+          "name": "Just Fontaine",
+          "stat": 164
+        },
+        {
+          "name": "Alexandre Lacazette",
+          "stat": 161
+        }
+      ],
+      "top": [
+        2,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "ligue1-goals-04",
+      "category": {
+        "ar": "أهداف الدوري الفرنسي",
+        "en": "Ligue 1 goals"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين سجلوا في الدوري الفرنسي من التسعة دول؟",
+        "en": "Which 3 players scored the most Ligue 1 goals among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — List of Ligue 1 top scorers (as of 2026)",
+      "players": [
+        {
+          "name": "Yvon Douis",
+          "stat": 140
+        },
+        {
+          "name": "Jacky Vergnes",
+          "stat": 153
+        },
+        {
+          "name": "Josip Skoblar",
+          "stat": 151
+        },
+        {
+          "name": "Pauleta",
+          "stat": 141
+        },
+        {
+          "name": "Michel Platini",
+          "stat": 139
+        },
+        {
+          "name": "Rachid Mekhloufi",
+          "stat": 143
+        },
+        {
+          "name": "Dominique Rocheteau",
+          "stat": 145
+        },
+        {
+          "name": "Jean-Pierre Papin",
+          "stat": 156
+        },
+        {
+          "name": "Lucien Cossou",
+          "stat": 149
+        }
+      ],
+      "top": [
+        1,
+        2,
+        7
+      ]
+    },
+    {
+      "id": "ligue1-goals-05",
+      "category": {
+        "ar": "أهداف الدوري الفرنسي",
+        "en": "Ligue 1 goals"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين سجلوا في الدوري الفرنسي من التسعة دول؟",
+        "en": "Which 3 players scored the most Ligue 1 goals among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — List of Ligue 1 top scorers (as of 2026)",
+      "players": [
+        {
+          "name": "Dominique Rocheteau",
+          "stat": 145
+        },
+        {
+          "name": "Sonny Anderson",
+          "stat": 138
+        },
+        {
+          "name": "Michel Platini",
+          "stat": 139
+        },
+        {
+          "name": "Edinson Cavani",
+          "stat": 138
+        },
+        {
+          "name": "Lucien Cossou",
+          "stat": 149
+        },
+        {
+          "name": "Rachid Mekhloufi",
+          "stat": 143
+        },
+        {
+          "name": "Yvon Douis",
+          "stat": 140
+        },
+        {
+          "name": "Stéphane Bruey",
+          "stat": 139
+        },
+        {
+          "name": "Pauleta",
+          "stat": 141
+        }
+      ],
+      "top": [
+        0,
+        4,
+        5
+      ]
+    },
+    {
+      "id": "wc-goals-01",
+      "category": {
+        "ar": "أهداف كأس العالم",
+        "en": "World Cup goals"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين سجلوا في كأس العالم من التسعة دول؟",
+        "en": "Which 3 players scored the most World Cup goals among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — List of FIFA World Cup top goalscorers (as of 19 July 2026)",
+      "players": [
+        {
+          "name": "Harry Kane",
+          "stat": 14
+        },
+        {
+          "name": "Kylian Mbappé",
+          "stat": 22
+        },
+        {
+          "name": "Lionel Messi",
+          "stat": 21
+        },
+        {
+          "name": "Miroslav Klose",
+          "stat": 16
+        },
+        {
+          "name": "Sándor Kocsis",
+          "stat": 11
+        },
+        {
+          "name": "Ronaldo Nazário",
+          "stat": 15
+        },
+        {
+          "name": "Gerd Müller",
+          "stat": 14
+        },
+        {
+          "name": "Just Fontaine",
+          "stat": 13
+        },
+        {
+          "name": "Pelé",
+          "stat": 12
+        }
+      ],
+      "top": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "wc-goals-02",
+      "category": {
+        "ar": "أهداف كأس العالم",
+        "en": "World Cup goals"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين سجلوا في كأس العالم من التسعة دول؟",
+        "en": "Which 3 players scored the most World Cup goals among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — List of FIFA World Cup top goalscorers (as of 19 July 2026)",
+      "players": [
+        {
+          "name": "Ronaldo Nazário",
+          "stat": 15
+        },
+        {
+          "name": "Pelé",
+          "stat": 12
+        },
+        {
+          "name": "Harry Kane",
+          "stat": 14
+        },
+        {
+          "name": "Sándor Kocsis",
+          "stat": 11
+        },
+        {
+          "name": "Helmut Rahn",
+          "stat": 10
+        },
+        {
+          "name": "Jürgen Klinsmann",
+          "stat": 11
+        },
+        {
+          "name": "Gerd Müller",
+          "stat": 14
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "stat": 11
+        },
+        {
+          "name": "Just Fontaine",
+          "stat": 13
+        }
+      ],
+      "top": [
+        0,
+        2,
+        6
+      ]
+    },
+    {
+      "id": "afcon-goals-01",
+      "category": {
+        "ar": "أهداف أمم أفريقيا",
+        "en": "AFCON goals"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين سجلوا في أمم أفريقيا من التسعة دول؟",
+        "en": "Which 3 players scored the most AFCON goals among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — Africa Cup of Nations records and statistics (as of 2025)",
+      "players": [
+        {
+          "name": "Laurent Pokou",
+          "stat": 14
+        },
+        {
+          "name": "Samuel Eto'o",
+          "stat": 18
+        },
+        {
+          "name": "Hassan El-Shazly",
+          "stat": 12
+        },
+        {
+          "name": "Sadio Mané",
+          "stat": 11
+        },
+        {
+          "name": "Patrick Mboma",
+          "stat": 11
+        },
+        {
+          "name": "Mohamed Salah",
+          "stat": 11
+        },
+        {
+          "name": "Rashidi Yekini",
+          "stat": 13
+        },
+        {
+          "name": "Didier Drogba",
+          "stat": 11
+        },
+        {
+          "name": "Hossam Hassan",
+          "stat": 11
+        }
+      ],
+      "top": [
+        0,
+        1,
+        6
+      ]
+    },
+    {
+      "id": "copa-goals-01",
+      "category": {
+        "ar": "أهداف كوبا أمريكا",
+        "en": "Copa América goals"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين سجلوا في كوبا أمريكا من التسعة دول؟",
+        "en": "Which 3 players scored the most Copa América goals among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — Copa América records and statistics (as of 2024)",
+      "players": [
+        {
+          "name": "Lionel Messi",
+          "stat": 14
+        },
+        {
+          "name": "Paolo Guerrero",
+          "stat": 14
+        },
+        {
+          "name": "José Manuel Moreno",
+          "stat": 13
+        },
+        {
+          "name": "Gabriel Batistuta",
+          "stat": 13
+        },
+        {
+          "name": "Ademir",
+          "stat": 13
+        },
+        {
+          "name": "Héctor Scarone",
+          "stat": 13
+        },
+        {
+          "name": "Eduardo Vargas",
+          "stat": 14
+        },
+        {
+          "name": "Jair",
+          "stat": 13
+        },
+        {
+          "name": "Roberto Porta",
+          "stat": 12
+        }
+      ],
+      "top": [
+        0,
+        1,
+        6
+      ]
+    }
+  ]
+}
