@@ -69,6 +69,16 @@
       "id": "caf-champions-league",
       "ar": "دوري أبطال أفريقيا",
       "en": "CAF Champions League"
+    },
+    {
+      "id": "egypt-cup",
+      "ar": "كأس مصر",
+      "en": "Egypt Cup"
+    },
+    {
+      "id": "egyptian-super-cup",
+      "ar": "كأس السوبر المصري",
+      "en": "Egyptian Super Cup"
     }
   ],
   "matches": [
@@ -10302,6 +10312,940 @@
         }
       ],
       "source": "https://en.wikipedia.org/wiki/2017_Africa_Cup_of_Nations_final"
+    },
+    {
+      "id": "egypt-cup-2015-ahl-zam",
+      "competition": "egypt-cup",
+      "year": 2015,
+      "home": {
+        "en": "Al Ahly",
+        "ar": "الأهلي"
+      },
+      "away": {
+        "en": "Zamalek",
+        "ar": "الزمالك"
+      },
+      "score": "0–2",
+      "winner": "away",
+      "decidedBy": "regulation",
+      "difficulty": "medium",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Sherif Ekramy",
+          "ar": "شريف إكرامي"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Hussein El Sayed",
+          "ar": "حسين السيد"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Saad Samir",
+          "ar": "سعد سمير"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Mohamed Nagieb",
+          "ar": "محمد نجيب"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Basem Ali",
+          "ar": "باسم علي"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Hossam Ashour",
+          "ar": "حسام عاشور"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Ahmed Fathy",
+          "ar": "أحمد فتحي"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Abdallah Said",
+          "ar": "عبد الله السعيد"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Ramadan Sobhy",
+          "ar": "رمضان صبحي"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Moamen Zakaria",
+          "ar": "مؤمن زكريا"
+        },
+        {
+          "pos": "ST",
+          "group": "FW",
+          "en": "Amr Gamal",
+          "ar": "عمرو جمال"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Mahmoud Gennesh",
+          "ar": "محمود جنش"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Ahmed Tawfik",
+          "ar": "أحمد توفيق"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Ali Gabr",
+          "ar": "علي جبر"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Mohamed Koffi",
+          "ar": "محمد كوفي"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Hamada Tolba",
+          "ar": "حمادة طلبة"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Tarek Hamed",
+          "ar": "طارق حامد"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Omar Gaber",
+          "ar": "عمر جابر"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Maarouf Youssef",
+          "ar": "معروف يوسف"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Ayman Hefny",
+          "ar": "أيمن حفني"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Kahraba",
+          "ar": "محمود كهربا"
+        },
+        {
+          "pos": "ST",
+          "group": "FW",
+          "en": "Basem Morsy",
+          "ar": "باسم مرسي"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2015_Egypt_Cup_final"
+    },
+    {
+      "id": "egypt-cup-2016-zam-ahl",
+      "competition": "egypt-cup",
+      "year": 2016,
+      "home": {
+        "en": "Zamalek",
+        "ar": "الزمالك"
+      },
+      "away": {
+        "en": "Al Ahly",
+        "ar": "الأهلي"
+      },
+      "score": "3–1",
+      "winner": "home",
+      "decidedBy": "regulation",
+      "difficulty": "medium",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Ahmed El Shenawy",
+          "ar": "أحمد الشناوي"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Shawky El Said",
+          "ar": "شوقي السعيد"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Islam Gamal",
+          "ar": "إسلام جمال"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Ali Gabr",
+          "ar": "علي جبر"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Ali Fathy",
+          "ar": "علي فتحي"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Tarek Hamed",
+          "ar": "طارق حامد"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Ahmed Tawfik",
+          "ar": "أحمد توفيق"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Maarouf Youssef",
+          "ar": "معروف يوسف"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Mahmoud Shikabala",
+          "ar": "شيكابالا"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Ayman Hefny",
+          "ar": "أيمن حفني"
+        },
+        {
+          "pos": "FW",
+          "group": "FW",
+          "en": "Basem Morsy",
+          "ar": "باسم مرسي"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Ahmed Adel",
+          "ar": "أحمد عادل عبد المنعم"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Ramy Rabia",
+          "ar": "رامي ربيعة"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Saad Samir",
+          "ar": "سعد سمير"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Sabri Raheel",
+          "ar": "صبري رحيل"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Hossam Ashour",
+          "ar": "حسام عاشور"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Ahmed Fathy",
+          "ar": "أحمد فتحي"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Hossam Ghaly",
+          "ar": "حسام غالي"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Walid Soliman",
+          "ar": "وليد سليمان"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Moamen Zakaria",
+          "ar": "مؤمن زكريا"
+        },
+        {
+          "pos": "FW",
+          "group": "FW",
+          "en": "Amr Gamal",
+          "ar": "عمرو جمال"
+        },
+        {
+          "pos": "FW",
+          "group": "FW",
+          "en": "Abdallah Said",
+          "ar": "عبد الله السعيد"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2016_Egypt_Cup_final"
+    },
+    {
+      "id": "egypt-super-2017-ahl-zam",
+      "competition": "egyptian-super-cup",
+      "year": 2017,
+      "home": {
+        "en": "Al Ahly",
+        "ar": "الأهلي"
+      },
+      "away": {
+        "en": "Zamalek",
+        "ar": "الزمالك"
+      },
+      "score": "0–0",
+      "winner": "away",
+      "decidedBy": "penalties",
+      "shootout": "1–3",
+      "difficulty": "hard",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Sherif Ekramy",
+          "ar": "شريف إكرامي"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Mohamed Hany",
+          "ar": "محمد هاني"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Saad Samir",
+          "ar": "سعد سمير"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Ahmed Hegazy",
+          "ar": "أحمد حجازي"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Hussein El Sayed",
+          "ar": "حسين السيد"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Ahmed Fathy",
+          "ar": "أحمد فتحي"
+        },
+        {
+          "pos": "DMC",
+          "group": "MF",
+          "en": "Hossam Ashour",
+          "ar": "حسام عاشور"
+        },
+        {
+          "pos": "AMC",
+          "group": "MF",
+          "en": "Abdallah Said",
+          "ar": "عبد الله السعيد"
+        },
+        {
+          "pos": "WL",
+          "group": "MF",
+          "en": "Walid Soliman",
+          "ar": "وليد سليمان"
+        },
+        {
+          "pos": "WR",
+          "group": "MF",
+          "en": "Moamen Zakaria",
+          "ar": "مؤمن زكريا"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Junior Ajayi",
+          "ar": "جونيور أجاي"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Mahmoud Gennesh",
+          "ar": "محمود جنش"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Osama Ibrahim",
+          "ar": "أسامة إبراهيم"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Ali Gabr",
+          "ar": "علي جبر"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Mahmoud Hamdy",
+          "ar": "محمود حمدي الونش"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Mohamed Nasef",
+          "ar": "محمد ناصف"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Tarek Hamed",
+          "ar": "طارق حامد"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Ahmed Tawfik",
+          "ar": "أحمد توفيق"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Maarouf Youssef",
+          "ar": "معروف يوسف"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Mohamed Ibrahim",
+          "ar": "محمد إبراهيم"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Stanley Ohawuchi",
+          "ar": "ستانلي أوهاويتشي"
+        },
+        {
+          "pos": "FW",
+          "group": "FW",
+          "en": "Basem Morsy",
+          "ar": "باسم مرسي"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2017_Egyptian_Super_Cup"
+    },
+    {
+      "id": "egypt-super-2019-ahl-zam",
+      "competition": "egyptian-super-cup",
+      "year": 2019,
+      "home": {
+        "en": "Al Ahly",
+        "ar": "الأهلي"
+      },
+      "away": {
+        "en": "Zamalek",
+        "ar": "الزمالك"
+      },
+      "score": "3–2",
+      "winner": "home",
+      "decidedBy": "regulation",
+      "difficulty": "medium",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Mohamed El Shenawy",
+          "ar": "محمد الشناوي"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Ali Maâloul",
+          "ar": "علي معلول"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Yasser Ibrahim",
+          "ar": "ياسر إبراهيم"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Mahmoud Metwalli",
+          "ar": "محمود متولي"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Ahmed Fathy",
+          "ar": "أحمد فتحي"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Hamdy Fathy",
+          "ar": "حمدي فتحي"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Amr El Solia",
+          "ar": "عمرو السولية"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Mohamed Magdy",
+          "ar": "محمد مجدي قفشة"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Ramadan Sobhi",
+          "ar": "رمضان صبحي"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Hussein El Shahat",
+          "ar": "حسين الشحات"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Junior Ajayi",
+          "ar": "جونيور أجاي"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Mohamed Awad",
+          "ar": "محمد عواد"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Mohamed Abdel Shafy",
+          "ar": "محمد عبد الشافي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Mahmoud Alaa",
+          "ar": "محمود علاء"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Mohamed Abdel Ghani",
+          "ar": "محمد عبد الغني"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Hamdi Nagguez",
+          "ar": "حمدي النقاز"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Tarek Hamed",
+          "ar": "طارق حامد"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Ferjani Sassi",
+          "ar": "فرجاني ساسي"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Youssef Obama",
+          "ar": "يوسف أوباما"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Mohamed Ounajem",
+          "ar": "محمد أوناجم"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Mahmoud Shikabala",
+          "ar": "شيكابالا"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Achraf Bencharki",
+          "ar": "أشرف بن شرقي"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2019_Egyptian_Super_Cup"
+    },
+    {
+      "id": "egypt-cup-2021-ahl-zam",
+      "competition": "egypt-cup",
+      "year": 2021,
+      "home": {
+        "en": "Al Ahly",
+        "ar": "الأهلي"
+      },
+      "away": {
+        "en": "Zamalek",
+        "ar": "الزمالك"
+      },
+      "score": "1–2",
+      "winner": "away",
+      "decidedBy": "regulation",
+      "label": {
+        "ar": "النهائي",
+        "en": "Final"
+      },
+      "difficulty": "medium",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Mohamed El Shenawy",
+          "ar": "محمد الشناوي"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Mohamed Hany",
+          "ar": "محمد هاني"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Yasser Ibrahim",
+          "ar": "ياسر إبراهيم"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Ayman Ashraf",
+          "ar": "أيمن أشرف"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Ali Maâloul",
+          "ar": "علي معلول"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Amr El Solia",
+          "ar": "عمرو السولية"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Hamdy Fathy",
+          "ar": "حمدي فتحي"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Aliou Dieng",
+          "ar": "أليو ديانغ"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Mohamed \"Afsha\" Magdy",
+          "ar": "محمد مجدي قفشة"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Ahmed Abdel Kader",
+          "ar": "أحمد عبد القادر"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Mohamed Sherif",
+          "ar": "محمد شريف"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Mohamed Awad",
+          "ar": "محمد عواد"
+        },
+        {
+          "pos": "RWB",
+          "group": "DF",
+          "en": "Hamza Mathlouthi",
+          "ar": "حمزة المثلوثي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Mahmoud Hamdy",
+          "ar": "محمود حمدي الونش"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Hossam Abdul-Majeed",
+          "ar": "حسام عبد المجيد"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Mohamed Abdel Ghani",
+          "ar": "محمد عبد الغني"
+        },
+        {
+          "pos": "LWB",
+          "group": "DF",
+          "en": "Ahmed Fatouh",
+          "ar": "أحمد أبو الفتوح"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Emam Ashour",
+          "ar": "إمام عاشور"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Sayed Abduallah",
+          "ar": "سيد عبد الله"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Zizo",
+          "ar": "أحمد سيد زيزو"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Achraf Bencharki",
+          "ar": "أشرف بن شرقي"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Seifeddine Jaziri",
+          "ar": "سيف الدين الجزيري"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2021_Egypt_Cup_final"
+    },
+    {
+      "id": "egypt-super-2024-ahl-zam",
+      "competition": "egyptian-super-cup",
+      "year": 2024,
+      "home": {
+        "en": "Al Ahly",
+        "ar": "الأهلي"
+      },
+      "away": {
+        "en": "Zamalek",
+        "ar": "الزمالك"
+      },
+      "score": "0–0",
+      "winner": "home",
+      "decidedBy": "penalties",
+      "shootout": "7–6",
+      "label": {
+        "ar": "النهائي",
+        "en": "Final"
+      },
+      "difficulty": "hard",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Mohamed El Shenawy",
+          "ar": "محمد الشناوي"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Akram Tawfik",
+          "ar": "أكرم توفيق"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Yasser Ibrahim",
+          "ar": "ياسر إبراهيم"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Ramy Rabia",
+          "ar": "رامي ربيعة"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Yahia Attiyat Allah",
+          "ar": "يحيى عطية الله"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Ahmed Nabil Koka",
+          "ar": "أحمد نبيل كوكا"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Marwan Attia",
+          "ar": "مروان عطية"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Emam Ashour",
+          "ar": "إمام عاشور"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Taher Mohamed",
+          "ar": "طاهر محمد طاهر"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Hussein El Shahat",
+          "ar": "حسين الشحات"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Wessam Abou Ali",
+          "ar": "وسام أبو علي"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Mohamed Awad",
+          "ar": "محمد عواد"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Omar Gaber",
+          "ar": "عمر جابر"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Hamza Mathlouthi",
+          "ar": "حمزة المثلوثي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Hossam Abdelmaguid",
+          "ar": "حسام عبد المجيد"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Mahmoud Bentayg",
+          "ar": "محمود بنتايك"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Ziad Kamal",
+          "ar": "زياد كمال"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Mohamed Shehata",
+          "ar": "محمد شحاتة"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Abdallah El Said",
+          "ar": "عبد الله السعيد"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Ahmed Sayed",
+          "ar": "أحمد سيد زيزو"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Nasser Maher",
+          "ar": "ناصر ماهر"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Seifeddine Jaziri",
+          "ar": "سيف الدين الجزيري"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2024_Egyptian_Super_Cup_final"
     }
   ]
 }
