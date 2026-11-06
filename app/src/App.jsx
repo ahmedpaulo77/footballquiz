@@ -9,22 +9,39 @@ import RiskGame from './components/RiskGame.jsx';
 import PointsGame from './components/PointsGame.jsx';
 import Top3Game from './components/Top3Game.jsx';
 import LineupGame from './components/LineupGame.jsx';
+import TeamSetup from './components/TeamSetup.jsx';
+import TeamScoreboard from './components/TeamScoreboard.jsx';
 import { getQuiz, getQuizzes, pickQuestion } from './lib/quizzes.js';
 import { getUi } from './lib/i18n.js';
+import { addTeamPoints, resolveTeamNames } from './lib/teams.js';
+import { pointsForMatch } from './lib/lineups.js';
 import {
   cleanupLegacyStorage,
   hasSeenHelp,
+  hasTeamSetup,
   loadLang,
   loadQuizId,
+  loadScores,
+  loadTeamNames,
   loadTheme,
   markHelpSeen,
+  markTeamSetupSeen,
   saveLang,
   saveQuizId,
+  saveScores,
+  saveTeamNames,
   saveTheme,
 } from './lib/storage.js';
 
 /** آخر كام سؤال نستبعدهم عشان ميتكررش نفس السؤال قريب. */
 const RECENT_LIMIT = 10;
+
+/** بيعوّض {placeholders} في نصوص الواجهة. */
+function fill(template, values) {
+  return String(template ?? '').replace(/\{(\w+)\}/g, (match, key) =>
+    values[key] == null ? match : String(values[key]),
+  );
+}
 
 /** الألعاب اللي بتدير أسئلتها بنفسها من غير اختيار سؤال واحد. */
 const SELF_PACED_KINDS = new Set(['risk', 'points', 'top3', 'lineups']);
@@ -41,9 +58,18 @@ export default function App() {
   });
   const [recent, setRecent] = useState({});
   const [revealed, setRevealed] = useState(false);
-  const [modal, setModal] = useState(() => (hasSeenHelp() ? null : 'help'));
+  const [teams, setTeams] = useState(() => loadTeamNames());
+  const [scores, setScores] = useState(() => loadScores());
+  const [questionAward, setQuestionAward] = useState(null);
+  const [lineupAwards, setLineupAwards] = useState({});
+  const [modal, setModal] = useState(() => {
+    if (!hasSeenHelp()) return 'help';
+    if (!hasTeamSetup()) return 'teams';
+    return null;
+  });
 
   const ui = getUi(lang);
+  const teamNames = resolveTeamNames(teams, lang);
   const quizzes = getQuizzes(lang);
   const quiz = getQuiz(quizId, lang);
   const isRisk = quiz.kind === 'risk';
@@ -59,6 +85,10 @@ export default function App() {
   useEffect(() => {
     cleanupLegacyStorage();
   }, []);
+
+  useEffect(() => {
+    saveScores(scores);
+  }, [scores]);
 
   useEffect(() => {
     document.documentElement.dataset.theme = theme;
@@ -84,6 +114,7 @@ export default function App() {
       [quiz.id]: excludeIds.slice(-RECENT_LIMIT),
     }));
     setRevealed(false);
+    setQuestionAward(null);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [quiz, question?.id, recent]);
 
@@ -99,6 +130,7 @@ export default function App() {
           : pickQuestion(nextQuiz)?.id ?? null,
       );
       setRevealed(false);
+      setQuestionAward(null);
       saveQuizId(nextQuiz.id);
       window.scrollTo({ top: 0, behavior: 'smooth' });
     },
@@ -113,8 +145,64 @@ export default function App() {
     setLang((current) => (current === 'ar' ? 'en' : 'ar'));
   }, []);
 
+  const addPoints = useCallback((teamIndex, delta) => {
+    setScores((current) => addTeamPoints(current, teamIndex, delta));
+  }, []);
+
+  function awardQuestion(teamIndex) {
+    if (!question || questionAward?.questionId === question.id) return;
+    addPoints(teamIndex, 1);
+    setQuestionAward({ questionId: question.id, team: teamIndex });
+  }
+
+  function undoQuestionAward() {
+    if (!questionAward) return;
+    addPoints(questionAward.team, -1);
+    setQuestionAward(null);
+  }
+
+  function awardLineup(match, teamIndex) {
+    if (!match || lineupAwards[match.id]) return;
+    const points = pointsForMatch(match);
+    setLineupAwards((current) => ({
+      ...current,
+      [match.id]: { team: teamIndex, points },
+    }));
+    addPoints(teamIndex, points);
+  }
+
+  function undoLineupAward(matchId) {
+    const award = lineupAwards[matchId];
+    if (!award) return;
+    addPoints(award.team, -award.points);
+    setLineupAwards((current) => {
+      const next = { ...current };
+      delete next[matchId];
+      return next;
+    });
+  }
+
+  function saveTeams(nextNames) {
+    const resolved = resolveTeamNames(nextNames, lang);
+    setTeams(resolved);
+    saveTeamNames(resolved);
+    markTeamSetupSeen();
+    setModal(null);
+  }
+
+  function resetScores() {
+    setScores([0, 0]);
+    setQuestionAward(null);
+    setLineupAwards({});
+  }
+
   function closeHelp() {
     markHelpSeen();
+    setModal(hasTeamSetup() ? null : 'teams');
+  }
+
+  function closeTeams() {
+    markTeamSetupSeen();
     setModal(null);
   }
 
@@ -155,15 +243,55 @@ export default function App() {
         </div>
 
         {isRisk ? (
-          <RiskGame quiz={quiz} ui={ui} lang={lang} />
+          <RiskGame
+            quiz={quiz}
+            ui={ui}
+            teamNames={teamNames}
+            scores={scores}
+            onAddPoints={addPoints}
+            onEditTeams={() => setModal('teams')}
+          />
         ) : isPoints ? (
-          <PointsGame quiz={quiz} ui={ui} lang={lang} />
+          <PointsGame
+            quiz={quiz}
+            ui={ui}
+            lang={lang}
+            teamNames={teamNames}
+            scores={scores}
+            onAddPoints={addPoints}
+            onEditTeams={() => setModal('teams')}
+          />
         ) : isTop3 ? (
-          <Top3Game quiz={quiz} ui={ui} lang={lang} />
+          <Top3Game
+            quiz={quiz}
+            ui={ui}
+            teamNames={teamNames}
+            scores={scores}
+            onAddPoints={addPoints}
+            onEditTeams={() => setModal('teams')}
+          />
         ) : isLineups ? (
-          <LineupGame quiz={quiz} ui={ui} lang={lang} />
+          <LineupGame
+            quiz={quiz}
+            ui={ui}
+            teamNames={teamNames}
+            scores={scores}
+            awards={lineupAwards}
+            onAward={awardLineup}
+            onUndoAward={undoLineupAward}
+            onEditTeams={() => setModal('teams')}
+          />
         ) : (
           <>
+            <TeamScoreboard
+              names={teamNames}
+              scores={scores}
+              roles={[ui.teams.teamOne, ui.teams.teamTwo]}
+              pointsLabel={ui.teams.points}
+              editLabel={ui.teams.edit}
+              onEdit={() => setModal('teams')}
+            />
+
             {quiz.kind === 'path' ? (
               <PathList clubs={question.clubs} loans={question.loans} ui={ui} />
             ) : (
@@ -178,6 +306,44 @@ export default function App() {
               revealed={revealed}
               onToggle={toggleAnswer}
             />
+
+            <div className="teams-award">
+              <div className="teams-award-head">
+                <b>{ui.teams.awardTitle}</b>
+                <span>{ui.teams.awardHint}</span>
+              </div>
+
+              {questionAward?.questionId === question.id ? (
+                <div className="teams-award-done">
+                  <span>
+                    {fill(ui.teams.awarded, {
+                      team: teamNames[questionAward.team],
+                    })}
+                  </span>
+                  <button
+                    type="button"
+                    className="points-edit"
+                    onClick={undoQuestionAward}
+                  >
+                    {ui.teams.undo}
+                  </button>
+                </div>
+              ) : (
+                <div className="teams-award-actions">
+                  {[0, 1].map((index) => (
+                    <button
+                      key={index}
+                      type="button"
+                      className={`teams-award-btn is-team-${index + 1}`}
+                      onClick={() => awardQuestion(index)}
+                    >
+                      <span>{teamNames[index]}</span>
+                      <b>+1</b>
+                    </button>
+                  ))}
+                </div>
+              )}
+            </div>
 
             <div className="controls">
               <button type="button" className="primary-btn next-btn" onClick={nextQuestion}>
@@ -197,6 +363,16 @@ export default function App() {
       </footer>
 
       <HowToPlay open={modal === 'help'} ui={ui} onClose={closeHelp} />
+
+      <TeamSetup
+        open={modal === 'teams'}
+        names={teamNames}
+        scores={scores}
+        labels={ui.teams}
+        onSave={saveTeams}
+        onClose={closeTeams}
+        onResetScores={resetScores}
+      />
     </div>
   );
 }

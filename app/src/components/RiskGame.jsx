@@ -1,5 +1,6 @@
 import { useRef, useState } from 'react';
 import Modal from './Modal.jsx';
+import TeamScoreboard from './TeamScoreboard.jsx';
 import {
   findCell,
   isBoardComplete,
@@ -8,11 +9,6 @@ import {
   scoreLabel,
   swapCategory,
 } from '../lib/risk.js';
-
-const DEFAULT_NAMES = {
-  ar: ['الفريق الأول', 'الفريق الثاني'],
-  en: ['Team One', 'Team Two'],
-};
 
 /** عدد الفئات اللي بتظهر على اللوحة في اللعبة الواحدة. */
 const BOARD_CATEGORIES = 4;
@@ -24,12 +20,16 @@ function fill(template, values) {
   );
 }
 
-export default function RiskGame({ quiz, ui, lang }) {
+export default function RiskGame({
+  quiz,
+  ui,
+  teamNames,
+  scores,
+  onAddPoints,
+  onEditTeams,
+}) {
   const labels = ui.risk;
-  const defaults = DEFAULT_NAMES[lang] ?? DEFAULT_NAMES.ar;
 
-  const [customNames, setCustomNames] = useState([null, null]);
-  const [scores, setScores] = useState([0, 0]);
   const [turn, setTurn] = useState(0);
   const [used, setUsed] = useState(() => new Set());
   const [categoryIds, setCategoryIds] = useState(() =>
@@ -47,9 +47,6 @@ export default function RiskGame({ quiz, ui, lang }) {
   const active = activeId
     ? quiz.questions.find((question) => question.id === activeId) ?? null
     : null;
-  const teamNames = customNames.map((name, index) =>
-    name && name.trim() ? name : defaults[index],
-  );
 
   const categories = quiz.categories ?? [];
   const values = quiz.values ?? [];
@@ -71,14 +68,6 @@ export default function RiskGame({ quiz, ui, lang }) {
     (category) => category.id === pickedCell?.category,
   );
   const activeIsDouble = Boolean(active) && active.id === doubleId;
-
-  function updateName(index, value) {
-    setCustomNames((current) => {
-      const next = [...current];
-      next[index] = value;
-      return next;
-    });
-  }
 
   function pickDouble(cell) {
     if (!cell || !picking) return;
@@ -141,18 +130,13 @@ export default function RiskGame({ quiz, ui, lang }) {
     const double = active.id === doubleId;
     const delta = scoreDelta({ value: active.value, double, correct });
 
-    setScores((current) => {
-      const next = [...current];
-      next[turn] += delta;
-      return next;
-    });
+    onAddPoints(turn, delta);
     setUsed((current) => new Set(current).add(active.id));
     setResult({ correct, delta, team: turn, value: active.value, double });
   }
 
   function resetGame() {
     judgedRef.current = false;
-    setScores([0, 0]);
     setTurn(0);
     setUsed(new Set());
     setCategoryIds(
@@ -166,10 +150,7 @@ export default function RiskGame({ quiz, ui, lang }) {
   }
 
   function requestReset() {
-    if (
-      picking ||
-      (used.size === 0 && scores.every((score) => score === 0))
-    ) {
+    if (picking || used.size === 0) {
       resetGame();
       return;
     }
@@ -184,40 +165,16 @@ export default function RiskGame({ quiz, ui, lang }) {
 
   return (
     <section className="risk-game" aria-label={labels.boardAria}>
-      <div className="risk-scoreboard">
-        {[0, 1].map((index) => (
-          <div
-            key={index}
-            className={`risk-team ${turn === index && !allDone && !picking ? 'is-active' : ''}`}
-          >
-            <div className="risk-team-top">
-              <span className="risk-team-label">
-                {index === 0 ? labels.teamOne : labels.teamTwo}
-              </span>
-              {turn === index && !allDone && !picking ? (
-                <span className="risk-turn-badge">{labels.turnLabel}</span>
-              ) : null}
-            </div>
-
-            <input
-              className="risk-team-input"
-              type="text"
-              maxLength={24}
-              value={customNames[index] ?? defaults[index]}
-              onChange={(event) => updateName(index, event.target.value)}
-              onBlur={() => {
-                if (!customNames[index]?.trim()) updateName(index, null);
-              }}
-              aria-label={labels.teamAria}
-            />
-
-            <div className="risk-team-score">
-              {scores[index]}
-              <span>{labels.points}</span>
-            </div>
-          </div>
-        ))}
-      </div>
+      <TeamScoreboard
+        names={teamNames}
+        scores={scores}
+        roles={[labels.teamOne, labels.teamTwo]}
+        pointsLabel={labels.points}
+        activeIndex={allDone || picking ? null : turn}
+        activeLabel={labels.turnLabel}
+        editLabel={ui.teams.edit}
+        onEdit={onEditTeams}
+      />
 
       {allDone ? (
         <div className="risk-final">

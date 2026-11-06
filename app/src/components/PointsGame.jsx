@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import TeamScoreboard from './TeamScoreboard.jsx';
 import {
   DEFAULT_POINTS,
   DEFAULT_ROUNDS,
@@ -15,11 +16,6 @@ import {
   winnerIndex,
 } from '../lib/points.js';
 
-const DEFAULT_NAMES = {
-  ar: ['الفريق الأول', 'الفريق الثاني'],
-  en: ['Team One', 'Team Two'],
-};
-
 const OPTION_LETTERS = {
   ar: ['أ', 'ب', 'ج', 'د'],
   en: ['A', 'B', 'C', 'D'],
@@ -31,9 +27,16 @@ function fill(template, values) {
   );
 }
 
-export default function PointsGame({ quiz, ui, lang }) {
+export default function PointsGame({
+  quiz,
+  ui,
+  lang,
+  teamNames,
+  scores,
+  onAddPoints,
+  onEditTeams,
+}) {
   const labels = ui.points;
-  const defaults = DEFAULT_NAMES[lang] ?? DEFAULT_NAMES.ar;
   const letters = OPTION_LETTERS[lang] ?? OPTION_LETTERS.ar;
 
   const pointsPerQuestion = quiz.pointsPerQuestion ?? DEFAULT_POINTS;
@@ -42,8 +45,6 @@ export default function PointsGame({ quiz, ui, lang }) {
     quiz.questions.length,
   );
 
-  const [customNames, setCustomNames] = useState([null, null]);
-  const [scores, setScores] = useState([0, 0]);
   const [round, setRound] = useState(0);
   const [questionIds, setQuestionIds] = useState(() =>
     pickQuestions(quiz.questions, rounds).map((question) => question.id),
@@ -54,10 +55,6 @@ export default function PointsGame({ quiz, ui, lang }) {
   const [revealed, setRevealed] = useState(false);
   const [gains, setGains] = useState([0, 0]);
   const [finished, setFinished] = useState(false);
-
-  const teamNames = customNames.map((name, index) =>
-    name && name.trim() ? name : defaults[index],
-  );
 
   const question =
     quiz.questions.find((item) => item.id === questionIds[round]) ?? null;
@@ -79,14 +76,6 @@ export default function PointsGame({ quiz, ui, lang }) {
       : round + 1 >= rounds
         ? labels.suddenNext
         : labels.nextQuestion;
-
-  function updateName(index, value) {
-    setCustomNames((current) => {
-      const next = [...current];
-      next[index] = value;
-      return next;
-    });
-  }
 
   function changeSplit(index, delta) {
     if (revealed || finished) return;
@@ -165,7 +154,8 @@ export default function PointsGame({ quiz, ui, lang }) {
     ];
 
     setGains(nextGains);
-    setScores((current) => [current[0] + nextGains[0], current[1] + nextGains[1]]);
+    onAddPoints(0, nextGains[0]);
+    onAddPoints(1, nextGains[1]);
     setRevealed(true);
   }
 
@@ -213,7 +203,6 @@ export default function PointsGame({ quiz, ui, lang }) {
   function resetGame() {
     const nextQuestions = pickQuestions(quiz.questions, rounds);
 
-    setScores([0, 0]);
     setRound(0);
     setQuestionIds(nextQuestions.map((item) => item.id));
     setFinished(false);
@@ -222,9 +211,7 @@ export default function PointsGame({ quiz, ui, lang }) {
 
   function requestReset() {
     const started =
-      round > 0 ||
-      scores.some((score) => score !== 0) ||
-      splits.some((split) => splitTotal(split) > 0);
+      round > 0 || splits.some((split) => splitTotal(split) > 0);
 
     if (!started) {
       resetGame();
@@ -238,42 +225,16 @@ export default function PointsGame({ quiz, ui, lang }) {
 
   return (
     <section className="points-game" aria-label={labels.boardAria}>
-      <div className="risk-scoreboard">
-        {[0, 1].map((index) => (
-          <div
-            key={index}
-            className={`risk-team ${
-              !revealed && !finished && activeTeam === index ? 'is-active' : ''
-            }`}
-          >
-            <div className="risk-team-top">
-              <span className="risk-team-label">
-                {index === 0 ? labels.teamOne : labels.teamTwo}
-              </span>
-              {!revealed && !finished && activeTeam === index ? (
-                <span className="risk-turn-badge">{labels.turnLabel}</span>
-              ) : null}
-            </div>
-
-            <input
-              className="risk-team-input"
-              type="text"
-              maxLength={24}
-              value={customNames[index] ?? defaults[index]}
-              onChange={(event) => updateName(index, event.target.value)}
-              onBlur={() => {
-                if (!customNames[index]?.trim()) updateName(index, null);
-              }}
-              aria-label={labels.teamAria}
-            />
-
-            <div className="risk-team-score">
-              {scores[index]}
-              <span>{labels.points}</span>
-            </div>
-          </div>
-        ))}
-      </div>
+      <TeamScoreboard
+        names={teamNames}
+        scores={scores}
+        roles={[labels.teamOne, labels.teamTwo]}
+        pointsLabel={labels.points}
+        activeIndex={revealed || finished ? null : activeTeam}
+        activeLabel={labels.turnLabel}
+        editLabel={ui.teams.edit}
+        onEdit={onEditTeams}
+      />
 
       {finished ? (
         <div className="risk-final">

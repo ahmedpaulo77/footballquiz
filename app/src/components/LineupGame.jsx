@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import Modal from './Modal.jsx';
+import TeamScoreboard from './TeamScoreboard.jsx';
+import { pointsForMatch } from '../lib/lineups.js';
 
 const DIFFICULTIES = ['easy', 'medium', 'hard'];
 const GROUPS = ['GK', 'DF', 'MF', 'FW'];
@@ -58,7 +60,16 @@ function LineupSide({ team, players, labels, side }) {
   );
 }
 
-export default function LineupGame({ quiz, ui }) {
+export default function LineupGame({
+  quiz,
+  ui,
+  teamNames,
+  scores,
+  awards,
+  onAward,
+  onUndoAward,
+  onEditTeams,
+}) {
   const labels = ui.lineups;
   const matches = quiz.matches ?? [];
 
@@ -71,6 +82,7 @@ export default function LineupGame({ quiz, ui }) {
       : matches.filter((match) => match.difficulty === difficulty);
 
   const selected = matches.find((match) => match.id === selectedId) ?? null;
+  const award = selected ? awards?.[selected.id] ?? null : null;
 
   function openRandom() {
     if (filtered.length === 0) return;
@@ -80,6 +92,15 @@ export default function LineupGame({ quiz, ui }) {
 
   return (
     <section className="lineup-game" aria-label={labels.boardAria}>
+      <TeamScoreboard
+        names={teamNames}
+        scores={scores}
+        roles={[ui.teams.teamOne, ui.teams.teamTwo]}
+        pointsLabel={ui.teams.points}
+        editLabel={ui.teams.edit}
+        onEdit={onEditTeams}
+      />
+
       <div className="lineup-toolbar">
         <div className="lineup-filters" role="group" aria-label={labels.filterAria}>
           <button
@@ -215,6 +236,51 @@ export default function LineupGame({ quiz, ui }) {
                 side="away"
               />
             </div>
+
+            {selected ? (
+              <div className="lineup-award">
+                <div className="lineup-award-head">
+                  <b className="lineup-award-title">{labels.awardTitle}</b>
+                  <span className="lineup-award-hint">
+                    {fill(labels.awardHint, {
+                      points: pointsForMatch(selected),
+                    })}
+                  </span>
+                </div>
+
+                {award ? (
+                  <div className="lineup-award-done">
+                    <span>
+                      {fill(labels.awarded, {
+                        team: teamNames[award.team],
+                        points: award.points,
+                      })}
+                    </span>
+                    <button
+                      type="button"
+                      className="points-edit"
+                      onClick={() => onUndoAward(selected.id)}
+                    >
+                      {labels.undo}
+                    </button>
+                  </div>
+                ) : (
+                  <div className="lineup-award-actions">
+                    {[0, 1].map((index) => (
+                      <button
+                        key={index}
+                        type="button"
+                        className={`lineup-award-btn is-team-${index + 1}`}
+                        onClick={() => onAward(selected, index)}
+                      >
+                        <span>{teamNames[index]}</span>
+                        <b>+{pointsForMatch(selected)}</b>
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </div>
+            ) : null}
 
             <div className="lineup-modal-foot">
               <span>{labels.startersNote}</span>

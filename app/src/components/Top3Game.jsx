@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import TeamScoreboard from './TeamScoreboard.jsx';
 import { pickQuestions, winnerIndex } from '../lib/points.js';
 import {
   BONUS_ALL_CORRECT,
@@ -9,20 +10,21 @@ import {
   togglePick,
 } from '../lib/top3.js';
 
-const DEFAULT_NAMES = {
-  ar: ['الفريق الأول', 'الفريق الثاني'],
-  en: ['Team One', 'Team Two'],
-};
-
 function fill(template, values) {
   return String(template ?? '').replace(/\{(\w+)\}/g, (match, key) =>
     values[key] == null ? match : String(values[key]),
   );
 }
 
-export default function Top3Game({ quiz, ui, lang }) {
+export default function Top3Game({
+  quiz,
+  ui,
+  teamNames,
+  scores,
+  onAddPoints,
+  onEditTeams,
+}) {
   const labels = ui.top3;
-  const defaults = DEFAULT_NAMES[lang] ?? DEFAULT_NAMES.ar;
 
   const picksCount = quiz.picksCount ?? DEFAULT_PICKS;
   const rounds = Math.min(
@@ -30,8 +32,6 @@ export default function Top3Game({ quiz, ui, lang }) {
     quiz.questions.length,
   );
 
-  const [customNames, setCustomNames] = useState([null, null]);
-  const [scores, setScores] = useState([0, 0]);
   const [round, setRound] = useState(0);
   const [questionIds, setQuestionIds] = useState(() =>
     pickQuestions(quiz.questions, rounds).map((question) => question.id),
@@ -42,10 +42,6 @@ export default function Top3Game({ quiz, ui, lang }) {
   const [revealed, setRevealed] = useState(false);
   const [gains, setGains] = useState([0, 0]);
   const [finished, setFinished] = useState(false);
-
-  const teamNames = customNames.map((name, index) =>
-    name && name.trim() ? name : defaults[index],
-  );
 
   const question =
     quiz.questions.find((item) => item.id === questionIds[round]) ?? null;
@@ -66,14 +62,6 @@ export default function Top3Game({ quiz, ui, lang }) {
       : round + 1 >= rounds
         ? labels.suddenNext
         : labels.nextQuestion;
-
-  function updateName(index, value) {
-    setCustomNames((current) => {
-      const next = [...current];
-      next[index] = value;
-      return next;
-    });
-  }
 
   function toggle(index) {
     if (revealed || finished) return;
@@ -107,7 +95,8 @@ export default function Top3Game({ quiz, ui, lang }) {
     ];
 
     setGains(nextGains);
-    setScores((current) => [current[0] + nextGains[0], current[1] + nextGains[1]]);
+    onAddPoints(0, nextGains[0]);
+    onAddPoints(1, nextGains[1]);
     setRevealed(true);
   }
 
@@ -155,7 +144,6 @@ export default function Top3Game({ quiz, ui, lang }) {
   function resetGame() {
     const nextQuestions = pickQuestions(quiz.questions, rounds);
 
-    setScores([0, 0]);
     setRound(0);
     setQuestionIds(nextQuestions.map((item) => item.id));
     setFinished(false);
@@ -164,9 +152,7 @@ export default function Top3Game({ quiz, ui, lang }) {
 
   function requestReset() {
     const started =
-      round > 0 ||
-      scores.some((score) => score !== 0) ||
-      picks.some((teamPicks) => teamPicks.length > 0);
+      round > 0 || picks.some((teamPicks) => teamPicks.length > 0);
 
     if (!started) {
       resetGame();
@@ -180,42 +166,16 @@ export default function Top3Game({ quiz, ui, lang }) {
 
   return (
     <section className="top3-game" aria-label={labels.boardAria}>
-      <div className="risk-scoreboard">
-        {[0, 1].map((index) => (
-          <div
-            key={index}
-            className={`risk-team ${
-              !revealed && !finished && activeTeam === index ? 'is-active' : ''
-            }`}
-          >
-            <div className="risk-team-top">
-              <span className="risk-team-label">
-                {index === 0 ? labels.teamOne : labels.teamTwo}
-              </span>
-              {!revealed && !finished && activeTeam === index ? (
-                <span className="risk-turn-badge">{labels.turnLabel}</span>
-              ) : null}
-            </div>
-
-            <input
-              className="risk-team-input"
-              type="text"
-              maxLength={24}
-              value={customNames[index] ?? defaults[index]}
-              onChange={(event) => updateName(index, event.target.value)}
-              onBlur={() => {
-                if (!customNames[index]?.trim()) updateName(index, null);
-              }}
-              aria-label={labels.teamAria}
-            />
-
-            <div className="risk-team-score">
-              {scores[index]}
-              <span>{labels.points}</span>
-            </div>
-          </div>
-        ))}
-      </div>
+      <TeamScoreboard
+        names={teamNames}
+        scores={scores}
+        roles={[labels.teamOne, labels.teamTwo]}
+        pointsLabel={labels.points}
+        activeIndex={revealed || finished ? null : activeTeam}
+        activeLabel={labels.turnLabel}
+        editLabel={ui.teams.edit}
+        onEdit={onEditTeams}
+      />
 
       {finished ? (
         <div className="risk-final">
