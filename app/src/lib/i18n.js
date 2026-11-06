@@ -51,7 +51,7 @@ export const UI = {
       },
       lineups: {
         title: 'الفريقين… والـ22 لاعب',
-        text: 'كل كارت مباراة فيه الفريقين والسنة والنتيجة. دوس على الكارت تشوف الـ11 لاعب اللي بدأوا في كل فريق.',
+        text: 'كل كارت ماتش مشهور — نهائي أو لأ — فيه الفريقين والسنة والنتيجة. دوس على الكارت تشوف الـ11 لاعب اللي بدأوا في كل فريق.',
         hint: 'الأساسي بس — مفيش بدلاء. استخدم فلتر الصعوبة أو زرار «ماتش عشوائي».',
       },
     },
@@ -240,7 +240,7 @@ export const UI = {
         },
         {
           title: 'تشكيلات المباريات',
-          text: 'كل كارت مباراة نهائي فيه الفريقين والسنة والنتيجة. دوس عليه يفتح التشكيل الأساسي: ١١ لاعب لكل فريق مقسّمين حراسة ودفاع ووسط وهجوم. مفيش نقاط ولا فرق — دي جولة استعراض.',
+          text: 'كل كارت مباراة مشهور — نهائي أو لأ — فيه الفريقين والسنة والنتيجة. دوس عليه يفتح التشكيل الأساسي: ١١ لاعب لكل فريق مقسّمين حراسة ودفاع ووسط وهجوم. مفيش نقاط ولا فرق — دي جولة استعراض.',
         },
         {
           title: 'البيانات',
@@ -303,7 +303,7 @@ export const UI = {
       },
       lineups: {
         title: 'Both teams… and the 22 starters',
-        text: 'Every match card shows both teams, the year and the result. Tap a card to reveal the 11 players who actually started for each side.',
+        text: 'Every famous match card — final or not — shows both teams, the year and the result. Tap a card to reveal the 11 players who actually started for each side.',
         hint: 'Starters only — no substitutes. Use the difficulty filter or the Random match button.',
       },
     },
@@ -492,7 +492,7 @@ export const UI = {
         },
         {
           title: 'Match Lineups',
-          text: 'Every final match card shows both teams, the year and the result. Tap it to open the starting line-ups: 11 players per side, grouped into goalkeeper, defence, midfield and attack. No points, no teams — just a host-led showcase.',
+          text: 'Every famous match card — final or not — shows both teams, the year and the result. Tap it to open the starting line-ups: 11 players per side, grouped into goalkeeper, defence, midfield and attack. No points, no teams — just a host-led showcase.',
         },
         {
           title: 'The data',

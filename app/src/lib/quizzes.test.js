@@ -460,11 +460,11 @@ describe('لعبة «تشكيلات المباريات»', () => {
     expect(QUIZZES[5].id).toBe('lineups');
   });
 
-  it('فيها ٤٨ ماتش و٧ مسابقات كلها مستخدمة', () => {
-    expect(arQuiz.matches).toHaveLength(48);
-    expect(enQuiz.matches).toHaveLength(48);
-    expect(arQuiz.competitions).toHaveLength(7);
-    expect(new Set(arQuiz.matches.map((match) => match.competition)).size).toBe(7);
+  it('فيها ٦٦ ماتش و١٠ مسابقات كلها مستخدمة', () => {
+    expect(arQuiz.matches).toHaveLength(66);
+    expect(enQuiz.matches).toHaveLength(66);
+    expect(arQuiz.competitions).toHaveLength(10);
+    expect(new Set(arQuiz.matches.map((match) => match.competition)).size).toBe(10);
 
     for (const competition of arQuiz.competitions) {
       expect(competition.title, competition.id).toMatch(ARABIC_LETTERS);

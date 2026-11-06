@@ -54,6 +54,21 @@
       "id": "europa-league",
       "ar": "الدوري الأوروبي",
       "en": "UEFA Europa League"
+    },
+    {
+      "id": "premier-league",
+      "ar": "الدوري الإنجليزي الممتاز",
+      "en": "Premier League"
+    },
+    {
+      "id": "fa-cup",
+      "ar": "كأس الاتحاد الإنجليزي",
+      "en": "FA Cup"
+    },
+    {
+      "id": "caf-champions-league",
+      "ar": "دوري أبطال أفريقيا",
+      "en": "CAF Champions League"
     }
   ],
   "matches": [
@@ -7462,6 +7477,2831 @@
         }
       ],
       "source": "https://en.wikipedia.org/wiki/2024_UEFA_Europa_League_final"
+    },
+    {
+      "id": "wc-2022-ned-arg",
+      "competition": "world-cup",
+      "year": 2022,
+      "home": {
+        "en": "Netherlands",
+        "ar": "هولندا"
+      },
+      "away": {
+        "en": "Argentina",
+        "ar": "الأرجنتين"
+      },
+      "score": "2–2",
+      "winner": "away",
+      "decidedBy": "penalties",
+      "shootout": "3–4",
+      "label": {
+        "ar": "ربع النهائي",
+        "en": "Quarter-final"
+      },
+      "difficulty": "medium",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Andries Noppert",
+          "ar": "أندريس نوبيرت"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Jurriën Timber",
+          "ar": "جوراين تيمبير"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Virgil van Dijk",
+          "ar": "فيرجيل فان دايك"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Nathan Aké",
+          "ar": "ناثان أكي"
+        },
+        {
+          "pos": "RWB",
+          "group": "DF",
+          "en": "Denzel Dumfries",
+          "ar": "دنزل دومفريس"
+        },
+        {
+          "pos": "LWB",
+          "group": "DF",
+          "en": "Daley Blind",
+          "ar": "دالي بليند"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Marten de Roon",
+          "ar": "مارتن دي رون"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Frenkie de Jong",
+          "ar": "فرينكي دي يونغ"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Cody Gakpo",
+          "ar": "كودي خاكبو"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Memphis Depay",
+          "ar": "ممفيس ديباي"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Steven Bergwijn",
+          "ar": "ستيفن بيرجوين"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Emiliano Martínez",
+          "ar": "إيميليانو مارتينيز"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Cristian Romero",
+          "ar": "كريستيان روميرو"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Nicolás Otamendi",
+          "ar": "نيكولاس أوتامندي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Lisandro Martínez",
+          "ar": "ليساندرو مارتينيز"
+        },
+        {
+          "pos": "RWB",
+          "group": "DF",
+          "en": "Nahuel Molina",
+          "ar": "ناهويل مولينا"
+        },
+        {
+          "pos": "LWB",
+          "group": "DF",
+          "en": "Marcos Acuña",
+          "ar": "ماركوس أكونيا"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Rodrigo De Paul",
+          "ar": "رودريغو دي بول"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Enzo Fernández",
+          "ar": "إنزو فرنانديز"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Alexis Mac Allister",
+          "ar": "ألكسيس ماك أليستير"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Julián Alvarez",
+          "ar": "خوليان ألفاريز"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Lionel Messi",
+          "ar": "ليونيل ميسي"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/Battle_of_Lusail"
+    },
+    {
+      "id": "wc-2006-por-ned",
+      "competition": "world-cup",
+      "year": 2006,
+      "home": {
+        "en": "Portugal",
+        "ar": "البرتغال"
+      },
+      "away": {
+        "en": "Netherlands",
+        "ar": "هولندا"
+      },
+      "score": "1–0",
+      "winner": "home",
+      "decidedBy": "regulation",
+      "label": {
+        "ar": "دور الـ16",
+        "en": "Round of 16"
+      },
+      "difficulty": "hard",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Ricardo",
+          "ar": "ريكاردو باريرا"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Miguel",
+          "ar": "ميغيل مونتيرو"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Fernando Meira",
+          "ar": "فرناندو ميرا"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Ricardo Carvalho",
+          "ar": "ريكاردو كارفاليو"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Nuno Valente",
+          "ar": "نونو فالينتي"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Costinha",
+          "ar": "كوستينيا"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Maniche",
+          "ar": "مانيش"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Luís Figo",
+          "ar": "لويس فيغو"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Deco",
+          "ar": "ديكو"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Cristiano Ronaldo",
+          "ar": "كريستيانو رونالدو"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Pauleta",
+          "ar": "باوليتا"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Edwin van der Sar",
+          "ar": "أدوين فان در سار"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Khalid Boulahrouz",
+          "ar": "خالد بولحروز"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "André Ooijer",
+          "ar": "أندري أويير"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Joris Mathijsen",
+          "ar": "يوريس ماتيسين"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Giovanni van Bronckhorst",
+          "ar": "جيوفاني فان برونكهورست"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Mark van Bommel",
+          "ar": "مارك فان بوميل"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Wesley Sneijder",
+          "ar": "ويسلي سنايدر"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Phillip Cocu",
+          "ar": "فيليب كوكو"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Robin van Persie",
+          "ar": "روبين فان بيرسي"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Dirk Kuyt",
+          "ar": "ديرك كويت"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Arjen Robben",
+          "ar": "آريين روبن"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/Battle_of_Nuremberg_(2006_FIFA_World_Cup)"
+    },
+    {
+      "id": "wc-1998-usa-iran",
+      "competition": "world-cup",
+      "year": 1998,
+      "home": {
+        "en": "United States",
+        "ar": "الولايات المتحدة"
+      },
+      "away": {
+        "en": "Iran",
+        "ar": "إيران"
+      },
+      "score": "1–2",
+      "winner": "away",
+      "decidedBy": "regulation",
+      "label": {
+        "ar": "دور المجموعات",
+        "en": "Group stage"
+      },
+      "difficulty": "hard",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Kasey Keller",
+          "ar": "كيسي كيلر"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Eddie Pope",
+          "ar": "إدي بابا"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Thomas Dooley",
+          "ar": "توماس دولي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "David Regis",
+          "ar": "ديفيد رجيس"
+        },
+        {
+          "pos": "RWB",
+          "group": "DF",
+          "en": "Frankie Hejduk",
+          "ar": "فرانكي هايدوك"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Tab Ramos",
+          "ar": "تاب راموس"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Claudio Reyna",
+          "ar": "كلاوديو رينا"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Joe-Max Moore",
+          "ar": "جو-ماكس مور"
+        },
+        {
+          "pos": "LWB",
+          "group": "DF",
+          "en": "Cobi Jones",
+          "ar": "كوبي جونز"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Roy Wegerle",
+          "ar": "روي ويغيرله"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Brian McBride",
+          "ar": "براين مكبرايد"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Ahmad Reza Abedzadeh",
+          "ar": "أحمد رضا عابد زاده"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Mohammad Khakpour",
+          "ar": "محمد خاكبور"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Nader Mohammadkhani",
+          "ar": "نادر محمدخاني"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Mehdi Pashazadeh",
+          "ar": "مهدي باشازاده"
+        },
+        {
+          "pos": "RWB",
+          "group": "DF",
+          "en": "Javad Zarincheh",
+          "ar": "جواد زرينتشه"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Mehdi Mahdavikia",
+          "ar": "مهدي مهدويكيا"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Karim Bagheri",
+          "ar": "كريم باقري"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Hamid Estili",
+          "ar": "حميد إستيلي"
+        },
+        {
+          "pos": "LWB",
+          "group": "DF",
+          "en": "Mehrdad Minavand",
+          "ar": "مهرداد ميناوند"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Khodadad Azizi",
+          "ar": "خداداد عزيزي"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Ali Daei",
+          "ar": "علي دائي"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/United_States_v_Iran_(1998_FIFA_World_Cup)"
+    },
+    {
+      "id": "wc-2002-kor-ita",
+      "competition": "world-cup",
+      "year": 2002,
+      "home": {
+        "en": "South Korea",
+        "ar": "كوريا الجنوبية"
+      },
+      "away": {
+        "en": "Italy",
+        "ar": "إيطاليا"
+      },
+      "score": "2–1",
+      "winner": "home",
+      "decidedBy": "golden-goal",
+      "label": {
+        "ar": "دور الـ16",
+        "en": "Round of 16"
+      },
+      "difficulty": "medium",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Lee Woon-jae",
+          "ar": "لي أون جاي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Choi Jin-cheul",
+          "ar": "تشوي جن تشول"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Hong Myung-bo",
+          "ar": "هونغ ميونغ بو"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Kim Tae-young",
+          "ar": "كيم تاي يونغ"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Song Chong-gug",
+          "ar": "سونغ جونغ غك"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Yoo Sang-chul",
+          "ar": "يو سانغ تشول"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Kim Nam-il",
+          "ar": "كيم نام إل"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Lee Young-pyo",
+          "ar": "إي يونغ بيو"
+        },
+        {
+          "pos": "RF",
+          "group": "FW",
+          "en": "Park Ji-sung",
+          "ar": "بارك جي سونغ"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Ahn Jung-hwan",
+          "ar": "أن جونغ هوان"
+        },
+        {
+          "pos": "LF",
+          "group": "FW",
+          "en": "Seol Ki-hyeon",
+          "ar": "سول غي هيون"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Gianluigi Buffon",
+          "ar": "جانلويجي بوفون"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Christian Panucci",
+          "ar": "كريستيان بانوتشي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Mark Iuliano",
+          "ar": "مارك أوليانو"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Paolo Maldini",
+          "ar": "باولو مالديني"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Francesco Coco",
+          "ar": "فرانشيسكو كوكو"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Damiano Tommasi",
+          "ar": "داميانو توماسي"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Cristiano Zanetti",
+          "ar": "كريستيانو زانيتي"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Gianluca Zambrotta",
+          "ar": "جانلوكا زامبروتا"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Alessandro Del Piero",
+          "ar": "أليساندرو دل بييرو"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Francesco Totti",
+          "ar": "فرانشيسكو توتي"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Christian Vieri",
+          "ar": "كريستيان فييري"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/South_Korea_v_Italy_(2002_FIFA_World_Cup)"
+    },
+    {
+      "id": "wc-2014-bra-ger",
+      "competition": "world-cup",
+      "year": 2014,
+      "home": {
+        "en": "Brazil",
+        "ar": "البرازيل"
+      },
+      "away": {
+        "en": "Germany",
+        "ar": "ألمانيا"
+      },
+      "score": "1–7",
+      "winner": "away",
+      "decidedBy": "regulation",
+      "label": {
+        "ar": "نصف النهائي",
+        "en": "Semi-final"
+      },
+      "difficulty": "easy",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Júlio César",
+          "ar": "جوليو سيزار"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Maicon",
+          "ar": "مايكون"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "David Luiz",
+          "ar": "دافيد لويز"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Dante",
+          "ar": "دانتي بونفيم"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Marcelo",
+          "ar": "مارسيلو"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Luiz Gustavo",
+          "ar": "لويس غوستافو"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Fernandinho",
+          "ar": "فرناندينيو"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Hulk",
+          "ar": "هالك"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Oscar",
+          "ar": "أوسكار دوس سانتوس إمبوابا جونيور"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Bernard",
+          "ar": "برنارد دوارتي"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Fred",
+          "ar": "فريديريكو تشافيز غويديس"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Manuel Neuer",
+          "ar": "مانويل نوير"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Philipp Lahm",
+          "ar": "فيليب لام"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Jérôme Boateng",
+          "ar": "جيروم بواتينغ"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Mats Hummels",
+          "ar": "ماتس هوملز"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Benedikt Höwedes",
+          "ar": "بينيديكت هوفيديس"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Sami Khedira",
+          "ar": "سامي خضيرة"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Bastian Schweinsteiger",
+          "ar": "باستيان شفاينشتايغر"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Thomas Müller",
+          "ar": "توماس مولر"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Toni Kroos",
+          "ar": "توني كروس"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Mesut Özil",
+          "ar": "مسعود أوزيل"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Miroslav Klose",
+          "ar": "ميروسلاف كلوزه"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/Brazil_v_Germany_(2014_FIFA_World_Cup)"
+    },
+    {
+      "id": "ucl-2017-barca-psg",
+      "competition": "champions-league",
+      "year": 2017,
+      "home": {
+        "en": "Barcelona",
+        "ar": "برشلونة"
+      },
+      "away": {
+        "en": "Paris Saint-Germain",
+        "ar": "باريس سان جيرمان"
+      },
+      "score": "6–1",
+      "winner": "home",
+      "decidedBy": "regulation",
+      "label": {
+        "ar": "إياب دور الـ16",
+        "en": "Round of 16, second leg"
+      },
+      "difficulty": "easy",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Marc-André ter Stegen",
+          "ar": "مارك أندريه تير شتيغن"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Javier Mascherano",
+          "ar": "خافيير ماسكيرانو"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Gerard Piqué",
+          "ar": "جيرارد بيكيه"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Samuel Umtiti",
+          "ar": "صامويل أومتيتي"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Sergio Busquets",
+          "ar": "سيرجيو بوسكيتس"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Ivan Rakitić",
+          "ar": "إيفان راكيتيتش"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Andrés Iniesta",
+          "ar": "أندريس إنييستا"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Lionel Messi",
+          "ar": "ليونيل ميسي"
+        },
+        {
+          "pos": "RF",
+          "group": "FW",
+          "en": "Rafinha",
+          "ar": "رافينيا ألكانتارا"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Luis Suárez",
+          "ar": "لويس سواريز"
+        },
+        {
+          "pos": "LF",
+          "group": "FW",
+          "en": "Neymar",
+          "ar": "نيمار"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Kevin Trapp",
+          "ar": "كيفن تراب"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Thomas Meunier",
+          "ar": "توماس مونييه"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Marquinhos",
+          "ar": "ماركينيوس"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Thiago Silva",
+          "ar": "تياغو سيلفا"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Layvin Kurzawa",
+          "ar": "لايفن كورزاوا"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Adrien Rabiot",
+          "ar": "أدريان رابيو"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Blaise Matuidi",
+          "ar": "بليز ماتويدي"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Lucas Moura",
+          "ar": "لوكاس مورا"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Marco Verratti",
+          "ar": "ماركو فيراتي"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Julian Draxler",
+          "ar": "يوليان دراكسلر"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Edinson Cavani",
+          "ar": "إدينسون كافاني"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/FC_Barcelona_6–1_Paris_Saint-Germain_FC"
+    },
+    {
+      "id": "ucl-2020-barca-bayern",
+      "competition": "champions-league",
+      "year": 2020,
+      "home": {
+        "en": "Barcelona",
+        "ar": "برشلونة"
+      },
+      "away": {
+        "en": "Bayern Munich",
+        "ar": "بايرن ميونخ"
+      },
+      "score": "2–8",
+      "winner": "away",
+      "decidedBy": "regulation",
+      "label": {
+        "ar": "ربع النهائي",
+        "en": "Quarter-final"
+      },
+      "difficulty": "easy",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Marc-André ter Stegen",
+          "ar": "مارك أندريه تير شتيغن"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Nélson Semedo",
+          "ar": "نيلسون سيميدو"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Gerard Piqué",
+          "ar": "جيرارد بيكيه"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Clément Lenglet",
+          "ar": "كليمان لينغليه"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Jordi Alba",
+          "ar": "جوردي ألبا"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Sergi Roberto",
+          "ar": "سيرجي روبيرتو"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Sergio Busquets",
+          "ar": "سيرجيو بوسكيتس"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Frenkie de Jong",
+          "ar": "فرينكي دي يونغ"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Arturo Vidal",
+          "ar": "أرتورو فيدال"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Lionel Messi",
+          "ar": "ليونيل ميسي"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Luis Suárez",
+          "ar": "لويس سواريز"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Manuel Neuer",
+          "ar": "مانويل نوير"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Joshua Kimmich",
+          "ar": "يوزوا كيميش"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Jérôme Boateng",
+          "ar": "جيروم بواتينغ"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "David Alaba",
+          "ar": "دافيد ألابا"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Alphonso Davies",
+          "ar": "ألفونسو ديفيز"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Leon Goretzka",
+          "ar": "ليون غوريتسكا"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Thiago",
+          "ar": "تياغو ألكانتارا"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Serge Gnabry",
+          "ar": "سيرج غنابري"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Thomas Müller",
+          "ar": "توماس مولر"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Ivan Perišić",
+          "ar": "إيفان بيريشيتش"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Robert Lewandowski",
+          "ar": "روبرت ليفاندوفسكي"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/FC_Barcelona_2–8_FC_Bayern_Munich"
+    },
+    {
+      "id": "ucl-1999-juve-mun",
+      "competition": "champions-league",
+      "year": 1999,
+      "home": {
+        "en": "Juventus",
+        "ar": "يوفنتوس"
+      },
+      "away": {
+        "en": "Manchester United",
+        "ar": "مانشستر يونايتد"
+      },
+      "score": "2–3",
+      "winner": "away",
+      "decidedBy": "regulation",
+      "label": {
+        "ar": "إياب نصف النهائي",
+        "en": "Semi-final, second leg"
+      },
+      "difficulty": "medium",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Angelo Peruzzi",
+          "ar": "أنجلو بيروتزي"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Alessandro Birindelli",
+          "ar": "أليساندرو بيرينديلي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Ciro Ferrara",
+          "ar": "تشيرو فيرارا"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Mark Iuliano",
+          "ar": "مارك أوليانو"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Gianluca Pessotto",
+          "ar": "جانلوكا بيسوتو"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Antonio Conte",
+          "ar": "أنطونيو كونتي"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Didier Deschamps",
+          "ar": "ديدييه ديشان"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Edgar Davids",
+          "ar": "إدغار ديفيدز"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Angelo Di Livio",
+          "ar": "أنجيلو دي ليفيو"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Zinedine Zidane",
+          "ar": "زين الدين زيدان"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Filippo Inzaghi",
+          "ar": "فيليبو إنزاغي"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Peter Schmeichel",
+          "ar": "بيتر شمايكل"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Gary Neville",
+          "ar": "غاري نيفيل"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Ronny Johnsen",
+          "ar": "روني يونسن"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Jaap Stam",
+          "ar": "ياب ستام"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Denis Irwin",
+          "ar": "دينيس إيروين"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "David Beckham",
+          "ar": "ديفيد بيكهام"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Roy Keane",
+          "ar": "روي كين"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Nicky Butt",
+          "ar": "نيكي بات"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Jesper Blomqvist",
+          "ar": "يسبر بلومكفيست"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Dwight Yorke",
+          "ar": "دوايت يورك"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Andy Cole",
+          "ar": "أندي كول"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/Juventus_FC_2–3_Manchester_United_F.C."
+    },
+    {
+      "id": "epl-1996-liv-new",
+      "competition": "premier-league",
+      "year": 1996,
+      "home": {
+        "en": "Liverpool",
+        "ar": "ليفربول"
+      },
+      "away": {
+        "en": "Newcastle United",
+        "ar": "نيوكاسل يونايتد"
+      },
+      "score": "4–3",
+      "winner": "home",
+      "decidedBy": "regulation",
+      "difficulty": "hard",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "David James",
+          "ar": "ديفيد جيمس"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Mark Wright",
+          "ar": "مارك رايت"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "John Scales",
+          "ar": "جون سكيلس"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Neil Ruddock",
+          "ar": "نيل رودوك"
+        },
+        {
+          "pos": "RWB",
+          "group": "DF",
+          "en": "Jason McAteer",
+          "ar": "جاسون ماكاتير"
+        },
+        {
+          "pos": "LWB",
+          "group": "DF",
+          "en": "Rob Jones",
+          "ar": "روب جونز"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Steve McManaman",
+          "ar": "ستيف ماكمانامان"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Jamie Redknapp",
+          "ar": "جيمي ريدناب"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "John Barnes",
+          "ar": "جون بارنس"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Stan Collymore",
+          "ar": "ستان كوليمور"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Robbie Fowler",
+          "ar": "روبي فاولر"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Pavel Srníček",
+          "ar": "بافل سرنيتشيك"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Steve Watson",
+          "ar": "ستيف واتسون"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Steve Howey",
+          "ar": "ستيف هوي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Philippe Albert",
+          "ar": "فيليب ألبرت"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "John Beresford",
+          "ar": "جون بيرسفورد"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "David Batty",
+          "ar": "ديفيد باتي"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Peter Beardsley",
+          "ar": "بيتر بيردسلي"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Rob Lee",
+          "ar": "روب لي"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "David Ginola",
+          "ar": "دافيد جينولا"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Les Ferdinand",
+          "ar": "ليس فيرديناند"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Faustino Asprilla",
+          "ar": "فاوستينو اسبريا"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/Liverpool_F.C._4–3_Newcastle_United_F.C._(1996)"
+    },
+    {
+      "id": "epl-2012-mci-qpr",
+      "competition": "premier-league",
+      "year": 2012,
+      "home": {
+        "en": "Manchester City",
+        "ar": "مانشستر سيتي"
+      },
+      "away": {
+        "en": "Queens Park Rangers",
+        "ar": "كوينز بارك رينجرز"
+      },
+      "score": "3–2",
+      "winner": "home",
+      "decidedBy": "regulation",
+      "label": {
+        "ar": "يوم التتويج",
+        "en": "Title decider"
+      },
+      "difficulty": "easy",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Joe Hart",
+          "ar": "جو هارت"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Pablo Zabaleta",
+          "ar": "بابلو زاباليتا"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Vincent Kompany",
+          "ar": "فنسنت كومباني"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Joleon Lescott",
+          "ar": "جوليون ليسكوت"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Gaël Clichy",
+          "ar": "غايل كليشي"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Samir Nasri",
+          "ar": "سمير نصري"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Yaya Touré",
+          "ar": "يحيى توريه"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Gareth Barry",
+          "ar": "غاريث باري"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "David Silva",
+          "ar": "دافيد سيلفا"
+        },
+        {
+          "pos": "SS",
+          "group": "FW",
+          "en": "Carlos Tevez",
+          "ar": "كارلوس تيفيز"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Sergio Agüero",
+          "ar": "سيرخيو أغويرو"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Paddy Kenny",
+          "ar": "بادي كيني"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Nedum Onuoha",
+          "ar": "نيدوم أونوها"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Anton Ferdinand",
+          "ar": "أنتون فرديناند"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Clint Hill",
+          "ar": "كلينت هيل"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Taye Taiwo",
+          "ar": "تاي تايوو"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Jamie Mackie",
+          "ar": "جيمي ماكي"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Shaun Derry",
+          "ar": "شون ديري"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Joey Barton",
+          "ar": "جوي بارتون"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Shaun Wright-Phillips",
+          "ar": "شون رايت فيليبس"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Djibril Cissé",
+          "ar": "جبريل سيسيه"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Bobby Zamora",
+          "ar": "بوبي زامورا"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/Manchester_City_F.C._3–2_Queens_Park_Rangers_F.C."
+    },
+    {
+      "id": "epl-2011-mun-mci-6",
+      "competition": "premier-league",
+      "year": 2011,
+      "home": {
+        "en": "Manchester United",
+        "ar": "مانشستر يونايتد"
+      },
+      "away": {
+        "en": "Manchester City",
+        "ar": "مانشستر سيتي"
+      },
+      "score": "1–6",
+      "winner": "away",
+      "decidedBy": "regulation",
+      "difficulty": "medium",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "David de Gea",
+          "ar": "دافيد دي خيا"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Chris Smalling",
+          "ar": "كريس سمولينغ"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Rio Ferdinand",
+          "ar": "ريو فرديناند"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Jonny Evans",
+          "ar": "جوني إيفانز"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Patrice Evra",
+          "ar": "باتريس إيفرا"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Nani",
+          "ar": "ناني"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Darren Fletcher",
+          "ar": "دارين فليتشر"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Anderson",
+          "ar": "أندرسون أوليفيرا"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Ashley Young",
+          "ar": "أشلي يونغ"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Wayne Rooney",
+          "ar": "واين روني"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Danny Welbeck",
+          "ar": "داني ويلبيك"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Joe Hart",
+          "ar": "جو هارت"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Micah Richards",
+          "ar": "ميكاه ريتشاردز"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Vincent Kompany",
+          "ar": "فنسنت كومباني"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Joleon Lescott",
+          "ar": "جوليون ليسكوت"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Gaël Clichy",
+          "ar": "غايل كليشي"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Yaya Touré",
+          "ar": "يحيى توريه"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Gareth Barry",
+          "ar": "غاريث باري"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "James Milner",
+          "ar": "جيمس ميلنر"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "David Silva",
+          "ar": "دافيد سيلفا"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Mario Balotelli",
+          "ar": "ماريو بالوتيلي"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Sergio Agüero",
+          "ar": "سيرخيو أغويرو"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/Manchester_United_F.C._1–6_Manchester_City_F.C."
+    },
+    {
+      "id": "epl-2009-mun-mci-4",
+      "competition": "premier-league",
+      "year": 2009,
+      "home": {
+        "en": "Manchester United",
+        "ar": "مانشستر يونايتد"
+      },
+      "away": {
+        "en": "Manchester City",
+        "ar": "مانشستر سيتي"
+      },
+      "score": "4–3",
+      "winner": "home",
+      "decidedBy": "regulation",
+      "difficulty": "medium",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Ben Foster",
+          "ar": "بن فوستر"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "John O'Shea",
+          "ar": "جون أوشي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Rio Ferdinand",
+          "ar": "ريو فرديناند"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Nemanja Vidić",
+          "ar": "نيمانيا فيديتش"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Patrice Evra",
+          "ar": "باتريس إيفرا"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Park Ji-sung",
+          "ar": "بارك جي سونغ"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Darren Fletcher",
+          "ar": "دارين فليتشر"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Anderson",
+          "ar": "أندرسون أوليفيرا"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Ryan Giggs",
+          "ar": "ريان غيغز"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Dimitar Berbatov",
+          "ar": "ديميتار برباتوف"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Wayne Rooney",
+          "ar": "واين روني"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Shay Given",
+          "ar": "شاي غيفن"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Micah Richards",
+          "ar": "ميكاه ريتشاردز"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Kolo Touré",
+          "ar": "كولو توريه"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Joleon Lescott",
+          "ar": "جوليون ليسكوت"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Wayne Bridge",
+          "ar": "واين بريدج"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Nigel de Jong",
+          "ar": "نايجل دي يونغ"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Gareth Barry",
+          "ar": "غاريث باري"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Shaun Wright-Phillips",
+          "ar": "شون رايت فيليبس"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Stephen Ireland",
+          "ar": "ستيفن آيرلند"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Craig Bellamy",
+          "ar": "كريغ بيلامي"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Carlos Tevez",
+          "ar": "كارلوس تيفيز"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/Manchester_United_F.C._4–3_Manchester_City_F.C._(2009)"
+    },
+    {
+      "id": "epl-2011-mun-ars",
+      "competition": "premier-league",
+      "year": 2011,
+      "home": {
+        "en": "Manchester United",
+        "ar": "مانشستر يونايتد"
+      },
+      "away": {
+        "en": "Arsenal",
+        "ar": "أرسنال"
+      },
+      "score": "8–2",
+      "winner": "home",
+      "decidedBy": "regulation",
+      "difficulty": "easy",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "David de Gea",
+          "ar": "دافيد دي خيا"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Chris Smalling",
+          "ar": "كريس سمولينغ"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Phil Jones",
+          "ar": "فيل جونز"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Jonny Evans",
+          "ar": "جوني إيفانز"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Patrice Evra",
+          "ar": "باتريس إيفرا"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Nani",
+          "ar": "ناني"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Tom Cleverley",
+          "ar": "توم كليفرلي"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Anderson",
+          "ar": "أندرسون أوليفيرا"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Ashley Young",
+          "ar": "أشلي يونغ"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Wayne Rooney",
+          "ar": "واين روني"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Danny Welbeck",
+          "ar": "داني ويلبيك"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Wojciech Szczęsny",
+          "ar": "فويتشيك شتشيسني"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Carl Jenkinson",
+          "ar": "كارل جينكنسون"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Johan Djourou",
+          "ar": "يوهان دجورو"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Laurent Koscielny",
+          "ar": "لوران كوشيلني"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Armand Traoré",
+          "ar": "أرماند تراوري"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Aaron Ramsey",
+          "ar": "آرون رامزي"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Francis Coquelin",
+          "ar": "فرانسيس كوكلين"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Tomáš Rosický",
+          "ar": "توماش روسيتسكي"
+        },
+        {
+          "pos": "RF",
+          "group": "FW",
+          "en": "Theo Walcott",
+          "ar": "ثيو والكوت"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Robin van Persie",
+          "ar": "روبين فان بيرسي"
+        },
+        {
+          "pos": "LF",
+          "group": "FW",
+          "en": "Andrey Arshavin",
+          "ar": "أندري أرشافين"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/Manchester_United_F.C._8–2_Arsenal_F.C."
+    },
+    {
+      "id": "fac-1999-ars-mun",
+      "competition": "fa-cup",
+      "year": 1999,
+      "home": {
+        "en": "Arsenal",
+        "ar": "أرسنال"
+      },
+      "away": {
+        "en": "Manchester United",
+        "ar": "مانشستر يونايتد"
+      },
+      "score": "1–2",
+      "winner": "away",
+      "decidedBy": "extra-time",
+      "label": {
+        "ar": "إعادة نصف النهائي",
+        "en": "Semi-final replay"
+      },
+      "difficulty": "hard",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "David Seaman",
+          "ar": "ديفيد سيمان"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Lee Dixon",
+          "ar": "لي ديكسون"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Tony Adams",
+          "ar": "توني آدمز"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Martin Keown",
+          "ar": "مارتن كيون"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Nigel Winterburn",
+          "ar": "نايجل وينتربرن"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Ray Parlour",
+          "ar": "ري بارلور"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Patrick Vieira",
+          "ar": "باتريك فييرا"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Emmanuel Petit",
+          "ar": "إيمانويل بوتي"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Fredrik Ljungberg",
+          "ar": "فريدريك ليونغبرغ"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Dennis Bergkamp",
+          "ar": "دينيس بيركامب"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Nicolas Anelka",
+          "ar": "نيكولا أنيلكا"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Peter Schmeichel",
+          "ar": "بيتر شمايكل"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Gary Neville",
+          "ar": "غاري نيفيل"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Ronny Johnsen",
+          "ar": "روني يونسن"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Jaap Stam",
+          "ar": "ياب ستام"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Phil Neville",
+          "ar": "فيل نيفيل"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "David Beckham",
+          "ar": "ديفيد بيكهام"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Nicky Butt",
+          "ar": "نيكي بات"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Roy Keane",
+          "ar": "روي كين"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Jesper Blomqvist",
+          "ar": "يسبر بلومكفيست"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Teddy Sheringham",
+          "ar": "تيدي شيرنغهام"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Ole Gunnar Solskjær",
+          "ar": "أوله غونار سولشار"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/Arsenal_1–2_Manchester_United_(1999)"
+    },
+    {
+      "id": "fac-2004-tot-mci",
+      "competition": "fa-cup",
+      "year": 2004,
+      "home": {
+        "en": "Tottenham Hotspur",
+        "ar": "توتنهام هوتسبير"
+      },
+      "away": {
+        "en": "Manchester City",
+        "ar": "مانشستر سيتي"
+      },
+      "score": "3–4",
+      "winner": "away",
+      "decidedBy": "regulation",
+      "label": {
+        "ar": "إعادة الدور الرابع",
+        "en": "Fourth round replay"
+      },
+      "difficulty": "hard",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Kasey Keller",
+          "ar": "كيسي كيلر"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Stephen Carr",
+          "ar": "ستيفن كار"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Dean Richards",
+          "ar": "دين ريتشاردز"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Anthony Gardner",
+          "ar": "أنتوني غاردنر"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Christian Ziege",
+          "ar": "كريستيان تسيغه"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Simon Davies",
+          "ar": "سيمون ديفيز"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Ledley King",
+          "ar": "ليدلي كينغ"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Michael Brown",
+          "ar": "مايكل براون"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Stéphane Dalmat",
+          "ar": "ستيفان دالما"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Robbie Keane",
+          "ar": "روبي كين"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Hélder Postiga",
+          "ar": "هيلدر بوستيغا"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Árni Arason",
+          "ar": "أرني أراسون"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Sun Jihai",
+          "ar": "صن جيهاي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Richard Dunne",
+          "ar": "ريتشارد دن"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Sylvain Distin",
+          "ar": "سيلفان ديستان"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Michael Tarnat",
+          "ar": "مايكل تارنات"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Shaun Wright-Phillips",
+          "ar": "شون رايت فيليبس"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Joey Barton",
+          "ar": "جوي بارتون"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Paul Bosvelt",
+          "ar": "بول بوسفيلت"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Trevor Sinclair",
+          "ar": "تريفور سنكلير"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Nicolas Anelka",
+          "ar": "نيكولا أنيلكا"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Robbie Fowler",
+          "ar": "روبي فاولر"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/Tottenham_Hotspur_F.C._3–4_Manchester_City_F.C._(2004)"
+    },
+    {
+      "id": "wcq-2009-egy-alg",
+      "competition": "world-cup",
+      "year": 2009,
+      "home": {
+        "en": "Egypt",
+        "ar": "مصر"
+      },
+      "away": {
+        "en": "Algeria",
+        "ar": "الجزائر"
+      },
+      "score": "0–1",
+      "winner": "away",
+      "decidedBy": "regulation",
+      "label": {
+        "ar": "الملحق المؤهل",
+        "en": "Qualifying play-off"
+      },
+      "difficulty": "hard",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Essam El-Hadary",
+          "ar": "عصام الحضري"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Wael Gomaa",
+          "ar": "وائل جمعة"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Hany Said",
+          "ar": "هاني سعيد"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Abdel-Zaher El-Saqqa",
+          "ar": "عبد الظاهر السقا"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Ahmed Elmohamady",
+          "ar": "أحمد المحمدي"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Ahmed Fathy",
+          "ar": "أحمد فتحي"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Ahmed Hassan",
+          "ar": "أحمد حسن"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Mohamed Aboutrika",
+          "ar": "محمد أبو تريكة"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Sayed Moawad",
+          "ar": "سيد معوض"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Emad Moteab",
+          "ar": "عماد متعب"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Amr Zaki",
+          "ar": "عمرو زكي"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Faouzi Chaouchi",
+          "ar": "فوزي شاوشي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Antar Yahia",
+          "ar": "عنتر يحيى"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Madjid Bougherra",
+          "ar": "مجيد بوقرة"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Rafik Halliche",
+          "ar": "رفيق حليش"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Nadir Belhadj",
+          "ar": "نذير بلحاج"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Hassan Yebda",
+          "ar": "حسان يبدة"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Yazid Mansouri",
+          "ar": "يزيد منصوري"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Mourad Meghni",
+          "ar": "مراد مغني"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Karim Ziani",
+          "ar": "كريم زياني"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Rafik Saïfi",
+          "ar": "رفيق صايفي"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Abdelkader Ghezzal",
+          "ar": "عبد القادر غزال"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2009_Algeria_v_Egypt_football_matches"
+    },
+    {
+      "id": "cafcl-2020-zam-ahl",
+      "competition": "caf-champions-league",
+      "year": 2020,
+      "home": {
+        "en": "Zamalek",
+        "ar": "الزمالك"
+      },
+      "away": {
+        "en": "Al Ahly",
+        "ar": "الأهلي"
+      },
+      "score": "1–2",
+      "winner": "away",
+      "decidedBy": "regulation",
+      "label": {
+        "ar": "النهائي المصري الأول",
+        "en": "First all-Egyptian final"
+      },
+      "difficulty": "medium",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Mohamed Abou Gabal",
+          "ar": "محمد أبو جبل"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Ahmed Eid",
+          "ar": "أحمد عيد"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Mohamed Abdel Ghani",
+          "ar": "محمد عبد الغني"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Mahmoud Alaa",
+          "ar": "محمود علاء"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Islam Gaber",
+          "ar": "إسلام جابر"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Tarek Hamed",
+          "ar": "طارق حامد"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Ferjani Sassi",
+          "ar": "فرجاني ساسي"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Ahmed \"Zizo\" Sayed",
+          "ar": "أحمد سيد زيزو"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Mahmoud Shikabala",
+          "ar": "شيكابالا"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Achraf Bencharki",
+          "ar": "أشرف بن شرقي"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Mostafa Mohamed",
+          "ar": "مصطفى محمد"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Mohamed El Shenawy",
+          "ar": "محمد الشناوي"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Mohamed Hany",
+          "ar": "محمد هاني"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Yasser Ibrahim",
+          "ar": "ياسر إبراهيم"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Ayman Ashraf",
+          "ar": "أيمن أشرف"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Ali Maâloul",
+          "ar": "علي معلول"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Amr El Solia",
+          "ar": "عمرو السولية"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Hamdy Fathy",
+          "ar": "حمدي فتحي"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Hussein El Shahat",
+          "ar": "حسين الشحات"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Mohamed \"Afsha\" Magdy",
+          "ar": "محمد مجدي أفشة"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Junior Ajayi",
+          "ar": "جونيور أجاي"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Marwan Mohsen",
+          "ar": "مروان محسن"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2020_CAF_Champions_League_final"
+    },
+    {
+      "id": "afcon-2017-cmr-egy",
+      "competition": "afcon",
+      "year": 2017,
+      "home": {
+        "en": "Egypt",
+        "ar": "مصر"
+      },
+      "away": {
+        "en": "Cameroon",
+        "ar": "الكاميرون"
+      },
+      "score": "1–2",
+      "winner": "away",
+      "decidedBy": "regulation",
+      "difficulty": "medium",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Essam El-Hadary",
+          "ar": "عصام الحضري"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Ahmed Elmohamady",
+          "ar": "أحمد المحمدي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Ahmed Hegazy",
+          "ar": "أحمد حجازي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Ali Gabr",
+          "ar": "علي جبر"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Ahmed Fathy",
+          "ar": "أحمد فتحي"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Tarek Hamed",
+          "ar": "طارق حامد"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Mohamed Elneny",
+          "ar": "محمد النني"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Mohamed Salah",
+          "ar": "محمد صلاح"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Abdallah Said",
+          "ar": "عبد الله السعيد"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Trézéguet",
+          "ar": "محمود تريزيجيه"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Amr Warda",
+          "ar": "عمرو وردة"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Fabrice Ondoa",
+          "ar": "فابريس أوندوا"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Collins Fai",
+          "ar": "كولينز فاي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Michael Ngadeu-Ngadjui",
+          "ar": "مايكل نغادو نغادجوي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Adolphe Teikeu",
+          "ar": "أدولف تيكو"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Ambroise Oyongo",
+          "ar": "أمبرويس أيونغو"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Sébastien Siani",
+          "ar": "سيباستيان سياني"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Arnaud Djoum",
+          "ar": "أرنود ديوم"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Christian Bassogog",
+          "ar": "كريستيان باسوغوغ"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Jacques Zoua",
+          "ar": "جاك زوا"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Benjamin Moukandjo",
+          "ar": "بنجامين موكاندجو"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Robert Ndip Tambe",
+          "ar": "روبرت نديب تامبي"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2017_Africa_Cup_of_Nations_final"
     }
   ]
 }
