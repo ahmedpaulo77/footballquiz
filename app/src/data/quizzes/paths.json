@@ -5052,6 +5052,371 @@
         "Tianjin TEDA"
       ],
       "known": 100
+    },
+    {
+      "id": "mateja-kezman",
+      "answer": "Mateja Kežman",
+      "clubs": [
+        "Radnički Pirot",
+        "Loznica",
+        "Sartid Smederevo",
+        "Partizan",
+        "PSV",
+        "Chelsea",
+        "Atlético Madrid",
+        "Fenerbahçe",
+        "Paris Saint-Germain",
+        "Zenit St. Petersburg",
+        "South China AA",
+        "BATE Borisov",
+        "South China AA"
+      ],
+      "known": 45,
+      "loans": [
+        9
+      ]
+    },
+    {
+      "id": "claudio-pizarro",
+      "answer": "Claudio Pizarro",
+      "clubs": [
+        "Deportivo Pesquero",
+        "Alianza Lima",
+        "Werder Bremen",
+        "Bayern Munich",
+        "Chelsea",
+        "Werder Bremen",
+        "Bayern Munich",
+        "Werder Bremen",
+        "FC Köln",
+        "Werder Bremen"
+      ],
+      "known": 35,
+      "loans": [
+        5
+      ]
+    },
+    {
+      "id": "hernan-crespo",
+      "answer": "Hernán Crespo",
+      "clubs": [
+        "River Plate",
+        "Parma",
+        "Lazio",
+        "Inter Milan",
+        "Chelsea",
+        "AC Milan",
+        "Inter Milan",
+        "Genoa",
+        "Parma"
+      ],
+      "known": 27,
+      "loans": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": "adrian-mutu",
+      "answer": "Adrian Mutu",
+      "clubs": [
+        "Argeș Pitești",
+        "Dinamo București",
+        "Inter Milan",
+        "Hellas Verona",
+        "Parma",
+        "Chelsea",
+        "Livorno",
+        "Juventus",
+        "Fiorentina",
+        "Cesena",
+        "Ajaccio",
+        "Petrolul Ploiești",
+        "FC Pune City",
+        "Târgu Mureș"
+      ],
+      "known": 45
+    },
+    {
+      "id": "eidur-gudjohnsen",
+      "answer": "Eiður Guðjohnsen",
+      "clubs": [
+        "Valur",
+        "PSV",
+        "KR Reykjavík",
+        "Bolton Wanderers",
+        "Chelsea",
+        "Barcelona",
+        "AS Monaco",
+        "Tottenham Hotspur",
+        "Stoke City",
+        "Fulham",
+        "AEK Athens",
+        "Cercle Brugge",
+        "Club Brugge",
+        "Bolton Wanderers",
+        "Shijiazhuang Ever Bright",
+        "Molde",
+        "FC Pune City"
+      ],
+      "known": 45,
+      "loans": [
+        7,
+        9
+      ]
+    },
+    {
+      "id": "jimmy-floyd-hasselbaink",
+      "answer": "Jimmy Floyd Hasselbaink",
+      "clubs": [
+        "Telstar",
+        "AZ",
+        "Neerlandia",
+        "Campomaiorense",
+        "Boavista",
+        "Leeds United",
+        "Atlético Madrid",
+        "Chelsea",
+        "Middlesbrough",
+        "Charlton Athletic",
+        "Cardiff City"
+      ],
+      "known": 40
+    },
+    {
+      "id": "boudewijn-zenden",
+      "answer": "Boudewijn Zenden",
+      "clubs": [
+        "PSV",
+        "Barcelona",
+        "Chelsea",
+        "Middlesbrough",
+        "Liverpool",
+        "Marseille",
+        "Sunderland"
+      ],
+      "known": 50
+    },
+    {
+      "id": "geremi",
+      "answer": "Geremi",
+      "clubs": [
+        "Racing Bafoussam",
+        "Cerro Porteño",
+        "Gençlerbirliği",
+        "Real Madrid",
+        "Middlesbrough",
+        "Chelsea",
+        "Newcastle United",
+        "Ankaragücü",
+        "AEL"
+      ],
+      "known": 45,
+      "loans": [
+        4
+      ]
+    },
+    {
+      "id": "santiago-solari",
+      "answer": "Santiago Solari",
+      "clubs": [
+        "River Plate",
+        "Atlético Madrid",
+        "Real Madrid",
+        "Inter Milan",
+        "San Lorenzo",
+        "Atlante",
+        "Peñarol"
+      ],
+      "known": 55
+    },
+    {
+      "id": "john-arne-riise",
+      "answer": "John Arne Riise",
+      "clubs": [
+        "Aalesund",
+        "AS Monaco",
+        "Liverpool",
+        "Roma",
+        "Fulham",
+        "APOEL",
+        "Delhi Dynamos",
+        "Aalesund",
+        "Chennaiyin"
+      ],
+      "known": 40
+    },
+    {
+      "id": "djibril-cisse",
+      "answer": "Djibril Cissé",
+      "clubs": [
+        "Auxerre",
+        "Liverpool",
+        "Marseille",
+        "Sunderland",
+        "Panathinaikos",
+        "Lazio",
+        "Queens Park Rangers",
+        "Al-Gharafa",
+        "Kuban Krasnodar",
+        "Bastia",
+        "Saint-Pierroise",
+        "Yverdon-Sport",
+        "L.R. Vicenza"
+      ],
+      "known": 40,
+      "loans": [
+        3,
+        7
+      ]
+    },
+    {
+      "id": "florent-malouda",
+      "answer": "Florent Malouda",
+      "clubs": [
+        "Châteauroux",
+        "Guingamp",
+        "Lyon",
+        "Chelsea",
+        "Trabzonspor",
+        "Metz",
+        "Delhi Dynamos",
+        "Wadi Degla",
+        "FC Differdange 03"
+      ],
+      "known": 35,
+      "loans": [
+        7
+      ]
+    },
+    {
+      "id": "shay-given",
+      "answer": "Shay Given",
+      "clubs": [
+        "Blackburn Rovers",
+        "Swindon Town",
+        "Sunderland",
+        "Newcastle United",
+        "Manchester City",
+        "Aston Villa",
+        "Middlesbrough",
+        "Stoke City"
+      ],
+      "known": 35,
+      "loans": [
+        1,
+        2,
+        6
+      ]
+    },
+    {
+      "id": "dimitar-berbatov",
+      "answer": "Dimitar Berbatov",
+      "clubs": [
+        "CSKA Sofia",
+        "Bayer Leverkusen",
+        "Tottenham Hotspur",
+        "Manchester United",
+        "Fulham",
+        "AS Monaco",
+        "PAOK",
+        "Kerala Blasters"
+      ],
+      "known": 25
+    },
+    {
+      "id": "louis-saha",
+      "answer": "Louis Saha",
+      "clubs": [
+        "FC Metz",
+        "Newcastle United",
+        "Fulham",
+        "Manchester United",
+        "Everton",
+        "Tottenham Hotspur",
+        "Sunderland",
+        "Lazio"
+      ],
+      "known": 35,
+      "loans": [
+        1
+      ]
+    },
+    {
+      "id": "dirk-kuyt",
+      "answer": "Dirk Kuyt",
+      "clubs": [
+        "FC Utrecht",
+        "Feyenoord",
+        "Liverpool",
+        "Fenerbahçe",
+        "Feyenoord"
+      ],
+      "known": 25
+    },
+    {
+      "id": "scott-parker",
+      "answer": "Scott Parker",
+      "clubs": [
+        "Charlton Athletic",
+        "Norwich City",
+        "Chelsea",
+        "Newcastle United",
+        "West Ham United",
+        "Tottenham Hotspur",
+        "Fulham"
+      ],
+      "known": 45,
+      "loans": [
+        1
+      ]
+    },
+    {
+      "id": "claude-makelele",
+      "answer": "Claude Makélélé",
+      "clubs": [
+        "FC Nantes",
+        "Marseille",
+        "Celta Vigo",
+        "Real Madrid",
+        "Chelsea",
+        "Paris Saint-Germain"
+      ],
+      "known": 25
+    },
+    {
+      "id": "ricardo-carvalho",
+      "answer": "Ricardo Carvalho",
+      "clubs": [
+        "Porto",
+        "Leça",
+        "Vitória Setúbal",
+        "Alverca",
+        "Porto",
+        "Chelsea",
+        "Real Madrid",
+        "AS Monaco",
+        "Shanghai SIPG"
+      ],
+      "known": 25,
+      "loans": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "shaun-wright-phillips",
+      "answer": "Shaun Wright-Phillips",
+      "clubs": [
+        "Manchester City",
+        "Chelsea",
+        "Manchester City",
+        "Queens Park Rangers",
+        "New York Red Bulls",
+        "Phoenix Rising"
+      ],
+      "known": 45
     }
   ]
 }

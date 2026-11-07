@@ -145,6 +145,118 @@
         "en": "Managers"
       },
       "emoji": "🎓"
+    },
+    {
+      "id": "wcq-2006-1",
+      "title": {
+        "ar": "تصفيات مونديال 2006 – أفريقيا (1)",
+        "en": "2006 World Cup Qualifying – Africa (1)"
+      },
+      "emoji": "🌍"
+    },
+    {
+      "id": "wcq-2006-2",
+      "title": {
+        "ar": "تصفيات مونديال 2006 – أفريقيا (2)",
+        "en": "2006 World Cup Qualifying – Africa (2)"
+      },
+      "emoji": "🌍"
+    },
+    {
+      "id": "afcon-2006-1",
+      "title": {
+        "ar": "أمم أفريقيا 2006 – (1)",
+        "en": "Africa Cup of Nations 2006 – (1)"
+      },
+      "emoji": "🏆"
+    },
+    {
+      "id": "afcon-2006-2",
+      "title": {
+        "ar": "أمم أفريقيا 2006 – (2)",
+        "en": "Africa Cup of Nations 2006 – (2)"
+      },
+      "emoji": "🏆"
+    },
+    {
+      "id": "afcon-2006-3",
+      "title": {
+        "ar": "أمم أفريقيا 2006 – (3)",
+        "en": "Africa Cup of Nations 2006 – (3)"
+      },
+      "emoji": "🏆"
+    },
+    {
+      "id": "afcon-2006-4",
+      "title": {
+        "ar": "أمم أفريقيا 2006 – (4)",
+        "en": "Africa Cup of Nations 2006 – (4)"
+      },
+      "emoji": "🏆"
+    },
+    {
+      "id": "afcon-2008-1",
+      "title": {
+        "ar": "أمم أفريقيا 2008 – (1)",
+        "en": "Africa Cup of Nations 2008 – (1)"
+      },
+      "emoji": "⭐"
+    },
+    {
+      "id": "afcon-2008-2",
+      "title": {
+        "ar": "أمم أفريقيا 2008 – (2)",
+        "en": "Africa Cup of Nations 2008 – (2)"
+      },
+      "emoji": "⭐"
+    },
+    {
+      "id": "afcon-2010-1",
+      "title": {
+        "ar": "أمم أفريقيا 2010 – (1)",
+        "en": "Africa Cup of Nations 2010 – (1)"
+      },
+      "emoji": "🦁"
+    },
+    {
+      "id": "afcon-2010-2",
+      "title": {
+        "ar": "أمم أفريقيا 2010 – (2)",
+        "en": "Africa Cup of Nations 2010 – (2)"
+      },
+      "emoji": "🦁"
+    },
+    {
+      "id": "afcon-2012-1",
+      "title": {
+        "ar": "أمم أفريقيا 2012 – (1)",
+        "en": "Africa Cup of Nations 2012 – (1)"
+      },
+      "emoji": "🦅"
+    },
+    {
+      "id": "afcon-2012-2",
+      "title": {
+        "ar": "أمم أفريقيا 2012 – (2)",
+        "en": "Africa Cup of Nations 2012 – (2)"
+      },
+      "emoji": "🦅"
+    },
+    {
+      "id": "afcon-2013-1",
+      "title": {
+        "ar": "أمم أفريقيا 2013 – (1)",
+        "en": "Africa Cup of Nations 2013 – (1)"
+      },
+      "emoji": "🐆"
+    },
+    {
+      "id": "afcon-2013-2",
+      "title": {
+        "ar": "أمم أفريقيا 2013 – (2)",
+        "en": "Africa Cup of Nations 2013 – (2)"
+      },
+      "emoji": "🐆"
     }
   ],
   "questions": [
@@ -926,6 +1038,734 @@
       "answer": {
         "ar": "بورا ميلوتينوفيتش (المكسيك، كوستاريكا، أمريكا، نيجيريا، الصين)",
         "en": "Bora Milutinović (Mexico, Costa Rica, USA, Nigeria, China)"
+      }
+    },
+    {
+      "id": "wcq-2006-1-10",
+      "category": "wcq-2006-1",
+      "value": 10,
+      "question": {
+        "ar": "مين المنتخبات الأفريقية اللي تأهلت لكأس العالم 2006؟",
+        "en": "Which African teams qualified for the 2006 World Cup?"
+      },
+      "answer": {
+        "ar": "كوت ديفوار – تونس – غانا – توغو – أنجولا",
+        "en": "Côte d'Ivoire, Tunisia, Ghana, Togo and Angola"
+      }
+    },
+    {
+      "id": "wcq-2006-1-20",
+      "category": "wcq-2006-1",
+      "value": 20,
+      "question": {
+        "ar": "مين المنتخبات اللي كانت مع مصر في مجموعتها في التصفيات؟",
+        "en": "Which teams were in Egypt's qualifying group?"
+      },
+      "answer": {
+        "ar": "ليبيا – الكاميرون – بنين – كوت ديفوار – السودان",
+        "en": "Libya, Cameroon, Benin, Côte d'Ivoire and Sudan"
+      }
+    },
+    {
+      "id": "wcq-2006-1-40",
+      "category": "wcq-2006-1",
+      "value": 40,
+      "question": {
+        "ar": "مين هداف التصفيات الأفريقية لكأس العالم 2006؟",
+        "en": "Who was the top scorer of the African qualifiers for the 2006 World Cup?"
+      },
+      "answer": {
+        "ar": "إيمانويل أديبايور (11 هدفًا)",
+        "en": "Emmanuel Adebayor (11 goals)"
+      }
+    },
+    {
+      "id": "wcq-2006-1-50",
+      "category": "wcq-2006-1",
+      "value": 50,
+      "question": {
+        "ar": "في قائمتي كوت ديفوار لكأس العالم 2006 وأمم أفريقيا 2006 كان فيه 22 لاعبًا ثابتين، مين اللاعب اللي اتغير بين القايمتين؟",
+        "en": "Côte d'Ivoire's 2006 World Cup and 2006 AFCON squads had 22 players in common — which player changed between the two lists?"
+      },
+      "answer": {
+        "ar": "سياكا تييني كان في قائمة أمم أفريقيا، وعبد القادر كيتا كان في قائمة كأس العالم",
+        "en": "Siaka Tiéné was in the AFCON squad, while Abdul Kader Keïta was in the World Cup squad"
+      }
+    },
+    {
+      "id": "wcq-2006-2-10",
+      "category": "wcq-2006-2",
+      "value": 10,
+      "question": {
+        "ar": "مين المنتخب اللي تأهل على حساب نيجيريا؟",
+        "en": "Which team qualified at Nigeria's expense?"
+      },
+      "answer": {
+        "ar": "أنجولا",
+        "en": "Angola"
+      }
+    },
+    {
+      "id": "wcq-2006-2-20",
+      "category": "wcq-2006-2",
+      "value": 20,
+      "question": {
+        "ar": "مين هداف مصر في تصفيات كأس العالم 2006؟",
+        "en": "Who was Egypt's top scorer in the 2006 World Cup qualifiers?"
+      },
+      "answer": {
+        "ar": "عمرو زكي",
+        "en": "Amr Zaki"
+      }
+    },
+    {
+      "id": "wcq-2006-2-40",
+      "category": "wcq-2006-2",
+      "value": 40,
+      "question": {
+        "ar": "مين اللاعب اللي سجل هاتريك في مباراة الكاميرون وكوت ديفوار في أبيدجان؟",
+        "en": "Who scored a hat-trick in the Cameroon vs Côte d'Ivoire match in Abidjan?"
+      },
+      "answer": {
+        "ar": "بيير ويبو",
+        "en": "Pierre Webó"
+      }
+    },
+    {
+      "id": "wcq-2006-2-50",
+      "category": "wcq-2006-2",
+      "value": 50,
+      "question": {
+        "ar": "مين اللي ضيّع ركلة جزاء للكاميرون أمام مصر في آخر مباريات المجموعة، وكانت سبب في تعادلهم وخروج الصعود لكوت ديفوار؟",
+        "en": "Who missed a penalty for Cameroon against Egypt in their final group match, a miss that helped Côte d'Ivoire qualify instead?"
+      },
+      "answer": {
+        "ar": "بيير ووميه",
+        "en": "Pierre Womé"
+      }
+    },
+    {
+      "id": "afcon-2006-1-10",
+      "category": "afcon-2006-1",
+      "value": 10,
+      "question": {
+        "ar": "مين المربع الذهبي (نصف النهائي) في بطولة 2006؟",
+        "en": "Who made the semi-finals of the 2006 AFCON?"
+      },
+      "answer": {
+        "ar": "مصر – كوت ديفوار – نيجيريا – السنغال",
+        "en": "Egypt, Côte d'Ivoire, Nigeria and Senegal"
+      }
+    },
+    {
+      "id": "afcon-2006-1-20",
+      "category": "afcon-2006-1",
+      "value": 20,
+      "question": {
+        "ar": "مين سجل أول هاتريك في البطولة، وأمام مين؟",
+        "en": "Who scored the first hat-trick of the tournament, and against whom?"
+      },
+      "answer": {
+        "ar": "صامويل إيتو أمام أنجولا (الكاميرون 3–1 أنجولا)",
+        "en": "Samuel Eto'o against Angola (Cameroon 3-1 Angola)"
+      }
+    },
+    {
+      "id": "afcon-2006-1-40",
+      "category": "afcon-2006-1",
+      "value": 40,
+      "question": {
+        "ar": "منتخب غينيا كان مشهور إنه منتخب عيلة مين؟",
+        "en": "Guinea's national team was known as the team of which family?"
+      },
+      "answer": {
+        "ar": "عيلة بانغورا",
+        "en": "The Bangoura family"
+      }
+    },
+    {
+      "id": "afcon-2006-1-50",
+      "category": "afcon-2006-1",
+      "value": 50,
+      "question": {
+        "ar": "في 3 منتخبات في دور المجموعات قدروا يوصلوا لـ9 نقاط، مين هما؟",
+        "en": "Three teams could reach 9 points in the group stage — who were they?"
+      },
+      "answer": {
+        "ar": "نيجيريا – غينيا – الكاميرون",
+        "en": "Nigeria, Guinea and Cameroon"
+      }
+    },
+    {
+      "id": "afcon-2006-2-10",
+      "category": "afcon-2006-2",
+      "value": 10,
+      "question": {
+        "ar": "مين أحسن لاعب في البطولة؟",
+        "en": "Who was the best player of the tournament?"
+      },
+      "answer": {
+        "ar": "أحمد حسن",
+        "en": "Ahmed Hassan"
+      }
+    },
+    {
+      "id": "afcon-2006-2-20",
+      "category": "afcon-2006-2",
+      "value": 20,
+      "question": {
+        "ar": "في طريق مصر للنهائي، كسبت كل المباريات ما عدا مباراة واحدة انتهت 0–0، كانت أمام مين؟",
+        "en": "On their way to the final, Egypt won every match except one 0-0 draw — against whom?"
+      },
+      "answer": {
+        "ar": "أمام المغرب 0–0",
+        "en": "Morocco (0-0)"
+      }
+    },
+    {
+      "id": "afcon-2006-2-40",
+      "category": "afcon-2006-2",
+      "value": 40,
+      "question": {
+        "ar": "كام كانت نتيجة مباراة غينيا والسنغال في دور الـ8؟",
+        "en": "What was the score of the Guinea vs Senegal quarter-final?"
+      },
+      "answer": {
+        "ar": "3–2 للسنغال",
+        "en": "3-2 to Senegal"
+      }
+    },
+    {
+      "id": "afcon-2006-2-50",
+      "category": "afcon-2006-2",
+      "value": 50,
+      "question": {
+        "ar": "مباراة الكاميرون وكوت ديفوار انتهت 1–1 — مين سجل الأهداف، وكام انتهت ركلات الترجيح، ومين اللي ضيّع آخر ركلة؟",
+        "en": "Cameroon vs Côte d'Ivoire ended 1-1 — who scored, what was the shootout score, and who missed the last kick?"
+      },
+      "answer": {
+        "ar": "باكاري كوني من كوت ديفوار وألبرت مييونغ زي من الكاميرون، وانتهت 12–11 لكوت ديفوار بعد ما إيتو ضيّع آخر ركلة",
+        "en": "Bakary Koné for Côte d'Ivoire and Albert Meyong Zé for Cameroon; Côte d'Ivoire won 12-11 after Eto'o missed the last kick"
+      }
+    },
+    {
+      "id": "afcon-2006-3-10",
+      "category": "afcon-2006-3",
+      "value": 10,
+      "question": {
+        "ar": "مين أحسن لاعب في البطولة؟",
+        "en": "Who was the best player of the tournament?"
+      },
+      "answer": {
+        "ar": "أحمد حسن",
+        "en": "Ahmed Hassan"
+      }
+    },
+    {
+      "id": "afcon-2006-3-20",
+      "category": "afcon-2006-3",
+      "value": 20,
+      "question": {
+        "ar": "مين ضيّع ركلات الترجيح في نهائي مصر وكوت ديفوار؟ اذكر 2 بس.",
+        "en": "Who missed penalties in the Egypt vs Côte d'Ivoire final? Name two."
+      },
+      "answer": {
+        "ar": "عبد الحليم علي، دروجبا، وباكاري كوني",
+        "en": "Abdelhalim Ali, Drogba and Bakary Koné"
+      }
+    },
+    {
+      "id": "afcon-2006-3-40",
+      "category": "afcon-2006-3",
+      "value": 40,
+      "question": {
+        "ar": "كان في قائمة مصر لاعبين من إنبي: الأول عمرو زكي، والتاني مين؟",
+        "en": "Egypt's squad had two ENPPI players: the first was Amr Zaki — who was the second?"
+      },
+      "answer": {
+        "ar": "سمير صبري",
+        "en": "Samir Sabry"
+      }
+    },
+    {
+      "id": "afcon-2006-3-50",
+      "category": "afcon-2006-3",
+      "value": 50,
+      "question": {
+        "ar": "مين مدرب كوت ديفوار في البطولة؟ ودرب مين في مصر؟",
+        "en": "Who coached Côte d'Ivoire at the tournament, and which Egyptian club did he coach?"
+      },
+      "answer": {
+        "ar": "هنري ميشيل، ودرب الزمالك",
+        "en": "Henri Michel, who coached Zamalek"
+      }
+    },
+    {
+      "id": "afcon-2006-4-10",
+      "category": "afcon-2006-4",
+      "value": 10,
+      "question": {
+        "ar": "كام كانت نتيجة مباراة الافتتاح ومين سجل الأهداف؟",
+        "en": "What was the opening match score and who scored?"
+      },
+      "answer": {
+        "ar": "مصر 3–0 ليبيا: ميدو، أبو تريكة، وأحمد حسن",
+        "en": "Egypt 3-0 Libya: Mido, Aboutrika and Ahmed Hassan"
+      }
+    },
+    {
+      "id": "afcon-2006-4-20",
+      "category": "afcon-2006-4",
+      "value": 20,
+      "question": {
+        "ar": "كام هدف سجل منتخب المغرب في البطولة؟",
+        "en": "How many goals did Morocco score in the tournament?"
+      },
+      "answer": {
+        "ar": "صفر",
+        "en": "Zero"
+      }
+    },
+    {
+      "id": "afcon-2006-4-40",
+      "category": "afcon-2006-4",
+      "value": 40,
+      "question": {
+        "ar": "في 3 لاعبين سجلوا 4 أهداف في البطولة، مين هما؟",
+        "en": "Three players scored 4 goals in the tournament — who were they?"
+      },
+      "answer": {
+        "ar": "أحمد حسن (مصر) – باسكال فيندونو (غينيا) – دوس سانتوس (تونس)",
+        "en": "Ahmed Hassan (Egypt), Pascal Feindouno (Guinea) and Dos Santos (Tunisia)"
+      }
+    },
+    {
+      "id": "afcon-2006-4-50",
+      "category": "afcon-2006-4",
+      "value": 50,
+      "question": {
+        "ar": "مين اللاعب اللي غاب عن كوت ديفوار في البطولة بسبب موت بنته؟",
+        "en": "Which player left Côte d'Ivoire's squad during the tournament after his daughter's death?"
+      },
+      "answer": {
+        "ar": "أرونا دينداني",
+        "en": "Aruna Dindane"
+      }
+    },
+    {
+      "id": "afcon-2008-1-10",
+      "category": "afcon-2008-1",
+      "value": 10,
+      "question": {
+        "ar": "مين أحسن لاعب في البطولة؟",
+        "en": "Who was the best player of the tournament?"
+      },
+      "answer": {
+        "ar": "حسني عبد ربه",
+        "en": "Hosny Abd Rabo"
+      }
+    },
+    {
+      "id": "afcon-2008-1-20",
+      "category": "afcon-2008-1",
+      "value": 20,
+      "question": {
+        "ar": "مين سجل أول هدف في البطولة؟",
+        "en": "Who scored the first goal of the tournament?"
+      },
+      "answer": {
+        "ar": "أسامواه جيان أمام غينيا",
+        "en": "Asamoah Gyan against Guinea"
+      }
+    },
+    {
+      "id": "afcon-2008-1-40",
+      "category": "afcon-2008-1",
+      "value": 40,
+      "question": {
+        "ar": "مين اللاعب اللي سجل هاتريك مع المغرب وفي نفس الماتش اتحسبت له ركلة جزاء؟",
+        "en": "Which player scored a hat-trick for Morocco and also won a penalty in the same match?"
+      },
+      "answer": {
+        "ar": "سفيان العلودي",
+        "en": "Soufiane Alloudi"
+      }
+    },
+    {
+      "id": "afcon-2008-1-50",
+      "category": "afcon-2008-1",
+      "value": 50,
+      "question": {
+        "ar": "مين سجل هدف الكاميرون أمام غانا في نصف النهائي؟",
+        "en": "Who scored Cameroon's goal against Ghana in the semi-final?"
+      },
+      "answer": {
+        "ar": "ألان نكونغ",
+        "en": "Alain N'Kong"
+      }
+    },
+    {
+      "id": "afcon-2008-2-10",
+      "category": "afcon-2008-2",
+      "value": 10,
+      "question": {
+        "ar": "مين سجل هدف كوت ديفوار الوحيد أمام مصر؟",
+        "en": "Who scored Côte d'Ivoire's only goal against Egypt?"
+      },
+      "answer": {
+        "ar": "عبد القادر كيتا",
+        "en": "Abdelkader Keïta"
+      }
+    },
+    {
+      "id": "afcon-2008-2-20",
+      "category": "afcon-2008-2",
+      "value": 20,
+      "question": {
+        "ar": "مين اللاعب اللي مثّل المنتخب وهو من نادي بتروجت؟",
+        "en": "Which national-team player came from Petrojet?"
+      },
+      "answer": {
+        "ar": "أحمد شعبان",
+        "en": "Ahmed Shaaban"
+      }
+    },
+    {
+      "id": "afcon-2008-2-40",
+      "category": "afcon-2008-2",
+      "value": 40,
+      "question": {
+        "ar": "في 4 لاعبين سجلوا 4 أهداف، منهم 3 من مصر: حسني عبد ربه وعمرو زكي وأبو تريكة — مين الرابع؟",
+        "en": "Four players scored 4 goals, three of them Egyptian — Hosny Abd Rabo, Amr Zaki and Aboutrika. Who was the fourth?"
+      },
+      "answer": {
+        "ar": "مانوتشو من أنجولا",
+        "en": "Manucho of Angola"
+      }
+    },
+    {
+      "id": "afcon-2008-2-50",
+      "category": "afcon-2008-2",
+      "value": 50,
+      "question": {
+        "ar": "كام كانت نتيجة مباراة المركز الثالث والرابع؟",
+        "en": "What was the third-place match score?"
+      },
+      "answer": {
+        "ar": "كوت ديفوار 2–4 غانا",
+        "en": "Côte d'Ivoire 2-4 Ghana"
+      }
+    },
+    {
+      "id": "afcon-2010-1-10",
+      "category": "afcon-2010-1",
+      "value": 10,
+      "question": {
+        "ar": "مين المنتخب اللي انسحب من البطولة بسبب حادث الباص؟",
+        "en": "Which team withdrew from the tournament after the bus attack?"
+      },
+      "answer": {
+        "ar": "توغو",
+        "en": "Togo"
+      }
+    },
+    {
+      "id": "afcon-2010-1-20",
+      "category": "afcon-2010-1",
+      "value": 20,
+      "question": {
+        "ar": "كام كانت نتيجة مباراة الافتتاح؟ والماتش مشي إزاي؟",
+        "en": "What was the opening match score, and how did it unfold?"
+      },
+      "answer": {
+        "ar": "أنجولا 4–4 مالي؛ أنجولا كانت كسبانة 4–0 ومالي عادلت",
+        "en": "Angola 4-4 Mali; Angola led 4-0 and Mali came back to draw"
+      }
+    },
+    {
+      "id": "afcon-2010-1-40",
+      "category": "afcon-2010-1",
+      "value": 40,
+      "question": {
+        "ar": "كام كانت نتيجة الجزائر في أول مباراة؟ وأمام مين؟",
+        "en": "What was Algeria's result in their first match, and against whom?"
+      },
+      "answer": {
+        "ar": "خسارة من مالاوي 3–0",
+        "en": "A 3-0 loss to Malawi"
+      }
+    },
+    {
+      "id": "afcon-2010-1-50",
+      "category": "afcon-2010-1",
+      "value": 50,
+      "question": {
+        "ar": "مين سجل هدف نيجيريا أمام مصر في أول مباراة؟",
+        "en": "Who scored Nigeria's goal against Egypt in their opening match?"
+      },
+      "answer": {
+        "ar": "أوباسي",
+        "en": "Obasi"
+      }
+    },
+    {
+      "id": "afcon-2010-2-10",
+      "category": "afcon-2010-2",
+      "value": 10,
+      "question": {
+        "ar": "مين المنتخب الوحيد اللي لعب البطولة وما سجلش أي هدف؟",
+        "en": "Which team was the only one to play the tournament without scoring a goal?"
+      },
+      "answer": {
+        "ar": "بنين",
+        "en": "Benin"
+      }
+    },
+    {
+      "id": "afcon-2010-2-20",
+      "category": "afcon-2010-2",
+      "value": 20,
+      "question": {
+        "ar": "مين مدرب منتخب أنجولا في البطولة؟",
+        "en": "Who coached Angola at the tournament?"
+      },
+      "answer": {
+        "ar": "مانويل جوزيه",
+        "en": "Manuel José"
+      }
+    },
+    {
+      "id": "afcon-2010-2-40",
+      "category": "afcon-2010-2",
+      "value": 40,
+      "question": {
+        "ar": "في المجموعة الرابعة، 3 منتخبات جابوا 4 نقاط: الكاميرون والغابون وزامبيا، ومنتخب خرج بـ3 نقاط — مين هو؟",
+        "en": "In Group D, three teams finished on 4 points — Cameroon, Gabon and Zambia — and one team went out with 3. Who?"
+      },
+      "answer": {
+        "ar": "تونس",
+        "en": "Tunisia"
+      }
+    },
+    {
+      "id": "afcon-2010-2-50",
+      "category": "afcon-2010-2",
+      "value": 50,
+      "question": {
+        "ar": "مباراة كوت ديفوار والجزائر كانت 2–1 حتى الدقيقة 92، الجزائر عادلت وراحت لوقت إضافي بفضل هدف مين؟",
+        "en": "Côte d'Ivoire led Algeria 2-1 until the 92nd minute; Algeria equalised and forced extra time thanks to whose goal?"
+      },
+      "answer": {
+        "ar": "مجيد بوقرة",
+        "en": "Majid Bougherra"
+      }
+    },
+    {
+      "id": "afcon-2012-1-10",
+      "category": "afcon-2012-1",
+      "value": 10,
+      "question": {
+        "ar": "فين اتعملت البطولة؟",
+        "en": "Where was the tournament held?"
+      },
+      "answer": {
+        "ar": "الغابون وغينيا الاستوائية",
+        "en": "Gabon and Equatorial Guinea"
+      }
+    },
+    {
+      "id": "afcon-2012-1-20",
+      "category": "afcon-2012-1",
+      "value": 20,
+      "question": {
+        "ar": "مين مدرب زامبيا في البطولة؟",
+        "en": "Who coached Zambia at the tournament?"
+      },
+      "answer": {
+        "ar": "هيرفي رينارد",
+        "en": "Hervé Renard"
+      }
+    },
+    {
+      "id": "afcon-2012-1-40",
+      "category": "afcon-2012-1",
+      "value": 40,
+      "question": {
+        "ar": "البطولة شهدت الصعود الأول لـ3 منتخبات، واحدة منهم غينيا الاستوائية — اذكر واحد من المنتخبين التانيين.",
+        "en": "Three teams qualified for the first time, one of them Equatorial Guinea — name one of the other two."
+      },
+      "answer": {
+        "ar": "بوتسوانا – النيجر",
+        "en": "Botswana or Niger"
+      }
+    },
+    {
+      "id": "afcon-2012-1-50",
+      "category": "afcon-2012-1",
+      "value": 50,
+      "question": {
+        "ar": "مين سجل آخر ركلة جزاء لزامبيا؟",
+        "en": "Who scored Zambia's final penalty?"
+      },
+      "answer": {
+        "ar": "ستوبيلا سونزو",
+        "en": "Stoppila Sunzu"
+      }
+    },
+    {
+      "id": "afcon-2012-2-10",
+      "category": "afcon-2012-2",
+      "value": 10,
+      "question": {
+        "ar": "المنتخبات اللي غابت عن البطولة، منهم 3 من أكتر المنتخبات اللي كسبوها — مين هما؟",
+        "en": "Three of the most successful teams missed the tournament — who were they?"
+      },
+      "answer": {
+        "ar": "مصر والكاميرون ونيجيريا",
+        "en": "Egypt, Cameroon and Nigeria"
+      }
+    },
+    {
+      "id": "afcon-2012-2-20",
+      "category": "afcon-2012-2",
+      "value": 20,
+      "question": {
+        "ar": "اشترك 7 لاعبين في صدارة هدافي البطولة، اذكر لاعب منهم.",
+        "en": "Seven players shared the tournament's top-scorer award — name one of them."
+      },
+      "answer": {
+        "ar": "مانوتشو (أنجولا) – أوباميانغ (الغابون) – دروجبا (كوت ديفوار) – شيخ دياباتي (مالي) – حسين خرجة (المغرب) – مايوكا وكريس كاتونغو (زامبيا)",
+        "en": "Manucho (Angola), Aubameyang (Gabon), Drogba (Côte d'Ivoire), Cheick Diabaté (Mali), Houssine Kharja (Morocco), Mayuka and Chris Katongo (Zambia)"
+      }
+    },
+    {
+      "id": "afcon-2012-2-40",
+      "category": "afcon-2012-2",
+      "value": 40,
+      "question": {
+        "ar": "مين سجل هدف زامبيا في نصف النهائي أمام غانا؟",
+        "en": "Who scored Zambia's semi-final goal against Ghana?"
+      },
+      "answer": {
+        "ar": "إيمانويل مايوكا",
+        "en": "Emmanuel Mayuka"
+      }
+    },
+    {
+      "id": "afcon-2012-2-50",
+      "category": "afcon-2012-2",
+      "value": 50,
+      "question": {
+        "ar": "مين النادي الأفريقي اللي كان فيه أكتر عدد من لاعبي زامبيا، وكان فيهم 4 لاعبين؟",
+        "en": "Which African club had the most Zambian internationals at the tournament, with four players?"
+      },
+      "answer": {
+        "ar": "تي بي مازيمبي",
+        "en": "TP Mazembe"
+      }
+    },
+    {
+      "id": "afcon-2013-1-10",
+      "category": "afcon-2013-1",
+      "value": 10,
+      "question": {
+        "ar": "البطولة اتعملت في جنوب أفريقيا، لكن كان المفروض تتعمل فين؟",
+        "en": "The tournament was held in South Africa, but where was it originally supposed to be held?"
+      },
+      "answer": {
+        "ar": "ليبيا",
+        "en": "Libya"
+      }
+    },
+    {
+      "id": "afcon-2013-1-20",
+      "category": "afcon-2013-1",
+      "value": 20,
+      "question": {
+        "ar": "في المجموعة الرابعة كان فيه تونس والجزائر — كام كانت نتيجة ماتشهم، ومين سجل؟",
+        "en": "Tunisia and Algeria met in Group D — what was the score and who scored?"
+      },
+      "answer": {
+        "ar": "تونس 1–0 الجزائر، سجل يوسف المساكني",
+        "en": "Tunisia 1-0 Algeria; Youssef Msakni scored"
+      }
+    },
+    {
+      "id": "afcon-2013-1-40",
+      "category": "afcon-2013-1",
+      "value": 40,
+      "question": {
+        "ar": "مين أحسن لاعب في البطولة؟ ومنتخب إيه؟",
+        "en": "Who was the best player of the tournament, and for which team?"
+      },
+      "answer": {
+        "ar": "جوناثان بيترويبا (بوركينا فاسو)",
+        "en": "Jonathan Pitroipa (Burkina Faso)"
+      }
+    },
+    {
+      "id": "afcon-2013-1-50",
+      "category": "afcon-2013-1",
+      "value": 50,
+      "question": {
+        "ar": "مين المنتخب اللي شارك لأول مرة في البطولة في النسخة دي وقدر يعدي دور المجموعات؟",
+        "en": "Which team made its tournament debut in this edition and reached the knockout stage?"
+      },
+      "answer": {
+        "ar": "الرأس الأخضر",
+        "en": "Cape Verde"
+      }
+    },
+    {
+      "id": "afcon-2013-2-10",
+      "category": "afcon-2013-2",
+      "value": 10,
+      "question": {
+        "ar": "كام كانت نتيجة النهائي؟ ومين الفريقين؟",
+        "en": "What was the final score and who played?"
+      },
+      "answer": {
+        "ar": "نيجيريا 1–0 بوركينا فاسو",
+        "en": "Nigeria 1-0 Burkina Faso"
+      }
+    },
+    {
+      "id": "afcon-2013-2-20",
+      "category": "afcon-2013-2",
+      "value": 20,
+      "question": {
+        "ar": "قائمة الرأس الأخضر كان فيها لاعبين شاركوا في كأس العالم 2026 — اذكر واحد منهم.",
+        "en": "Cape Verde's squad included players who featured at the 2026 World Cup — name one."
+      },
+      "answer": {
+        "ar": "فوزينيا – ريان مينديز",
+        "en": "Vozinha or Ryan Mendes"
+      }
+    },
+    {
+      "id": "afcon-2013-2-40",
+      "category": "afcon-2013-2",
+      "value": 40,
+      "question": {
+        "ar": "مين هداف البطولة؟ فيه 2، اذكر واحد منهم.",
+        "en": "Who were the tournament's top scorers? There were two — name one."
+      },
+      "answer": {
+        "ar": "إيمانويل إيمينيكي (نيجيريا) – مبارك واكاسو (غانا)",
+        "en": "Emmanuel Emenike (Nigeria) or Mubarak Wakaso (Ghana)"
+      }
+    },
+    {
+      "id": "afcon-2013-2-50",
+      "category": "afcon-2013-2",
+      "value": 50,
+      "question": {
+        "ar": "قائمة بوركينا فاسو اللي وصلت النهائي كان فيها لاعبين من الدوري المصري — مين هما؟",
+        "en": "Burkina Faso's final squad included players from the Egyptian league — who were they?"
+      },
+      "answer": {
+        "ar": "محمد كوفي (بتروجت) – علي رابو (الشرطة)",
+        "en": "Mohamed Koffi (Petrojet) and Ali Rabo (El Shorta)"
       }
     }
   ]
