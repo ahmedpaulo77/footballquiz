@@ -25,8 +25,8 @@
     {
       "id": "wc-five-world-cups",
       "question": {
-        "ar": "مين اللاعب الوحيد اللي سجل في ٥ نسخ مختلفة من كأس العالم؟",
-        "en": "Who is the only player to score in five different World Cups?"
+        "ar": "مين اللاعب الوحيد اللي سجل في ٦ نسخ مختلفة من كأس العالم؟",
+        "en": "Who is the only player to score in six different World Cups?"
       },
       "options": [
         {
@@ -42,8 +42,8 @@
           "en": "Lionel Messi"
         },
         {
-          "ar": "بيليه",
-          "en": "Pelé"
+          "ar": "كيليان مبابي",
+          "en": "Kylian Mbappé"
         }
       ],
       "correct": 1
@@ -51,25 +51,25 @@
     {
       "id": "wc-goalkeeper-ballon",
       "question": {
-        "ar": "مين الحارس الوحيد اللي كسب الكرة الذهبية؟",
-        "en": "Who is the only goalkeeper to win the Ballon d'Or?"
+        "ar": "مين أكتر حارس لعب مباريات في الدوري الإنجليزي؟",
+        "en": "Which goalkeeper has made the most Premier League appearances?"
       },
       "options": [
         {
-          "ar": "ليف ياشين",
-          "en": "Lev Yashin"
+          "ar": "ديفيد جيمس",
+          "en": "David James"
         },
         {
-          "ar": "جيانلويجي بوفون",
-          "en": "Gianluigi Buffon"
+          "ar": "بيتر تشيك",
+          "en": "Petr Čech"
         },
         {
-          "ar": "إيكر كاسياس",
-          "en": "Iker Casillas"
+          "ar": "مارك شوارزر",
+          "en": "Mark Schwarzer"
         },
         {
-          "ar": "مانويل نوير",
-          "en": "Manuel Neuer"
+          "ar": "ديفيد دي خيا",
+          "en": "David de Gea"
         }
       ],
       "correct": 0
@@ -82,23 +82,23 @@
       },
       "options": [
         {
-          "ar": "جيرد مولر",
-          "en": "Gerd Müller"
+          "ar": "كيليان مبابي",
+          "en": "Kylian Mbappé"
         },
         {
-          "ar": "بيليه",
-          "en": "Pelé"
-        },
-        {
-          "ar": "رونالدو نازاريو",
-          "en": "Ronaldo Nazário"
+          "ar": "ليونيل ميسي",
+          "en": "Lionel Messi"
         },
         {
           "ar": "ميروسلاف كلوزه",
           "en": "Miroslav Klose"
+        },
+        {
+          "ar": "رونالدو نازاريو",
+          "en": "Ronaldo Nazário"
         }
       ],
-      "correct": 3
+      "correct": 0
     },
     {
       "id": "wc-africa-quarter",
@@ -155,25 +155,25 @@
     {
       "id": "wc-youngest-final",
       "question": {
-        "ar": "مين أصغر لاعب سجل في نهائي كأس العالم؟",
-        "en": "Who is the youngest player to score in a World Cup final?"
+        "ar": "مين أصغر لاعب سجل في كأس العالم ٢٠٢٢؟",
+        "en": "Who was the youngest player to score at the 2022 World Cup?"
       },
       "options": [
         {
-          "ar": "بيليه",
-          "en": "Pelé"
+          "ar": "جافي",
+          "en": "Gavi"
         },
         {
-          "ar": "مايكل أوين",
-          "en": "Michael Owen"
+          "ar": "جود بيلينغهام",
+          "en": "Jude Bellingham"
         },
         {
-          "ar": "كيليان مبابي",
-          "en": "Kylian Mbappé"
+          "ar": "جمال موسيالا",
+          "en": "Jamal Musiala"
         },
         {
-          "ar": "رونالدو نازاريو",
-          "en": "Ronaldo Nazário"
+          "ar": "خوليان ألفاريز",
+          "en": "Julián Álvarez"
         }
       ],
       "correct": 0
@@ -190,16 +190,16 @@
           "en": "Ronaldo Nazário"
         },
         {
-          "ar": "فاتسلاف ماشيك",
-          "en": "Václav Mašek"
+          "ar": "كلينت ديمبسي",
+          "en": "Clint Dempsey"
         },
         {
           "ar": "هاكان شوكور",
           "en": "Hakan Şükür"
         },
         {
-          "ar": "بيليه",
-          "en": "Pelé"
+          "ar": "كيليان مبابي",
+          "en": "Kylian Mbappé"
         }
       ],
       "correct": 2
@@ -207,25 +207,25 @@
     {
       "id": "wc-player-manager",
       "question": {
-        "ar": "مين أول واحد كسب كأس العالم كلاعب ومدير فني؟",
-        "en": "Who was the first to win the World Cup as a player and as a manager?"
+        "ar": "مين أول واحد كسب كأس العالم قائد منتخب ومدير فني؟",
+        "en": "Who was the first to win the World Cup as captain and as a manager?"
       },
       "options": [
         {
-          "ar": "ماريو زاجالو",
-          "en": "Mário Zagallo"
-        },
-        {
           "ar": "فرانز بيكنباور",
           "en": "Franz Beckenbauer"
+        },
+        {
+          "ar": "ديدييه ديشامب",
+          "en": "Didier Deschamps"
         },
         {
           "ar": "فيسنتي ديل بوسكي",
           "en": "Vicente del Bosque"
         },
         {
-          "ar": "ديدييه ديشامب",
-          "en": "Didier Deschamps"
+          "ar": "ليونيل سكالوني",
+          "en": "Lionel Scaloni"
         }
       ],
       "correct": 0
@@ -285,28 +285,28 @@
     {
       "id": "wc-final-hattrick",
       "question": {
-        "ar": "مين أول لاعب سجل هاتريك في نهائي كأس العالم؟",
-        "en": "Who scored the first hat-trick in a World Cup final?"
+        "ar": "مين أكتر لاعب سجل في مباريات نهائي كأس العالم؟",
+        "en": "Who has scored the most goals in World Cup final matches?"
       },
       "options": [
-        {
-          "ar": "رونالدو نازاريو",
-          "en": "Ronaldo Nazário"
-        },
         {
           "ar": "كيليان مبابي",
           "en": "Kylian Mbappé"
         },
         {
-          "ar": "جيف هيرست",
-          "en": "Geoff Hurst"
+          "ar": "زين الدين زيدان",
+          "en": "Zinedine Zidane"
         },
         {
-          "ar": "بيليه",
-          "en": "Pelé"
+          "ar": "ليونيل ميسي",
+          "en": "Lionel Messi"
+        },
+        {
+          "ar": "رونالدو نازاريو",
+          "en": "Ronaldo Nazário"
         }
       ],
-      "correct": 2
+      "correct": 0
     },
     {
       "id": "ucl-three-clubs",
@@ -337,8 +337,8 @@
     {
       "id": "ucl-six-first",
       "question": {
-        "ar": "مين أول لاعب كسب كأس أوروبا ٦ مرات؟",
-        "en": "Who was the first player to win the European Cup six times?"
+        "ar": "مين أكتر لاعب سجل في مباريات نهائي دوري أبطال أوروبا؟",
+        "en": "Who has scored the most goals in Champions League final matches?"
       },
       "options": [
         {
@@ -346,19 +346,19 @@
           "en": "Cristiano Ronaldo"
         },
         {
+          "ar": "جاريث بيل",
+          "en": "Gareth Bale"
+        },
+        {
           "ar": "ليونيل ميسي",
           "en": "Lionel Messi"
         },
         {
-          "ar": "باولو مالديني",
-          "en": "Paolo Maldini"
-        },
-        {
-          "ar": "باكو خينتو",
-          "en": "Paco Gento"
+          "ar": "سيرجيو راموس",
+          "en": "Sergio Ramos"
         }
       ],
-      "correct": 3
+      "correct": 0
     },
     {
       "id": "ucl-top-scorer",
@@ -675,25 +675,25 @@
     {
       "id": "eg-league-top",
       "question": {
-        "ar": "مين هداف الدوري المصري التاريخي؟",
-        "en": "Who is the all-time top scorer in the Egyptian Premier League?"
+        "ar": "مين أول مصري كسب جائزة أفضل لاعب في أفريقيا؟",
+        "en": "Who was the first Egyptian to win the African Footballer of the Year?"
       },
       "options": [
         {
-          "ar": "حسن الشاذلي",
-          "en": "Hassan El-Shazly"
+          "ar": "محمود الخطيب",
+          "en": "Mahmoud El-Khatib"
         },
         {
           "ar": "محمد أبو تريكة",
           "en": "Mohamed Aboutrika"
         },
         {
-          "ar": "أحمد حسن",
-          "en": "Ahmed Hassan"
-        },
-        {
           "ar": "حسام حسن",
           "en": "Hossam Hassan"
+        },
+        {
+          "ar": "أحمد حسن",
+          "en": "Ahmed Hassan"
         }
       ],
       "correct": 0
@@ -836,8 +836,8 @@
       },
       "options": [
         {
-          "ar": "حسن الشاذلي",
-          "en": "Hassan El-Shazly"
+          "ar": "ميدو",
+          "en": "Mido"
         },
         {
           "ar": "حسام حسن",
@@ -1156,8 +1156,8 @@
           "en": "Karim Benzema"
         },
         {
-          "ar": "تيلمو زارا",
-          "en": "Telmo Zarra"
+          "ar": "هوجو سانشيز",
+          "en": "Hugo Sánchez"
         },
         {
           "ar": "ليونيل ميسي",
@@ -1182,8 +1182,8 @@
           "en": "Luis Suárez"
         },
         {
-          "ar": "تيلمو زارا",
-          "en": "Telmo Zarra"
+          "ar": "هوجو سانشيز",
+          "en": "Hugo Sánchez"
         },
         {
           "ar": "كريستيانو رونالدو",
@@ -1230,8 +1230,8 @@
           "en": "Raúl"
         },
         {
-          "ar": "ألفريدو دي ستيفانو",
-          "en": "Alfredo Di Stéfano"
+          "ar": "هوجو سانشيز",
+          "en": "Hugo Sánchez"
         },
         {
           "ar": "كريستيانو رونالدو",
@@ -1247,8 +1247,8 @@
     {
       "id": "serie-a-goals",
       "question": {
-        "ar": "مين هداف الدوري الإيطالي التاريخي؟",
-        "en": "Who is the all-time top scorer in Serie A?"
+        "ar": "مين أكتر لاعب سجل في الدوري الإيطالي من اللي لعبوا في القرن الـ٢١؟",
+        "en": "Who has scored the most Serie A goals among players active in the 21st century?"
       },
       "options": [
         {
@@ -1256,19 +1256,19 @@
           "en": "Francesco Totti"
         },
         {
+          "ar": "أنطونيو دي ناتالي",
+          "en": "Antonio Di Natale"
+        },
+        {
+          "ar": "تشيرو إيموبيلي",
+          "en": "Ciro Immobile"
+        },
+        {
           "ar": "أليساندرو ديل بييرو",
           "en": "Alessandro Del Piero"
-        },
-        {
-          "ar": "غونار نوردال",
-          "en": "Gunnar Nordahl"
-        },
-        {
-          "ar": "سيلفيو بيولا",
-          "en": "Silvio Piola"
         }
       ],
-      "correct": 3
+      "correct": 0
     },
     {
       "id": "bundesliga-goals",
@@ -1334,8 +1334,8 @@
           "en": "Lionel Messi"
         },
         {
-          "ar": "بيليه",
-          "en": "Pelé"
+          "ar": "روبرت ليفاندوفسكي",
+          "en": "Robert Lewandowski"
         },
         {
           "ar": "جيرد مولر",
@@ -1490,8 +1490,8 @@
           "en": "Lionel Messi"
         },
         {
-          "ar": "بيليه",
-          "en": "Pelé"
+          "ar": "نيمار",
+          "en": "Neymar"
         },
         {
           "ar": "علي دائي",
@@ -1542,8 +1542,8 @@
           "en": "Lionel Messi"
         },
         {
-          "ar": "بيليه",
-          "en": "Pelé"
+          "ar": "سونيل تشيتري",
+          "en": "Sunil Chhetri"
         },
         {
           "ar": "علي دائي",
@@ -1559,28 +1559,28 @@
     {
       "id": "wc-single-tournament",
       "question": {
-        "ar": "مين صاحب أكتر أهداف في نسخة واحدة من كأس العالم؟",
-        "en": "Who scored the most goals in a single World Cup?"
+        "ar": "مين أكبر لاعب ميداني شارك في كأس العالم؟",
+        "en": "Who is the oldest outfield player to play at a World Cup?"
       },
       "options": [
         {
-          "ar": "ميروسلاف كلوزه",
-          "en": "Miroslav Klose"
+          "ar": "روجر ميلا",
+          "en": "Roger Milla"
         },
         {
-          "ar": "رونالدو نازاريو",
-          "en": "Ronaldo Nazário"
+          "ar": "لوكا مودريتش",
+          "en": "Luka Modrić"
         },
         {
-          "ar": "جيرد مولر",
-          "en": "Gerd Müller"
+          "ar": "بيبي",
+          "en": "Pepe"
         },
         {
-          "ar": "جوست فونتين",
-          "en": "Just Fontaine"
+          "ar": "كريستيانو رونالدو",
+          "en": "Cristiano Ronaldo"
         }
       ],
-      "correct": 3
+      "correct": 0
     }
   ]
 }

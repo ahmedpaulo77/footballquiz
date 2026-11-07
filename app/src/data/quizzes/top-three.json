@@ -165,8 +165,8 @@
           "stat": 44
         },
         {
-          "name": "Alfredo Di Stéfano",
-          "stat": 49
+          "name": "Raúl González",
+          "stat": 71
         },
         {
           "name": "Filippo Inzaghi",
@@ -228,8 +228,8 @@
           "stat": 35
         },
         {
-          "name": "Ferenc Puskás",
-          "stat": 36
+          "name": "Didier Drogba",
+          "stat": 44
         },
         {
           "name": "Alessandro Del Piero",
@@ -254,8 +254,8 @@
       ],
       "top": [
         0,
-        4,
-        6
+        3,
+        4
       ]
     },
     {
@@ -275,8 +275,8 @@
       "source": "Wikipedia — List of European Cup and UEFA Champions League top scorers (as of 4 Nov 2026)",
       "players": [
         {
-          "name": "Alfredo Di Stéfano",
-          "stat": 49
+          "name": "Thierry Henry",
+          "stat": 50
         },
         {
           "name": "Andriy Shevchenko",
@@ -814,7 +814,7 @@
           "stat": 92
         },
         {
-          "name": "Bernard Chitalu",
+          "name": "Godfrey Chitalu",
           "stat": 79
         },
         {
@@ -834,8 +834,8 @@
           "stat": 95
         },
         {
-          "name": "Ferenc Puskás",
-          "stat": 84
+          "name": "Hossam Hassan",
+          "stat": 69
         },
         {
           "name": "Mokhtar Dahari",
@@ -865,11 +865,11 @@
       "source": "Wikipedia — List of men's footballers with 50 or more international goals (as of 7 Oct 2026)",
       "players": [
         {
-          "name": "Vivian Woodward",
-          "stat": 75
+          "name": "Ali Daei",
+          "stat": 108
         },
         {
-          "name": "Bernard Chitalu",
+          "name": "Godfrey Chitalu",
           "stat": 79
         },
         {
@@ -877,16 +877,16 @@
           "stat": 89
         },
         {
-          "name": "Ferenc Puskás",
-          "stat": 84
+          "name": "Sunil Chhetri",
+          "stat": 95
         },
         {
-          "name": "Sándor Kocsis",
-          "stat": 75
+          "name": "Hossam Hassan",
+          "stat": 69
         },
         {
-          "name": "Pelé",
-          "stat": 77
+          "name": "Mohamed Salah",
+          "stat": 68
         },
         {
           "name": "Hussein Saeed",
@@ -902,9 +902,9 @@
         }
       ],
       "top": [
+        0,
         2,
-        3,
-        8
+        3
       ]
     },
     {
@@ -932,19 +932,11 @@
           "stat": 78
         },
         {
-          "name": "Pelé",
-          "stat": 77
-        },
-        {
-          "name": "Sándor Kocsis",
-          "stat": 75
+          "name": "Ali Mabkhout",
+          "stat": 85
         },
         {
           "name": "Bashar Abdullah",
-          "stat": 75
-        },
-        {
-          "name": "Kunishige Kamamoto",
           "stat": 75
         },
         {
@@ -952,11 +944,19 @@
           "stat": 73
         },
         {
-          "name": "Vivian Woodward",
-          "stat": 75
+          "name": "Hossam Hassan",
+          "stat": 69
         },
         {
-          "name": "Bernard Chitalu",
+          "name": "Mohamed Salah",
+          "stat": 68
+        },
+        {
+          "name": "Robbie Keane",
+          "stat": 68
+        },
+        {
+          "name": "Godfrey Chitalu",
           "stat": 79
         }
       ],
@@ -1015,8 +1015,8 @@
           "stat": 70
         },
         {
-          "name": "Abdul Kadir",
-          "stat": 70
+          "name": "Robbie Keane",
+          "stat": 68
         }
       ],
       "top": [
@@ -1459,10 +1459,6 @@
           "stat": 219
         },
         {
-          "name": "Alfredo Di Stéfano",
-          "stat": 227
-        },
-        {
           "name": "Cristiano Ronaldo",
           "stat": 311
         },
@@ -1475,10 +1471,6 @@
           "stat": 234
         },
         {
-          "name": "Telmo Zarra",
-          "stat": 251
-        },
-        {
           "name": "Lionel Messi",
           "stat": 474
         },
@@ -1487,14 +1479,22 @@
           "stat": 228
         },
         {
-          "name": "César Rodríguez",
-          "stat": 223
+          "name": "Antoine Griezmann",
+          "stat": 205
+        },
+        {
+          "name": "David Villa",
+          "stat": 186
+        },
+        {
+          "name": "Iago Aspas",
+          "stat": 171
         }
       ],
       "top": [
+        1,
         2,
-        5,
-        6
+        4
       ]
     },
     {
@@ -1514,24 +1514,12 @@
       "source": "Wikipedia — La Liga records and statistics (as of 2026)",
       "players": [
         {
-          "name": "Pahiño",
-          "stat": 210
-        },
-        {
           "name": "Antoine Griezmann",
           "stat": 205
         },
         {
           "name": "Karim Benzema",
           "stat": 238
-        },
-        {
-          "name": "Edmundo Suárez",
-          "stat": 195
-        },
-        {
-          "name": "César Rodríguez",
-          "stat": 223
         },
         {
           "name": "Raúl González",
@@ -1542,18 +1530,30 @@
           "stat": 234
         },
         {
-          "name": "Alfredo Di Stéfano",
-          "stat": 227
-        },
-        {
           "name": "Quini",
           "stat": 219
+        },
+        {
+          "name": "Santillana",
+          "stat": 186
+        },
+        {
+          "name": "David Villa",
+          "stat": 186
+        },
+        {
+          "name": "Luis Suárez",
+          "stat": 179
+        },
+        {
+          "name": "Iago Aspas",
+          "stat": 171
         }
       ],
       "top": [
+        1,
         2,
-        5,
-        6
+        3
       ]
     },
     {
@@ -1573,46 +1573,46 @@
       "source": "Wikipedia — La Liga records and statistics (as of 2026)",
       "players": [
         {
-          "name": "Santillana",
-          "stat": 186
+          "name": "Quini",
+          "stat": 219
         },
         {
           "name": "Antoine Griezmann",
           "stat": 205
         },
         {
-          "name": "Quini",
-          "stat": 219
+          "name": "Karim Benzema",
+          "stat": 238
+        },
+        {
+          "name": "Raúl González",
+          "stat": 228
+        },
+        {
+          "name": "Santillana",
+          "stat": 186
         },
         {
           "name": "David Villa",
-          "stat": 185
+          "stat": 186
         },
         {
-          "name": "Edmundo Suárez",
-          "stat": 195
+          "name": "Luis Suárez",
+          "stat": 179
         },
         {
-          "name": "Juan Arza",
-          "stat": 182
+          "name": "Iago Aspas",
+          "stat": 171
         },
         {
-          "name": "Pahiño",
-          "stat": 210
-        },
-        {
-          "name": "Alfredo Di Stéfano",
-          "stat": 227
-        },
-        {
-          "name": "César Rodríguez",
-          "stat": 223
+          "name": "Samuel Eto'o",
+          "stat": 162
         }
       ],
       "top": [
+        0,
         2,
-        7,
-        8
+        3
       ]
     },
     {
@@ -1640,38 +1640,38 @@
           "stat": 179
         },
         {
-          "name": "Edmundo Suárez",
-          "stat": 195
+          "name": "Karim Benzema",
+          "stat": 238
+        },
+        {
+          "name": "Hugo Sánchez",
+          "stat": 234
+        },
+        {
+          "name": "Raúl González",
+          "stat": 228
+        },
+        {
+          "name": "Antoine Griezmann",
+          "stat": 205
         },
         {
           "name": "Santillana",
           "stat": 186
         },
         {
-          "name": "Juan Arza",
-          "stat": 182
-        },
-        {
           "name": "David Villa",
-          "stat": 185
+          "stat": 186
         },
         {
           "name": "Iago Aspas",
           "stat": 171
-        },
-        {
-          "name": "Guillermo Gorostiza",
-          "stat": 178
-        },
-        {
-          "name": "Antoine Griezmann",
-          "stat": 205
         }
       ],
       "top": [
         2,
         3,
-        8
+        4
       ]
     },
     {
@@ -1695,8 +1695,8 @@
           "stat": 179
         },
         {
-          "name": "Luis Aragonés",
-          "stat": 160
+          "name": "Antoine Griezmann",
+          "stat": 205
         },
         {
           "name": "Julio Salinas",
@@ -1707,20 +1707,20 @@
           "stat": 158
         },
         {
-          "name": "Ferenc Puskás",
-          "stat": 156
-        },
-        {
-          "name": "Adrián Escudero",
-          "stat": 150
+          "name": "Santillana",
+          "stat": 186
         },
         {
           "name": "Samuel Eto'o",
           "stat": 162
         },
         {
-          "name": "Guillermo Gorostiza",
-          "stat": 178
+          "name": "Raúl Tamudo",
+          "stat": 146
+        },
+        {
+          "name": "Daniel Ruiz",
+          "stat": 147
         },
         {
           "name": "Iago Aspas",
@@ -1729,8 +1729,8 @@
       ],
       "top": [
         0,
-        7,
-        8
+        1,
+        4
       ]
     },
     {
@@ -1754,16 +1754,16 @@
           "stat": 147
         },
         {
-          "name": "Silvestre Igoa",
-          "stat": 141
+          "name": "David Villa",
+          "stat": 186
         },
         {
-          "name": "Ferenc Puskás",
-          "stat": 156
+          "name": "Luis Suárez",
+          "stat": 179
         },
         {
-          "name": "Luis Aragonés",
-          "stat": 160
+          "name": "Santillana",
+          "stat": 186
         },
         {
           "name": "Aritz Aduriz",
@@ -1782,14 +1782,14 @@
           "stat": 146
         },
         {
-          "name": "Adrián Escudero",
-          "stat": 150
+          "name": "Iago Aspas",
+          "stat": 171
         }
       ],
       "top": [
-        3,
-        4,
-        5
+        1,
+        2,
+        3
       ]
     },
     {
@@ -1931,22 +1931,6 @@
           "stat": 205
         },
         {
-          "name": "Giuseppe Meazza",
-          "stat": 216
-        },
-        {
-          "name": "Silvio Piola",
-          "stat": 274
-        },
-        {
-          "name": "Francesco Totti",
-          "stat": 250
-        },
-        {
-          "name": "Kurt Hamrin",
-          "stat": 190
-        },
-        {
           "name": "Antonio Di Natale",
           "stat": 209
         },
@@ -1955,18 +1939,34 @@
           "stat": 201
         },
         {
-          "name": "José Altafini",
-          "stat": 216
+          "name": "Francesco Totti",
+          "stat": 250
         },
         {
-          "name": "Gunnar Nordahl",
-          "stat": 225
+          "name": "Alessandro Del Piero",
+          "stat": 188
+        },
+        {
+          "name": "Giuseppe Signori",
+          "stat": 188
+        },
+        {
+          "name": "Gabriel Batistuta",
+          "stat": 183
+        },
+        {
+          "name": "Fabio Quagliarella",
+          "stat": 182
+        },
+        {
+          "name": "Giuseppe Savoldi",
+          "stat": 168
         }
       ],
       "top": [
-        2,
-        3,
-        8
+        0,
+        1,
+        3
       ]
     },
     {
@@ -1998,34 +1998,34 @@
           "stat": 188
         },
         {
-          "name": "Giuseppe Meazza",
-          "stat": 216
-        },
-        {
-          "name": "Kurt Hamrin",
-          "stat": 190
-        },
-        {
-          "name": "Alberto Gilardino",
-          "stat": 188
-        },
-        {
-          "name": "José Altafini",
-          "stat": 216
+          "name": "Francesco Totti",
+          "stat": 250
         },
         {
           "name": "Antonio Di Natale",
           "stat": 209
         },
         {
+          "name": "Alberto Gilardino",
+          "stat": 188
+        },
+        {
           "name": "Roberto Baggio",
           "stat": 205
+        },
+        {
+          "name": "Gabriel Batistuta",
+          "stat": 183
+        },
+        {
+          "name": "Fabio Quagliarella",
+          "stat": 182
         }
       ],
       "top": [
         3,
-        6,
-        7
+        4,
+        6
       ]
     },
     {
@@ -2045,10 +2045,6 @@
       "source": "Wikipedia — List of Serie A players with 100 or more goals (as of 2026)",
       "players": [
         {
-          "name": "Giampiero Boniperti",
-          "stat": 178
-        },
-        {
           "name": "Fabio Quagliarella",
           "stat": 182
         },
@@ -2057,34 +2053,38 @@
           "stat": 183
         },
         {
+          "name": "Roberto Baggio",
+          "stat": 205
+        },
+        {
           "name": "Zlatan Ibrahimović",
           "stat": 156
-        },
-        {
-          "name": "Roberto Boninsegna",
-          "stat": 162
-        },
-        {
-          "name": "Guglielmo Gabetto",
-          "stat": 164
         },
         {
           "name": "Luca Toni",
           "stat": 157
         },
         {
-          "name": "Amedeo Amadei",
-          "stat": 174
-        },
-        {
           "name": "Giuseppe Savoldi",
           "stat": 168
+        },
+        {
+          "name": "Alessandro Del Piero",
+          "stat": 188
+        },
+        {
+          "name": "Christian Vieri",
+          "stat": 142
+        },
+        {
+          "name": "Ciro Immobile",
+          "stat": 201
         }
       ],
       "top": [
-        0,
-        1,
-        2
+        2,
+        6,
+        8
       ]
     },
     {
@@ -2104,8 +2104,8 @@
       "source": "Wikipedia — List of Serie A players with 100 or more goals (as of 2026)",
       "players": [
         {
-          "name": "Roberto Boninsegna",
-          "stat": 162
+          "name": "Giuseppe Savoldi",
+          "stat": 168
         },
         {
           "name": "Luca Toni",
@@ -2124,24 +2124,24 @@
           "stat": 156
         },
         {
-          "name": "Luís Vinício",
-          "stat": 155
+          "name": "Francesco Totti",
+          "stat": 250
         },
         {
-          "name": "Guglielmo Gabetto",
-          "stat": 164
+          "name": "Antonio Di Natale",
+          "stat": 209
         },
         {
-          "name": "Giuseppe Savoldi",
-          "stat": 168
+          "name": "Roberto Baggio",
+          "stat": 205
         },
         {
-          "name": "Gigi Riva",
-          "stat": 156
+          "name": "Fabio Quagliarella",
+          "stat": 182
         }
       ],
       "top": [
-        0,
+        5,
         6,
         7
       ]
@@ -2167,8 +2167,8 @@
           "stat": 268
         },
         {
-          "name": "Jupp Heynckes",
-          "stat": 220
+          "name": "Thomas Müller",
+          "stat": 150
         },
         {
           "name": "Manfred Burgsmüller",
@@ -2226,8 +2226,8 @@
           "stat": 197
         },
         {
-          "name": "Jupp Heynckes",
-          "stat": 220
+          "name": "Stefan Kießling",
+          "stat": 144
         },
         {
           "name": "Ulf Kirsten",
@@ -2238,8 +2238,8 @@
           "stat": 177
         },
         {
-          "name": "Hannes Löhr",
-          "stat": 166
+          "name": "Thomas Müller",
+          "stat": 150
         },
         {
           "name": "Mario Gómez",
@@ -2260,7 +2260,7 @@
       ],
       "top": [
         0,
-        1,
+        2,
         8
       ]
     },
@@ -2313,8 +2313,8 @@
           "stat": 162
         },
         {
-          "name": "Hannes Löhr",
-          "stat": 166
+          "name": "Thomas Allofs",
+          "stat": 148
         }
       ],
       "top": [
@@ -2458,18 +2458,6 @@
       "source": "Wikipedia — List of Ligue 1 top scorers (as of 2026)",
       "players": [
         {
-          "name": "Fleury Di Nallo",
-          "stat": 187
-        },
-        {
-          "name": "Roger Courtois",
-          "stat": 210
-        },
-        {
-          "name": "Hervé Revelli",
-          "stat": 216
-        },
-        {
           "name": "Kylian Mbappé",
           "stat": 191
         },
@@ -2478,26 +2466,38 @@
           "stat": 299
         },
         {
-          "name": "Roger Piantoni",
-          "stat": 203
+          "name": "Carlos Bianchi",
+          "stat": 179
         },
         {
           "name": "Bernard Lacombe",
           "stat": 255
         },
         {
-          "name": "Thadée Cisowski",
-          "stat": 206
+          "name": "Alain Giresse",
+          "stat": 163
         },
         {
-          "name": "Joseph Ujlaki",
-          "stat": 190
+          "name": "Alexandre Lacazette",
+          "stat": 161
+        },
+        {
+          "name": "Wissam Ben Yedder",
+          "stat": 161
+        },
+        {
+          "name": "Jean-Pierre Papin",
+          "stat": 156
+        },
+        {
+          "name": "Jacky Vergnes",
+          "stat": 153
         }
       ],
       "top": [
-        2,
-        4,
-        6
+        0,
+        1,
+        3
       ]
     },
     {
@@ -2517,46 +2517,46 @@
       "source": "Wikipedia — List of Ligue 1 top scorers (as of 2026)",
       "players": [
         {
-          "name": "Thadée Cisowski",
-          "stat": 206
-        },
-        {
-          "name": "Joseph Ujlaki",
-          "stat": 190
-        },
-        {
-          "name": "Roger Courtois",
-          "stat": 210
-        },
-        {
-          "name": "Hassan Akesbi",
-          "stat": 173
-        },
-        {
-          "name": "Roger Piantoni",
-          "stat": 203
-        },
-        {
-          "name": "Gunnar Andersson",
+          "name": "Carlos Bianchi",
           "stat": 179
-        },
-        {
-          "name": "Fleury Di Nallo",
-          "stat": 187
         },
         {
           "name": "Kylian Mbappé",
           "stat": 191
         },
         {
-          "name": "Carlos Bianchi",
-          "stat": 179
+          "name": "Wissam Ben Yedder",
+          "stat": 161
+        },
+        {
+          "name": "Alain Giresse",
+          "stat": 163
+        },
+        {
+          "name": "Alexandre Lacazette",
+          "stat": 161
+        },
+        {
+          "name": "Jean-Pierre Papin",
+          "stat": 156
+        },
+        {
+          "name": "Jacky Vergnes",
+          "stat": 153
+        },
+        {
+          "name": "Dominique Rocheteau",
+          "stat": 145
+        },
+        {
+          "name": "Pauleta",
+          "stat": 141
         }
       ],
       "top": [
         0,
-        2,
-        4
+        1,
+        3
       ]
     },
     {
@@ -2576,46 +2576,46 @@
       "source": "Wikipedia — List of Ligue 1 top scorers (as of 2026)",
       "players": [
         {
-          "name": "Hassan Akesbi",
-          "stat": 173
-        },
-        {
           "name": "Alain Giresse",
           "stat": 163
         },
         {
-          "name": "Fleury Di Nallo",
-          "stat": 187
-        },
-        {
-          "name": "Jean Baratte",
-          "stat": 169
-        },
-        {
-          "name": "Wissam Ben Yedder",
-          "stat": 161
-        },
-        {
-          "name": "Gunnar Andersson",
-          "stat": 179
+          "name": "Delio Onnis",
+          "stat": 299
         },
         {
           "name": "Carlos Bianchi",
           "stat": 179
         },
         {
-          "name": "Just Fontaine",
-          "stat": 164
+          "name": "Bernard Lacombe",
+          "stat": 255
+        },
+        {
+          "name": "Kylian Mbappé",
+          "stat": 191
+        },
+        {
+          "name": "Wissam Ben Yedder",
+          "stat": 161
         },
         {
           "name": "Alexandre Lacazette",
           "stat": 161
+        },
+        {
+          "name": "Jean-Pierre Papin",
+          "stat": 156
+        },
+        {
+          "name": "Jacky Vergnes",
+          "stat": 153
         }
       ],
       "top": [
-        2,
-        5,
-        6
+        1,
+        3,
+        4
       ]
     },
     {
@@ -2635,16 +2635,28 @@
       "source": "Wikipedia — List of Ligue 1 top scorers (as of 2026)",
       "players": [
         {
-          "name": "Yvon Douis",
-          "stat": 140
+          "name": "Jean-Pierre Papin",
+          "stat": 156
+        },
+        {
+          "name": "Kylian Mbappé",
+          "stat": 191
         },
         {
           "name": "Jacky Vergnes",
           "stat": 153
         },
         {
-          "name": "Josip Skoblar",
-          "stat": 151
+          "name": "Carlos Bianchi",
+          "stat": 179
+        },
+        {
+          "name": "Alain Giresse",
+          "stat": 163
+        },
+        {
+          "name": "Dominique Rocheteau",
+          "stat": 145
         },
         {
           "name": "Pauleta",
@@ -2655,26 +2667,14 @@
           "stat": 139
         },
         {
-          "name": "Rachid Mekhloufi",
-          "stat": 143
-        },
-        {
-          "name": "Dominique Rocheteau",
-          "stat": 145
-        },
-        {
-          "name": "Jean-Pierre Papin",
-          "stat": 156
-        },
-        {
-          "name": "Lucien Cossou",
-          "stat": 149
+          "name": "Edinson Cavani",
+          "stat": 138
         }
       ],
       "top": [
         1,
-        2,
-        7
+        3,
+        4
       ]
     },
     {
@@ -2694,12 +2694,32 @@
       "source": "Wikipedia — List of Ligue 1 top scorers (as of 2026)",
       "players": [
         {
+          "name": "Alexandre Lacazette",
+          "stat": 161
+        },
+        {
+          "name": "Alain Giresse",
+          "stat": 163
+        },
+        {
+          "name": "Jean-Pierre Papin",
+          "stat": 156
+        },
+        {
+          "name": "Wissam Ben Yedder",
+          "stat": 161
+        },
+        {
+          "name": "Jacky Vergnes",
+          "stat": 153
+        },
+        {
           "name": "Dominique Rocheteau",
           "stat": 145
         },
         {
-          "name": "Sonny Anderson",
-          "stat": 138
+          "name": "Pauleta",
+          "stat": 141
         },
         {
           "name": "Michel Platini",
@@ -2708,32 +2728,12 @@
         {
           "name": "Edinson Cavani",
           "stat": 138
-        },
-        {
-          "name": "Lucien Cossou",
-          "stat": 149
-        },
-        {
-          "name": "Rachid Mekhloufi",
-          "stat": 143
-        },
-        {
-          "name": "Yvon Douis",
-          "stat": 140
-        },
-        {
-          "name": "Stéphane Bruey",
-          "stat": 139
-        },
-        {
-          "name": "Pauleta",
-          "stat": 141
         }
       ],
       "top": [
         0,
-        4,
-        5
+        1,
+        3
       ]
     },
     {
@@ -2769,7 +2769,7 @@
           "stat": 16
         },
         {
-          "name": "Sándor Kocsis",
+          "name": "Jürgen Klinsmann",
           "stat": 11
         },
         {
@@ -2781,12 +2781,12 @@
           "stat": 14
         },
         {
-          "name": "Just Fontaine",
-          "stat": 13
+          "name": "Cristiano Ronaldo",
+          "stat": 11
         },
         {
-          "name": "Pelé",
-          "stat": 12
+          "name": "Gabriel Batistuta",
+          "stat": 10
         }
       ],
       "top": [
@@ -2812,24 +2812,12 @@
       "source": "Wikipedia — List of FIFA World Cup top goalscorers (as of 19 July 2026)",
       "players": [
         {
-          "name": "Ronaldo Nazário",
-          "stat": 15
-        },
-        {
-          "name": "Pelé",
-          "stat": 12
-        },
-        {
           "name": "Harry Kane",
           "stat": 14
         },
         {
-          "name": "Sándor Kocsis",
-          "stat": 11
-        },
-        {
-          "name": "Helmut Rahn",
-          "stat": 10
+          "name": "Ronaldo Nazário",
+          "stat": 15
         },
         {
           "name": "Jürgen Klinsmann",
@@ -2844,14 +2832,26 @@
           "stat": 11
         },
         {
-          "name": "Just Fontaine",
-          "stat": 13
+          "name": "Thomas Müller",
+          "stat": 10
+        },
+        {
+          "name": "Gabriel Batistuta",
+          "stat": 10
+        },
+        {
+          "name": "David Villa",
+          "stat": 9
+        },
+        {
+          "name": "Eusébio",
+          "stat": 9
         }
       ],
       "top": [
         0,
-        2,
-        6
+        1,
+        3
       ]
     },
     {
@@ -2879,8 +2879,8 @@
           "stat": 18
         },
         {
-          "name": "Hassan El-Shazly",
-          "stat": 12
+          "name": "Francileudo Santos",
+          "stat": 10
         },
         {
           "name": "Sadio Mané",
@@ -2916,60 +2916,1244 @@
     {
       "id": "copa-goals-01",
       "category": {
-        "ar": "أهداف كوبا أمريكا",
-        "en": "Copa América goals"
+        "ar": "مشاركات كوبا أمريكا",
+        "en": "Copa América appearances"
       },
       "question": {
-        "ar": "مين أكتر ٣ لاعبين سجلوا في كوبا أمريكا من التسعة دول؟",
-        "en": "Which 3 players scored the most Copa América goals among these nine?"
+        "ar": "مين أكتر ٣ لاعبين شاركوا في كوبا أمريكا من التسعة دول؟",
+        "en": "Which 3 players have made the most Copa América appearances among these nine?"
       },
       "unit": {
-        "ar": "هدف",
-        "en": "goals"
+        "ar": "مباراة",
+        "en": "appearances"
       },
-      "source": "Wikipedia — Copa América records and statistics (as of 2024)",
+      "source": "Wikipedia — Copa América records and statistics (as of 2026)",
       "players": [
         {
-          "name": "Lionel Messi",
-          "stat": 14
-        },
-        {
           "name": "Paolo Guerrero",
-          "stat": 14
+          "stat": 28
         },
         {
-          "name": "José Manuel Moreno",
-          "stat": 13
+          "name": "Claudio Bravo",
+          "stat": 27
         },
         {
-          "name": "Gabriel Batistuta",
-          "stat": 13
+          "name": "Lionel Messi",
+          "stat": 39
         },
         {
-          "name": "Ademir",
-          "stat": 13
+          "name": "Ángel Di María",
+          "stat": 28
         },
         {
-          "name": "Héctor Scarone",
-          "stat": 13
+          "name": "Mauricio Isla",
+          "stat": 27
+        },
+        {
+          "name": "Gary Medel",
+          "stat": 27
+        },
+        {
+          "name": "Nicolás Otamendi",
+          "stat": 27
+        },
+        {
+          "name": "Alexis Sánchez",
+          "stat": 26
         },
         {
           "name": "Eduardo Vargas",
-          "stat": 14
-        },
-        {
-          "name": "Jair",
-          "stat": 13
-        },
-        {
-          "name": "Roberto Porta",
-          "stat": 12
+          "stat": 26
         }
       ],
       "top": [
         0,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "height-pl-01",
+      "category": {
+        "ar": "أطول لاعيبة البريميرليج",
+        "en": "Tallest in the Premier League"
+      },
+      "question": {
+        "ar": "مين أطول ٣ لاعبين في تاريخ البريميرليج من التسعة دول؟",
+        "en": "Which 3 players are the tallest in Premier League history among these nine?"
+      },
+      "unit": {
+        "ar": "سم",
+        "en": "cm"
+      },
+      "source": "Wikipedia player infoboxes (heights accessed 7 Nov 2026)",
+      "players": [
+        {
+          "name": "Alexander Sørloth",
+          "stat": 196
+        },
+        {
+          "name": "Fraser Forster",
+          "stat": 201
+        },
+        {
+          "name": "Virgil van Dijk",
+          "stat": 195
+        },
+        {
+          "name": "Costel Pantilimon",
+          "stat": 203
+        },
+        {
+          "name": "Ibrahima Konaté",
+          "stat": 194
+        },
+        {
+          "name": "Peter Crouch",
+          "stat": 201
+        },
+        {
+          "name": "Harry Maguire",
+          "stat": 194
+        },
+        {
+          "name": "Jannik Vestergaard",
+          "stat": 199
+        },
+        {
+          "name": "Erling Haaland",
+          "stat": 195
+        }
+      ],
+      "top": [
+        3,
+        1,
+        5
+      ]
+    },
+    {
+      "id": "height-gk-01",
+      "category": {
+        "ar": "أطول حراس البريميرليج",
+        "en": "Tallest PL goalkeepers"
+      },
+      "question": {
+        "ar": "مين أطول ٣ حراس مرمى في تاريخ البريميرليج من التسعة دول؟",
+        "en": "Which 3 goalkeepers are the tallest in Premier League history among these nine?"
+      },
+      "unit": {
+        "ar": "سم",
+        "en": "cm"
+      },
+      "source": "Wikipedia player infoboxes (heights accessed 7 Nov 2026)",
+      "players": [
+        {
+          "name": "Edwin van der Sar",
+          "stat": 198
+        },
+        {
+          "name": "Fraser Forster",
+          "stat": 201
+        },
+        {
+          "name": "Joe Hart",
+          "stat": 196
+        },
+        {
+          "name": "David de Gea",
+          "stat": 192
+        },
+        {
+          "name": "Thibaut Courtois",
+          "stat": 201
+        },
+        {
+          "name": "Hugo Lloris",
+          "stat": 188
+        },
+        {
+          "name": "Costel Pantilimon",
+          "stat": 203
+        },
+        {
+          "name": "Peter Schmeichel",
+          "stat": 193
+        },
+        {
+          "name": "Ederson",
+          "stat": 188
+        }
+      ],
+      "top": [
+        6,
+        1,
+        4
+      ]
+    },
+    {
+      "id": "height-wc-01",
+      "category": {
+        "ar": "أطول لاعيبة كأس العالم",
+        "en": "Tallest at the World Cup"
+      },
+      "question": {
+        "ar": "مين أطول ٣ لاعبين في تاريخ كأس العالم من التسعة دول؟",
+        "en": "Which 3 players are the tallest in World Cup history among these nine?"
+      },
+      "unit": {
+        "ar": "سم",
+        "en": "cm"
+      },
+      "source": "Wikipedia player infoboxes (heights accessed 7 Nov 2026)",
+      "players": [
+        {
+          "name": "Manuel Neuer",
+          "stat": 193
+        },
+        {
+          "name": "Thibaut Courtois",
+          "stat": 201
+        },
+        {
+          "name": "Olivier Giroud",
+          "stat": 193
+        },
+        {
+          "name": "Edwin van der Sar",
+          "stat": 198
+        },
+        {
+          "name": "Harry Maguire",
+          "stat": 194
+        },
+        {
+          "name": "Jan Koller",
+          "stat": 202
+        },
+        {
+          "name": "Andries Noppert",
+          "stat": 203
+        },
+        {
+          "name": "Virgil van Dijk",
+          "stat": 195
+        },
+        {
+          "name": "Joe Hart",
+          "stat": 196
+        }
+      ],
+      "top": [
+        6,
+        5,
+        1
+      ]
+    },
+    {
+      "id": "height-mufc-01",
+      "category": {
+        "ar": "أطول لاعيبة مانشستر يونايتد",
+        "en": "Tallest at Manchester United"
+      },
+      "question": {
+        "ar": "مين أطول ٣ لاعبين في تاريخ مانشستر يونايتد من التسعة دول؟",
+        "en": "Which 3 players are the tallest in Manchester United history among these nine?"
+      },
+      "unit": {
+        "ar": "سم",
+        "en": "cm"
+      },
+      "source": "Wikipedia player infoboxes (heights accessed 7 Nov 2026)",
+      "players": [
+        {
+          "name": "Harry Maguire",
+          "stat": 194
+        },
+        {
+          "name": "Zlatan Ibrahimović",
+          "stat": 195
+        },
+        {
+          "name": "David de Gea",
+          "stat": 192
+        },
+        {
+          "name": "Edwin van der Sar",
+          "stat": 198
+        },
+        {
+          "name": "Rio Ferdinand",
+          "stat": 189
+        },
+        {
+          "name": "Peter Schmeichel",
+          "stat": 193
+        },
+        {
+          "name": "Raphaël Varane",
+          "stat": 191
+        },
+        {
+          "name": "Victor Lindelöf",
+          "stat": 187
+        },
+        {
+          "name": "Cristiano Ronaldo",
+          "stat": 187
+        }
+      ],
+      "top": [
+        3,
+        1,
+        0
+      ]
+    },
+    {
+      "id": "short-pl-01",
+      "category": {
+        "ar": "أقصر لاعيبة البريميرليج",
+        "en": "Shortest in the Premier League"
+      },
+      "question": {
+        "ar": "مين أقصر ٣ لاعبين في تاريخ البريميرليج من التسعة دول؟",
+        "en": "Which 3 players are the shortest in Premier League history among these nine?"
+      },
+      "unit": {
+        "ar": "سم",
+        "en": "cm"
+      },
+      "source": "Wikipedia player infoboxes (heights accessed 7 Nov 2026)",
+      "asc": true,
+      "players": [
+        {
+          "name": "Xherdan Shaqiri",
+          "stat": 169
+        },
+        {
+          "name": "N'Golo Kanté",
+          "stat": 168
+        },
+        {
+          "name": "Juninho Paulista",
+          "stat": 165
+        },
+        {
+          "name": "Alexis Sánchez",
+          "stat": 169
+        },
+        {
+          "name": "Santi Cazorla",
+          "stat": 167
+        },
+        {
+          "name": "Juan Mata",
+          "stat": 170
+        },
+        {
+          "name": "Aaron Lennon",
+          "stat": 165
+        },
+        {
+          "name": "Shaun Wright-Phillips",
+          "stat": 168
+        },
+        {
+          "name": "David Silva",
+          "stat": 170
+        }
+      ],
+      "top": [
+        2,
+        6,
+        4
+      ]
+    },
+    {
+      "id": "short-seriea-01",
+      "category": {
+        "ar": "أقصر لاعيبة الكالتشيو",
+        "en": "Shortest in Serie A"
+      },
+      "question": {
+        "ar": "مين أقصر ٣ لاعبين في الدوري الإيطالي من سنة 2000 من التسعة دول؟",
+        "en": "Which 3 players are the shortest in Serie A since 2000 among these nine?"
+      },
+      "unit": {
+        "ar": "سم",
+        "en": "cm"
+      },
+      "source": "Wikipedia player infoboxes (heights accessed 7 Nov 2026)",
+      "asc": true,
+      "players": [
+        {
+          "name": "Alessandro Del Piero",
+          "stat": 174
+        },
+        {
+          "name": "Sebastian Giovinco",
+          "stat": 160
+        },
+        {
+          "name": "Gianfranco Zola",
+          "stat": 168
+        },
+        {
+          "name": "Lorenzo Insigne",
+          "stat": 163
+        },
+        {
+          "name": "Francesco Totti",
+          "stat": 180
+        },
+        {
+          "name": "Dries Mertens",
+          "stat": 169
+        },
+        {
+          "name": "Marco Verratti",
+          "stat": 165
+        },
+        {
+          "name": "Fabrizio Miccoli",
+          "stat": 168
+        },
+        {
+          "name": "Antonio Di Natale",
+          "stat": 170
+        }
+      ],
+      "top": [
+        1,
+        3,
+        6
+      ]
+    },
+    {
+      "id": "short-barca-01",
+      "category": {
+        "ar": "أقصر لاعيبة برشلونة",
+        "en": "Shortest at Barcelona"
+      },
+      "question": {
+        "ar": "مين أقصر ٣ لاعبين لعبوا لبرشلونة من التسعة دول؟",
+        "en": "Which 3 players are the shortest to have played for Barcelona among these nine?"
+      },
+      "unit": {
+        "ar": "سم",
+        "en": "cm"
+      },
+      "source": "Wikipedia player infoboxes (heights accessed 7 Nov 2026)",
+      "asc": true,
+      "players": [
+        {
+          "name": "Neymar",
+          "stat": 175
+        },
+        {
+          "name": "Romário",
+          "stat": 167
+        },
+        {
+          "name": "Andrés Iniesta",
+          "stat": 171
+        },
+        {
+          "name": "Lionel Messi",
+          "stat": 170
+        },
+        {
+          "name": "Diego Maradona",
+          "stat": 165
+        },
+        {
+          "name": "Dani Alves",
+          "stat": 172
+        },
+        {
+          "name": "Xavi",
+          "stat": 170
+        },
+        {
+          "name": "Pedro",
+          "stat": 169
+        },
+        {
+          "name": "Jordi Alba",
+          "stat": 170
+        }
+      ],
+      "top": [
+        4,
+        1,
+        7
+      ]
+    },
+    {
+      "id": "short-chelsea-01",
+      "category": {
+        "ar": "أقصر لاعيبة تشيلسي",
+        "en": "Shortest at Chelsea"
+      },
+      "question": {
+        "ar": "مين أقصر ٣ لاعبين لعبوا لتشيلسي من التسعة دول؟",
+        "en": "Which 3 players are the shortest to have played for Chelsea among these nine?"
+      },
+      "unit": {
+        "ar": "سم",
+        "en": "cm"
+      },
+      "source": "Wikipedia player infoboxes (heights accessed 7 Nov 2026)",
+      "asc": true,
+      "players": [
+        {
+          "name": "Didier Drogba",
+          "stat": 189
+        },
+        {
+          "name": "Shaun Wright-Phillips",
+          "stat": 168
+        },
+        {
+          "name": "Claude Makélélé",
+          "stat": 174
+        },
+        {
+          "name": "Gianfranco Zola",
+          "stat": 168
+        },
+        {
+          "name": "Ashley Cole",
+          "stat": 176
+        },
+        {
+          "name": "Juan Mata",
+          "stat": 170
+        },
+        {
+          "name": "Frank Lampard",
+          "stat": 184
+        },
+        {
+          "name": "Eden Hazard",
+          "stat": 175
+        },
+        {
+          "name": "John Terry",
+          "stat": 187
+        }
+      ],
+      "top": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "id": "red-pl-01",
+      "category": {
+        "ar": "كروت حمرا في البريميرليج",
+        "en": "Premier League red cards"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين اتردوا في تاريخ البريميرليج من التسعة دول؟",
+        "en": "Which 3 players received the most red cards in Premier League history among these nine?"
+      },
+      "unit": {
+        "ar": "كارت أحمر",
+        "en": "red cards"
+      },
+      "source": "StatMuse — Premier League all-time red and yellow cards (accessed 7 Nov 2026)",
+      "players": [
+        {
+          "name": "Joey Barton",
+          "stat": 6
+        },
+        {
+          "name": "Richard Dunne",
+          "stat": 8
+        },
+        {
+          "name": "John Terry",
+          "stat": 6
+        },
+        {
+          "name": "Vinnie Jones",
+          "stat": 7
+        },
+        {
+          "name": "Patrick Vieira",
+          "stat": 8
+        },
+        {
+          "name": "Nemanja Vidić",
+          "stat": 6
+        },
+        {
+          "name": "Lee Cattermole",
+          "stat": 7
+        },
+        {
+          "name": "Duncan Ferguson",
+          "stat": 8
+        },
+        {
+          "name": "Alan Smith",
+          "stat": 7
+        }
+      ],
+      "top": [
+        1,
+        4,
+        7
+      ]
+    },
+    {
+      "id": "red-pl-02",
+      "category": {
+        "ar": "كروت حمرا في البريميرليج",
+        "en": "Premier League red cards"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين خدوا كروت حمرا في البريميرليج من التسعة دول؟",
+        "en": "Which 3 players received the most red cards in the Premier League among these nine?"
+      },
+      "unit": {
+        "ar": "كارت أحمر",
+        "en": "red cards"
+      },
+      "source": "StatMuse — Premier League all-time red and yellow cards (accessed 7 Nov 2026)",
+      "players": [
+        {
+          "name": "John Terry",
+          "stat": 6
+        },
+        {
+          "name": "Alan Smith",
+          "stat": 7
+        },
+        {
+          "name": "Mark Noble",
+          "stat": 5
+        },
+        {
+          "name": "Richard Dunne",
+          "stat": 8
+        },
+        {
+          "name": "Nemanja Vidić",
+          "stat": 6
+        },
+        {
+          "name": "Jonjo Shelvey",
+          "stat": 5
+        },
+        {
+          "name": "Lee Cattermole",
+          "stat": 7
+        },
+        {
+          "name": "Martin Keown",
+          "stat": 6
+        },
+        {
+          "name": "Lewis Dunk",
+          "stat": 5
+        }
+      ],
+      "top": [
+        3,
         1,
         6
+      ]
+    },
+    {
+      "id": "red-pl-03",
+      "category": {
+        "ar": "كروت حمرا في البريميرليج",
+        "en": "Premier League red cards"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين اتطردوا في البريميرليج من التسعة دول؟",
+        "en": "Which 3 players were sent off the most in the Premier League among these nine?"
+      },
+      "unit": {
+        "ar": "كارت أحمر",
+        "en": "red cards"
+      },
+      "source": "StatMuse — Premier League all-time red and yellow cards (accessed 7 Nov 2026)",
+      "players": [
+        {
+          "name": "Andy Cole",
+          "stat": 6
+        },
+        {
+          "name": "Vinnie Jones",
+          "stat": 7
+        },
+        {
+          "name": "Ryan Shawcross",
+          "stat": 5
+        },
+        {
+          "name": "Patrick Vieira",
+          "stat": 8
+        },
+        {
+          "name": "Steven Gerrard",
+          "stat": 6
+        },
+        {
+          "name": "Mark Noble",
+          "stat": 5
+        },
+        {
+          "name": "Duncan Ferguson",
+          "stat": 8
+        },
+        {
+          "name": "Joey Barton",
+          "stat": 6
+        },
+        {
+          "name": "Laurent Koscielny",
+          "stat": 5
+        }
+      ],
+      "top": [
+        3,
+        6,
+        1
+      ]
+    },
+    {
+      "id": "red-pl-04",
+      "category": {
+        "ar": "كروت حمرا في البريميرليج",
+        "en": "Premier League red cards"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين اتردوا في البريميرليج من التسعة دول؟",
+        "en": "Which 3 players received the most red cards in the Premier League among these nine?"
+      },
+      "unit": {
+        "ar": "كارت أحمر",
+        "en": "red cards"
+      },
+      "source": "StatMuse — Premier League all-time red and yellow cards (accessed 7 Nov 2026)",
+      "players": [
+        {
+          "name": "Martin Keown",
+          "stat": 6
+        },
+        {
+          "name": "Alan Smith",
+          "stat": 7
+        },
+        {
+          "name": "Steven Gerrard",
+          "stat": 6
+        },
+        {
+          "name": "Vinnie Jones",
+          "stat": 7
+        },
+        {
+          "name": "Andy Cole",
+          "stat": 6
+        },
+        {
+          "name": "Lee Cattermole",
+          "stat": 7
+        },
+        {
+          "name": "Joey Barton",
+          "stat": 6
+        },
+        {
+          "name": "John Terry",
+          "stat": 6
+        },
+        {
+          "name": "Nemanja Vidić",
+          "stat": 6
+        }
+      ],
+      "top": [
+        1,
+        3,
+        5
+      ]
+    },
+    {
+      "id": "yellow-pl-01",
+      "category": {
+        "ar": "إنذارات البريميرليج",
+        "en": "Premier League yellow cards"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين خدوا إنذارات في تاريخ البريميرليج من التسعة دول؟",
+        "en": "Which 3 players received the most yellow cards in Premier League history among these nine?"
+      },
+      "unit": {
+        "ar": "إنذار",
+        "en": "yellow cards"
+      },
+      "source": "StatMuse — Premier League all-time red and yellow cards (accessed 7 Nov 2026)",
+      "players": [
+        {
+          "name": "Ashley Young",
+          "stat": 95
+        },
+        {
+          "name": "Curtis Davies",
+          "stat": 99
+        },
+        {
+          "name": "Mark Noble",
+          "stat": 88
+        },
+        {
+          "name": "Gareth Barry",
+          "stat": 129
+        },
+        {
+          "name": "Lee Cattermole",
+          "stat": 95
+        },
+        {
+          "name": "George Boateng",
+          "stat": 89
+        },
+        {
+          "name": "Wayne Rooney",
+          "stat": 104
+        },
+        {
+          "name": "Scott Parker",
+          "stat": 96
+        },
+        {
+          "name": "Kevin Nolan",
+          "stat": 87
+        }
+      ],
+      "top": [
+        3,
+        6,
+        1
+      ]
+    },
+    {
+      "id": "yellow-pl-02",
+      "category": {
+        "ar": "إنذارات البريميرليج",
+        "en": "Premier League yellow cards"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين اتعرضوا لإنذارات في البريميرليج من التسعة دول؟",
+        "en": "Which 3 players received the most yellow cards in the Premier League among these nine?"
+      },
+      "unit": {
+        "ar": "إنذار",
+        "en": "yellow cards"
+      },
+      "source": "StatMuse — Premier League all-time red and yellow cards (accessed 7 Nov 2026)",
+      "players": [
+        {
+          "name": "Kevin Nolan",
+          "stat": 87
+        },
+        {
+          "name": "Scott Parker",
+          "stat": 96
+        },
+        {
+          "name": "George Boateng",
+          "stat": 89
+        },
+        {
+          "name": "Wayne Rooney",
+          "stat": 104
+        },
+        {
+          "name": "Phil Bardsley",
+          "stat": 83
+        },
+        {
+          "name": "Ashley Young",
+          "stat": 95
+        },
+        {
+          "name": "Curtis Davies",
+          "stat": 99
+        },
+        {
+          "name": "Mark Noble",
+          "stat": 88
+        },
+        {
+          "name": "Lee Cattermole",
+          "stat": 95
+        }
+      ],
+      "top": [
+        3,
+        6,
+        1
+      ]
+    },
+    {
+      "id": "yellow-pl-03",
+      "category": {
+        "ar": "إنذارات البريميرليج",
+        "en": "Premier League yellow cards"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين خدوا كروت صفرا في تاريخ البريميرليج من التسعة دول؟",
+        "en": "Which 3 players received the most yellow cards in Premier League history among these nine?"
+      },
+      "unit": {
+        "ar": "إنذار",
+        "en": "yellow cards"
+      },
+      "source": "StatMuse — Premier League all-time red and yellow cards (accessed 7 Nov 2026)",
+      "players": [
+        {
+          "name": "Paul Scholes",
+          "stat": 99
+        },
+        {
+          "name": "Lee Cattermole",
+          "stat": 95
+        },
+        {
+          "name": "Kevin Nolan",
+          "stat": 87
+        },
+        {
+          "name": "George Boateng",
+          "stat": 89
+        },
+        {
+          "name": "Gareth Barry",
+          "stat": 129
+        },
+        {
+          "name": "Phil Bardsley",
+          "stat": 83
+        },
+        {
+          "name": "Mark Noble",
+          "stat": 88
+        },
+        {
+          "name": "Scott Parker",
+          "stat": 96
+        },
+        {
+          "name": "Ashley Young",
+          "stat": 95
+        }
+      ],
+      "top": [
+        4,
+        0,
+        7
+      ]
+    },
+    {
+      "id": "yellow-pl-04",
+      "category": {
+        "ar": "إنذارات البريميرليج",
+        "en": "Premier League yellow cards"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين اتاخد فيهم إنذار في البريميرليج من التسعة دول؟",
+        "en": "Which 3 players received the most yellow cards in the Premier League among these nine?"
+      },
+      "unit": {
+        "ar": "إنذار",
+        "en": "yellow cards"
+      },
+      "source": "StatMuse — Premier League all-time red and yellow cards (accessed 7 Nov 2026)",
+      "players": [
+        {
+          "name": "Mark Noble",
+          "stat": 88
+        },
+        {
+          "name": "Lee Cattermole",
+          "stat": 95
+        },
+        {
+          "name": "Phil Bardsley",
+          "stat": 83
+        },
+        {
+          "name": "Robbie Savage",
+          "stat": 89
+        },
+        {
+          "name": "Wayne Rooney",
+          "stat": 104
+        },
+        {
+          "name": "Nicky Butt",
+          "stat": 79
+        },
+        {
+          "name": "Ashley Young",
+          "stat": 95
+        },
+        {
+          "name": "Kevin Nolan",
+          "stat": 87
+        },
+        {
+          "name": "George Boateng",
+          "stat": 89
+        }
+      ],
+      "top": [
+        4,
+        1,
+        6
+      ]
+    },
+    {
+      "id": "retire-barca-01",
+      "category": {
+        "ar": "اعتزال لاعيبة برشلونة",
+        "en": "Barcelona retirements"
+      },
+      "question": {
+        "ar": "مين آخر ٣ لاعبين اعتزلوا من التسعة دول؟",
+        "en": "Which 3 of these players retired most recently?"
+      },
+      "unit": {
+        "ar": "ميلادي",
+        "en": "AD"
+      },
+      "source": "Wikipedia — player retirement announcements (accessed 7 Nov 2026)",
+      "players": [
+        {
+          "name": "Xavi",
+          "stat": 2019
+        },
+        {
+          "name": "Gerard Piqué",
+          "stat": 2022
+        },
+        {
+          "name": "Thierry Henry",
+          "stat": 2014
+        },
+        {
+          "name": "Samuel Eto'o",
+          "stat": 2019
+        },
+        {
+          "name": "Andrés Iniesta",
+          "stat": 2024
+        },
+        {
+          "name": "Éric Abidal",
+          "stat": 2014
+        },
+        {
+          "name": "David Villa",
+          "stat": 2019
+        },
+        {
+          "name": "Cesc Fàbregas",
+          "stat": 2023
+        },
+        {
+          "name": "Javier Mascherano",
+          "stat": 2020
+        }
+      ],
+      "top": [
+        4,
+        7,
+        1
+      ]
+    },
+    {
+      "id": "retire-italy-01",
+      "category": {
+        "ar": "اعتزال جيل إيطاليا 2006",
+        "en": "Italy 2006 retirements"
+      },
+      "question": {
+        "ar": "مين آخر ٣ لاعبين اعتزلوا من جيل إيطاليا 2006؟",
+        "en": "Which 3 of Italy’s 2006 generation retired most recently?"
+      },
+      "unit": {
+        "ar": "ميلادي",
+        "en": "AD"
+      },
+      "source": "Wikipedia — player retirement announcements (accessed 7 Nov 2026)",
+      "players": [
+        {
+          "name": "Andrea Pirlo",
+          "stat": 2017
+        },
+        {
+          "name": "Gianluigi Buffon",
+          "stat": 2023
+        },
+        {
+          "name": "Fabio Cannavaro",
+          "stat": 2011
+        },
+        {
+          "name": "Daniele De Rossi",
+          "stat": 2019
+        },
+        {
+          "name": "Alessandro Nesta",
+          "stat": 2014
+        },
+        {
+          "name": "Giorgio Chiellini",
+          "stat": 2023
+        },
+        {
+          "name": "Francesco Totti",
+          "stat": 2017
+        },
+        {
+          "name": "Gennaro Gattuso",
+          "stat": 2013
+        },
+        {
+          "name": "Alessandro Del Piero",
+          "stat": 2014
+        }
+      ],
+      "top": [
+        1,
+        5,
+        3
+      ]
+    },
+    {
+      "id": "retire-england-01",
+      "category": {
+        "ar": "اعتزال نجوم البريميرليج",
+        "en": "Premier League retirements"
+      },
+      "question": {
+        "ar": "مين آخر ٣ لاعبين اعتزلوا من نجوم البريميرليج دول؟",
+        "en": "Which 3 of these Premier League stars retired most recently?"
+      },
+      "unit": {
+        "ar": "ميلادي",
+        "en": "AD"
+      },
+      "source": "Wikipedia — player retirement announcements (accessed 7 Nov 2026)",
+      "players": [
+        {
+          "name": "Michael Carrick",
+          "stat": 2018
+        },
+        {
+          "name": "Paul Scholes",
+          "stat": 2013
+        },
+        {
+          "name": "Steven Gerrard",
+          "stat": 2016
+        },
+        {
+          "name": "Frank Lampard",
+          "stat": 2017
+        },
+        {
+          "name": "Wayne Rooney",
+          "stat": 2021
+        },
+        {
+          "name": "Michael Owen",
+          "stat": 2013
+        },
+        {
+          "name": "John Terry",
+          "stat": 2018
+        },
+        {
+          "name": "Ryan Giggs",
+          "stat": 2014
+        },
+        {
+          "name": "David Beckham",
+          "stat": 2013
+        }
+      ],
+      "top": [
+        4,
+        0,
+        6
+      ]
+    },
+    {
+      "id": "retire-modern-01",
+      "category": {
+        "ar": "اعتزال نجوم الكرة الحديثة",
+        "en": "Modern-era retirements"
+      },
+      "question": {
+        "ar": "مين آخر ٣ لاعبين اعتزلوا من نجوم الكرة الحديثة دول؟",
+        "en": "Which 3 of these modern stars retired most recently?"
+      },
+      "unit": {
+        "ar": "ميلادي",
+        "en": "AD"
+      },
+      "source": "Wikipedia — player retirement announcements (accessed 7 Nov 2026)",
+      "players": [
+        {
+          "name": "Franck Ribéry",
+          "stat": 2022
+        },
+        {
+          "name": "Zlatan Ibrahimović",
+          "stat": 2023
+        },
+        {
+          "name": "Iker Casillas",
+          "stat": 2020
+        },
+        {
+          "name": "Marcelo",
+          "stat": 2025
+        },
+        {
+          "name": "Sergio Agüero",
+          "stat": 2021
+        },
+        {
+          "name": "Gerard Piqué",
+          "stat": 2022
+        },
+        {
+          "name": "Pepe",
+          "stat": 2024
+        },
+        {
+          "name": "Arjen Robben",
+          "stat": 2021
+        },
+        {
+          "name": "Gonzalo Higuaín",
+          "stat": 2022
+        }
+      ],
+      "top": [
+        3,
+        6,
+        1
       ]
     }
   ]

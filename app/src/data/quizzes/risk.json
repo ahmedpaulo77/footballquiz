@@ -291,12 +291,12 @@
       "category": "world-cup",
       "value": 40,
       "question": {
-        "ar": "مين سجّل أول هدف في تاريخ نهائيات كأس العالم؟",
-        "en": "Who scored the first goal in World Cup finals history?"
+        "ar": "مين سجل أول هدف في كأس العالم ٢٠٢٢؟",
+        "en": "Who scored the first goal of the 2022 World Cup?"
       },
       "answer": {
-        "ar": "لوسيان لوران (فرنسا، 1930)",
-        "en": "Lucien Laurent (France, 1930)"
+        "ar": "إينر فالنسيا (الإكوادور، ضد قطر)",
+        "en": "Enner Valencia (Ecuador, vs Qatar)"
       }
     },
     {
@@ -460,12 +460,12 @@
       "category": "africa",
       "value": 50,
       "question": {
-        "ar": "مين كسب كأس أمم أفريقيا لاعبًا ومدربًا مع مصر؟",
-        "en": "Who won the Africa Cup of Nations with Egypt both as a player and as a coach?"
+        "ar": "مين أكتر مدرب كسب كأس أمم أفريقيا؟",
+        "en": "Which coach has won the Africa Cup of Nations the most times?"
       },
       "answer": {
-        "ar": "محمود الجوهري",
-        "en": "Mahmoud El-Gohary"
+        "ar": "حسن شحاتة (٣ مرات مع مصر)",
+        "en": "Hassan Shehata (3 titles with Egypt)"
       }
     },
     {
@@ -512,12 +512,12 @@
       "category": "numbers-stars",
       "value": 50,
       "question": {
-        "ar": "مين صاحب أكبر عدد من الأهداف في نسخة واحدة من كأس العالم؟",
-        "en": "Who scored the most goals in a single World Cup tournament?"
+        "ar": "مين كسب الكرة الذهبية في كأس العالم ٢٠١٨؟",
+        "en": "Who won the Golden Ball at the 2018 World Cup?"
       },
       "answer": {
-        "ar": "جوست فونتين (13 هدفًا، 1958)",
-        "en": "Just Fontaine (13 goals, 1958)"
+        "ar": "لوكا مودريتش",
+        "en": "Luka Modrić"
       }
     },
     {
@@ -551,12 +551,12 @@
       "category": "real-madrid",
       "value": 40,
       "question": {
-        "ar": "مين أول لاعب في تاريخ ريال مدريد كسب الكرة الذهبية؟",
-        "en": "Who was the first Real Madrid player to win the Ballon d’Or?"
+        "ar": "مين أكتر لاعب سجل في دوري أبطال أوروبا مع ريال مدريد؟",
+        "en": "Who has scored the most Champions League goals for Real Madrid?"
       },
       "answer": {
-        "ar": "ألفريدو دي ستيفانو (1957)",
-        "en": "Alfredo Di Stéfano (1957)"
+        "ar": "كريستيانو رونالدو (١٠٥ أهداف)",
+        "en": "Cristiano Ronaldo (105 goals)"
       }
     },
     {
@@ -603,12 +603,12 @@
       "category": "barcelona",
       "value": 40,
       "question": {
-        "ar": "مين أول لاعب في تاريخ برشلونة كسب الكرة الذهبية؟",
-        "en": "Who was the first Barcelona player to win the Ballon d’Or?"
+        "ar": "مين أكتر لاعب سجل في دوري أبطال أوروبا مع برشلونة؟",
+        "en": "Who has scored the most Champions League goals for Barcelona?"
       },
       "answer": {
-        "ar": "لويس سواريز (1960)",
-        "en": "Luis Suárez (1960)"
+        "ar": "ليونيل ميسي (١٢٠ هدفًا)",
+        "en": "Lionel Messi (120 goals)"
       }
     },
     {
@@ -668,12 +668,12 @@
       "category": "man-united",
       "value": 50,
       "question": {
-        "ar": "كام لاعب كسب الكرة الذهبية وهو لاعب في مانشستر يونايتد؟",
-        "en": "How many players have won the Ballon d’Or while at Manchester United?"
+        "ar": "مين أكتر لاعب لعب مباريات في الدوري الإنجليزي مع مانشستر يونايتد؟",
+        "en": "Who has made the most Premier League appearances for Manchester United?"
       },
       "answer": {
-        "ar": "٤ لاعبين (لو، تشارلتون، بيست، رونالدو)",
-        "en": "Four (Law, Charlton, Best, Ronaldo)"
+        "ar": "ريان غيغز (٦٣٢ مباراة)",
+        "en": "Ryan Giggs (632 appearances)"
       }
     },
     {
@@ -902,12 +902,12 @@
       "category": "legends",
       "value": 20,
       "question": {
-        "ar": "مين اللاعب الوحيد اللي كسب 3 كؤوس عالم؟",
-        "en": "Who is the only player to win three World Cups?"
+        "ar": "مين اللاعب الوحيد اللي كسب جائزة أفضل لاعب في كأس العالم مرتين؟",
+        "en": "Who is the only player to win the World Cup Golden Ball twice?"
       },
       "answer": {
-        "ar": "بيليه",
-        "en": "Pelé"
+        "ar": "ليونيل ميسي (٢٠١٤ و٢٠٢٢)",
+        "en": "Lionel Messi (2014 and 2022)"
       }
     },
     {
@@ -967,12 +967,12 @@
       "category": "goalkeepers",
       "value": 40,
       "question": {
-        "ar": "مين الحارس الوحيد اللي كسب الكرة الذهبية؟",
-        "en": "Who is the only goalkeeper to win the Ballon d’Or?"
+        "ar": "مين أكتر حارس مشارك في دوري أبطال أوروبا؟",
+        "en": "Which goalkeeper has made the most Champions League appearances?"
       },
       "answer": {
-        "ar": "ليف ياشين (1963)",
-        "en": "Lev Yashin (1963)"
+        "ar": "إيكر كاسياس (١٧٧ مباراة)",
+        "en": "Iker Casillas (177 appearances)"
       }
     },
     {
@@ -980,12 +980,12 @@
       "category": "goalkeepers",
       "value": 50,
       "question": {
-        "ar": "مين أول حارس مرمى كسب كأس العالم وهو قائد منتخبه؟",
-        "en": "Who was the first goalkeeper to win the World Cup as his team’s captain?"
+        "ar": "مين أول حارس مرمى سجل هدف في الدوري الإنجليزي؟",
+        "en": "Who was the first goalkeeper to score a Premier League goal?"
       },
       "answer": {
-        "ar": "جانبييرو كومبي (إيطاليا، 1934)",
-        "en": "Gianpiero Combi (Italy, 1934)"
+        "ar": "بيتر شمايكل (أستون فيلا، ضد إيفرتون، ٢٠٠١)",
+        "en": "Peter Schmeichel (Aston Villa, against Everton, 2001)"
       }
     },
     {

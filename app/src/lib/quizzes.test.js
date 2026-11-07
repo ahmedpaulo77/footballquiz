@@ -380,9 +380,9 @@ describe('لعبة «توب 3»', () => {
     expect(QUIZZES[4].id).toBe('top-three');
   });
 
-  it('فيها ٥٠ سؤال و٨ أسئلة في الجولة و٣ اختيارات', () => {
-    expect(arQuiz.questions).toHaveLength(50);
-    expect(enQuiz.questions).toHaveLength(50);
+  it('فيها ٧٠ سؤال و٨ أسئلة في الجولة و٣ اختيارات', () => {
+    expect(arQuiz.questions).toHaveLength(70);
+    expect(enQuiz.questions).toHaveLength(70);
     expect(arQuiz.questionsPerGame).toBe(8);
     expect(arQuiz.picksCount).toBe(3);
   });
@@ -404,18 +404,26 @@ describe('لعبة «توب 3»', () => {
     }
   });
 
-  it('الإجابات الصح هي أعلى ٣ أرقام ومفيش تعادل على الحد', () => {
+  it('الإجابات الصح هي أعلى ٣ أرقام (أو أقل ٣) ومفيش تعادل على الحد', () => {
     for (const question of arQuiz.questions) {
+      const ascending = question.asc === true;
       const sorted = [...question.players]
         .map((player, index) => ({ index, stat: player.stat }))
-        .sort((a, b) => b.stat - a.stat || a.index - b.index);
+        .sort(
+          (a, b) =>
+            (ascending ? a.stat - b.stat : b.stat - a.stat) || a.index - b.index,
+        );
 
       expect(
         sorted.slice(0, 3).map((entry) => entry.index).sort((a, b) => a - b),
         question.id,
       ).toEqual([...question.top].sort((a, b) => a - b));
 
-      expect(sorted[2].stat, question.id).toBeGreaterThan(sorted[3].stat);
+      if (ascending) {
+        expect(sorted[2].stat, question.id).toBeLessThan(sorted[3].stat);
+      } else {
+        expect(sorted[2].stat, question.id).toBeGreaterThan(sorted[3].stat);
+      }
     }
   });
 
@@ -438,6 +446,7 @@ describe('لعبة «توب 3»', () => {
         english.players.map((player) => player.stat),
       );
       expect(question.top).toEqual(english.top);
+      expect(question.asc).toEqual(english.asc);
     });
   });
 
@@ -460,11 +469,11 @@ describe('لعبة «تشكيلات المباريات»', () => {
     expect(QUIZZES[5].id).toBe('lineups');
   });
 
-  it('فيها ٧٢ ماتش و١٢ مسابقة كلها مستخدمة', () => {
-    expect(arQuiz.matches).toHaveLength(72);
-    expect(enQuiz.matches).toHaveLength(72);
-    expect(arQuiz.competitions).toHaveLength(12);
-    expect(new Set(arQuiz.matches.map((match) => match.competition)).size).toBe(12);
+  it('فيها ٧٨ ماتش و١٥ مسابقة كلها مستخدمة', () => {
+    expect(arQuiz.matches).toHaveLength(78);
+    expect(enQuiz.matches).toHaveLength(78);
+    expect(arQuiz.competitions).toHaveLength(15);
+    expect(new Set(arQuiz.matches.map((match) => match.competition)).size).toBe(15);
 
     for (const competition of arQuiz.competitions) {
       expect(competition.title, competition.id).toMatch(ARABIC_LETTERS);
@@ -472,6 +481,46 @@ describe('لعبة «تشكيلات المباريات»', () => {
         arQuiz.matches.some((match) => match.competition === competition.id),
         competition.id,
       ).toBe(true);
+    }
+  });
+
+  it('زادت ١٣ ماتش صعب وشالت اللي قبل ١٩٩٦ والثلاثة المطلوبين', () => {
+    const added = [
+      'wc-1998-fra-par',
+      'wc-2002-esp-irl',
+      'wc-2006-sui-ukr',
+      'wc-2010-par-jpn',
+      'wc-2014-crc-gre',
+      'euro-2008-cro-tur',
+      'afcon-2010-civ-alg',
+      'copa-2011-chi-ven',
+      'epl-2007-ars-mun',
+      'epl-2019-liv-che',
+      'laliga-2013-rma-atm',
+      'seriea-2009-int-mil',
+      'bundesliga-2009-bay-bvb',
+    ];
+
+    for (const id of added) {
+      const match = arQuiz.matches.find((item) => item.id === id);
+      expect(match, id).toBeTruthy();
+      expect(match.difficulty, id).toBe('hard');
+      expect(match.year, id).toBeGreaterThanOrEqual(1996);
+      expect(match.year, id).toBeLessThanOrEqual(2019);
+    }
+
+    for (const id of [
+      'wc-1994',
+      'wc-1986',
+      'wc-1970',
+      'wc-1966',
+      'ucl-1995',
+      'ucl-1993',
+      'copa-2011',
+      'ligue1-2012-aux-mtp',
+      'eredivisie-2011-nec-aja',
+    ]) {
+      expect(arQuiz.matches.some((match) => match.id === id), id).toBe(false);
     }
   });
 
@@ -484,7 +533,7 @@ describe('لعبة «تشكيلات المباريات»', () => {
       expect(match.away, match.id).toMatch(ARABIC_LETTERS);
       expect(match.home, match.id).not.toBe(match.away);
       expect(match.competitionTitle, match.id).toMatch(ARABIC_LETTERS);
-      expect(match.year, match.id).toBeGreaterThanOrEqual(1960);
+      expect(match.year, match.id).toBeGreaterThanOrEqual(1996);
       expect(match.year, match.id).toBeLessThanOrEqual(2026);
       expect(match.score, match.id).toMatch(/\d/);
       expect(levels, match.id).toContain(match.difficulty);
@@ -567,9 +616,11 @@ describe('لعبة «تشكيلات المباريات»', () => {
     }
   });
 
-  it('كل ماتش ليه مصدر ويكيبيديا', () => {
+  it('كل ماتش ليه مصدر موثوق', () => {
     for (const match of arQuiz.matches) {
-      expect(match.source, match.id).toMatch(/^https:\/\/en\.wikipedia\.org\//);
+      expect(match.source, match.id).toMatch(
+        /^https:\/\/(en\.wikipedia\.org|www\.espn\.com)\//,
+      );
     }
   });
 });

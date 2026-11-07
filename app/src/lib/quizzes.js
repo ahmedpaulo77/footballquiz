@@ -99,6 +99,7 @@ function normalizeQuestion(raw, index, quizId) {
     correct,
     players,
     top,
+    asc: raw.asc === true,
     unit: raw.unit ?? '',
     clues,
     clubs: Array.isArray(raw.clubs) ? raw.clubs.filter(Boolean) : [],
@@ -293,6 +294,7 @@ function localizeQuiz(quiz, lang) {
         stat: player.stat,
       })),
       top: question.top,
+      asc: question.asc,
       unit: pickText(question.unit, lang),
       clues: question.clues.map((clue) => ({
         id: clue.id,
