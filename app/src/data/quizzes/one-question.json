@@ -1278,20 +1278,20 @@
       },
       "options": [
         {
-          "ar": "ليونيل ميسي (١٤ هدفًا في ٢٠١١-٢٠١٢)",
-          "en": "Lionel Messi (14 goals in 2011-12)"
+          "ar": "ليونيل ميسي",
+          "en": "Lionel Messi"
         },
         {
-          "ar": "روبرت ليفاندوفسكي (١٥ هدفًا في ٢٠١٩-٢٠٢٠)",
-          "en": "Robert Lewandowski (15 goals in 2019-20)"
+          "ar": "روبرت ليفاندوفسكي",
+          "en": "Robert Lewandowski"
         },
         {
-          "ar": "كريم بنزيما (١٥ هدفًا في ٢٠٢١-٢٠٢٢)",
-          "en": "Karim Benzema (15 goals in 2021-22)"
+          "ar": "كريم بنزيما",
+          "en": "Karim Benzema"
         },
         {
-          "ar": "كريستيانو رونالدو (١٧ هدفًا في ٢٠١٣-٢٠١٤)",
-          "en": "Cristiano Ronaldo (17 goals in 2013-14)"
+          "ar": "كريستيانو رونالدو",
+          "en": "Cristiano Ronaldo"
         }
       ],
       "correct": 3
@@ -1304,20 +1304,20 @@
       },
       "options": [
         {
-          "ar": "كريستيانو رونالدو (٤٦ هدفًا في ٢٠١١-٢٠١٢)",
-          "en": "Cristiano Ronaldo (46 goals in 2011-12)"
+          "ar": "كريستيانو رونالدو",
+          "en": "Cristiano Ronaldo"
         },
         {
-          "ar": "لويس سواريز (٤٠ هدفًا في ٢٠١٥-٢٠١٦)",
-          "en": "Luis Suarez (40 goals in 2015-16)"
+          "ar": "لويس سواريز",
+          "en": "Luis Suarez"
         },
         {
-          "ar": "كريم بنزيما (٢٧ هدفًا في ٢٠٢١-٢٠٢٢)",
-          "en": "Karim Benzema (27 goals in 2021-22)"
+          "ar": "كريم بنزيما",
+          "en": "Karim Benzema"
         },
         {
-          "ar": "ليونيل ميسي (٥٠ هدفًا في ٢٠١١-٢٠١٢)",
-          "en": "Lionel Messi (50 goals in 2011-12)"
+          "ar": "ليونيل ميسي",
+          "en": "Lionel Messi"
         }
       ],
       "correct": 3

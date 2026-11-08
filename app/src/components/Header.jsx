@@ -1,7 +1,6 @@
 export default function Header({
   theme,
   title,
-  subtitle,
   ui,
   onToggleTheme,
   onToggleLang,
@@ -12,7 +11,6 @@ export default function Header({
       <div className="brand">
         <div className="brand-text">
           <h1>{title}</h1>
-          <p>{subtitle}</p>
         </div>
       </div>
 

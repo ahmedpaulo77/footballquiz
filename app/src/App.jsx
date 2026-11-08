@@ -215,7 +215,6 @@ export default function App() {
         theme={theme}
         lang={lang}
         title={ui.brand}
-        subtitle={quiz.subtitle}
         ui={ui}
         onToggleTheme={() => setTheme((current) => (current === 'dark' ? 'light' : 'dark'))}
         onToggleLang={toggleLang}
