@@ -12197,6 +12197,936 @@
         }
       ],
       "source": "https://www.espn.com/soccer/match/_/gameId/252458"
+    },
+    {
+      "id": "ucl-2013-bvb-malaga",
+      "competition": "champions-league",
+      "year": 2013,
+      "home": {
+        "en": "Borussia Dortmund",
+        "ar": "بوروسيا دورتموند"
+      },
+      "away": {
+        "en": "Málaga",
+        "ar": "مالقا"
+      },
+      "score": "3–2",
+      "winner": "home",
+      "decidedBy": "regulation",
+      "shootout": null,
+      "difficulty": "hard",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Roman Weidenfeller",
+          "ar": "رومان فايدنفيلر"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Felipe Santana",
+          "ar": "فيليبي سانتانا"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Neven Subotic",
+          "ar": "نيفين سوبوتيتش"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Marcel Schmelzer",
+          "ar": "مارسيل شميلزر"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Lukasz Piszczek",
+          "ar": "لوكاس بيتشيك"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Sven Bender",
+          "ar": "سفين بيندر"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Ilkay Gündogan",
+          "ar": "إيلكاي غوندوغان"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Mario Götze",
+          "ar": "ماريو غوتزه"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Marco Reus",
+          "ar": "ماركو رويس"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Jakub Blaszczykowski",
+          "ar": "ياكوب بواشتشيكوفسكي"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Robert Lewandowski",
+          "ar": "روبرت ليفاندوفسكي"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Wilfredo Caballero",
+          "ar": "ويلي كاباييرو"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Martín Demichelis",
+          "ar": "مارتين ديميكيليس"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Sergio Sanchez",
+          "ar": "سيرخيو سانتشيز"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Vitorino Antunes",
+          "ar": "فيتورينو أنتونيس"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Jesús Gámez",
+          "ar": "خيسوس غاميز"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Ignacio Camacho",
+          "ar": "إيغناسيو كاماتشو"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Jérémy Toulalan",
+          "ar": "جيريمي تولالان"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Duda",
+          "ar": "دودا"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Isco",
+          "ar": "إيسكو"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Joaquín",
+          "ar": "خواكين"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Júlio Baptista",
+          "ar": "جوليو بابتيستا"
+        }
+      ],
+      "source": "https://www.espn.com/soccer/match/_/gameId/363610"
+    },
+    {
+      "id": "ucl-2013-bayern-barca",
+      "competition": "champions-league",
+      "year": 2013,
+      "home": {
+        "en": "Bayern Munich",
+        "ar": "بايرن ميونخ"
+      },
+      "away": {
+        "en": "Barcelona",
+        "ar": "برشلونة"
+      },
+      "score": "4–0",
+      "winner": "home",
+      "decidedBy": "regulation",
+      "shootout": null,
+      "difficulty": "hard",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Manuel Neuer",
+          "ar": "مانويل نوير"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Dante",
+          "ar": "دانتي بونفيم"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Jérôme Boateng",
+          "ar": "جيروم بواتينغ"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "David Alaba",
+          "ar": "دافيد ألابا"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Philipp Lahm",
+          "ar": "فيليب لام"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Javi Martínez",
+          "ar": "خافي مارتينيز"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Bastian Schweinsteiger",
+          "ar": "باستيان شفاينشتايغر"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Thomas Müller",
+          "ar": "توماس مولر"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Franck Ribéry",
+          "ar": "فرانك ريبيري"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Arjen Robben",
+          "ar": "آريين روبن"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Mario Gómez",
+          "ar": "ماريو غوميز"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Víctor Valdés",
+          "ar": "فكتور فالديز"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Gerard Piqué",
+          "ar": "جيرارد بيكيه"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Marc Bartra",
+          "ar": "مارك بارترا"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Jordi Alba",
+          "ar": "جوردي ألبا"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Dani Alves",
+          "ar": "داني ألفيس"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Sergio Busquets",
+          "ar": "سيرجيو بوسكيتس"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Andrés Iniesta",
+          "ar": "أندريس إنييستا"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Xavi",
+          "ar": "تشافي هيرنانديز"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Alexis Sánchez",
+          "ar": "أليكسيس سانشيز"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Pedro",
+          "ar": "بيدرو رودريغز"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Lionel Messi",
+          "ar": "ليونيل ميسي"
+        }
+      ],
+      "source": "https://www.espn.com/soccer/match/_/gameId/364639"
+    },
+    {
+      "id": "ucl-2013-bvb-real",
+      "competition": "champions-league",
+      "year": 2013,
+      "home": {
+        "en": "Borussia Dortmund",
+        "ar": "بوروسيا دورتموند"
+      },
+      "away": {
+        "en": "Real Madrid",
+        "ar": "ريال مدريد"
+      },
+      "score": "4–1",
+      "winner": "home",
+      "decidedBy": "regulation",
+      "shootout": null,
+      "difficulty": "hard",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Roman Weidenfeller",
+          "ar": "رومان فايدنفيلر"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Mats Hummels",
+          "ar": "ماتس هوملز"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Neven Subotic",
+          "ar": "نيفين سوبوتيتش"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Marcel Schmelzer",
+          "ar": "مارسيل شميلزر"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Lukasz Piszczek",
+          "ar": "لوكاس بيتشيك"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Sven Bender",
+          "ar": "سفين بيندر"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Ilkay Gündogan",
+          "ar": "إيلكاي غوندوغان"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Mario Götze",
+          "ar": "ماريو غوتزه"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Marco Reus",
+          "ar": "ماركو رويس"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Jakub Blaszczykowski",
+          "ar": "ياكوب بواشتشيكوفسكي"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Robert Lewandowski",
+          "ar": "روبرت ليفاندوفسكي"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Diego López",
+          "ar": "دييغو لوبيز"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Pepe",
+          "ar": "بيبي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Raphaël Varane",
+          "ar": "رافاييل فاران"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Fábio Coentrão",
+          "ar": "فابيو كوينتراو"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Sergio Ramos",
+          "ar": "سيرخيو راموس"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Xabi Alonso",
+          "ar": "تشابي ألونسو"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Sami Khedira",
+          "ar": "سامي خضيرة"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Luka Modric",
+          "ar": "لوكا مودريتش"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Cristiano Ronaldo",
+          "ar": "كريستيانو رونالدو"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Mesut Özil",
+          "ar": "مسعود أوزيل"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Gonzalo Higuaín",
+          "ar": "غونزالو هيغواين"
+        }
+      ],
+      "source": "https://www.espn.com/soccer/match/_/gameId/364638"
+    },
+    {
+      "id": "ucl-2013-manutd-real",
+      "competition": "champions-league",
+      "year": 2013,
+      "home": {
+        "en": "Manchester United",
+        "ar": "مانشستر يونايتد"
+      },
+      "away": {
+        "en": "Real Madrid",
+        "ar": "ريال مدريد"
+      },
+      "score": "1–2",
+      "winner": "away",
+      "decidedBy": "regulation",
+      "shootout": null,
+      "difficulty": "hard",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "David de Gea",
+          "ar": "دافيد دي خيا"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Nemanja Vidić",
+          "ar": "نيمانيا فيديتش"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Rio Ferdinand",
+          "ar": "ريو فرديناند"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Patrice Evra",
+          "ar": "باتريس إيفرا"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Rafael",
+          "ar": "رافاييل"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Michael Carrick",
+          "ar": "مايكل كاريك"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Tom Cleverley",
+          "ar": "توم كليفرلي"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Danny Welbeck",
+          "ar": "داني ويلبيك"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Nani",
+          "ar": "ناني"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Ryan Giggs",
+          "ar": "رايان غيغز"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Robin van Persie",
+          "ar": "روبين فان بيرسي"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Diego López",
+          "ar": "دييغو لوبيز"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Sergio Ramos",
+          "ar": "سيرخيو راموس"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Raphaël Varane",
+          "ar": "رافاييل فاران"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Fábio Coentrão",
+          "ar": "فابيو كوينتراو"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Álvaro Arbeloa",
+          "ar": "ألفارو أربيلوا"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "Xabi Alonso",
+          "ar": "تشابي ألونسو"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Sami Khedira",
+          "ar": "سامي خضيرة"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Mesut Özil",
+          "ar": "مسعود أوزيل"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Cristiano Ronaldo",
+          "ar": "كريستيانو رونالدو"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Ángel Di María",
+          "ar": "أنخيل دي ماريا"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Gonzalo Higuaín",
+          "ar": "غونزالو هيغواين"
+        }
+      ],
+      "source": "https://www.espn.com/soccer/match/_/gameId/358622"
+    },
+    {
+      "id": "ucl-2017-juve-monaco",
+      "competition": "champions-league",
+      "year": 2017,
+      "home": {
+        "en": "Juventus",
+        "ar": "يوفنتوس"
+      },
+      "away": {
+        "en": "AS Monaco",
+        "ar": "موناكو"
+      },
+      "score": "2–1",
+      "winner": "home",
+      "decidedBy": "regulation",
+      "shootout": null,
+      "difficulty": "medium",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Gianluigi Buffon",
+          "ar": "جانلويجي بوفون"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Leonardo Bonucci",
+          "ar": "ليوناردو بونوتشي"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Giorgio Chiellini",
+          "ar": "جورجيو كيلليني"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Andrea Barzagli",
+          "ar": "أندريا بارزالي"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Alex Sandro",
+          "ar": "ألكس ساندرو"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Sami Khedira",
+          "ar": "سامي خضيرة"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Miralem Pjanic",
+          "ar": "ميراليم بيانيتش"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Dani Alves",
+          "ar": "داني ألفيس"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "en": "Mario Mandzukic",
+          "ar": "ماريو ماندجوكيتش"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "en": "Paulo Dybala",
+          "ar": "باولو ديبالا"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Gonzalo Higuaín",
+          "ar": "غونزالو هيغواين"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Danijel Subasic",
+          "ar": "دانييل سوباشيتش"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Kamil Glik",
+          "ar": "كاميل غليك"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Jemerson",
+          "ar": "جيمرسون"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Andrea Raggi",
+          "ar": "أندريا راجي"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Benjamin Mendy",
+          "ar": "بينجامين ميندي"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Tiemoué Bakayoko",
+          "ar": "تيموي باكايوكو"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "João Moutinho",
+          "ar": "جواو موتينيو"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Djibril Sidibé",
+          "ar": "جبريل سيديبي"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "en": "Bernardo Silva",
+          "ar": "برناردو سيلفا"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Kylian Mbappé",
+          "ar": "كيليان مبابي"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Radamel Falcao",
+          "ar": "راداميل فالكاو"
+        }
+      ],
+      "source": "https://www.espn.com/soccer/match/_/gameId/478694"
+    },
+    {
+      "id": "ucl-2017-leicester-atletico",
+      "competition": "champions-league",
+      "year": 2017,
+      "home": {
+        "en": "Leicester City",
+        "ar": "ليستر سيتي"
+      },
+      "away": {
+        "en": "Atlético Madrid",
+        "ar": "أتلتيكو مدريد"
+      },
+      "score": "1–1",
+      "winner": "away",
+      "decidedBy": "regulation",
+      "shootout": null,
+      "difficulty": "medium",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Kasper Schmeichel",
+          "ar": "كاسبر شمايكل"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Yohan Benalouane",
+          "ar": "يوهان بن علوان"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Wes Morgan",
+          "ar": "ويس مورغان"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Christian Fuchs",
+          "ar": "كريستيان فوكس"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Danny Simpson",
+          "ar": "داني سيمبسون"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Danny Drinkwater",
+          "ar": "داني درينكووتر"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Wilfred Ndidi",
+          "ar": "ويلفريد نديدي"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Marc Albrighton",
+          "ar": "مارك ألبرايتون"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Riyad Mahrez",
+          "ar": "رياض محرز"
+        },
+        {
+          "pos": "SS",
+          "group": "FW",
+          "en": "Shinji Okazaki",
+          "ar": "شينجي أوكازاكي"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Jamie Vardy",
+          "ar": "جيمي فاردي"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "en": "Jan Oblak",
+          "ar": "يان أوبلاك"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Diego Godín",
+          "ar": "دييغو غودين"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "en": "Stefan Savic",
+          "ar": "ستيفان سافيتش"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "en": "Filipe Luís",
+          "ar": "فيليبي لويس"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "en": "Juanfran",
+          "ar": "خوانفران"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "en": "José María Giménez",
+          "ar": "خوسيه خيمينيز"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "en": "Gabi",
+          "ar": "غابي"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "en": "Koke",
+          "ar": "كوكي"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "en": "Saúl Ñíguez",
+          "ar": "ساؤول نيغيز"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Antoine Griezmann",
+          "ar": "أنطوان غريزمان"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "en": "Yannick Carrasco",
+          "ar": "يانيك كاراسكو"
+        }
+      ],
+      "source": "https://www.espn.com/soccer/match/_/gameId/476514"
     }
   ]
 }
