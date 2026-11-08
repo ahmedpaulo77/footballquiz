@@ -23,145 +23,951 @@
   "questionsPerGame": 10,
   "questions": [
     {
-      "id": "wc-five-world-cups",
+      "id": "eg-mido-debut",
       "question": {
-        "ar": "مين اللاعب الوحيد اللي سجل في ٦ نسخ مختلفة من كأس العالم؟",
-        "en": "Who is the only player to score in six different World Cups?"
+        "ar": "مين أول مصري سجل في الدوري الإنجليزي الممتاز، وسجل هدفين في أول مباراة له مع توتنهام؟",
+        "en": "Who was the first Egyptian to score in the Premier League, netting twice on his Tottenham debut?"
       },
       "options": [
         {
-          "ar": "ميروسلاف كلوزه",
-          "en": "Miroslav Klose"
+          "ar": "ميدو",
+          "en": "Mido"
+        },
+        {
+          "ar": "محمد صلاح",
+          "en": "Mohamed Salah"
+        },
+        {
+          "ar": "عمرو زكي",
+          "en": "Amr Zaki"
+        },
+        {
+          "ar": "محمد النني",
+          "en": "Mohamed Elneny"
+        }
+      ],
+      "correct": 0
+    },
+    {
+      "id": "eg-salah-ucl-hattrick",
+      "question": {
+        "ar": "مين صاحب أسرع هاتريك في تاريخ دوري أبطال أوروبا؟",
+        "en": "Who scored the fastest hat-trick in Champions League history?"
+      },
+      "options": [
+        {
+          "ar": "روبرت ليفاندوفسكي",
+          "en": "Robert Lewandowski"
+        },
+        {
+          "ar": "محمد صلاح",
+          "en": "Mohamed Salah"
+        },
+        {
+          "ar": "سيرجيو أغويرو",
+          "en": "Sergio Agüero"
+        },
+        {
+          "ar": "كيليان مبابي",
+          "en": "Kylian Mbappé"
+        }
+      ],
+      "correct": 1
+    },
+    {
+      "id": "eg-salah-ucl-final",
+      "question": {
+        "ar": "مين أول مصري يسجل في نهائي دوري أبطال أوروبا؟",
+        "en": "Who was the first Egyptian to score in a Champions League final?"
+      },
+      "options": [
+        {
+          "ar": "محمد أبو تريكة",
+          "en": "Mohamed Aboutrika"
+        },
+        {
+          "ar": "محمد زيدان",
+          "en": "Mohamed Zidan"
+        },
+        {
+          "ar": "محمد صلاح",
+          "en": "Mohamed Salah"
+        },
+        {
+          "ar": "محمد النني",
+          "en": "Mohamed Elneny"
+        }
+      ],
+      "correct": 2
+    },
+    {
+      "id": "eg-salah-congo",
+      "question": {
+        "ar": "مين سجل ركلة الجزاء في الدقيقة ٩٥ أمام الكونغو اللي أهّلت مصر لكأس العالم ٢٠١٨؟",
+        "en": "Who scored the 95th-minute penalty against Congo that sent Egypt to the 2018 World Cup?"
+      },
+      "options": [
+        {
+          "ar": "محمد أبو تريكة",
+          "en": "Mohamed Aboutrika"
+        },
+        {
+          "ar": "تريزيجيه",
+          "en": "Trezeguet"
+        },
+        {
+          "ar": "عمرو وردة",
+          "en": "Amr Warda"
+        },
+        {
+          "ar": "محمد صلاح",
+          "en": "Mohamed Salah"
+        }
+      ],
+      "correct": 3
+    },
+    {
+      "id": "eg-hadary-penalty",
+      "question": {
+        "ar": "مين الحارس المصري اللي صدّ ركلة جزاء من فهد المولد في كأس العالم ٢٠١٨؟",
+        "en": "Which Egyptian goalkeeper saved Fahad Al-Muwallad's penalty at the 2018 World Cup?"
+      },
+      "options": [
+        {
+          "ar": "عصام الحضري",
+          "en": "Essam El-Hadary"
+        },
+        {
+          "ar": "محمد الشناوي",
+          "en": "Mohamed El-Shenawy"
+        },
+        {
+          "ar": "أحمد الشناوي",
+          "en": "Ahmed El-Shenawy"
+        },
+        {
+          "ar": "شريف إكرامي",
+          "en": "Sherif Ekramy"
+        }
+      ],
+      "correct": 0
+    },
+    {
+      "id": "eg-elneny-fa-cup",
+      "question": {
+        "ar": "مين المصري اللي كسب كأس الاتحاد الإنجليزي مع أرسنال سنة ٢٠١٧؟",
+        "en": "Which Egyptian won the FA Cup with Arsenal in 2017?"
+      },
+      "options": [
+        {
+          "ar": "محمد صلاح",
+          "en": "Mohamed Salah"
+        },
+        {
+          "ar": "محمد النني",
+          "en": "Mohamed Elneny"
+        },
+        {
+          "ar": "ميدو",
+          "en": "Mido"
+        },
+        {
+          "ar": "حسام غالي",
+          "en": "Hossam Ghaly"
+        }
+      ],
+      "correct": 1
+    },
+    {
+      "id": "eg-zidan-dortmund",
+      "question": {
+        "ar": "مين المصري اللي كان جزء من فريق دورتموند اللي كسب الدوري الألماني في ٢٠١١ و٢٠١٢؟",
+        "en": "Which Egyptian was part of Borussia Dortmund's Bundesliga-winning squads in 2011 and 2012?"
+      },
+      "options": [
+        {
+          "ar": "محمد صلاح",
+          "en": "Mohamed Salah"
+        },
+        {
+          "ar": "محمد النني",
+          "en": "Mohamed Elneny"
+        },
+        {
+          "ar": "محمد زيدان",
+          "en": "Mohamed Zidan"
+        },
+        {
+          "ar": "عمرو وردة",
+          "en": "Amr Warda"
+        }
+      ],
+      "correct": 2
+    },
+    {
+      "id": "eg-geddo-2010",
+      "question": {
+        "ar": "مين سجل هدف فوز مصر على غانا في نهائي أمم أفريقيا ٢٠١٠ وكان هداف البطولة؟",
+        "en": "Who scored Egypt's winner against Ghana in the 2010 AFCON final and finished as top scorer?"
+      },
+      "options": [
+        {
+          "ar": "محمد أبو تريكة",
+          "en": "Mohamed Aboutrika"
+        },
+        {
+          "ar": "أحمد حسن",
+          "en": "Ahmed Hassan"
+        },
+        {
+          "ar": "عمرو زكي",
+          "en": "Amr Zaki"
+        },
+        {
+          "ar": "محمد ناجي «جدو»",
+          "en": "Mohamed Nagy \"Geddo\""
+        }
+      ],
+      "correct": 3
+    },
+    {
+      "id": "eg-homos-italy",
+      "question": {
+        "ar": "مين سجل هدف فوز مصر ١-٠ على إيطاليا في كأس القارات ٢٠٠٩؟",
+        "en": "Who scored Egypt's 1-0 winner against Italy at the 2009 Confederations Cup?"
+      },
+      "options": [
+        {
+          "ar": "محمد حمص",
+          "en": "Mohamed Homos"
+        },
+        {
+          "ar": "محمد أبو تريكة",
+          "en": "Mohamed Aboutrika"
+        },
+        {
+          "ar": "أحمد حسن",
+          "en": "Ahmed Hassan"
+        },
+        {
+          "ar": "محمد بركات",
+          "en": "Mohamed Barakat"
+        }
+      ],
+      "correct": 0
+    },
+    {
+      "id": "eg-elkhatib-1983",
+      "question": {
+        "ar": "مين أول مصري كسب جائزة أفضل لاعب أفريقي سنة ١٩٨٣؟",
+        "en": "Who was the first Egyptian to win the African Footballer of the Year award, in 1983?"
+      },
+      "options": [
+        {
+          "ar": "محمد أبو تريكة",
+          "en": "Mohamed Aboutrika"
+        },
+        {
+          "ar": "محمود الخطيب",
+          "en": "Mahmoud El-Khatib"
+        },
+        {
+          "ar": "حسام حسن",
+          "en": "Hossam Hassan"
+        },
+        {
+          "ar": "أحمد حسن",
+          "en": "Ahmed Hassan"
+        }
+      ],
+      "correct": 1
+    },
+    {
+      "id": "eg-afsha-2020",
+      "question": {
+        "ar": "مين سجل هدف الفوز للأهلي في الدقيقة ٨٦ من نهائي دوري أبطال أفريقيا ٢٠٢٠ أمام الزمالك؟",
+        "en": "Who scored Al Ahly's 86th-minute winner in the 2020 CAF Champions League final against Zamalek?"
+      },
+      "options": [
+        {
+          "ar": "حسين الشحات",
+          "en": "Hussein El-Shahat"
+        },
+        {
+          "ar": "عمرو السولية",
+          "en": "Amr El-Soulia"
+        },
+        {
+          "ar": "محمد مجدي «أفشة»",
+          "en": "Mohamed Magdy \"Afsha\""
+        },
+        {
+          "ar": "محمد الشناوي",
+          "en": "Mohamed El-Shenawy"
+        }
+      ],
+      "correct": 2
+    },
+    {
+      "id": "eg-aboutrika-2006",
+      "question": {
+        "ar": "مين سجل ركلة الجزاء الحاسمة لمصر في نهائي أمم أفريقيا ٢٠٠٦ أمام كوت ديفوار؟",
+        "en": "Who scored Egypt's decisive penalty in the 2006 AFCON final shootout against Ivory Coast?"
+      },
+      "options": [
+        {
+          "ar": "أحمد حسن",
+          "en": "Ahmed Hassan"
+        },
+        {
+          "ar": "عمرو زكي",
+          "en": "Amr Zaki"
+        },
+        {
+          "ar": "محمد بركات",
+          "en": "Mohamed Barakat"
+        },
+        {
+          "ar": "محمد أبو تريكة",
+          "en": "Mohamed Aboutrika"
+        }
+      ],
+      "correct": 3
+    },
+    {
+      "id": "eg-cuper-2017",
+      "question": {
+        "ar": "مين المدرب الأرجنتيني اللي وصل بمصر لنهائي أمم أفريقيا ٢٠١٧؟",
+        "en": "Which Argentine coach led Egypt to the 2017 AFCON final?"
+      },
+      "options": [
+        {
+          "ar": "هيكتور كوبر",
+          "en": "Héctor Cúper"
+        },
+        {
+          "ar": "حسن شحاتة",
+          "en": "Hassan Shehata"
+        },
+        {
+          "ar": "كارلوس كيروش",
+          "en": "Carlos Queiroz"
+        },
+        {
+          "ar": "روي فيتوريا",
+          "en": "Rui Vitória"
+        }
+      ],
+      "correct": 0
+    },
+    {
+      "id": "eg-ahly-bronze-2006",
+      "question": {
+        "ar": "مين أول نادي أفريقي كسب ميدالية برونزية في كأس العالم للأندية؟",
+        "en": "Which was the first African club to win a bronze medal at the FIFA Club World Cup?"
+      },
+      "options": [
+        {
+          "ar": "الزمالك",
+          "en": "Zamalek"
+        },
+        {
+          "ar": "الأهلي",
+          "en": "Al Ahly"
+        },
+        {
+          "ar": "الترجي",
+          "en": "Espérance"
+        },
+        {
+          "ar": "مازيمبي",
+          "en": "TP Mazembe"
+        }
+      ],
+      "correct": 1
+    },
+    {
+      "id": "eg-zamalek-confed-2019",
+      "question": {
+        "ar": "مين النادي المصري اللي كسب كأس الكونفدرالية الأفريقية ٢٠١٩ بركلات الترجيح أمام نهضة بركان؟",
+        "en": "Which Egyptian club won the 2019 CAF Confederation Cup on penalties against RS Berkane?"
+      },
+      "options": [
+        {
+          "ar": "الأهلي",
+          "en": "Al Ahly"
+        },
+        {
+          "ar": "بيراميدز",
+          "en": "Pyramids"
+        },
+        {
+          "ar": "الزمالك",
+          "en": "Zamalek"
+        },
+        {
+          "ar": "الإسماعيلي",
+          "en": "Ismaily"
+        }
+      ],
+      "correct": 2
+    },
+    {
+      "id": "eg-mayele-2025",
+      "question": {
+        "ar": "مين كان هداف دوري أبطال أفريقيا ٢٠٢٤-٢٠٢٥ برصيد ٩ أهداف؟",
+        "en": "Who was the top scorer of the 2024-25 CAF Champions League with 9 goals?"
+      },
+      "options": [
+        {
+          "ar": "محمد شريف",
+          "en": "Mohamed Sherif"
+        },
+        {
+          "ar": "حسين الشحات",
+          "en": "Hussein El-Shahat"
+        },
+        {
+          "ar": "أشرف بن شرقي",
+          "en": "Achraf Bencharki"
+        },
+        {
+          "ar": "فيستون ماييلي",
+          "en": "Fiston Mayele"
+        }
+      ],
+      "correct": 3
+    },
+    {
+      "id": "arab-madjer-first",
+      "question": {
+        "ar": "مين أول لاعب أفريقي سجل في نهائي كأس أوروبا (دوري أبطال أوروبا)؟",
+        "en": "Who was the first African player to score in a European Cup/Champions League final?"
+      },
+      "options": [
+        {
+          "ar": "رابح ماجر",
+          "en": "Rabah Madjer"
+        },
+        {
+          "ar": "محمد صلاح",
+          "en": "Mohamed Salah"
+        },
+        {
+          "ar": "أشرف حكيمي",
+          "en": "Achraf Hakimi"
+        },
+        {
+          "ar": "رياض محرز",
+          "en": "Riyad Mahrez"
+        }
+      ],
+      "correct": 0
+    },
+    {
+      "id": "arab-raja-2013",
+      "question": {
+        "ar": "مين أول نادي عربي وصل لنهائي كأس العالم للأندية؟",
+        "en": "Which was the first Arab club to reach the FIFA Club World Cup final?"
+      },
+      "options": [
+        {
+          "ar": "الهلال",
+          "en": "Al Hilal"
+        },
+        {
+          "ar": "الرجاء البيضاوي",
+          "en": "Raja Casablanca"
+        },
+        {
+          "ar": "الأهلي",
+          "en": "Al Ahly"
+        },
+        {
+          "ar": "الترجي",
+          "en": "Espérance"
+        }
+      ],
+      "correct": 1
+    },
+    {
+      "id": "arab-bono-2022",
+      "question": {
+        "ar": "مين الحارس المغربي اللي كسب القفاز الذهبي في كأس العالم ٢٠٢٢ وصدّ ركلتين من إسبانيا؟",
+        "en": "Which Moroccan goalkeeper won the 2022 World Cup Golden Glove and saved two penalties against Spain?"
+      },
+      "options": [
+        {
+          "ar": "منير المحمدي",
+          "en": "Munir Mohamedi"
+        },
+        {
+          "ar": "أحمد رضا التكناوتي",
+          "en": "Ahmed Reda Tagnaouti"
+        },
+        {
+          "ar": "ياسين بونو",
+          "en": "Yassine Bounou"
+        },
+        {
+          "ar": "عبد العالي المحمدي",
+          "en": "Abdelali Mhamdi"
+        }
+      ],
+      "correct": 2
+    },
+    {
+      "id": "arab-hakimi-2025",
+      "question": {
+        "ar": "مين اللاعب المغربي اللي سجل أول هدف في نهائي دوري أبطال أوروبا ٢٠٢٥؟",
+        "en": "Which Moroccan scored the opening goal in the 2025 Champions League final?"
+      },
+      "options": [
+        {
+          "ar": "حكيم زياش",
+          "en": "Hakim Ziyech"
+        },
+        {
+          "ar": "سفيان أمرابط",
+          "en": "Sofyan Amrabat"
+        },
+        {
+          "ar": "نايف أكرد",
+          "en": "Nayef Aguerd"
+        },
+        {
+          "ar": "أشرف حكيمي",
+          "en": "Achraf Hakimi"
+        }
+      ],
+      "correct": 3
+    },
+    {
+      "id": "arab-wydad-2022",
+      "question": {
+        "ar": "مين كسب دوري أبطال أفريقيا ٢٠٢٢ بنتيجة ٢-٠ في مجموع المباراتين أمام الأهلي؟",
+        "en": "Which club won the 2022 CAF Champions League 2-0 on aggregate against Al Ahly?"
+      },
+      "options": [
+        {
+          "ar": "الوداد",
+          "en": "Wydad Casablanca"
+        },
+        {
+          "ar": "الرجاء",
+          "en": "Raja Casablanca"
+        },
+        {
+          "ar": "الترجي",
+          "en": "Espérance"
+        },
+        {
+          "ar": "بيراميدز",
+          "en": "Pyramids"
+        }
+      ],
+      "correct": 0
+    },
+    {
+      "id": "world-desailly",
+      "question": {
+        "ar": "مين اللاعب الوحيد اللي كسب دوري أبطال أوروبا في موسمين متتاليين مع ناديين مختلفين؟",
+        "en": "Who is the only player to win the Champions League in back-to-back seasons with two different clubs?"
+      },
+      "options": [
+        {
+          "ar": "صامويل إيتو",
+          "en": "Samuel Eto'o"
+        },
+        {
+          "ar": "مارسيل ديسايي",
+          "en": "Marcel Desailly"
+        },
+        {
+          "ar": "كلارنس سيدورف",
+          "en": "Clarence Seedorf"
+        },
+        {
+          "ar": "كريستيانو رونالدو",
+          "en": "Cristiano Ronaldo"
+        }
+      ],
+      "correct": 1
+    },
+    {
+      "id": "world-etoo",
+      "question": {
+        "ar": "مين اللاعب الوحيد اللي كسب الثلاثية (الدوري والكأس ودوري الأبطال) في موسمين متتاليين مع ناديين مختلفين؟",
+        "en": "Who is the only player to win the treble in consecutive seasons with two different clubs?"
+      },
+      "options": [
+        {
+          "ar": "ليونيل ميسي",
+          "en": "Lionel Messi"
         },
         {
           "ar": "كريستيانو رونالدو",
           "en": "Cristiano Ronaldo"
         },
         {
+          "ar": "صامويل إيتو",
+          "en": "Samuel Eto'o"
+        },
+        {
+          "ar": "روبرت ليفاندوفسكي",
+          "en": "Robert Lewandowski"
+        }
+      ],
+      "correct": 2
+    },
+    {
+      "id": "world-cafu",
+      "question": {
+        "ar": "مين اللاعب الوحيد اللي لعب ٣ نهائيات كأس عالم متتالية؟",
+        "en": "Who is the only player to play in three consecutive World Cup finals?"
+      },
+      "options": [
+        {
+          "ar": "رونالدو نازاريو",
+          "en": "Ronaldo Nazário"
+        },
+        {
+          "ar": "روبرتو كارلوس",
+          "en": "Roberto Carlos"
+        },
+        {
           "ar": "ليونيل ميسي",
           "en": "Lionel Messi"
         },
         {
-          "ar": "كيليان مبابي",
-          "en": "Kylian Mbappé"
+          "ar": "كافو",
+          "en": "Cafu"
         }
       ],
-      "correct": 1
+      "correct": 3
     },
     {
-      "id": "wc-goalkeeper-ballon",
+      "id": "world-mbappe-hattrick",
       "question": {
-        "ar": "مين أكتر حارس لعب مباريات في الدوري الإنجليزي؟",
-        "en": "Which goalkeeper has made the most Premier League appearances?"
+        "ar": "مين أول لاعب يسجل هاتريك في نهائي كأس العالم ويخسر المباراة؟",
+        "en": "Who was the first player to score a hat-trick in a World Cup final and lose the match?"
       },
       "options": [
         {
-          "ar": "ديفيد جيمس",
-          "en": "David James"
+          "ar": "كيليان مبابي",
+          "en": "Kylian Mbappé"
         },
         {
-          "ar": "بيتر تشيك",
-          "en": "Petr Čech"
+          "ar": "ليونيل ميسي",
+          "en": "Lionel Messi"
         },
         {
-          "ar": "مارك شوارزر",
-          "en": "Mark Schwarzer"
+          "ar": "كريستيانو رونالدو",
+          "en": "Cristiano Ronaldo"
         },
         {
-          "ar": "ديفيد دي خيا",
-          "en": "David de Gea"
+          "ar": "ميروسلاف كلوزه",
+          "en": "Miroslav Klose"
         }
       ],
       "correct": 0
     },
     {
-      "id": "wc-most-goals",
+      "id": "world-montiel",
       "question": {
-        "ar": "مين هداف كأس العالم التاريخي؟",
-        "en": "Who is the all-time top scorer in World Cup history?"
+        "ar": "مين سجل ركلة الجزاء الحاسمة للأرجنتين في نهائي كأس العالم ٢٠٢٢؟",
+        "en": "Who scored Argentina's decisive penalty in the 2022 World Cup final shootout?"
       },
       "options": [
         {
-          "ar": "كيليان مبابي",
-          "en": "Kylian Mbappé"
-        },
-        {
           "ar": "ليونيل ميسي",
           "en": "Lionel Messi"
+        },
+        {
+          "ar": "جونزالو مونتيال",
+          "en": "Gonzalo Montiel"
+        },
+        {
+          "ar": "باولو ديبالا",
+          "en": "Paulo Dybala"
+        },
+        {
+          "ar": "إنزو فرنانديز",
+          "en": "Enzo Fernández"
+        }
+      ],
+      "correct": 1
+    },
+    {
+      "id": "world-marta",
+      "question": {
+        "ar": "مين أول لاعب أو لاعبة يسجل في ٥ نسخ مختلفة من كأس العالم؟",
+        "en": "Who was the first player, male or female, to score at five different World Cups?"
+      },
+      "options": [
+        {
+          "ar": "كريستيانو رونالدو",
+          "en": "Cristiano Ronaldo"
         },
         {
           "ar": "ميروسلاف كلوزه",
           "en": "Miroslav Klose"
         },
         {
-          "ar": "رونالدو نازاريو",
-          "en": "Ronaldo Nazário"
+          "ar": "مارتا",
+          "en": "Marta"
+        },
+        {
+          "ar": "ميا هام",
+          "en": "Mia Hamm"
+        }
+      ],
+      "correct": 2
+    },
+    {
+      "id": "world-milner",
+      "question": {
+        "ar": "مين كسر رقم جاريث باري في عدد مباريات الدوري الإنجليزي الممتاز؟",
+        "en": "Who broke Gareth Barry's record for Premier League appearances?"
+      },
+      "options": [
+        {
+          "ar": "فرانك لامبارد",
+          "en": "Frank Lampard"
+        },
+        {
+          "ar": "ريان جيجز",
+          "en": "Ryan Giggs"
+        },
+        {
+          "ar": "أشلي يونغ",
+          "en": "Ashley Young"
+        },
+        {
+          "ar": "جيمس ميلنر",
+          "en": "James Milner"
+        }
+      ],
+      "correct": 3
+    },
+    {
+      "id": "world-vardy",
+      "question": {
+        "ar": "مين صاحب الرقم القياسي في التسجيل في ١١ مباراة متتالية بالدوري الإنجليزي؟",
+        "en": "Who holds the record for scoring in 11 consecutive Premier League matches?"
+      },
+      "options": [
+        {
+          "ar": "جيمي فاردي",
+          "en": "Jamie Vardy"
+        },
+        {
+          "ar": "محمد صلاح",
+          "en": "Mohamed Salah"
+        },
+        {
+          "ar": "سيرجيو أغويرو",
+          "en": "Sergio Agüero"
+        },
+        {
+          "ar": "هاري كين",
+          "en": "Harry Kane"
         }
       ],
       "correct": 0
     },
     {
-      "id": "wc-africa-quarter",
+      "id": "world-sheringham",
       "question": {
-        "ar": "مين أول منتخب أفريقي وصل لربع نهائي كأس العالم؟",
-        "en": "Which was the first African team to reach the World Cup quarter-finals?"
+        "ar": "مين أكبر لاعب سجل هدف في تاريخ الدوري الإنجليزي الممتاز؟",
+        "en": "Who is the oldest player to score in Premier League history?"
       },
       "options": [
         {
-          "ar": "الكاميرون",
-          "en": "Cameroon"
+          "ar": "ريان جيجز",
+          "en": "Ryan Giggs"
         },
         {
-          "ar": "غانا",
-          "en": "Ghana"
+          "ar": "تيدي شيرينغهام",
+          "en": "Teddy Sheringham"
         },
         {
-          "ar": "السنغال",
-          "en": "Senegal"
+          "ar": "جيمس ميلنر",
+          "en": "James Milner"
         },
         {
-          "ar": "نيجيريا",
-          "en": "Nigeria"
-        }
-      ],
-      "correct": 0
-    },
-    {
-      "id": "wc-africa-semi",
-      "question": {
-        "ar": "مين أول منتخب أفريقي وصل لنصف نهائي كأس العالم؟",
-        "en": "Which was the first African team to reach the World Cup semi-finals?"
-      },
-      "options": [
-        {
-          "ar": "غانا",
-          "en": "Ghana"
-        },
-        {
-          "ar": "المغرب",
-          "en": "Morocco"
-        },
-        {
-          "ar": "السنغال",
-          "en": "Senegal"
-        },
-        {
-          "ar": "الكاميرون",
-          "en": "Cameroon"
+          "ar": "جيانفرانكو زولا",
+          "en": "Gianfranco Zola"
         }
       ],
       "correct": 1
     },
     {
-      "id": "wc-youngest-final",
+      "id": "world-nwaneri",
       "question": {
-        "ar": "مين أصغر لاعب سجل في كأس العالم ٢٠٢٢؟",
-        "en": "Who was the youngest player to score at the 2022 World Cup?"
+        "ar": "مين أصغر لاعب شارك في تاريخ الدوري الإنجليزي الممتاز؟",
+        "en": "Who is the youngest player to appear in Premier League history?"
       },
       "options": [
         {
-          "ar": "جافي",
-          "en": "Gavi"
+          "ar": "يوسوفا موكوكو",
+          "en": "Youssoufa Moukoko"
+        },
+        {
+          "ar": "جود بيلينغهام",
+          "en": "Jude Bellingham"
+        },
+        {
+          "ar": "إيثان نوانيري",
+          "en": "Ethan Nwaneri"
+        },
+        {
+          "ar": "هارفي إليوت",
+          "en": "Harvey Elliott"
+        }
+      ],
+      "correct": 2
+    },
+    {
+      "id": "world-moukoko",
+      "question": {
+        "ar": "مين أصغر لاعب شارك في تاريخ دوري أبطال أوروبا؟",
+        "en": "Who is the youngest player to appear in Champions League history?"
+      },
+      "options": [
+        {
+          "ar": "إيثان نوانيري",
+          "en": "Ethan Nwaneri"
+        },
+        {
+          "ar": "لامين يامال",
+          "en": "Lamine Yamal"
+        },
+        {
+          "ar": "جود بيلينغهام",
+          "en": "Jude Bellingham"
+        },
+        {
+          "ar": "يوسوفا موكوكو",
+          "en": "Youssoufa Moukoko"
+        }
+      ],
+      "correct": 3
+    },
+    {
+      "id": "world-pepe",
+      "question": {
+        "ar": "مين أكبر لاعب سجل هدف في تاريخ دوري أبطال أوروبا؟",
+        "en": "Who is the oldest player to score in Champions League history?"
+      },
+      "options": [
+        {
+          "ar": "بيبي",
+          "en": "Pepe"
+        },
+        {
+          "ar": "فرانشيسكو توتي",
+          "en": "Francesco Totti"
+        },
+        {
+          "ar": "زلاتان إبراهيموفيتش",
+          "en": "Zlatan Ibrahimović"
+        },
+        {
+          "ar": "كريستيانو رونالدو",
+          "en": "Cristiano Ronaldo"
+        }
+      ],
+      "correct": 0
+    },
+    {
+      "id": "world-maldini-647",
+      "question": {
+        "ar": "مين لعب ٦٤٧ مباراة في الدوري الإيطالي، كلهم مع ميلان؟",
+        "en": "Who made 647 Serie A appearances, all for AC Milan?"
+      },
+      "options": [
+        {
+          "ar": "فرانكو باريزي",
+          "en": "Franco Baresi"
+        },
+        {
+          "ar": "باولو مالديني",
+          "en": "Paolo Maldini"
+        },
+        {
+          "ar": "خافيير زانيتي",
+          "en": "Javier Zanetti"
+        },
+        {
+          "ar": "أليساندرو ديل بييرو",
+          "en": "Alessandro Del Piero"
+        }
+      ],
+      "correct": 1
+    },
+    {
+      "id": "world-higuain",
+      "question": {
+        "ar": "مين سجل ٣٦ هدف في موسم واحد بالدوري الإيطالي مع نابولي؟",
+        "en": "Who scored 36 goals in a single Serie A season for Napoli?"
+      },
+      "options": [
+        {
+          "ar": "إدينسون كافاني",
+          "en": "Edinson Cavani"
+        },
+        {
+          "ar": "تشيرو إيموبيلي",
+          "en": "Ciro Immobile"
+        },
+        {
+          "ar": "جونزالو هيغواين",
+          "en": "Gonzalo Higuaín"
+        },
+        {
+          "ar": "لاوتارو مارتينيز",
+          "en": "Lautaro Martínez"
+        }
+      ],
+      "correct": 2
+    },
+    {
+      "id": "world-modric-euro",
+      "question": {
+        "ar": "مين أكبر لاعب سجل هدف في تاريخ بطولة أوروبا (اليورو)؟",
+        "en": "Who is the oldest player to score at the European Championship?"
+      },
+      "options": [
+        {
+          "ar": "كريستيانو رونالدو",
+          "en": "Cristiano Ronaldo"
+        },
+        {
+          "ar": "زلاتان إبراهيموفيتش",
+          "en": "Zlatan Ibrahimović"
+        },
+        {
+          "ar": "بيبي",
+          "en": "Pepe"
+        },
+        {
+          "ar": "لوكا مودريتش",
+          "en": "Luka Modrić"
+        }
+      ],
+      "correct": 3
+    },
+    {
+      "id": "world-yamal",
+      "question": {
+        "ar": "مين أصغر لاعب سجل هدف في تاريخ بطولة أوروبا (اليورو)؟",
+        "en": "Who is the youngest player to score at the European Championship?"
+      },
+      "options": [
+        {
+          "ar": "لامين يامال",
+          "en": "Lamine Yamal"
         },
         {
           "ar": "جود بيلينغهام",
@@ -172,251 +978,147 @@
           "en": "Jamal Musiala"
         },
         {
-          "ar": "خوليان ألفاريز",
-          "en": "Julián Álvarez"
+          "ar": "فلوريان فيرتز",
+          "en": "Florian Wirtz"
         }
       ],
       "correct": 0
     },
     {
-      "id": "wc-fastest-goal",
+      "id": "world-bajrami",
       "question": {
-        "ar": "مين صاحب أسرع هدف في تاريخ كأس العالم؟",
-        "en": "Who scored the fastest goal in World Cup history?"
+        "ar": "مين صاحب أسرع هدف في تاريخ بطولة أوروبا (اليورو)؟",
+        "en": "Who scored the fastest goal in European Championship history?"
       },
       "options": [
         {
-          "ar": "رونالدو نازاريو",
-          "en": "Ronaldo Nazário"
+          "ar": "كريستيانو رونالدو",
+          "en": "Cristiano Ronaldo"
         },
         {
-          "ar": "كلينت ديمبسي",
-          "en": "Clint Dempsey"
+          "ar": "نديم بايرامي",
+          "en": "Nedim Bajrami"
         },
         {
-          "ar": "هاكان شوكور",
-          "en": "Hakan Şükür"
+          "ar": "لامين يامال",
+          "en": "Lamine Yamal"
         },
         {
-          "ar": "كيليان مبابي",
-          "en": "Kylian Mbappé"
+          "ar": "ماركو أرناوتوفيتش",
+          "en": "Marko Arnautović"
+        }
+      ],
+      "correct": 1
+    },
+    {
+      "id": "world-trezeguet",
+      "question": {
+        "ar": "مين سجل الهدف الذهبي لفرنسا في نهائي يورو ٢٠٠٠ أمام إيطاليا؟",
+        "en": "Who scored France's golden goal in the Euro 2000 final against Italy?"
+      },
+      "options": [
+        {
+          "ar": "زين الدين زيدان",
+          "en": "Zinedine Zidane"
+        },
+        {
+          "ar": "تيري هنري",
+          "en": "Thierry Henry"
+        },
+        {
+          "ar": "ديفيد تريزيغيه",
+          "en": "David Trezeguet"
+        },
+        {
+          "ar": "إيمانويل بيتيت",
+          "en": "Emmanuel Petit"
         }
       ],
       "correct": 2
     },
     {
-      "id": "wc-player-manager",
+      "id": "world-bierhoff",
       "question": {
-        "ar": "مين أول واحد كسب كأس العالم قائد منتخب ومدير فني؟",
-        "en": "Who was the first to win the World Cup as captain and as a manager?"
+        "ar": "مين سجل الهدف الذهبي لألمانيا في نهائي يورو ١٩٩٦ أمام التشيك؟",
+        "en": "Who scored Germany's golden goal in the Euro 1996 final against the Czech Republic?"
       },
       "options": [
         {
-          "ar": "فرانز بيكنباور",
-          "en": "Franz Beckenbauer"
+          "ar": "يورجن كلينسمان",
+          "en": "Jürgen Klinsmann"
         },
         {
-          "ar": "ديدييه ديشامب",
-          "en": "Didier Deschamps"
+          "ar": "ماتياس زامر",
+          "en": "Matthias Sammer"
         },
         {
-          "ar": "فيسنتي ديل بوسكي",
-          "en": "Vicente del Bosque"
+          "ar": "رودي فولر",
+          "en": "Rudi Völler"
         },
         {
-          "ar": "ليونيل سكالوني",
-          "en": "Lionel Scaloni"
-        }
-      ],
-      "correct": 0
-    },
-    {
-      "id": "wc-oldest-scorer",
-      "question": {
-        "ar": "مين أكبر لاعب سجل في كأس العالم؟",
-        "en": "Who is the oldest player to score at a World Cup?"
-      },
-      "options": [
-        {
-          "ar": "روجيه ميلا",
-          "en": "Roger Milla"
-        },
-        {
-          "ar": "لوكا مودريتش",
-          "en": "Luka Modrić"
-        },
-        {
-          "ar": "كريستيانو رونالدو",
-          "en": "Cristiano Ronaldo"
-        },
-        {
-          "ar": "بيبي",
-          "en": "Pepe"
-        }
-      ],
-      "correct": 0
-    },
-    {
-      "id": "wc-first-red-final",
-      "question": {
-        "ar": "مين أول لاعب بيتطرد في نهائي كأس العالم؟",
-        "en": "Who was the first player to be sent off in a World Cup final?"
-      },
-      "options": [
-        {
-          "ar": "زين الدين زيدان",
-          "en": "Zinedine Zidane"
-        },
-        {
-          "ar": "بيدرو مونزون",
-          "en": "Pedro Monzón"
-        },
-        {
-          "ar": "ماركو ماتيراتزي",
-          "en": "Marco Materazzi"
-        },
-        {
-          "ar": "جوستافو ديزوتي",
-          "en": "Gustavo Dezotti"
-        }
-      ],
-      "correct": 1
-    },
-    {
-      "id": "wc-final-hattrick",
-      "question": {
-        "ar": "مين أكتر لاعب سجل في مباريات نهائي كأس العالم؟",
-        "en": "Who has scored the most goals in World Cup final matches?"
-      },
-      "options": [
-        {
-          "ar": "كيليان مبابي",
-          "en": "Kylian Mbappé"
-        },
-        {
-          "ar": "زين الدين زيدان",
-          "en": "Zinedine Zidane"
-        },
-        {
-          "ar": "ليونيل ميسي",
-          "en": "Lionel Messi"
-        },
-        {
-          "ar": "رونالدو نازاريو",
-          "en": "Ronaldo Nazário"
-        }
-      ],
-      "correct": 0
-    },
-    {
-      "id": "ucl-three-clubs",
-      "question": {
-        "ar": "مين اللاعب الوحيد اللي كسب دوري أبطال أوروبا مع ٣ أندية مختلفة؟",
-        "en": "Who is the only player to win the Champions League with three different clubs?"
-      },
-      "options": [
-        {
-          "ar": "كلارنس سيدورف",
-          "en": "Clarence Seedorf"
-        },
-        {
-          "ar": "تييري هنري",
-          "en": "Thierry Henry"
-        },
-        {
-          "ar": "صامويل إيتو",
-          "en": "Samuel Eto'o"
-        },
-        {
-          "ar": "ديدييه دروجبا",
-          "en": "Didier Drogba"
-        }
-      ],
-      "correct": 0
-    },
-    {
-      "id": "ucl-six-first",
-      "question": {
-        "ar": "مين أكتر لاعب سجل في مباريات نهائي دوري أبطال أوروبا؟",
-        "en": "Who has scored the most goals in Champions League final matches?"
-      },
-      "options": [
-        {
-          "ar": "كريستيانو رونالدو",
-          "en": "Cristiano Ronaldo"
-        },
-        {
-          "ar": "جاريث بيل",
-          "en": "Gareth Bale"
-        },
-        {
-          "ar": "ليونيل ميسي",
-          "en": "Lionel Messi"
-        },
-        {
-          "ar": "سيرجيو راموس",
-          "en": "Sergio Ramos"
-        }
-      ],
-      "correct": 0
-    },
-    {
-      "id": "ucl-top-scorer",
-      "question": {
-        "ar": "مين هداف دوري أبطال أوروبا التاريخي؟",
-        "en": "Who is the all-time top scorer in the Champions League?"
-      },
-      "options": [
-        {
-          "ar": "روبرت ليفاندوفسكي",
-          "en": "Robert Lewandowski"
-        },
-        {
-          "ar": "كريستيانو رونالدو",
-          "en": "Cristiano Ronaldo"
-        },
-        {
-          "ar": "ليونيل ميسي",
-          "en": "Lionel Messi"
-        },
-        {
-          "ar": "كريم بنزيما",
-          "en": "Karim Benzema"
-        }
-      ],
-      "correct": 1
-    },
-    {
-      "id": "ucl-appearances",
-      "question": {
-        "ar": "مين أكتر لاعب لعب مباريات في دوري أبطال أوروبا؟",
-        "en": "Who has made the most Champions League appearances?"
-      },
-      "options": [
-        {
-          "ar": "إيكر كاسياس",
-          "en": "Iker Casillas"
-        },
-        {
-          "ar": "تشافي",
-          "en": "Xavi"
-        },
-        {
-          "ar": "ليونيل ميسي",
-          "en": "Lionel Messi"
-        },
-        {
-          "ar": "كريستيانو رونالدو",
-          "en": "Cristiano Ronaldo"
+          "ar": "أوليفر بيرهوف",
+          "en": "Oliver Bierhoff"
         }
       ],
       "correct": 3
     },
     {
-      "id": "ucl-manager",
+      "id": "world-barca-two-trebles",
       "question": {
-        "ar": "مين أكتر مدير فني كسب دوري أبطال أوروبا؟",
-        "en": "Who has won the most Champions League titles as a manager?"
+        "ar": "مين أول نادي كسب الثلاثية الأوروبية مرتين؟",
+        "en": "Which was the first club to win the European treble twice?"
+      },
+      "options": [
+        {
+          "ar": "برشلونة",
+          "en": "Barcelona"
+        },
+        {
+          "ar": "بايرن ميونخ",
+          "en": "Bayern Munich"
+        },
+        {
+          "ar": "ريال مدريد",
+          "en": "Real Madrid"
+        },
+        {
+          "ar": "مانشستر يونايتد",
+          "en": "Manchester United"
+        }
+      ],
+      "correct": 0
+    },
+    {
+      "id": "world-psg-final",
+      "question": {
+        "ar": "مين كسب نهائي دوري أبطال أوروبا ٢٠٢٥ بأكبر فارق في تاريخ النهائيات؟",
+        "en": "Who won the 2025 Champions League final by the biggest margin in the competition's history?"
+      },
+      "options": [
+        {
+          "ar": "إنتر ميلان",
+          "en": "Inter Milan"
+        },
+        {
+          "ar": "باريس سان جيرمان",
+          "en": "PSG"
+        },
+        {
+          "ar": "ريال مدريد",
+          "en": "Real Madrid"
+        },
+        {
+          "ar": "مانشستر سيتي",
+          "en": "Manchester City"
+        }
+      ],
+      "correct": 1
+    },
+    {
+      "id": "world-luis-enrique",
+      "question": {
+        "ar": "مين المدرب اللي كسب دوري أبطال أوروبا مع برشلونة ٢٠١٥ ومع باريس سان جيرمان ٢٠٢٥؟",
+        "en": "Which manager won the Champions League with Barcelona in 2015 and PSG in 2025?"
       },
       "options": [
         {
@@ -424,30 +1126,372 @@
           "en": "Pep Guardiola"
         },
         {
-          "ar": "زين الدين زيدان",
-          "en": "Zinedine Zidane"
-        },
-        {
-          "ar": "أليكس فيرجسون",
-          "en": "Sir Alex Ferguson"
-        },
-        {
           "ar": "كارلو أنشيلوتي",
           "en": "Carlo Ancelotti"
+        },
+        {
+          "ar": "لويس إنريكي",
+          "en": "Luis Enrique"
+        },
+        {
+          "ar": "يورجن كلوب",
+          "en": "Jürgen Klopp"
+        }
+      ],
+      "correct": 2
+    },
+    {
+      "id": "world-emery-europa",
+      "question": {
+        "ar": "مين المدرب اللي كسب الدوري الأوروبي ٥ مرات؟",
+        "en": "Which manager has won the Europa League five times?"
+      },
+      "options": [
+        {
+          "ar": "جوزيه مورينيو",
+          "en": "José Mourinho"
+        },
+        {
+          "ar": "ماوريسيو ساري",
+          "en": "Maurizio Sarri"
+        },
+        {
+          "ar": "توماس توخيل",
+          "en": "Thomas Tuchel"
+        },
+        {
+          "ar": "أوناي إيمري",
+          "en": "Unai Emery"
         }
       ],
       "correct": 3
     },
     {
-      "id": "ucl-three-in-row",
+      "id": "world-makaay",
       "question": {
-        "ar": "في عصر دوري أبطال أوروبا (بعد ١٩٩٢)، مين أول فريق كسبها ٣ مرات ورا بعض؟",
-        "en": "In the Champions League era (since 1992), which was the first team to win it three times in a row?"
+        "ar": "مين صاحب أسرع هدف في تاريخ دوري أبطال أوروبا؟",
+        "en": "Who scored the fastest goal in Champions League history?"
       },
       "options": [
         {
-          "ar": "بايرن ميونخ",
-          "en": "Bayern Munich"
+          "ar": "روي ماكاي",
+          "en": "Roy Makaay"
+        },
+        {
+          "ar": "محمد صلاح",
+          "en": "Mohamed Salah"
+        },
+        {
+          "ar": "كريستيانو رونالدو",
+          "en": "Cristiano Ronaldo"
+        },
+        {
+          "ar": "روبرت ليفاندوفسكي",
+          "en": "Robert Lewandowski"
+        }
+      ],
+      "correct": 0
+    },
+    {
+      "id": "world-maldini-finals",
+      "question": {
+        "ar": "مين المدافع اللي لعب أكتر نهائيات في دوري أبطال أوروبا (٨ نهائيات)؟",
+        "en": "Which defender has played in the most Champions League finals (8)?"
+      },
+      "options": [
+        {
+          "ar": "سيرجيو راموس",
+          "en": "Sergio Ramos"
+        },
+        {
+          "ar": "باولو مالديني",
+          "en": "Paolo Maldini"
+        },
+        {
+          "ar": "فرانكو باريزي",
+          "en": "Franco Baresi"
+        },
+        {
+          "ar": "كارليس بويول",
+          "en": "Carles Puyol"
+        }
+      ],
+      "correct": 1
+    },
+    {
+      "id": "league-laliga-2000",
+      "question": {
+        "ar": "مين النادي اللي كسب الدوري الإسباني موسم ١٩٩٩-٢٠٠٠، وكان اللقب الوحيد في تاريخه؟",
+        "en": "Which club won La Liga in 1999-2000, the only league title in its history?"
+      },
+      "options": [
+        {
+          "ar": "فالنسيا",
+          "en": "Valencia"
+        },
+        {
+          "ar": "برشلونة",
+          "en": "Barcelona"
+        },
+        {
+          "ar": "ديبورتيفو لاكورونيا",
+          "en": "Deportivo La Coruña"
+        },
+        {
+          "ar": "أتلتيكو مدريد",
+          "en": "Atlético Madrid"
+        }
+      ],
+      "correct": 2
+    },
+    {
+      "id": "league-bundesliga-2009",
+      "question": {
+        "ar": "مين النادي اللي كسب الدوري الألماني موسم ٢٠٠٨-٢٠٠٩ لأول مرة في تاريخه؟",
+        "en": "Which club won the Bundesliga in 2008-09 for the first time in its history?"
+      },
+      "options": [
+        {
+          "ar": "باير ليفركوزن",
+          "en": "Bayer Leverkusen"
+        },
+        {
+          "ar": "شالكه",
+          "en": "Schalke 04"
+        },
+        {
+          "ar": "فيردر بريمن",
+          "en": "Werder Bremen"
+        },
+        {
+          "ar": "فولفسبورج",
+          "en": "Wolfsburg"
+        }
+      ],
+      "correct": 3
+    },
+    {
+      "id": "league-ligue1-2012",
+      "question": {
+        "ar": "مين النادي اللي كسب الدوري الفرنسي موسم ٢٠١١-٢٠١٢ قبل باريس سان جيرمان؟",
+        "en": "Which club won Ligue 1 in 2011-12 ahead of PSG?"
+      },
+      "options": [
+        {
+          "ar": "مونبلييه",
+          "en": "Montpellier"
+        },
+        {
+          "ar": "ليل",
+          "en": "Lille"
+        },
+        {
+          "ar": "ليون",
+          "en": "Lyon"
+        },
+        {
+          "ar": "مارسيليا",
+          "en": "Marseille"
+        }
+      ],
+      "correct": 0
+    },
+    {
+      "id": "league-portugal-2001",
+      "question": {
+        "ar": "مين النادي البرتغالي اللي كسر هيمنة الثلاثة الكبار وكسب الدوري موسم ٢٠٠٠-٢٠٠١؟",
+        "en": "Which Portuguese club broke the big three's dominance to win the 2000-01 league title?"
+      },
+      "options": [
+        {
+          "ar": "سبورتينغ لشبونة",
+          "en": "Sporting CP"
+        },
+        {
+          "ar": "بوافيستا",
+          "en": "Boavista"
+        },
+        {
+          "ar": "بنفيكا",
+          "en": "Benfica"
+        },
+        {
+          "ar": "بورتو",
+          "en": "Porto"
+        }
+      ],
+      "correct": 1
+    },
+    {
+      "id": "league-turkey-2010",
+      "question": {
+        "ar": "مين النادي التركي اللي كسب الدوري موسم ٢٠٠٩-٢٠١٠ لأول مرة في تاريخه؟",
+        "en": "Which Turkish club won the Süper Lig in 2009-10 for the first time in its history?"
+      },
+      "options": [
+        {
+          "ar": "فنربخشة",
+          "en": "Fenerbahçe"
+        },
+        {
+          "ar": "غلطة سراي",
+          "en": "Galatasaray"
+        },
+        {
+          "ar": "بورصة سبور",
+          "en": "Bursaspor"
+        },
+        {
+          "ar": "بشكتاش",
+          "en": "Beşiktaş"
+        }
+      ],
+      "correct": 2
+    },
+    {
+      "id": "league-seriea-1991",
+      "question": {
+        "ar": "مين النادي اللي كسب الدوري الإيطالي موسم ١٩٩٠-١٩٩١ بقيادة فيالي ومانشيني؟",
+        "en": "Which club won Serie A in 1990-91 with Vialli and Mancini?"
+      },
+      "options": [
+        {
+          "ar": "ميلان",
+          "en": "AC Milan"
+        },
+        {
+          "ar": "إنتر",
+          "en": "Inter Milan"
+        },
+        {
+          "ar": "يوفنتوس",
+          "en": "Juventus"
+        },
+        {
+          "ar": "سامبدوريا",
+          "en": "Sampdoria"
+        }
+      ],
+      "correct": 3
+    },
+    {
+      "id": "libertadores-most",
+      "question": {
+        "ar": "مين أكتر نادي كسب كأس ليبرتادوريس؟",
+        "en": "Which club has won the most Copa Libertadores titles?"
+      },
+      "options": [
+        {
+          "ar": "إنديبندينتي",
+          "en": "Independiente"
+        },
+        {
+          "ar": "بوكا جونيورز",
+          "en": "Boca Juniors"
+        },
+        {
+          "ar": "ريفر بليت",
+          "en": "River Plate"
+        },
+        {
+          "ar": "ساو باولو",
+          "en": "São Paulo"
+        }
+      ],
+      "correct": 0
+    },
+    {
+      "id": "africa-enyimba-2003",
+      "question": {
+        "ar": "مين أول نادي نيجيري كسب دوري أبطال أفريقيا، وكان ذلك في ٢٠٠٣؟",
+        "en": "Which was the first Nigerian club to win the CAF Champions League, in 2003?"
+      },
+      "options": [
+        {
+          "ar": "كانو بيلارز",
+          "en": "Kano Pillars"
+        },
+        {
+          "ar": "إنييمبا",
+          "en": "Enyimba"
+        },
+        {
+          "ar": "رينجرز إنترناشونال",
+          "en": "Rangers International"
+        },
+        {
+          "ar": "هارتلاند",
+          "en": "Heartland"
+        }
+      ],
+      "correct": 1
+    },
+    {
+      "id": "wc-1990-golden-boot",
+      "question": {
+        "ar": "مين كسب الحذاء الذهبي في كأس العالم ١٩٩٠ برصيد ٦ أهداف؟",
+        "en": "Who won the Golden Boot at the 1990 World Cup with 6 goals?"
+      },
+      "options": [
+        {
+          "ar": "روبرتو باجيو",
+          "en": "Roberto Baggio"
+        },
+        {
+          "ar": "يورجن كلينسمان",
+          "en": "Jürgen Klinsmann"
+        },
+        {
+          "ar": "سالفاتوري سكيلاتشي",
+          "en": "Salvatore Schillaci"
+        },
+        {
+          "ar": "غاري لينيكر",
+          "en": "Gary Lineker"
+        }
+      ],
+      "correct": 2
+    },
+    {
+      "id": "european-cup-1986",
+      "question": {
+        "ar": "مين النادي اللي كسب كأس أوروبا ١٩٨٦ بركلات الترجيح أمام برشلونة؟",
+        "en": "Which club won the 1986 European Cup on penalties against Barcelona?"
+      },
+      "options": [
+        {
+          "ar": "بنفيكا",
+          "en": "Benfica"
+        },
+        {
+          "ar": "يوفنتوس",
+          "en": "Juventus"
+        },
+        {
+          "ar": "بورتو",
+          "en": "Porto"
+        },
+        {
+          "ar": "ستيوا بوخارست",
+          "en": "Steaua Bucharest"
+        }
+      ],
+      "correct": 3
+    },
+    {
+      "id": "european-cup-1988",
+      "question": {
+        "ar": "مين النادي اللي كسب كأس أوروبا ١٩٨٨ بركلات الترجيح أمام بنفيكا؟",
+        "en": "Which club won the 1988 European Cup on penalties against Benfica?"
+      },
+      "options": [
+        {
+          "ar": "آيندهوفن",
+          "en": "PSV Eindhoven"
+        },
+        {
+          "ar": "بنفيكا",
+          "en": "Benfica"
         },
         {
           "ar": "ميلان",
@@ -456,1131 +1500,87 @@
         {
           "ar": "ريال مدريد",
           "en": "Real Madrid"
-        },
-        {
-          "ar": "أياكس",
-          "en": "Ajax"
-        }
-      ],
-      "correct": 2
-    },
-    {
-      "id": "ucl-british-first",
-      "question": {
-        "ar": "مين أول فريق بريطاني كسب كأس أوروبا؟",
-        "en": "Which was the first British team to win the European Cup?"
-      },
-      "options": [
-        {
-          "ar": "سيلتيك",
-          "en": "Celtic"
-        },
-        {
-          "ar": "مانشستر يونايتد",
-          "en": "Manchester United"
-        },
-        {
-          "ar": "ليفربول",
-          "en": "Liverpool"
-        },
-        {
-          "ar": "نوتنغهام فورست",
-          "en": "Nottingham Forest"
         }
       ],
       "correct": 0
     },
     {
-      "id": "ucl-season-goals",
+      "id": "intercontinental-2000",
       "question": {
-        "ar": "مين صاحب أكتر أهداف في موسم واحد بدوري أبطال أوروبا؟",
-        "en": "Who scored the most goals in a single Champions League season?"
+        "ar": "مين النادي اللي كسب كأس الإنتركونتيننتال ٢٠٠٠ على حساب ريال مدريد؟",
+        "en": "Which club won the 2000 Intercontinental Cup against Real Madrid?"
       },
       "options": [
         {
-          "ar": "كريستيانو رونالدو",
-          "en": "Cristiano Ronaldo"
+          "ar": "ريفر بليت",
+          "en": "River Plate"
         },
         {
-          "ar": "روبرت ليفاندوفسكي",
-          "en": "Robert Lewandowski"
+          "ar": "بوكا جونيورز",
+          "en": "Boca Juniors"
         },
         {
-          "ar": "كريم بنزيما",
-          "en": "Karim Benzema"
+          "ar": "بالميراس",
+          "en": "Palmeiras"
         },
         {
-          "ar": "ليونيل ميسي",
-          "en": "Lionel Messi"
-        }
-      ],
-      "correct": 0
-    },
-    {
-      "id": "ucl-2005-comeback",
-      "question": {
-        "ar": "مين الفريق اللي رجع من ٣-٠ في نهائي ٢٠٠٥؟",
-        "en": "Which team came back from 3-0 down in the 2005 final?"
-      },
-      "options": [
-        {
-          "ar": "برشلونة",
-          "en": "Barcelona"
-        },
-        {
-          "ar": "ليفربول",
-          "en": "Liverpool"
-        },
-        {
-          "ar": "مانشستر يونايتد",
-          "en": "Manchester United"
-        },
-        {
-          "ar": "ميلان",
-          "en": "AC Milan"
+          "ar": "ساو باولو",
+          "en": "São Paulo"
         }
       ],
       "correct": 1
     },
     {
-      "id": "ucl-madjer",
+      "id": "libertadores-2004",
       "question": {
-        "ar": "مين الجزائري اللي سجل بكعب قدمه في نهائي كأس أوروبا ١٩٨٧؟",
-        "en": "Which Algerian scored with a backheel in the 1987 European Cup final?"
+        "ar": "مين النادي الكولومبي المفاجأة اللي كسب كأس ليبرتادوريس ٢٠٠٤ بركلات الترجيح أمام بوكا جونيورز؟",
+        "en": "Which Colombian club surprisingly won the 2004 Copa Libertadores on penalties against Boca Juniors?"
       },
       "options": [
         {
-          "ar": "رياض محرز",
-          "en": "Riyad Mahrez"
+          "ar": "أتلتيكو ناسيونال",
+          "en": "Atlético Nacional"
         },
         {
-          "ar": "محمد صلاح",
-          "en": "Mohamed Salah"
+          "ar": "ديبورتيفو كالي",
+          "en": "Deportivo Cali"
         },
         {
-          "ar": "رابح ماجر",
-          "en": "Rabah Madjer"
+          "ar": "أونسي كالداس",
+          "en": "Once Caldas"
         },
         {
-          "ar": "حكيم زياش",
-          "en": "Hakim Ziyech"
+          "ar": "ميلوناريوس",
+          "en": "Millonarios"
         }
       ],
       "correct": 2
     },
     {
-      "id": "ucl-egypt-first",
+      "id": "uefa-cup-1997",
       "question": {
-        "ar": "مين أول لاعب مصري كسب دوري أبطال أوروبا؟",
-        "en": "Who was the first Egyptian player to win the Champions League?"
+        "ar": "مين النادي اللي كسب كأس الاتحاد الأوروبي ١٩٩٧ بركلات الترجيح أمام إنتر ميلان؟",
+        "en": "Which club won the 1997 UEFA Cup on penalties against Inter Milan?"
       },
       "options": [
         {
-          "ar": "محمد صلاح",
-          "en": "Mohamed Salah"
+          "ar": "إنتر ميلان",
+          "en": "Inter Milan"
         },
         {
-          "ar": "محمد النني",
-          "en": "Mohamed Elneny"
+          "ar": "بوروسيا دورتموند",
+          "en": "Borussia Dortmund"
         },
         {
-          "ar": "محمد أبو تريكة",
-          "en": "Mohamed Aboutrika"
+          "ar": "بايرن ميونخ",
+          "en": "Bayern Munich"
         },
         {
-          "ar": "أحمد حجازي",
-          "en": "Ahmed Hegazi"
-        }
-      ],
-      "correct": 0
-    },
-    {
-      "id": "ucl-assists",
-      "question": {
-        "ar": "مين أكتر لاعب صنع أهداف في دوري أبطال أوروبا؟",
-        "en": "Who has the most assists in Champions League history?"
-      },
-      "options": [
-        {
-          "ar": "أنخيل دي ماريا",
-          "en": "Ángel Di María"
-        },
-        {
-          "ar": "كريستيانو رونالدو",
-          "en": "Cristiano Ronaldo"
-        },
-        {
-          "ar": "ليونيل ميسي",
-          "en": "Lionel Messi"
-        },
-        {
-          "ar": "رايان جيجز",
-          "en": "Ryan Giggs"
-        }
-      ],
-      "correct": 1
-    },
-    {
-      "id": "eg-ismaily-1969",
-      "question": {
-        "ar": "مين أول نادي مصري كسب البطولة الأفريقية للأندية الأبطال؟",
-        "en": "Which was the first Egyptian club to win the African Cup of Champions Clubs?"
-      },
-      "options": [
-        {
-          "ar": "الترسانة",
-          "en": "Tersana"
-        },
-        {
-          "ar": "الزمالك",
-          "en": "Zamalek"
-        },
-        {
-          "ar": "الإسماعيلي",
-          "en": "Ismaily"
-        },
-        {
-          "ar": "الأهلي",
-          "en": "Al Ahly"
-        }
-      ],
-      "correct": 2
-    },
-    {
-      "id": "eg-most-caf",
-      "question": {
-        "ar": "مين أكتر نادي كسب دوري أبطال أفريقيا؟",
-        "en": "Which club has won the most CAF Champions League titles?"
-      },
-      "options": [
-        {
-          "ar": "الأهلي",
-          "en": "Al Ahly"
-        },
-        {
-          "ar": "الترجي",
-          "en": "Espérance"
-        },
-        {
-          "ar": "الزمالك",
-          "en": "Zamalek"
-        },
-        {
-          "ar": "تي بي مازيمبي",
-          "en": "TP Mazembe"
-        }
-      ],
-      "correct": 0
-    },
-    {
-      "id": "eg-league-top",
-      "question": {
-        "ar": "مين أول مصري كسب جائزة أفضل لاعب في أفريقيا؟",
-        "en": "Who was the first Egyptian to win the African Footballer of the Year?"
-      },
-      "options": [
-        {
-          "ar": "محمود الخطيب",
-          "en": "Mahmoud El-Khatib"
-        },
-        {
-          "ar": "محمد أبو تريكة",
-          "en": "Mohamed Aboutrika"
-        },
-        {
-          "ar": "حسام حسن",
-          "en": "Hossam Hassan"
-        },
-        {
-          "ar": "أحمد حسن",
-          "en": "Ahmed Hassan"
-        }
-      ],
-      "correct": 0
-    },
-    {
-      "id": "eg-first-league",
-      "question": {
-        "ar": "مين أول نادي كسب الدوري المصري؟",
-        "en": "Which club won the first Egyptian Premier League title?"
-      },
-      "options": [
-        {
-          "ar": "الإسماعيلي",
-          "en": "Ismaily"
-        },
-        {
-          "ar": "الأهلي",
-          "en": "Al Ahly"
-        },
-        {
-          "ar": "الزمالك",
-          "en": "Zamalek"
-        },
-        {
-          "ar": "الترسانة",
-          "en": "Tersana"
-        }
-      ],
-      "correct": 1
-    },
-    {
-      "id": "eg-aboutrika-2008",
-      "question": {
-        "ar": "مين المصري اللي كسب جائزة أفضل لاعب أفريقي سنة ٢٠٠٨ وهو في الدوري المصري؟",
-        "en": "Which Egyptian won the 2008 African Footballer of the Year while playing in Egypt?"
-      },
-      "options": [
-        {
-          "ar": "محمد صلاح",
-          "en": "Mohamed Salah"
-        },
-        {
-          "ar": "محمد بركات",
-          "en": "Mohamed Barakat"
-        },
-        {
-          "ar": "محمد أبو تريكة",
-          "en": "Mohamed Aboutrika"
-        },
-        {
-          "ar": "حسام حسن",
-          "en": "Hossam Hassan"
-        }
-      ],
-      "correct": 2
-    },
-    {
-      "id": "eg-zamalek-first-africa",
-      "question": {
-        "ar": "في أي سنة كسب الزمالك أول بطولة أفريقية له؟",
-        "en": "In which year did Zamalek win their first African title?"
-      },
-      "options": [
-        {
-          "ar": "١٩٨٤",
-          "en": "1984"
-        },
-        {
-          "ar": "١٩٩٣",
-          "en": "1993"
-        },
-        {
-          "ar": "١٩٩٦",
-          "en": "1996"
-        },
-        {
-          "ar": "٢٠٠٢",
-          "en": "2002"
-        }
-      ],
-      "correct": 0
-    },
-    {
-      "id": "eg-mido-first-pl",
-      "question": {
-        "ar": "مين أول لاعب مصري لعب في الدوري الإنجليزي الممتاز؟",
-        "en": "Who was the first Egyptian to play in the Premier League?"
-      },
-      "options": [
-        {
-          "ar": "ميدو",
-          "en": "Mido"
-        },
-        {
-          "ar": "محمد النني",
-          "en": "Mohamed Elneny"
-        },
-        {
-          "ar": "محمد صلاح",
-          "en": "Mohamed Salah"
-        },
-        {
-          "ar": "عمرو زكي",
-          "en": "Amr Zaki"
-        }
-      ],
-      "correct": 0
-    },
-    {
-      "id": "eg-most-caps",
-      "question": {
-        "ar": "مين أكتر لاعب مصري لعب مباريات دولية؟",
-        "en": "Who is Egypt's most-capped player?"
-      },
-      "options": [
-        {
-          "ar": "حسام حسن",
-          "en": "Hossam Hassan"
-        },
-        {
-          "ar": "وائل جمعة",
-          "en": "Wael Gomaa"
-        },
-        {
-          "ar": "عصام الحضري",
-          "en": "Essam El-Hadary"
-        },
-        {
-          "ar": "أحمد حسن",
-          "en": "Ahmed Hassan"
+          "ar": "شالكه",
+          "en": "Schalke 04"
         }
       ],
       "correct": 3
-    },
-    {
-      "id": "eg-top-scorer",
-      "question": {
-        "ar": "مين هداف منتخب مصر التاريخي حتى ٢٠٢٦؟",
-        "en": "Who is Egypt's all-time top scorer as of 2026?"
-      },
-      "options": [
-        {
-          "ar": "ميدو",
-          "en": "Mido"
-        },
-        {
-          "ar": "حسام حسن",
-          "en": "Hossam Hassan"
-        },
-        {
-          "ar": "محمد أبو تريكة",
-          "en": "Mohamed Aboutrika"
-        },
-        {
-          "ar": "محمد صلاح",
-          "en": "Mohamed Salah"
-        }
-      ],
-      "correct": 1
-    },
-    {
-      "id": "arab-wc-host",
-      "question": {
-        "ar": "مين أول دولة عربية استضافت كأس العالم؟",
-        "en": "Which was the first Arab country to host the World Cup?"
-      },
-      "options": [
-        {
-          "ar": "الإمارات",
-          "en": "UAE"
-        },
-        {
-          "ar": "السعودية",
-          "en": "Saudi Arabia"
-        },
-        {
-          "ar": "المغرب",
-          "en": "Morocco"
-        },
-        {
-          "ar": "قطر",
-          "en": "Qatar"
-        }
-      ],
-      "correct": 3
-    },
-    {
-      "id": "arab-cwc-final",
-      "question": {
-        "ar": "مين أول نادي عربي وصل لنهائي كأس العالم للأندية؟",
-        "en": "Which was the first Arab club to reach the FIFA Club World Cup final?"
-      },
-      "options": [
-        {
-          "ar": "الأهلي",
-          "en": "Al Ahly"
-        },
-        {
-          "ar": "الرجاء",
-          "en": "Raja"
-        },
-        {
-          "ar": "الترجي",
-          "en": "Espérance"
-        },
-        {
-          "ar": "الهلال",
-          "en": "Al-Hilal"
-        }
-      ],
-      "correct": 3
-    },
-    {
-      "id": "eg-salah-caf-twice",
-      "question": {
-        "ar": "مين اللاعب المصري الوحيد اللي كسب جائزة أفضل لاعب أفريقي مرتين؟",
-        "en": "Who is the only Egyptian to win the African Footballer of the Year twice?"
-      },
-      "options": [
-        {
-          "ar": "محمد أبو تريكة",
-          "en": "Mohamed Aboutrika"
-        },
-        {
-          "ar": "أحمد حسن",
-          "en": "Ahmed Hassan"
-        },
-        {
-          "ar": "محمد صلاح",
-          "en": "Mohamed Salah"
-        },
-        {
-          "ar": "حسام حسن",
-          "en": "Hossam Hassan"
-        }
-      ],
-      "correct": 2
-    },
-    {
-      "id": "eg-hadary-oldest",
-      "question": {
-        "ar": "مين أكبر لاعب في تاريخ كأس العالم؟",
-        "en": "Who is the oldest player in World Cup history?"
-      },
-      "options": [
-        {
-          "ar": "وائل جمعة",
-          "en": "Wael Gomaa"
-        },
-        {
-          "ar": "عصام الحضري",
-          "en": "Essam El-Hadary"
-        },
-        {
-          "ar": "حسام حسن",
-          "en": "Hossam Hassan"
-        },
-        {
-          "ar": "أحمد حسن",
-          "en": "Ahmed Hassan"
-        }
-      ],
-      "correct": 1
-    },
-    {
-      "id": "africa-pl-top",
-      "question": {
-        "ar": "مين أفريقي سجل أكتر أهداف في الدوري الإنجليزي الممتاز؟",
-        "en": "Who is the highest-scoring African player in Premier League history?"
-      },
-      "options": [
-        {
-          "ar": "ساديو ماني",
-          "en": "Sadio Mané"
-        },
-        {
-          "ar": "محمد صلاح",
-          "en": "Mohamed Salah"
-        },
-        {
-          "ar": "ديدييه دروجبا",
-          "en": "Didier Drogba"
-        },
-        {
-          "ar": "بيير إيميريك أوباميانغ",
-          "en": "Pierre-Emerick Aubameyang"
-        }
-      ],
-      "correct": 1
-    },
-    {
-      "id": "eg-ahly-bronze",
-      "question": {
-        "ar": "مين أول نادي أفريقي كسب ميدالية في كأس العالم للأندية؟",
-        "en": "Which was the first African club to win a FIFA Club World Cup medal?"
-      },
-      "options": [
-        {
-          "ar": "الترجي",
-          "en": "Espérance"
-        },
-        {
-          "ar": "الأهلي",
-          "en": "Al Ahly"
-        },
-        {
-          "ar": "الزمالك",
-          "en": "Zamalek"
-        },
-        {
-          "ar": "تي بي مازيمبي",
-          "en": "TP Mazembe"
-        }
-      ],
-      "correct": 1
-    },
-    {
-      "id": "pl-assists",
-      "question": {
-        "ar": "مين أكتر لاعب صنع أهداف في تاريخ الدوري الإنجليزي الممتاز؟",
-        "en": "Who has the most assists in Premier League history?"
-      },
-      "options": [
-        {
-          "ar": "كيفن دي بروين",
-          "en": "Kevin De Bruyne"
-        },
-        {
-          "ar": "رايان جيجز",
-          "en": "Ryan Giggs"
-        },
-        {
-          "ar": "سيسك فابريجاس",
-          "en": "Cesc Fàbregas"
-        },
-        {
-          "ar": "فرانك لامبارد",
-          "en": "Frank Lampard"
-        }
-      ],
-      "correct": 1
-    },
-    {
-      "id": "pl-fastest-goal",
-      "question": {
-        "ar": "مين صاحب أسرع هدف في تاريخ الدوري الإنجليزي الممتاز؟",
-        "en": "Who scored the fastest goal in Premier League history?"
-      },
-      "options": [
-        {
-          "ar": "سيرجيو أغويرو",
-          "en": "Sergio Agüero"
-        },
-        {
-          "ar": "هاري كين",
-          "en": "Harry Kane"
-        },
-        {
-          "ar": "شين لونغ",
-          "en": "Shane Long"
-        },
-        {
-          "ar": "جيمي فاردي",
-          "en": "Jamie Vardy"
-        }
-      ],
-      "correct": 2
-    },
-    {
-      "id": "pl-fastest-hattrick",
-      "question": {
-        "ar": "مين صاحب أسرع هاتريك في تاريخ الدوري الإنجليزي الممتاز؟",
-        "en": "Who scored the fastest hat-trick in Premier League history?"
-      },
-      "options": [
-        {
-          "ar": "محمد صلاح",
-          "en": "Mohamed Salah"
-        },
-        {
-          "ar": "هاري كين",
-          "en": "Harry Kane"
-        },
-        {
-          "ar": "سيرجيو أغويرو",
-          "en": "Sergio Agüero"
-        },
-        {
-          "ar": "ساديو ماني",
-          "en": "Sadio Mané"
-        }
-      ],
-      "correct": 3
-    },
-    {
-      "id": "pl-clean-sheets",
-      "question": {
-        "ar": "مين أكتر حارس حافظ على نظافة شباكه في الدوري الإنجليزي الممتاز؟",
-        "en": "Which goalkeeper has the most Premier League clean sheets?"
-      },
-      "options": [
-        {
-          "ar": "ديفيد جيمس",
-          "en": "David James"
-        },
-        {
-          "ar": "بيتر تشيك",
-          "en": "Petr Čech"
-        },
-        {
-          "ar": "بيتر شمايكل",
-          "en": "Peter Schmeichel"
-        },
-        {
-          "ar": "ديفيد سيمان",
-          "en": "David Seaman"
-        }
-      ],
-      "correct": 1
-    },
-    {
-      "id": "pl-season-goals",
-      "question": {
-        "ar": "مين صاحب أكتر أهداف في موسم واحد (٣٨ مباراة) بالدوري الإنجليزي الممتاز؟",
-        "en": "Who scored the most goals in a 38-game Premier League season?"
-      },
-      "options": [
-        {
-          "ar": "محمد صلاح",
-          "en": "Mohamed Salah"
-        },
-        {
-          "ar": "آلان شيرر",
-          "en": "Alan Shearer"
-        },
-        {
-          "ar": "إيرلينغ هالاند",
-          "en": "Erling Haaland"
-        },
-        {
-          "ar": "تييري هنري",
-          "en": "Thierry Henry"
-        }
-      ],
-      "correct": 2
-    },
-    {
-      "id": "laliga-top",
-      "question": {
-        "ar": "مين هداف الدوري الإسباني التاريخي؟",
-        "en": "Who is the all-time top scorer in La Liga?"
-      },
-      "options": [
-        {
-          "ar": "كريستيانو رونالدو",
-          "en": "Cristiano Ronaldo"
-        },
-        {
-          "ar": "كريم بنزيما",
-          "en": "Karim Benzema"
-        },
-        {
-          "ar": "هوجو سانشيز",
-          "en": "Hugo Sánchez"
-        },
-        {
-          "ar": "ليونيل ميسي",
-          "en": "Lionel Messi"
-        }
-      ],
-      "correct": 3
-    },
-    {
-      "id": "laliga-season",
-      "question": {
-        "ar": "مين صاحب أكتر أهداف في موسم واحد بالدوري الإسباني؟",
-        "en": "Who scored the most goals in a single La Liga season?"
-      },
-      "options": [
-        {
-          "ar": "ليونيل ميسي",
-          "en": "Lionel Messi"
-        },
-        {
-          "ar": "لويس سواريز",
-          "en": "Luis Suárez"
-        },
-        {
-          "ar": "هوجو سانشيز",
-          "en": "Hugo Sánchez"
-        },
-        {
-          "ar": "كريستيانو رونالدو",
-          "en": "Cristiano Ronaldo"
-        }
-      ],
-      "correct": 0
-    },
-    {
-      "id": "real-madrid-apps",
-      "question": {
-        "ar": "مين أكتر لاعب لعب مباريات مع ريال مدريد؟",
-        "en": "Who has made the most appearances for Real Madrid?"
-      },
-      "options": [
-        {
-          "ar": "إيكر كاسياس",
-          "en": "Iker Casillas"
-        },
-        {
-          "ar": "راؤول",
-          "en": "Raúl"
-        },
-        {
-          "ar": "فرناندو هييرو",
-          "en": "Fernando Hierro"
-        },
-        {
-          "ar": "سيرجيو راموس",
-          "en": "Sergio Ramos"
-        }
-      ],
-      "correct": 1
-    },
-    {
-      "id": "real-madrid-goals",
-      "question": {
-        "ar": "مين هداف ريال مدريد التاريخي؟",
-        "en": "Who is Real Madrid's all-time top scorer?"
-      },
-      "options": [
-        {
-          "ar": "راؤول",
-          "en": "Raúl"
-        },
-        {
-          "ar": "هوجو سانشيز",
-          "en": "Hugo Sánchez"
-        },
-        {
-          "ar": "كريستيانو رونالدو",
-          "en": "Cristiano Ronaldo"
-        },
-        {
-          "ar": "كريم بنزيما",
-          "en": "Karim Benzema"
-        }
-      ],
-      "correct": 2
-    },
-    {
-      "id": "serie-a-goals",
-      "question": {
-        "ar": "مين أكتر لاعب سجل في الدوري الإيطالي من اللي لعبوا في القرن الـ٢١؟",
-        "en": "Who has scored the most Serie A goals among players active in the 21st century?"
-      },
-      "options": [
-        {
-          "ar": "فرانشيسكو توتي",
-          "en": "Francesco Totti"
-        },
-        {
-          "ar": "أنطونيو دي ناتالي",
-          "en": "Antonio Di Natale"
-        },
-        {
-          "ar": "تشيرو إيموبيلي",
-          "en": "Ciro Immobile"
-        },
-        {
-          "ar": "أليساندرو ديل بييرو",
-          "en": "Alessandro Del Piero"
-        }
-      ],
-      "correct": 0
-    },
-    {
-      "id": "bundesliga-goals",
-      "question": {
-        "ar": "مين هداف الدوري الألماني التاريخي؟",
-        "en": "Who is the all-time top scorer in the Bundesliga?"
-      },
-      "options": [
-        {
-          "ar": "ميروسلاف كلوزه",
-          "en": "Miroslav Klose"
-        },
-        {
-          "ar": "روبرت ليفاندوفسكي",
-          "en": "Robert Lewandowski"
-        },
-        {
-          "ar": "جيرد مولر",
-          "en": "Gerd Müller"
-        },
-        {
-          "ar": "كلاوس فيشر",
-          "en": "Klaus Fischer"
-        }
-      ],
-      "correct": 2
-    },
-    {
-      "id": "bundesliga-season",
-      "question": {
-        "ar": "مين صاحب أكتر أهداف في موسم واحد بالدوري الألماني؟",
-        "en": "Who scored the most goals in a single Bundesliga season?"
-      },
-      "options": [
-        {
-          "ar": "جيرد مولر",
-          "en": "Gerd Müller"
-        },
-        {
-          "ar": "إيرلينغ هالاند",
-          "en": "Erling Haaland"
-        },
-        {
-          "ar": "روبرت ليفاندوفسكي",
-          "en": "Robert Lewandowski"
-        },
-        {
-          "ar": "هاري كين",
-          "en": "Harry Kane"
-        }
-      ],
-      "correct": 2
-    },
-    {
-      "id": "calendar-year-goals",
-      "question": {
-        "ar": "مين سجل أكتر أهداف في سنة ميلادية واحدة؟",
-        "en": "Who scored the most goals in a single calendar year?"
-      },
-      "options": [
-        {
-          "ar": "ليونيل ميسي",
-          "en": "Lionel Messi"
-        },
-        {
-          "ar": "روبرت ليفاندوفسكي",
-          "en": "Robert Lewandowski"
-        },
-        {
-          "ar": "جيرد مولر",
-          "en": "Gerd Müller"
-        },
-        {
-          "ar": "كريستيانو رونالدو",
-          "en": "Cristiano Ronaldo"
-        }
-      ],
-      "correct": 0
-    },
-    {
-      "id": "golden-shoe-three-leagues",
-      "question": {
-        "ar": "مين اللاعب الوحيد اللي كسب الحذاء الذهبي الأوروبي في ٣ دوريات مختلفة؟",
-        "en": "Who is the only player to win the European Golden Shoe in three different leagues?"
-      },
-      "options": [
-        {
-          "ar": "روبرت ليفاندوفسكي",
-          "en": "Robert Lewandowski"
-        },
-        {
-          "ar": "كريستيانو رونالدو",
-          "en": "Cristiano Ronaldo"
-        },
-        {
-          "ar": "ليونيل ميسي",
-          "en": "Lionel Messi"
-        },
-        {
-          "ar": "لويس سواريز",
-          "en": "Luis Suárez"
-        }
-      ],
-      "correct": 1
-    },
-    {
-      "id": "ballon-dor-most",
-      "question": {
-        "ar": "مين أكتر لاعب كسب الكرة الذهبية؟",
-        "en": "Who has won the most Ballon d'Or awards?"
-      },
-      "options": [
-        {
-          "ar": "ميشيل بلاتيني",
-          "en": "Michel Platini"
-        },
-        {
-          "ar": "يوهان كرويف",
-          "en": "Johan Cruyff"
-        },
-        {
-          "ar": "ليونيل ميسي",
-          "en": "Lionel Messi"
-        },
-        {
-          "ar": "كريستيانو رونالدو",
-          "en": "Cristiano Ronaldo"
-        }
-      ],
-      "correct": 2
-    },
-    {
-      "id": "ballon-dor-africa",
-      "question": {
-        "ar": "مين أول لاعب أفريقي كسب الكرة الذهبية؟",
-        "en": "Who was the first African player to win the Ballon d'Or?"
-      },
-      "options": [
-        {
-          "ar": "جورج ويا",
-          "en": "George Weah"
-        },
-        {
-          "ar": "صامويل إيتو",
-          "en": "Samuel Eto'o"
-        },
-        {
-          "ar": "ديدييه دروجبا",
-          "en": "Didier Drogba"
-        },
-        {
-          "ar": "الحجي ضيوف",
-          "en": "El Hadji Diouf"
-        }
-      ],
-      "correct": 0
-    },
-    {
-      "id": "ballon-dor-defender",
-      "question": {
-        "ar": "مين المدافع الوحيد اللي كسب الكرة الذهبية في القرن الـ٢١؟",
-        "en": "Who is the only defender to win the Ballon d'Or in the 21st century?"
-      },
-      "options": [
-        {
-          "ar": "سيرجيو راموس",
-          "en": "Sergio Ramos"
-        },
-        {
-          "ar": "باولو مالديني",
-          "en": "Paolo Maldini"
-        },
-        {
-          "ar": "فابيو كانافارو",
-          "en": "Fabio Cannavaro"
-        },
-        {
-          "ar": "أليساندرو نيستا",
-          "en": "Alessandro Nesta"
-        }
-      ],
-      "correct": 2
-    },
-    {
-      "id": "five-ucl-five-ballon",
-      "question": {
-        "ar": "مين اللاعب الوحيد اللي عنده ٥ دوري أبطال و٥ كرات ذهبية؟",
-        "en": "Who is the only player with five Champions League titles and five Ballon d'Or awards?"
-      },
-      "options": [
-        {
-          "ar": "باولو مالديني",
-          "en": "Paolo Maldini"
-        },
-        {
-          "ar": "زين الدين زيدان",
-          "en": "Zinedine Zidane"
-        },
-        {
-          "ar": "ليونيل ميسي",
-          "en": "Lionel Messi"
-        },
-        {
-          "ar": "كريستيانو رونالدو",
-          "en": "Cristiano Ronaldo"
-        }
-      ],
-      "correct": 3
-    },
-    {
-      "id": "international-goals",
-      "question": {
-        "ar": "مين أكتر لاعب سجل أهداف دولية؟",
-        "en": "Who has scored the most international goals?"
-      },
-      "options": [
-        {
-          "ar": "ليونيل ميسي",
-          "en": "Lionel Messi"
-        },
-        {
-          "ar": "نيمار",
-          "en": "Neymar"
-        },
-        {
-          "ar": "علي دائي",
-          "en": "Ali Daei"
-        },
-        {
-          "ar": "كريستيانو رونالدو",
-          "en": "Cristiano Ronaldo"
-        }
-      ],
-      "correct": 3
-    },
-    {
-      "id": "international-caps",
-      "question": {
-        "ar": "مين أكتر لاعب لعب مباريات دولية؟",
-        "en": "Who has the most international caps?"
-      },
-      "options": [
-        {
-          "ar": "أحمد حسن",
-          "en": "Ahmed Hassan"
-        },
-        {
-          "ar": "سيرجيو راموس",
-          "en": "Sergio Ramos"
-        },
-        {
-          "ar": "ليونيل ميسي",
-          "en": "Lionel Messi"
-        },
-        {
-          "ar": "كريستيانو رونالدو",
-          "en": "Cristiano Ronaldo"
-        }
-      ],
-      "correct": 3
-    },
-    {
-      "id": "hundred-international-goals",
-      "question": {
-        "ar": "مين أول لاعب سجل ١٠٠ هدف دولي؟",
-        "en": "Who was the first player to score 100 international goals?"
-      },
-      "options": [
-        {
-          "ar": "ليونيل ميسي",
-          "en": "Lionel Messi"
-        },
-        {
-          "ar": "سونيل تشيتري",
-          "en": "Sunil Chhetri"
-        },
-        {
-          "ar": "علي دائي",
-          "en": "Ali Daei"
-        },
-        {
-          "ar": "كريستيانو رونالدو",
-          "en": "Cristiano Ronaldo"
-        }
-      ],
-      "correct": 2
-    },
-    {
-      "id": "wc-single-tournament",
-      "question": {
-        "ar": "مين أكبر لاعب ميداني شارك في كأس العالم؟",
-        "en": "Who is the oldest outfield player to play at a World Cup?"
-      },
-      "options": [
-        {
-          "ar": "روجر ميلا",
-          "en": "Roger Milla"
-        },
-        {
-          "ar": "لوكا مودريتش",
-          "en": "Luka Modrić"
-        },
-        {
-          "ar": "بيبي",
-          "en": "Pepe"
-        },
-        {
-          "ar": "كريستيانو رونالدو",
-          "en": "Cristiano Ronaldo"
-        }
-      ],
-      "correct": 0
     }
   ]
 }

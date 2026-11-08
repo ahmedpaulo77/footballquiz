@@ -4155,6 +4155,537 @@
         6,
         1
       ]
+    },
+    {
+      "id": "laliga-season-2012",
+      "category": {
+        "ar": "هدافي الليجا 2012–13",
+        "en": "La Liga 2012–13 scorers"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ جابوا في الدوري الإسباني موسم 2012–13 من التسعة دول؟",
+        "en": "Who scored the most in the 2012–13 La Liga season among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — 2012–13 La Liga top scorers",
+      "players": [
+        {
+          "name": "Gonzalo Higuaín",
+          "stat": 16
+        },
+        {
+          "name": "Piti",
+          "stat": 18
+        },
+        {
+          "name": "Radamel Falcao",
+          "stat": 28
+        },
+        {
+          "name": "Aritz Aduriz",
+          "stat": 14
+        },
+        {
+          "name": "Roberto Soldado",
+          "stat": 24
+        },
+        {
+          "name": "Carlos Vela",
+          "stat": 14
+        },
+        {
+          "name": "Álvaro Negredo",
+          "stat": 25
+        },
+        {
+          "name": "Rubén Castro",
+          "stat": 18
+        },
+        {
+          "name": "Hélder Postiga",
+          "stat": 14
+        }
+      ],
+      "top": [
+        2,
+        4,
+        6
+      ]
+    },
+    {
+      "id": "laliga-season-2018",
+      "category": {
+        "ar": "هدافي الليجا 2018–19",
+        "en": "La Liga 2018–19 scorers"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ جابوا في الدوري الإسباني موسم 2018–19 من التسعة دول؟",
+        "en": "Who scored the most in the 2018–19 La Liga season among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — 2018–19 La Liga top scorers",
+      "players": [
+        {
+          "name": "Cristhian Stuani",
+          "stat": 19
+        },
+        {
+          "name": "Antoine Griezmann",
+          "stat": 15
+        },
+        {
+          "name": "Charles",
+          "stat": 14
+        },
+        {
+          "name": "Iago Aspas",
+          "stat": 20
+        },
+        {
+          "name": "Borja Iglesias",
+          "stat": 17
+        },
+        {
+          "name": "Jaime Mata",
+          "stat": 14
+        },
+        {
+          "name": "Wissam Ben Yedder",
+          "stat": 18
+        },
+        {
+          "name": "Raúl de Tomás",
+          "stat": 14
+        },
+        {
+          "name": "Jorge Molina",
+          "stat": 14
+        }
+      ],
+      "top": [
+        0,
+        3,
+        6
+      ]
+    },
+    {
+      "id": "laliga-season-2019",
+      "category": {
+        "ar": "هدافي الليجا 2019–20",
+        "en": "La Liga 2019–20 scorers"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ جابوا في الدوري الإسباني موسم 2019–20 من التسعة دول؟",
+        "en": "Who scored the most in the 2019–20 La Liga season among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — 2019–20 La Liga top scorers",
+      "players": [
+        {
+          "name": "Ante Budimir",
+          "stat": 13
+        },
+        {
+          "name": "Raúl García",
+          "stat": 15
+        },
+        {
+          "name": "Joselu",
+          "stat": 11
+        },
+        {
+          "name": "Willian José",
+          "stat": 11
+        },
+        {
+          "name": "Gerard Moreno",
+          "stat": 18
+        },
+        {
+          "name": "Santi Cazorla",
+          "stat": 11
+        },
+        {
+          "name": "Álvaro Morata",
+          "stat": 12
+        },
+        {
+          "name": "Iago Aspas",
+          "stat": 14
+        },
+        {
+          "name": "Jaime Mata",
+          "stat": 11
+        }
+      ],
+      "top": [
+        1,
+        4,
+        7
+      ]
+    },
+    {
+      "id": "laliga-season-2022",
+      "category": {
+        "ar": "هدافي الليجا 2022–23",
+        "en": "La Liga 2022–23 scorers"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ جابوا في الدوري الإسباني موسم 2022–23 من التسعة دول؟",
+        "en": "Who scored the most in the 2022–23 La Liga season among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — 2022–23 La Liga top scorers",
+      "players": [
+        {
+          "name": "Enes Ünal",
+          "stat": 14
+        },
+        {
+          "name": "Iago Aspas",
+          "stat": 12
+        },
+        {
+          "name": "Vedat Muriqi",
+          "stat": 15
+        },
+        {
+          "name": "Taty Castellanos",
+          "stat": 13
+        },
+        {
+          "name": "Joselu",
+          "stat": 16
+        },
+        {
+          "name": "Alexander Sørloth",
+          "stat": 12
+        },
+        {
+          "name": "Borja Iglesias",
+          "stat": 15
+        },
+        {
+          "name": "Álvaro Morata",
+          "stat": 13
+        },
+        {
+          "name": "Nicolas Jackson",
+          "stat": 12
+        }
+      ],
+      "top": [
+        2,
+        4,
+        6
+      ]
+    },
+    {
+      "id": "pl-season-2009",
+      "category": {
+        "ar": "هدافي البريميرليج 2009–10",
+        "en": "Premier League 2009–10 scorers"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ جابوا في الدوري الإنجليزي موسم 2009–10 من التسعة دول؟",
+        "en": "Who scored the most in the 2009–10 Premier League season among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — 2009–10 Premier League top scorers",
+      "players": [
+        {
+          "name": "Jermain Defoe",
+          "stat": 18
+        },
+        {
+          "name": "Emmanuel Adebayor",
+          "stat": 14
+        },
+        {
+          "name": "Frank Lampard",
+          "stat": 22
+        },
+        {
+          "name": "Louis Saha",
+          "stat": 13
+        },
+        {
+          "name": "Darren Bent",
+          "stat": 24
+        },
+        {
+          "name": "Cesc Fàbregas",
+          "stat": 15
+        },
+        {
+          "name": "Gabriel Agbonlahor",
+          "stat": 13
+        },
+        {
+          "name": "Carlos Tevez",
+          "stat": 23
+        },
+        {
+          "name": "Fernando Torres",
+          "stat": 18
+        }
+      ],
+      "top": [
+        2,
+        4,
+        7
+      ]
+    },
+    {
+      "id": "pl-season-2017",
+      "category": {
+        "ar": "هدافي البريميرليج 2017–18",
+        "en": "Premier League 2017–18 scorers"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ جابوا في الدوري الإنجليزي موسم 2017–18 من التسعة دول؟",
+        "en": "Who scored the most in the 2017–18 Premier League season among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — 2017–18 Premier League top scorers",
+      "players": [
+        {
+          "name": "Riyad Mahrez",
+          "stat": 12
+        },
+        {
+          "name": "Romelu Lukaku",
+          "stat": 16
+        },
+        {
+          "name": "Alexandre Lacazette",
+          "stat": 14
+        },
+        {
+          "name": "Jamie Vardy",
+          "stat": 20
+        },
+        {
+          "name": "Glenn Murray",
+          "stat": 12
+        },
+        {
+          "name": "Roberto Firmino",
+          "stat": 15
+        },
+        {
+          "name": "Eden Hazard",
+          "stat": 12
+        },
+        {
+          "name": "Raheem Sterling",
+          "stat": 18
+        },
+        {
+          "name": "Gabriel Jesus",
+          "stat": 13
+        }
+      ],
+      "top": [
+        1,
+        3,
+        7
+      ]
+    },
+    {
+      "id": "pl-season-2018",
+      "category": {
+        "ar": "هدافي البريميرليج 2018–19",
+        "en": "Premier League 2018–19 scorers"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ جابوا في الدوري الإنجليزي موسم 2018–19 من التسعة دول؟",
+        "en": "Who scored the most in the 2018–19 Premier League season among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — 2018–19 Premier League top scorers",
+      "players": [
+        {
+          "name": "Callum Wilson",
+          "stat": 14
+        },
+        {
+          "name": "Paul Pogba",
+          "stat": 13
+        },
+        {
+          "name": "Jamie Vardy",
+          "stat": 18
+        },
+        {
+          "name": "Gylfi Sigurðsson",
+          "stat": 13
+        },
+        {
+          "name": "Eden Hazard",
+          "stat": 16
+        },
+        {
+          "name": "Alexandre Lacazette",
+          "stat": 13
+        },
+        {
+          "name": "Richarlison",
+          "stat": 13
+        },
+        {
+          "name": "Raúl Jiménez",
+          "stat": 13
+        },
+        {
+          "name": "Glenn Murray",
+          "stat": 13
+        }
+      ],
+      "top": [
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "ucl-season-2009",
+      "category": {
+        "ar": "هدافي التشامبيونز 2009–10",
+        "en": "Champions League 2009–10 scorers"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ جابوا في دوري أبطال أوروبا موسم 2009–10 من التسعة دول؟",
+        "en": "Who scored the most in the 2009–10 Champions League season among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — 2009–10 UEFA Champions League top scorers",
+      "players": [
+        {
+          "name": "Michael Owen",
+          "stat": 4
+        },
+        {
+          "name": "Arjen Robben",
+          "stat": 4
+        },
+        {
+          "name": "Edin Džeko",
+          "stat": 4
+        },
+        {
+          "name": "Ivica Olić",
+          "stat": 7
+        },
+        {
+          "name": "Miloš Krasić",
+          "stat": 4
+        },
+        {
+          "name": "Diego Milito",
+          "stat": 6
+        },
+        {
+          "name": "Miralem Pjanić",
+          "stat": 4
+        },
+        {
+          "name": "Nicklas Bendtner",
+          "stat": 5
+        },
+        {
+          "name": "Stevan Jovetić",
+          "stat": 4
+        }
+      ],
+      "top": [
+        3,
+        5,
+        7
+      ]
+    },
+    {
+      "id": "ucl-season-2010",
+      "category": {
+        "ar": "هدافي التشامبيونز 2010–11",
+        "en": "Champions League 2010–11 scorers"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ جابوا في دوري أبطال أوروبا موسم 2010–11 من التسعة دول؟",
+        "en": "Who scored the most in the 2010–11 Champions League season among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — 2010–11 UEFA Champions League top scorers",
+      "players": [
+        {
+          "name": "Peter Crouch",
+          "stat": 4
+        },
+        {
+          "name": "Roberto Soldado",
+          "stat": 6
+        },
+        {
+          "name": "Raúl",
+          "stat": 5
+        },
+        {
+          "name": "Marco Borriello",
+          "stat": 4
+        },
+        {
+          "name": "Mario Gómez",
+          "stat": 8
+        },
+        {
+          "name": "Jefferson Farfán",
+          "stat": 4
+        },
+        {
+          "name": "Karim Benzema",
+          "stat": 6
+        },
+        {
+          "name": "Pedro",
+          "stat": 5
+        },
+        {
+          "name": "Eduardo",
+          "stat": 4
+        }
+      ],
+      "top": [
+        1,
+        4,
+        6
+      ]
     }
   ]
 }
