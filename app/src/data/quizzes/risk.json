@@ -257,6 +257,54 @@
         "en": "Africa Cup of Nations 2013 – (2)"
       },
       "emoji": "🐆"
+    },
+    {
+      "id": "afcon-2015-1",
+      "title": {
+        "ar": "أمم أفريقيا 2015 – (1)",
+        "en": "Africa Cup of Nations 2015 – (1)"
+      },
+      "emoji": "🏆"
+    },
+    {
+      "id": "afcon-2017-1",
+      "title": {
+        "ar": "أمم أفريقيا 2017 – (1)",
+        "en": "Africa Cup of Nations 2017 – (1)"
+      },
+      "emoji": "🦁"
+    },
+    {
+      "id": "afcon-2017-2",
+      "title": {
+        "ar": "أمم أفريقيا 2017 – (2)",
+        "en": "Africa Cup of Nations 2017 – (2)"
+      },
+      "emoji": "🦁"
+    },
+    {
+      "id": "afcon-2017-3",
+      "title": {
+        "ar": "أمم أفريقيا 2017 – (3)",
+        "en": "Africa Cup of Nations 2017 – (3)"
+      },
+      "emoji": "🦁"
+    },
+    {
+      "id": "afcon-2019-1",
+      "title": {
+        "ar": "أمم أفريقيا 2019 – (1)",
+        "en": "Africa Cup of Nations 2019 – (1)"
+      },
+      "emoji": "🦅"
+    },
+    {
+      "id": "afcon-2019-2",
+      "title": {
+        "ar": "أمم أفريقيا 2019 – (2)",
+        "en": "Africa Cup of Nations 2019 – (2)"
+      },
+      "emoji": "🦅"
     }
   ],
   "questions": [
@@ -1766,6 +1814,318 @@
       "answer": {
         "ar": "محمد كوفي (بتروجت) – علي رابو (الشرطة)",
         "en": "Mohamed Koffi (Petrojet) and Ali Rabo (El Shorta)"
+      }
+    },
+    {
+      "id": "afcon-2015-1-10",
+      "category": "afcon-2015-1",
+      "value": 10,
+      "question": {
+        "ar": "مين المنتخبين اللي تأهلوا لكأس أمم أفريقيا 2015 على حساب مصر؟",
+        "en": "Which two teams qualified for the 2015 Africa Cup of Nations at Egypt's expense?"
+      },
+      "answer": {
+        "ar": "تونس والسنغال",
+        "en": "Tunisia and Senegal"
+      }
+    },
+    {
+      "id": "afcon-2015-1-20",
+      "category": "afcon-2015-1",
+      "value": 20,
+      "question": {
+        "ar": "في مجموعة الكاميرون وكوت ديفوار ومالي وغينيا 2015، 5 ماتشات انتهت بنفس النتيجة وماتش واحد 1–0. إيه نتيجة الخمس ماتشات؟",
+        "en": "In the 2015 group of Cameroon, Ivory Coast, Mali and Guinea, five matches ended with the same score and one finished 1-0. What was the score in those five?"
+      },
+      "answer": {
+        "ar": "1–1 في الخمس ماتشات",
+        "en": "1-1 in five matches"
+      }
+    },
+    {
+      "id": "afcon-2015-1-40",
+      "category": "afcon-2015-1",
+      "value": 40,
+      "question": {
+        "ar": "مين أحسن لاعب في بطولة أمم أفريقيا 2015؟",
+        "en": "Who was named the best player of the 2015 Africa Cup of Nations?"
+      },
+      "answer": {
+        "ar": "كريستيان أتسو (غانا)",
+        "en": "Christian Atsu (Ghana)"
+      }
+    },
+    {
+      "id": "afcon-2015-1-50",
+      "category": "afcon-2015-1",
+      "value": 50,
+      "question": {
+        "ar": "في دور الـ8 2015 كانت تونس متقدمة 1–0 على غينيا الاستوائية لحد الدقيقة 93، وبعدها خسرت 2–1 في الوقت الإضافي. مين سجل هدفي غينيا الاستوائية؟",
+        "en": "In the 2015 quarter-final, Tunisia led Equatorial Guinea 1-0 until the 93rd minute, then lost 2-1 in extra time. Who scored both of Equatorial Guinea's goals?"
+      },
+      "answer": {
+        "ar": "خافيير بالبوا",
+        "en": "Javier Balboa"
+      }
+    },
+    {
+      "id": "afcon-2017-1-10",
+      "category": "afcon-2017-1",
+      "value": 10,
+      "question": {
+        "ar": "كام كانت نتيجة نهائي أمم أفريقيا 2017؟ ومين سجل الأهداف؟",
+        "en": "What was the score of the 2017 Africa Cup of Nations final, and who scored?"
+      },
+      "answer": {
+        "ar": "الكاميرون 2–1 مصر — النيني لمصر، ونكولو وأبوبكر للكاميرون",
+        "en": "Cameroon 2-1 Egypt — Elneny for Egypt; Nkoulou and Aboubakar for Cameroon"
+      }
+    },
+    {
+      "id": "afcon-2017-1-20",
+      "category": "afcon-2017-1",
+      "value": 20,
+      "question": {
+        "ar": "مين صاحب أول هدف في بطولة أمم أفريقيا 2017؟",
+        "en": "Who scored the first goal of the 2017 Africa Cup of Nations?"
+      },
+      "answer": {
+        "ar": "بيير إيميريك أوباميانج (الجابون)",
+        "en": "Pierre-Emerick Aubameyang (Gabon)"
+      }
+    },
+    {
+      "id": "afcon-2017-1-40",
+      "category": "afcon-2017-1",
+      "value": 40,
+      "question": {
+        "ar": "الجزائر سجلت 5 أهداف في دور المجموعات 2017. كام نقطة حصدت؟",
+        "en": "Algeria scored five goals in the 2017 group stage. How many points did they collect?"
+      },
+      "answer": {
+        "ar": "نقطتين",
+        "en": "Two points"
+      }
+    },
+    {
+      "id": "afcon-2017-1-50",
+      "category": "afcon-2017-1",
+      "value": 50,
+      "question": {
+        "ar": "مين سجل هدف مالي الوحيد في بطولة أمم أفريقيا 2017؟",
+        "en": "Who scored Mali's only goal at the 2017 Africa Cup of Nations?"
+      },
+      "answer": {
+        "ar": "إيف بيسوما (أمام أوغندا)",
+        "en": "Yves Bissouma (against Uganda)"
+      }
+    },
+    {
+      "id": "afcon-2017-2-10",
+      "category": "afcon-2017-2",
+      "value": 10,
+      "question": {
+        "ar": "مين ضيّع آخر ركلة جزاء للسنغال أمام الكاميرون في دور الـ8 2017؟",
+        "en": "Who missed Senegal's last penalty against Cameroon in the 2017 quarter-final?"
+      },
+      "answer": {
+        "ar": "ساديو ماني",
+        "en": "Sadio Mané"
+      }
+    },
+    {
+      "id": "afcon-2017-2-20",
+      "category": "afcon-2017-2",
+      "value": 20,
+      "question": {
+        "ar": "مين سجل آخر ركلة جزاء لمصر أمام بوركينا فاسو في نصف نهائي 2017؟",
+        "en": "Who scored Egypt's last penalty against Burkina Faso in the 2017 semi-final?"
+      },
+      "answer": {
+        "ar": "عمرو وردة",
+        "en": "Amr Warda"
+      }
+    },
+    {
+      "id": "afcon-2017-2-40",
+      "category": "afcon-2017-2",
+      "value": 40,
+      "question": {
+        "ar": "مين أحسن لاعب في بطولة أمم أفريقيا 2017؟",
+        "en": "Who was named the best player of the 2017 Africa Cup of Nations?"
+      },
+      "answer": {
+        "ar": "كريستيان باسوجوج (الكاميرون)",
+        "en": "Christian Bassogog (Cameroon)"
+      }
+    },
+    {
+      "id": "afcon-2017-2-50",
+      "category": "afcon-2017-2",
+      "value": 50,
+      "question": {
+        "ar": "مين هداف بطولة أمم أفريقيا 2017؟",
+        "en": "Who was the top scorer of the 2017 Africa Cup of Nations?"
+      },
+      "answer": {
+        "ar": "جونيور كابانانجا (الكونغو الديمقراطية) — 3 أهداف",
+        "en": "Junior Kabananga (DR Congo) — 3 goals"
+      }
+    },
+    {
+      "id": "afcon-2017-3-10",
+      "category": "afcon-2017-3",
+      "value": 10,
+      "question": {
+        "ar": "مين حارس مصر اللي بدأ أول ماتش في أمم أفريقيا 2017 أمام مالي؟",
+        "en": "Which goalkeeper started Egypt's opening match against Mali at the 2017 Africa Cup of Nations?"
+      },
+      "answer": {
+        "ar": "أحمد الشناوي",
+        "en": "Ahmed El Shenawy"
+      }
+    },
+    {
+      "id": "afcon-2017-3-20",
+      "category": "afcon-2017-3",
+      "value": 20,
+      "question": {
+        "ar": "في بطولة 2017 سجل أخوين من نفس البلد (مش لازم في نفس الماتش). اذكر الثنائي.",
+        "en": "At the 2017 tournament, two brothers from the same country scored (not necessarily in the same match). Name the pair."
+      },
+      "answer": {
+        "ar": "آلان وبرتران تراوري (بوركينا فاسو)",
+        "en": "Alain and Bertrand Traoré (Burkina Faso)"
+      }
+    },
+    {
+      "id": "afcon-2017-3-40",
+      "category": "afcon-2017-3",
+      "value": 40,
+      "question": {
+        "ar": "مين كان حارس الكاميرون في بطولة أمم أفريقيا 2017؟",
+        "en": "Who was Cameroon's goalkeeper at the 2017 Africa Cup of Nations?"
+      },
+      "answer": {
+        "ar": "فابريس أوندوا",
+        "en": "Fabrice Ondoa"
+      }
+    },
+    {
+      "id": "afcon-2017-3-50",
+      "category": "afcon-2017-3",
+      "value": 50,
+      "question": {
+        "ar": "4 لاعبين تم استبعادهم من قائمة مصر النهائية في أمم أفريقيا 2017 — اذكر واحد منهم.",
+        "en": "Four players were cut from Egypt's final 2017 Africa Cup of Nations squad — name one."
+      },
+      "answer": {
+        "ar": "حمادة طلبة – محمد إبراهيم – محمد عواد – أحمد جمعة",
+        "en": "Hamada Tolba, Mohamed Ibrahim, Mohamed Awad or Ahmed Gomaa"
+      }
+    },
+    {
+      "id": "afcon-2019-1-10",
+      "category": "afcon-2019-1",
+      "value": 10,
+      "question": {
+        "ar": "كام هدف دخل في مرمى الجزائر خلال بطولة أمم أفريقيا 2019؟",
+        "en": "How many goals did Algeria concede at the 2019 Africa Cup of Nations?"
+      },
+      "answer": {
+        "ar": "هدفين",
+        "en": "Two"
+      }
+    },
+    {
+      "id": "afcon-2019-1-20",
+      "category": "afcon-2019-1",
+      "value": 20,
+      "question": {
+        "ar": "مين المنتخب اللي ظهر لأول مرة في أمم أفريقيا 2019 وقدر يتصدر مجموعته؟",
+        "en": "Which team made its Africa Cup of Nations debut in 2019 and topped its group?"
+      },
+      "answer": {
+        "ar": "مدغشقر",
+        "en": "Madagascar"
+      }
+    },
+    {
+      "id": "afcon-2019-1-40",
+      "category": "afcon-2019-1",
+      "value": 40,
+      "question": {
+        "ar": "مين كان مدرب الكاميرون في بطولة أمم أفريقيا 2019؟",
+        "en": "Who coached Cameroon at the 2019 Africa Cup of Nations?"
+      },
+      "answer": {
+        "ar": "كلارنس سيدورف",
+        "en": "Clarence Seedorf"
+      }
+    },
+    {
+      "id": "afcon-2019-1-50",
+      "category": "afcon-2019-1",
+      "value": 50,
+      "question": {
+        "ar": "في ماتش مالي وموريتانيا 2019 حصل موقف غريب: لاعب سجل هدف، وبعدها دخل بدله لاعب بنفس الاسم وسجل برضه. مين اللاعبين؟",
+        "en": "In the 2019 Mali-Mauritania match, a player scored, then his namesake came on and scored too. Who were they?"
+      },
+      "answer": {
+        "ar": "أداما تراوري (مالي) — الاتنين بنفس الاسم",
+        "en": "Adama Traoré (Mali) — both players share the name"
+      }
+    },
+    {
+      "id": "afcon-2019-2-10",
+      "category": "afcon-2019-2",
+      "value": 10,
+      "question": {
+        "ar": "مين هداف بطولة أمم أفريقيا 2019؟",
+        "en": "Who was the top scorer of the 2019 Africa Cup of Nations?"
+      },
+      "answer": {
+        "ar": "أوديون إيجالو (نيجيريا) — 5 أهداف",
+        "en": "Odion Ighalo (Nigeria) — 5 goals"
+      }
+    },
+    {
+      "id": "afcon-2019-2-20",
+      "category": "afcon-2019-2",
+      "value": 20,
+      "question": {
+        "ar": "مين أحسن لاعب في بطولة أمم أفريقيا 2019؟",
+        "en": "Who was named the best player of the 2019 Africa Cup of Nations?"
+      },
+      "answer": {
+        "ar": "إسماعيل بن ناصر (الجزائر)",
+        "en": "Ismaël Bennacer (Algeria)"
+      }
+    },
+    {
+      "id": "afcon-2019-2-40",
+      "category": "afcon-2019-2",
+      "value": 40,
+      "question": {
+        "ar": "مين سجل هدف السنغال الوحيد في نصف النهائي 2019 أمام تونس؟",
+        "en": "Who scored Senegal's only goal in the 2019 semi-final against Tunisia?"
+      },
+      "answer": {
+        "ar": "ديلان برون (هدف عكسي)",
+        "en": "Dylan Bronn (own goal)"
+      }
+    },
+    {
+      "id": "afcon-2019-2-50",
+      "category": "afcon-2019-2",
+      "value": 50,
+      "question": {
+        "ar": "مين سجل هدف جنوب أفريقيا الوحيد أمام مصر في دور الـ16 2019؟",
+        "en": "Who scored South Africa's only goal against Egypt in the 2019 round of 16?"
+      },
+      "answer": {
+        "ar": "ثيمبينكوسي لورش",
+        "en": "Thembinkosi Lorch"
       }
     }
   ]

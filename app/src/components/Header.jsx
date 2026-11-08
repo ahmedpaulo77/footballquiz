@@ -10,15 +10,6 @@ export default function Header({
   return (
     <header className="topbar">
       <div className="brand">
-        <span className="brand-ball" aria-hidden="true">
-          <svg viewBox="0 0 64 64" width="30" height="30" role="img">
-            <circle cx="32" cy="32" r="20" fill="currentColor" opacity=".16" />
-            <path
-              d="M32 15l7.6 5.5-2.9 8.9h-9.4L24.4 20.5 32 15zm0 34l-7.6-5.5 2.9-8.9h9.4l2.9 8.9L32 49z"
-              fill="currentColor"
-            />
-          </svg>
-        </span>
         <div className="brand-text">
           <h1>{title}</h1>
           <p>{subtitle}</p>

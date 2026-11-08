@@ -42,6 +42,10 @@
   --shadow-sm: 0 12px 34px rgba(3, 1, 14, 0.42);
   --glow-brand: 0 0 30px rgba(124, 58, 237, 0.35);
 
+  --brand-glow-1: rgba(139, 92, 246, 0.45);
+  --brand-glow-2: rgba(34, 211, 238, 0.35);
+  --brand-offset: rgba(3, 1, 14, 0.55);
+
   --blob-a: rgba(124, 58, 237, 0.55);
   --blob-b: rgba(34, 211, 238, 0.38);
 }
@@ -84,6 +88,10 @@
   --shadow-lg: 0 30px 70px rgba(42, 24, 92, 0.18);
   --shadow-sm: 0 10px 28px rgba(42, 24, 92, 0.1);
   --glow-brand: 0 10px 28px rgba(109, 40, 217, 0.18);
+
+  --brand-glow-1: rgba(109, 40, 217, 0.22);
+  --brand-glow-2: rgba(14, 116, 144, 0.18);
+  --brand-offset: rgba(42, 24, 92, 0.18);
 
   --blob-a: rgba(139, 92, 246, 0.34);
   --blob-b: rgba(34, 211, 238, 0.28);
@@ -210,64 +218,73 @@ button:focus-visible {
 }
 
 .brand {
+  position: relative;
   display: flex;
   align-items: center;
-  gap: 12px;
+  min-width: 0;
+  padding-block: 2px;
+}
+
+.brand-text {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   min-width: 0;
 }
 
-.brand-ball {
-  position: relative;
-  display: grid;
-  place-items: center;
-  width: 46px;
-  height: 46px;
-  border-radius: 15px;
-  color: var(--brand);
-  background:
-    linear-gradient(150deg, rgba(139, 92, 246, 0.26), rgba(34, 211, 238, 0.08)),
-    var(--surface);
-  border: 1px solid var(--border-strong);
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.18),
-    0 10px 26px rgba(109, 40, 217, 0.24);
-  animation: floaty 5.5s ease-in-out infinite;
-}
-
-.brand-ball::after {
+.brand-text::before {
   content: '';
   position: absolute;
-  inset: -5px;
-  z-index: -1;
-  border-radius: 19px;
-  background: conic-gradient(
-    from 0deg,
-    transparent 0deg,
-    rgba(139, 92, 246, 0.85) 70deg,
-    rgba(34, 211, 238, 0.7) 150deg,
-    transparent 230deg
-  );
-  filter: blur(9px);
-  opacity: 0.75;
-  animation: spin 9s linear infinite;
+  inset: -16px -22px -12px -22px;
+  border-radius: 999px;
+  background:
+    radial-gradient(62% 74% at 62% 38%, var(--brand-glow-1), transparent 72%),
+    radial-gradient(56% 66% at 22% 72%, var(--brand-glow-2), transparent 74%);
+  filter: blur(16px);
+  animation: brandHalo 7s ease-in-out infinite alternate;
+  pointer-events: none;
 }
 
 .brand-text h1 {
+  position: relative;
   margin: 0;
-  font-size: clamp(20px, 4.6vw, 27px);
+  padding: 0 1px;
+  font-size: clamp(27px, 5.6vw, 38px);
   font-weight: 900;
-  letter-spacing: -0.4px;
-  line-height: 1.15;
+  line-height: 1.08;
   background: var(--grad-title);
-  background-size: 220% 100%;
+  background-size: 240% 100%;
   -webkit-background-clip: text;
   background-clip: text;
   color: transparent;
-  animation: titleShift 10s ease-in-out infinite alternate;
+  filter: drop-shadow(0 2px 0 var(--brand-offset))
+    drop-shadow(0 10px 24px var(--brand-glow-1));
+  animation: titleShift 9s ease-in-out infinite alternate;
+}
+
+.brand-text h1::after {
+  content: '';
+  position: absolute;
+  inset-inline: 3px;
+  bottom: -7px;
+  height: 4px;
+  border-radius: 999px;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    var(--brand) 20%,
+    var(--accent) 80%,
+    transparent
+  );
+  background-size: 200% 100%;
+  box-shadow: 0 0 12px var(--brand-glow-1);
+  animation: titleShift 5s linear infinite alternate;
 }
 
 .brand-text p {
-  margin: 2px 0 0;
+  position: relative;
+  margin: 9px 0 0;
   font-size: 12px;
   color: var(--muted);
   font-weight: 600;
@@ -2705,9 +2722,14 @@ button:focus-visible {
   }
 }
 
-@keyframes spin {
+@keyframes brandHalo {
+  from {
+    opacity: 0.55;
+    transform: scale(0.94);
+  }
   to {
-    transform: rotate(360deg);
+    opacity: 0.95;
+    transform: scale(1.06);
   }
 }
 
@@ -3338,13 +3360,17 @@ button:focus-visible {
     margin-bottom: 16px;
   }
 
-  .brand-ball {
-    width: 42px;
-    height: 42px;
-  }
-
   .brand-text p {
     display: none;
+  }
+
+  .brand-text h1 {
+    font-size: 25px;
+  }
+
+  .brand-text h1::after {
+    bottom: -5px;
+    height: 3px;
   }
 
   .quiz-tabs {
@@ -3463,7 +3489,7 @@ button:focus-visible {
 
 @media (max-width: 380px) {
   .brand-text h1 {
-    font-size: 19px;
+    font-size: 23px;
   }
 
   .icon-btn {

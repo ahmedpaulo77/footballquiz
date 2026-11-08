@@ -285,7 +285,7 @@ export const UI = {
   },
   en: {
     dir: 'ltr',
-    brand: 'Kwayra',
+    brand: 'EL kwayra',
     helpAria: 'How to play',
     themeToLight: 'Light mode',
     themeToDark: 'Dark mode',
@@ -305,7 +305,7 @@ export const UI = {
     answerTitleShow: 'Tap to reveal the answer',
     answerTitleHide: 'Tap to hide the answer',
     footerData: 'Text-only data — no player photos or club badges.',
-    footerTitle: 'Kwayra © 2026',
+    footerTitle: 'EL kwayra © 2026',
     tips: {
       clues: {
         title: 'Read the clues in order',
