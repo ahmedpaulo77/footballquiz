@@ -5417,6 +5417,354 @@
         "Phoenix Rising"
       ],
       "known": 45
+    },
+    {
+      "id": "kiko-femenia",
+      "answer": "Kiko Femenía",
+      "clubs": [
+        "Hércules B",
+        "Hércules",
+        "Barcelona B",
+        "Real Madrid B",
+        "Alcorcón",
+        "Alavés",
+        "Watford",
+        "Villarreal",
+        "Getafe"
+      ],
+      "known": 45
+    },
+    {
+      "id": "roy-makaay",
+      "answer": "Roy Makaay",
+      "clubs": [
+        "Vitesse",
+        "Tenerife",
+        "Deportivo La Coruña",
+        "Bayern Munich",
+        "Feyenoord"
+      ],
+      "known": 25
+    },
+    {
+      "id": "giuseppe-rossi",
+      "answer": "Giuseppe Rossi",
+      "clubs": [
+        "Manchester United",
+        "Newcastle United",
+        "Parma",
+        "Villarreal",
+        "Fiorentina",
+        "Levante",
+        "Celta",
+        "Genoa",
+        "Real Salt Lake",
+        "SPAL"
+      ],
+      "known": 35,
+      "loans": [
+        1,
+        2,
+        5,
+        6
+      ]
+    },
+    {
+      "id": "tom-cleverley",
+      "answer": "Tom Cleverley",
+      "clubs": [
+        "Manchester United",
+        "Leicester City",
+        "Watford",
+        "Wigan Athletic",
+        "Aston Villa",
+        "Everton",
+        "Watford"
+      ],
+      "known": 45,
+      "loans": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "id": "arda-turan",
+      "answer": "Arda Turan",
+      "clubs": [
+        "Galatasaray",
+        "Manisaspor",
+        "Atlético Madrid",
+        "Barcelona",
+        "Başakşehir",
+        "Galatasaray"
+      ],
+      "known": 30,
+      "loans": [
+        1,
+        4
+      ]
+    },
+    {
+      "id": "marcos-rojo",
+      "answer": "Marcos Rojo",
+      "clubs": [
+        "Estudiantes",
+        "Spartak Moscow",
+        "Sporting CP",
+        "Manchester United",
+        "Estudiantes",
+        "Boca Juniors",
+        "Racing Club",
+        "Estudiantes"
+      ],
+      "known": 35,
+      "loans": [
+        4
+      ]
+    },
+    {
+      "id": "raul-garcia",
+      "answer": "Raúl García",
+      "clubs": [
+        "Osasuna B",
+        "Osasuna",
+        "Atlético Madrid",
+        "Osasuna",
+        "Athletic Bilbao"
+      ],
+      "known": 45,
+      "loans": [
+        3
+      ]
+    },
+    {
+      "id": "aritz-aduriz",
+      "answer": "Aritz Aduriz",
+      "clubs": [
+        "Aurrerá",
+        "Bilbao Athletic",
+        "Athletic Bilbao",
+        "Burgos",
+        "Valladolid",
+        "Athletic Bilbao",
+        "Mallorca",
+        "Valencia",
+        "Athletic Bilbao"
+      ],
+      "known": 40,
+      "loans": [
+        3
+      ]
+    },
+    {
+      "id": "antonio-candreva",
+      "answer": "Antonio Candreva",
+      "clubs": [
+        "Ternana",
+        "Udinese",
+        "Livorno",
+        "Juventus",
+        "Parma",
+        "Cesena",
+        "Lazio",
+        "Inter Milan",
+        "Sampdoria",
+        "Salernitana"
+      ],
+      "known": 40,
+      "loans": [
+        2,
+        3,
+        4,
+        5,
+        8
+      ]
+    },
+    {
+      "id": "mirko-vucinic",
+      "answer": "Mirko Vučinić",
+      "clubs": [
+        "Sutjeska Nikšić",
+        "Lecce",
+        "Roma",
+        "Juventus",
+        "Al Jazira"
+      ],
+      "known": 35
+    },
+    {
+      "id": "diego-perotti",
+      "answer": "Diego Perotti",
+      "clubs": [
+        "Deportivo Morón",
+        "Sevilla B",
+        "Sevilla",
+        "Boca Juniors",
+        "Genoa",
+        "Roma",
+        "Fenerbahçe",
+        "Salernitana"
+      ],
+      "known": 45,
+      "loans": [
+        3
+      ]
+    },
+    {
+      "id": "roberto-soldado",
+      "answer": "Roberto Soldado",
+      "clubs": [
+        "Real Madrid B",
+        "Real Madrid",
+        "Osasuna",
+        "Getafe",
+        "Valencia",
+        "Tottenham Hotspur",
+        "Villarreal",
+        "Fenerbahçe",
+        "Granada",
+        "Levante"
+      ],
+      "known": 35,
+      "loans": [
+        2
+      ]
+    },
+    {
+      "id": "marco-borriello",
+      "answer": "Marco Borriello",
+      "clubs": [
+        "Treviso",
+        "Triestina",
+        "AC Milan",
+        "Empoli",
+        "Reggina",
+        "Sampdoria",
+        "Treviso",
+        "Genoa",
+        "AC Milan",
+        "Roma",
+        "Juventus",
+        "Genoa",
+        "West Ham United",
+        "Genoa",
+        "Carpi",
+        "Atalanta",
+        "Cagliari",
+        "SPAL",
+        "Ibiza"
+      ],
+      "known": 50,
+      "loans": [
+        1,
+        3,
+        4,
+        5,
+        6,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "oleguer-presas",
+      "answer": "Oleguer Presas",
+      "clubs": [
+        "Gramenet",
+        "Barcelona B",
+        "Barcelona",
+        "Ajax"
+      ],
+      "known": 45
+    },
+    {
+      "id": "enner-valencia",
+      "answer": "Enner Valencia",
+      "clubs": [
+        "Emelec",
+        "Pachuca",
+        "West Ham United",
+        "Everton",
+        "Tigres UANL",
+        "Fenerbahçe",
+        "Internacional",
+        "Pachuca",
+        "Boca Juniors"
+      ],
+      "known": 30,
+      "loans": [
+        3
+      ]
+    },
+    {
+      "id": "kevin-strootman",
+      "answer": "Kevin Strootman",
+      "clubs": [
+        "Sparta Rotterdam",
+        "Utrecht",
+        "PSV",
+        "Roma",
+        "Marseille",
+        "Genoa",
+        "Cagliari",
+        "Genoa"
+      ],
+      "known": 40,
+      "loans": [
+        5,
+        6
+      ]
+    },
+    {
+      "id": "ignazio-abate",
+      "answer": "Ignazio Abate",
+      "clubs": [
+        "AC Milan",
+        "Napoli",
+        "Piacenza",
+        "Modena",
+        "Empoli",
+        "Torino",
+        "AC Milan"
+      ],
+      "known": 45,
+      "loans": [
+        1,
+        2,
+        3
+      ]
+    },
+    {
+      "id": "alessio-romagnoli",
+      "answer": "Alessio Romagnoli",
+      "clubs": [
+        "Roma",
+        "Sampdoria",
+        "AC Milan",
+        "Lazio",
+        "Al Sadd"
+      ],
+      "known": 35,
+      "loans": [
+        1
+      ]
+    },
+    {
+      "id": "luiz-adriano",
+      "answer": "Luiz Adriano",
+      "clubs": [
+        "Internacional",
+        "Shakhtar Donetsk",
+        "AC Milan",
+        "Spartak Moscow",
+        "Palmeiras",
+        "Antalyaspor",
+        "Internacional",
+        "Vitória"
+      ],
+      "known": 35
     }
   ]
 }
