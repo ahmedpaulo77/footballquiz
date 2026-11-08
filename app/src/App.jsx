@@ -209,10 +209,7 @@ export default function App() {
 
   return (
     <div className="app">
-      <div className="field-decor" aria-hidden="true">
-        <span className="field-circle" />
-        <span className="field-line" />
-      </div>
+      <div className="field-decor" aria-hidden="true" />
 
       <Header
         theme={theme}
