@@ -1414,6 +1414,43 @@
           "en": "I am my country's all-time top scorer with 71 goals."
         }
       ]
+    },
+    {
+      "id": "son-heung-min",
+      "answer": {
+        "ar": "هيونج مين سون",
+        "en": "Heung-min Son"
+      },
+      "clues": [
+        {
+          "ar": "في أول موسم ليا في البوندسليجا اخترتوني أحسن ظهور في النصف الأول من الموسم، وكنت أصغر لاعب في تاريخ فريقي يسجل هدف في الدوري، واتنقلت لفريق تاني في نفس الدوري وكنت هداف الفريق في الدوري موسم 2014–15.",
+          "en": "In my first Bundesliga season I was voted the best debut of the first half of the season, I was the youngest player in my club's history to score a league goal, and I moved to another club in the same league where I was my team's league top scorer in 2014–15."
+        },
+        {
+          "ar": "وصلت مع منتخب بلدي للنهائي القاري مرة وخسرته، ووصلت لنصف النهائي مرتين.",
+          "en": "I reached the continental final once with my national team and lost it, and I reached the semi-finals twice."
+        },
+        {
+          "ar": "لعبت مع تشوبو موتينج، وإيمري تشان، وكايل والكر، وبيريسيتش، وزيري بيرتو، وفان نيستلروي.",
+          "en": "I played alongside Choupo-Moting, Emre Can, Kyle Walker, Perišić, Zé Roberto and Ruud van Nistelrooy."
+        },
+        {
+          "ar": "خدت أحسن لاعب في فريقي في الدوري الإنجليزي 3 مرات.",
+          "en": "I was named my club's Player of the Season in England three times."
+        },
+        {
+          "ar": "خدت أحسن لاعب في بلدي أكتر من مرة.",
+          "en": "I was named my country's best player more than once."
+        },
+        {
+          "ar": "سجلت أكتر من 120 هدف في الدوري الإنجليزي، وعملت أكتر من 70 أسيست، وكنت هداف الدوري مرة واحدة، وخدت جايزة لاعب الشهر في الدوري الإنجليزي 4 مرات.",
+          "en": "I scored more than 120 Premier League goals, made more than 70 assists, finished as the league's top scorer once, and was named Premier League Player of the Month four times."
+        },
+        {
+          "ar": "خدت جايزة بوشكاش سنة 2020.",
+          "en": "I won the Puskás Award in 2020."
+        }
+      ]
     }
   ]
 }

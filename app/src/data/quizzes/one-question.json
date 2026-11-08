@@ -153,32 +153,6 @@
       "correct": 0
     },
     {
-      "id": "eg-elneny-fa-cup",
-      "question": {
-        "ar": "مين المصري اللي كسب كأس الاتحاد الإنجليزي مع أرسنال سنة ٢٠١٧؟",
-        "en": "Which Egyptian won the FA Cup with Arsenal in 2017?"
-      },
-      "options": [
-        {
-          "ar": "محمد صلاح",
-          "en": "Mohamed Salah"
-        },
-        {
-          "ar": "محمد النني",
-          "en": "Mohamed Elneny"
-        },
-        {
-          "ar": "ميدو",
-          "en": "Mido"
-        },
-        {
-          "ar": "حسام غالي",
-          "en": "Hossam Ghaly"
-        }
-      ],
-      "correct": 1
-    },
-    {
       "id": "eg-zidan-dortmund",
       "question": {
         "ar": "مين المصري اللي كان جزء من فريق دورتموند اللي كسب الدوري الألماني في ٢٠١١ و٢٠١٢؟",
@@ -203,32 +177,6 @@
         }
       ],
       "correct": 2
-    },
-    {
-      "id": "eg-geddo-2010",
-      "question": {
-        "ar": "مين سجل هدف فوز مصر على غانا في نهائي أمم أفريقيا ٢٠١٠ وكان هداف البطولة؟",
-        "en": "Who scored Egypt's winner against Ghana in the 2010 AFCON final and finished as top scorer?"
-      },
-      "options": [
-        {
-          "ar": "محمد أبو تريكة",
-          "en": "Mohamed Aboutrika"
-        },
-        {
-          "ar": "أحمد حسن",
-          "en": "Ahmed Hassan"
-        },
-        {
-          "ar": "عمرو زكي",
-          "en": "Amr Zaki"
-        },
-        {
-          "ar": "محمد ناجي «جدو»",
-          "en": "Mohamed Nagy \"Geddo\""
-        }
-      ],
-      "correct": 3
     },
     {
       "id": "eg-homos-italy",
@@ -307,58 +255,6 @@
         }
       ],
       "correct": 2
-    },
-    {
-      "id": "eg-aboutrika-2006",
-      "question": {
-        "ar": "مين سجل ركلة الجزاء الحاسمة لمصر في نهائي أمم أفريقيا ٢٠٠٦ أمام كوت ديفوار؟",
-        "en": "Who scored Egypt's decisive penalty in the 2006 AFCON final shootout against Ivory Coast?"
-      },
-      "options": [
-        {
-          "ar": "أحمد حسن",
-          "en": "Ahmed Hassan"
-        },
-        {
-          "ar": "عمرو زكي",
-          "en": "Amr Zaki"
-        },
-        {
-          "ar": "محمد بركات",
-          "en": "Mohamed Barakat"
-        },
-        {
-          "ar": "محمد أبو تريكة",
-          "en": "Mohamed Aboutrika"
-        }
-      ],
-      "correct": 3
-    },
-    {
-      "id": "eg-cuper-2017",
-      "question": {
-        "ar": "مين المدرب الأرجنتيني اللي وصل بمصر لنهائي أمم أفريقيا ٢٠١٧؟",
-        "en": "Which Argentine coach led Egypt to the 2017 AFCON final?"
-      },
-      "options": [
-        {
-          "ar": "هيكتور كوبر",
-          "en": "Héctor Cúper"
-        },
-        {
-          "ar": "حسن شحاتة",
-          "en": "Hassan Shehata"
-        },
-        {
-          "ar": "كارلوس كيروش",
-          "en": "Carlos Queiroz"
-        },
-        {
-          "ar": "روي فيتوريا",
-          "en": "Rui Vitória"
-        }
-      ],
-      "correct": 0
     },
     {
       "id": "eg-ahly-bronze-2006",
@@ -465,58 +361,6 @@
       "correct": 0
     },
     {
-      "id": "arab-raja-2013",
-      "question": {
-        "ar": "مين أول نادي عربي وصل لنهائي كأس العالم للأندية؟",
-        "en": "Which was the first Arab club to reach the FIFA Club World Cup final?"
-      },
-      "options": [
-        {
-          "ar": "الهلال",
-          "en": "Al Hilal"
-        },
-        {
-          "ar": "الرجاء البيضاوي",
-          "en": "Raja Casablanca"
-        },
-        {
-          "ar": "الأهلي",
-          "en": "Al Ahly"
-        },
-        {
-          "ar": "الترجي",
-          "en": "Espérance"
-        }
-      ],
-      "correct": 1
-    },
-    {
-      "id": "arab-bono-2022",
-      "question": {
-        "ar": "مين الحارس المغربي اللي كسب القفاز الذهبي في كأس العالم ٢٠٢٢ وصدّ ركلتين من إسبانيا؟",
-        "en": "Which Moroccan goalkeeper won the 2022 World Cup Golden Glove and saved two penalties against Spain?"
-      },
-      "options": [
-        {
-          "ar": "منير المحمدي",
-          "en": "Munir Mohamedi"
-        },
-        {
-          "ar": "أحمد رضا التكناوتي",
-          "en": "Ahmed Reda Tagnaouti"
-        },
-        {
-          "ar": "ياسين بونو",
-          "en": "Yassine Bounou"
-        },
-        {
-          "ar": "عبد العالي المحمدي",
-          "en": "Abdelali Mhamdi"
-        }
-      ],
-      "correct": 2
-    },
-    {
       "id": "arab-hakimi-2025",
       "question": {
         "ar": "مين اللاعب المغربي اللي سجل أول هدف في نهائي دوري أبطال أوروبا ٢٠٢٥؟",
@@ -541,32 +385,6 @@
         }
       ],
       "correct": 3
-    },
-    {
-      "id": "arab-wydad-2022",
-      "question": {
-        "ar": "مين كسب دوري أبطال أفريقيا ٢٠٢٢ بنتيجة ٢-٠ في مجموع المباراتين أمام الأهلي؟",
-        "en": "Which club won the 2022 CAF Champions League 2-0 on aggregate against Al Ahly?"
-      },
-      "options": [
-        {
-          "ar": "الوداد",
-          "en": "Wydad Casablanca"
-        },
-        {
-          "ar": "الرجاء",
-          "en": "Raja Casablanca"
-        },
-        {
-          "ar": "الترجي",
-          "en": "Espérance"
-        },
-        {
-          "ar": "بيراميدز",
-          "en": "Pyramids"
-        }
-      ],
-      "correct": 0
     },
     {
       "id": "world-desailly",
@@ -621,32 +439,6 @@
       "correct": 2
     },
     {
-      "id": "world-cafu",
-      "question": {
-        "ar": "مين اللاعب الوحيد اللي لعب ٣ نهائيات كأس عالم متتالية؟",
-        "en": "Who is the only player to play in three consecutive World Cup finals?"
-      },
-      "options": [
-        {
-          "ar": "رونالدو نازاريو",
-          "en": "Ronaldo Nazário"
-        },
-        {
-          "ar": "روبرتو كارلوس",
-          "en": "Roberto Carlos"
-        },
-        {
-          "ar": "ليونيل ميسي",
-          "en": "Lionel Messi"
-        },
-        {
-          "ar": "كافو",
-          "en": "Cafu"
-        }
-      ],
-      "correct": 3
-    },
-    {
       "id": "world-mbappe-hattrick",
       "question": {
         "ar": "مين أول لاعب يسجل هاتريك في نهائي كأس العالم ويخسر المباراة؟",
@@ -673,32 +465,6 @@
       "correct": 0
     },
     {
-      "id": "world-montiel",
-      "question": {
-        "ar": "مين سجل ركلة الجزاء الحاسمة للأرجنتين في نهائي كأس العالم ٢٠٢٢؟",
-        "en": "Who scored Argentina's decisive penalty in the 2022 World Cup final shootout?"
-      },
-      "options": [
-        {
-          "ar": "ليونيل ميسي",
-          "en": "Lionel Messi"
-        },
-        {
-          "ar": "جونزالو مونتيال",
-          "en": "Gonzalo Montiel"
-        },
-        {
-          "ar": "باولو ديبالا",
-          "en": "Paulo Dybala"
-        },
-        {
-          "ar": "إنزو فرنانديز",
-          "en": "Enzo Fernández"
-        }
-      ],
-      "correct": 1
-    },
-    {
       "id": "world-marta",
       "question": {
         "ar": "مين أول لاعب أو لاعبة يسجل في ٥ نسخ مختلفة من كأس العالم؟",
@@ -723,162 +489,6 @@
         }
       ],
       "correct": 2
-    },
-    {
-      "id": "world-milner",
-      "question": {
-        "ar": "مين كسر رقم جاريث باري في عدد مباريات الدوري الإنجليزي الممتاز؟",
-        "en": "Who broke Gareth Barry's record for Premier League appearances?"
-      },
-      "options": [
-        {
-          "ar": "فرانك لامبارد",
-          "en": "Frank Lampard"
-        },
-        {
-          "ar": "ريان جيجز",
-          "en": "Ryan Giggs"
-        },
-        {
-          "ar": "أشلي يونغ",
-          "en": "Ashley Young"
-        },
-        {
-          "ar": "جيمس ميلنر",
-          "en": "James Milner"
-        }
-      ],
-      "correct": 3
-    },
-    {
-      "id": "world-vardy",
-      "question": {
-        "ar": "مين صاحب الرقم القياسي في التسجيل في ١١ مباراة متتالية بالدوري الإنجليزي؟",
-        "en": "Who holds the record for scoring in 11 consecutive Premier League matches?"
-      },
-      "options": [
-        {
-          "ar": "جيمي فاردي",
-          "en": "Jamie Vardy"
-        },
-        {
-          "ar": "محمد صلاح",
-          "en": "Mohamed Salah"
-        },
-        {
-          "ar": "سيرجيو أغويرو",
-          "en": "Sergio Agüero"
-        },
-        {
-          "ar": "هاري كين",
-          "en": "Harry Kane"
-        }
-      ],
-      "correct": 0
-    },
-    {
-      "id": "world-sheringham",
-      "question": {
-        "ar": "مين أكبر لاعب سجل هدف في تاريخ الدوري الإنجليزي الممتاز؟",
-        "en": "Who is the oldest player to score in Premier League history?"
-      },
-      "options": [
-        {
-          "ar": "ريان جيجز",
-          "en": "Ryan Giggs"
-        },
-        {
-          "ar": "تيدي شيرينغهام",
-          "en": "Teddy Sheringham"
-        },
-        {
-          "ar": "جيمس ميلنر",
-          "en": "James Milner"
-        },
-        {
-          "ar": "جيانفرانكو زولا",
-          "en": "Gianfranco Zola"
-        }
-      ],
-      "correct": 1
-    },
-    {
-      "id": "world-nwaneri",
-      "question": {
-        "ar": "مين أصغر لاعب شارك في تاريخ الدوري الإنجليزي الممتاز؟",
-        "en": "Who is the youngest player to appear in Premier League history?"
-      },
-      "options": [
-        {
-          "ar": "يوسوفا موكوكو",
-          "en": "Youssoufa Moukoko"
-        },
-        {
-          "ar": "جود بيلينغهام",
-          "en": "Jude Bellingham"
-        },
-        {
-          "ar": "إيثان نوانيري",
-          "en": "Ethan Nwaneri"
-        },
-        {
-          "ar": "هارفي إليوت",
-          "en": "Harvey Elliott"
-        }
-      ],
-      "correct": 2
-    },
-    {
-      "id": "world-moukoko",
-      "question": {
-        "ar": "مين أصغر لاعب شارك في تاريخ دوري أبطال أوروبا؟",
-        "en": "Who is the youngest player to appear in Champions League history?"
-      },
-      "options": [
-        {
-          "ar": "إيثان نوانيري",
-          "en": "Ethan Nwaneri"
-        },
-        {
-          "ar": "لامين يامال",
-          "en": "Lamine Yamal"
-        },
-        {
-          "ar": "جود بيلينغهام",
-          "en": "Jude Bellingham"
-        },
-        {
-          "ar": "يوسوفا موكوكو",
-          "en": "Youssoufa Moukoko"
-        }
-      ],
-      "correct": 3
-    },
-    {
-      "id": "world-pepe",
-      "question": {
-        "ar": "مين أكبر لاعب سجل هدف في تاريخ دوري أبطال أوروبا؟",
-        "en": "Who is the oldest player to score in Champions League history?"
-      },
-      "options": [
-        {
-          "ar": "بيبي",
-          "en": "Pepe"
-        },
-        {
-          "ar": "فرانشيسكو توتي",
-          "en": "Francesco Totti"
-        },
-        {
-          "ar": "زلاتان إبراهيموفيتش",
-          "en": "Zlatan Ibrahimović"
-        },
-        {
-          "ar": "كريستيانو رونالدو",
-          "en": "Cristiano Ronaldo"
-        }
-      ],
-      "correct": 0
     },
     {
       "id": "world-maldini-647",
@@ -933,58 +543,6 @@
       "correct": 2
     },
     {
-      "id": "world-modric-euro",
-      "question": {
-        "ar": "مين أكبر لاعب سجل هدف في تاريخ بطولة أوروبا (اليورو)؟",
-        "en": "Who is the oldest player to score at the European Championship?"
-      },
-      "options": [
-        {
-          "ar": "كريستيانو رونالدو",
-          "en": "Cristiano Ronaldo"
-        },
-        {
-          "ar": "زلاتان إبراهيموفيتش",
-          "en": "Zlatan Ibrahimović"
-        },
-        {
-          "ar": "بيبي",
-          "en": "Pepe"
-        },
-        {
-          "ar": "لوكا مودريتش",
-          "en": "Luka Modrić"
-        }
-      ],
-      "correct": 3
-    },
-    {
-      "id": "world-yamal",
-      "question": {
-        "ar": "مين أصغر لاعب سجل هدف في تاريخ بطولة أوروبا (اليورو)؟",
-        "en": "Who is the youngest player to score at the European Championship?"
-      },
-      "options": [
-        {
-          "ar": "لامين يامال",
-          "en": "Lamine Yamal"
-        },
-        {
-          "ar": "جود بيلينغهام",
-          "en": "Jude Bellingham"
-        },
-        {
-          "ar": "جمال موسيالا",
-          "en": "Jamal Musiala"
-        },
-        {
-          "ar": "فلوريان فيرتز",
-          "en": "Florian Wirtz"
-        }
-      ],
-      "correct": 0
-    },
-    {
       "id": "world-bajrami",
       "question": {
         "ar": "مين صاحب أسرع هدف في تاريخ بطولة أوروبا (اليورو)؟",
@@ -1009,162 +567,6 @@
         }
       ],
       "correct": 1
-    },
-    {
-      "id": "world-trezeguet",
-      "question": {
-        "ar": "مين سجل الهدف الذهبي لفرنسا في نهائي يورو ٢٠٠٠ أمام إيطاليا؟",
-        "en": "Who scored France's golden goal in the Euro 2000 final against Italy?"
-      },
-      "options": [
-        {
-          "ar": "زين الدين زيدان",
-          "en": "Zinedine Zidane"
-        },
-        {
-          "ar": "تيري هنري",
-          "en": "Thierry Henry"
-        },
-        {
-          "ar": "ديفيد تريزيغيه",
-          "en": "David Trezeguet"
-        },
-        {
-          "ar": "إيمانويل بيتيت",
-          "en": "Emmanuel Petit"
-        }
-      ],
-      "correct": 2
-    },
-    {
-      "id": "world-bierhoff",
-      "question": {
-        "ar": "مين سجل الهدف الذهبي لألمانيا في نهائي يورو ١٩٩٦ أمام التشيك؟",
-        "en": "Who scored Germany's golden goal in the Euro 1996 final against the Czech Republic?"
-      },
-      "options": [
-        {
-          "ar": "يورجن كلينسمان",
-          "en": "Jürgen Klinsmann"
-        },
-        {
-          "ar": "ماتياس زامر",
-          "en": "Matthias Sammer"
-        },
-        {
-          "ar": "رودي فولر",
-          "en": "Rudi Völler"
-        },
-        {
-          "ar": "أوليفر بيرهوف",
-          "en": "Oliver Bierhoff"
-        }
-      ],
-      "correct": 3
-    },
-    {
-      "id": "world-barca-two-trebles",
-      "question": {
-        "ar": "مين أول نادي كسب الثلاثية الأوروبية مرتين؟",
-        "en": "Which was the first club to win the European treble twice?"
-      },
-      "options": [
-        {
-          "ar": "برشلونة",
-          "en": "Barcelona"
-        },
-        {
-          "ar": "بايرن ميونخ",
-          "en": "Bayern Munich"
-        },
-        {
-          "ar": "ريال مدريد",
-          "en": "Real Madrid"
-        },
-        {
-          "ar": "مانشستر يونايتد",
-          "en": "Manchester United"
-        }
-      ],
-      "correct": 0
-    },
-    {
-      "id": "world-psg-final",
-      "question": {
-        "ar": "مين كسب نهائي دوري أبطال أوروبا ٢٠٢٥ بأكبر فارق في تاريخ النهائيات؟",
-        "en": "Who won the 2025 Champions League final by the biggest margin in the competition's history?"
-      },
-      "options": [
-        {
-          "ar": "إنتر ميلان",
-          "en": "Inter Milan"
-        },
-        {
-          "ar": "باريس سان جيرمان",
-          "en": "PSG"
-        },
-        {
-          "ar": "ريال مدريد",
-          "en": "Real Madrid"
-        },
-        {
-          "ar": "مانشستر سيتي",
-          "en": "Manchester City"
-        }
-      ],
-      "correct": 1
-    },
-    {
-      "id": "world-luis-enrique",
-      "question": {
-        "ar": "مين المدرب اللي كسب دوري أبطال أوروبا مع برشلونة ٢٠١٥ ومع باريس سان جيرمان ٢٠٢٥؟",
-        "en": "Which manager won the Champions League with Barcelona in 2015 and PSG in 2025?"
-      },
-      "options": [
-        {
-          "ar": "بيب جوارديولا",
-          "en": "Pep Guardiola"
-        },
-        {
-          "ar": "كارلو أنشيلوتي",
-          "en": "Carlo Ancelotti"
-        },
-        {
-          "ar": "لويس إنريكي",
-          "en": "Luis Enrique"
-        },
-        {
-          "ar": "يورجن كلوب",
-          "en": "Jürgen Klopp"
-        }
-      ],
-      "correct": 2
-    },
-    {
-      "id": "world-emery-europa",
-      "question": {
-        "ar": "مين المدرب اللي كسب الدوري الأوروبي ٥ مرات؟",
-        "en": "Which manager has won the Europa League five times?"
-      },
-      "options": [
-        {
-          "ar": "جوزيه مورينيو",
-          "en": "José Mourinho"
-        },
-        {
-          "ar": "ماوريسيو ساري",
-          "en": "Maurizio Sarri"
-        },
-        {
-          "ar": "توماس توخيل",
-          "en": "Thomas Tuchel"
-        },
-        {
-          "ar": "أوناي إيمري",
-          "en": "Unai Emery"
-        }
-      ],
-      "correct": 3
     },
     {
       "id": "world-makaay",
@@ -1578,6 +980,604 @@
         {
           "ar": "شالكه",
           "en": "Schalke 04"
+        }
+      ],
+      "correct": 3
+    },
+    {
+      "id": "stat-pl-assists-record",
+      "question": {
+        "ar": "مين صاحب الرقم القياسي في عدد الأسيستات في موسم واحد بالدوري الإنجليزي الممتاز؟",
+        "en": "Who holds the record for most assists in a single Premier League season?"
+      },
+      "options": [
+        {
+          "ar": "برونو فيرنانديز (٢١ أسيست في ٢٠٢٥-٢٠٢٦)",
+          "en": "Bruno Fernandes (21 assists in 2025-26)"
+        },
+        {
+          "ar": "كيفين دي بروين (٢٠ أسيست في ٢٠١٩-٢٠٢٠)",
+          "en": "Kevin De Bruyne (20 assists in 2019-20)"
+        },
+        {
+          "ar": "محمد صلاح (١٨ أسيست في ٢٠٢٤-٢٠٢٥)",
+          "en": "Mohamed Salah (18 assists in 2024-25)"
+        },
+        {
+          "ar": "ميسوت أوزيل (١٩ أسيست في ٢٠١٥-٢٠١٦)",
+          "en": "Mesut Ozil (19 assists in 2015-16)"
+        }
+      ],
+      "correct": 0
+    },
+    {
+      "id": "stat-laliga-assists-record",
+      "question": {
+        "ar": "مين صاحب الرقم القياسي في عدد الأسيستات في موسم واحد بالدوري الإسباني؟",
+        "en": "Who holds the record for most assists in a single La Liga season?"
+      },
+      "options": [
+        {
+          "ar": "تشافي هيرنانديز (٢٠ أسيست في ٢٠٠٨-٢٠٠٩)",
+          "en": "Xavi Hernandez (20 assists in 2008-09)"
+        },
+        {
+          "ar": "ليونيل ميسي (٢١ أسيست في ٢٠١٩-٢٠٢٠)",
+          "en": "Lionel Messi (21 assists in 2019-20)"
+        },
+        {
+          "ar": "كريم بنزيما",
+          "en": "Karim Benzema"
+        },
+        {
+          "ar": "لامين يامال",
+          "en": "Lamine Yamal"
+        }
+      ],
+      "correct": 1
+    },
+    {
+      "id": "stat-seriea-assists-record",
+      "question": {
+        "ar": "مين صاحب الرقم القياسي في عدد الأسيستات في موسم واحد بالدوري الإيطالي؟",
+        "en": "Who holds the record for most assists in a single Serie A season?"
+      },
+      "options": [
+        {
+          "ar": "بابو جوميز (١٦ أسيست في ٢٠١٩-٢٠٢٠)",
+          "en": "Papu Gomez (16 assists in 2019-20)"
+        },
+        {
+          "ar": "لويس ألبرتو",
+          "en": "Luis Alberto"
+        },
+        {
+          "ar": "فيديريكو ديماركو (١٨ أسيست في ٢٠٢٥-٢٠٢٦)",
+          "en": "Federico Dimarco (18 assists in 2025-26)"
+        },
+        {
+          "ar": "رافاييل لياو",
+          "en": "Rafael Leao"
+        }
+      ],
+      "correct": 2
+    },
+    {
+      "id": "stat-bundesliga-assists-record",
+      "question": {
+        "ar": "مين صاحب الرقم القياسي في عدد الأسيستات في موسم واحد بالدوري الألماني؟",
+        "en": "Who holds the record for most assists in a single Bundesliga season?"
+      },
+      "options": [
+        {
+          "ar": "كيفين دي بروين (١٩ أسيست في ٢٠١٤-٢٠١٥)",
+          "en": "Kevin De Bruyne (19 assists in 2014-15)"
+        },
+        {
+          "ar": "ميشيل أوليس (١٩ أسيست في ٢٠٢٥-٢٠٢٦)",
+          "en": "Michael Olise (19 assists in 2025-26)"
+        },
+        {
+          "ar": "ماركو رويس",
+          "en": "Marco Reus"
+        },
+        {
+          "ar": "توماس مولر (٢١ أسيست في ٢٠١٩-٢٠٢٠)",
+          "en": "Thomas Muller (21 assists in 2019-20)"
+        }
+      ],
+      "correct": 3
+    },
+    {
+      "id": "stat-ucl-assists-record",
+      "question": {
+        "ar": "مين اللاعبين اللي يتشاركون الرقم القياسي في عدد الأسيستات في موسم واحد بدوري أبطال أوروبا (٩ أسيستات)؟",
+        "en": "Which two players share the record for most assists in a single Champions League season (9)?"
+      },
+      "options": [
+        {
+          "ar": "لويس فيجو (١٩٩٩-٢٠٠٠) وجيمس ميلنر (٢٠١٧-٢٠١٨)",
+          "en": "Luis Figo (1999-2000) and James Milner (2017-18)"
+        },
+        {
+          "ar": "ليونيل ميسي (٢٠١١-٢٠١٢) ونيمار (٢٠١٦-٢٠١٧)",
+          "en": "Lionel Messi (2011-12) and Neymar (2016-17)"
+        },
+        {
+          "ar": "كريستيانو رونالدو (٢٠١٣-٢٠١٤) وواين روني (٢٠١٣-٢٠١٤)",
+          "en": "Cristiano Ronaldo (2013-14) and Wayne Rooney (2013-14)"
+        },
+        {
+          "ar": "محمد صلاح (٢٠١٧-٢٠١٨) وكيليان مبابي (٢٠٢٠-٢٠٢١)",
+          "en": "Mohamed Salah (2017-18) and Kylian Mbappe (2020-21)"
+        }
+      ],
+      "correct": 0
+    },
+    {
+      "id": "stat-wc-assists-record",
+      "question": {
+        "ar": "مين صاحب الرقم القياسي في عدد الأسيستات في نسخة واحدة من كأس العالم (٧ أسيستات)؟",
+        "en": "Who holds the record for most assists in a single World Cup (7)?"
+      },
+      "options": [
+        {
+          "ar": "بيليه",
+          "en": "Pele"
+        },
+        {
+          "ar": "ميشيل أوليس (٧ أسيستات في ٢٠٢٦)",
+          "en": "Michael Olise (7 assists in 2026)"
+        },
+        {
+          "ar": "دييجو مارادونا",
+          "en": "Diego Maradona"
+        },
+        {
+          "ar": "ليونيل ميسي",
+          "en": "Lionel Messi"
+        }
+      ],
+      "correct": 1
+    },
+    {
+      "id": "stat-wc-2006-yellows",
+      "question": {
+        "ar": "أكتر نسخة في تاريخ كأس العالم في عدد الإنذارات كانت ٢٠٠٦. بكام إنذار؟",
+        "en": "The 2006 World Cup holds the record for most yellow cards in a tournament. How many?"
+      },
+      "options": [
+        {
+          "ar": "٢٤٥ إنذار",
+          "en": "245 yellow cards"
+        },
+        {
+          "ar": "٢٩٥ إنذار",
+          "en": "295 yellow cards"
+        },
+        {
+          "ar": "٣٤٥ إنذار",
+          "en": "345 yellow cards"
+        },
+        {
+          "ar": "٣٩٥ إنذار",
+          "en": "395 yellow cards"
+        }
+      ],
+      "correct": 2
+    },
+    {
+      "id": "stat-wc-2022-yellows-match",
+      "question": {
+        "ar": "أي مباراة في كأس العالم ٢٠٢٢ شهدت رقمًا قياسيًا بـ١٨ إنذارًا؟",
+        "en": "Which 2022 World Cup match set a record with 18 yellow cards?"
+      },
+      "options": [
+        {
+          "ar": "البرازيل وكرواتيا",
+          "en": "Brazil vs Croatia"
+        },
+        {
+          "ar": "الأرجنتين وفرنسا",
+          "en": "Argentina vs France"
+        },
+        {
+          "ar": "المغرب وإسبانيا",
+          "en": "Morocco vs Spain"
+        },
+        {
+          "ar": "الأرجنتين وهولندا",
+          "en": "Argentina vs Netherlands"
+        }
+      ],
+      "correct": 3
+    },
+    {
+      "id": "stat-wc-2006-reds-match",
+      "question": {
+        "ar": "أي مباراة في كأس العالم ٢٠٠٦ شهدت ٤ حالات طرد و١٦ إنذارًا؟",
+        "en": "Which 2006 World Cup match had 4 red cards and 16 yellow cards?"
+      },
+      "options": [
+        {
+          "ar": "البرتغال وهولندا",
+          "en": "Portugal vs Netherlands"
+        },
+        {
+          "ar": "إيطاليا والولايات المتحدة",
+          "en": "Italy vs USA"
+        },
+        {
+          "ar": "فرنسا وإيطاليا",
+          "en": "France vs Italy"
+        },
+        {
+          "ar": "ألمانيا والأرجنتين",
+          "en": "Germany vs Argentina"
+        }
+      ],
+      "correct": 0
+    },
+    {
+      "id": "stat-pl-yellows-season",
+      "question": {
+        "ar": "مين لاعب نيوكاسل اللي أخد ١٤ إنذارًا في موسم ٢٠١٠-٢٠١١ بالدوري الإنجليزي الممتاز؟",
+        "en": "Which Newcastle player received 14 yellow cards in the 2010-11 Premier League season?"
+      },
+      "options": [
+        {
+          "ar": "شييك تيوتي",
+          "en": "Cheick Tiote"
+        },
+        {
+          "ar": "لي كاترمول",
+          "en": "Lee Cattermole"
+        },
+        {
+          "ar": "روببي سافاج",
+          "en": "Robbie Savage"
+        },
+        {
+          "ar": "جواو بالينيا",
+          "en": "Joao Palhinha"
+        }
+      ],
+      "correct": 0
+    },
+    {
+      "id": "stat-pl-clean-sheets-season",
+      "question": {
+        "ar": "مين الحارس اللي حافظ على نظافة شباكه في ٢٤ مباراة في موسم واحد بالبريميرليج (٢٠٠٤-٢٠٠٥)؟",
+        "en": "Which goalkeeper kept 24 clean sheets in a single Premier League season (2004-05)?"
+      },
+      "options": [
+        {
+          "ar": "إدوين فان دير سار",
+          "en": "Edwin van der Sar"
+        },
+        {
+          "ar": "أليسون بيكر",
+          "en": "Alisson Becker"
+        },
+        {
+          "ar": "إيدرسون",
+          "en": "Ederson"
+        },
+        {
+          "ar": "بيتر تشيك",
+          "en": "Petr Cech"
+        }
+      ],
+      "correct": 3
+    },
+    {
+      "id": "stat-ucl-goals-season",
+      "question": {
+        "ar": "مين صاحب الرقم القياسي في عدد الأهداف في موسم واحد بدوري أبطال أوروبا (١٧ هدفًا)؟",
+        "en": "Who holds the record for most goals in a single Champions League season (17)?"
+      },
+      "options": [
+        {
+          "ar": "ليونيل ميسي (١٤ هدفًا في ٢٠١١-٢٠١٢)",
+          "en": "Lionel Messi (14 goals in 2011-12)"
+        },
+        {
+          "ar": "روبرت ليفاندوفسكي (١٥ هدفًا في ٢٠١٩-٢٠٢٠)",
+          "en": "Robert Lewandowski (15 goals in 2019-20)"
+        },
+        {
+          "ar": "كريم بنزيما (١٥ هدفًا في ٢٠٢١-٢٠٢٢)",
+          "en": "Karim Benzema (15 goals in 2021-22)"
+        },
+        {
+          "ar": "كريستيانو رونالدو (١٧ هدفًا في ٢٠١٣-٢٠١٤)",
+          "en": "Cristiano Ronaldo (17 goals in 2013-14)"
+        }
+      ],
+      "correct": 3
+    },
+    {
+      "id": "stat-laliga-goals-season",
+      "question": {
+        "ar": "مين صاحب الرقم القياسي في عدد الأهداف في موسم واحد بالدوري الإسباني (٥٠ هدفًا)؟",
+        "en": "Who holds the record for most goals in a single La Liga season (50)?"
+      },
+      "options": [
+        {
+          "ar": "كريستيانو رونالدو (٤٦ هدفًا في ٢٠١١-٢٠١٢)",
+          "en": "Cristiano Ronaldo (46 goals in 2011-12)"
+        },
+        {
+          "ar": "لويس سواريز (٤٠ هدفًا في ٢٠١٥-٢٠١٦)",
+          "en": "Luis Suarez (40 goals in 2015-16)"
+        },
+        {
+          "ar": "كريم بنزيما (٢٧ هدفًا في ٢٠٢١-٢٠٢٢)",
+          "en": "Karim Benzema (27 goals in 2021-22)"
+        },
+        {
+          "ar": "ليونيل ميسي (٥٠ هدفًا في ٢٠١١-٢٠١٢)",
+          "en": "Lionel Messi (50 goals in 2011-12)"
+        }
+      ],
+      "correct": 3
+    },
+    {
+      "id": "group-wc-2018",
+      "question": {
+        "ar": "تلات منتخبات من الأربعة دول كانوا مع بعض في مجموعة واحدة بكأس العالم ٢٠١٨. مين المنتخب اللي مكنش معاهم؟",
+        "en": "Three of these four teams were in the same group at the 2018 World Cup. Which team was not with them?"
+      },
+      "options": [
+        {
+          "ar": "سويسرا",
+          "en": "Switzerland"
+        },
+        {
+          "ar": "ألمانيا",
+          "en": "Germany"
+        },
+        {
+          "ar": "المكسيك",
+          "en": "Mexico"
+        },
+        {
+          "ar": "السويد",
+          "en": "Sweden"
+        }
+      ],
+      "correct": 0
+    },
+    {
+      "id": "group-wc-2010",
+      "question": {
+        "ar": "تلات منتخبات من الأربعة دول كانوا مع بعض في مجموعة واحدة بكأس العالم ٢٠١٠. مين المنتخب اللي مكنش معاهم؟",
+        "en": "Three of these four teams were in the same group at the 2010 World Cup. Which team was not with them?"
+      },
+      "options": [
+        {
+          "ar": "البرازيل",
+          "en": "Brazil"
+        },
+        {
+          "ar": "غانا",
+          "en": "Ghana"
+        },
+        {
+          "ar": "البرتغال",
+          "en": "Portugal"
+        },
+        {
+          "ar": "كوت ديفوار",
+          "en": "Ivory Coast"
+        }
+      ],
+      "correct": 1
+    },
+    {
+      "id": "group-euro-2012",
+      "question": {
+        "ar": "تلات منتخبات من الأربعة دول كانوا مع بعض في مجموعة واحدة بيورو ٢٠١٢. مين المنتخب اللي مكنش معاهم؟",
+        "en": "Three of these four teams were in the same group at Euro 2012. Which team was not with them?"
+      },
+      "options": [
+        {
+          "ar": "ألمانيا",
+          "en": "Germany"
+        },
+        {
+          "ar": "البرتغال",
+          "en": "Portugal"
+        },
+        {
+          "ar": "الدنمارك",
+          "en": "Denmark"
+        },
+        {
+          "ar": "إيطاليا",
+          "en": "Italy"
+        }
+      ],
+      "correct": 3
+    },
+    {
+      "id": "group-ucl-2003-04",
+      "question": {
+        "ar": "تلات فرق من الأربعة دول كانوا مع بعض في مجموعة واحدة بدوري أبطال أوروبا ٢٠٠٣-٢٠٠٤. مين الفريق اللي مكنش معاهم؟",
+        "en": "Three of these four teams were in the same group in the 2003-04 Champions League. Which team was not with them?"
+      },
+      "options": [
+        {
+          "ar": "يوفنتوس",
+          "en": "Juventus"
+        },
+        {
+          "ar": "ميلان",
+          "en": "AC Milan"
+        },
+        {
+          "ar": "أياكس",
+          "en": "Ajax"
+        },
+        {
+          "ar": "سيلتا فيجو",
+          "en": "Celta Vigo"
+        }
+      ],
+      "correct": 0
+    },
+    {
+      "id": "group-ucl-2008-09",
+      "question": {
+        "ar": "تلات فرق من الأربعة دول كانوا مع بعض في مجموعة واحدة بدوري أبطال أوروبا ٢٠٠٨-٢٠٠٩. مين الفريق اللي مكنش معاهم؟",
+        "en": "Three of these four teams were in the same group in the 2008-09 Champions League. Which team was not with them?"
+      },
+      "options": [
+        {
+          "ar": "ريال مدريد",
+          "en": "Real Madrid"
+        },
+        {
+          "ar": "تشيلسي",
+          "en": "Chelsea"
+        },
+        {
+          "ar": "يوفنتوس",
+          "en": "Juventus"
+        },
+        {
+          "ar": "زينيت",
+          "en": "Zenit"
+        }
+      ],
+      "correct": 1
+    },
+    {
+      "id": "group-ucl-2017-18",
+      "question": {
+        "ar": "تلات فرق من الأربعة دول كانوا مع بعض في مجموعة واحدة بدوري أبطال أوروبا ٢٠١٧-٢٠١٨. مين الفريق اللي مكنش معاهم؟",
+        "en": "Three of these four teams were in the same group in the 2017-18 Champions League. Which team was not with them?"
+      },
+      "options": [
+        {
+          "ar": "توتنهام",
+          "en": "Tottenham"
+        },
+        {
+          "ar": "ريال مدريد",
+          "en": "Real Madrid"
+        },
+        {
+          "ar": "ليفربول",
+          "en": "Liverpool"
+        },
+        {
+          "ar": "بوروسيا دورتموند",
+          "en": "Borussia Dortmund"
+        }
+      ],
+      "correct": 2
+    },
+    {
+      "id": "group-wc-2014",
+      "question": {
+        "ar": "تلات منتخبات من الأربعة دول كانوا مع بعض في مجموعة واحدة بكأس العالم ٢٠١٤. مين المنتخب اللي مكنش معاهم؟",
+        "en": "Three of these four teams were in the same group at the 2014 World Cup. Which team was not with them?"
+      },
+      "options": [
+        {
+          "ar": "أوروجواي",
+          "en": "Uruguay"
+        },
+        {
+          "ar": "كوستاريكا",
+          "en": "Costa Rica"
+        },
+        {
+          "ar": "إيطاليا",
+          "en": "Italy"
+        },
+        {
+          "ar": "كولومبيا",
+          "en": "Colombia"
+        }
+      ],
+      "correct": 3
+    },
+    {
+      "id": "group-euro-2008",
+      "question": {
+        "ar": "تلات منتخبات من الأربعة دول كانوا مع بعض في مجموعة واحدة بيورو ٢٠٠٨. مين المنتخب اللي مكنش معاهم؟",
+        "en": "Three of these four teams were in the same group at Euro 2008. Which team was not with them?"
+      },
+      "options": [
+        {
+          "ar": "هولندا",
+          "en": "Netherlands"
+        },
+        {
+          "ar": "إسبانيا",
+          "en": "Spain"
+        },
+        {
+          "ar": "إيطاليا",
+          "en": "Italy"
+        },
+        {
+          "ar": "رومانيا",
+          "en": "Romania"
+        }
+      ],
+      "correct": 1
+    },
+    {
+      "id": "group-copa-2016",
+      "question": {
+        "ar": "تلات منتخبات من الأربعة دول كانوا مع بعض في مجموعة واحدة بكوبا أمريكا ٢٠١٦. مين المنتخب اللي مكنش معاهم؟",
+        "en": "Three of these four teams were in the same group at the 2016 Copa America. Which team was not with them?"
+      },
+      "options": [
+        {
+          "ar": "الأرجنتين",
+          "en": "Argentina"
+        },
+        {
+          "ar": "تشيلي",
+          "en": "Chile"
+        },
+        {
+          "ar": "أوروجواي",
+          "en": "Uruguay"
+        },
+        {
+          "ar": "بنما",
+          "en": "Panama"
+        }
+      ],
+      "correct": 2
+    },
+    {
+      "id": "group-afcon-2010",
+      "question": {
+        "ar": "تلات منتخبات من الأربعة دول كانوا مع بعض في مجموعة واحدة بكأس أمم أفريقيا ٢٠١٠. مين المنتخب اللي مكنش معاهم؟",
+        "en": "Three of these four teams were in the same group at the 2010 Africa Cup of Nations. Which team was not with them?"
+      },
+      "options": [
+        {
+          "ar": "كوت ديفوار",
+          "en": "Ivory Coast"
+        },
+        {
+          "ar": "غانا",
+          "en": "Ghana"
+        },
+        {
+          "ar": "مالي",
+          "en": "Mali"
+        },
+        {
+          "ar": "مصر",
+          "en": "Egypt"
         }
       ],
       "correct": 3

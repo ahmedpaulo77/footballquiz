@@ -55,6 +55,17 @@ export const UI = {
         hint: 'الأساسي بس — مفيش بدلاء. الحكم يدّي نقط السؤال للفريق اللي قال أسماء أكتر: ١٠ سهل، ٢٠ متوسط، ٣٠ صعب.',
       },
     },
+    hintInfo: {
+      button: 'معلومة',
+      title: 'التلميحات للحكم',
+      lead: 'التلميحات اللي بين الأقواس للحكم بس — هو اللي يقرر يقولها ولا لأ، وإمتى.',
+      points: [
+        'ممكن تقول التلميحات كلها، أو تختار منها، أو متقولش ولا واحد — براحتك.',
+        'المعتاد ٥ تلميحات، بس فيه تلميحات زيادة عشان لو محدش عرف بعد الخمسة.',
+      ],
+      dismiss: 'تمام',
+      close: 'إغلاق',
+    },
     teams: {
       title: 'الفريقين',
       lead: 'اكتب اسم الفريقين مرة واحدة. الأسماء والنقط هيفضلوا معاهم في كل الألعاب.',
@@ -326,6 +337,17 @@ export const UI = {
         text: 'Every famous match card — final or not — shows both teams, the year and the result. Tap a card to reveal the 11 players who actually started for each side.',
         hint: 'Starters only — no substitutes. The host gives the question points to the team that named more players: 10 easy, 20 medium, 30 hard.',
       },
+    },
+    hintInfo: {
+      button: 'Hint',
+      title: 'The clues are for the host',
+      lead: 'The notes in brackets are hints for the host only — the host decides whether to read them and when.',
+      points: [
+        'Read all the hints, pick some of them, or say none at all — it is your call.',
+        'Five hints are the norm; extra ones are there in case nobody has guessed after the fifth.',
+      ],
+      dismiss: 'Got it',
+      close: 'Close',
     },
     teams: {
       title: 'The teams',

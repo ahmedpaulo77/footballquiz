@@ -73,10 +73,10 @@ describe('لعبة «من أنا؟»', () => {
   const arQuiz = getQuiz('who-am-i', 'ar');
   const enQuiz = getQuiz('who-am-i', 'en');
 
-  it('فيها الـ٣٩ لاعب بتوع ملف Clues', () => {
+  it('فيها الـ٤٠ لاعب بتوع ملف Clues', () => {
     expect(arQuiz.kind).toBe('clues');
-    expect(arQuiz.questions).toHaveLength(39);
-    expect(enQuiz.questions).toHaveLength(39);
+    expect(arQuiz.questions).toHaveLength(40);
+    expect(enQuiz.questions).toHaveLength(40);
   });
 
   it('كل لاعب عنده من ٥ لـ٩ تلميحات', () => {

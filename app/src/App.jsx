@@ -5,6 +5,7 @@ import ClueList from './components/ClueList.jsx';
 import PathList from './components/PathList.jsx';
 import AnswerReveal from './components/AnswerReveal.jsx';
 import HowToPlay from './components/HowToPlay.jsx';
+import HintInfo from './components/HintInfo.jsx';
 import RiskGame from './components/RiskGame.jsx';
 import PointsGame from './components/PointsGame.jsx';
 import Top3Game from './components/Top3Game.jsx';
@@ -283,6 +284,17 @@ export default function App() {
           />
         ) : (
           <>
+            {quiz.kind === 'clues' ? (
+              <button
+                type="button"
+                className="hint-info-btn"
+                onClick={() => setModal('hint')}
+              >
+                <span aria-hidden="true">💡</span>
+                {ui.hintInfo.button}
+              </button>
+            ) : null}
+
             <TeamScoreboard
               names={teamNames}
               scores={scores}
@@ -363,6 +375,12 @@ export default function App() {
       </footer>
 
       <HowToPlay open={modal === 'help'} ui={ui} onClose={closeHelp} />
+
+      <HintInfo
+        open={modal === 'hint'}
+        info={ui.hintInfo}
+        onClose={() => setModal(null)}
+      />
 
       <TeamSetup
         open={modal === 'teams'}
