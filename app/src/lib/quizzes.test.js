@@ -469,9 +469,9 @@ describe('لعبة «تشكيلات المباريات»', () => {
     expect(QUIZZES[5].id).toBe('lineups');
   });
 
-  it('فيها ٨٤ ماتش و١٥ مسابقة كلها مستخدمة', () => {
-    expect(arQuiz.matches).toHaveLength(84);
-    expect(enQuiz.matches).toHaveLength(84);
+  it('فيها ٩٧ ماتش و١٥ مسابقة كلها مستخدمة', () => {
+    expect(arQuiz.matches).toHaveLength(97);
+    expect(enQuiz.matches).toHaveLength(97);
     expect(arQuiz.competitions).toHaveLength(15);
     expect(new Set(arQuiz.matches.map((match) => match.competition)).size).toBe(15);
 
@@ -537,7 +537,7 @@ describe('لعبة «تشكيلات المباريات»', () => {
       expect(match.year, match.id).toBeLessThanOrEqual(2026);
       expect(match.score, match.id).toMatch(/\d/);
       expect(levels, match.id).toContain(match.difficulty);
-      expect(['home', 'away'], match.id).toContain(match.winner);
+      expect(['home', 'away', null], match.id).toContain(match.winner);
       expect(['regulation', 'extra-time', 'golden-goal', 'penalties'], match.id).toContain(
         match.decidedBy,
       );
