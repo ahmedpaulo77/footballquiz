@@ -4686,6 +4686,420 @@
         4,
         6
       ]
+    },
+    {
+      "id": "epl-season-scorers-1996-2025",
+      "category": {
+        "ar": "هدافين الدوري المصري في موسم واحد",
+        "en": "Egyptian Premier League single-season scorers"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ سجلوا في موسم واحد في الدوري المصري من 1996–97 لحد 2024–25 من التسعة دول؟",
+        "en": "Which 3 scored the most in a single Egyptian Premier League season from 1996–97 to 2024–25 among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Wikipedia — Egyptian Premier League top scorers by season",
+      "players": [
+        {
+          "name": "محمد شريف",
+          "stat": 21
+        },
+        {
+          "name": "أحمد سيد زيزو",
+          "stat": 19
+        },
+        {
+          "name": "عبد الحليم علي",
+          "stat": 20
+        },
+        {
+          "name": "عماد متعب",
+          "stat": 15
+        },
+        {
+          "name": "حسام سلامة (باولو)",
+          "stat": 20
+        },
+        {
+          "name": "عبد الله السعيد",
+          "stat": 17
+        },
+        {
+          "name": "محمد أبو تريكة",
+          "stat": 18
+        },
+        {
+          "name": "أحمد بلال",
+          "stat": 19
+        },
+        {
+          "name": "حسام حسن",
+          "stat": 18
+        }
+      ],
+      "top": [
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "epl-appearances-01",
+      "category": {
+        "ar": "أكتر مباريات في الدوري المصري",
+        "en": "Egyptian Premier League appearances"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لعبوا مباريات في الدوري المصري من التسعة دول؟",
+        "en": "Which 3 played the most Egyptian Premier League matches among these nine?"
+      },
+      "unit": {
+        "ar": "مباراة",
+        "en": "matches"
+      },
+      "source": "Wikipedia — Egyptian Premier League all-time appearances (accessed Nov 2026)",
+      "players": [
+        {
+          "name": "عبد الله السعيد",
+          "stat": 481
+        },
+        {
+          "name": "حسام حسن",
+          "stat": 401
+        },
+        {
+          "name": "محمد عبد المنصف",
+          "stat": 458
+        },
+        {
+          "name": "نور السيد",
+          "stat": 380
+        },
+        {
+          "name": "عصام الحضري",
+          "stat": 455
+        },
+        {
+          "name": "أحمد فتحي",
+          "stat": 374
+        },
+        {
+          "name": "أحمد شديد قناوي",
+          "stat": 421
+        },
+        {
+          "name": "محمد الشناوي",
+          "stat": 352
+        },
+        {
+          "name": "الهاني سليمان",
+          "stat": 390
+        }
+      ],
+      "top": [
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "egypt-caps-01",
+      "category": {
+        "ar": "أكتر مباريات مع منتخب مصر",
+        "en": "Egypt national team caps"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لعبوا مباريات دولية مع مصر من التسعة دول؟",
+        "en": "Which 3 won the most caps for Egypt among these nine?"
+      },
+      "unit": {
+        "ar": "مباراة دولية",
+        "en": "caps"
+      },
+      "source": "Wikipedia — Egypt national football team records (accessed Nov 2026)",
+      "players": [
+        {
+          "name": "أحمد حسن",
+          "stat": 184
+        },
+        {
+          "name": "وائل جمعة",
+          "stat": 114
+        },
+        {
+          "name": "حسام حسن",
+          "stat": 176
+        },
+        {
+          "name": "أحمد الكاس",
+          "stat": 112
+        },
+        {
+          "name": "عصام الحضري",
+          "stat": 159
+        },
+        {
+          "name": "هاني رمزي",
+          "stat": 123
+        },
+        {
+          "name": "أحمد فتحي",
+          "stat": 136
+        },
+        {
+          "name": "عبد الظاهر السقا",
+          "stat": 112
+        },
+        {
+          "name": "إبراهيم حسن",
+          "stat": 131
+        }
+      ],
+      "top": [
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "afcon-goals-egypt-01",
+      "category": {
+        "ar": "هدافي كأس أمم أفريقيا",
+        "en": "AFCON goals"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ سجلوا في كأس أمم أفريقيا من التسعة دول؟",
+        "en": "Which 3 scored the most Africa Cup of Nations goals among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "SSFA Online — AFCON all-time top scorers (accessed Nov 2026)",
+      "players": [
+        {
+          "name": "حسام حسن",
+          "stat": 11
+        },
+        {
+          "name": "محمد أبو تريكة",
+          "stat": 6
+        },
+        {
+          "name": "محمد صلاح",
+          "stat": 11
+        },
+        {
+          "name": "حسني عبد ربه",
+          "stat": 4
+        },
+        {
+          "name": "أحمد حسن",
+          "stat": 8
+        },
+        {
+          "name": "محمد ناجي جدو",
+          "stat": 5
+        },
+        {
+          "name": "عمرو زكي",
+          "stat": 4
+        },
+        {
+          "name": "عماد متعب",
+          "stat": 4
+        },
+        {
+          "name": "محمود حسن تريزيجيه",
+          "stat": 4
+        }
+      ],
+      "top": [
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "caf-cl-goals-egypt-01",
+      "category": {
+        "ar": "هدافي دوري أبطال أفريقيا",
+        "en": "CAF Champions League goals"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ سجلوا في دوري أبطال أفريقيا من التسعة دول؟",
+        "en": "Which 3 scored the most CAF Champions League goals among these nine?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Transfermarkt — CAF Champions League all-time top scorers (accessed Nov 2026)",
+      "players": [
+        {
+          "name": "محمد أبو تريكة",
+          "stat": 31
+        },
+        {
+          "name": "وليد سليمان",
+          "stat": 17
+        },
+        {
+          "name": "عماد متعب",
+          "stat": 24
+        },
+        {
+          "name": "محمد شريف",
+          "stat": 15
+        },
+        {
+          "name": "حسين الشحات",
+          "stat": 20
+        },
+        {
+          "name": "عبد الله السعيد",
+          "stat": 12
+        },
+        {
+          "name": "محمود كهربا",
+          "stat": 17
+        },
+        {
+          "name": "حسام حسن",
+          "stat": 14
+        },
+        {
+          "name": "محمد بركات",
+          "stat": 16
+        }
+      ],
+      "top": [
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "egypt-most-clubs-01",
+      "category": {
+        "ar": "أكتر أندية لعب ليها",
+        "en": "Most clubs played for"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لعبوا لأندية مختلفة من التسعة دول؟",
+        "en": "Which 3 played for the most different clubs among these nine?"
+      },
+      "unit": {
+        "ar": "نادي",
+        "en": "clubs"
+      },
+      "source": "SSFA Online — player club counts (accessed Nov 2026)",
+      "players": [
+        {
+          "name": "أحمد حسام ميدو",
+          "stat": 11
+        },
+        {
+          "name": "عصام الحضري",
+          "stat": 10
+        },
+        {
+          "name": "عمرو زكي",
+          "stat": 11
+        },
+        {
+          "name": "شيكابالا",
+          "stat": 7
+        },
+        {
+          "name": "حسام حسن",
+          "stat": 8
+        },
+        {
+          "name": "حسام غالي",
+          "stat": 6
+        },
+        {
+          "name": "محمد زيدان",
+          "stat": 11
+        },
+        {
+          "name": "أحمد حسن",
+          "stat": 9
+        },
+        {
+          "name": "أحمد فتحي",
+          "stat": 7
+        }
+      ],
+      "top": [
+        0,
+        2,
+        6
+      ]
+    },
+    {
+      "id": "egypt-early-retirements-01",
+      "category": {
+        "ar": "الاعتزال بدري",
+        "en": "Youngest retirements"
+      },
+      "question": {
+        "ar": "مين ٣ لاعبين من التسعة دول اعتزلوا بدري أكتر (أصغر سن)؟",
+        "en": "Which 3 players retired youngest among these nine?"
+      },
+      "unit": {
+        "ar": "سنة",
+        "en": "years"
+      },
+      "source": "Wikipedia player pages + BBC (retirement dates)",
+      "asc": true,
+      "players": [
+        {
+          "name": "أحمد حسام ميدو",
+          "stat": 30
+        },
+        {
+          "name": "أحمد حسن",
+          "stat": 38
+        },
+        {
+          "name": "عمرو زكي",
+          "stat": 32
+        },
+        {
+          "name": "حسام حسن",
+          "stat": 41
+        },
+        {
+          "name": "محمد أبو تريكة",
+          "stat": 35
+        },
+        {
+          "name": "وائل جمعة",
+          "stat": 38
+        },
+        {
+          "name": "حسام عاشور",
+          "stat": 36
+        },
+        {
+          "name": "عصام الحضري",
+          "stat": 47
+        },
+        {
+          "name": "حسام غالي",
+          "stat": 36
+        }
+      ],
+      "top": [
+        0,
+        2,
+        4
+      ]
     }
   ]
 }
