@@ -36,49 +36,49 @@
         "ar": "هدف",
         "en": "goals"
       },
-      "source": "Wikipedia — List of European Cup and UEFA Champions League top scorers (as of 4 Nov 2026)",
+      "source": "Wikipedia — list of UEFA Champions League top scorers (accessed Nov 2026)",
       "players": [
         {
-          "name": "Harry Kane",
-          "stat": 58
+          "name": "فينيسيوس جونيور",
+          "stat": 34
         },
         {
-          "name": "Karim Benzema",
-          "stat": 90
+          "name": "سيرجيو أغويرو",
+          "stat": 41
         },
         {
-          "name": "Cristiano Ronaldo",
-          "stat": 140
+          "name": "صامويل إيتو",
+          "stat": 30
         },
         {
-          "name": "Thomas Müller",
-          "stat": 57
+          "name": "فيرينتس بوشكاش",
+          "stat": 36
         },
         {
-          "name": "Lionel Messi",
-          "stat": 129
+          "name": "عثمان ديمبيلي",
+          "stat": 31
         },
         {
-          "name": "Kylian Mbappé",
-          "stat": 74
+          "name": "إدينسون كافاني",
+          "stat": 35
         },
         {
-          "name": "Robert Lewandowski",
-          "stat": 109
+          "name": "فرناندو موريينتس",
+          "stat": 33
         },
         {
-          "name": "Raúl González",
-          "stat": 71
+          "name": "أريين روبن",
+          "stat": 31
         },
         {
-          "name": "Erling Haaland",
-          "stat": 62
+          "name": "جيرد مولر",
+          "stat": 34
         }
       ],
       "top": [
-        2,
-        4,
-        6
+        1,
+        3,
+        5
       ]
     },
     {
@@ -567,49 +567,49 @@
         "ar": "مباراة دولية",
         "en": "caps"
       },
-      "source": "Wikipedia — List of men's footballers with 100 or more international caps (as of 6 Oct 2026)",
+      "source": "Wikipedia — list of men's footballers with 100+ international caps (accessed Nov 2026)",
       "players": [
         {
-          "name": "Luka Modrić",
-          "stat": 206
+          "name": "غييرمو أوتشوا",
+          "stat": 154
         },
         {
-          "name": "Hassan Al-Haydos",
-          "stat": 193
+          "name": "علي الحبسي",
+          "stat": 147
         },
         {
-          "name": "Cristiano Ronaldo",
-          "stat": 234
+          "name": "كلاوديو برافو",
+          "stat": 150
         },
         {
-          "name": "Andrés Guardado",
-          "stat": 182
+          "name": "سونيل تشيتري",
+          "stat": 157
         },
         {
-          "name": "Soh Chin Ann",
-          "stat": 195
+          "name": "أنيبال غودوي",
+          "stat": 160
         },
         {
-          "name": "Ahmed Hassan",
-          "stat": 184
+          "name": "سامي الجابر",
+          "stat": 156
         },
         {
-          "name": "Lionel Messi",
-          "stat": 208
+          "name": "عصام الحضري",
+          "stat": 159
         },
         {
-          "name": "Bader Al-Mutawa",
-          "stat": 202
+          "name": "مايكل برادلي",
+          "stat": 151
         },
         {
-          "name": "Ahmed Kano",
-          "stat": 193
+          "name": "فوزي بشير",
+          "stat": 152
         }
       ],
       "top": [
-        0,
-        2,
-        6
+        4,
+        6,
+        3
       ]
     },
     {
@@ -744,49 +744,49 @@
         "ar": "هدف",
         "en": "goals"
       },
-      "source": "Wikipedia — List of men's footballers with 50 or more international goals (as of 7 Oct 2026)",
+      "source": "Wikipedia — list of men's footballers with 50+ international goals (accessed Nov 2026)",
       "players": [
         {
-          "name": "Cristiano Ronaldo",
-          "stat": 146
+          "name": "غابرييل باتيستوتا",
+          "stat": 56
         },
         {
-          "name": "Ali Mabkhout",
-          "stat": 85
+          "name": "رونالدو نازاريو",
+          "stat": 62
         },
         {
-          "name": "Sunil Chhetri",
-          "stat": 95
+          "name": "مهدي طارمي",
+          "stat": 60
         },
         {
-          "name": "Romelu Lukaku",
-          "stat": 94
+          "name": "روماريو",
+          "stat": 55
         },
         {
-          "name": "Ali Daei",
-          "stat": 108
+          "name": "ألكسندر ميتروفيتش",
+          "stat": 64
         },
         {
-          "name": "Robert Lewandowski",
-          "stat": 92
+          "name": "علي أشرف",
+          "stat": 58
         },
         {
-          "name": "Lionel Messi",
-          "stat": 126
+          "name": "سردار أزمون",
+          "stat": 57
         },
         {
-          "name": "Mokhtar Dahari",
-          "stat": 89
+          "name": "إيمري شلوسر",
+          "stat": 59
         },
         {
-          "name": "Harry Kane",
-          "stat": 91
+          "name": "جاسم الهويدي",
+          "stat": 63
         }
       ],
       "top": [
-        0,
         4,
-        6
+        1,
+        8
       ]
     },
     {
@@ -1098,49 +1098,49 @@
         "ar": "هدف",
         "en": "goals"
       },
-      "source": "Wikipedia — Premier League records and statistics (as of 24 May 2026)",
+      "source": "Wikipedia — list of footballers with 100+ Premier League goals (accessed Nov 2026)",
       "players": [
         {
-          "name": "Frank Lampard",
-          "stat": 177
+          "name": "جيمي فاردي",
+          "stat": 145
         },
         {
-          "name": "Harry Kane",
-          "stat": 213
+          "name": "نيكولا أنيلكا",
+          "stat": 125
         },
         {
-          "name": "Alan Shearer",
-          "stat": 260
+          "name": "مايكل أوين",
+          "stat": 150
         },
         {
-          "name": "Mohamed Salah",
-          "stat": 193
+          "name": "تيدي شيرينغهام",
+          "stat": 146
         },
         {
-          "name": "Thierry Henry",
-          "stat": 175
+          "name": "دوايت يورك",
+          "stat": 123
         },
         {
-          "name": "Wayne Rooney",
-          "stat": 208
+          "name": "روبين فان بيرسي",
+          "stat": 144
         },
         {
-          "name": "Robbie Fowler",
-          "stat": 163
+          "name": "روبي كين",
+          "stat": 126
         },
         {
-          "name": "Andy Cole",
-          "stat": 187
+          "name": "ليز فيرديناند",
+          "stat": 149
         },
         {
-          "name": "Sergio Agüero",
-          "stat": 184
+          "name": "جيمي فلويد هاسلبانك",
+          "stat": 127
         }
       ],
       "top": [
-        1,
         2,
-        5
+        7,
+        3
       ]
     },
     {
@@ -1157,47 +1157,47 @@
         "ar": "مباراة",
         "en": "matches"
       },
-      "source": "Wikipedia — Premier League records and statistics (as of 24 May 2026)",
+      "source": "Transfermarkt — Premier League all-time appearances (accessed Nov 2026)",
       "players": [
         {
-          "name": "Gareth Barry",
-          "stat": 653
+          "name": "جوردان هندرسون",
+          "stat": 468
         },
         {
-          "name": "James Milner",
-          "stat": 658
+          "name": "جون تيري",
+          "stat": 492
         },
         {
-          "name": "Emile Heskey",
-          "stat": 516
+          "name": "بيتر كراوتش",
+          "stat": 468
         },
         {
-          "name": "Frank Lampard",
-          "stat": 609
+          "name": "أشلي يونغ",
+          "stat": 485
         },
         {
-          "name": "Mark Schwarzer",
-          "stat": 514
+          "name": "جيرمين ديفو",
+          "stat": 496
         },
         {
-          "name": "David James",
-          "stat": 572
+          "name": "مايكل كاريك",
+          "stat": 481
         },
         {
-          "name": "Gary Speed",
-          "stat": 535
+          "name": "آرون هيوز",
+          "stat": 455
         },
         {
-          "name": "Ryan Giggs",
-          "stat": 632
+          "name": "واين روني",
+          "stat": 491
         },
         {
-          "name": "Jamie Carragher",
-          "stat": 508
+          "name": "سيلفان ديستان",
+          "stat": 469
         }
       ],
       "top": [
-        0,
+        4,
         1,
         7
       ]
@@ -1452,49 +1452,49 @@
         "ar": "هدف",
         "en": "goals"
       },
-      "source": "Wikipedia — La Liga records and statistics (as of 2026)",
+      "source": "Wikipedia — La Liga records and statistics, all-time top scorers (accessed Nov 2026)",
       "players": [
         {
-          "name": "Quini",
-          "stat": 219
+          "name": "أريتز أدوريز",
+          "stat": 158
         },
         {
-          "name": "Cristiano Ronaldo",
-          "stat": 311
+          "name": "خوليو ساليناس",
+          "stat": 152
         },
         {
-          "name": "Karim Benzema",
-          "stat": 238
+          "name": "صامويل إيتو",
+          "stat": 162
         },
         {
-          "name": "Hugo Sánchez",
-          "stat": 234
+          "name": "راؤول تامودو",
+          "stat": 146
         },
         {
-          "name": "Lionel Messi",
-          "stat": 474
+          "name": "لويس أراغونيس",
+          "stat": 160
         },
         {
-          "name": "Raúl González",
-          "stat": 228
+          "name": "فيرينتس بوشكاش",
+          "stat": 156
         },
         {
-          "name": "Antoine Griezmann",
-          "stat": 205
+          "name": "دانييل رويز",
+          "stat": 147
         },
         {
-          "name": "David Villa",
-          "stat": 186
+          "name": "سيلفستر إيغوا",
+          "stat": 141
         },
         {
-          "name": "Iago Aspas",
-          "stat": 171
+          "name": "أدريان إسكوديرو",
+          "stat": 150
         }
       ],
       "top": [
-        1,
         2,
-        4
+        4,
+        0
       ]
     },
     {
@@ -1806,49 +1806,49 @@
         "ar": "مباراة",
         "en": "matches"
       },
-      "source": "Wikipedia — La Liga records and statistics (as of 2026)",
+      "source": "Wikipedia — La Liga records and statistics, all-time appearances (accessed Nov 2026)",
       "players": [
         {
-          "name": "Raúl García",
-          "stat": 609
+          "name": "سيرجيو بوسكيتس",
+          "stat": 481
         },
         {
-          "name": "Antoine Griezmann",
-          "stat": 564
+          "name": "خوسيه رامون إسناولا",
+          "stat": 469
         },
         {
-          "name": "Eusebio Sacristán",
-          "stat": 543
+          "name": "سانتيانا",
+          "stat": 461
         },
         {
-          "name": "Dani Parejo",
-          "stat": 558
+          "name": "لورين",
+          "stat": 482
         },
         {
-          "name": "Francisco Buyo",
-          "stat": 542
+          "name": "خوسيه أنخيل إيريبار",
+          "stat": 466
         },
         {
-          "name": "Sergio Ramos",
-          "stat": 536
+          "name": "ألبرتو غوريز",
+          "stat": 461
         },
         {
-          "name": "Raúl González",
-          "stat": 550
+          "name": "دوناتو",
+          "stat": 466
         },
         {
-          "name": "Joaquín",
-          "stat": 622
+          "name": "خواكين ألونسو",
+          "stat": 479
         },
         {
-          "name": "Andoni Zubizarreta",
-          "stat": 622
+          "name": "ميغيل أنخيل نادال",
+          "stat": 463
         }
       ],
       "top": [
+        3,
         0,
-        7,
-        8
+        7
       ]
     },
     {
@@ -1924,49 +1924,49 @@
         "ar": "هدف",
         "en": "goals"
       },
-      "source": "Wikipedia — List of Serie A players with 100 or more goals (as of 2026)",
+      "source": "Wikipedia — list of Serie A players with 100+ goals (accessed Nov 2026)",
       "players": [
         {
-          "name": "Roberto Baggio",
-          "stat": 205
+          "name": "كريستيان فييري",
+          "stat": 142
         },
         {
-          "name": "Antonio Di Natale",
-          "stat": 209
+          "name": "هيرنان كريسبو",
+          "stat": 153
         },
         {
-          "name": "Ciro Immobile",
-          "stat": 201
+          "name": "فينتشنزو مونتيلا",
+          "stat": 141
         },
         {
-          "name": "Francesco Totti",
-          "stat": 250
+          "name": "عمر سيفوري",
+          "stat": 147
         },
         {
-          "name": "Alessandro Del Piero",
-          "stat": 188
+          "name": "إستفان نيرش",
+          "stat": 153
         },
         {
-          "name": "Giuseppe Signori",
-          "stat": 188
+          "name": "ماركو دي فايو",
+          "stat": 142
         },
         {
-          "name": "Gabriel Batistuta",
-          "stat": 183
+          "name": "أدريانو باسيتو",
+          "stat": 149
         },
         {
-          "name": "Fabio Quagliarella",
-          "stat": 182
+          "name": "باولو بوليتشي",
+          "stat": 142
         },
         {
-          "name": "Giuseppe Savoldi",
-          "stat": 168
+          "name": "بينيتو لورينزي",
+          "stat": 142
         }
       ],
       "top": [
-        0,
         1,
-        3
+        4,
+        6
       ]
     },
     {
@@ -2160,49 +2160,49 @@
         "ar": "هدف",
         "en": "goals"
       },
-      "source": "Wikipedia — List of Bundesliga top scorers (as of 2026)",
+      "source": "Wikipedia — list of Bundesliga top scorers (accessed Nov 2026)",
       "players": [
         {
-          "name": "Klaus Fischer",
-          "stat": 268
+          "name": "ميروسلاف كلوزه",
+          "stat": 121
         },
         {
-          "name": "Thomas Müller",
-          "stat": 150
+          "name": "رولاند فولفارث",
+          "stat": 120
         },
         {
-          "name": "Manfred Burgsmüller",
-          "stat": 213
+          "name": "راينر غاي",
+          "stat": 113
         },
         {
-          "name": "Stefan Kuntz",
-          "stat": 179
+          "name": "روني فورم",
+          "stat": 119
         },
         {
-          "name": "Ulf Kirsten",
-          "stat": 181
+          "name": "لوثار ماتيوس",
+          "stat": 121
         },
         {
-          "name": "Gerd Müller",
-          "stat": 365
+          "name": "لوثار إمريش",
+          "stat": 115
         },
         {
-          "name": "Claudio Pizarro",
-          "stat": 197
+          "name": "هربرت لاومين",
+          "stat": 121
         },
         {
-          "name": "Robert Lewandowski",
-          "stat": 312
+          "name": "بيير ليتيبارسكي",
+          "stat": 116
         },
         {
-          "name": "Dieter Müller",
-          "stat": 177
+          "name": "بيرند روب",
+          "stat": 119
         }
       ],
       "top": [
         0,
-        5,
-        7
+        4,
+        6
       ]
     },
     {
@@ -2455,49 +2455,49 @@
         "ar": "هدف",
         "en": "goals"
       },
-      "source": "Wikipedia — List of Ligue 1 top scorers (as of 2026)",
+      "source": "Wikipedia — list of Ligue 1 top scorers (accessed Nov 2026)",
       "players": [
         {
-          "name": "Kylian Mbappé",
-          "stat": 191
+          "name": "لوسيان كوسو",
+          "stat": 149
         },
         {
-          "name": "Delio Onnis",
-          "stat": 299
+          "name": "ميشيل بلاتيني",
+          "stat": 139
         },
         {
-          "name": "Carlos Bianchi",
-          "stat": 179
+          "name": "يوسيب سكوبلار",
+          "stat": 151
         },
         {
-          "name": "Bernard Lacombe",
-          "stat": 255
+          "name": "إدينسون كافاني",
+          "stat": 138
         },
         {
-          "name": "Alain Giresse",
-          "stat": 163
+          "name": "دومينيك روشتو",
+          "stat": 145
         },
         {
-          "name": "Alexandre Lacazette",
-          "stat": 161
+          "name": "إيفون دوا",
+          "stat": 140
         },
         {
-          "name": "Wissam Ben Yedder",
-          "stat": 161
+          "name": "رشيد مخلوفي",
+          "stat": 143
         },
         {
-          "name": "Jean-Pierre Papin",
-          "stat": 156
+          "name": "ستيفان بروي",
+          "stat": 139
         },
         {
-          "name": "Jacky Vergnes",
-          "stat": 153
+          "name": "باوليتا",
+          "stat": 141
         }
       ],
       "top": [
+        2,
         0,
-        1,
-        3
+        4
       ]
     },
     {
@@ -2750,49 +2750,49 @@
         "ar": "هدف",
         "en": "goals"
       },
-      "source": "Wikipedia — List of FIFA World Cup top goalscorers (as of 19 July 2026)",
+      "source": "Wikipedia — list of FIFA World Cup top goalscorers (accessed Nov 2026)",
       "players": [
         {
-          "name": "Harry Kane",
-          "stat": 14
-        },
-        {
-          "name": "Kylian Mbappé",
-          "stat": 22
-        },
-        {
-          "name": "Lionel Messi",
-          "stat": 21
-        },
-        {
-          "name": "Miroslav Klose",
-          "stat": 16
-        },
-        {
-          "name": "Jürgen Klinsmann",
-          "stat": 11
-        },
-        {
-          "name": "Ronaldo Nazário",
-          "stat": 15
-        },
-        {
-          "name": "Gerd Müller",
-          "stat": 14
-        },
-        {
-          "name": "Cristiano Ronaldo",
-          "stat": 11
-        },
-        {
-          "name": "Gabriel Batistuta",
+          "name": "غاري لينيكر",
           "stat": 10
+        },
+        {
+          "name": "بيليه",
+          "stat": 12
+        },
+        {
+          "name": "يورغن كلينسمان",
+          "stat": 11
+        },
+        {
+          "name": "جاست فونتين",
+          "stat": 13
+        },
+        {
+          "name": "غابرييل باتيستوتا",
+          "stat": 10
+        },
+        {
+          "name": "هاري كين",
+          "stat": 14
+        },
+        {
+          "name": "ساندور كوتشيش",
+          "stat": 11
+        },
+        {
+          "name": "هيلموت راهن",
+          "stat": 10
+        },
+        {
+          "name": "كريستيانو رونالدو",
+          "stat": 11
         }
       ],
       "top": [
-        1,
-        2,
-        3
+        5,
+        3,
+        1
       ]
     },
     {
