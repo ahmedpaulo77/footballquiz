@@ -5100,6 +5100,363 @@
         2,
         4
       ]
+    },
+    {
+      "id": "egypt-tallest-01",
+      "category": {
+        "ar": "أطول لاعيبة مصر",
+        "en": "Tallest Egyptian players"
+      },
+      "question": {
+        "ar": "مين أطول ٣ لاعبين من التسعة دول؟",
+        "en": "Which 3 are the tallest among these nine?"
+      },
+      "unit": {
+        "ar": "سم",
+        "en": "cm"
+      },
+      "source": "SSFA Online — player heights (accessed Nov 2026)",
+      "players": [
+        {
+          "name": "عمرو زكي",
+          "stat": 186
+        },
+        {
+          "name": "محمد النني",
+          "stat": 179
+        },
+        {
+          "name": "أحمد شوبير",
+          "stat": 186
+        },
+        {
+          "name": "عبد الظاهر السقا",
+          "stat": 184
+        },
+        {
+          "name": "أحمد حسام ميدو",
+          "stat": 188
+        },
+        {
+          "name": "وائل جمعة",
+          "stat": 183
+        },
+        {
+          "name": "هاني رمزي",
+          "stat": 185
+        },
+        {
+          "name": "أحمد فتحي",
+          "stat": 178
+        },
+        {
+          "name": "مصطفى محمد",
+          "stat": 185
+        }
+      ],
+      "top": [
+        4,
+        0,
+        2
+      ]
+    },
+    {
+      "id": "egypt-shortest-01",
+      "category": {
+        "ar": "أقصر لاعيبة مصر",
+        "en": "Shortest Egyptian players"
+      },
+      "question": {
+        "ar": "مين أقصر ٣ لاعبين من التسعة دول؟",
+        "en": "Which 3 are the shortest among these nine?"
+      },
+      "unit": {
+        "ar": "سم",
+        "en": "cm"
+      },
+      "source": "SSFA Online — player heights (accessed Nov 2026)",
+      "asc": true,
+      "players": [
+        {
+          "name": "محمد بركات",
+          "stat": 172
+        },
+        {
+          "name": "عبد الله السعيد",
+          "stat": 176
+        },
+        {
+          "name": "حسني عبد ربه",
+          "stat": 175
+        },
+        {
+          "name": "محمد إبراهيم",
+          "stat": 173
+        },
+        {
+          "name": "عماد متعب",
+          "stat": 176
+        },
+        {
+          "name": "وليد سليمان",
+          "stat": 176
+        },
+        {
+          "name": "أحمد فتحي",
+          "stat": 178
+        },
+        {
+          "name": "محمد النني",
+          "stat": 179
+        },
+        {
+          "name": "وائل جمعة",
+          "stat": 183
+        }
+      ],
+      "top": [
+        0,
+        3,
+        2
+      ]
+    },
+    {
+      "id": "epl-apps-mid-01",
+      "category": {
+        "ar": "أكتر مباريات في الدوري المصري",
+        "en": "Egyptian Premier League appearances"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لعبوا مباريات في الدوري المصري من التسعة دول؟",
+        "en": "Which 3 played the most Egyptian Premier League matches among these nine?"
+      },
+      "unit": {
+        "ar": "مباراة",
+        "en": "matches"
+      },
+      "source": "Transfermarkt — Egyptian Premier League all-time appearances (accessed Nov 2026)",
+      "players": [
+        {
+          "name": "عمرو السولية",
+          "stat": 361
+        },
+        {
+          "name": "إسلام محارب",
+          "stat": 327
+        },
+        {
+          "name": "محمد بسام",
+          "stat": 346
+        },
+        {
+          "name": "أحمد الشناوي",
+          "stat": 323
+        },
+        {
+          "name": "عامر عامر",
+          "stat": 343
+        },
+        {
+          "name": "أسامة عزب",
+          "stat": 322
+        },
+        {
+          "name": "رجب نبيل",
+          "stat": 338
+        },
+        {
+          "name": "محمد إبراهيم",
+          "stat": 321
+        },
+        {
+          "name": "أحمد سامي",
+          "stat": 320
+        }
+      ],
+      "top": [
+        0,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "epl-apps-few-01",
+      "category": {
+        "ar": "أقل مباريات في الدوري المصري",
+        "en": "Fewest Egyptian league appearances"
+      },
+      "question": {
+        "ar": "مين أقل ٣ لعبوا مباريات في الدوري المصري من التسعة دول؟",
+        "en": "Which 3 played the fewest Egyptian Premier League matches among these nine?"
+      },
+      "unit": {
+        "ar": "مباراة",
+        "en": "matches"
+      },
+      "source": "Wikipedia — player career statistics, league apps only (accessed Nov 2026)",
+      "asc": true,
+      "players": [
+        {
+          "name": "عمرو زكي",
+          "stat": 172
+        },
+        {
+          "name": "عمر مرموش",
+          "stat": 16
+        },
+        {
+          "name": "محمد بركات",
+          "stat": 249
+        },
+        {
+          "name": "محمد النني",
+          "stat": 35
+        },
+        {
+          "name": "أحمد حسام ميدو",
+          "stat": 18
+        },
+        {
+          "name": "أحمد حجازي",
+          "stat": 68
+        },
+        {
+          "name": "حسام غالي",
+          "stat": 152
+        },
+        {
+          "name": "عماد متعب",
+          "stat": 187
+        },
+        {
+          "name": "مصطفى محمد",
+          "stat": 101
+        }
+      ],
+      "top": [
+        1,
+        4,
+        3
+      ]
+    },
+    {
+      "id": "egypt-caps-mid-01",
+      "category": {
+        "ar": "أكتر مباريات مع منتخب مصر",
+        "en": "Egypt national team caps"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لعبوا مباريات دولية مع مصر من التسعة دول؟",
+        "en": "Which 3 won the most caps for Egypt among these nine?"
+      },
+      "unit": {
+        "ar": "مباراة دولية",
+        "en": "caps"
+      },
+      "source": "Wikipedia — Egypt caps in player infoboxes (accessed Nov 2026)",
+      "players": [
+        {
+          "name": "عبد الظاهر السقا",
+          "stat": 112
+        },
+        {
+          "name": "محمد أبو تريكة",
+          "stat": 100
+        },
+        {
+          "name": "محمد النني",
+          "stat": 108
+        },
+        {
+          "name": "هادي خشبة",
+          "stat": 93
+        },
+        {
+          "name": "نادر السيد",
+          "stat": 110
+        },
+        {
+          "name": "أحمد المحمدي",
+          "stat": 92
+        },
+        {
+          "name": "حسني عبد ربه",
+          "stat": 102
+        },
+        {
+          "name": "أحمد حجازي",
+          "stat": 88
+        },
+        {
+          "name": "حازم إمام",
+          "stat": 87
+        }
+      ],
+      "top": [
+        0,
+        4,
+        2
+      ]
+    },
+    {
+      "id": "egypt-caps-few-01",
+      "category": {
+        "ar": "أقل مباريات دولية مع مصر",
+        "en": "Fewest Egypt caps"
+      },
+      "question": {
+        "ar": "مين أقل ٣ لعبوا مباريات دولية مع مصر من التسعة دول؟",
+        "en": "Which 3 won the fewest caps for Egypt among these nine?"
+      },
+      "unit": {
+        "ar": "مباراة دولية",
+        "en": "caps"
+      },
+      "source": "Wikipedia — Egypt caps in player infoboxes (accessed Nov 2026)",
+      "asc": true,
+      "players": [
+        {
+          "name": "شيكابالا",
+          "stat": 32
+        },
+        {
+          "name": "محمد زيدان",
+          "stat": 41
+        },
+        {
+          "name": "عمرو زكي",
+          "stat": 63
+        },
+        {
+          "name": "علي جبر",
+          "stat": 40
+        },
+        {
+          "name": "أحمد حسام ميدو",
+          "stat": 51
+        },
+        {
+          "name": "عماد متعب",
+          "stat": 70
+        },
+        {
+          "name": "محمد بركات",
+          "stat": 70
+        },
+        {
+          "name": "مصطفى محمد",
+          "stat": 61
+        },
+        {
+          "name": "محمد أبو تريكة",
+          "stat": 100
+        }
+      ],
+      "top": [
+        0,
+        3,
+        1
+      ]
     }
   ]
 }

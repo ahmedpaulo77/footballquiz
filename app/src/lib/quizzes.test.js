@@ -380,9 +380,9 @@ describe('لعبة «توب 3»', () => {
     expect(QUIZZES[4].id).toBe('top-three');
   });
 
-  it('فيها ٨٦ سؤال و٨ أسئلة في الجولة و٣ اختيارات', () => {
-    expect(arQuiz.questions).toHaveLength(86);
-    expect(enQuiz.questions).toHaveLength(86);
+  it('فيها ٩٢ سؤال و٨ أسئلة في الجولة و٣ اختيارات', () => {
+    expect(arQuiz.questions).toHaveLength(92);
+    expect(enQuiz.questions).toHaveLength(92);
     expect(arQuiz.questionsPerGame).toBe(8);
     expect(arQuiz.picksCount).toBe(3);
   });
