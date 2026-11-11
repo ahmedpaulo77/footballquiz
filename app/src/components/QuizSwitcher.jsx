@@ -1,20 +1,29 @@
-/** أزرار اختيار اللعبة — بتظهر بس لو فيه أكتر من لعبة. */
-export default function QuizSwitcher({ quizzes, activeId, ariaLabel, onChange }) {
+/** صفحة كل لعبة — كل لعبة ليها URL مستقل عشان الزيارات والإعلانات. */
+const QUIZ_PATHS = {
+  'who-am-i': './',
+  paths: './paths.html',
+  risk: './risk.html',
+  'one-question': './one-question.html',
+  'top-three': './top-three.html',
+  lineups: './lineups.html',
+};
+
+/** لينكات اختيار اللعبة — بتظهر بس لو فيه أكتر من لعبة. */
+export default function QuizSwitcher({ quizzes, activeId, ariaLabel }) {
   if (quizzes.length < 2) return null;
 
   return (
     <nav className="quiz-tabs" aria-label={ariaLabel}>
       {quizzes.map((quiz) => (
-        <button
+        <a
           key={quiz.id}
-          type="button"
+          href={QUIZ_PATHS[quiz.id] ?? './'}
           className={`quiz-tab ${quiz.id === activeId ? 'is-active' : ''}`}
-          aria-pressed={quiz.id === activeId}
-          onClick={() => onChange(quiz.id)}
+          aria-current={quiz.id === activeId ? 'page' : undefined}
         >
           <span aria-hidden="true">{quiz.emoji}</span>
           {quiz.title}
-        </button>
+        </a>
       ))}
     </nav>
   );

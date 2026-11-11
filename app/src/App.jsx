@@ -12,6 +12,8 @@ import Top3Game from './components/Top3Game.jsx';
 import LineupGame from './components/LineupGame.jsx';
 import TeamSetup from './components/TeamSetup.jsx';
 import TeamScoreboard from './components/TeamScoreboard.jsx';
+import PrivacyPolicy from './components/PrivacyPolicy.jsx';
+import AboutPage from './components/AboutPage.jsx';
 import { getQuiz, getQuizzes, pickQuestion } from './lib/quizzes.js';
 import { getUi } from './lib/i18n.js';
 import { addTeamPoints, resolveTeamNames } from './lib/teams.js';
@@ -21,14 +23,12 @@ import {
   hasSeenHelp,
   hasTeamSetup,
   loadLang,
-  loadQuizId,
   loadScores,
   loadTeamNames,
   loadTheme,
   markHelpSeen,
   markTeamSetupSeen,
   saveLang,
-  saveQuizId,
   saveScores,
   saveTeamNames,
   saveTheme,
@@ -47,12 +47,11 @@ function fill(template, values) {
 /** الألعاب اللي بتدير أسئلتها بنفسها من غير اختيار سؤال واحد. */
 const SELF_PACED_KINDS = new Set(['risk', 'points', 'top3', 'lineups']);
 
-export default function App() {
+export default function App({ initialQuizId = 'who-am-i' }) {
   const [lang, setLang] = useState(() => loadLang());
   const [theme, setTheme] = useState(() => loadTheme());
-  const [quizId, setQuizId] = useState(() => getQuiz(loadQuizId()).id);
   const [questionId, setQuestionId] = useState(() => {
-    const initialQuiz = getQuiz(loadQuizId());
+    const initialQuiz = getQuiz(initialQuizId);
     return SELF_PACED_KINDS.has(initialQuiz.kind)
       ? null
       : pickQuestion(initialQuiz)?.id ?? null;
@@ -72,7 +71,7 @@ export default function App() {
   const ui = getUi(lang);
   const teamNames = resolveTeamNames(teams, lang);
   const quizzes = getQuizzes(lang);
-  const quiz = getQuiz(quizId, lang);
+  const quiz = getQuiz(initialQuizId, lang);
   const isRisk = quiz.kind === 'risk';
   const isPoints = quiz.kind === 'points';
   const isTop3 = quiz.kind === 'top3';
@@ -118,25 +117,6 @@ export default function App() {
     setQuestionAward(null);
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [quiz, question?.id, recent]);
-
-  const chooseQuiz = useCallback(
-    (nextId) => {
-      if (nextId === quiz.id) return;
-
-      const nextQuiz = getQuiz(nextId, lang);
-      setQuizId(nextQuiz.id);
-      setQuestionId(
-        SELF_PACED_KINDS.has(nextQuiz.kind)
-          ? null
-          : pickQuestion(nextQuiz)?.id ?? null,
-      );
-      setRevealed(false);
-      setQuestionAward(null);
-      saveQuizId(nextQuiz.id);
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    },
-    [quiz.id, lang],
-  );
 
   const toggleAnswer = useCallback(() => {
     setRevealed((current) => !current);
@@ -225,7 +205,6 @@ export default function App() {
         quizzes={quizzes}
         activeId={quiz.id}
         ariaLabel={ui.quizNav}
-        onChange={chooseQuiz}
       />
 
       <main className="stage">
@@ -366,8 +345,23 @@ export default function App() {
       </main>
 
       <footer className="site-footer">
-        <p>{ui.footerData}</p>
         <p>{ui.footerTitle}</p>
+        <div className="site-footer-links">
+          <button
+            type="button"
+            className="site-footer-link"
+            onClick={() => setModal('about')}
+          >
+            {lang === 'ar' ? 'عن الموقع' : 'About'}
+          </button>
+          <button
+            type="button"
+            className="site-footer-link"
+            onClick={() => setModal('privacy')}
+          >
+            {lang === 'ar' ? 'سياسة الخصوصية' : 'Privacy Policy'}
+          </button>
+        </div>
       </footer>
 
       <HowToPlay open={modal === 'help'} ui={ui} onClose={closeHelp} />
@@ -386,6 +380,18 @@ export default function App() {
         onSave={saveTeams}
         onClose={closeTeams}
         onResetScores={resetScores}
+      />
+
+      <PrivacyPolicy
+        open={modal === 'privacy'}
+        lang={lang}
+        onClose={() => setModal(null)}
+      />
+
+      <AboutPage
+        open={modal === 'about'}
+        lang={lang}
+        onClose={() => setModal(null)}
       />
     </div>
   );

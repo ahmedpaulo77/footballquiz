@@ -20,5 +20,16 @@ export default defineConfig({
     outDir: '../dist',
     emptyOutDir: true,
     sourcemap: false,
+    rollupOptions: {
+      input: {
+        // كل لعبة ليها صفحة HTML مستقلة = إعلانات جديدة عند كل انتقال
+        main: 'app/index.html',
+        paths: 'app/paths.html',
+        risk: 'app/risk.html',
+        'one-question': 'app/one-question.html',
+        'top-three': 'app/top-three.html',
+        lineups: 'app/lineups.html',
+      },
+    },
   },
 });
