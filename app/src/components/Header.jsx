@@ -5,12 +5,35 @@ export default function Header({
   onToggleTheme,
   onToggleLang,
   onOpenHelp,
+  onGoHome,
 }) {
+  function handleHomeClick(e) {
+    e.preventDefault();
+    if (!onGoHome) {
+      window.location.href = './index.html';
+      return;
+    }
+    const confirmMsg =
+      ui.dir === 'rtl'
+        ? 'هتخرج من اللعبة وترجع للصفحة الرئيسية — متأكد؟'
+        : 'You will leave the game and go to the home page — are you sure?';
+    if (window.confirm(confirmMsg)) {
+      window.location.href = './index.html';
+    }
+  }
+
   return (
     <header className="topbar">
       <div className="brand">
         <div className="brand-text">
-          <h1>{title}</h1>
+          <a
+            href="./index.html"
+            className="brand-link"
+            onClick={handleHomeClick}
+            aria-label={ui.dir === 'rtl' ? 'الصفحة الرئيسية' : 'Home'}
+          >
+            <h1>{title}</h1>
+          </a>
         </div>
       </div>
 

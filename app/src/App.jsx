@@ -82,6 +82,12 @@ export default function App({ initialQuizId = 'who-am-i' }) {
     : quiz.questions.find((item) => item.id === questionId) ?? quiz.questions[0];
   const tip = ui.tips[quiz.kind] ?? ui.tips.clues;
 
+  /** اللعبة "بدأت" لو فيه نقاط أو سؤال اتكشف — يعني يستاهل confirm */
+  const gameInProgress =
+    scores.some((s) => s > 0) ||
+    revealed ||
+    Object.keys(lineupAwards).length > 0;
+
   useEffect(() => {
     cleanupLegacyStorage();
   }, []);
@@ -199,6 +205,7 @@ export default function App({ initialQuizId = 'who-am-i' }) {
         onToggleTheme={() => setTheme((current) => (current === 'dark' ? 'light' : 'dark'))}
         onToggleLang={toggleLang}
         onOpenHelp={() => setModal('help')}
+        onGoHome={gameInProgress ? true : null}
       />
 
       <QuizSwitcher

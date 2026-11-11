@@ -4194,3 +4194,22 @@ button:focus-visible {
   line-height: 1.65;
   color: var(--muted);
 }
+
+/* ── لينك الهوم في الهيدر ────────────────────────────────────────── */
+
+.brand-link {
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  border-radius: 10px;
+  transition: opacity 0.2s ease;
+}
+
+.brand-link:hover {
+  opacity: 0.82;
+}
+
+.brand-link:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 4px;
+}
