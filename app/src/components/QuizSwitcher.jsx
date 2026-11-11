@@ -1,6 +1,6 @@
 /** صفحة كل لعبة — كل لعبة ليها URL مستقل عشان الزيارات والإعلانات. */
 const QUIZ_PATHS = {
-  'who-am-i': './',
+  'who-am-i': './who-am-i.html',
   paths: './paths.html',
   risk: './risk.html',
   'one-question': './one-question.html',

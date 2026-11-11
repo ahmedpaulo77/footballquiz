@@ -22,8 +22,10 @@ export default defineConfig({
     sourcemap: false,
     rollupOptions: {
       input: {
-        // كل لعبة ليها صفحة HTML مستقلة = إعلانات جديدة عند كل انتقال
+        // الهوم بيدج — أول ما يخش يشوف كل الألعاب
         index: 'app/index.html',
+        // كل لعبة ليها صفحة HTML مستقلة = إعلانات جديدة عند كل انتقال
+        'who-am-i': 'app/who-am-i.html',
         paths: 'app/paths.html',
         risk: 'app/risk.html',
         'one-question': 'app/one-question.html',
