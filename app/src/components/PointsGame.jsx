@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import TeamScoreboard from './TeamScoreboard.jsx';
+import GulfToggle from './GulfToggle.jsx';
+import { selectGulfPool } from '../lib/gulf.js';
 import {
   DEFAULT_POINTS,
   DEFAULT_ROUNDS,
@@ -39,15 +41,17 @@ export default function PointsGame({
   const labels = ui.points;
   const letters = OPTION_LETTERS[lang] ?? OPTION_LETTERS.ar;
 
+  const [gulfMode, setGulfMode] = useState(false);
+  const pool = selectGulfPool(quiz.questions, gulfMode);
   const pointsPerQuestion = quiz.pointsPerQuestion ?? DEFAULT_POINTS;
   const rounds = Math.min(
     quiz.questionsPerGame ?? DEFAULT_ROUNDS,
-    quiz.questions.length,
+    pool.length,
   );
 
   const [round, setRound] = useState(0);
   const [questionIds, setQuestionIds] = useState(() =>
-    pickQuestions(quiz.questions, rounds).map((question) => question.id),
+    pickQuestions(pool, rounds).map((question) => question.id),
   );
   const [splits, setSplits] = useState(() => [createSplit(), createSplit()]);
   const [activeTeam, setActiveTeam] = useState(0);
@@ -184,9 +188,9 @@ export default function PointsGame({
     }
 
     const used = new Set(questionIds);
-    const pool = quiz.questions.filter((item) => !used.has(item.id));
+    const remainingPool = pool.filter((item) => !used.has(item.id));
     const [nextQuestion] = pickQuestions(
-      pool.length > 0 ? pool : quiz.questions,
+      remainingPool.length > 0 ? remainingPool : pool,
       1,
     );
 
@@ -201,8 +205,24 @@ export default function PointsGame({
   }
 
   function resetGame() {
-    const nextQuestions = pickQuestions(quiz.questions, rounds);
+    const nextQuestions = pickQuestions(pool, rounds);
 
+    setRound(0);
+    setQuestionIds(nextQuestions.map((item) => item.id));
+    setFinished(false);
+    resetRoundState();
+  }
+
+  /** بيبدّل بين أسئلة 100 نقطة العامة وأسئلة «الكرة الخليجية» ويبدأ جولة جديدة. */
+  function toggleGulf() {
+    const next = !gulfMode;
+    const nextPool = selectGulfPool(quiz.questions, next);
+    const nextQuestions = pickQuestions(
+      nextPool,
+      Math.min(quiz.questionsPerGame ?? DEFAULT_ROUNDS, nextPool.length),
+    );
+
+    setGulfMode(next);
     setRound(0);
     setQuestionIds(nextQuestions.map((item) => item.id));
     setFinished(false);
@@ -225,6 +245,7 @@ export default function PointsGame({
 
   return (
     <section className="points-game" aria-label={labels.boardAria}>
+      <GulfToggle ui={ui} active={gulfMode} onToggle={toggleGulf} />
       <TeamScoreboard
         names={teamNames}
         scores={scores}

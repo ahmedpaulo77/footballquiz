@@ -1,6 +1,8 @@
 import { useState } from 'react';
 import Modal from './Modal.jsx';
 import TeamScoreboard from './TeamScoreboard.jsx';
+import GulfToggle from './GulfToggle.jsx';
+import { selectGulfPool } from '../lib/gulf.js';
 import { pointsForMatch } from '../lib/lineups.js';
 
 const DIFFICULTIES = ['easy', 'medium', 'hard'];
@@ -74,12 +76,19 @@ export default function LineupGame({
   const matches = quiz.matches ?? [];
 
   const [difficulty, setDifficulty] = useState('all');
+  const [gulfMode, setGulfMode] = useState(false);
   const [selectedId, setSelectedId] = useState(null);
 
+  const modePool = selectGulfPool(matches, gulfMode);
   const filtered =
     difficulty === 'all'
-      ? matches
-      : matches.filter((match) => match.difficulty === difficulty);
+      ? modePool
+      : modePool.filter((match) => match.difficulty === difficulty);
+
+  function toggleGulf() {
+    setGulfMode((current) => !current);
+    setSelectedId(null);
+  }
 
   const selected = matches.find((match) => match.id === selectedId) ?? null;
   const award = selected ? awards?.[selected.id] ?? null : null;
@@ -92,6 +101,7 @@ export default function LineupGame({
 
   return (
     <section className="lineup-game" aria-label={labels.boardAria}>
+      <GulfToggle ui={ui} active={gulfMode} onToggle={toggleGulf} />
       <TeamScoreboard
         names={teamNames}
         scores={scores}

@@ -1,5 +1,7 @@
 import { useState } from 'react';
 import TeamScoreboard from './TeamScoreboard.jsx';
+import GulfToggle from './GulfToggle.jsx';
+import { selectGulfPool } from '../lib/gulf.js';
 import { pickQuestions, winnerIndex } from '../lib/points.js';
 import {
   BONUS_ALL_CORRECT,
@@ -26,15 +28,17 @@ export default function Top3Game({
 }) {
   const labels = ui.top3;
 
+  const [gulfMode, setGulfMode] = useState(false);
+  const pool = selectGulfPool(quiz.questions, gulfMode);
   const picksCount = quiz.picksCount ?? DEFAULT_PICKS;
   const rounds = Math.min(
     quiz.questionsPerGame ?? 8,
-    quiz.questions.length,
+    pool.length,
   );
 
   const [round, setRound] = useState(0);
   const [questionIds, setQuestionIds] = useState(() =>
-    pickQuestions(quiz.questions, rounds).map((question) => question.id),
+    pickQuestions(pool, rounds).map((question) => question.id),
   );
   const [picks, setPicks] = useState(() => [[], []]);
   const [activeTeam, setActiveTeam] = useState(0);
@@ -125,9 +129,9 @@ export default function Top3Game({
     }
 
     const used = new Set(questionIds);
-    const pool = quiz.questions.filter((item) => !used.has(item.id));
+    const remainingPool = pool.filter((item) => !used.has(item.id));
     const [nextQuestion] = pickQuestions(
-      pool.length > 0 ? pool : quiz.questions,
+      remainingPool.length > 0 ? remainingPool : pool,
       1,
     );
 
@@ -142,8 +146,24 @@ export default function Top3Game({
   }
 
   function resetGame() {
-    const nextQuestions = pickQuestions(quiz.questions, rounds);
+    const nextQuestions = pickQuestions(pool, rounds);
 
+    setRound(0);
+    setQuestionIds(nextQuestions.map((item) => item.id));
+    setFinished(false);
+    resetRoundState();
+  }
+
+  /** بيبدّل بين أسئلة توب 3 العامة وأسئلة «الكرة الخليجية» ويبدأ جولة جديدة. */
+  function toggleGulf() {
+    const next = !gulfMode;
+    const nextPool = selectGulfPool(quiz.questions, next);
+    const nextQuestions = pickQuestions(
+      nextPool,
+      Math.min(quiz.questionsPerGame ?? 8, nextPool.length),
+    );
+
+    setGulfMode(next);
     setRound(0);
     setQuestionIds(nextQuestions.map((item) => item.id));
     setFinished(false);
@@ -166,6 +186,7 @@ export default function Top3Game({
 
   return (
     <section className="top3-game" aria-label={labels.boardAria}>
+      <GulfToggle ui={ui} active={gulfMode} onToggle={toggleGulf} />
       <TeamScoreboard
         names={teamNames}
         scores={scores}

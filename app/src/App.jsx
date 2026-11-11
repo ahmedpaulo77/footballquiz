@@ -11,6 +11,7 @@ import PointsGame from './components/PointsGame.jsx';
 import Top3Game from './components/Top3Game.jsx';
 import LineupGame from './components/LineupGame.jsx';
 import TeamSetup from './components/TeamSetup.jsx';
+import GulfToggle from './components/GulfToggle.jsx';
 import TeamScoreboard from './components/TeamScoreboard.jsx';
 import PrivacyPolicy from './components/PrivacyPolicy.jsx';
 import AboutPage from './components/AboutPage.jsx';
@@ -18,6 +19,7 @@ import { getQuiz, getQuizzes, pickQuestion } from './lib/quizzes.js';
 import { getUi } from './lib/i18n.js';
 import { addTeamPoints, resolveTeamNames } from './lib/teams.js';
 import { pointsForMatch } from './lib/lineups.js';
+import { selectGulfPool } from './lib/gulf.js';
 import {
   cleanupLegacyStorage,
   hasSeenHelp,
@@ -52,10 +54,11 @@ export default function App({ initialQuizId = 'who-am-i' }) {
   const [theme, setTheme] = useState(() => loadTheme());
   const [questionId, setQuestionId] = useState(() => {
     const initialQuiz = getQuiz(initialQuizId);
-    return SELF_PACED_KINDS.has(initialQuiz.kind)
-      ? null
-      : pickQuestion(initialQuiz)?.id ?? null;
+    if (SELF_PACED_KINDS.has(initialQuiz.kind)) return null;
+    const pool = selectGulfPool(initialQuiz.questions, false);
+    return pickQuestion({ ...initialQuiz, questions: pool })?.id ?? null;
   });
+  const [gulfMode, setGulfMode] = useState(false);
   const [recent, setRecent] = useState({});
   const [revealed, setRevealed] = useState(false);
   const [teams, setTeams] = useState(() => loadTeamNames());
@@ -77,9 +80,10 @@ export default function App({ initialQuizId = 'who-am-i' }) {
   const isTop3 = quiz.kind === 'top3';
   const isLineups = quiz.kind === 'lineups';
   const isSelfPaced = SELF_PACED_KINDS.has(quiz.kind);
+  const playableQuestions = isSelfPaced ? [] : selectGulfPool(quiz.questions, gulfMode);
   const question = isSelfPaced
     ? null
-    : quiz.questions.find((item) => item.id === questionId) ?? quiz.questions[0];
+    : playableQuestions.find((item) => item.id === questionId) ?? playableQuestions[0] ?? null;
   const tip = ui.tips[quiz.kind] ?? ui.tips.clues;
 
   /** اللعبة "بدأت" لو فيه نقاط أو سؤال اتكشف — يعني يستاهل confirm */
@@ -110,9 +114,10 @@ export default function App({ initialQuizId = 'who-am-i' }) {
   }, [lang, ui.brand, ui.dir, quiz.title]);
 
   const nextQuestion = useCallback(() => {
+    const pool = selectGulfPool(quiz.questions, gulfMode);
     const used = recent[quiz.id] ?? [];
     const excludeIds = [...used, question?.id].filter(Boolean);
-    const next = pickQuestion(quiz, { excludeIds });
+    const next = pickQuestion({ ...quiz, questions: pool }, { excludeIds });
 
     setQuestionId(next?.id ?? null);
     setRecent((current) => ({
@@ -122,11 +127,26 @@ export default function App({ initialQuizId = 'who-am-i' }) {
     setRevealed(false);
     setQuestionAward(null);
     window.scrollTo({ top: 0, behavior: 'smooth' });
-  }, [quiz, question?.id, recent]);
+  }, [quiz, question?.id, recent, gulfMode]);
 
   const toggleAnswer = useCallback(() => {
     setRevealed((current) => !current);
   }, []);
+
+  /** بيبدّل المسار بين الأسئلة العامة وأسئلة «الكرة الخليجية» وبيجيب سؤال جديد فورًا. */
+  const toggleGulf = useCallback(() => {
+    setGulfMode((current) => {
+      const next = !current;
+      const pool = selectGulfPool(quiz.questions, next);
+      const nextPick = pickQuestion({ ...quiz, questions: pool });
+
+      setQuestionId(nextPick?.id ?? null);
+      setRevealed(false);
+      setQuestionAward(null);
+      return next;
+    });
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }, [quiz]);
 
   const toggleLang = useCallback(() => {
     setLang((current) => (current === 'ar' ? 'en' : 'ar'));
@@ -264,8 +284,14 @@ export default function App({ initialQuizId = 'who-am-i' }) {
             onUndoAward={undoLineupAward}
             onEditTeams={() => setModal('teams')}
           />
+        ) : !question ? (
+          <p className="controls-hint">{ui.gulfToggle.empty}</p>
         ) : (
           <>
+            {quiz.kind === 'path' ? (
+              <GulfToggle ui={ui} active={gulfMode} onToggle={toggleGulf} />
+            ) : null}
+
             {quiz.kind === 'clues' ? (
               <button
                 type="button"

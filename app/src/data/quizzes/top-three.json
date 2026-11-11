@@ -5457,6 +5457,616 @@
         3,
         1
       ]
+    },
+    {
+      "id": "gulf-ksa-goals",
+      "category": {
+        "ar": "المنتخب السعودي",
+        "en": "Saudi Arabia"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين سعوديين سجيلين في تاريخ المنتخب الأخضر؟",
+        "en": "Which 3 players scored the most goals for Saudi Arabia?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "RSSSF — Saudi Arabia, Record International Players (accessed Nov 2026)",
+      "top": [
+        0,
+        3,
+        6
+      ],
+      "asc": false,
+      "gulf": true,
+      "players": [
+        {
+          "name": "سامي الجابر",
+          "stat": 46
+        },
+        {
+          "name": "محمد السهلاوي",
+          "stat": 28
+        },
+        {
+          "name": "يوسف الثنيان",
+          "stat": 20
+        },
+        {
+          "name": "ياسر القحطاني",
+          "stat": 42
+        },
+        {
+          "name": "خالد المولد",
+          "stat": 28
+        },
+        {
+          "name": "نواف العابد",
+          "stat": 8
+        },
+        {
+          "name": "عبيد الدوسري",
+          "stat": 41
+        },
+        {
+          "name": "طلال المشيعل",
+          "stat": 32
+        },
+        {
+          "name": "سالم الدوسري",
+          "stat": 27
+        }
+      ]
+    },
+    {
+      "id": "gulf-uae-goals",
+      "category": {
+        "ar": "المنتخب الإماراتي",
+        "en": "United Arab Emirates"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين أهدافًا للمنتخب الإماراتي عبر التاريخ؟",
+        "en": "Which 3 players scored the most goals for the UAE?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "RSSSF — United Arab Emirates, Record International Players (accessed Nov 2026)",
+      "top": [
+        1,
+        2,
+        4
+      ],
+      "asc": false,
+      "gulf": true,
+      "players": [
+        {
+          "name": "إسماعيل مطر",
+          "stat": 36
+        },
+        {
+          "name": "عدنان الطلياني",
+          "stat": 52
+        },
+        {
+          "name": "علي مبخوت",
+          "stat": 85
+        },
+        {
+          "name": "محمد الشدادي",
+          "stat": 29
+        },
+        {
+          "name": "أحمد خليل",
+          "stat": 48
+        },
+        {
+          "name": "زهير بخيت",
+          "stat": 27
+        },
+        {
+          "name": "عمر أحمد",
+          "stat": 28
+        },
+        {
+          "name": "عبد الرازق إبراهيم",
+          "stat": 10
+        },
+        {
+          "name": "عمر عبدالرحمن",
+          "stat": 11
+        }
+      ]
+    },
+    {
+      "id": "gulf-qat-goals",
+      "category": {
+        "ar": "المنتخب القطري",
+        "en": "Qatar"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين أهدافًا للمنتخب القطري عبر التاريخ؟",
+        "en": "Which 3 players scored the most goals for Qatar?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "RSSSF — Qatar, Record International Players (accessed Nov 2026)",
+      "top": [
+        0,
+        2,
+        3
+      ],
+      "asc": false,
+      "gulf": true,
+      "players": [
+        {
+          "name": "حسن الهيدوس",
+          "stat": 42
+        },
+        {
+          "name": "خلفان إبراهيم",
+          "stat": 21
+        },
+        {
+          "name": "أكرم عفيف",
+          "stat": 41
+        },
+        {
+          "name": "المعز علي",
+          "stat": 60
+        },
+        {
+          "name": "أندريس سوريا",
+          "stat": 39
+        },
+        {
+          "name": "محمود صوفي",
+          "stat": 31
+        },
+        {
+          "name": "محمد سالم النعزي",
+          "stat": 34
+        },
+        {
+          "name": "بوعلام خوخي",
+          "stat": 21
+        },
+        {
+          "name": "عبد الكريم حسن",
+          "stat": 15
+        }
+      ]
+    },
+    {
+      "id": "gulf-kuw-goals",
+      "category": {
+        "ar": "المنتخب الكويتي",
+        "en": "Kuwait"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين أهدافًا للمنتخب الكويتي عبر التاريخ؟",
+        "en": "Which 3 players scored the most goals for Kuwait?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "RSSSF — Kuwait, Record International Players (accessed Nov 2026)",
+      "top": [
+        0,
+        2,
+        4
+      ],
+      "asc": false,
+      "gulf": true,
+      "players": [
+        {
+          "name": "يوسف ناصر",
+          "stat": 58
+        },
+        {
+          "name": "بدر المطوع",
+          "stat": 55
+        },
+        {
+          "name": "بشار عبدالله",
+          "stat": 75
+        },
+        {
+          "name": "وائل الحبشي",
+          "stat": 19
+        },
+        {
+          "name": "جاسم الهويدي",
+          "stat": 63
+        },
+        {
+          "name": "علي مروي",
+          "stat": 16
+        },
+        {
+          "name": "مسعود العنيزي",
+          "stat": 20
+        },
+        {
+          "name": "أحمد عجب",
+          "stat": 17
+        },
+        {
+          "name": "حمد الصالح",
+          "stat": 16
+        }
+      ]
+    },
+    {
+      "id": "gulf-omn-goals",
+      "category": {
+        "ar": "المنتخب العماني",
+        "en": "Oman"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين أهدافًا للمنتخب العماني عبر التاريخ؟",
+        "en": "Which 3 players scored the most goals for Oman?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "RSSSF — Oman, Record International Players (accessed Nov 2026)",
+      "top": [
+        2,
+        4,
+        6
+      ],
+      "asc": false,
+      "gulf": true,
+      "players": [
+        {
+          "name": "أحمد كانو",
+          "stat": 24
+        },
+        {
+          "name": "عصام الصبحي",
+          "stat": 24
+        },
+        {
+          "name": "هاني الضابط",
+          "stat": 42
+        },
+        {
+          "name": "خالد الحجري",
+          "stat": 17
+        },
+        {
+          "name": "عميد الحسني",
+          "stat": 40
+        },
+        {
+          "name": "محسن الغساني",
+          "stat": 17
+        },
+        {
+          "name": "عبد العزيز المقبالي",
+          "stat": 34
+        },
+        {
+          "name": "هاشم البلوشي",
+          "stat": 18
+        },
+        {
+          "name": "فوزي بشير",
+          "stat": 30
+        }
+      ]
+    },
+    {
+      "id": "gulf-bah-goals",
+      "category": {
+        "ar": "المنتخب البحريني",
+        "en": "Bahrain"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين أهدافًا للمنتخب البحريني عبر التاريخ؟",
+        "en": "Which 3 players scored the most goals for Bahrain?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "RSSSF — Bahrain, Record International Players (accessed Nov 2026)",
+      "top": [
+        0,
+        2,
+        6
+      ],
+      "asc": false,
+      "gulf": true,
+      "players": [
+        {
+          "name": "طلال يوسف",
+          "stat": 28
+        },
+        {
+          "name": "علي مدان",
+          "stat": 15
+        },
+        {
+          "name": "إسماعيل عبداللطيف",
+          "stat": 47
+        },
+        {
+          "name": "سلمان غلوم",
+          "stat": 24
+        },
+        {
+          "name": "علاء حبيل",
+          "stat": 26
+        },
+        {
+          "name": "علي الرميحي",
+          "stat": 20
+        },
+        {
+          "name": "حسين علي عبدالله",
+          "stat": 33
+        },
+        {
+          "name": "فوزي مبارك",
+          "stat": 22
+        },
+        {
+          "name": "محمد مرهون",
+          "stat": 20
+        }
+      ]
+    },
+    {
+      "id": "gulf-asian-cup-all-time",
+      "category": {
+        "ar": "كأس آسيا",
+        "en": "AFC Asian Cup"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين خليجيين تسجيل في كأس آسيا عبر التاريخ؟",
+        "en": "Which 3 Gulf players scored the most goals in the Asian Cup?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "AFC Asian Cup records and statistics — Individual records (accessed Nov 2026)",
+      "top": [
+        1,
+        2,
+        4
+      ],
+      "asc": false,
+      "gulf": true,
+      "players": [
+        {
+          "name": "جاسم الهويدي",
+          "stat": 8
+        },
+        {
+          "name": "أكرم عفيف",
+          "stat": 9
+        },
+        {
+          "name": "المعز علي",
+          "stat": 11
+        },
+        {
+          "name": "علاء حبيل",
+          "stat": 5
+        },
+        {
+          "name": "علي مبخوت",
+          "stat": 9
+        },
+        {
+          "name": "ياسر القحطاني",
+          "stat": 6
+        },
+        {
+          "name": "حسن الهيدوس",
+          "stat": 5
+        },
+        {
+          "name": "أحمد خليل",
+          "stat": 6
+        },
+        {
+          "name": "إسماعيل عبداللطيف",
+          "stat": 5
+        }
+      ]
+    },
+    {
+      "id": "gulf-gulf-cup-all-time",
+      "category": {
+        "ar": "كأس الخليج",
+        "en": "Arabian Gulf Cup"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين تسجيل في كأس الخليج عبر التاريخ؟",
+        "en": "Which 3 players scored the most goals in the Arabian Gulf Cup?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "Arabian Gulf Cup all-time top scorers (accessed Nov 2026)",
+      "top": [
+        0,
+        2,
+        4
+      ],
+      "asc": false,
+      "gulf": true,
+      "players": [
+        {
+          "name": "بدر المطوع",
+          "stat": 12
+        },
+        {
+          "name": "إسماعيل مطر",
+          "stat": 6
+        },
+        {
+          "name": "جاسم الهويدي",
+          "stat": 14
+        },
+        {
+          "name": "عدنان الطلياني",
+          "stat": 9
+        },
+        {
+          "name": "علي مبخوت",
+          "stat": 13
+        },
+        {
+          "name": "ياسر القحطاني",
+          "stat": 10
+        },
+        {
+          "name": "هاني الضابط",
+          "stat": 6
+        },
+        {
+          "name": "علاء حبيل",
+          "stat": 5
+        },
+        {
+          "name": "بشار عبدالله",
+          "stat": 7
+        }
+      ]
+    },
+    {
+      "id": "gulf-ksa-caps",
+      "category": {
+        "ar": "المنتخب السعودي",
+        "en": "Saudi Arabia"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين مشاركة مع المنتخب السعودي؟",
+        "en": "Which 3 players made the most appearances for Saudi Arabia?"
+      },
+      "unit": {
+        "ar": "مباراة",
+        "en": "caps"
+      },
+      "source": "RSSSF — Saudi Arabia, Record International Players (accessed Nov 2026)",
+      "top": [
+        0,
+        2,
+        4
+      ],
+      "asc": false,
+      "gulf": true,
+      "players": [
+        {
+          "name": "سامي الجابر",
+          "stat": 156
+        },
+        {
+          "name": "سعود كريري",
+          "stat": 133
+        },
+        {
+          "name": "محمد الدعيع",
+          "stat": 173
+        },
+        {
+          "name": "تيسير الجاسم",
+          "stat": 134
+        },
+        {
+          "name": "محمد الخليوي",
+          "stat": 163
+        },
+        {
+          "name": "حسين عبدالغني",
+          "stat": 138
+        },
+        {
+          "name": "عبدالله زبرماوي",
+          "stat": 142
+        },
+        {
+          "name": "محمد الشلهوب",
+          "stat": 118
+        },
+        {
+          "name": "أسامة هوساوي",
+          "stat": 138
+        }
+      ]
+    },
+    {
+      "id": "gulf-uae-caps",
+      "category": {
+        "ar": "المنتخب الإماراتي",
+        "en": "United Arab Emirates"
+      },
+      "question": {
+        "ar": "مين أكتر ٣ لاعبين مشاركة مع المنتخب الإماراتي؟",
+        "en": "Which 3 players made the most appearances for the UAE?"
+      },
+      "unit": {
+        "ar": "مباراة",
+        "en": "caps"
+      },
+      "source": "RSSSF — United Arab Emirates, Record International Players (accessed Nov 2026)",
+      "top": [
+        0,
+        2,
+        4
+      ],
+      "asc": false,
+      "gulf": true,
+      "players": [
+        {
+          "name": "إسماعيل مطر",
+          "stat": 136
+        },
+        {
+          "name": "عبدالسلام جمعة",
+          "stat": 112
+        },
+        {
+          "name": "عدنان الطلياني",
+          "stat": 161
+        },
+        {
+          "name": "زهير بخيت",
+          "stat": 112
+        },
+        {
+          "name": "ختر الجنيبي",
+          "stat": 120
+        },
+        {
+          "name": "محمد الشدادي",
+          "stat": 87
+        },
+        {
+          "name": "عبدالرحمن جمعة",
+          "stat": 116
+        },
+        {
+          "name": "محمد عمر أحمد",
+          "stat": 102
+        },
+        {
+          "name": "إسماعيل الحمادي",
+          "stat": 116
+        }
+      ]
     }
   ]
 }

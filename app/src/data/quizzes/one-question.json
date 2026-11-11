@@ -1581,6 +1581,276 @@
         }
       ],
       "correct": 3
+    },
+    {
+      "id": "gulf-ac-1996-final",
+      "question": {
+        "ar": "كأس آسيا 1996 النهائي — السعودية فازت على مين بركلات الترجيح؟",
+        "en": "The 1996 AFC Asian Cup final — who did Saudi Arabia beat on penalties?"
+      },
+      "options": [
+        {
+          "ar": "الإمارات",
+          "en": "United Arab Emirates"
+        },
+        {
+          "ar": "إيران",
+          "en": "Iran"
+        },
+        {
+          "ar": "العراق",
+          "en": "Iraq"
+        },
+        {
+          "ar": "كوريا الجنوبية",
+          "en": "South Korea"
+        }
+      ],
+      "correct": 0,
+      "gulf": true
+    },
+    {
+      "id": "gulf-wc-1994-belgium",
+      "question": {
+        "ar": "مين سجّل هدف السعودية التاريخي ضد بلجيكا في مونديال 1994؟",
+        "en": "Who scored Saudi Arabia’s historic goal against Belgium at the 1994 World Cup?"
+      },
+      "options": [
+        {
+          "ar": "سامي الجابر",
+          "en": "Sami Al-Jaber"
+        },
+        {
+          "ar": "سعيد العويران",
+          "en": "Saeed Al-Owairan"
+        },
+        {
+          "ar": "ماجد عبدالله",
+          "en": "Majed Abdullah"
+        },
+        {
+          "ar": "ناصر الشمراني",
+          "en": "Nassir Al-Shamrani"
+        }
+      ],
+      "correct": 1,
+      "gulf": true
+    },
+    {
+      "id": "gulf-wc-2022-qatar",
+      "question": {
+        "ar": "مونديال 2022 — أول مونديال تقام على أرض عربية — فين كان؟",
+        "en": "The 2022 World Cup — the first ever hosted by an Arab nation — where was it?"
+      },
+      "options": [
+        {
+          "ar": "الإمارات",
+          "en": "United Arab Emirates"
+        },
+        {
+          "ar": "الكويت",
+          "en": "Kuwait"
+        },
+        {
+          "ar": "قطر",
+          "en": "Qatar"
+        },
+        {
+          "ar": "السعودية",
+          "en": "Saudi Arabia"
+        }
+      ],
+      "correct": 2,
+      "gulf": true
+    },
+    {
+      "id": "gulf-cup-2019-champion",
+      "question": {
+        "ar": "«خليجي 24» في قطر — مين الفائز باللقب؟",
+        "en": "The 2019 Arabian Gulf Cup — who won the title?"
+      },
+      "options": [
+        {
+          "ar": "السعودية",
+          "en": "Saudi Arabia"
+        },
+        {
+          "ar": "قطر",
+          "en": "Qatar"
+        },
+        {
+          "ar": "العراق",
+          "en": "Iraq"
+        },
+        {
+          "ar": "البحرين",
+          "en": "Bahrain"
+        }
+      ],
+      "correct": 3,
+      "gulf": true
+    },
+    {
+      "id": "gulf-ac-1984-final",
+      "question": {
+        "ar": "كأس آسيا 1984 — فازت السعودية باللقب للمرة الأولى — على مين كان النهائي؟",
+        "en": "The 1984 Asian Cup — Saudi Arabia won their first title — who did they beat in the final?"
+      },
+      "options": [
+        {
+          "ar": "الصين",
+          "en": "China"
+        },
+        {
+          "ar": "كوريا الجنوبية",
+          "en": "South Korea"
+        },
+        {
+          "ar": "إيران",
+          "en": "Iran"
+        },
+        {
+          "ar": "اليابان",
+          "en": "Japan"
+        }
+      ],
+      "correct": 0,
+      "gulf": true
+    },
+    {
+      "id": "gulf-cup-records",
+      "question": {
+        "ar": "كأس الخليج عبر التاريخ — أكتر منتخب فوز بالبطولة — كم مرة؟",
+        "en": "Which nation won the Arabian Gulf Cup the most times, and how many?"
+      },
+      "options": [
+        {
+          "ar": "الكويت — ٦ مرات",
+          "en": "Kuwait — 6 times"
+        },
+        {
+          "ar": "الكويت — ١٠ مرات",
+          "en": "Kuwait — 10 times"
+        },
+        {
+          "ar": "السعودية — ٧ مرات",
+          "en": "Saudi Arabia — 7 times"
+        },
+        {
+          "ar": "البحرين — ٥ مرات",
+          "en": "Bahrain — 5 times"
+        }
+      ],
+      "correct": 1,
+      "gulf": true
+    },
+    {
+      "id": "gulf-ac-2007-final",
+      "question": {
+        "ar": "كأس آسيا 2007 النهائي في جاكارتا — النتيجة كام؟",
+        "en": "The 2007 AFC Asian Cup final in Jakarta — what was the result?"
+      },
+      "options": [
+        {
+          "ar": "السعودية 1–0 العراق",
+          "en": "Saudi Arabia 1–0 Iraq"
+        },
+        {
+          "ar": "العراق 1–0 السعودية",
+          "en": "Iraq 1–0 Saudi Arabia"
+        },
+        {
+          "ar": "العراق 2–1 السعودية",
+          "en": "Iraq 2–1 Saudi Arabia"
+        },
+        {
+          "ar": "تعادل من غير أهداف",
+          "en": "A goalless draw"
+        }
+      ],
+      "correct": 1,
+      "gulf": true
+    },
+    {
+      "id": "gulf-cup-2007-mvp",
+      "question": {
+        "ar": "«خليجي 18» في الإمارات — مين كان أفضل لاعب في البطولة؟",
+        "en": "The 2007 Arabian Gulf Cup in the UAE — who was named player of the tournament?"
+      },
+      "options": [
+        {
+          "ar": "عمر عبدالرحمن",
+          "en": "Omar Abdulrahman"
+        },
+        {
+          "ar": "خالد عزيز",
+          "en": "Khaled Aziz"
+        },
+        {
+          "ar": "خليفة الحمادي",
+          "en": "Khalifa Al-Hammadi"
+        },
+        {
+          "ar": "إسماعيل مطر",
+          "en": "Ismail Matar"
+        }
+      ],
+      "correct": 3,
+      "gulf": true
+    },
+    {
+      "id": "gulf-ac-2023-final",
+      "question": {
+        "ar": "كأس آسيا 2023 النهائي بين الأردن وقطر — النتيجة؟",
+        "en": "The 2023 AFC Asian Cup final, Jordan vs Qatar — what was the result?"
+      },
+      "options": [
+        {
+          "ar": "تعادل 1–1",
+          "en": "A 1–1 draw"
+        },
+        {
+          "ar": "الأردن 2–1 قطر",
+          "en": "Jordan 2–1 Qatar"
+        },
+        {
+          "ar": "قطر 3–1 الأردن",
+          "en": "Qatar 3–1 Jordan"
+        },
+        {
+          "ar": "الأردن 1–0 قطر",
+          "en": "Jordan 1–0 Qatar"
+        }
+      ],
+      "correct": 2,
+      "gulf": true
+    },
+    {
+      "id": "gulf-cup-2024-25",
+      "question": {
+        "ar": "«خليجي 26» في الكويت — مين الفائز باللقب؟",
+        "en": "The 26th Arabian Gulf Cup in Kuwait — who won the title?"
+      },
+      "options": [
+        {
+          "ar": "الكويت",
+          "en": "Kuwait"
+        },
+        {
+          "ar": "عُمان",
+          "en": "Oman"
+        },
+        {
+          "ar": "العراق",
+          "en": "Iraq"
+        },
+        {
+          "ar": "البحرين",
+          "en": "Bahrain"
+        }
+      ],
+      "correct": 3,
+      "gulf": true
     }
   ]
 }

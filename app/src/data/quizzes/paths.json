@@ -1,10 +1,22 @@
 {
   "id": "paths",
-  "title": { "ar": "المسار", "en": "The Path" },
+  "title": {
+    "ar": "المسار",
+    "en": "The Path"
+  },
   "emoji": "🛤️",
-  "subtitle": { "ar": "الأندية بس… مين اللاعب؟", "en": "Just the clubs… who is the player?" },
-  "answerLabel": { "ar": "اسم اللاعب", "en": "Player name" },
-  "nextLabel": { "ar": "لاعب تاني", "en": "Another player" },
+  "subtitle": {
+    "ar": "الأندية بس… مين اللاعب؟",
+    "en": "Just the clubs… who is the player?"
+  },
+  "answerLabel": {
+    "ar": "اسم اللاعب",
+    "en": "Player name"
+  },
+  "nextLabel": {
+    "ar": "لاعب تاني",
+    "en": "Another player"
+  },
   "kind": "path",
   "order": 2,
   "questions": [
@@ -5765,6 +5777,166 @@
         "Vitória"
       ],
       "known": 35
+    },
+    {
+      "id": "gulf-sami-al-jaber",
+      "answer": "Sami Al-Jaber",
+      "clubs": [
+        "Al-Hilal",
+        "Wolverhampton Wanderers",
+        "Al-Ain",
+        "Al-Hilal"
+      ],
+      "known": 90,
+      "loans": [
+        1,
+        2
+      ],
+      "gulf": true
+    },
+    {
+      "id": "gulf-yasser-al-qahtani",
+      "answer": "Yasser Al-Qahtani",
+      "clubs": [
+        "Al-Qadsiah",
+        "Al-Hilal",
+        "Al Ain",
+        "Al-Hilal"
+      ],
+      "known": 88,
+      "loans": [
+        2
+      ],
+      "gulf": true
+    },
+    {
+      "id": "gulf-nawaf-al-abed",
+      "answer": "Nawaf Al-Abed",
+      "clubs": [
+        "Al-Hilal",
+        "Al-Shabab",
+        "Al-Qadsiah",
+        "Al-Riyadh"
+      ],
+      "known": 85,
+      "gulf": true
+    },
+    {
+      "id": "gulf-mohammad-al-sahlawi",
+      "answer": "Mohammad Al-Sahlawi",
+      "clubs": [
+        "Al-Qadsiah",
+        "Al-Fateh",
+        "Al-Nassr",
+        "Al-Shabab",
+        "Al-Taawoun",
+        "Al-Hazem",
+        "Al-Safa"
+      ],
+      "known": 82,
+      "loans": [
+        1
+      ],
+      "gulf": true
+    },
+    {
+      "id": "gulf-omar-abdulrahman",
+      "answer": "Omar Abdulrahman",
+      "clubs": [
+        "Al Ain",
+        "Al-Hilal",
+        "Al Jazira",
+        "Shabab Al-Ahli",
+        "Al Wasl"
+      ],
+      "known": 85,
+      "loans": [
+        1
+      ],
+      "gulf": true
+    },
+    {
+      "id": "gulf-ismail-matar",
+      "answer": "Ismail Matar",
+      "clubs": [
+        "Al Wahda",
+        "Al Sadd",
+        "Al Wahda"
+      ],
+      "known": 72,
+      "loans": [
+        1
+      ],
+      "gulf": true
+    },
+    {
+      "id": "gulf-akram-afif",
+      "answer": "Akram Afif",
+      "clubs": [
+        "Eupen",
+        "Villarreal",
+        "Sporting Gijón",
+        "Eupen",
+        "Al Sadd"
+      ],
+      "known": 92,
+      "loans": [
+        2,
+        3,
+        4
+      ],
+      "gulf": true
+    },
+    {
+      "id": "gulf-tarek-salman",
+      "answer": "Tarek Salman",
+      "clubs": [
+        "Júpiter Leonés",
+        "Atlético Astorga",
+        "Al Sadd"
+      ],
+      "known": 60,
+      "loans": [
+        1
+      ],
+      "gulf": true
+    },
+    {
+      "id": "gulf-bader-al-mutawa",
+      "answer": "Bader Al-Mutawa",
+      "clubs": [
+        "Qadsia",
+        "Qatar SC",
+        "Al-Nassr",
+        "Qadsia"
+      ],
+      "known": 78,
+      "loans": [
+        1,
+        2
+      ],
+      "gulf": true
+    },
+    {
+      "id": "gulf-ahmed-kano",
+      "answer": "Ahmed Kano",
+      "clubs": [
+        "Al-Orouba",
+        "Al-Wahda",
+        "Al Ain",
+        "Al-Rayyan",
+        "Al-Sailiya",
+        "Al-Ahli",
+        "Al-Fateh",
+        "Al-Ettifaq",
+        "Al-Orouba"
+      ],
+      "known": 50,
+      "loans": [
+        1,
+        2
+      ],
+      "gulf": true
     }
   ]
 }

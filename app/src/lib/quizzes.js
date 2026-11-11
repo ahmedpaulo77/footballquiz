@@ -106,6 +106,7 @@ function normalizeQuestion(raw, index, quizId) {
     loans: Array.isArray(raw.loans) ? raw.loans : [],
     meta: Array.isArray(raw.meta) ? raw.meta : [],
     known: typeof raw.known === 'number' ? raw.known : null,
+    gulf: raw.gulf === true,
   };
 }
 
@@ -149,6 +150,7 @@ function normalizeMatch(raw, index, quizId) {
     awayLineup: normalizeLineup(raw.awayLineup, id, 'away'),
     source: typeof raw.source === 'string' ? raw.source : '',
     label: raw.label ?? null,
+    gulf: raw.gulf === true,
   };
 }
 
@@ -280,6 +282,7 @@ function localizeQuiz(quiz, lang) {
       })),
       source: match.source,
       label: match.label ? pickText(match.label, lang) : '',
+      gulf: match.gulf === true,
     })),
     questions: quiz.questions.map((question) => ({
       id: question.id,
@@ -305,6 +308,7 @@ function localizeQuiz(quiz, lang) {
       loans: question.loans,
       meta: pickList(question.meta, lang),
       known: question.known,
+      gulf: question.gulf === true,
     })),
   };
 }

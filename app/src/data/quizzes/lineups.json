@@ -94,6 +94,26 @@
       "id": "egyptian-super-cup",
       "ar": "كأس السوبر المصري",
       "en": "Egyptian Super Cup"
+    },
+    {
+      "id": "asian-cup",
+      "ar": "كأس آسيا",
+      "en": "AFC Asian Cup"
+    },
+    {
+      "id": "king-cup",
+      "ar": "كأس خادم الحرمين الشريفين",
+      "en": "King Cup"
+    },
+    {
+      "id": "saudi-super-cup",
+      "ar": "كأس السوبر السعودي",
+      "en": "Saudi Super Cup"
+    },
+    {
+      "id": "arab-club",
+      "ar": "كأس الملك سلمان للأندية",
+      "en": "Arab Club Champions Cup"
     }
   ],
   "matches": [
@@ -15162,6 +15182,1566 @@
         }
       ],
       "source": "https://www.espn.com/soccer/match/_/gameId/476514"
+    },
+    {
+      "id": "ac-1996-uae-ksa",
+      "competition": "asian-cup",
+      "year": 1996,
+      "home": {
+        "ar": "الإمارات",
+        "en": "United Arab Emirates"
+      },
+      "away": {
+        "ar": "السعودية",
+        "en": "Saudi Arabia"
+      },
+      "score": "0–0",
+      "winner": "away",
+      "decidedBy": "penalties",
+      "shootout": "2–4",
+      "difficulty": "hard",
+      "gulf": true,
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "ar": "محسن مصباح",
+          "en": "Muhsin Musabah"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "ar": "إسماعيل راشد",
+          "en": "Ismail Rashid"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "يوسف صالح",
+          "en": "Yousef Saleh"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "حسن مبارك",
+          "en": "Hassan Mubarak"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "ar": "منذر عبدالله",
+          "en": "Munther Abdullah"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "محمد علي",
+          "en": "Mohamed Ali"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "حسن سعيد",
+          "en": "Hassan Saeed"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "أحمد إبراهيم علي",
+          "en": "Ahmed Ibrahim Ali"
+        },
+        {
+          "pos": "RF",
+          "group": "FW",
+          "ar": "سعد بخيت مبارك",
+          "en": "Saad Bakheet Mubarak"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "ar": "عدنان الطلياني",
+          "en": "Adnan Al Talyani"
+        },
+        {
+          "pos": "LF",
+          "group": "FW",
+          "ar": "عبد أحمد",
+          "en": "Abdel Ahmed"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "ar": "محمد الدعيع",
+          "en": "Mohamed Al-Deayea"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "ar": "محمد الجهني",
+          "en": "Mohammed Al-Jahani"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "محمد الخليوي",
+          "en": "Mohammed Al-Khilaiwi"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "عبدالله زبرماوي",
+          "en": "Abdullah Zubromawi"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "ar": "حسين عبدالغني",
+          "en": "Hussein Abdulghani"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "ar": "خميس العويران",
+          "en": "Khamis Al-Owairan"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "ar": "فهد المهلل",
+          "en": "Fahad Al-Mehallel"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "خالد التيماوي",
+          "en": "Khalid Al-Temawi"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "خالد المولد",
+          "en": "Khaled Al-Muwallid"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "ar": "يوسف الثنيان",
+          "en": "Yousuf Al-Thunayan"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "ar": "سامي الجابر",
+          "en": "Sami Al-Jaber"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/1996_AFC_Asian_Cup_final"
+    },
+    {
+      "id": "ac-2007-irq-ksa",
+      "competition": "asian-cup",
+      "year": 2007,
+      "home": {
+        "ar": "العراق",
+        "en": "Iraq"
+      },
+      "away": {
+        "ar": "السعودية",
+        "en": "Saudi Arabia"
+      },
+      "score": "1–0",
+      "winner": "home",
+      "decidedBy": "regulation",
+      "shootout": null,
+      "difficulty": "hard",
+      "gulf": true,
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "ar": "نور صبري",
+          "en": "Noor Sabri"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "ar": "حيدر عبد الأمير",
+          "en": "Haidar Abdul-Amir"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "جاسم غلام",
+          "en": "Jassim Ghulam"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "علي رحيمه",
+          "en": "Ali Rehema"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "ar": "باسم عباس",
+          "en": "Bassim Abbas"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "ar": "قصي منير",
+          "en": "Qusay Munir"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "ar": "مهدي كريم",
+          "en": "Mahdi Karim"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "نشأت أكرم",
+          "en": "Nashat Akram"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "كرار جاسم",
+          "en": "Karrar Jassim"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "ar": "هوار ملا محمد",
+          "en": "Hawar Mulla Mohammed"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "ar": "يونس محمود",
+          "en": "Younis Mahmoud"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "ar": "ياسر المسيليم",
+          "en": "Yasser Al-Mosailem"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "ar": "سعود كريري",
+          "en": "Saud Kariri"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "أسامة هوساوي",
+          "en": "Osama Hawsawi"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "وليد الجحدلي",
+          "en": "Waleed Jahdali"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "ar": "خالد عزيز",
+          "en": "Khaled Aziz"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "ar": "كامل الموسى",
+          "en": "Kamel Al-Mousa"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "ar": "أحمد البحري",
+          "en": "Ahmed Al-Bahri"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "تيسير الجاسم",
+          "en": "Taisir Al-Jassim"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "ar": "عبد الرحمن القحطاني",
+          "en": "Abdulrahman Al-Qahtani"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "ar": "مالك معاذ",
+          "en": "Malek Mouath"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "ar": "ياسر القحطاني",
+          "en": "Yasser Al-Qahtani"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2007_AFC_Asian_Cup_final"
+    },
+    {
+      "id": "ac-2023-jor-qat",
+      "competition": "asian-cup",
+      "year": 2024,
+      "home": {
+        "ar": "الأردن",
+        "en": "Jordan"
+      },
+      "away": {
+        "ar": "قطر",
+        "en": "Qatar"
+      },
+      "score": "1–3",
+      "winner": "away",
+      "decidedBy": "regulation",
+      "shootout": null,
+      "difficulty": "medium",
+      "gulf": true,
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "ar": "يزيد أبو ليلى",
+          "en": "Yazeed Abulaila"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "عبد الله نصيب",
+          "en": "Abdallah Nasib"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "يزن العرب",
+          "en": "Yazan Al-Arab"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "سالم العجالين",
+          "en": "Salem Al-Ajalin"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "ar": "إحسان حداد",
+          "en": "Ihsan Haddad"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "نزار الرشدان",
+          "en": "Nizar Al-Rashdan"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "نور الروابدة",
+          "en": "Noor Al-Rawabdeh"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "ar": "محمود المرضي",
+          "en": "Mahmoud Al-Mardi"
+        },
+        {
+          "pos": "RF",
+          "group": "FW",
+          "ar": "موسى التعمري",
+          "en": "Musa Al-Taamari"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "ar": "يزن النعيمات",
+          "en": "Yazan Al-Naimat"
+        },
+        {
+          "pos": "LF",
+          "group": "FW",
+          "ar": "علي علوان",
+          "en": "Ali Olwan"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "ar": "مشعل برشم",
+          "en": "Meshaal Barsham"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "طارق سلمان",
+          "en": "Tarek Salman"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "المهدي علي مختار",
+          "en": "Al-Mahdi Ali Mukhtar"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "لوكاس مينديس",
+          "en": "Lucas Mendes"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "ar": "يوسف عبد الرزاق",
+          "en": "Yusuf Abdurisag"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "جاسم جابر",
+          "en": "Jassem Gaber"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "أحمد فتحي",
+          "en": "Ahmed Fatehi"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "حسن الهيدوس",
+          "en": "Hassan Al-Haydos"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "ar": "محمد وعد",
+          "en": "Mohammed Waad"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "ar": "المعز علي",
+          "en": "Almoez Ali"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "ar": "أكرم عفيف",
+          "en": "Akram Afif"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2023_AFC_Asian_Cup_final"
+    },
+    {
+      "id": "kc-2023-hilal-wehda",
+      "competition": "king-cup",
+      "year": 2023,
+      "home": {
+        "ar": "الهلال",
+        "en": "Al-Hilal"
+      },
+      "away": {
+        "ar": "الوحدة",
+        "en": "Al-Wehda"
+      },
+      "score": "1–1",
+      "winner": "home",
+      "decidedBy": "penalties",
+      "shootout": "7–6",
+      "difficulty": "hard",
+      "gulf": true,
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "ar": "عبدالله المعيوف",
+          "en": "Abdullah Al-Mayouf"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "ar": "محمد البريك",
+          "en": "Mohammed Al-Breik"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "جانغ هيون-سو",
+          "en": "Jang Hyun-soo"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "علي البليهي",
+          "en": "Ali Al-Bulaihi"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "ar": "ياسر الشهراني",
+          "en": "Yasser Al-Shahrani"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "ar": "عبدالله عطيف",
+          "en": "Abdullah Otayf"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "أندريه كاريلو",
+          "en": "André Carrillo"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "محمد كنو",
+          "en": "Mohamed Kanno"
+        },
+        {
+          "pos": "RF",
+          "group": "FW",
+          "ar": "موسى ماريغا",
+          "en": "Moussa Marega"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "ar": "لوسيانو فييتو",
+          "en": "Luciano Vietto"
+        },
+        {
+          "pos": "LF",
+          "group": "FW",
+          "ar": "مايكل",
+          "en": "Michael"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "ar": "منير المحمدي",
+          "en": "Munir Mohamedi"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "ar": "حمد الجزاني",
+          "en": "Hamad Al-Jayzani"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "علي مكي",
+          "en": "Ali Makki"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "أوسكار دوارتي",
+          "en": "Oscar Duarte"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "ar": "إسلام هوساوي",
+          "en": "Islam Hawsawi"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "ar": "وليد بخشوين",
+          "en": "Waleed Bakshween"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "فيصل فجر",
+          "en": "Fayçal Fajr"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "علاء الحجي",
+          "en": "Alaa Al Hejji"
+        },
+        {
+          "pos": "RF",
+          "group": "FW",
+          "ar": "عبدالعزيز نور",
+          "en": "Abdulaziz Noor"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "ar": "كريم يودة",
+          "en": "Karim Yoda"
+        },
+        {
+          "pos": "LF",
+          "group": "FW",
+          "ar": "أنسلم",
+          "en": "Anselmo"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2023_King_Cup_final"
+    },
+    {
+      "id": "arabclub-2023-hilal-nassr",
+      "competition": "arab-club",
+      "year": 2023,
+      "home": {
+        "ar": "الهلال",
+        "en": "Al-Hilal"
+      },
+      "away": {
+        "ar": "النصر",
+        "en": "Al-Nassr"
+      },
+      "score": "1–2",
+      "winner": "away",
+      "decidedBy": "extra-time",
+      "shootout": null,
+      "difficulty": "hard",
+      "gulf": true,
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "ar": "محمد العويس",
+          "en": "Mohammed Al-Owais"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "ar": "سعود عبدالحميد",
+          "en": "Saud Abdulhamid"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "كالييدو كوليبالي",
+          "en": "Kalidou Koulibaly"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "علي البليهي",
+          "en": "Ali Al-Bulaihi"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "ar": "ياسر الشهراني",
+          "en": "Yasser Al-Shahrani"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "ar": "روبن نيفيس",
+          "en": "Rúben Neves"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "محمد كنو",
+          "en": "Mohamed Kanno"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "سيرجي ميلينكوفيتش-سافيتش",
+          "en": "Sergej Milinković-Savić"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "ar": "مالكوم",
+          "en": "Malcom"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "ar": "سالم الدوسري",
+          "en": "Salem Al-Dawsari"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "ar": "مايكل",
+          "en": "Michael"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "ar": "نواف العقيدي",
+          "en": "Nawaf Al-Aqidi"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "ar": "سلطان الغنام",
+          "en": "Sultan Al-Ghannam"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "علي لاجامي",
+          "en": "Ali Lajami"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "عبد الإله العمري",
+          "en": "Abdulelah Al-Amri"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "ar": "أليكس تلّيس",
+          "en": "Alex Telles"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "ar": "مارسيلو بروزوفيتش",
+          "en": "Marcelo Brozović"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "ar": "عبدالله الخيبري",
+          "en": "Abdullah Al-Khaibari"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "سكو فوفانا",
+          "en": "Seko Fofana"
+        },
+        {
+          "pos": "RF",
+          "group": "FW",
+          "ar": "تاليسكا",
+          "en": "Talisca"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "ar": "كريستيانو رونالدو",
+          "en": "Cristiano Ronaldo"
+        },
+        {
+          "pos": "LF",
+          "group": "FW",
+          "ar": "ساديو ماني",
+          "en": "Sadio Mané"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2023_Arab_Club_Champions_Cup_final"
+    },
+    {
+      "id": "sc-2023-ittihad-hilal",
+      "competition": "saudi-super-cup",
+      "year": 2024,
+      "home": {
+        "ar": "الاتحاد",
+        "en": "Al-Ittihad"
+      },
+      "away": {
+        "ar": "الهلال",
+        "en": "Al-Hilal"
+      },
+      "score": "1–4",
+      "winner": "away",
+      "decidedBy": "regulation",
+      "shootout": null,
+      "difficulty": "hard",
+      "gulf": true,
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "ar": "عبدالله المعيوف",
+          "en": "Abdullah Al-Mayouf"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "ar": "فواز الصقور",
+          "en": "Fawaz Al-Sqoor"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "لويز فيليبي",
+          "en": "Luiz Felipe"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "أحمد حجازي",
+          "en": "Ahmed Hegazi"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "ar": "مدين العليان",
+          "en": "Madallah Al-Olayan"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "ar": "رومارينيو",
+          "en": "Romarinho"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "فرحان الشمراني",
+          "en": "Farhah Al-Shammrani"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "نجولو كانتي",
+          "en": "N'Golo Kanté"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "ar": "صالح العمري",
+          "en": "Saleh Al-Amri"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "ar": "عبد الرزاق حمد الله",
+          "en": "Abderrazak Hamdallah"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "ar": "كريم بنزيما",
+          "en": "Karim Benzema"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "ar": "ياسين بونو",
+          "en": "Yassine Bounou"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "ar": "سعود عبدالحميد",
+          "en": "Saud Abdulhamid"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "كالييدو كوليبالي",
+          "en": "Kalidou Koulibaly"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "علي البليهي",
+          "en": "Ali Al-Bulaihi"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "ar": "رينام لودي",
+          "en": "Renan Lodi"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "روبن نيفيس",
+          "en": "Rúben Neves"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "سيرجي ميلينكوفيتش-سافيتش",
+          "en": "Sergej Milinković-Savić"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "ar": "مايكل",
+          "en": "Michael"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "ar": "مالكوم",
+          "en": "Malcom"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "ar": "سالم الدوسري",
+          "en": "Salem Al-Dawsari"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "ar": "صالح الشهري",
+          "en": "Saleh Al-Shehri"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2023_Saudi_Super_Cup_final"
+    },
+    {
+      "id": "sc-2024-nassr-hilal",
+      "competition": "saudi-super-cup",
+      "year": 2024,
+      "home": {
+        "ar": "النصر",
+        "en": "Al-Nassr"
+      },
+      "away": {
+        "ar": "الهلال",
+        "en": "Al-Hilal"
+      },
+      "score": "1–4",
+      "winner": "away",
+      "decidedBy": "regulation",
+      "shootout": null,
+      "difficulty": "medium",
+      "gulf": true,
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "ar": "بينتو ماسيلينا",
+          "en": "Bento"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "ar": "سلطان الغنام",
+          "en": "Sultan Al-Ghannam"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "علي لاجامي",
+          "en": "Ali Lajami"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "إيمريك لابورت",
+          "en": "Aymeric Laporte"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "ar": "أليكس تلّيس",
+          "en": "Alex Telles"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "ar": "عبدالله الخيبري",
+          "en": "Abdullah Al-Khaibari"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "ar": "أوتافيو",
+          "en": "Otávio"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "ar": "أيمن يحيى",
+          "en": "Ayman Yahya"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "ar": "تاليسكا",
+          "en": "Talisca"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "ar": "ساديو ماني",
+          "en": "Sadio Mané"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "ar": "كريستيانو رونالدو",
+          "en": "Cristiano Ronaldo"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "ar": "ياسين بونو",
+          "en": "Yassine Bounou"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "ar": "سعود عبدالحميد",
+          "en": "Saud Abdulhamid"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "حسن التمبكتي",
+          "en": "Hassan Al-Tombakti"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "كالييدو كوليبالي",
+          "en": "Kalidou Koulibaly"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "ar": "رينام لودي",
+          "en": "Renan Lodi"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "ar": "سيرجي ميلينكوفيتش-سافيتش",
+          "en": "Sergej Milinković-Savić"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "ar": "روبن نيفيس",
+          "en": "Rúben Neves"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "ar": "مايكل",
+          "en": "Michael"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "ar": "مالكوم",
+          "en": "Malcom"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "ar": "سالم الدوسري",
+          "en": "Salem Al-Dawsari"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "ar": "ألكسندر ميتروفيتش",
+          "en": "Aleksandar Mitrović"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2024_Saudi_Super_Cup_final"
+    },
+    {
+      "id": "kc-2024-hilal-nassr",
+      "competition": "king-cup",
+      "year": 2024,
+      "home": {
+        "ar": "الهلال",
+        "en": "Al-Hilal"
+      },
+      "away": {
+        "ar": "النصر",
+        "en": "Al-Nassr"
+      },
+      "score": "1–1",
+      "winner": "home",
+      "decidedBy": "penalties",
+      "shootout": "5–4",
+      "difficulty": "hard",
+      "gulf": true,
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "ar": "ياسين بونو",
+          "en": "Yassine Bounou"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "ar": "سعود عبدالحميد",
+          "en": "Saud Abdulhamid"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "كالييدو كوليبالي",
+          "en": "Kalidou Koulibaly"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "علي البليهي",
+          "en": "Ali Al-Bulaihi"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "ar": "رينام لودي",
+          "en": "Renan Lodi"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "روبن نيفيس",
+          "en": "Rúben Neves"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "سلمان الفرج",
+          "en": "Salman Al-Faraj"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "ar": "مايكل",
+          "en": "Michael"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "ar": "مالكوم",
+          "en": "Malcom"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "ar": "سالم الدوسري",
+          "en": "Salem Al-Dawsari"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "ar": "ألكسندر ميتروفيتش",
+          "en": "Aleksandar Mitrović"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "ar": "دافيد أوسبينا",
+          "en": "David Ospina"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "ar": "سلطان الغنام",
+          "en": "Sultan Al-Ghannam"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "عبد الإله العمري",
+          "en": "Abdulelah Al-Amri"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "علي لاجامي",
+          "en": "Ali Lajami"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "ar": "أليكس تلّيس",
+          "en": "Alex Telles"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "ar": "عبدالله الخيبري",
+          "en": "Abdullah Al-Khaibari"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "مارسيلو بروزوفيتش",
+          "en": "Marcelo Brozović"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "أوتافيو",
+          "en": "Otávio"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "ar": "أيمن يحيى",
+          "en": "Ayman Yahya"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "ar": "ساديو ماني",
+          "en": "Sadio Mané"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "ar": "كريستيانو رونالدو",
+          "en": "Cristiano Ronaldo"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2024_King_Cup_final"
+    },
+    {
+      "id": "sc-2025-nassr-ahli",
+      "competition": "saudi-super-cup",
+      "year": 2025,
+      "home": {
+        "ar": "النصر",
+        "en": "Al-Nassr"
+      },
+      "away": {
+        "ar": "الأهلي",
+        "en": "Al-Ahli"
+      },
+      "score": "2–2",
+      "winner": "away",
+      "decidedBy": "penalties",
+      "shootout": "3–5",
+      "difficulty": "medium",
+      "gulf": true,
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "ar": "بينتو ماسيلينا",
+          "en": "Bento"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "ar": "نواف بوشال",
+          "en": "Nawaf Boushal"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "محمد سيمان",
+          "en": "Mohamed Simakan"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "إينيغو مارتينيز",
+          "en": "Iñigo Martínez"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "ar": "أيمن يحيى",
+          "en": "Ayman Yahya"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "ar": "مارسيلو بروزوفيتش",
+          "en": "Marcelo Brozović"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "ar": "عبدالله الخيبري",
+          "en": "Abdullah Al-Khaibari"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "ar": "كينغسلي كومان",
+          "en": "Kingsley Coman"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "ar": "جواو فيليكس",
+          "en": "João Félix"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "ar": "ويسلي",
+          "en": "Wesley"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "ar": "كريستيانو رونالدو",
+          "en": "Cristiano Ronaldo"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "ar": "إدوارد ميندي",
+          "en": "Édouard Mendy"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "ar": "علي مجرشي",
+          "en": "Ali Majrashi"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "مريه دميرال",
+          "en": "Merih Demiral"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "روجر إيبانيز",
+          "en": "Roger Ibañez"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "ar": "ماتيو دامس",
+          "en": "Matteo Dams"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "ar": "رياض محرز",
+          "en": "Riyad Mahrez"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "فرانك كيسي",
+          "en": "Franck Kessié"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "إنزو ميلو",
+          "en": "Enzo Millot"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "ar": "غالينو",
+          "en": "Galeno"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "ar": "فراس البريكان",
+          "en": "Firas Al-Buraikan"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "ar": "إيفان توني",
+          "en": "Ivan Toney"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2025_Saudi_Super_Cup_final"
+    },
+    {
+      "id": "kc-2025-ittihad-qadsiah",
+      "competition": "king-cup",
+      "year": 2025,
+      "home": {
+        "ar": "الاتحاد",
+        "en": "Al-Ittihad"
+      },
+      "away": {
+        "ar": "القادسية",
+        "en": "Al-Qadsiah"
+      },
+      "score": "3–1",
+      "winner": "home",
+      "decidedBy": "regulation",
+      "shootout": null,
+      "difficulty": "medium",
+      "gulf": true,
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "ar": "بريدراغ رايكوفيتش",
+          "en": "Predrag Rajković"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "ar": "مهند الشنقيطي",
+          "en": "Muhannad Al-Shanqeeti"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "عبد الإله العمري",
+          "en": "Abdulelah Al-Amri"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "دانيلو بيريرا",
+          "en": "Danilo Pereira"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "ar": "ماريو ميتاج",
+          "en": "Mario Mittaj"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "ar": "نجولو كانتي",
+          "en": "N'Golo Kanté"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "ar": "فابينيو تافاريس",
+          "en": "Fabinho"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "ar": "موسى ديابي",
+          "en": "Moussa Diaby"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "ar": "حسام عوار",
+          "en": "Houssem Aouar"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "ar": "ستيفن بيرجوين",
+          "en": "Steven Bergwijn"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "ar": "كريم بنزيما",
+          "en": "Karim Benzema"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "ar": "كوين كاستيلس",
+          "en": "Koen Casteels"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "غاستون ألفاريز",
+          "en": "Gastón Álvarez"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "ناتشو",
+          "en": "Nacho"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "جهاد ذكري",
+          "en": "Jihad Thighri"
+        },
+        {
+          "pos": "LWB",
+          "group": "DF",
+          "ar": "تركي العمار",
+          "en": "Turki Al-Ammar"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "كاميرون بويرتاس",
+          "en": "Cameron Puertas"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "إيزيكيل فرنانديز",
+          "en": "Ezekiel Fernández"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "ناهيتان نانديز",
+          "en": "Nahitan Nández"
+        },
+        {
+          "pos": "RWB",
+          "group": "DF",
+          "ar": "محمد أبو الشامات",
+          "en": "Mohammed Abu Al-Shamat"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "ar": "خوليان كينيونيس",
+          "en": "Julián Quiñones"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "ar": "بيير إيميريك أوباميانغ",
+          "en": "Pierre-Emerick Aubameyang"
+        }
+      ],
+      "source": "https://ar.wikipedia.org/wiki/نهائي_كأس_خادم_الحرمين_الشريفين_2025"
     }
   ]
 }

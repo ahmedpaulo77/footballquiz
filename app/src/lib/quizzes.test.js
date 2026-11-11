@@ -322,8 +322,8 @@ describe('لعبة «سؤال واحد»', () => {
   });
 
   it('فيها ٦٠ سؤال و١٠ أسئلة في الجولة و١٠ نقط للسؤال', () => {
-    expect(arQuiz.questions).toHaveLength(60);
-    expect(enQuiz.questions).toHaveLength(60);
+    expect(arQuiz.questions).toHaveLength(70);
+    expect(enQuiz.questions).toHaveLength(70);
     expect(arQuiz.questionsPerGame).toBe(10);
     expect(arQuiz.pointsPerQuestion).toBe(10);
   });
@@ -381,8 +381,8 @@ describe('لعبة «توب 3»', () => {
   });
 
   it('فيها ٩٢ سؤال و٨ أسئلة في الجولة و٣ اختيارات', () => {
-    expect(arQuiz.questions).toHaveLength(92);
-    expect(enQuiz.questions).toHaveLength(92);
+    expect(arQuiz.questions).toHaveLength(102);
+    expect(enQuiz.questions).toHaveLength(102);
     expect(arQuiz.questionsPerGame).toBe(8);
     expect(arQuiz.picksCount).toBe(3);
   });
@@ -470,10 +470,10 @@ describe('لعبة «تشكيلات المباريات»', () => {
   });
 
   it('فيها ٩٧ ماتش و١٥ مسابقة كلها مستخدمة', () => {
-    expect(arQuiz.matches).toHaveLength(97);
-    expect(enQuiz.matches).toHaveLength(97);
-    expect(arQuiz.competitions).toHaveLength(15);
-    expect(new Set(arQuiz.matches.map((match) => match.competition)).size).toBe(15);
+    expect(arQuiz.matches).toHaveLength(107);
+    expect(enQuiz.matches).toHaveLength(107);
+    expect(arQuiz.competitions).toHaveLength(19);
+    expect(new Set(arQuiz.matches.map((match) => match.competition)).size).toBe(19);
 
     for (const competition of arQuiz.competitions) {
       expect(competition.title, competition.id).toMatch(ARABIC_LETTERS);
@@ -619,7 +619,7 @@ describe('لعبة «تشكيلات المباريات»', () => {
   it('كل ماتش ليه مصدر موثوق', () => {
     for (const match of arQuiz.matches) {
       expect(match.source, match.id).toMatch(
-        /^https:\/\/(en\.wikipedia\.org|www\.espn\.com)\//,
+        /^https:\/\/(en\.wikipedia\.org|ar\.wikipedia\.org|www\.espn\.com)\//,
       );
     }
   });
