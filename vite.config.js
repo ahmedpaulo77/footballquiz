@@ -23,7 +23,7 @@ export default defineConfig({
     rollupOptions: {
       input: {
         // كل لعبة ليها صفحة HTML مستقلة = إعلانات جديدة عند كل انتقال
-        main: 'app/index.html',
+        index: 'app/index.html',
         paths: 'app/paths.html',
         risk: 'app/risk.html',
         'one-question': 'app/one-question.html',

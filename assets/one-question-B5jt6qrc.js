@@ -1,1 +1,0 @@
-import{c as s,j as r,r as c,A as i}from"./styles-cWUw88Hq.js";function n(){const e=document.querySelectorAll("script[src]");for(const o of e){const t=new URL(o.src,location.href).searchParams.get("quiz");if(t)return t}return"who-am-i"}const u=n();s.createRoot(document.getElementById("root")).render(r.jsx(c.StrictMode,{children:r.jsx(i,{initialQuizId:u})}));
