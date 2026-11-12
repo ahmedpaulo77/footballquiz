@@ -1851,6 +1851,303 @@
       ],
       "correct": 3,
       "gulf": true
+    },
+    {
+      "id": "gulf-saudi-league-2022-23",
+      "question": {
+        "ar": "الدوري السعودي للمحترفين 2022/23 — مين الفائز باللقب؟",
+        "en": "The 2022–23 Saudi Pro League champions were?"
+      },
+      "options": [
+        {
+          "ar": "الهلال",
+          "en": "Al-Hilal"
+        },
+        {
+          "ar": "النصر",
+          "en": "Al-Nassr"
+        },
+        {
+          "ar": "الشباب",
+          "en": "Al-Shabab"
+        },
+        {
+          "ar": "الاتحاد",
+          "en": "Al-Ittihad"
+        }
+      ],
+      "correct": 3,
+      "gulf": true
+    },
+    {
+      "id": "gulf-gcc-2010-yemen",
+      "question": {
+        "ar": "كأس الخليج 2010 في اليمن — مين الفائز باللقب؟",
+        "en": "The 2010 Arabian Gulf Cup in Yemen — who won the title?"
+      },
+      "options": [
+        {
+          "ar": "عُمان",
+          "en": "Oman"
+        },
+        {
+          "ar": "السعودية",
+          "en": "Saudi Arabia"
+        },
+        {
+          "ar": "الكويت",
+          "en": "Kuwait"
+        },
+        {
+          "ar": "قطر",
+          "en": "Qatar"
+        }
+      ],
+      "correct": 2,
+      "gulf": true
+    },
+    {
+      "id": "gulf-saudi-super-cup-2023",
+      "question": {
+        "ar": "كأس السوبر السعودي 2023 (أبوظبي) — مين الفائز؟",
+        "en": "The 2023 Saudi Super Cup, held in Abu Dhabi — who won?"
+      },
+      "options": [
+        {
+          "ar": "النصر",
+          "en": "Al-Nassr"
+        },
+        {
+          "ar": "الاتحاد",
+          "en": "Al-Ittihad"
+        },
+        {
+          "ar": "الهلال",
+          "en": "Al-Hilal"
+        },
+        {
+          "ar": "الأهلي",
+          "en": "Al-Ahli"
+        }
+      ],
+      "correct": 2,
+      "gulf": true
+    },
+    {
+      "id": "gulf-king-salman-club-2023",
+      "question": {
+        "ar": "كأس الملك سلمان للأندية 2023 (الطائف) — مين الفائز؟",
+        "en": "The 2023 King Salman Club Cup final, in Taif — who won?"
+      },
+      "options": [
+        {
+          "ar": "الهلال",
+          "en": "Al-Hilal"
+        },
+        {
+          "ar": "النصر",
+          "en": "Al-Nassr"
+        },
+        {
+          "ar": "الاتحاد",
+          "en": "Al-Ittihad"
+        },
+        {
+          "ar": "الشباب",
+          "en": "Al-Shabab"
+        }
+      ],
+      "correct": 1,
+      "gulf": true
+    },
+    {
+      "id": "gulf-2020-king-cup-final",
+      "question": {
+        "ar": "نهائي كأس الملك 2020 بين الهلال والنصر — النتيجة؟",
+        "en": "The 2020 King Cup final, Al-Hilal vs Al-Nassr — what was the score?"
+      },
+      "options": [
+        {
+          "ar": "الهلال 2–1 النصر",
+          "en": "Al-Hilal 2–1 Al-Nassr"
+        },
+        {
+          "ar": "النصر 2–1 الهلال",
+          "en": "Al-Nassr 2–1 Al-Hilal"
+        },
+        {
+          "ar": "تعادل 1–1",
+          "en": "A 1–1 draw"
+        },
+        {
+          "ar": "الهلال 3–0 النصر",
+          "en": "Al-Hilal 3–0 Al-Nassr"
+        }
+      ],
+      "correct": 0,
+      "gulf": true
+    },
+    {
+      "id": "coaches-scaloni-wc-2022",
+      "question": {
+        "ar": "مدرب الأرجنتين الفائز بمونديال قطر ٢٠٢٢؟",
+        "en": "Which Argentina coach won the 2022 World Cup in Qatar?"
+      },
+      "options": [
+        {
+          "ar": "ليونيل سكالوني",
+          "en": "Lionel Scaloni"
+        },
+        {
+          "ar": "بيب غوارديولا",
+          "en": "Pep Guardiola"
+        },
+        {
+          "ar": "زين الدين زيدان",
+          "en": "Zinedine Zidane"
+        },
+        {
+          "ar": "كارلو أنشيلوتي",
+          "en": "Carlo Ancelotti"
+        }
+      ],
+      "correct": 0,
+      "gulf": false
+    },
+    {
+      "id": "coaches-scolari-wc-2002",
+      "question": {
+        "ar": "مدرب البرازيل الفائز بمونديال ٢٠٠٢ في كوريا واليابان؟",
+        "en": "Which Brazil coach won the 2002 World Cup in Korea and Japan?"
+      },
+      "options": [
+        {
+          "ar": "كارلوس ألبرتو باريرا",
+          "en": "Carlos Alberto Parreira"
+        },
+        {
+          "ar": "لويس فيليبي سكولاري",
+          "en": "Luiz Felipe Scolari"
+        },
+        {
+          "ar": "بيب غوارديولا",
+          "en": "Pep Guardiola"
+        },
+        {
+          "ar": "جوان لابورتا",
+          "en": "Joan Laporta"
+        }
+      ],
+      "correct": 1,
+      "gulf": false
+    },
+    {
+      "id": "coaches-deschamps-wc-2018",
+      "question": {
+        "ar": "مدرب فرنسا الفائز بمونديال ٢٠١٨ في روسيا؟",
+        "en": "Which France coach won the 2018 World Cup in Russia?"
+      },
+      "options": [
+        {
+          "ar": "ديديه ديشان",
+          "en": "Didier Deschamps"
+        },
+        {
+          "ar": "زين الدين زيدان",
+          "en": "Zinedine Zidane"
+        },
+        {
+          "ar": "فنسنت ديل بوسكي",
+          "en": "Vicente del Bosque"
+        },
+        {
+          "ar": "بيب غوارديولا",
+          "en": "Pep Guardiola"
+        }
+      ],
+      "correct": 0,
+      "gulf": false
+    },
+    {
+      "id": "coaches-delbosque-wc-2010",
+      "question": {
+        "ar": "مدرب إسبانيا الفائز بمونديال ٢٠١٠ — أول لقب عالمي في تاريخ إسبانيا؟",
+        "en": "Which manager led Spain to the 2010 World Cup, their first ever title?"
+      },
+      "options": [
+        {
+          "ar": "فيسنتي ديل بوسكي",
+          "en": "Vicente del Bosque"
+        },
+        {
+          "ar": "بيب غوارديولا",
+          "en": "Pep Guardiola"
+        },
+        {
+          "ar": "لويس أراغونيس",
+          "en": "Luis Aragonés"
+        },
+        {
+          "ar": "دييغو سيميوني",
+          "en": "Diego Simeone"
+        }
+      ],
+      "correct": 0,
+      "gulf": false
+    },
+    {
+      "id": "coaches-van-gaal-ucl-1995",
+      "question": {
+        "ar": "مدرب أياكس الفائز بدوري أبطال أوروبا ١٩٩٥ والثلاثية الأوروبية؟",
+        "en": "Which manager led Ajax to the 1995 Champions League and the European treble?"
+      },
+      "options": [
+        {
+          "ar": "لويس فان جال",
+          "en": "Louis van Gaal"
+        },
+        {
+          "ar": "يوهان كرويف",
+          "en": "Johan Cruyff"
+        },
+        {
+          "ar": "سفين-غوران أريكسون",
+          "en": "Sven-Göran Eriksson"
+        },
+        {
+          "ar": "فابيو كابيلو",
+          "en": "Fabio Capello"
+        }
+      ],
+      "correct": 0,
+      "gulf": false
+    },
+    {
+      "id": "coaches-guardiola-sextuple-2009",
+      "question": {
+        "ar": "أي مدرب قاد برشلونة للفوز بـ٦ ألقاب في ٢٠٠٩؟",
+        "en": "Which manager led Barcelona to the sextuple in 2009?"
+      },
+      "options": [
+        {
+          "ar": "جوزي مورينيو",
+          "en": "José Mourinho"
+        },
+        {
+          "ar": "بيب غوارديولا",
+          "en": "Pep Guardiola"
+        },
+        {
+          "ar": "لويس إنريكي",
+          "en": "Luis Enrique"
+        },
+        {
+          "ar": "فيسنتي ديل بوسكي",
+          "en": "Vicente del Bosque"
+        }
+      ],
+      "correct": 1,
+      "gulf": false
     }
   ]
 }

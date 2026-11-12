@@ -10,6 +10,7 @@ import RiskGame from './components/RiskGame.jsx';
 import PointsGame from './components/PointsGame.jsx';
 import Top3Game from './components/Top3Game.jsx';
 import LineupGame from './components/LineupGame.jsx';
+import CardsGame from './components/CardsGame.jsx';
 import TeamSetup from './components/TeamSetup.jsx';
 import GulfToggle from './components/GulfToggle.jsx';
 import TeamScoreboard from './components/TeamScoreboard.jsx';
@@ -47,7 +48,7 @@ function fill(template, values) {
 }
 
 /** الألعاب اللي بتدير أسئلتها بنفسها من غير اختيار سؤال واحد. */
-const SELF_PACED_KINDS = new Set(['risk', 'points', 'top3', 'lineups']);
+const SELF_PACED_KINDS = new Set(['risk', 'points', 'top3', 'lineups', 'cards']);
 
 export default function App({ initialQuizId = 'who-am-i' }) {
   const [lang, setLang] = useState(() => loadLang());
@@ -79,6 +80,7 @@ export default function App({ initialQuizId = 'who-am-i' }) {
   const isPoints = quiz.kind === 'points';
   const isTop3 = quiz.kind === 'top3';
   const isLineups = quiz.kind === 'lineups';
+  const isCards = quiz.kind === 'cards';
   const isSelfPaced = SELF_PACED_KINDS.has(quiz.kind);
   const playableQuestions = isSelfPaced ? [] : selectGulfPool(quiz.questions, gulfMode);
   const question = isSelfPaced
@@ -109,7 +111,7 @@ export default function App({ initialQuizId = 'who-am-i' }) {
     const root = document.documentElement;
     root.lang = lang;
     root.dir = ui.dir;
-    document.title = `${quiz.title} — ${ui.brand}`;
+    document.title = ui.brand;
     saveLang(lang);
   }, [lang, ui.brand, ui.dir, quiz.title]);
 
@@ -282,6 +284,16 @@ export default function App({ initialQuizId = 'who-am-i' }) {
             awards={lineupAwards}
             onAward={awardLineup}
             onUndoAward={undoLineupAward}
+            onEditTeams={() => setModal('teams')}
+          />
+        ) : isCards ? (
+          <CardsGame
+            quiz={quiz}
+            ui={ui}
+            lang={lang}
+            teamNames={teamNames}
+            scores={scores}
+            onAddPoints={addPoints}
             onEditTeams={() => setModal('teams')}
           />
         ) : !question ? (

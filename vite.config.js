@@ -31,6 +31,7 @@ export default defineConfig({
         'one-question': 'app/one-question.html',
         'top-three': 'app/top-three.html',
         lineups: 'app/lineups.html',
+        cards: 'app/cards.html',
       },
     },
   },

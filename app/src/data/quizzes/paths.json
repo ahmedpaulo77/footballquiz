@@ -5937,6 +5937,154 @@
         2
       ],
       "gulf": true
+    },
+    {
+      "id": "gulf-saleh-al-shehri",
+      "answer": "Saleh Al-Shehri",
+      "clubs": [
+        "Al-Ahli",
+        "Beira-Mar",
+        "Al-Ahli",
+        "Al-Raed",
+        "Al Hilal",
+        "Al-Ittihad"
+      ],
+      "known": 72,
+      "loans": [
+        1
+      ],
+      "gulf": true
+    },
+    {
+      "id": "gulf-mohamed-kanno",
+      "answer": "Mohamed Kanno",
+      "clubs": [
+        "Al-Ettifaq",
+        "Al Hilal"
+      ],
+      "known": 82,
+      "gulf": true
+    },
+    {
+      "id": "gulf-almoez-ali",
+      "answer": "Almoez Ali",
+      "clubs": [
+        "LASK",
+        "Cultural Leonesa",
+        "Al-Duhail"
+      ],
+      "known": 85,
+      "loans": [
+        1
+      ],
+      "gulf": true
+    },
+    {
+      "id": "gulf-abdullah-otayf",
+      "answer": "Abdullah Otayf",
+      "clubs": [
+        "Al-Shabab",
+        "Louletano",
+        "Al Hilal",
+        "Al-Ahli"
+      ],
+      "known": 78,
+      "loans": [
+        1
+      ],
+      "gulf": true
+    },
+    {
+      "id": "jose-mourinho-manager",
+      "answer": "José Mourinho",
+      "clubs": [
+        "União de Leiria",
+        "Porto",
+        "Chelsea",
+        "Inter Milan",
+        "Real Madrid",
+        "Chelsea",
+        "Manchester United",
+        "Tottenham Hotspur",
+        "Roma",
+        "Fenerbahçe",
+        "Benfica",
+        "Real Madrid"
+      ],
+      "known": 90,
+      "gulf": false
+    },
+    {
+      "id": "carlo-ancelotti-manager",
+      "answer": "Carlo Ancelotti",
+      "clubs": [
+        "Reggiana",
+        "Parma",
+        "Juventus",
+        "AC Milan",
+        "Chelsea",
+        "Paris Saint-Germain",
+        "Real Madrid",
+        "Bayern Munich",
+        "Napoli",
+        "Everton",
+        "Real Madrid",
+        "Brazil"
+      ],
+      "known": 92,
+      "gulf": false
+    },
+    {
+      "id": "pep-guardiola-manager",
+      "answer": "Pep Guardiola",
+      "clubs": [
+        "Barcelona B",
+        "Barcelona",
+        "Bayern Munich",
+        "Manchester City"
+      ],
+      "known": 88,
+      "gulf": false
+    },
+    {
+      "id": "diego-simeone-manager",
+      "answer": "Diego Simeone",
+      "clubs": [
+        "Racing Club",
+        "Estudiantes",
+        "River Plate",
+        "San Lorenzo",
+        "Catania",
+        "Racing Club",
+        "Atlético Madrid"
+      ],
+      "known": 80,
+      "gulf": false
+    },
+    {
+      "id": "jurgen-klopp-manager",
+      "answer": "Jürgen Klopp",
+      "clubs": [
+        "Mainz 05",
+        "Borussia Dortmund",
+        "Liverpool"
+      ],
+      "known": 85,
+      "gulf": false
+    },
+    {
+      "id": "luis-enrique-manager",
+      "answer": "Luis Enrique",
+      "clubs": [
+        "Barcelona B",
+        "Roma",
+        "Celta Vigo",
+        "Barcelona",
+        "Spain",
+        "Paris Saint-Germain"
+      ],
+      "known": 78,
+      "gulf": false
     }
   ]
 }

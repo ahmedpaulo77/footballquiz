@@ -1,1 +1,0 @@
-import{d as r,j as t,r as o}from"./styles-1NysS79N.js";import{A as e}from"./App-KvxjXCG0.js";r.createRoot(document.getElementById("root")).render(t.jsx(o.StrictMode,{children:t.jsx(e,{initialQuizId:"who-am-i"})}));

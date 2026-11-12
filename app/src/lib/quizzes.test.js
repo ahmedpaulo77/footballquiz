@@ -21,10 +21,12 @@ describe('الألعاب (Quizzes)', () => {
     for (const lang of ['ar', 'en']) {
       for (const quiz of getQuizzes(lang)) {
         expect(quiz.title, `${lang}/${quiz.id}`).toBeTruthy();
-        expect(quiz.nextLabel, `${lang}/${quiz.id}`).toBeTruthy();
-        expect(quiz.answerLabel, `${lang}/${quiz.id}`).toBeTruthy();
+        if (quiz.kind !== 'cards') {
+          expect(quiz.nextLabel, `${lang}/${quiz.id}`).toBeTruthy();
+          expect(quiz.answerLabel, `${lang}/${quiz.id}`).toBeTruthy();
+        }
         expect(
-          quiz.questions.length + quiz.matches.length,
+          quiz.questions.length + quiz.matches.length + (quiz.cards?.length ?? 0),
           `${lang}/${quiz.id}`,
         ).toBeGreaterThan(0);
       }
@@ -176,14 +178,15 @@ describe('لعبة «ريسك»', () => {
       'one-question',
       'top-three',
       'lineups',
+      'cards',
     ]);
   });
 
-  it('فيها ٣٥ فئة و١٤٠ خلية على ٤ قيم', () => {
-    expect(arQuiz.categories).toHaveLength(35);
+  it('فيها ٣٦ فئة و١٤٤ خلية على ٤ قيم', () => {
+    expect(arQuiz.categories).toHaveLength(36);
     expect(arQuiz.values).toEqual([10, 20, 40, 50]);
-    expect(arQuiz.questions).toHaveLength(140);
-    expect(enQuiz.questions).toHaveLength(140);
+    expect(arQuiz.questions).toHaveLength(144);
+    expect(enQuiz.questions).toHaveLength(144);
   });
 
   it('كل فئة عندها خلية واحدة لكل قيمة', () => {
@@ -322,8 +325,8 @@ describe('لعبة «سؤال واحد»', () => {
   });
 
   it('فيها ٦٠ سؤال و١٠ أسئلة في الجولة و١٠ نقط للسؤال', () => {
-    expect(arQuiz.questions).toHaveLength(70);
-    expect(enQuiz.questions).toHaveLength(70);
+    expect(arQuiz.questions).toHaveLength(81);
+    expect(enQuiz.questions).toHaveLength(81);
     expect(arQuiz.questionsPerGame).toBe(10);
     expect(arQuiz.pointsPerQuestion).toBe(10);
   });
@@ -381,8 +384,8 @@ describe('لعبة «توب 3»', () => {
   });
 
   it('فيها ٩٢ سؤال و٨ أسئلة في الجولة و٣ اختيارات', () => {
-    expect(arQuiz.questions).toHaveLength(102);
-    expect(enQuiz.questions).toHaveLength(102);
+    expect(arQuiz.questions).toHaveLength(105);
+    expect(enQuiz.questions).toHaveLength(105);
     expect(arQuiz.questionsPerGame).toBe(8);
     expect(arQuiz.picksCount).toBe(3);
   });
@@ -470,8 +473,8 @@ describe('لعبة «تشكيلات المباريات»', () => {
   });
 
   it('فيها ٩٧ ماتش و١٥ مسابقة كلها مستخدمة', () => {
-    expect(arQuiz.matches).toHaveLength(107);
-    expect(enQuiz.matches).toHaveLength(107);
+    expect(arQuiz.matches).toHaveLength(111);
+    expect(enQuiz.matches).toHaveLength(111);
     expect(arQuiz.competitions).toHaveLength(19);
     expect(new Set(arQuiz.matches.map((match) => match.competition)).size).toBe(19);
 
@@ -662,5 +665,49 @@ describe('اختيار سؤال', () => {
 
     expect(question).toBeTruthy();
     expect(question.id).toBeTruthy();
+  });
+});
+
+describe("لعبة «الكروت»", () => {
+  const arQuiz = getQuiz("cards", "ar");
+  const enQuiz = getQuiz("cards", "en");
+
+  it("kind=cards وترتيبها ٧", () => {
+    expect(arQuiz.kind).toBe("cards");
+    expect(enQuiz.order).toBe(7);
+  });
+
+  it("فيه ٧٤ كارت بإحصائيات موثقة", () => {
+    expect(arQuiz.cards).toHaveLength(74);
+    expect(enQuiz.cards).toHaveLength(74);
+
+    for (const card of arQuiz.cards) {
+      expect(card.id.trim(), "id").not.toBe("");
+      for (const stat of ["goals", "trophies", "caps", "seasons", "assists"]) {
+        expect(Number.isInteger(card[stat]), `${card.id}/${stat}`).toBe(true);
+        expect(card[stat], `${card.id}/${stat}`).toBeGreaterThanOrEqual(0);
+      }
+      expect(card.source, `${card.id} source`).toMatch(
+        /^https:\/\/(en|ar)\.wikipedia\.org\//,
+      );
+    }
+
+    const ids = arQuiz.cards.map((card) => card.id);
+    expect(new Set(ids).size).toBe(ids.length);
+  });
+
+  it("الأسماء بالعربي حروف عربية والإنجليزية لاتينية", () => {
+    arQuiz.cards.forEach((card) => expect(card.name).toMatch(ARABIC_LETTERS));
+    enQuiz.cards.forEach((card) => expect(card.name).toMatch(LATIN_LETTERS));
+  });
+
+  it("كل كارت له مصدر ويكيبيديا في اللغتين", () => {
+    expect(arQuiz.cards.map((card) => card.source)).toEqual(
+      enQuiz.cards.map((card) => card.source),
+    );
+  });
+
+  it("مفيش كروت خليجي متعلمة في اللعبة", () => {
+    for (const card of arQuiz.cards) expect(card.gulf).toBeUndefined();
   });
 });

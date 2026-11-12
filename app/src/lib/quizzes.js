@@ -132,6 +132,26 @@ function normalizeLineup(raw, matchId, side) {
     .filter((player) => player && player.name != null && player.name !== '');
 }
 
+function normalizeCards(raw) {
+  if (!Array.isArray(raw)) return [];
+
+  return raw
+    .filter((card) => card && Number.isFinite(card.goals) && Number.isFinite(card.trophies))
+    .map((card, index) => ({
+      id: card.id ?? `card-${index}`,
+      name:
+        typeof card.name === 'string'
+          ? card.name
+          : card.name ?? { ar: '', en: '' },
+      goals: Number.isFinite(card.goals) ? card.goals : 0,
+      trophies: Number.isFinite(card.trophies) ? card.trophies : 0,
+      caps: Number.isFinite(card.caps) ? card.caps : 0,
+      seasons: Number.isFinite(card.seasons) ? card.seasons : 0,
+      assists: Number.isFinite(card.assists) ? card.assists : 0,
+      source: typeof card.source === 'string' ? card.source : '',
+    }));
+}
+
 function normalizeMatch(raw, index, quizId) {
   const id = raw.id ?? `${quizId}-match-${index}`;
 
@@ -179,6 +199,8 @@ function normalizeQuiz(raw, fallbackId) {
     normalizeMatch(match, index, id),
   );
 
+  const cards = normalizeCards(raw.players);
+
   const values = Array.isArray(raw.values)
     ? raw.values.filter((value) => typeof value === 'number')
     : [...new Set(questions.map((question) => question.value).filter((value) => value != null))].sort(
@@ -214,12 +236,16 @@ function normalizeQuiz(raw, fallbackId) {
     questions,
     competitions,
     matches,
+    cards,
   };
 }
 
 const bilingualQuizzes = Object.entries(quizModules)
   .map(([path, raw]) => normalizeQuiz(raw, path.split('/').pop().replace('.json', '')))
-  .filter((quiz) => quiz.questions.length > 0 || quiz.matches.length > 0)
+  .filter(
+    (quiz) =>
+      quiz.questions.length > 0 || quiz.matches.length > 0 || quiz.cards.length > 0,
+  )
   .sort(
     (a, b) =>
       a.order - b.order || pickText(a.title, 'ar').localeCompare(pickText(b.title, 'ar'), 'ar'),
@@ -283,6 +309,10 @@ function localizeQuiz(quiz, lang) {
       source: match.source,
       label: match.label ? pickText(match.label, lang) : '',
       gulf: match.gulf === true,
+    })),
+    cards: (quiz.cards ?? []).map((card) => ({
+      ...card,
+      name: pickText(card.name, lang),
     })),
     questions: quiz.questions.map((question) => ({
       id: question.id,

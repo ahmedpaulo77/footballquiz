@@ -11,6 +11,7 @@ const QUIZ_URLS = {
   'one-question': './one-question.html',
   'top-three': './top-three.html',
   lineups: './lineups.html',
+  cards: './cards.html',
 };
 
 /** لون كل لعبة */
@@ -21,6 +22,7 @@ const QUIZ_COLORS = {
   'one-question': { from: 'rgba(52,211,153,0.22)', to: 'rgba(4,120,87,0.08)' },
   'top-three': { from: 'rgba(251,113,133,0.22)', to: 'rgba(190,18,60,0.08)' },
   lineups: { from: 'rgba(139,92,246,0.22)', to: 'rgba(34,211,238,0.08)' },
+  cards: { from: 'rgba(251,146,60,0.22)', to: 'rgba(234,88,12,0.08)' },
 };
 
 /** وصف مختصر لكل لعبة */
@@ -32,6 +34,7 @@ const QUIZ_DESC = {
     'one-question': 'وزّع الـ١٠ نقط على الإجابات — اللي تاجر يكسب',
     'top-three': 'اختار ٣ لاعبين صح من ٩ — واكسب البونص',
     lineups: 'خمّن لاعبي المباريات المشهورة — نهائيات وكلاسيكيات',
+    cards: 'خلص كروتك الأول — لعبة الكروت لفريقين',
   },
   en: {
     'who-am-i': 'Clues about a player — guess before they run out',
@@ -40,6 +43,7 @@ const QUIZ_DESC = {
     'one-question': 'Spread your 10 points on the right answer — winner takes all',
     'top-three': 'Pick 3 correct names out of 9 — and earn the bonus',
     lineups: 'Guess the starters of famous matches — finals and classics',
+    cards: 'Empty your hand first — the cards game',
   },
 };
 

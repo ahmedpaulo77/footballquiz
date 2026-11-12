@@ -16742,6 +16742,630 @@
         }
       ],
       "source": "https://ar.wikipedia.org/wiki/نهائي_كأس_خادم_الحرمين_الشريفين_2025"
+    },
+    {
+      "id": "kc-2017-ahli-hilal",
+      "competition": "king-cup",
+      "year": 2017,
+      "home": {
+        "ar": "الأهلي",
+        "en": "Al-Ahli"
+      },
+      "away": {
+        "ar": "الهلال",
+        "en": "Al-Hilal"
+      },
+      "score": "2–3",
+      "winner": "away",
+      "decidedBy": "regulation",
+      "shootout": null,
+      "difficulty": "hard",
+      "gulf": true,
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "ar": "ياسر المسيليم",
+          "en": "Yasser Al-Mosailem"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "ar": "سعيد المولد",
+          "en": "Saeed Al-Muwallad"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "عقيل بلغيث",
+          "en": "Ageel Balgaeith"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "معتز هوساوي",
+          "en": "Motez Hawsawi"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "ar": "محمد عبد الشافي",
+          "en": "Mohamed Abdel-Shafy"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "سعد عبد الأمير",
+          "en": "Saad Abdul-Amir"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "وليد بخشوين",
+          "en": "Waleed Bakshween"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "ar": "إيوانيس فيتفاتزيديس",
+          "en": "Ioannis Fetfatzidis"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "ar": "تيسير الجاسم",
+          "en": "Taisir Al-Jassim"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "ar": "سلمان المؤشر",
+          "en": "Salman Muwashar"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "ar": "عبد الفتاح عسيري",
+          "en": "Abdulfattah Asiri"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "ar": "عبدالله المعيوف",
+          "en": "Abdullah Al-Mayouf"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "ar": "محمد البريك",
+          "en": "Mohammed Al-Breik"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "أسامة هوساوي",
+          "en": "Osama Hawsawi"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "محمد جهفالي",
+          "en": "Mohammed Jahfali"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "ar": "عبد الله الزوري",
+          "en": "Abdullah Al-Zori"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "ar": "عبد الله عطيف",
+          "en": "Abdullah Otayf"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "سلمان الفرج",
+          "en": "Salman Al-Faraj"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "ar": "نيكولاس ميليسي",
+          "en": "Nicolás Milesi"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "كارلوس إدواردو",
+          "en": "Carlos Eduardo"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "ar": "سالم الدوسري",
+          "en": "Salem Al-Dawsari"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "ar": "عمر خربين",
+          "en": "Omar Kharbin"
+        }
+      ],
+      "source": "https://ar.wikipedia.org/wiki/نهائي_كأس_خادم_الحرمين_الشريفين_2017"
+    },
+    {
+      "id": "kc-2020-hilal-nassr",
+      "competition": "king-cup",
+      "year": 2020,
+      "home": {
+        "ar": "الهلال",
+        "en": "Al-Hilal"
+      },
+      "away": {
+        "ar": "النصر",
+        "en": "Al-Nassr"
+      },
+      "score": "2–1",
+      "winner": "home",
+      "decidedBy": "regulation",
+      "shootout": null,
+      "difficulty": "hard",
+      "gulf": true,
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "ar": "حبيب الوتيان",
+          "en": "Habib Al-Wotayan"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "ar": "محمد البريك",
+          "en": "Mohammed Al-Breik"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "علي البليهي",
+          "en": "Ali Al-Bulaihi"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "جانغ هيون-سو",
+          "en": "Jang Hyun-soo"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "ar": "ياسر الشهراني",
+          "en": "Yasser Al-Shahrani"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "ar": "غوستافو كوايلار",
+          "en": "Gustavo Cuéllar"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "ar": "سلمان الفرج",
+          "en": "Salman Al-Faraj"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "ar": "أندريه كاريلو",
+          "en": "André Carrillo"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "ar": "سيباستيان جوفينقو",
+          "en": "Sebastian Giovinco"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "ar": "سالم الدوسري",
+          "en": "Salem Al-Dawsari"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "ar": "بافيتيمبي غوميس",
+          "en": "Bafétimbi Gomis"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "ar": "براد جونز",
+          "en": "Brad Jones"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "ar": "سلطان الغنام",
+          "en": "Sultan Al-Ghanam"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "عبد الله مادو",
+          "en": "Abdullah Madu"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "مايكون",
+          "en": "Maicon"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "ar": "كيم جين-سو",
+          "en": "Kim Jin-su"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "ar": "بتروس",
+          "en": "Petros"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "ar": "عبد المجيد السليحيم",
+          "en": "Abdulmajeed Al-Sulayhem"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "ar": "غونزالو مارتينيز",
+          "en": "Gonzalo Martínez"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "ar": "علي الحسن",
+          "en": "Ali Al-Hassan"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "ar": "نوردين عمرابات",
+          "en": "Nordin Amrabat"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "ar": "عبدالرزاق حمد الله",
+          "en": "Abderrazak Hamdallah"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2020_King_Cup_final"
+    },
+    {
+      "id": "kc-2022-hilal-fayha",
+      "competition": "king-cup",
+      "year": 2022,
+      "home": {
+        "ar": "الهلال",
+        "en": "Al-Hilal"
+      },
+      "away": {
+        "ar": "الفيحاء",
+        "en": "Al-Fayha"
+      },
+      "score": "1–1",
+      "winner": "away",
+      "decidedBy": "penalties",
+      "shootout": "1–3",
+      "difficulty": "hard",
+      "gulf": true,
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "ar": "عبدالله المعيوف",
+          "en": "Abdullah Al-Mayouf"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "ar": "محمد البريك",
+          "en": "Mohammed Al-Breik"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "جانغ هيون-سو",
+          "en": "Jang Hyun-soo"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "علي البليهي",
+          "en": "Ali Al-Bulaihi"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "ar": "ناصر الدوسري",
+          "en": "Nasser Al-Dawsari"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "ar": "سلمان الفرج",
+          "en": "Salman Al-Faraj"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "ar": "عبد الله عطيف",
+          "en": "Abdullah Otayf"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "ar": "ماتيوس بيريرا",
+          "en": "Matheus Pereira"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "ar": "موسى ماريغا",
+          "en": "Moussa Marega"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "ar": "سالم الدوسري",
+          "en": "Salem Al-Dawsari"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "ar": "أوديون إيغالو",
+          "en": "Odion Ighalo"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "ar": "فلاديمير ستويكوفيتش",
+          "en": "Vladimir Stojković"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "ar": "محمد البقعاوي",
+          "en": "Mohammed Al-Baqawi"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "سامي الخبيري",
+          "en": "Sami Al-Khabiry"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "حسين الشويش",
+          "en": "Hussein Al-Shuwaish"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "ar": "أحمد بامسعود",
+          "en": "Ahmed Basimoud"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "عبد الرحمن السفري",
+          "en": "Abdulrahman Al-Sufri"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "ريكاردو",
+          "en": "Ricardo"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "محمد أبوسبعان",
+          "en": "Mohammed Abu Sabaan"
+        },
+        {
+          "pos": "FW",
+          "group": "FW",
+          "ar": "سلطان مندش",
+          "en": "Sultan Mandash"
+        },
+        {
+          "pos": "MF",
+          "group": "MF",
+          "ar": "ألكسندر ترايكوفسكي",
+          "en": "Aleksandar Trajkovski"
+        },
+        {
+          "pos": "MF",
+          "group": "MF",
+          "ar": "باناغيوتيس تاختسيديس",
+          "en": "Panagiotis Tachtsidis"
+        }
+      ],
+      "source": "https://ar.wikipedia.org/wiki/نهائي_كأس_خادم_الحرمين_الشريفين_2022"
+    },
+    {
+      "id": "kc-2016-ahli-nassr",
+      "competition": "king-cup",
+      "year": 2016,
+      "home": {
+        "ar": "الأهلي",
+        "en": "Al-Ahli"
+      },
+      "away": {
+        "ar": "النصر",
+        "en": "Al-Nassr"
+      },
+      "score": "2–1",
+      "winner": "home",
+      "decidedBy": "extra-time",
+      "shootout": null,
+      "difficulty": "hard",
+      "gulf": true,
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "ar": "ياسر المسيليم",
+          "en": "Yasser Al-Mosailem"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "ar": "عقيل بلغيث",
+          "en": "Ageel Balgaeith"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "أسامة هوساوي",
+          "en": "Osama Hawsawi"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "معتز هوساوي",
+          "en": "Motez Hawsawi"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "ar": "محمد عبد الشافي",
+          "en": "Mohamed Abdel-Shafy"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "ar": "إيوانيس فيتفاتزيديس",
+          "en": "Ioannis Fetfatzidis"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "تيسير الجاسم",
+          "en": "Taisir Al-Jassim"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "حسين المقهوي",
+          "en": "Hussein Al-Makhawi"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "ar": "سلمان المؤشر",
+          "en": "Salman Muwashar"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "ar": "ماركينيو",
+          "en": "Marquinho"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "ar": "عمر السومة",
+          "en": "Omar Al-Somah"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "ar": "عبد الله العنزي",
+          "en": "Abdullah Al-Anzi"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "ar": "خالد الغامدي",
+          "en": "Khaled Al-Ghamdi"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "عمر هوساوي",
+          "en": "Omar Hawsawi"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "محمد حسين",
+          "en": "Mohamed Husain"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "ar": "حسين عبد الغني",
+          "en": "Hussein Abdulghani"
+        },
+        {
+          "pos": "RM",
+          "group": "MF",
+          "ar": "شايع شراحيلي",
+          "en": "Shaye Al-Sharahili"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "عبد العزيز الجبرين",
+          "en": "Abdulaziz Al-Jebreen"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "عوض خميس",
+          "en": "Awadh Khamis"
+        },
+        {
+          "pos": "LM",
+          "group": "MF",
+          "ar": "أدريان مييرجيفسكي",
+          "en": "Adrian Mierzejewski"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "ar": "نايف هزازي",
+          "en": "Naif Hazzazi"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "ar": "موديبو مايغا",
+          "en": "Modibo Maïga"
+        }
+      ],
+      "source": "https://ar.wikipedia.org/wiki/نهائي_كأس_خادم_الحرمين_الشريفين_2016"
     }
   ]
 }

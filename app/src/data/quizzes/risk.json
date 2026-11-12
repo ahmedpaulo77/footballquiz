@@ -305,6 +305,14 @@
         "en": "Africa Cup of Nations 2019 – (2)"
       },
       "emoji": "🦅"
+    },
+    {
+      "id": "coaches",
+      "title": {
+        "ar": "المدربين",
+        "en": "Coaches"
+      },
+      "emoji": "👔"
     }
   ],
   "questions": [
@@ -2126,6 +2134,58 @@
       "answer": {
         "ar": "ثيمبينكوسي لورش",
         "en": "Thembinkosi Lorch"
+      }
+    },
+    {
+      "id": "coaches-10",
+      "category": "coaches",
+      "value": 10,
+      "question": {
+        "ar": "أي مدرب فاز بدوري أبطال أوروبا ٢٠١٤ و٢٠٢٢ و٢٠٢٤ مع ريال مدريد؟",
+        "en": "Which manager won the 2014, 2022 and 2024 UEFA Champions League titles with Real Madrid?"
+      },
+      "answer": {
+        "ar": "كارلو أنشيلوتي",
+        "en": "Carlo Ancelotti"
+      }
+    },
+    {
+      "id": "coaches-20",
+      "category": "coaches",
+      "value": 20,
+      "question": {
+        "ar": "مين المدرب الذي فاز بدوري أبطال أوروبا ٢٠١٠ مع إنتر ميلان ضمن ثلاثية الدوري والكأس والأبطال؟",
+        "en": "Who was the manager who won the UEFA Champions League in 2010 with Inter Milan as part of their treble?"
+      },
+      "answer": {
+        "ar": "جوزي مورينيو",
+        "en": "José Mourinho"
+      }
+    },
+    {
+      "id": "coaches-40",
+      "category": "coaches",
+      "value": 40,
+      "question": {
+        "ar": "أي مدرب قاد ألمانيا للفوز بكأس العالم ٢٠١٤؟",
+        "en": "Which manager led Germany to win the 2014 World Cup?"
+      },
+      "answer": {
+        "ar": "يواخيم لوف",
+        "en": "Joachim Löw"
+      }
+    },
+    {
+      "id": "coaches-50",
+      "category": "coaches",
+      "value": 50,
+      "question": {
+        "ar": "أي مدرب قاد تشيلسي للفوز بدوري أبطال أوروبا ٢٠١٢؟",
+        "en": "Which manager led Chelsea to win the 2012 UEFA Champions League title?"
+      },
+      "answer": {
+        "ar": "روبرتو دي ماتيو",
+        "en": "Roberto Di Matteo"
       }
     }
   ]

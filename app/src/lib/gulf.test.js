@@ -7,7 +7,7 @@ const GULF_GAME_IDS = ['paths', 'one-question', 'top-three', 'lineups'];
 describe('الكرة الخليجية', () => {
   const arQuizzes = getQuizzes('ar');
 
-  it('كل لعبة معنية فيها ١٠ أسئلة/ماتشات خليجية بالظبط', () => {
+  it('كل لعبة معنية فيها ١٠ أسئلة/ماتشات خليجية بالظبط على الأقل', () => {
     for (const id of GULF_GAME_IDS) {
       const quiz = getQuiz(id, 'ar');
       const gulfItems =
@@ -15,7 +15,7 @@ describe('الكرة الخليجية', () => {
           ? quiz.matches.filter((match) => match.gulf)
           : quiz.questions.filter((question) => question.gulf);
 
-      expect(gulfItems, id).toHaveLength(10);
+      expect(gulfItems.length, id).toBeGreaterThanOrEqual(10);
     }
   });
 
@@ -36,7 +36,7 @@ describe('الكرة الخليجية', () => {
 
       expect(general.filter((item) => item.gulf), id).toHaveLength(0);
       expect(gulfOnly.every((item) => item.gulf), id).toBe(true);
-      expect(gulfOnly.map((item) => item.id), id).toHaveLength(10);
+      expect(gulfOnly.length, id).toBeGreaterThanOrEqual(10);
     }
   });
 

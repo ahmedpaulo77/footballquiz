@@ -6067,6 +6067,189 @@
           "stat": 116
         }
       ]
+    },
+    {
+      "id": "gulf-gcc-2019-scorers",
+      "category": {
+        "ar": "كأس الخليج 2019",
+        "en": "2019 Arabian Gulf Cup"
+      },
+      "question": {
+        "ar": "خليجي 24 في الدوحة — مين أكتر ٣ لاعبين بروعة في البطولة؟",
+        "en": "The 24th Arabian Gulf Cup in Doha — who were the top 3 scorers?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "24th Arabian Gulf Cup — Goalscorers (accessed Nov 2026)",
+      "top": [
+        0,
+        1,
+        2
+      ],
+      "asc": false,
+      "gulf": true,
+      "players": [
+        {
+          "name": "علي مبخوت",
+          "stat": 5
+        },
+        {
+          "name": "عبد الكريم حسن",
+          "stat": 3
+        },
+        {
+          "name": "أكرم عفيف",
+          "stat": 3
+        },
+        {
+          "name": "تياغو أوغوستو",
+          "stat": 2
+        },
+        {
+          "name": "عبد العزيز المقبالي",
+          "stat": 2
+        },
+        {
+          "name": "يوسف ناصر",
+          "stat": 2
+        },
+        {
+          "name": "فراس البريكان",
+          "stat": 2
+        },
+        {
+          "name": "هتان باهبري",
+          "stat": 2
+        },
+        {
+          "name": "عبد الله الحمدان",
+          "stat": 2
+        }
+      ]
+    },
+    {
+      "id": "gulf-gcc-2025-scorers",
+      "category": {
+        "ar": "كأس الخليج 2025",
+        "en": "2025 Arabian Gulf Cup"
+      },
+      "question": {
+        "ar": "خليجي 26 في الكويت — مين أكتر ٣ لاعبين تسجيل في البطولة؟",
+        "en": "The 26th Arabian Gulf Cup in Kuwait — who were the top 3 scorers?"
+      },
+      "unit": {
+        "ar": "هدف",
+        "en": "goals"
+      },
+      "source": "26th Arabian Gulf Cup — Goalscorers (accessed Nov 2026)",
+      "top": [
+        0,
+        1,
+        2
+      ],
+      "asc": false,
+      "gulf": true,
+      "players": [
+        {
+          "name": "محمد مرهون",
+          "stat": 3
+        },
+        {
+          "name": "عصام الصبحي",
+          "stat": 3
+        },
+        {
+          "name": "عبد الله الحمدان",
+          "stat": 3
+        },
+        {
+          "name": "علي مدان",
+          "stat": 2
+        },
+        {
+          "name": "محمد دهام",
+          "stat": 2
+        },
+        {
+          "name": "يحيى الغساني",
+          "stat": 2
+        },
+        {
+          "name": "مصعب الجوير",
+          "stat": 2
+        },
+        {
+          "name": "محمد كنو",
+          "stat": 2
+        },
+        {
+          "name": "يوسف ناصر",
+          "stat": 1
+        }
+      ]
+    },
+    {
+      "id": "coaches-ucl-titles",
+      "category": {
+        "ar": "المدربين",
+        "en": "Coaches"
+      },
+      "question": {
+        "ar": "أكتر ٣ مدربين فوزًا بدوري أبطال أوروبا عبر التاريخ؟",
+        "en": "Which 3 managers have won the most UEFA Champions League titles?"
+      },
+      "unit": {
+        "ar": "بطولة",
+        "en": "titles"
+      },
+      "source": "UEFA records — Champions League winning managers (accessed Nov 2026)",
+      "top": [
+        1,
+        3,
+        6
+      ],
+      "asc": false,
+      "gulf": false,
+      "players": [
+        {
+          "name": "Jürgen Klopp",
+          "stat": 1
+        },
+        {
+          "name": "Carlo Ancelotti",
+          "stat": 5
+        },
+        {
+          "name": "Louis van Gaal",
+          "stat": 1
+        },
+        {
+          "name": "Zinedine Zidane",
+          "stat": 3
+        },
+        {
+          "name": "José Mourinho",
+          "stat": 2
+        },
+        {
+          "name": "Vicente del Bosque",
+          "stat": 2
+        },
+        {
+          "name": "Pep Guardiola",
+          "stat": 3
+        },
+        {
+          "name": "Roberto Di Matteo",
+          "stat": 1
+        },
+        {
+          "name": "Rafael Benítez",
+          "stat": 1
+        }
+      ]
     }
   ]
 }

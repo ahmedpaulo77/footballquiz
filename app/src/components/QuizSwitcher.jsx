@@ -6,6 +6,7 @@ const QUIZ_PATHS = {
   'one-question': './one-question.html',
   'top-three': './top-three.html',
   lineups: './lineups.html',
+  cards: './cards.html',
 };
 
 /** لينكات اختيار اللعبة — بتظهر بس لو فيه أكتر من لعبة. */

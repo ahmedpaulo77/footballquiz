@@ -44,12 +44,8 @@
           "en": "I was the player with the most assists in the Europa League in 2014-15."
         },
         {
-          "ar": "شاركت في ثلاث نسخ من البطولة القارية، وعمري ما لعبت كأس عالم — بلدي لعبت كأس العالم مرة واحدة بس، وكانت 2006.",
-          "en": "I played in three editions of the continental championship but never played at a World Cup — my country reached the World Cup only once, in 2006."
-        },
-        {
-          "ar": "لعبت مع منتخب بلدي 116 مباراة وسجلت 46 هدف.",
-          "en": "I earned 116 caps for my national team and scored 46 goals."
+          "ar": "شاركت في ثلاث نسخ من البطولة القارية، وعمري ما لعبت كأس عالم — بلدي لعبت كأس العالم مرة واحدة بس، ولعبت مع منتخب بلدي 116 مباراة وسجلت 46 هدف.",
+          "en": "I played in three editions of the continental championship but never played at a World Cup — my country reached the World Cup only once — and I earned 116 caps for my national team, scoring 46 goals."
         },
         {
           "ar": "لعبت مع سفيان رحيمي، ودوماغوي فيدا، ويونس بلهندة، وميكولينكو، وزاباليتا، ونصري، وجاك ويلشير، وديكلان رايس.",
@@ -649,8 +645,8 @@
           "en": "I played three World Cups and finished runner-up once, and played one Confederations Cup where I also finished runner-up."
         },
         {
-          "ar": "سجلت هدف أيقوني في كأس العالم 2006 أمام المكسيك.",
-          "en": "I scored an iconic goal at the 2006 World Cup against Mexico."
+          "ar": "سجلت هدف أيقوني في كأس العالم أمام المكسيك.",
+          "en": "I scored an iconic goal at the World Cup against Mexico."
         }
       ]
     },
@@ -888,12 +884,8 @@
           "en": "I won the Europa League five times and the UEFA Super Cup three times, finished runner-up in the Champions League once, and won the English, Spanish and Portuguese leagues."
         },
         {
-          "ar": "كسبت يورو تحت 19 سنة 2002.",
-          "en": "I won the 2002 European Under-19 Championship."
-        },
-        {
-          "ar": "كنت كابتن الفريق اللي كسب الدوري الأوروبي سنة 2015.",
-          "en": "I was the captain of the team that won the Europa League in 2015."
+          "ar": "كسبت يورو تحت 19 سنة 2002، وكنت كابتن الفريق اللي كسب الدوري الأوروبي سنة 2015.",
+          "en": "I won the 2002 European Under-19 Championship and was the captain of the team that won the Europa League in 2015."
         },
         {
           "ar": "في الدوري نزلت مكان بيكهام بسبب الإصابة، وسجلت هدفين كسبنا بيهم الدوري سنة 2007.",
@@ -1082,24 +1074,20 @@
       },
       "clues": [
         {
-          "ar": "لعبت في اثنين من الدوريات الخمسة الكبرى (إنجلترا وإيطاليا)، ولعبت في اثنين برا الخمسة (نيجيريا وهولندا).",
-          "en": "I played in two of the top five leagues (England and Italy) and two outside them (Nigeria and the Netherlands)."
+          "ar": "لعبت في اثنين من الدوريات الخمسة الكبرى (إنجلترا وإيطاليا).",
+          "en": "I played in two of the top five leagues (England and Italy)."
         },
         {
-          "ar": "كسبت الدوري النيجيري، والدوري الإنجليزي 3 مرات، والهولندي 3 مرات، ودوري أبطال أوروبا مرة، وكنت وصيف مرة، وكأس الاتحاد الأوروبي مرة مع فريق تاني، وكأس الاتحاد الإنجليزي 4 مرات مع ناديين مختلفين.",
-          "en": "I won the Nigerian league, the Premier League three times, the Dutch league three times, the Champions League once (and finished runner-up once), the UEFA Cup once with another club, and the FA Cup four times with two different clubs."
+          "ar": "كسبت الدوري الإنجليزي 3 مرات، والهولندي 3 مرات، ودوري أبطال أوروبا مرة، وكنت وصيف مرة، وكأس الاتحاد الأوروبي مرة مع فريق تاني، وكأس الاتحاد الإنجليزي 4 مرات مع ناديين مختلفين.",
+          "en": "I won the Premier League three times, the Dutch league three times, the Champions League once (and finished runner-up once), the UEFA Cup once with another club, and the FA Cup four times with two different clubs."
         },
         {
-          "ar": "كسبت كأس العالم للشباب سنة 93، والأولمبياد 96، وأفضل لاعب في القارة مرتين 96 و99.",
-          "en": "I won the World Youth Championship in 1993 and the Olympics in 1996, and was African Player of the Year twice (1996 and 1999)."
+          "ar": "كسبت كأس العالم للشباب سنة 93، والأولمبياد 96، وأفضل لاعب في القارة مرتين 96 و99، وسجلت 3 أهداف في الأولمبياد، منهم الهدف الذهبي أمام البرازيل.",
+          "en": "I won the World Youth Championship in 1993 and the Olympics in 1996, was African Player of the Year twice (1996 and 1999), and scored three goals at the Olympics, including the golden goal against Brazil."
         },
         {
           "ar": "لعبت 3 كؤوس عالم وأولمبياد واحد و6 بطولات قارية، وكنت الوصيف في واحدة والباقي حققت نفس المركز.",
           "en": "I played three World Cups, one Olympics and six Africa Cup of Nations, finishing runner-up once and in the same position the rest."
-        },
-        {
-          "ar": "سجلت 3 أهداف في الأولمبياد، منهم الهدف الذهبي أمام البرازيل.",
-          "en": "I scored three goals at the Olympics, including the golden goal against Brazil."
         },
         {
           "ar": "لعبت مع سيدورف، وجلين جونسون، وبيغوفيتش، ومونتاري، وكروتش، وزانيتي، وسيلفينيو، وبيتي، وجيو فان برونكهورست.",
