@@ -992,20 +992,20 @@
       },
       "options": [
         {
-          "ar": "برونو فيرنانديز (٢١ أسيست في ٢٠٢٥-٢٠٢٦)",
-          "en": "Bruno Fernandes (21 assists in 2025-26)"
+          "ar": "برونو فيرنانديز",
+          "en": "Bruno Fernandes"
         },
         {
-          "ar": "كيفين دي بروين (٢٠ أسيست في ٢٠١٩-٢٠٢٠)",
-          "en": "Kevin De Bruyne (20 assists in 2019-20)"
+          "ar": "كيفين دي بروين",
+          "en": "Kevin De Bruyne"
         },
         {
-          "ar": "محمد صلاح (١٨ أسيست في ٢٠٢٤-٢٠٢٥)",
-          "en": "Mohamed Salah (18 assists in 2024-25)"
+          "ar": "محمد صلاح",
+          "en": "Mohamed Salah"
         },
         {
-          "ar": "ميسوت أوزيل (١٩ أسيست في ٢٠١٥-٢٠١٦)",
-          "en": "Mesut Ozil (19 assists in 2015-16)"
+          "ar": "ميسوت أوزيل",
+          "en": "Mesut Ozil"
         }
       ],
       "correct": 0
@@ -1018,12 +1018,12 @@
       },
       "options": [
         {
-          "ar": "تشافي هيرنانديز (٢٠ أسيست في ٢٠٠٨-٢٠٠٩)",
-          "en": "Xavi Hernandez (20 assists in 2008-09)"
+          "ar": "تشافي هيرنانديز",
+          "en": "Xavi Hernandez"
         },
         {
-          "ar": "ليونيل ميسي (٢١ أسيست في ٢٠١٩-٢٠٢٠)",
-          "en": "Lionel Messi (21 assists in 2019-20)"
+          "ar": "ليونيل ميسي",
+          "en": "Lionel Messi"
         },
         {
           "ar": "كريم بنزيما",
@@ -1044,16 +1044,16 @@
       },
       "options": [
         {
-          "ar": "بابو جوميز (١٦ أسيست في ٢٠١٩-٢٠٢٠)",
-          "en": "Papu Gomez (16 assists in 2019-20)"
+          "ar": "بابو جوميز",
+          "en": "Papu Gomez"
         },
         {
           "ar": "لويس ألبرتو",
           "en": "Luis Alberto"
         },
         {
-          "ar": "فيديريكو ديماركو (١٨ أسيست في ٢٠٢٥-٢٠٢٦)",
-          "en": "Federico Dimarco (18 assists in 2025-26)"
+          "ar": "فيديريكو ديماركو",
+          "en": "Federico Dimarco"
         },
         {
           "ar": "رافاييل لياو",
@@ -1070,20 +1070,20 @@
       },
       "options": [
         {
-          "ar": "كيفين دي بروين (١٩ أسيست في ٢٠١٤-٢٠١٥)",
-          "en": "Kevin De Bruyne (19 assists in 2014-15)"
+          "ar": "كيفين دي بروين",
+          "en": "Kevin De Bruyne"
         },
         {
-          "ar": "ميشيل أوليس (١٩ أسيست في ٢٠٢٥-٢٠٢٦)",
-          "en": "Michael Olise (19 assists in 2025-26)"
+          "ar": "ميشيل أوليس",
+          "en": "Michael Olise"
         },
         {
           "ar": "ماركو رويس",
           "en": "Marco Reus"
         },
         {
-          "ar": "توماس مولر (٢١ أسيست في ٢٠١٩-٢٠٢٠)",
-          "en": "Thomas Muller (21 assists in 2019-20)"
+          "ar": "توماس مولر",
+          "en": "Thomas Muller"
         }
       ],
       "correct": 3
@@ -1126,8 +1126,8 @@
           "en": "Pele"
         },
         {
-          "ar": "ميشيل أوليس (٧ أسيستات في ٢٠٢٦)",
-          "en": "Michael Olise (7 assists in 2026)"
+          "ar": "ميشيل أوليس",
+          "en": "Michael Olise"
         },
         {
           "ar": "دييجو مارادونا",
@@ -2147,6 +2147,600 @@
         }
       ],
       "correct": 1,
+      "gulf": false
+    },
+    {
+      "id": "teammates-messi",
+      "question": {
+        "ar": "مين أكتر لاعب لعب مباريات مع ليونيل ميسي؟",
+        "en": "Who played the most matches alongside Lionel Messi?"
+      },
+      "options": [
+        {
+          "ar": "جيرارد بيكيه",
+          "en": "Gerard Piqué"
+        },
+        {
+          "ar": "سيرجيو بوسكيتس",
+          "en": "Sergio Busquets"
+        },
+        {
+          "ar": "أندريس إنييستا",
+          "en": "Andrés Iniesta"
+        },
+        {
+          "ar": "جوردي ألبا",
+          "en": "Jordi Alba"
+        }
+      ],
+      "correct": 1,
+      "gulf": false
+    },
+    {
+      "id": "teammates-henry",
+      "question": {
+        "ar": "مين أكتر لاعب لعب مباريات مع تييري هنري؟",
+        "en": "Who played the most matches alongside Thierry Henry?"
+      },
+      "options": [
+        {
+          "ar": "روبير بيريز",
+          "en": "Robert Pirès"
+        },
+        {
+          "ar": "فريدريك ليونغبرغ",
+          "en": "Freddie Ljungberg"
+        },
+        {
+          "ar": "باتريك فييرا",
+          "en": "Patrick Vieira"
+        },
+        {
+          "ar": "دينيس بيركامب",
+          "en": "Dennis Bergkamp"
+        }
+      ],
+      "correct": 2,
+      "gulf": false
+    },
+    {
+      "id": "teammates-xavi",
+      "question": {
+        "ar": "مين أكتر لاعب لعب مباريات مع تشافي؟",
+        "en": "Who played the most matches alongside Xavi?"
+      },
+      "options": [
+        {
+          "ar": "أندريس إنييستا",
+          "en": "Andrés Iniesta"
+        },
+        {
+          "ar": "كارليس بويول",
+          "en": "Carles Puyol"
+        },
+        {
+          "ar": "فكتور فالديز",
+          "en": "Víctor Valdés"
+        },
+        {
+          "ar": "ليونيل ميسي",
+          "en": "Lionel Messi"
+        }
+      ],
+      "correct": 1,
+      "gulf": false
+    },
+    {
+      "id": "teammates-totti",
+      "question": {
+        "ar": "مين أكتر لاعب لعب مباريات مع فرانشيسكو توتي؟",
+        "en": "Who played the most matches alongside Francesco Totti?"
+      },
+      "options": [
+        {
+          "ar": "داميانو توماسي",
+          "en": "Damiano Tommasi"
+        },
+        {
+          "ar": "سيموني بيروتا",
+          "en": "Simone Perrotta"
+        },
+        {
+          "ar": "كريستيان بانوتشي",
+          "en": "Christian Panucci"
+        },
+        {
+          "ar": "دانييلي دي روسي",
+          "en": "Daniele De Rossi"
+        }
+      ],
+      "correct": 3,
+      "gulf": false
+    },
+    {
+      "id": "teammates-buffon",
+      "question": {
+        "ar": "مين أكتر لاعب لعب مباريات مع جانلويجي بوفون؟",
+        "en": "Who played the most matches alongside Gianluigi Buffon?"
+      },
+      "options": [
+        {
+          "ar": "جورجيو كيلليني",
+          "en": "Giorgio Chiellini"
+        },
+        {
+          "ar": "ليليان تورام",
+          "en": "Lilian Thuram"
+        },
+        {
+          "ar": "فابيو كانافارو",
+          "en": "Fabio Cannavaro"
+        },
+        {
+          "ar": "أليساندرو دل بييرو",
+          "en": "Alessandro Del Piero"
+        }
+      ],
+      "correct": 0,
+      "gulf": false
+    },
+    {
+      "id": "teammates-rooney",
+      "question": {
+        "ar": "مين أكتر لاعب لعب مباريات مع واين روني؟",
+        "en": "Who played the most matches alongside Wayne Rooney?"
+      },
+      "options": [
+        {
+          "ar": "ريو فرديناند",
+          "en": "Rio Ferdinand"
+        },
+        {
+          "ar": "باتريس إيفرا",
+          "en": "Patrice Evra"
+        },
+        {
+          "ar": "مايكل كاريك",
+          "en": "Michael Carrick"
+        },
+        {
+          "ar": "ريان غيغز",
+          "en": "Ryan Giggs"
+        }
+      ],
+      "correct": 2,
+      "gulf": false
+    },
+    {
+      "id": "teammates-gerrard",
+      "question": {
+        "ar": "مين أكتر لاعب لعب مباريات مع ستيفن جيرارد؟",
+        "en": "Who played the most matches alongside Steven Gerrard?"
+      },
+      "options": [
+        {
+          "ar": "جيمي كاراغر",
+          "en": "Jamie Carragher"
+        },
+        {
+          "ar": "سامي هيبيا",
+          "en": "Sami Hyypiä"
+        },
+        {
+          "ar": "بيبي رينا",
+          "en": "Pepe Reina"
+        },
+        {
+          "ar": "يون آرنه ريسه",
+          "en": "John Arne Riise"
+        }
+      ],
+      "correct": 0,
+      "gulf": false
+    },
+    {
+      "id": "teammates-maldini",
+      "question": {
+        "ar": "مين أكتر لاعب لعب مباريات مع باولو مالديني؟",
+        "en": "Who played the most matches alongside Paolo Maldini?"
+      },
+      "options": [
+        {
+          "ar": "فرانكو باريزي",
+          "en": "Franco Baresi"
+        },
+        {
+          "ar": "أليساندرو كوستاكورتا",
+          "en": "Alessandro Costacurta"
+        },
+        {
+          "ar": "ديميتريو ألبرتيني",
+          "en": "Demetrio Albertini"
+        },
+        {
+          "ar": "روبرتو دونادوني",
+          "en": "Roberto Donadoni"
+        }
+      ],
+      "correct": 1,
+      "gulf": false
+    },
+    {
+      "id": "teammates-lampard",
+      "question": {
+        "ar": "مين أكتر لاعب لعب مباريات مع فرانك لامبارد؟",
+        "en": "Who played the most matches alongside Frank Lampard?"
+      },
+      "options": [
+        {
+          "ar": "بيتر تشيك",
+          "en": "Petr Čech"
+        },
+        {
+          "ar": "آشلي كول",
+          "en": "Ashley Cole"
+        },
+        {
+          "ar": "ديدييه دروجبا",
+          "en": "Didier Drogba"
+        },
+        {
+          "ar": "جون تيري",
+          "en": "John Terry"
+        }
+      ],
+      "correct": 3,
+      "gulf": false
+    },
+    {
+      "id": "teammates-ibrahimovic",
+      "question": {
+        "ar": "مين أكتر لاعب لعب مباريات مع زلاتان إبراهيموفيتش؟",
+        "en": "Who played the most matches alongside Zlatan Ibrahimović?"
+      },
+      "options": [
+        {
+          "ar": "ماكسويل",
+          "en": "Maxwell"
+        },
+        {
+          "ar": "تياغو سيلفا",
+          "en": "Thiago Silva"
+        },
+        {
+          "ar": "بليز ماتويدي",
+          "en": "Blaise Matuidi"
+        },
+        {
+          "ar": "ماركو فيراتي",
+          "en": "Marco Verratti"
+        }
+      ],
+      "correct": 0,
+      "gulf": false
+    },
+    {
+      "id": "teammates-kane",
+      "question": {
+        "ar": "مين أكتر واحد في الأربعة دول لعب مباريات مع هاري كين؟",
+        "en": "Who among these four played the most matches alongside Harry Kane?"
+      },
+      "options": [
+        {
+          "ar": "سون هيونغ مين",
+          "en": "Son Heung-min"
+        },
+        {
+          "ar": "إيريك داير",
+          "en": "Eric Dier"
+        },
+        {
+          "ar": "هيغو لوريس",
+          "en": "Hugo Lloris"
+        },
+        {
+          "ar": "بن ديفيز",
+          "en": "Ben Davies"
+        }
+      ],
+      "correct": 1,
+      "gulf": false
+    },
+    {
+      "id": "teammates-son",
+      "question": {
+        "ar": "مين أكتر واحد في الأربعة دول لعب مباريات مع سون هيونغ مين؟",
+        "en": "Who among these four played the most matches alongside Son Heung-min?"
+      },
+      "options": [
+        {
+          "ar": "ديلي آلي",
+          "en": "Dele Alli"
+        },
+        {
+          "ar": "توبي ألدرفيريلد",
+          "en": "Toby Alderweireld"
+        },
+        {
+          "ar": "كريستيان إريكسن",
+          "en": "Christian Eriksen"
+        },
+        {
+          "ar": "بن ديفيز",
+          "en": "Ben Davies"
+        }
+      ],
+      "correct": 3,
+      "gulf": false
+    },
+    {
+      "id": "teammates-hazard",
+      "question": {
+        "ar": "مين أكتر واحد في الأربعة دول لعب مباريات مع إدين هازارد؟",
+        "en": "Who among these four played the most matches alongside Eden Hazard?"
+      },
+      "options": [
+        {
+          "ar": "غاري كاهيل",
+          "en": "Gary Cahill"
+        },
+        {
+          "ar": "سيزار أزبيليكويتا",
+          "en": "César Azpilicueta"
+        },
+        {
+          "ar": "ويليان",
+          "en": "Willian"
+        },
+        {
+          "ar": "برانيسلاف إيفانوفيتش",
+          "en": "Branislav Ivanović"
+        }
+      ],
+      "correct": 1,
+      "gulf": false
+    },
+    {
+      "id": "teammates-kaka",
+      "question": {
+        "ar": "مين أكتر واحد في الأربعة دول لعب مباريات مع كاكا؟",
+        "en": "Who among these four played the most matches alongside Kaká?"
+      },
+      "options": [
+        {
+          "ar": "كلارنس سيدورف",
+          "en": "Clarence Seedorf"
+        },
+        {
+          "ar": "أندريا بيرلو",
+          "en": "Andrea Pirlo"
+        },
+        {
+          "ar": "ديدا",
+          "en": "Dida"
+        },
+        {
+          "ar": "جنارو جاتوزو",
+          "en": "Gennaro Gattuso"
+        }
+      ],
+      "correct": 2,
+      "gulf": false
+    },
+    {
+      "id": "teammates-buffon-thuram",
+      "question": {
+        "ar": "مين أكتر واحد في الأربعة دول لعب مباريات مع جانلويجي بوفون؟",
+        "en": "Who among these four played the most matches alongside Gianluigi Buffon?"
+      },
+      "options": [
+        {
+          "ar": "فابيو كانافارو",
+          "en": "Fabio Cannavaro"
+        },
+        {
+          "ar": "أليساندرو دل بييرو",
+          "en": "Alessandro Del Piero"
+        },
+        {
+          "ar": "ليوناردو بونوتشي",
+          "en": "Leonardo Bonucci"
+        },
+        {
+          "ar": "ليليان تورام",
+          "en": "Lilian Thuram"
+        }
+      ],
+      "correct": 3,
+      "gulf": false
+    },
+    {
+      "id": "teammates-del-piero",
+      "question": {
+        "ar": "مين أكتر واحد في الأربعة دول لعب مباريات مع أليساندرو دل بييرو؟",
+        "en": "Who among these four played the most matches alongside Alessandro Del Piero?"
+      },
+      "options": [
+        {
+          "ar": "جانلوكا زامبروتا",
+          "en": "Gianluca Zambrotta"
+        },
+        {
+          "ar": "بافل نيدفيد",
+          "en": "Pavel Nedvěd"
+        },
+        {
+          "ar": "أنطونيو كونتي",
+          "en": "Antonio Conte"
+        },
+        {
+          "ar": "ماورو كامورانيزي",
+          "en": "Mauro Camoranesi"
+        }
+      ],
+      "correct": 0,
+      "gulf": false
+    },
+    {
+      "id": "teammates-roberto-carlos",
+      "question": {
+        "ar": "مين أكتر واحد في الأربعة دول لعب مباريات مع روبرتو كارلوس؟",
+        "en": "Who among these four played the most matches alongside Roberto Carlos?"
+      },
+      "options": [
+        {
+          "ar": "إيكر كاسياس",
+          "en": "Iker Casillas"
+        },
+        {
+          "ar": "غوتي",
+          "en": "Guti"
+        },
+        {
+          "ar": "راؤول",
+          "en": "Raúl"
+        },
+        {
+          "ar": "رونالدو",
+          "en": "Ronaldo"
+        }
+      ],
+      "correct": 2,
+      "gulf": false
+    },
+    {
+      "id": "teammates-zidane",
+      "question": {
+        "ar": "مين أكتر واحد في الأربعة دول لعب مباريات مع زين الدين زيدان؟",
+        "en": "Who among these four played the most matches alongside Zinedine Zidane?"
+      },
+      "options": [
+        {
+          "ar": "روبرتو كارلوس",
+          "en": "Roberto Carlos"
+        },
+        {
+          "ar": "راؤول",
+          "en": "Raúl"
+        },
+        {
+          "ar": "إيكر كاسياس",
+          "en": "Iker Casillas"
+        },
+        {
+          "ar": "بيسنتي ليزارازو",
+          "en": "Bixente Lizarazu"
+        }
+      ],
+      "correct": 3,
+      "gulf": false
+    },
+    {
+      "id": "teammates-henry-pires",
+      "question": {
+        "ar": "مين أكتر واحد في الأربعة دول لعب مباريات مع تييري هنري؟",
+        "en": "Who among these four played the most matches alongside Thierry Henry?"
+      },
+      "options": [
+        {
+          "ar": "لورين",
+          "en": "Lauren"
+        },
+        {
+          "ar": "روبير بيريز",
+          "en": "Robert Pirès"
+        },
+        {
+          "ar": "دينيس بيركامب",
+          "en": "Dennis Bergkamp"
+        },
+        {
+          "ar": "فريدريك ليونغبرغ",
+          "en": "Freddie Ljungberg"
+        }
+      ],
+      "correct": 1,
+      "gulf": false
+    },
+    {
+      "id": "teammates-de-bruyne",
+      "question": {
+        "ar": "مين أكتر واحد في الأربعة دول لعب مباريات مع كيفين دي بروين؟",
+        "en": "Who among these four played the most matches alongside Kevin De Bruyne?"
+      },
+      "options": [
+        {
+          "ar": "إيلكاي غوندوغان",
+          "en": "İlkay Gündoğan"
+        },
+        {
+          "ar": "كايل ووكر",
+          "en": "Kyle Walker"
+        },
+        {
+          "ar": "برناردو سيلفا",
+          "en": "Bernardo Silva"
+        },
+        {
+          "ar": "رحيم ستيرلينغ",
+          "en": "Raheem Sterling"
+        }
+      ],
+      "correct": 2,
+      "gulf": false
+    },
+    {
+      "id": "mourinho-matches",
+      "question": {
+        "ar": "مين أكتر واحد في الأربعة دول لعب مباريات تحت قيادة جوزيه مورينيو؟",
+        "en": "Who among these four played the most matches under José Mourinho?"
+      },
+      "options": [
+        {
+          "ar": "كريستيانو رونالدو",
+          "en": "Cristiano Ronaldo"
+        },
+        {
+          "ar": "كريس سمولينغ",
+          "en": "Chris Smalling"
+        },
+        {
+          "ar": "تشابي ألونسو",
+          "en": "Xabi Alonso"
+        },
+        {
+          "ar": "ديدييه دروجبا",
+          "en": "Didier Drogba"
+        }
+      ],
+      "correct": 1,
+      "gulf": false
+    },
+    {
+      "id": "mourinho-goals",
+      "question": {
+        "ar": "مين أكتر واحد في الأربعة دول سجّل أهداف مع جوزيه مورينيو؟",
+        "en": "Who among these four scored the most goals under José Mourinho?"
+      },
+      "options": [
+        {
+          "ar": "ديدييه دروجبا",
+          "en": "Didier Drogba"
+        },
+        {
+          "ar": "فرانك لامبارد",
+          "en": "Frank Lampard"
+        },
+        {
+          "ar": "زلاتان إبراهيموفيتش",
+          "en": "Zlatan Ibrahimović"
+        },
+        {
+          "ar": "كريم بنزيما",
+          "en": "Karim Benzema"
+        }
+      ],
+      "correct": 3,
       "gulf": false
     }
   ]

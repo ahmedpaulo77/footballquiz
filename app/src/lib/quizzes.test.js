@@ -324,9 +324,9 @@ describe('لعبة «سؤال واحد»', () => {
     expect(QUIZZES[3].id).toBe('one-question');
   });
 
-  it('فيها ٦٠ سؤال و١٠ أسئلة في الجولة و١٠ نقط للسؤال', () => {
-    expect(arQuiz.questions).toHaveLength(81);
-    expect(enQuiz.questions).toHaveLength(81);
+  it('فيها ١٠٣ سؤال و١٠ أسئلة في الجولة و١٠ نقط للسؤال', () => {
+    expect(arQuiz.questions).toHaveLength(103);
+    expect(enQuiz.questions).toHaveLength(103);
     expect(arQuiz.questionsPerGame).toBe(10);
     expect(arQuiz.pointsPerQuestion).toBe(10);
   });
@@ -677,9 +677,9 @@ describe("لعبة «الكروت»", () => {
     expect(enQuiz.order).toBe(7);
   });
 
-  it("فيه ٧٤ كارت بإحصائيات موثقة", () => {
-    expect(arQuiz.cards).toHaveLength(74);
-    expect(enQuiz.cards).toHaveLength(74);
+  it("فيه ٨٤ كارت بإحصائيات موثقة", () => {
+    expect(arQuiz.cards).toHaveLength(84);
+    expect(enQuiz.cards).toHaveLength(84);
 
     for (const card of arQuiz.cards) {
       expect(card.id.trim(), "id").not.toBe("");

@@ -37,6 +37,7 @@ export default function PointsGame({
   scores,
   onAddPoints,
   onEditTeams,
+  onResetScores,
 }) {
   const labels = ui.points;
   const letters = OPTION_LETTERS[lang] ?? OPTION_LETTERS.ar;
@@ -255,6 +256,8 @@ export default function PointsGame({
         activeLabel={labels.turnLabel}
         editLabel={ui.teams.edit}
         onEdit={onEditTeams}
+        resetLabel={ui.teams.resetScores}
+        onReset={onResetScores}
       />
 
       {finished ? (

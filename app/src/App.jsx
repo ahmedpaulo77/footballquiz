@@ -205,6 +205,12 @@ export default function App({ initialQuizId = 'who-am-i' }) {
     setLineupAwards({});
   }
 
+  function requestResetScores() {
+    if (typeof window !== 'undefined' && window.confirm(ui.teams.resetConfirm)) {
+      resetScores();
+    }
+  }
+
   function closeHelp() {
     markHelpSeen();
     setModal(hasTeamSetup() ? null : 'teams');
@@ -255,6 +261,7 @@ export default function App({ initialQuizId = 'who-am-i' }) {
             scores={scores}
             onAddPoints={addPoints}
             onEditTeams={() => setModal('teams')}
+            onResetScores={requestResetScores}
           />
         ) : isPoints ? (
           <PointsGame
@@ -265,6 +272,7 @@ export default function App({ initialQuizId = 'who-am-i' }) {
             scores={scores}
             onAddPoints={addPoints}
             onEditTeams={() => setModal('teams')}
+            onResetScores={requestResetScores}
           />
         ) : isTop3 ? (
           <Top3Game
@@ -274,6 +282,7 @@ export default function App({ initialQuizId = 'who-am-i' }) {
             scores={scores}
             onAddPoints={addPoints}
             onEditTeams={() => setModal('teams')}
+            onResetScores={requestResetScores}
           />
         ) : isLineups ? (
           <LineupGame
@@ -285,6 +294,7 @@ export default function App({ initialQuizId = 'who-am-i' }) {
             onAward={awardLineup}
             onUndoAward={undoLineupAward}
             onEditTeams={() => setModal('teams')}
+            onResetScores={requestResetScores}
           />
         ) : isCards ? (
           <CardsGame
@@ -295,6 +305,7 @@ export default function App({ initialQuizId = 'who-am-i' }) {
             scores={scores}
             onAddPoints={addPoints}
             onEditTeams={() => setModal('teams')}
+            onResetScores={requestResetScores}
           />
         ) : !question ? (
           <p className="controls-hint">{ui.gulfToggle.empty}</p>
@@ -322,6 +333,8 @@ export default function App({ initialQuizId = 'who-am-i' }) {
               pointsLabel={ui.teams.points}
               editLabel={ui.teams.edit}
               onEdit={() => setModal('teams')}
+              resetLabel={ui.teams.resetScores}
+              onReset={requestResetScores}
             />
 
             {quiz.kind === 'path' ? (
@@ -424,7 +437,6 @@ export default function App({ initialQuizId = 'who-am-i' }) {
         labels={ui.teams}
         onSave={saveTeams}
         onClose={closeTeams}
-        onResetScores={resetScores}
       />
 
       <PrivacyPolicy

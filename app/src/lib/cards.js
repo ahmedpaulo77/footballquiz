@@ -196,32 +196,21 @@ export function drawBlind(state) {
   const next = cloneState(state);
 
   if (next.outside.length === 0) {
-    return { state: failConfrontation(next, defender), error: null };
+    return { state, error: 'deck-empty' };
   }
 
   const card = next.outside[next.outside.length - 1];
   next.outside = next.outside.slice(0, -1);
   next.drawsUsed += 1;
 
-  const covers = statValue(card, state.attack.stat) >= statValue(state.attack.card, state.attack.stat);
-
-  if (covers) {
-    next.discards.push(state.attack.card, card);
-    return { state: finishConfrontation(next, 'covered-draw', defender), error: null };
-  }
-
-  // الكارت اللي مسحوب لسه ما بيغطيهاش — بيروح لإيد المدافع على طول زي أي كارت.
+  // الكارت المسحوب بيروح لإيد المدافع — اللعبة ما بتقفلش تلقائي حتى لو الكارت أعلى.
   next.hands[defender] = [...next.hands[defender], card];
-
-  if (next.drawsUsed >= MAX_DRAWS) {
-    return { state: failConfrontation(next, defender), error: null };
-  }
 
   return { state: next, error: null };
 }
 
 /** فشل التغطية: الكارت المهاجم يُكفّق، والسحوبات الفاشلة كلها تدخل إيد المدافع، والمهاجم يكمل هجمته. */
-function failConfrontation(state, defender) {
+export function failConfrontation(state, defender) {
   const next = cloneState(state);
   const attacker = state.attack.player;
 

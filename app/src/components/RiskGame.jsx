@@ -27,6 +27,7 @@ export default function RiskGame({
   scores,
   onAddPoints,
   onEditTeams,
+  onResetScores,
 }) {
   const labels = ui.risk;
 
@@ -174,6 +175,8 @@ export default function RiskGame({
         activeLabel={labels.turnLabel}
         editLabel={ui.teams.edit}
         onEdit={onEditTeams}
+        resetLabel={ui.teams.resetScores}
+        onReset={onResetScores}
       />
 
       {allDone ? (

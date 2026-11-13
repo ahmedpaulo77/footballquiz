@@ -71,6 +71,7 @@ export default function LineupGame({
   onAward,
   onUndoAward,
   onEditTeams,
+  onResetScores,
 }) {
   const labels = ui.lineups;
   const matches = quiz.matches ?? [];
@@ -109,6 +110,8 @@ export default function LineupGame({
         pointsLabel={ui.teams.points}
         editLabel={ui.teams.edit}
         onEdit={onEditTeams}
+        resetLabel={ui.teams.resetScores}
+        onReset={onResetScores}
       />
 
       <div className="lineup-toolbar">

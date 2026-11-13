@@ -8,7 +8,6 @@ export default function TeamSetup({
   labels,
   onSave,
   onClose,
-  onResetScores,
 }) {
   const [draft, setDraft] = useState(names);
 
@@ -22,12 +21,6 @@ export default function TeamSetup({
       next[index] = value;
       return next;
     });
-  }
-
-  function resetScores() {
-    if (typeof window !== 'undefined' && window.confirm(labels.resetConfirm)) {
-      onResetScores();
-    }
   }
 
   return (
@@ -72,10 +65,6 @@ export default function TeamSetup({
         onClick={() => onSave(draft)}
       >
         {labels.save}
-      </button>
-
-      <button type="button" className="team-setup-reset" onClick={resetScores}>
-        {labels.resetScores}
       </button>
     </Modal>
   );

@@ -13,6 +13,7 @@ import {
   startAttack,
   statValue,
   statsSignature,
+  failConfrontation,
 } from './cards.js';
 
 const card = (id, stats) => ({ id, ...stats });
@@ -240,7 +241,7 @@ describe('«Cards / الكروت» — المخ', () => {
       return { match, attacker, defender };
     }
 
-    it('سحب ٣ مرات فاشلة يدخلها إيدي والمهاجم يكمل هجمته', () => {
+    it('سحب ٣ مرات فاشلة يدخلها إيده والدفاع يفضل مفتوح لحد ما يلعب كارت من إيده', () => {
       const { match, attacker, defender } = rigMatchForDraw();
       const attackCard = match.hands[attacker][0];
       const { state: afterAttack } = startAttack(match, { cardId: attackCard.id, stat: 'goals' });
@@ -268,19 +269,25 @@ describe('«Cards / الكروت» — المخ', () => {
       const after3 = drawBlind(after2.state);
 
       expect(after3.error).toBeNull();
-      expect(after3.state.lastResolution).toBe('failed');
+      expect(after3.state.drawsUsed).toBe(3);
+      expect(after3.state.lastResolution).toBeNull();
+      expect(after3.state.phase).toBe('defense');
       expect(after3.state.hands[defender].map((entry) => entry.id)).toEqual(
         expect.arrayContaining(['a', 'b', 'c']),
       );
+      expect(after3.state.hands[defender]).toHaveLength(10);
       expect(after3.state.turn).toBe(attacker);
+
+      // بعد خلاص ٣ سحوبات، السحب نفسه متوقف
+      expect(drawBlind(after3.state).error).toBe('draws-exhausted');
     });
 
-    it('كارت غيد بيوقفه السحب ويرمي الفاشلين لإيدي', () => {
+    it('كارت غيد بيوصل إيد المدافع من غير ما ينزل لوحده — والتغطية بتبقا له باللعب', () => {
       const { match, attacker, defender } = rigMatchForDraw();
       const attackCard = match.hands[attacker][0];
       const { state: afterAttack } = startAttack(match, { cardId: attackCard.id, stat: 'goals' });
 
-      // السحب الأول (آخر عنصر) يفشل؛ السحب التاني (boss) يُغطي.
+      // السحب الأول (آخر عنصر) بفك على طول؛ السحب التاني (boss) يُغطي.
       const rigged = {
         ...afterAttack,
         outside: [card('winner', { goals: 1500, trophies: 0, caps: 0, seasons: 0 }), low('x')],
@@ -290,17 +297,27 @@ describe('«Cards / الكروت» — المخ', () => {
       expect(state.drawsUsed).toBe(1);
       expect(state.hands[defender].map((entry) => entry.id)).toContain('x');
       expect(state.lastResolution).toBeNull();
+      expect(state.phase).toBe('defense');
 
       const afterCover = drawBlind(state);
 
+      // بعد إضافة boss لإيد المدافع، المواجهة لازم تفضل مفتوحة — ما تتخلصش تلقائي
       expect(afterCover.error).toBeNull();
-      expect(afterCover.state.lastResolution).toBe('covered-draw');
-      expect(afterCover.state.discards.map((entry) => entry.id)).toEqual([attackCard.id, 'winner']);
-      expect(afterCover.state.hands[defender].map((entry) => entry.id)).toContain('x');
-      expect(afterCover.state.turn).toBe(defender);
+      expect(afterCover.state.lastResolution).toBeNull();
+      expect(afterCover.state.phase).toBe('defense');
+      expect(afterCover.state.hands[defender].map((entry) => entry.id)).toEqual(
+        expect.arrayContaining(['x', 'winner']),
+      );
+
+      const replay = defendFromHand(afterCover.state, { cardId: 'winner' });
+
+      expect(replay.error).toBeNull();
+      expect(replay.state.lastResolution).toBe('covered-hand');
+      expect(replay.state.discards.map((entry) => entry.id)).toEqual([attackCard.id, 'winner']);
+      expect(replay.state.turn).toBe(defender);
     });
 
-    it('توقف السحب لو الكومة فضيت وبرضه بيفشّل', () => {
+    it('توقف السحب لو الكومة فضيت — اللاعب يضطر يلعب كارت من إيده', () => {
       const { match, attacker, defender } = rigMatchForDraw();
       const attackCard = match.hands[attacker][0];
       const { state: afterAttack } = startAttack(match, { cardId: attackCard.id, stat: 'goals' });
@@ -309,8 +326,9 @@ describe('«Cards / الكروت» — المخ', () => {
       const after1 = drawBlind(rigged);
       const after2 = drawBlind(after1.state);
 
-      expect(after2.error).toBeNull();
-      expect(after2.state.lastResolution).toBe('failed');
+      expect(after2.error).toBe('deck-empty');
+      expect(after2.state.lastResolution).toBeNull();
+      expect(after2.state.phase).toBe('defense');
       expect(after2.state.hands[defender].map((entry) => entry.id)).toContain('only');
     });
 
@@ -338,10 +356,19 @@ describe('«Cards / الكروت» — المخ', () => {
 
       const defense = drawBlind(afterAttack);
 
-      expect(defense.error).toBeNull();
-      expect(defense.state.lastResolution).toBe('failed');
-      expect(defense.state.winner).toBe(attacker);
-      expect(defense.state.phase).toBe('done');
+      expect(defense.error).toBe('deck-empty');
+      expect(defense.state.phase).toBe('defense');
+      expect(defense.state.winner).toBeNull();
+
+      // المدافع لازم يلعب كارت من إيده — كلها أقل من اللي على الأرض
+      expect(defendFromHand(defense.state, { cardId: 'x' }).error).toBe('card-too-low');
+
+      // مافيش تغطية ولا سحوبات → الهجمة تفشل والمهاجم يكسب
+      const result = failConfrontation(defense.state, defender);
+
+      expect(result.lastResolution).toBe('failed');
+      expect(result.winner).toBe(attacker);
+      expect(result.phase).toBe('done');
     });
 
     it('لو اتنين خلصوا إيدهم في نفس الجولة، بيبقى تعادل', () => {
@@ -423,7 +450,8 @@ describe('«Cards / الكروت» — المخ', () => {
           } else if (state.drawsUsed < MAX_DRAWS && state.outside.length > 0) {
             state = drawBlind(state).state;
           } else {
-            state = drawBlind(state).state; // فشل/ميثاق يفضّل الإنسبال بدل حلقة انتظار
+            // مافيش تغطية ولا سحوبات — كسر المواجهة لفشل
+            state = failConfrontation(state, defender);
           }
         }
       }

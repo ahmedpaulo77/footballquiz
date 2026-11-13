@@ -8,6 +8,7 @@ import {
   defendFromHand,
   startAttack,
   statValue,
+  failConfrontation,
 } from '../lib/cards.js';
 
 /** السمات كما تظهر في اللعبة (ترتيب العرض). */
@@ -27,7 +28,7 @@ function statMeta(stat) {
 }
 
 /** لعبة «الكروت / Cards» — الإيد على الأجهزة (hot-seat). */
-export default function CardsGame({ quiz, ui, lang, teamNames, scores, onAddPoints, onEditTeams }) {
+export default function CardsGame({ quiz, ui, lang, teamNames, scores, onAddPoints, onEditTeams, onResetScores }) {
   const [match, setMatch] = useState(null);
   const [screen, setScreen] = useState('setup'); // setup | interstitial | turn | defense | reveal | done
   const [selectedCardId, setSelectedCardId] = useState(null);
@@ -117,9 +118,25 @@ export default function CardsGame({ quiz, ui, lang, teamNames, scores, onAddPoin
     const attackValue = statValue(attackCard, attackStat);
     const coveringCard = match.hands[defender].find((entry) => entry.id === cardId) ?? null;
 
-    // كارت أقل من اللي على الأرض: بيرجع إيده والمدافع مضطر يسحب.
+    // كارت أقل من اللي على الأرض: بيرجع إيده والمدافع مضطر يسحب — لو السحب خلص، الهجمة بتفشل.
     if (!coveringCard || statValue(coveringCard, attackStat) < attackValue) {
-      setMustDraw(true);
+      const canDrawAgain = match.drawsUsed < MAX_DRAWS && match.outside.length > 0;
+
+      if (canDrawAgain) {
+        setMustDraw(true);
+        return;
+      }
+
+      leaveConfrontation(failConfrontation(match, defender), {
+        stat: attackStat,
+        attackCard,
+        attackTeam: attackingPlayer,
+        attackValue,
+        defender,
+        coverCard: null,
+        coverValue: null,
+        outcome: 'failed',
+      });
       return;
     }
 
@@ -197,6 +214,8 @@ export default function CardsGame({ quiz, ui, lang, teamNames, scores, onAddPoin
       activeLabel={t.turnLabel}
       editLabel={ui.teams.edit}
       onEdit={onEditTeams}
+      resetLabel={ui.teams.resetScores}
+      onReset={onResetScores}
     />
   );
 
@@ -451,10 +470,10 @@ export default function CardsGame({ quiz, ui, lang, teamNames, scores, onAddPoin
       <button
         type="button"
         className={`primary-btn full ${mustDraw ? 'is-forced' : ''}`}
-        disabled={!deckEmpty && match.drawsUsed >= MAX_DRAWS}
+        disabled={deckEmpty || match.drawsUsed >= MAX_DRAWS}
         onClick={drawFromDeck}
       >
-        {deckEmpty ? t.noCover : fill(t.draw, { count: match.outside.length })}
+        {deckEmpty ? t.noMoreCards : fill(t.draw, { count: match.outside.length })}
       </button>
     </section>
   );

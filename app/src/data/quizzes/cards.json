@@ -81,6 +81,16 @@
     { "id": "kuyt", "name": { "ar": "ديرك كاوت", "en": "Dirk Kuyt" }, "goals": 254, "trophies": 6, "caps": 104, "seasons": 20, "assists": 162, "source": "https://en.wikipedia.org/wiki/Dirk_Kuyt" },
     { "id": "ozil", "name": { "ar": "مسعود أوزيل", "en": "Mesut Özil" }, "goals": 116, "trophies": 10, "caps": 92, "seasons": 19, "assists": 259, "source": "https://en.wikipedia.org/wiki/Mesut_%C3%96zil" },
     { "id": "aguero", "name": { "ar": "سيرجيو أغويرو", "en": "Sergio Agüero" }, "goals": 426, "trophies": 19, "caps": 101, "seasons": 19, "assists": 132, "source": "https://en.wikipedia.org/wiki/Sergio_Ag%C3%BCero" },
-    { "id": "vardy", "name": { "ar": "جيمي فاردي", "en": "Jamie Vardy" }, "goals": 207, "trophies": 4, "caps": 26, "seasons": 21, "assists": 76, "source": "https://en.wikipedia.org/wiki/Jamie_Vardy" }
+    { "id": "vardy", "name": { "ar": "جيمي فاردي", "en": "Jamie Vardy" }, "goals": 207, "trophies": 4, "caps": 26, "seasons": 21, "assists": 76, "source": "https://en.wikipedia.org/wiki/Jamie_Vardy" },
+    { "id": "drogba", "name": { "ar": "ديدييه دروجبا", "en": "Didier Drogba" }, "goals": 367, "trophies": 18, "caps": 105, "seasons": 20, "assists": 147, "source": "https://en.wikipedia.org/wiki/Didier_Drogba" },
+    { "id": "eto-o", "name": { "ar": "صامويل إيتو", "en": "Samuel Eto'o" }, "goals": 420, "trophies": 19, "caps": 118, "seasons": 22, "assists": 130, "source": "https://en.wikipedia.org/wiki/Samuel_Eto%27o" },
+    { "id": "robben", "name": { "ar": "أريين روبن", "en": "Arjen Robben" }, "goals": 246, "trophies": 27, "caps": 96, "seasons": 21, "assists": 199, "source": "https://en.wikipedia.org/wiki/Arjen_Robben" },
+    { "id": "sneijder", "name": { "ar": "ويسلي سنايدر", "en": "Wesley Sneijder" }, "goals": 185, "trophies": 21, "caps": 134, "seasons": 17, "assists": 176, "source": "https://en.wikipedia.org/wiki/Wesley_Sneijder" },
+    { "id": "xabi-alonso", "name": { "ar": "تشابي ألونسو", "en": "Xabi Alonso" }, "goals": 59, "trophies": 17, "caps": 114, "seasons": 18, "assists": 85, "source": "https://en.wikipedia.org/wiki/Xabi_Alonso" },
+    { "id": "puyol", "name": { "ar": "كارليس بويول", "en": "Carles Puyol" }, "goals": 28, "trophies": 20, "caps": 100, "seasons": 18, "assists": 17, "source": "https://en.wikipedia.org/wiki/Carles_Puyol" },
+    { "id": "rio-ferdinand", "name": { "ar": "ريو فرديناند", "en": "Rio Ferdinand" }, "goals": 16, "trophies": 15, "caps": 81, "seasons": 20, "assists": 13, "source": "https://en.wikipedia.org/wiki/Rio_Ferdinand" },
+    { "id": "ashley-cole", "name": { "ar": "آشلي كول", "en": "Ashley Cole" }, "goals": 21, "trophies": 16, "caps": 107, "seasons": 20, "assists": 82, "source": "https://en.wikipedia.org/wiki/Ashley_Cole" },
+    { "id": "schweinsteiger", "name": { "ar": "باستيان شفاينشتايغر", "en": "Bastian Schweinsteiger" }, "goals": 106, "trophies": 21, "caps": 121, "seasons": 18, "assists": 148, "source": "https://en.wikipedia.org/wiki/Bastian_Schweinsteiger" },
+    { "id": "david-villa", "name": { "ar": "ديفيد فيا", "en": "David Villa" }, "goals": 426, "trophies": 15, "caps": 98, "seasons": 20, "assists": 101, "source": "https://en.wikipedia.org/wiki/David_Villa" }
   ]
 }

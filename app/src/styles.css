@@ -3644,23 +3644,28 @@ button:focus-visible {
   color: var(--text);
 }
 
-.team-setup-reset {
-  display: block;
-  width: 100%;
-  margin-top: 10px;
-  padding: 8px;
-  border: 0;
+.risk-score-reset {
+  grid-column: 1 / -1;
+  justify-self: center;
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  margin-top: 2px;
+  padding: 4px 12px;
+  border: 1px dashed var(--border-strong);
+  border-radius: 999px;
   background: transparent;
   color: var(--muted);
   font-family: inherit;
-  font-size: 12px;
-  font-weight: 700;
-  text-decoration: underline;
+  font-size: 11px;
+  font-weight: 800;
   cursor: pointer;
+  transition: color 0.2s ease, border-color 0.2s ease;
 }
 
-.team-setup-reset:hover {
+.risk-score-reset:hover {
   color: var(--accent);
+  border-color: var(--accent);
 }
 
 .teams-award,

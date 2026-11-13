@@ -25,6 +25,7 @@ export default function Top3Game({
   scores,
   onAddPoints,
   onEditTeams,
+  onResetScores,
 }) {
   const labels = ui.top3;
 
@@ -196,6 +197,8 @@ export default function Top3Game({
         activeLabel={labels.turnLabel}
         editLabel={ui.teams.edit}
         onEdit={onEditTeams}
+        resetLabel={ui.teams.resetScores}
+        onReset={onResetScores}
       />
 
       {finished ? (

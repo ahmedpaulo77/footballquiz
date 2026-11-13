@@ -7,6 +7,8 @@ export default function TeamScoreboard({
   activeLabel = '',
   editLabel,
   onEdit,
+  resetLabel,
+  onReset,
 }) {
   return (
     <div className="risk-scoreboard">
@@ -41,6 +43,13 @@ export default function TeamScoreboard({
           </div>
         </div>
       ))}
+
+      {onReset ? (
+        <button type="button" className="risk-score-reset" onClick={onReset}>
+          <span aria-hidden="true">↺</span>
+          {resetLabel}
+        </button>
+      ) : null}
     </div>
   );
 }
