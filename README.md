@@ -453,7 +453,7 @@ FAQ، كروت الدليل، والفوتر).
 
 ## النشر على GitHub Pages
 
-الموقع: **https://ahmedpaulo77.github.io/footballquiz/**
+الموقع الأساسي: **https://elkwayra.com/** — ونسخة GitHub Pages: **https://ahmedpaulo77.github.io/footballquiz/**
 
 إعداد Pages عندنا هو **Deploy from a branch → `main` / `(root)`**، يعني GitHub بياخد
 الملفات اللي في جذر الريبو زي ما هي. عشان كده النسخة المبنية (كل ملفات `*.html` +
