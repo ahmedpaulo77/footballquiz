@@ -147,6 +147,22 @@
       "emoji": "🎓"
     },
     {
+      "id": "guardiola",
+      "title": {
+        "ar": "غوارديولا",
+        "en": "Guardiola"
+      },
+      "emoji": "🧠"
+    },
+    {
+      "id": "real-madrid-super",
+      "title": {
+        "ar": "ريال مدريد في السوبر",
+        "en": "Real Madrid in the Super Cup"
+      },
+      "emoji": "🏅"
+    },
+    {
       "id": "wcq-2006-1",
       "title": {
         "ar": "تصفيات مونديال 2006 – أفريقيا (1)",
@@ -1094,6 +1110,110 @@
       "answer": {
         "ar": "بورا ميلوتينوفيتش (المكسيك، كوستاريكا، أمريكا، نيجيريا، الصين)",
         "en": "Bora Milutinović (Mexico, Costa Rica, USA, Nigeria, China)"
+      }
+    },
+    {
+      "id": "guardiola-40",
+      "category": "guardiola",
+      "value": 40,
+      "question": {
+        "ar": "مين أكتر لاعب لعب معاه ماتشات في تاريخه؟",
+        "en": "Which player has played the most matches under him?"
+      },
+      "answer": {
+        "ar": "إيديرسون",
+        "en": "Ederson"
+      }
+    },
+    {
+      "id": "guardiola-10",
+      "category": "guardiola",
+      "value": 10,
+      "question": {
+        "ar": "مين تاني أكتر لاعب أحرز معاه أهداف؟",
+        "en": "Who is the second-highest scorer under him?"
+      },
+      "answer": {
+        "ar": "هالاند",
+        "en": "Haaland"
+      }
+    },
+    {
+      "id": "guardiola-50",
+      "category": "guardiola",
+      "value": 50,
+      "question": {
+        "ar": "لعب في كام فريق في مسيرته كلاعب؟",
+        "en": "How many clubs did he play for in his playing career?"
+      },
+      "answer": {
+        "ar": "٦ فرق",
+        "en": "6 clubs"
+      }
+    },
+    {
+      "id": "guardiola-20",
+      "category": "guardiola",
+      "value": 20,
+      "question": {
+        "ar": "مين أكتر لاعب أحرز أهداف مع غوارديولا في بايرن؟",
+        "en": "Which player scored the most goals under Guardiola at Bayern?"
+      },
+      "answer": {
+        "ar": "توماس مولر",
+        "en": "Thomas Müller"
+      }
+    },
+    {
+      "id": "real-madrid-super-20",
+      "category": "real-madrid-super",
+      "value": 20,
+      "question": {
+        "ar": "مين أحرز التالت لريال مدريد أمام فالنسيا في سوبر 2008؟",
+        "en": "Who scored Real Madrid's third goal against Valencia in the 2008 Super Cup?"
+      },
+      "answer": {
+        "ar": "روبن دي لا ريد",
+        "en": "Rubén de la Red"
+      }
+    },
+    {
+      "id": "real-madrid-super-10",
+      "category": "real-madrid-super",
+      "value": 10,
+      "question": {
+        "ar": "مين أحرز هدف فوز ريال مدريد على إشبيلية في السوبر الأوروبي 2016؟",
+        "en": "Who scored Real Madrid's winning goal against Sevilla in the 2016 UEFA Super Cup?"
+      },
+      "answer": {
+        "ar": "كارفخال",
+        "en": "Carvajal"
+      }
+    },
+    {
+      "id": "real-madrid-super-40",
+      "category": "real-madrid-super",
+      "value": 40,
+      "question": {
+        "ar": "مين أحرز هدف فوز ريال مدريد على برشلونة في نصف نهائي 2022؟",
+        "en": "Who scored Real Madrid's winning goal against Barcelona in the 2022 semi-final?"
+      },
+      "answer": {
+        "ar": "فالفيردي",
+        "en": "Fede Valverde"
+      }
+    },
+    {
+      "id": "real-madrid-super-50",
+      "category": "real-madrid-super",
+      "value": 50,
+      "question": {
+        "ar": "كم مرة خسر ريال مدريد السوبر الأوروبي وأمام من؟",
+        "en": "How many times has Real Madrid lost the UEFA Super Cup, and to whom?"
+      },
+      "answer": {
+        "ar": "٣ مرات: تشيلسي 1998، وجالاتاسراي 2000، وأتليتكو مدريد 2019",
+        "en": "3 times: Chelsea 1998, Galatasaray 2000, and Atlético Madrid 2019"
       }
     },
     {
