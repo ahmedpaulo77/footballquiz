@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { getUi } from '../lib/i18n.js';
 import { getQuizzes } from '../lib/quizzes.js';
-import { SITE_PAGES } from '../lib/sitePages.js';
+import { SITE_PAGES, DEVELOPER_PORTFOLIO } from '../lib/sitePages.js';
 import { loadLang, loadTheme, saveLang, saveTheme } from '../lib/storage.js';
 
 /** روابط كل لعبة */
@@ -162,6 +162,22 @@ export default function HomePage() {
           })}
         </div>
 
+        {/* تحديثات مستمرة */}
+        <section
+          className="home-updates"
+          aria-label={isAr ? 'تحديثات المحتوى' : 'Content updates'}
+        >
+          <span className="home-updates-icon" aria-hidden="true">✨</span>
+          <div>
+            <strong>{isAr ? 'تحديثات مستمرة' : 'Always updating'}</strong>
+            <p>
+              {isAr
+                ? 'بنضيف أسئلة ولاعبين وماتشات جديدة كل فترة — ارجع تاني هتلاقي حاجات جديدة.'
+                : 'New questions, players and matches are added regularly — come back for more.'}
+            </p>
+          </div>
+        </section>
+
         {/* روابط أدلة الألعاب — محتوى نصي وروابط داخلية */}
         <section className="home-guides">
           <h2 className="home-section-title">
@@ -233,6 +249,25 @@ export default function HomePage() {
             </a>
           ))}
         </nav>
+        <p className="site-footer-portfolio">
+          <a
+            href={DEVELOPER_PORTFOLIO.href}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg viewBox="0 0 24 24" width="13" height="13" aria-hidden="true">
+              <path
+                d="M14 4h6v6M20 4l-8 8M18 14v4a2 2 0 01-2 2H6a2 2 0 01-2-2V8a2 2 0 012-2h4"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.7"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+            {DEVELOPER_PORTFOLIO[lang]}
+          </a>
+        </p>
       </footer>
     </div>
   );

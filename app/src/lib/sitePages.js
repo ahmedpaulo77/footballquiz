@@ -17,6 +17,13 @@ export const SITE_PAGES = [
   { href: './privacy.html', ar: 'سياسة الخصوصية', en: 'Privacy Policy' },
 ];
 
+/** رابط بورتفليو المطوّر — بيظهر في فوتر كل الصفحات. */
+export const DEVELOPER_PORTFOLIO = {
+  href: 'https://ahmedpaulo77.github.io/me/',
+  ar: 'بورتفليو المطوّر',
+  en: 'Developer portfolio',
+};
+
 /** رابط دليل اللعبة الحالية. */
 export function guideHref(quizId) {
   return `./guide-${quizId}.html`;

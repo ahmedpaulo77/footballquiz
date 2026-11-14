@@ -1,1 +1,0 @@
-import{c as r,j as t,r as e}from"./styles-CfOvbKqe.js";import{A as o}from"./App-C0-8F6Li.js";r.createRoot(document.getElementById("root")).render(t.jsx(e.StrictMode,{children:t.jsx(o,{initialQuizId:"lineups"})}));

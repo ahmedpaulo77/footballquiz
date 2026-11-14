@@ -3942,6 +3942,36 @@ button:focus-visible {
   color: var(--brand);
 }
 
+.site-footer-portfolio {
+  margin: 14px 0 0;
+}
+
+.site-footer-portfolio a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 4px 11px;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--surface);
+  font-size: 11px;
+  font-weight: 700;
+  color: var(--muted);
+  text-decoration: none;
+  transition: color 0.2s ease, border-color 0.2s ease, background 0.2s ease;
+}
+
+.site-footer-portfolio a:hover {
+  color: var(--text);
+  border-color: var(--border-strong);
+  background: var(--surface-2);
+}
+
+.site-footer-portfolio svg {
+  flex-shrink: 0;
+  opacity: 0.75;
+}
+
 /* ══════════════════════════════════════════════════════════════════════
    الهوم بيدج
    ══════════════════════════════════════════════════════════════════════ */
@@ -4180,6 +4210,41 @@ button:focus-visible {
   color: var(--brand);
   text-decoration: underline;
   text-underline-offset: 4px;
+}
+
+/* ── شريط التحديثات ───────────────────────────────────────────────── */
+
+.home-updates {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  margin: 18px 0 26px;
+  padding: 14px 16px;
+  border-radius: 16px;
+  border: 1px solid var(--border);
+  background:
+    linear-gradient(135deg, rgba(252, 211, 77, 0.12), transparent 62%),
+    var(--surface);
+}
+
+.home-updates-icon {
+  font-size: 20px;
+  line-height: 1.4;
+}
+
+.home-updates strong {
+  display: block;
+  margin-bottom: 2px;
+  font-size: 13px;
+  font-weight: 900;
+  color: var(--text);
+}
+
+.home-updates p {
+  margin: 0;
+  font-size: 12px;
+  line-height: 1.75;
+  color: var(--muted);
 }
 
 /* ── قسم إزاي تلعب ───────────────────────────────────────────────── */

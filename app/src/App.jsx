@@ -14,7 +14,7 @@ import CardsGame from './components/CardsGame.jsx';
 import TeamSetup from './components/TeamSetup.jsx';
 import GulfToggle from './components/GulfToggle.jsx';
 import TeamScoreboard from './components/TeamScoreboard.jsx';
-import { SITE_PAGES } from './lib/sitePages.js';
+import { DEVELOPER_PORTFOLIO, SITE_PAGES } from './lib/sitePages.js';
 import { getQuiz, getQuizzes, pickQuestion } from './lib/quizzes.js';
 import { getUi } from './lib/i18n.js';
 import { addTeamPoints, resolveTeamNames } from './lib/teams.js';
@@ -413,6 +413,25 @@ export default function App({ initialQuizId = 'who-am-i' }) {
             </a>
           ))}
         </nav>
+        <p className="site-footer-portfolio">
+          <a
+            href={DEVELOPER_PORTFOLIO.href}
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            <svg viewBox="0 0 24 24" width="13" height="13" aria-hidden="true">
+              <path
+                d="M14 4h6v6M20 4l-8 8M18 14v4a2 2 0 01-2 2H6a2 2 0 01-2-2V8a2 2 0 012-2h4"
+                fill="none"
+                stroke="currentColor"
+                strokeWidth="1.7"
+                strokeLinecap="round"
+                strokeLinejoin="round"
+              />
+            </svg>
+            {DEVELOPER_PORTFOLIO[lang]}
+          </a>
+        </p>
       </footer>
 
       <HowToPlay open={modal === 'help'} ui={ui} onClose={closeHelp} />
