@@ -14,8 +14,7 @@ import CardsGame from './components/CardsGame.jsx';
 import TeamSetup from './components/TeamSetup.jsx';
 import GulfToggle from './components/GulfToggle.jsx';
 import TeamScoreboard from './components/TeamScoreboard.jsx';
-import PrivacyPolicy from './components/PrivacyPolicy.jsx';
-import AboutPage from './components/AboutPage.jsx';
+import { SITE_PAGES } from './lib/sitePages.js';
 import { getQuiz, getQuizzes, pickQuestion } from './lib/quizzes.js';
 import { getUi } from './lib/i18n.js';
 import { addTeamPoints, resolveTeamNames } from './lib/teams.js';
@@ -404,22 +403,16 @@ export default function App({ initialQuizId = 'who-am-i' }) {
 
       <footer className="site-footer">
         <p>{ui.footerTitle}</p>
-        <div className="site-footer-links">
-          <button
-            type="button"
-            className="site-footer-link"
-            onClick={() => setModal('about')}
-          >
-            {lang === 'ar' ? 'عن الموقع' : 'About'}
-          </button>
-          <button
-            type="button"
-            className="site-footer-link"
-            onClick={() => setModal('privacy')}
-          >
-            {lang === 'ar' ? 'سياسة الخصوصية' : 'Privacy Policy'}
-          </button>
-        </div>
+        <nav
+          className="site-footer-links"
+          aria-label={lang === 'ar' ? 'روابط الموقع' : 'Site links'}
+        >
+          {SITE_PAGES.map((page) => (
+            <a key={page.href} href={page.href} className="site-footer-link">
+              {page[lang]}
+            </a>
+          ))}
+        </nav>
       </footer>
 
       <HowToPlay open={modal === 'help'} ui={ui} onClose={closeHelp} />
@@ -437,18 +430,6 @@ export default function App({ initialQuizId = 'who-am-i' }) {
         labels={ui.teams}
         onSave={saveTeams}
         onClose={closeTeams}
-      />
-
-      <PrivacyPolicy
-        open={modal === 'privacy'}
-        lang={lang}
-        onClose={() => setModal(null)}
-      />
-
-      <AboutPage
-        open={modal === 'about'}
-        lang={lang}
-        onClose={() => setModal(null)}
       />
     </div>
   );

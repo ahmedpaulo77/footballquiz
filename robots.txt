@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://ahmedpaulo77.github.io/footballquiz/sitemap.xml

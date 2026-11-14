@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { getUi } from '../lib/i18n.js';
 import { getQuizzes } from '../lib/quizzes.js';
+import { SITE_PAGES } from '../lib/sitePages.js';
 import { loadLang, loadTheme, saveLang, saveTheme } from '../lib/storage.js';
 
 /** روابط كل لعبة */
@@ -161,6 +162,33 @@ export default function HomePage() {
           })}
         </div>
 
+        {/* روابط أدلة الألعاب — محتوى نصي وروابط داخلية */}
+        <section className="home-guides">
+          <h2 className="home-section-title">
+            {isAr ? 'محتاج تعرف القواعد الأول؟' : 'Need the rules first?'}
+          </h2>
+          <p className="home-guides-lead">
+            {isAr
+              ? 'كل لعبة ليها صفحة شرح مستقلة: الفكرة، طريقة اللعب، حساب النقاط، ومثال عملي.'
+              : 'Every game has its own guide: the idea, how to play, how points are scored, and a worked example.'}
+          </p>
+          <div className="home-guide-links">
+            {quizzes.map((quiz) => (
+              <a
+                key={quiz.id}
+                href={`./guide-${quiz.id}.html`}
+                className="home-guide-link"
+              >
+                <span aria-hidden="true">{quiz.emoji}</span>
+                {quiz.title}
+              </a>
+            ))}
+          </div>
+          <a className="home-guide-all" href="./guides.html">
+            {isAr ? 'افتح دليل الألعاب كامل ←' : 'Open the full game guide →'}
+          </a>
+        </section>
+
         {/* قسم إزاي تلعب — مهم لـ AdSense */}
         <section className="home-howto">
           <h2 className="home-section-title">
@@ -195,14 +223,16 @@ export default function HomePage() {
       {/* فوتر */}
       <footer className="site-footer">
         <p>{ui.footerTitle}</p>
-        <div className="site-footer-links">
-          <a href="./about.html" className="site-footer-link">
-            {isAr ? 'عن الموقع' : 'About'}
-          </a>
-          <a href="./privacy.html" className="site-footer-link">
-            {isAr ? 'سياسة الخصوصية' : 'Privacy Policy'}
-          </a>
-        </div>
+        <nav
+          className="site-footer-links"
+          aria-label={isAr ? 'روابط الموقع' : 'Site links'}
+        >
+          {SITE_PAGES.map((page) => (
+            <a key={page.href} href={page.href} className="site-footer-link">
+              {page[lang]}
+            </a>
+          ))}
+        </nav>
       </footer>
     </div>
   );
