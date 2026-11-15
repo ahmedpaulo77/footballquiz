@@ -155,6 +155,14 @@
       "emoji": "🧠"
     },
     {
+      "id": "ancelotti",
+      "title": {
+        "ar": "أنشيلوتي",
+        "en": "Ancelotti"
+      },
+      "emoji": "🎩"
+    },
+    {
       "id": "real-madrid-super",
       "title": {
         "ar": "ريال مدريد في السوبر",
@@ -1162,6 +1170,58 @@
       "answer": {
         "ar": "توماس مولر",
         "en": "Thomas Müller"
+      }
+    },
+    {
+      "id": "ancelotti-20",
+      "category": "ancelotti",
+      "value": 20,
+      "question": {
+        "ar": "مين أكتر لاعب سجّل أهداف تحت قيادة أنشيلوتي في مسيرته التدريبية؟",
+        "en": "Which player scored the most goals under Ancelotti in his managerial career?"
+      },
+      "answer": {
+        "ar": "فيليبو إنزاجي (١٦١ هدف)",
+        "en": "Filippo Inzaghi (161 goals)"
+      }
+    },
+    {
+      "id": "ancelotti-10",
+      "category": "ancelotti",
+      "value": 10,
+      "question": {
+        "ar": "مين أكتر لاعب عمل أسيستات تحت قيادة أنشيلوتي؟",
+        "en": "Which player provided the most assists under Ancelotti?"
+      },
+      "answer": {
+        "ar": "كاكا (٧٤ أسيست)",
+        "en": "Kaká (74 assists)"
+      }
+    },
+    {
+      "id": "ancelotti-50",
+      "category": "ancelotti",
+      "value": 50,
+      "question": {
+        "ar": "مين أكتر لاعب لعب ماتشات تحت قيادة أنشيلوتي؟",
+        "en": "Which player made the most appearances under Ancelotti?"
+      },
+      "answer": {
+        "ar": "فيليبو إنزاجي (٣٣٢ مباراة)",
+        "en": "Filippo Inzaghi (332 appearances)"
+      }
+    },
+    {
+      "id": "ancelotti-40",
+      "category": "ancelotti",
+      "value": 40,
+      "question": {
+        "ar": "مين اللاعب الوحيد اللي درّبه أنشيلوتي في ٣ أندية مختلفة؟",
+        "en": "Which player is the only one Ancelotti coached at three different clubs?"
+      },
+      "answer": {
+        "ar": "خاميس رودريغيز (ريال مدريد، بايرن ميونخ، إيفرتون)",
+        "en": "James Rodríguez (Real Madrid, Bayern Munich, Everton)"
       }
     },
     {

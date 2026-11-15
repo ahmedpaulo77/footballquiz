@@ -1,1 +1,0 @@
-import{c as e,j as t,r as o}from"./styles-BOXCQu60.js";import{A as r}from"./App-DMZSNmK-.js";e.createRoot(document.getElementById("root")).render(t.jsx(o.StrictMode,{children:t.jsx(r,{initialQuizId:"one-question"})}));
