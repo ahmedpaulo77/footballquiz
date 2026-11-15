@@ -1117,12 +1117,12 @@
       "category": "guardiola",
       "value": 40,
       "question": {
-        "ar": "مين أكتر لاعب لعب معاه ماتشات في تاريخه؟",
-        "en": "Which player has played the most matches under him?"
+        "ar": "مين أكتر لاعب لعب ماتشات تحت قيادته في مسيرته التدريبية كلها؟",
+        "en": "Which player has made the most appearances under him in his managerial career?"
       },
       "answer": {
-        "ar": "إيديرسون",
-        "en": "Ederson"
+        "ar": "بيرناردو سيلفا",
+        "en": "Bernardo Silva"
       }
     },
     {
@@ -1143,12 +1143,12 @@
       "category": "guardiola",
       "value": 50,
       "question": {
-        "ar": "لعب في كام فريق في مسيرته كلاعب؟",
-        "en": "How many clubs did he play for in his playing career?"
+        "ar": "مع كام نادي مختلف لعب في مسيرته كلاعب؟ (من غير فرق الرديف)",
+        "en": "How many different clubs did he play for? (excluding reserve teams)"
       },
       "answer": {
-        "ar": "٦ فرق",
-        "en": "6 clubs"
+        "ar": "٥ أندية: برشلونة، بريشيا، روما، الأهلي القطري، دورادوس",
+        "en": "5 clubs: Barcelona, Brescia, Roma, Al-Ahli (Qatar), Dorados"
       }
     },
     {
