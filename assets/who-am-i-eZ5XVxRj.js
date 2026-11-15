@@ -1,1 +1,0 @@
-import{c as r,j as t,r as o}from"./styles-CVGgZFkF.js";import{A as e}from"./App-CJr01Pp5.js";r.createRoot(document.getElementById("root")).render(t.jsx(o.StrictMode,{children:t.jsx(e,{initialQuizId:"who-am-i"})}));

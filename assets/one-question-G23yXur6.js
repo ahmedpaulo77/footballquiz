@@ -1,0 +1,1 @@
+import{c as e,j as t,r as o}from"./styles-C3UkIS20.js";import{A as r}from"./App-DpVGPrOd.js";e.createRoot(document.getElementById("root")).render(t.jsx(o.StrictMode,{children:t.jsx(r,{initialQuizId:"one-question"})}));

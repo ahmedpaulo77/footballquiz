@@ -91,6 +91,16 @@
     { "id": "rio-ferdinand", "name": { "ar": "ريو فرديناند", "en": "Rio Ferdinand" }, "goals": 16, "trophies": 15, "caps": 81, "seasons": 20, "assists": 13, "source": "https://en.wikipedia.org/wiki/Rio_Ferdinand" },
     { "id": "ashley-cole", "name": { "ar": "آشلي كول", "en": "Ashley Cole" }, "goals": 21, "trophies": 16, "caps": 107, "seasons": 20, "assists": 82, "source": "https://en.wikipedia.org/wiki/Ashley_Cole" },
     { "id": "schweinsteiger", "name": { "ar": "باستيان شفاينشتايغر", "en": "Bastian Schweinsteiger" }, "goals": 106, "trophies": 21, "caps": 121, "seasons": 18, "assists": 148, "source": "https://en.wikipedia.org/wiki/Bastian_Schweinsteiger" },
-    { "id": "david-villa", "name": { "ar": "ديفيد فيا", "en": "David Villa" }, "goals": 426, "trophies": 15, "caps": 98, "seasons": 20, "assists": 101, "source": "https://en.wikipedia.org/wiki/David_Villa" }
+    { "id": "david-villa", "name": { "ar": "ديفيد فيا", "en": "David Villa" }, "goals": 426, "trophies": 15, "caps": 98, "seasons": 20, "assists": 101, "source": "https://en.wikipedia.org/wiki/David_Villa" },
+    { "id": "hamsik", "name": { "ar": "ماريك هامسيك", "en": "Marek Hamšík" }, "goals": 172, "trophies": 5, "caps": 138, "seasons": 20, "assists": 142, "source": "https://en.wikipedia.org/wiki/Marek_Ham%C5%A1%C3%ADk" },
+    { "id": "lavezzi", "name": { "ar": "إيزيكيل لافيزي", "en": "Ezequiel Lavezzi" }, "goals": 170, "trophies": 13, "caps": 51, "seasons": 17, "assists": 44, "source": "https://en.wikipedia.org/wiki/Ezequiel_Lavezzi" },
+    { "id": "forlan", "name": { "ar": "دييغو فورلان", "en": "Diego Forlán" }, "goals": 310, "trophies": 11, "caps": 112, "seasons": 22, "assists": 94, "source": "https://en.wikipedia.org/wiki/Diego_Forl%C3%A1n" },
+    { "id": "riquelme", "name": { "ar": "خوان رومان ريكيلمي", "en": "Juan Román Riquelme" }, "goals": 167, "trophies": 13, "caps": 51, "seasons": 19, "assists": 172, "source": "https://en.wikipedia.org/wiki/Juan_Rom%C3%A1n_Riquelme" },
+    { "id": "aimar", "name": { "ar": "بابلو أيمار", "en": "Pablo Aimar" }, "goals": 94, "trophies": 16, "caps": 52, "seasons": 20, "assists": 132, "source": "https://en.wikipedia.org/wiki/Pablo_Aimar" },
+    { "id": "cassano", "name": { "ar": "أنطونيو كاسانو", "en": "Antonio Cassano" }, "goals": 150, "trophies": 4, "caps": 39, "seasons": 19, "assists": 122, "source": "https://en.wikipedia.org/wiki/Antonio_Cassano" },
+    { "id": "huntelaar", "name": { "ar": "كلاس يان هونتيلار", "en": "Klaas-Jan Huntelaar" }, "goals": 409, "trophies": 10, "caps": 76, "seasons": 20, "assists": 102, "source": "https://en.wikipedia.org/wiki/Klaas-Jan_Huntelaar" },
+    { "id": "cahill", "name": { "ar": "تيم كاهيل", "en": "Tim Cahill" }, "goals": 221, "trophies": 5, "caps": 108, "seasons": 23, "assists": 61, "source": "https://en.wikipedia.org/wiki/Tim_Cahill" },
+    { "id": "essien", "name": { "ar": "مايكل إيسيان", "en": "Michael Essien" }, "goals": 67, "trophies": 12, "caps": 59, "seasons": 21, "assists": 27, "source": "https://en.wikipedia.org/wiki/Michael_Essien" },
+    { "id": "yaya-toure", "name": { "ar": "يايا توريه", "en": "Yaya Touré" }, "goals": 125, "trophies": 18, "caps": 101, "seasons": 19, "assists": 88, "source": "https://en.wikipedia.org/wiki/Yaya_Tour%C3%A9" }
   ]
 }

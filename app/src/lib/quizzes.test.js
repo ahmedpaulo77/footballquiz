@@ -677,9 +677,9 @@ describe("لعبة «الكروت»", () => {
     expect(enQuiz.order).toBe(7);
   });
 
-  it("فيه ٨٤ كارت بإحصائيات موثقة", () => {
-    expect(arQuiz.cards).toHaveLength(84);
-    expect(enQuiz.cards).toHaveLength(84);
+  it("فيه ٩٤ كارت بإحصائيات موثقة", () => {
+    expect(arQuiz.cards).toHaveLength(94);
+    expect(enQuiz.cards).toHaveLength(94);
 
     for (const card of arQuiz.cards) {
       expect(card.id.trim(), "id").not.toBe("");
