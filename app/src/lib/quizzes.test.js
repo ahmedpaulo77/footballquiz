@@ -182,11 +182,11 @@ describe('لعبة «ريسك»', () => {
     ]);
   });
 
-  it('فيها ٣٨ فئة و١٥٢ خلية على ٤ قيم', () => {
-    expect(arQuiz.categories).toHaveLength(39);
+  it('فيها ٤٠ فئة و١٦٠ خلية على ٤ قيم', () => {
+    expect(arQuiz.categories).toHaveLength(40);
     expect(arQuiz.values).toEqual([10, 20, 40, 50]);
-    expect(arQuiz.questions).toHaveLength(156);
-    expect(enQuiz.questions).toHaveLength(156);
+    expect(arQuiz.questions).toHaveLength(160);
+    expect(enQuiz.questions).toHaveLength(160);
   });
 
   it('كل فئة عندها خلية واحدة لكل قيمة', () => {

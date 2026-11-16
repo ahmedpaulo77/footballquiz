@@ -337,6 +337,14 @@
         "en": "Coaches"
       },
       "emoji": "👔"
+    },
+    {
+      "id": "risk",
+      "title": {
+        "ar": "ريسك",
+        "en": "Risk"
+      },
+      "emoji": "🅰️"
     }
   ],
   "questions": [
@@ -2366,6 +2374,58 @@
       "answer": {
         "ar": "روبرتو دي ماتيو",
         "en": "Roberto Di Matteo"
+      }
+    },
+    {
+      "id": "risk-10",
+      "category": "risk",
+      "value": 10,
+      "question": {
+        "ar": "مين عمل الأسيست لميسي في نهائي دوري الأبطال 2009 قدام مانشستر يونايتد؟",
+        "en": "Who assisted Messi's goal in the 2009 Champions League final against Manchester United?"
+      },
+      "answer": {
+        "ar": "تشافي",
+        "en": "Xavi"
+      }
+    },
+    {
+      "id": "risk-20",
+      "category": "risk",
+      "value": 20,
+      "question": {
+        "ar": "مين عمل أسيست هدف الفوز لبايرن ميونخ على ريال مدريد في ذهاب نصف نهائي دوري الأبطال 2012؟",
+        "en": "Who assisted Bayern Munich's winning goal against Real Madrid in the 2012 Champions League semi-final first leg?"
+      },
+      "answer": {
+        "ar": "فيليب لام",
+        "en": "Philipp Lahm"
+      }
+    },
+    {
+      "id": "risk-40",
+      "category": "risk",
+      "value": 40,
+      "question": {
+        "ar": "مين عمل الأسيست لهدف سولشاير في نهائي دوري الأبطال 1999؟",
+        "en": "Who assisted Solskjær's winning goal in the 1999 Champions League final?"
+      },
+      "answer": {
+        "ar": "تيدي شيرينغهام",
+        "en": "Teddy Sheringham"
+      }
+    },
+    {
+      "id": "risk-50",
+      "category": "risk",
+      "value": 50,
+      "question": {
+        "ar": "مين عمل أسيست هدف توريس الشهير لتشيلسي ضد برشلونة في نصف نهائي دوري الأبطال 2012؟",
+        "en": "Who assisted Torres' famous Chelsea goal against Barcelona in the 2012 Champions League semi-final?"
+      },
+      "answer": {
+        "ar": "أشلي كول",
+        "en": "Ashley Cole"
       }
     }
   ]
