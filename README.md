@@ -79,10 +79,14 @@
 ```bash
 npm install
 npm run dev      # http://localhost:3000
-npm run build    # نسخة الإنتاج في dist/
+npm run build    # توليد sitemap.xml + نسخة الإنتاج في dist/
 npm run pages    # build + نسخ النسخة المبنية لجذر الريبو (للنشر)
+npm run sitemap  # توليد app/public/sitemap.xml من صفحات app/*.html
 npm test         # اختبارات منطق اللعبة والتلميحات
 ```
+
+> `sitemap.xml` بيتولّد تلقائيًا من ملفات `app/*.html` — أي صفحة جديدة بتتحط لوحدها،
+> ومش محتاج تعدّله يدوي. `npm run build` بينده السكربت قبل البناء.
 
 مفيش أي خدمة خارجية مطلوبة — اللعبة بتشتغل بالكامل في المتصفح.
 
@@ -176,7 +180,9 @@ quizes/
 │           ├── AnswerReveal.jsx # بوكس الإجابة المخفي
 │           ├── Modal.jsx       # مودال مشترك
 │           └── HowToPlay.jsx   # الشرح
-└── scripts/publish-pages.mjs   # بينسخ dist لجذر الريبو
+└── scripts/
+    ├── generate-sitemap.mjs    # بيولّد app/public/sitemap.xml من صفحات app/*.html
+    └── publish-pages.mjs       # بينسخ dist لجذر الريبو
 ```
 
 ---
@@ -215,7 +221,8 @@ FAQ، كروت الدليل، والفوتر).
    ```
 3. ضيف رابطه في `app/src/lib/sitePages.js` عشان يظهر في فوتر صفحات React، وضيفه يدويًا في
    فوتر الصفحات الثابتة التانية (الفوتر مكتوب HTML مباشر).
-4. ضيف الـ URL في `app/public/sitemap.xml` بتاريخ `lastmod` الجديد.
+4. السايت ماب بيتولّد لوحده — `npm run build` (أو `npm run sitemap`) بيضيف الصفحة الجديدة
+   من `app/*.html` تلقائيًا، فمش محتاج تعدّل `app/public/sitemap.xml` يدوي.
 5. بعد أي تعديل: `npm test` ثم `npm run pages`.
 
 > **AdSense:** كود الإعلانات و`ads.txt` مؤجّلين عن قصد لحد ما يتم التسجيل والقبول.
