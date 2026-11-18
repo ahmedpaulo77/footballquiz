@@ -182,11 +182,11 @@ describe('لعبة «ريسك»', () => {
     ]);
   });
 
-  it('فيها ٤٠ فئة و١٦٠ خلية على ٤ قيم', () => {
-    expect(arQuiz.categories).toHaveLength(40);
+  it('فيها ٤٢ فئة و١٦٨ خلية على ٤ قيم', () => {
+    expect(arQuiz.categories).toHaveLength(42);
     expect(arQuiz.values).toEqual([10, 20, 40, 50]);
-    expect(arQuiz.questions).toHaveLength(160);
-    expect(enQuiz.questions).toHaveLength(160);
+    expect(arQuiz.questions).toHaveLength(168);
+    expect(enQuiz.questions).toHaveLength(168);
   });
 
   it('كل فئة عندها خلية واحدة لكل قيمة', () => {
@@ -324,9 +324,9 @@ describe('لعبة «سؤال واحد»', () => {
     expect(QUIZZES[3].id).toBe('one-question');
   });
 
-  it('فيها ١٠٣ سؤال و١٠ أسئلة في الجولة و١٠ نقط للسؤال', () => {
-    expect(arQuiz.questions).toHaveLength(103);
-    expect(enQuiz.questions).toHaveLength(103);
+  it('فيها ١٠٥ سؤال و١٠ أسئلة في الجولة و١٠ نقط للسؤال', () => {
+    expect(arQuiz.questions).toHaveLength(105);
+    expect(enQuiz.questions).toHaveLength(105);
     expect(arQuiz.questionsPerGame).toBe(10);
     expect(arQuiz.pointsPerQuestion).toBe(10);
   });

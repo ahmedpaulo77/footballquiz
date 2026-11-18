@@ -1,1 +1,0 @@
-import{c as r,j as t,r as e}from"./styles-CxDfkkcV.js";import{A as o}from"./App-CMb84dMO.js";r.createRoot(document.getElementById("root")).render(t.jsx(e.StrictMode,{children:t.jsx(o,{initialQuizId:"top-three"})}));

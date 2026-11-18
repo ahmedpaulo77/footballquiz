@@ -35,12 +35,20 @@
       "emoji": "🏆"
     },
     {
-      "id": "champions-league",
+      "id": "champions-league-1",
       "title": {
-        "ar": "دوري أبطال أوروبا",
-        "en": "Champions League"
+        "ar": "دوري أبطال أوروبا (1)",
+        "en": "Champions League (1)"
       },
       "emoji": "⭐"
+    },
+    {
+      "id": "champions-league-2",
+      "title": {
+        "ar": "دوري أبطال أوروبا (2)",
+        "en": "Champions League (2)"
+      },
+      "emoji": "🏆"
     },
     {
       "id": "premier-league",
@@ -345,6 +353,14 @@
         "en": "Risk"
       },
       "emoji": "🅰️"
+    },
+    {
+      "id": "zidane",
+      "title": {
+        "ar": "زيدان",
+        "en": "Zidane"
+      },
+      "emoji": "🇫🇷"
     }
   ],
   "questions": [
@@ -401,55 +417,107 @@
       }
     },
     {
-      "id": "champions-league-10",
-      "category": "champions-league",
+      "id": "champions-league-1-10",
+      "category": "champions-league-1",
       "value": 10,
       "question": {
-        "ar": "أي نادي كسب دوري أبطال أوروبا 2025-26؟",
-        "en": "Which club won the 2025-26 Champions League?"
+        "ar": "أكتر ملعب استضاف نهائي دوري أبطال أوروبا؟",
+        "en": "Which stadium has hosted the most European Cup/Champions League finals?"
       },
       "answer": {
-        "ar": "باريس سان جيرمان",
-        "en": "Paris Saint-Germain"
+        "ar": "ويمبلي (٨ مرات)",
+        "en": "Wembley (8 times)"
       }
     },
     {
-      "id": "champions-league-20",
-      "category": "champions-league",
+      "id": "champions-league-1-20",
+      "category": "champions-league-1",
       "value": 20,
       "question": {
-        "ar": "أي نادي كسب دوري أبطال أوروبا/كأس أوروبا أكتر من غيره؟",
-        "en": "Which club has won the European Cup/Champions League the most times?"
+        "ar": "مين أكتر لاعب برازيلي لعب مباريات في تاريخ دوري أبطال أوروبا؟",
+        "en": "Which Brazilian has played the most Champions League matches?"
       },
       "answer": {
-        "ar": "ريال مدريد (15 لقبًا)",
-        "en": "Real Madrid (15 titles)"
+        "ar": "ماركينوس",
+        "en": "Marquinhos"
       }
     },
     {
-      "id": "champions-league-40",
-      "category": "champions-league",
+      "id": "champions-league-1-40",
+      "category": "champions-league-1",
       "value": 40,
       "question": {
-        "ar": "مين أول نادي يكسب دوري أبطال أوروبا بعد تغيير اسم البطولة سنة 1992؟",
-        "en": "Which club was the first to win the Champions League after the competition was rebranded in 1992?"
+        "ar": "مين أكتر لاعب شارك في نهائيات دوري أبطال أوروبا؟",
+        "en": "Which player has appeared in the most European Cup/Champions League finals?"
       },
       "answer": {
-        "ar": "مارسيليا (1993)",
-        "en": "Marseille (1993)"
+        "ar": "باولو مالديني وفرانسيسكو خينتو (٨ نهائيات)",
+        "en": "Paolo Maldini and Francisco Gento (8 finals)"
       }
     },
     {
-      "id": "champions-league-50",
-      "category": "champions-league",
+      "id": "champions-league-1-50",
+      "category": "champions-league-1",
       "value": 50,
       "question": {
-        "ar": "مين المدرب الوحيد اللي كسب دوري أبطال أوروبا ٥ مرات؟",
-        "en": "Who is the only manager to win the Champions League five times?"
+        "ar": "مين أكتر لاعب خسر نهائيات في دوري أبطال أوروبا؟",
+        "en": "Which player has lost the most European Cup/Champions League finals?"
       },
       "answer": {
-        "ar": "كارلو أنشيلوتي",
-        "en": "Carlo Ancelotti"
+        "ar": "باتريس إيفرا",
+        "en": "Patrice Evra"
+      }
+    },
+    {
+      "id": "champions-league-2-10",
+      "category": "champions-league-2",
+      "value": 10,
+      "question": {
+        "ar": "أول نهائي في تاريخ دوري أبطال أوروبا جمع بين فريقين من نفس البلد — مين هما؟",
+        "en": "Which two clubs played the first European Cup/Champions League final between teams from the same country?"
+      },
+      "answer": {
+        "ar": "ريال مدريد وفالنسيا",
+        "en": "Real Madrid and Valencia"
+      }
+    },
+    {
+      "id": "champions-league-2-20",
+      "category": "champions-league-2",
+      "value": 20,
+      "question": {
+        "ar": "مين أكتر لاعب برازيلي لعب مباريات في تاريخ دوري أبطال أوروبا؟",
+        "en": "Which Brazilian has played the most Champions League matches?"
+      },
+      "answer": {
+        "ar": "ماركينوس",
+        "en": "Marquinhos"
+      }
+    },
+    {
+      "id": "champions-league-2-40",
+      "category": "champions-league-2",
+      "value": 40,
+      "question": {
+        "ar": "مين الفريق اللي فاز بدوري أبطال أوروبا أكتر ما كسب الدوري المحلي؟",
+        "en": "Which club has won the European Cup/Champions League more times than its own domestic league?"
+      },
+      "answer": {
+        "ar": "نوتنجهام فورست",
+        "en": "Nottingham Forest"
+      }
+    },
+    {
+      "id": "champions-league-2-50",
+      "category": "champions-league-2",
+      "value": 50,
+      "question": {
+        "ar": "أول نهائي في تاريخ البطولة انتهى بركلات الترجيح كان بين مين ومين؟",
+        "en": "Which two clubs played the first European Cup final decided by a penalty shootout in 1984?"
+      },
+      "answer": {
+        "ar": "ليفربول وروما",
+        "en": "Liverpool and Roma"
       }
     },
     {
@@ -2426,6 +2494,58 @@
       "answer": {
         "ar": "أشلي كول",
         "en": "Ashley Cole"
+      }
+    },
+    {
+      "id": "zidane-10",
+      "category": "zidane",
+      "value": 10,
+      "question": {
+        "ar": "مين أكتر لاعب سجّل أهداف تحت قيادة زيدان كمدرب؟",
+        "en": "Which player scored the most goals under Zidane as coach?"
+      },
+      "answer": {
+        "ar": "كريستيانو رونالدو",
+        "en": "Cristiano Ronaldo"
+      }
+    },
+    {
+      "id": "zidane-20",
+      "category": "zidane",
+      "value": 20,
+      "question": {
+        "ar": "مين أكتر لاعب شارك في المباريات تحت قيادة زيدان كمدرب؟",
+        "en": "Which player made the most appearances under Zidane as coach?"
+      },
+      "answer": {
+        "ar": "كريم بنزيما",
+        "en": "Karim Benzema"
+      }
+    },
+    {
+      "id": "zidane-40",
+      "category": "zidane",
+      "value": 40,
+      "question": {
+        "ar": "مين أكتر لاعب صنع أهداف تحت قيادة زيدان كمدرب؟",
+        "en": "Which player provided the most assists under Zidane as coach?"
+      },
+      "answer": {
+        "ar": "توني كروس",
+        "en": "Toni Kroos"
+      }
+    },
+    {
+      "id": "zidane-50",
+      "category": "zidane",
+      "value": 50,
+      "question": {
+        "ar": "مين أكتر فريق خسر منه زيدان كمدرب؟ (فريقين)",
+        "en": "Which two teams did Zidane lose to the most as coach?"
+      },
+      "answer": {
+        "ar": "ريال بيتيس وفالنسيا (٣ مرات)",
+        "en": "Real Betis and Valencia (3 times)"
       }
     }
   ]

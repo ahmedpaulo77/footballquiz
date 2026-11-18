@@ -6085,6 +6085,33 @@
       ],
       "known": 78,
       "gulf": false
+    },
+    {
+      "id": "vicente-rodriguez",
+      "answer": "Vicente Rodríguez",
+      "clubs": [
+        "Levante",
+        "Valencia",
+        "Brighton"
+      ],
+      "known": 34,
+      "loans": [
+        2
+      ],
+      "gulf": false
+    },
+    {
+      "id": "juan-carlos-valeron",
+      "answer": "Juan Carlos Valerón",
+      "clubs": [
+        "Las Palmas",
+        "Mallorca",
+        "Atlético Madrid",
+        "Deportivo La Coruña",
+        "Las Palmas"
+      ],
+      "known": 30,
+      "gulf": false
     }
   ]
 }

@@ -2742,6 +2742,60 @@
       ],
       "correct": 3,
       "gulf": false
+    },
+    {
+      "id": "shehata-top-scorer",
+      "question": {
+        "ar": "مين أكتر لاعب سجّل أهداف مع حسن شحاته كمدرب؟",
+        "en": "Who scored the most goals under Hassan Shehata as coach?"
+      },
+      "options": [
+        {
+          "ar": "عمرو زكي",
+          "en": "Amr Zaki"
+        },
+        {
+          "ar": "عماد متعب",
+          "en": "Emad Moteab"
+        },
+        {
+          "ar": "محمد أبو تريكة",
+          "en": "Mohamed Aboutrika"
+        },
+        {
+          "ar": "أحمد حسن",
+          "en": "Ahmed Hassan"
+        }
+      ],
+      "correct": 0,
+      "gulf": false
+    },
+    {
+      "id": "shehata-most-matches",
+      "question": {
+        "ar": "مين أكتر لاعب شارك في المباريات مع حسن شحاته كمدرب؟",
+        "en": "Who played the most matches under Hassan Shehata as coach?"
+      },
+      "options": [
+        {
+          "ar": "أحمد حسن",
+          "en": "Ahmed Hassan"
+        },
+        {
+          "ar": "عصام الحضري",
+          "en": "Essam El-Hadary"
+        },
+        {
+          "ar": "محمد أبو تريكة",
+          "en": "Mohamed Aboutrika"
+        },
+        {
+          "ar": "عماد متعب",
+          "en": "Emad Moteab"
+        }
+      ],
+      "correct": 0,
+      "gulf": false
     }
   ]
 }
