@@ -347,10 +347,10 @@
       "emoji": "👔"
     },
     {
-      "id": "risk",
+      "id": "assists",
       "title": {
-        "ar": "ريسك",
-        "en": "Risk"
+        "ar": "اسيستات",
+        "en": "Assists"
       },
       "emoji": "🅰️"
     },
@@ -2445,8 +2445,8 @@
       }
     },
     {
-      "id": "risk-10",
-      "category": "risk",
+      "id": "assists-10",
+      "category": "assists",
       "value": 10,
       "question": {
         "ar": "مين عمل الأسيست لميسي في نهائي دوري الأبطال 2009 قدام مانشستر يونايتد؟",
@@ -2458,8 +2458,8 @@
       }
     },
     {
-      "id": "risk-20",
-      "category": "risk",
+      "id": "assists-20",
+      "category": "assists",
       "value": 20,
       "question": {
         "ar": "مين عمل أسيست هدف الفوز لبايرن ميونخ على ريال مدريد في ذهاب نصف نهائي دوري الأبطال 2012؟",
@@ -2471,8 +2471,8 @@
       }
     },
     {
-      "id": "risk-40",
-      "category": "risk",
+      "id": "assists-40",
+      "category": "assists",
       "value": 40,
       "question": {
         "ar": "مين عمل الأسيست لهدف سولشاير في نهائي دوري الأبطال 1999؟",
@@ -2484,8 +2484,8 @@
       }
     },
     {
-      "id": "risk-50",
-      "category": "risk",
+      "id": "assists-50",
+      "category": "assists",
       "value": 50,
       "question": {
         "ar": "مين عمل أسيست هدف توريس الشهير لتشيلسي ضد برشلونة في نصف نهائي دوري الأبطال 2012؟",
