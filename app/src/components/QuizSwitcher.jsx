@@ -1,12 +1,12 @@
 /** صفحة كل لعبة — كل لعبة ليها URL مستقل عشان الزيارات والإعلانات. */
 const QUIZ_PATHS = {
-  'who-am-i': './who-am-i.html',
-  paths: './paths.html',
-  risk: './risk.html',
-  'one-question': './one-question.html',
-  'top-three': './top-three.html',
-  lineups: './lineups.html',
-  cards: './cards.html',
+  'who-am-i': './who-am-i',
+  paths: './paths',
+  risk: './risk',
+  'one-question': './one-question',
+  'top-three': './top-three',
+  lineups: './lineups',
+  cards: './cards',
 };
 
 /** لينكات اختيار اللعبة — بتظهر بس لو فيه أكتر من لعبة. */

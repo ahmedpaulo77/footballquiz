@@ -6,13 +6,13 @@ import { loadLang, loadTheme, saveLang, saveTheme } from '../lib/storage.js';
 
 /** روابط كل لعبة */
 const QUIZ_URLS = {
-  'who-am-i': './who-am-i.html',
-  paths: './paths.html',
-  risk: './risk.html',
-  'one-question': './one-question.html',
-  'top-three': './top-three.html',
-  lineups: './lineups.html',
-  cards: './cards.html',
+  'who-am-i': './who-am-i',
+  paths: './paths',
+  risk: './risk',
+  'one-question': './one-question',
+  'top-three': './top-three',
+  lineups: './lineups',
+  cards: './cards',
 };
 
 /** لون كل لعبة */
@@ -135,7 +135,7 @@ export default function HomePage() {
           {quizzes.map((quiz) => {
             const color = QUIZ_COLORS[quiz.id] ?? QUIZ_COLORS['who-am-i'];
             const desc = QUIZ_DESC[lang]?.[quiz.id] ?? '';
-            const url = QUIZ_URLS[quiz.id] ?? './who-am-i.html';
+            const url = QUIZ_URLS[quiz.id] ?? './who-am-i';
 
             return (
               <a
@@ -192,7 +192,7 @@ export default function HomePage() {
             {quizzes.map((quiz) => (
               <a
                 key={quiz.id}
-                href={`./guide-${quiz.id}.html`}
+                href={`./guide-${quiz.id}`}
                 className="home-guide-link"
               >
                 <span aria-hidden="true">{quiz.emoji}</span>
@@ -200,7 +200,7 @@ export default function HomePage() {
               </a>
             ))}
           </div>
-          <a className="home-guide-all" href="./guides.html">
+          <a className="home-guide-all" href="./guides">
             {isAr ? 'افتح دليل الألعاب كامل ←' : 'Open the full game guide →'}
           </a>
         </section>

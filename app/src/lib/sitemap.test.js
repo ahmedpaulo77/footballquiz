@@ -43,6 +43,29 @@ describe('السايت ماب (Sitemap)', () => {
     }
   });
 
+  it('مفيش أي رابط فيه .html (الهوست بيحوّلها لنسخة نظيفة)', async () => {
+    const urls = await sitemapUrls();
+
+    for (const url of urls) {
+      expect(url.endsWith('.html'), url).toBe(false);
+    }
+  });
+
+  it('canonical و og:url في كل صفحة بيشاوروا على الرابط النظيف', async () => {
+    const pages = await htmlPages();
+
+    for (const page of pages) {
+      const html = await readFile(path.join(appDir, page), 'utf8');
+      const expected = pageUrl(page);
+
+      const canonical = html.match(/<link rel="canonical" href="([^"]+)"/);
+      const ogUrl = html.match(/<meta property="og:url" content="([^"]+)"/);
+
+      expect(canonical?.[1], `${page} canonical`).toBe(expected);
+      expect(ogUrl?.[1], `${page} og:url`).toBe(expected);
+    }
+  });
+
   it('الرئيسية أعلى priority والألعاب قبل الأدلة', () => {
     expect(pageMeta('index.html').priority).toBe('1.0');
     expect(pageMeta('risk.html').priority).toBe('0.8');

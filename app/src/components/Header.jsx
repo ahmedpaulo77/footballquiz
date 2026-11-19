@@ -10,7 +10,7 @@ export default function Header({
   function handleHomeClick(e) {
     e.preventDefault();
     if (!onGoHome) {
-      window.location.href = './index.html';
+      window.location.href = './';
       return;
     }
     const confirmMsg =
@@ -18,7 +18,7 @@ export default function Header({
         ? 'هتخرج من اللعبة وترجع للصفحة الرئيسية — متأكد؟'
         : 'You will leave the game and go to the home page — are you sure?';
     if (window.confirm(confirmMsg)) {
-      window.location.href = './index.html';
+      window.location.href = './';
     }
   }
 
@@ -27,7 +27,7 @@ export default function Header({
       <div className="brand">
         <div className="brand-text">
           <a
-            href="./index.html"
+            href="./"
             className="brand-link"
             onClick={handleHomeClick}
             aria-label={ui.dir === 'rtl' ? 'الصفحة الرئيسية' : 'Home'}

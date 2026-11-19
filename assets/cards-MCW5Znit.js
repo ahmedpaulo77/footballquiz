@@ -1,1 +1,0 @@
-import{c as r,j as t,r as e}from"./styles-s3WwfXfd.js";import{A as o}from"./App-pe-UTT-f.js";r.createRoot(document.getElementById("root")).render(t.jsx(e.StrictMode,{children:t.jsx(o,{initialQuizId:"cards"})}));

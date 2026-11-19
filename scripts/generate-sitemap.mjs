@@ -62,9 +62,10 @@ export function pageMeta(fileName) {
   return { group: 40, priority: '0.6', changefreq: 'monthly' };
 }
 
-/** الرابط العام للصفحة — الرئيسية بتطلع بدون index.html. */
+/** الرابط العام للصفحة — الرئيسية بتطلع بدون index.html، والباقي بدون .html. */
 export function pageUrl(fileName) {
-  return fileName === 'index.html' ? `${SITE}/` : `${SITE}/${fileName}`;
+  if (fileName === 'index.html') return `${SITE}/`;
+  return `${SITE}/${fileName.replace(/\.html$/, '')}`;
 }
 
 // الصيغة المتفق عليها لآخر تعديل: YYYY-MM-DD
