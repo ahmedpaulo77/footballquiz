@@ -1476,6 +1476,381 @@
           "en": "I won the Serie A top-scorer award for the second time at the age of 37."
         }
       ]
+    },
+    {
+      "id": "rafael-marquez",
+      "answer": {
+        "ar": "رافاييل ماركيز",
+        "en": "Rafael Márquez"
+      },
+      "clues": [
+        {
+          "ar": "لعبت في ثلاثة من الدوريات الخمسة الكبرى: فرنسا وإسبانيا وإيطاليا.",
+          "en": "I played in three of Europe's top five leagues: France, Spain and Italy."
+        },
+        {
+          "ar": "أول هدف دولي في مسيرتي كان قدام مصر في هونج كونج.",
+          "en": "My first international goal came against Egypt in Hong Kong."
+        },
+        {
+          "ar": "كسبت دوري أبطال أوروبا مرتين، والسوبر الأوروبي مرة، والدوري الإسباني أربع مرات مع برشلونة ومرة مع موناكو.",
+          "en": "I won the Champions League twice, the UEFA Super Cup once, and the Spanish league four times with Barcelona plus once with Monaco."
+        },
+        {
+          "ar": "كسبت كأس القارات مرة واحدة سنة 1999، وأكبر إنجاز ليا في كأس العالم كان الوصول لدور الـ16.",
+          "en": "I won the Confederations Cup once in 1999, and my best World Cup run ended in the round of 16."
+        },
+        {
+          "ar": "كسبت جائزة أفضل لاعب في قارة أمريكا الشمالية سنة 2005.",
+          "en": "I was named the best player in North America in 2005."
+        },
+        {
+          "ar": "لعبت مع بارتيز، وتريزيغيه، وهنري، وريسه، ورونالدينيو، وميسي، وتيم ريم.",
+          "en": "I played alongside Barthez, Trezeguet, Henry, Riise, Ronaldinho, Messi and Tim Ream."
+        },
+        {
+          "ar": "سجلت هدف الافتتاح في كأس العالم 2010.",
+          "en": "I scored the opening goal of the 2010 World Cup."
+        }
+      ]
+    },
+    {
+      "id": "andrew-johnson",
+      "answer": {
+        "ar": "أندرو جونسون",
+        "en": "Andrew Johnson"
+      },
+      "clues": [
+        {
+          "ar": "لعبت طول مسيرتي في دوري واحد بس، وهو دوري بلدي ومن الدوريات الخمسة الكبرى.",
+          "en": "I spent my whole career in one league — my own country's, one of Europe's top five."
+        },
+        {
+          "ar": "لعبت مع مروان الشماخ، وأرتيتا، وسينديروس، ورفيق حليش، وموسى ديمبيلي، وجوليو سيزار، وجرانيرو، وزاها.",
+          "en": "I played alongside Marouane Chamakh, Arteta, Senderos, Rafik Halliche, Moussa Dembélé, Júlio César, Granero and Zaha."
+        },
+        {
+          "ar": "كنت في تشكيلة الموسم في الدوري موسم 2004-05.",
+          "en": "I was named in the league's Team of the Season in 2004-05."
+        },
+        {
+          "ar": "رغم هبوط فريقي في 2004-05، كنت الهداف الإنجليزي رقم 1 في الدوري، وكملت موسم كمان مع الفريق وسجلت 15 هدف في التشامبيونشيب.",
+          "en": "Even though my club was relegated in 2004-05, I finished as the top English scorer in the league, stayed another season and scored 15 goals in the Championship."
+        },
+        {
+          "ar": "في نفس الموسم اللي هبط فيه فريقي، مثلت منتخب إنجلترا في مباراتين سنة 2005، وإجمالي 8 مباريات.",
+          "en": "In the same season my club went down, I played twice for England in 2005, for 8 caps in total."
+        },
+        {
+          "ar": "كنت هداف التشامبيونشيب موسم 2003-04.",
+          "en": "I was the Championship's top scorer in 2003-04."
+        },
+        {
+          "ar": "كنت أفضل لاعب في كريستال بالاس موسم 2003-04 و2004-05.",
+          "en": "I was Crystal Palace's Player of the Year in 2003-04 and 2004-05."
+        }
+      ]
+    },
+    {
+      "id": "peter-crouch",
+      "answer": {
+        "ar": "بيتر كراوتش",
+        "en": "Peter Crouch"
+      },
+      "clues": [
+        {
+          "ar": "لعبت طول عمري في دوري واحد بس — دوري بلدي ومن الدوريات الخمسة الكبرى — وإعارة واحدة بس برة بلدي كانت للدوري السويدي.",
+          "en": "I played my whole career in one league — my own country's, one of Europe's top five — with a single loan abroad in Sweden."
+        },
+        {
+          "ar": "لعبت مع منتخب بلدي 5 سنين بس، وجبت 22 هدف من غير ما أكسب أي بطولة معاه.",
+          "en": "I played for my national team for only five years, scoring 22 goals without winning a trophy."
+        },
+        {
+          "ar": "رغم لعبي لأندية كبيرة، بطولاتي محدودة: كأس مرة وسوبر مرة، وكنت وصيف دوري أبطال أوروبا، وكسبت كأس العالم للأندية مرة.",
+          "en": "Despite playing for big clubs, my trophies are few: one cup, one super cup, a Champions League runners-up medal and one Club World Cup."
+        },
+        {
+          "ar": "لعبت مع مصطفى حجي، وجيرارد، ولورين، وكامبل، وكانو، وبيل، ومودريتش.",
+          "en": "I played alongside Mustapha Hadji, Gerrard, Lauren, Campbell, Kanu, Bale and Modrić."
+        },
+        {
+          "ar": "كسبت جائزة أفضل لاعب في الموسم في 3 أندية: بورتسموث، وكوينز بارك رينجرز، وستوك.",
+          "en": "I was Player of the Season at three clubs: Portsmouth, Queens Park Rangers and Stoke."
+        },
+        {
+          "ar": "سجلت هدف واحد بس في البطولات الكبيرة مع المنتخب، وكان قدام ترينيداد وتوباجو في كأس العالم 2006.",
+          "en": "I scored just one goal at a major tournament for my country, against Trinidad and Tobago at the 2006 World Cup."
+        }
+      ]
+    },
+    {
+      "id": "mohamed-el-yamani",
+      "answer": {
+        "ar": "محمد اليماني",
+        "en": "Mohamed El Yamani"
+      },
+      "clues": [
+        {
+          "ar": "بدايتي في الكورة بعد الناشئين كانت في الدوري البلجيكي.",
+          "en": "After my youth years, I started my senior career in the Belgian league."
+        },
+        {
+          "ar": "لعبت مع منتخب بلدي مباراتين بس، وسجلت هدف في مباراة ودية قدام نيجيريا.",
+          "en": "I played only two matches for my national team and scored in a friendly against Nigeria."
+        },
+        {
+          "ar": "سجلت 17 هدف مع منتخب الشباب تحت 20 سنة.",
+          "en": "I scored 17 goals for my country's under-20 team."
+        },
+        {
+          "ar": "بعد تألقي في بلجيكا وكأس العالم للشباب، جالي عروض من بايرن واليوفي، وكنت خلاص هامضي مع اليوفي، لكن حادثة دمرت مسيرتي.",
+          "en": "After shining in Belgium and at the World Youth Championship, Bayern and Juventus came for me — I was about to sign for Juventus when an accident destroyed my career."
+        },
+        {
+          "ar": "نهايتي كانت في الدوري المالطي، وساعدت فريقي إنه يصعد للدوري الأوروبي.",
+          "en": "I ended my career in the Maltese league, helping my club qualify for European competition."
+        },
+        {
+          "ar": "لعبت في بلدي في الزمالك والاتحاد والإسماعيلي وشمس، وكنت من ناشئين الإسماعيلي.",
+          "en": "At home I played for Zamalek, Ittihad, Ismaily and Shams, having come through Ismaily's youth ranks."
+        }
+      ]
+    },
+    {
+      "id": "maicon",
+      "answer": {
+        "ar": "مايكون",
+        "en": "Maicon"
+      },
+      "clues": [
+        {
+          "ar": "لعبت في ثلاثة من الدوريات الخمسة الكبرى: إنجلترا وفرنسا وإيطاليا.",
+          "en": "I played in three of Europe's top five leagues: England, France and Italy."
+        },
+        {
+          "ar": "كنت في تشكيلة الأحلام لكأس العالم 2010، وفي تشكيلة دوري أبطال أوروبا في نفس السنة.",
+          "en": "I was in the 2010 World Cup Dream Team and the Champions League Team of the Year in the same year."
+        },
+        {
+          "ar": "كسبت 4 بطولات مع منتخب بلدي.",
+          "en": "I won four titles with my national team."
+        },
+        {
+          "ar": "لعبت مع خوان بابلو سورين، وإيفرا، وأديبايور، وفييرا، وبالوتيلي، ولويس فيغو، وإيتو، ويايا توريه، وأشلي كول، وصلاح.",
+          "en": "I played alongside Juan Pablo Sorín, Evra, Adebayor, Vieira, Balotelli, Luís Figo, Eto'o, Yaya Touré, Ashley Cole and Salah."
+        },
+        {
+          "ar": "لعبت لأندية كتير، لكن بطولاتي كلها في بلدي وفي إيطاليا، وكسبت دوري الأبطال مرة واحدة.",
+          "en": "I played for many clubs, but all my trophies came in my own country and in Italy, and I won the Champions League once."
+        },
+        {
+          "ar": "كسبت جائزة أحسن هدف في الدوري الإيطالي سنة 2010.",
+          "en": "I won the award for the best goal in the Italian league in 2010."
+        }
+      ]
+    },
+    {
+      "id": "mantorras",
+      "answer": {
+        "ar": "مانتوراس",
+        "en": "Mantorras"
+      },
+      "clues": [
+        {
+          "ar": "عمري ما لعبت في أي دوري في العالم غير الدوري البرتغالي، وهو مش بلدي.",
+          "en": "I never played in any league except Portugal's — and it wasn't my own country."
+        },
+        {
+          "ar": "شاركت مع منتخب بلدي في كأس العالم الوحيدة في تاريخنا، وشاركت في كأس أمم أفريقيا مرتين.",
+          "en": "I played for my country at the only World Cup in its history, and at two Africa Cup of Nations."
+        },
+        {
+          "ar": "كسبت الدوري البرتغالي مرة مع بنفيكا، ولعبت هناك 10 سنين.",
+          "en": "I won the Portuguese league once with Benfica and spent ten years there."
+        },
+        {
+          "ar": "لعبت مع منتخب بلدي من 2001 لـ2010، وسجلت 5 أهداف في 33 مباراة رغم إني مهاجم.",
+          "en": "I played for my national team from 2001 to 2010, scoring 5 goals in 33 matches despite being a striker."
+        },
+        {
+          "ar": "أول موسم ليا مع بنفيكا 2001-02 كان قوي جدًا: 13 هدف في الدوري، لكن الإصابات دمرت مسيرتي.",
+          "en": "My first season at Benfica, 2001-02, was very strong: 13 league goals, but injuries destroyed my career."
+        },
+        {
+          "ar": "كنت أفضل لاعب شاب في أفريقيا سنة 2001، ومنتخبي كسب كأس أمم أفريقيا للشباب 2001، لكن عمرنا ما كسبنا كأس الأمم للكبار.",
+          "en": "I was Africa's best young player in 2001 and my country won the U20 Africa Cup of Nations in 2001, but we never won the senior title."
+        }
+      ]
+    },
+    {
+      "id": "stekelenburg",
+      "answer": {
+        "ar": "مارتن ستيكيلينبورغ",
+        "en": "Maarten Stekelenburg"
+      },
+      "clues": [
+        {
+          "ar": "لعبت في ثلاثة من الدوريات الخمسة الكبرى: إنجلترا وفرنسا وإيطاليا.",
+          "en": "I played in three of Europe's top five leagues: England, France and Italy."
+        },
+        {
+          "ar": "بدأت مسيرتي وانهيتها في نفس فريقي في بلدي.",
+          "en": "I started and finished my career at the same club in my own country."
+        },
+        {
+          "ar": "كل بطولاتي كسبتها في بلدي — 4 دوري و4 كأس — ومخدتش حاجة في أي مكان تاني.",
+          "en": "I won all my trophies in my own country — four league titles and four cups — and nothing anywhere else."
+        },
+        {
+          "ar": "لعبت مع إبراهيموفيتش، وسنايدر، وفيرتونجن، ومارتيال، وريكاردو كارفاليو، وماني، وفان دايك، وكالفرت-لوين، ولوكمان، وتوتي، وريسه.",
+          "en": "I played alongside Ibrahimović, Sneijder, Vertonghen, Martial, Ricardo Carvalho, Mané, Van Dijk, Calvert-Lewin, Lookman, Totti and Riise."
+        },
+        {
+          "ar": "لعبت كأس العالم مرتين، وكنت وصيف في واحدة (2010)، وشاركت في 3 بطولات قارية.",
+          "en": "I played at two World Cups, finished as runner-up in one (2010), and played in three continental tournaments."
+        },
+        {
+          "ar": "كنت الحارس الأساسي لمنتخبي في نهائي كأس العالم اللي خسرناه سنة 2010.",
+          "en": "I was my country's starting goalkeeper in the World Cup final we lost in 2010."
+        }
+      ]
+    },
+    {
+      "id": "philippe-mexes",
+      "answer": {
+        "ar": "فيليب ميكسيس",
+        "en": "Philippe Mexès"
+      },
+      "clues": [
+        {
+          "ar": "لعبت في 3 أندية بس في حياتي، في 2 من الدوريات الخمسة الكبرى: فرنسا وإيطاليا.",
+          "en": "I played for only three clubs in my career, in two of Europe's top five leagues: France and Italy."
+        },
+        {
+          "ar": "في حياتي كلها مكسبتش أي دوري، كسبت كؤوس بس.",
+          "en": "I never won a league title in my whole career — only cups."
+        },
+        {
+          "ar": "لعبت بطولة دولية واحدة وقدرت آخد كمان كأس القارات سنة 2003.",
+          "en": "I played in one international tournament — and also won the 2003 Confederations Cup."
+        },
+        {
+          "ar": "لعبت مع ساكنا، وجبريل سيسيه، وكريستيان شيفو، وصامويل كافو، وتوتي، وكارلوس باكا، ودوناروما، وإسيان.",
+          "en": "I played alongside Sagna, Djibril Cissé, Christian Chivu, Samuel Kuffour, Totti, Carlos Bacca, Donnarumma and Essien."
+        },
+        {
+          "ar": "سجلت هدف عالمي في دوري الأبطال قدام أندرلخت بركلة مقصية من برة الـ18، بس مقدرتش آخد جايزة بوشكاش.",
+          "en": "I scored a spectacular overhead kick from outside the box in the Champions League against Anderlecht, but I didn't win the Puskás Award."
+        },
+        {
+          "ar": "كنت في فريق الموسم في دوري أبطال أوروبا موسم 2007-08.",
+          "en": "I was in the Champions League Team of the Season in 2007-08."
+        }
+      ]
+    },
+    {
+      "id": "juanfran",
+      "answer": {
+        "ar": "خوانفران",
+        "en": "Juanfran"
+      },
+      "clues": [
+        {
+          "ar": "لعبت في دوري واحد بس من الدوريات الخمسة الكبرى وهو دوري بلدي، وكمان لعبت في دوري في قارة تانية (البرازيل).",
+          "en": "I played in only one of Europe's top five leagues — my own country's — and also in a league on another continent (Brazil)."
+        },
+        {
+          "ar": "لعبت في كل الفئات السنية لمنتخبي وكسبت بطولة قارية، ولعبت كأس عالم و2 بطولة قارية.",
+          "en": "I played for every youth level of my national team and won a continental title, and I played one World Cup and two continental tournaments."
+        },
+        {
+          "ar": "لعبت مع أنطوني، وبيرالدو، وداني ألفيش، وزيدان، وراؤول، ومونريال، وأثبيليكويتا، وكوكي، وجريزمان.",
+          "en": "I played alongside Antony, Beraldo, Dani Alves, Zidane, Raúl, Monreal, Azpilicueta, Koke and Griezmann."
+        },
+        {
+          "ar": "في دور الـ16 في دوري الأبطال سجلت آخر ضربة ترجيح حاسمة وساعدتنا نوصل لدور الـ8، وفي نفس النسخة أنا اللي ضيعت ضربة ترجيح في النهائي اللي خسرناه.",
+          "en": "In the Champions League round of 16 I scored the decisive last penalty to send us to the quarter-finals, and in the same campaign I was the one who missed a penalty in the final we lost."
+        },
+        {
+          "ar": "كسبت الدوري الأوروبي قبل كده، بس مخدتش دوري الأبطال، وكنت وصيف في نسختين وخدت الدوري مرة.",
+          "en": "I had already won the Europa League but never the Champions League — I finished runner-up twice and won the league once."
+        }
+      ]
+    },
+    {
+      "id": "robert-huth",
+      "answer": {
+        "ar": "روبرت هوث",
+        "en": "Robert Huth"
+      },
+      "clues": [
+        {
+          "ar": "لعبت طول مسيرتي في دوري واحد بس، وكان من الدوريات الخمسة الكبرى.",
+          "en": "I spent my whole career in one league, and it was one of Europe's top five."
+        },
+        {
+          "ar": "بلدي من الدوريات الخمسة الكبرى، لكن الدوري اللي لعبت فيه مش دوري بلدي، ولعبت لبلدي في الشباب بس.",
+          "en": "My country is one of Europe's top five leagues, but the league I played in wasn't my own — and I only played for my country at youth level."
+        },
+        {
+          "ar": "لعبت مع بلدي 19 مباراة وسجلت هدفين، ولعبت كأس عالم واحد وكأس قارات.",
+          "en": "I won 19 caps and scored two goals for my country, and played one World Cup and one Confederations Cup."
+        },
+        {
+          "ar": "كسبت الدوري الإنجليزي 3 مرات مع فريقين مختلفين.",
+          "en": "I won the English league three times with two different clubs."
+        },
+        {
+          "ar": "لعبت مع لامبارد، وداونينج، وآدم جونسون، وميدو، وأوين، وكراوتش، ومحرز.",
+          "en": "I played alongside Lampard, Downing, Adam Johnson, Mido, Owen, Crouch and Mahrez."
+        },
+        {
+          "ar": "اتدربت تحت قيادة رانييري في ناديين مختلفين.",
+          "en": "I was coached by Ranieri at two different clubs."
+        },
+        {
+          "ar": "كنت لاعب أساسي في الجيل التاريخي لليستر اللي كسب الدوري موسم 2015-16.",
+          "en": "I was a starter in Leicester's historic title-winning side in 2015-16."
+        }
+      ]
+    },
+    {
+      "id": "sergio-aguero",
+      "answer": {
+        "ar": "سيرخيو أغويرو",
+        "en": "Sergio Agüero"
+      },
+      "clues": [
+        {
+          "ar": "لعبت في دوريين من الدوريات الخمسة الكبرى (إنجلترا وإسبانيا) وبدأت في دوري بلدي.",
+          "en": "I played in two of Europe's top five leagues (England and Spain) and started in my own country's league."
+        },
+        {
+          "ar": "كسبت الدوري 5 مرات، والدوري الأوروبي مرة، وكأس العالم للشباب مرتين.",
+          "en": "I won the league five times, the Europa League once and the World Youth Championship twice."
+        },
+        {
+          "ar": "في أول كأس عالم للشباب كسبت الحذاء الذهبي، وفي التاني كسبت الحذاء الفضي، ولعبت مع الكبار 101 مباراة وسجلت 41.",
+          "en": "At my first World Youth Championship I won the Golden Boot, at the second the Silver Boot, and I earned 101 senior caps, scoring 41 goals."
+        },
+        {
+          "ar": "كسبت جائزة أفضل لاعب في فريقي مرتين، وكنت في تشكيلة الدوري الإنجليزي مرتين.",
+          "en": "I was my club's Player of the Year twice and was named in the Premier League Team of the Season twice."
+        },
+        {
+          "ar": "لعبت مع جابرييل ميليتو، ولوكاس بيليا، ولوك دي يونج، وأداما تراوري، وبيدري، وآدم جونسون، وجابرييل جيسوس، وإبراهيم دياز، ولوكاس نميتشا.",
+          "en": "I played alongside Gabriel Milito, Lucas Biglia, Luuk de Jong, Adama Traoré, Pedri, Adam Johnson, Gabriel Jesus, Brahim Díaz and Lukas Nmecha."
+        },
+        {
+          "ar": "لعبت كأس عالم 3 مرات ومكسبتهاش ولا مرة، وكسبت كوبا أمريكا مرة.",
+          "en": "I played three World Cups without winning one, and won the Copa América once."
+        },
+        {
+          "ar": "سجلت هدف فوز فريقي في الدوري بعد غياب سنين، وكان أول لقب دوري إنجليزي لفريقي بمسماه الحديث.",
+          "en": "I scored the goal that won my club the league after years of waiting — their first English league title under its modern name."
+        }
+      ]
     }
   ]
 }

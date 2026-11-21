@@ -486,12 +486,12 @@
       "category": "champions-league-2",
       "value": 20,
       "question": {
-        "ar": "مين أكتر لاعب برازيلي لعب مباريات في تاريخ دوري أبطال أوروبا؟",
-        "en": "Which Brazilian has played the most Champions League matches?"
+        "ar": "مين أكتر لاعب لعب ماتشات في دوري أبطال أوروبا مع فريق واحد بس؟",
+        "en": "Which player has made the most Champions League appearances for a single club?"
       },
       "answer": {
-        "ar": "ماركينوس",
-        "en": "Marquinhos"
+        "ar": "توماس مولر",
+        "en": "Thomas Müller"
       }
     },
     {
