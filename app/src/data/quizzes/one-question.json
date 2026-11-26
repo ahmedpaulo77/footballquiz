@@ -2796,6 +2796,114 @@
       ],
       "correct": 0,
       "gulf": false
+    },
+    {
+      "id": "assists-ronaldo-bale",
+      "question": {
+        "ar": "مين أكتر لاعب في الأربعة دول صنع أهداف لكرستيانو رونالدو؟",
+        "en": "Who among these four provided the most assists for Cristiano Ronaldo?"
+      },
+      "options": [
+        {
+          "ar": "غاريث بيل",
+          "en": "Gareth Bale"
+        },
+        {
+          "ar": "أنخيل دي ماريا",
+          "en": "Ángel Di María"
+        },
+        {
+          "ar": "لوكاس فاسكيز",
+          "en": "Lucas Vázquez"
+        },
+        {
+          "ar": "مارسيلو",
+          "en": "Marcelo"
+        }
+      ],
+      "correct": 0,
+      "gulf": false
+    },
+    {
+      "id": "assists-messi-neymar",
+      "question": {
+        "ar": "مين أكتر لاعب في الأربعة دول صنع أهداف لليونيل ميسي؟",
+        "en": "Who among these four provided the most assists for Lionel Messi?"
+      },
+      "options": [
+        {
+          "ar": "كيليان مبابي",
+          "en": "Kylian Mbappé"
+        },
+        {
+          "ar": "صامويل إيتو",
+          "en": "Samuel Eto'o"
+        },
+        {
+          "ar": "نيمار",
+          "en": "Neymar"
+        },
+        {
+          "ar": "بيدرو رودريغيز",
+          "en": "Pedro Rodríguez"
+        }
+      ],
+      "correct": 2,
+      "gulf": false
+    },
+    {
+      "id": "assists-messi-alves",
+      "question": {
+        "ar": "مين أكتر لاعب من الأربعة دول عمل أسيستات لليونيل ميسي؟",
+        "en": "Which of these four set up the most goals for Lionel Messi?"
+      },
+      "options": [
+        {
+          "ar": "جوردي ألبا",
+          "en": "Jordi Alba"
+        },
+        {
+          "ar": "أندريس إنييستا",
+          "en": "Andrés Iniesta"
+        },
+        {
+          "ar": "تشابي هيرنانديز",
+          "en": "Xavi Hernández"
+        },
+        {
+          "ar": "داني ألفيس",
+          "en": "Dani Alves"
+        }
+      ],
+      "correct": 3,
+      "gulf": false
+    },
+    {
+      "id": "pl-wins-milner",
+      "question": {
+        "ar": "مين أكتر لاعب في الأربعة دول فاز بمباريات في الدوري الإنجليزي الممتاز؟",
+        "en": "Who among these four has won the most Premier League matches?"
+      },
+      "options": [
+        {
+          "ar": "جيمس ميلنر",
+          "en": "James Milner"
+        },
+        {
+          "ar": "بول سكولز",
+          "en": "Paul Scholes"
+        },
+        {
+          "ar": "جون تيري",
+          "en": "John Terry"
+        },
+        {
+          "ar": "واين روني",
+          "en": "Wayne Rooney"
+        }
+      ],
+      "correct": 0,
+      "gulf": false
     }
   ]
 }

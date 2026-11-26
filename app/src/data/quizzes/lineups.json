@@ -17366,6 +17366,160 @@
         }
       ],
       "source": "https://ar.wikipedia.org/wiki/نهائي_كأس_خادم_الحرمين_الشريفين_2016"
+    },
+    {
+      "id": "ucl-2013-real-city",
+      "competition": "champions-league",
+      "year": 2013,
+      "home": {
+        "en": "Real Madrid",
+        "ar": "ريال مدريد"
+      },
+      "away": {
+        "en": "Manchester City",
+        "ar": "مانشستر سيتي"
+      },
+      "score": "3–2",
+      "winner": "home",
+      "decidedBy": "regulation",
+      "difficulty": "medium",
+      "homeLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "ar": "إيكر كاسياس",
+          "en": "Iker Casillas"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "ar": "ألفارو أربيلوا",
+          "en": "Álvaro Arbeloa"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "بيبي",
+          "en": "Pepe"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "رافاييل فاران",
+          "en": "Raphaël Varane"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "ar": "مارسيلو",
+          "en": "Marcelo"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "ar": "سامي خضيرة",
+          "en": "Sami Khedira"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "تشابي ألونسو",
+          "en": "Xabi Alonso"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "ar": "أنخيل دي ماريا",
+          "en": "Ángel Di María"
+        },
+        {
+          "pos": "AM",
+          "group": "MF",
+          "ar": "مايكل إيسيان",
+          "en": "Michael Essien"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "ar": "كريستيانو رونالدو",
+          "en": "Cristiano Ronaldo"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "ar": "غونزالو هيغواين",
+          "en": "Gonzalo Higuaín"
+        }
+      ],
+      "awayLineup": [
+        {
+          "pos": "GK",
+          "group": "GK",
+          "ar": "جو هارت",
+          "en": "Joe Hart"
+        },
+        {
+          "pos": "RB",
+          "group": "DF",
+          "ar": "مايكون",
+          "en": "Maicon"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "فينسنت كومباني",
+          "en": "Vincent Kompany"
+        },
+        {
+          "pos": "CB",
+          "group": "DF",
+          "ar": "ماتيا ناستاسيتش",
+          "en": "Matija Nastasić"
+        },
+        {
+          "pos": "LB",
+          "group": "DF",
+          "ar": "غايل كليشي",
+          "en": "Gaël Clichy"
+        },
+        {
+          "pos": "DM",
+          "group": "MF",
+          "ar": "خافي غارسيا",
+          "en": "Javi García"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "غاريث باري",
+          "en": "Gareth Barry"
+        },
+        {
+          "pos": "CM",
+          "group": "MF",
+          "ar": "يايا توريه",
+          "en": "Yaya Touré"
+        },
+        {
+          "pos": "RW",
+          "group": "FW",
+          "ar": "سمير نصري",
+          "en": "Samir Nasri"
+        },
+        {
+          "pos": "CF",
+          "group": "FW",
+          "ar": "كارلوس تيفيز",
+          "en": "Carlos Tévez"
+        },
+        {
+          "pos": "LW",
+          "group": "FW",
+          "ar": "ديفيد سيلفا",
+          "en": "David Silva"
+        }
+      ],
+      "source": "https://en.wikipedia.org/wiki/2012%E2%80%9313_UEFA_Champions_League_group_stage"
     }
   ]
 }

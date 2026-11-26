@@ -324,9 +324,9 @@ describe('لعبة «سؤال واحد»', () => {
     expect(QUIZZES[3].id).toBe('one-question');
   });
 
-  it('فيها ١٠٥ سؤال و١٠ أسئلة في الجولة و١٠ نقط للسؤال', () => {
-    expect(arQuiz.questions).toHaveLength(105);
-    expect(enQuiz.questions).toHaveLength(105);
+  it('فيها ١٠٩ سؤال و١٠ أسئلة في الجولة و١٠ نقط للسؤال', () => {
+    expect(arQuiz.questions).toHaveLength(109);
+    expect(enQuiz.questions).toHaveLength(109);
     expect(arQuiz.questionsPerGame).toBe(10);
     expect(arQuiz.pointsPerQuestion).toBe(10);
   });
@@ -473,8 +473,8 @@ describe('لعبة «تشكيلات المباريات»', () => {
   });
 
   it('فيها ٩٧ ماتش و١٥ مسابقة كلها مستخدمة', () => {
-    expect(arQuiz.matches).toHaveLength(111);
-    expect(enQuiz.matches).toHaveLength(111);
+    expect(arQuiz.matches).toHaveLength(112);
+    expect(enQuiz.matches).toHaveLength(112);
     expect(arQuiz.competitions).toHaveLength(19);
     expect(new Set(arQuiz.matches.map((match) => match.competition)).size).toBe(19);
 
